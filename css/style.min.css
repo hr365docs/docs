@@ -6,3 +6,22 @@ body{line-height:1.5;font-family:var(--font-family),sans-serif;-webkit-font-smoo
 .overlay::before {
     background: linear-gradient( 260deg,#5637da 0%,#9c3dc3 69%)!important;
 }
+
+.back-btn::before {
+    position: absolute;
+    font-family: themify;
+    content: "\e6b0";
+    font-size: 25px;
+    height: 30px;
+    width: 40px;
+    background-color: var(--white-color);
+    color: inherit;
+    text-align: right;
+    z-index: 1;
+    left: -5px;
+    top: -5px;
+}
+
+ol li {
+    padding-left: 20px;
+}
