@@ -25,3 +25,8 @@ body{line-height:1.5;font-family:var(--font-family),sans-serif;-webkit-font-smoo
 ol li {
     padding-left: 20px;
 }
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
