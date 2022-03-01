@@ -30,3 +30,56 @@ img {
     vertical-align: middle;
     border: 0;
 }
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 28px;
+    left: 0;
+    top: 15%;
+    width: 75%;
+    height: 80%;
+    margin: 0px auto;
+    overflow: auto;
+    background-color: #ddd;
+  }
+  
+  .modal-content {
+    position: relative;
+    background-color: #f4f4f4;
+    margin: 0px auto;
+    padding: 0;
+    width: 92%;
+    max-width: 1200px;
+  }
+  
+  
+  .close {
+    color: #000;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  ol li {padding-left: 20px;}
+  ul.ul_styles li {padding-left: 20px;}
+  
+  ul.ul_li_styles {   
+    list-style-type: initial;
+  }
