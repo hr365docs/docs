@@ -1,7 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title>Employee Directory</title>
+<title>General</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=generator content="Hugo 0.92.2">
 <meta name=description content="Employee Directory - HR365 ">
@@ -80,35 +80,35 @@
     <ul class=list-styled>
     <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title=Installation class="sidelist
     active">
-    <a href="../../Guide_plus/">
+    <a href="../../admin/">
     Admin-Guide
     </a>
     <ul>
         <li data-nav-id="./installation/requirments/" title=Requirments class=sidelist>
-            <a href="../Introduction/">
+            <a href="../intro/">
             Introduction
         </a>  
         </li>
-    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title=Requirments class="sidelist active">
-    <a href="../User/">
-    Users
+    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title=Requirments class="sidelist ">
+    <a href="../home_page/">
+    Home Page
     </a>
 </li>
-<li data-nav-id="./Setting/" title=Installation class=sidelist>
-<a href="../Setting/">
-Settings
+<li data-nav-id="./Setting/" title=Installation class="sidelist ">
+<a href="../general/">
+General setting
 </a>
 <ul class="sidenavSub-topics">
     
     </li><ul>
         <li data-nav-id="../General" title=Customization class=sidelist>
-            <a href="../Setting/General/">
+            <a href="./custom/">
               General
               </a>
               </li>
-              <li data-nav-id="../Exclude-Options/" title=Elements class=sidelist>
-                  <a href="../Setting/Exclude-Options/">
-                  Exclude Options
+              <li data-nav-id="../Exclude-Options/" title=Elements class="sidelist active">
+                  <a href="./user/">
+                  User
                   </a>
               </li>
               
@@ -138,26 +138,40 @@ Settings
 </div>
 <div class=col-lg-9>
 <div class="p-lg-5 p-4 bg-white" id=content>
-<h2 class=mb-5 id=title>General</h2>
+<h2 class=mb-5 id=title>Users</h2>
 <div class="bg-light p-4">
 <ul class=page-list>
 
-<b>General Settings </b>
-<p>General settings can be done by only admin role person. By default, the one installed application is an admin, you can assign admin tole to person from the user’s option in general settings page.  </p>
-<p>Custom Settings: From here you can theme color, date format, rename display title for teams and company name, save link validation, Integrate Asset Management Plus with Helpdesk Plus, Graph API Integration and company or brand logo.</p>
-<p>•	Date format: If you change the date format, it will update in entire application.
-    •	Display title for teams: If you change the title, it will update in entire application. You can find update display title just below the user’s option from where you can create departments or groups. The created one will display in new ticket panel which can be selected during ticket submission.
-    •	Company name: If you update company name, it will update in closed and resolved emails notification.
-    •	Save link validation: Here you can add the number of the days to the survey link expire. 
-    •	Tickets can be deleted by: You can allow to delete the ticket other roles person from here.
-    •	Integrate Asset Management Plus with Helpdesk Plus: You can integrate HR365 Asset Management application with helpdesk plus application, make sure both applications should be installed in same site location. Once you integrate you will find assigned asset to user in comment page as shown in below. you can click on ticket id in home page to view the comment page.
-    •	Graph API integration: If you configure graph API, Ticket mailbox works with help desk email ID.
-•	Use teams code as ticket suffix:  Just enable the toggle switch for Use Teams code as ticket suffix.
-•	Display resolved tabs in home page: Here you can enable or disable all resolved related tabs in home page.
-•	Brand logo: If you update your company logo, it will update at top of side panel as show in below image.</p>
-    <p>Users:  Admin can assign roles to O365 users with ticket scope as per requirement in Help Desk application. You can select both supervisor and agents for multiple teams but ticket scope will remain same and roles one.
-        What would happen if user role is agent and he/she is supervisor of team?
+    Users:  Admin can assign roles to O365 users with ticket scope as per requirement in Help Desk application. You can select both supervisor and agents for multiple teams but ticket scope will remain same and roles one
+    What would happen if user role is agent and he/she is supervisor of team?
 They will receive notification as a part of supervisor of teams according to Email notification settings and perform activities as per agent roles. 
+Importance of Roles:
+Admin:
+•	Admin has full control.
+•	Able to do all settings.
+•	Able to raise tickets behalf of another person.
+•	Can generate reports of all teams
+•	Can view dashboard
+•	Able to assign the tickets of all teams
+•	Can view all the teams in side navigation
+
+
+Supervisor: 
+•	Able to raise tickets behalf of another person.
+•	Receives only raised ticket to their department.
+•	Able to assign the tickets based on ticket scopes
+•	Can generate reports of their teams
+•	Can view dashboard
+•	Can view only those teams in side navigation if they are supervisors of those teams (teams specific)
+
+Agents: 
+•	Able to raise tickets behalf of another person.
+•	They can be able to change the status of their assign tickets and can be able to re-assign to others.
+•	Able to assign the tickets based on ticket scopes
+
+
+Note: Based on custom settings, admin, supervisor, and agents can delete the tickets
+
 </div>
 </ul>
 </div>
