@@ -1,133 +1,319 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html><html lang=en-us>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset=utf-8>
+<title>Employee Directory</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=generator content="Hugo 0.92.2">
+<meta name=description content="Employee Directory - HR365 ">
+<link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
+<link rel=icon href=https://hr365docs.github.io/docs/images/favicon.png type=image/x-icon>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel=stylesheet>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
+<style>:root{--primary-color:#5637da;--body-color:#f9f9f9;--text-color:#636363;--text-color-dark:#242738;--white-color:#ffffff;--light-color:#f8f9fa;--font-family:Lato}</style>
+<link href=https://hr365docs.github.io/docs/css/style.min.css rel=stylesheet media=screen>
+<script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js></script>
+<script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js></script>
+<script src=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js></script>
+<script src=https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js></script>
+<meta property="og:image" content="https://hr365docs.github.io/docs/images/logo.png">
+<meta name=twitter:image content="https://hr365docs.github.io/docs/images/logo.png">
+<meta name=twitter:card content="summary_large_image">
+<meta property="og:image:width" content="2881">
+<meta property="og:image:height" content="681">
+<meta property="og:image:type" content="image/png">
+<meta name=twitter:title content="Employee Directory">
+<meta name=twitter:description content="Employee directory">
+<meta property="og:title" content="Employee Directory">
+<meta property="og:description" content="Employee directory">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hr365docs.github.io/docs/employee-directory/">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Employee Directory">
+<meta name=twitter:description content="Employee directory">
 </head>
 <body>
-    <h2>Administration</h2>
-    <ol>
-        <li><h3> Clients</h3>
-        <p><b>Add:</b>  Here you can add single client, click on Add tab, client popup page will display type mandatory field client details other details and click on Save & Continue button as shown in below image and add data for address, contact person and add document and finally click on Submit button
-            <br>
-            <br>
-            <img src="Capture.PNG" alt="">
-            <br>
-            <br>
-          <b>Add Multiple:</b>   Here you can add multiple clients using CSV file, first download the sample file and add data into it as mentioned format, import the same CSV file and finally client on Save button as shown in below.
-            <br>
-            <br>
-            <img src="Capture1.PNG" alt="">
-            <br>
-          <b>Edit:</b>   You can be able to edit the client details just select the check box and click on edit tab, edit the details as per your need, click on Save & Continue button and finally click on Submit button.
-<br>
-<b>Archive:</b>  If you do achieve for clients such clients are not display in client name dropdown in add project page. To archive it, select it then click on achieve tab, archive client page will open, just click on archive button. To restore it back to active, do same and just click on restore button.
-<br>
-<b>Disabled:</b>  If you disabled client, you can't create or add project for that client, such client would not display in client dropdown list during adding projects
-<br>
-<b> Delete:</b> You can delete the client, just select the check and click on Delete tab.
+<header class="shadow-bottom sticky-top bg-white">
+<nav class="navbar navbar-expand-md navbar-light">
+<div class="container px-2 px-md-0">
+<a class="navbar-brand px-2" href=/docs>
+<img class=img-fluid src=logo.png alt=HR365>
+</a>
+<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span>
+</button>
+<div class="collapse navbar-collapse text-center" id=navigation>
+<ul class="navbar-nav ml-auto">
+<li class=nav-item>
+<a class="nav-link text-dark" href=https://hr365docs.github.io/docs/>Home</a>
+</li>
+<li class=nav-item>
+<a class="nav-link text-dark" href=https://hr365docs.github.io/docs/features/>Employee Directory</a>
+</li>
+<li class=nav-item>
+<a class="nav-link text-dark" href=https://hr365docs.github.io/docs/Asset_Mangement/>Asset Mangement</a>
+</li>
+<li class=nav-item>
+<a class="nav-link text-dark" href=https://hr365docs.github.io/docs/features/>HR365 Helpdesk</a>
+</li>
+<li class=nav-item>
+<a class="nav-link text-dark" href=https://hr365docs.github.io/docs/features/>Time Off Manager</a>
+</li>
+<li class=nav-item>
+<a class="nav-link text-dark" href=https://hr365docs.github.io/docs/features/>Timesheet</a>
+</li>
+<li class=nav-item>
+<a class="nav-link text-dark" href=https://hr365docs.github.io/docs/features/>Employee On-boarding</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+        
+<section class="single section-sm pb-0">
+    <div class=container>
+    <div class=row>
+    <div class=col-lg-3>
+    <div class=sidebar>
+        <a class=back-btn href="../../../../timesheet/" aria-label=back></a>
+    
+    <ul class=list-styled>
+    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title=Installation class="sidelist">
+        <a href="../../../../timesheet/">
+            Admin-Guide
+            </a>
+            <ul>
+                <li data-nav-id="./installation/requirments/" title=Requirments class=sidelist>
+                    <a href="../into/">
+                    Introduction
+                </a>  
+                </li>
+            <li data-nav-id="./Setting/" title=Installation class=sidelist>
+            <a href="../setting/">
+            Settings
+            </a>
+            <ul class="sidenavSub-topics">
+                
+                </li><ul>
+                    <li data-nav-id="../General" title=Customization class=sidelist>
+                        <a href="../home_page/">
+                          Home Page
+                          </a>
+                          </li>
+                          <li data-nav-id="../Exclude-Options/" title=Elements class="sidelist active">
+                              <a href="../administrator/">
+                              Administrator
+                              </a>
+                          </li>
+                          
+                          <li data-nav-id="../views/" title=Elements class=sidelist>
+                              <a href="../report/">
+                              Report
+                              </a>
+                          </li>
+                          
+                          <li data-nav-id="../advanced/" title=Elements class=sidelist>
+                          <a href="../status/">
+                          Status
+                          </a>
+                </li>
+              
+                </ul>
+            </ul>
+            </li>
+            
+            
+    </ul>
+    </li>
+    </ul>
+    </div>
+    </div>
 
-        </p>
-        </li>
-        <li><h3>Projects</h3> 
-            <p><b> Add:</b> Here you can add single project for single client, click on Add tab, project page will display, add the mandatory fields. If you want to add tasks for same project than proceed with clicking on Save and Add Task button, Task page will display, add task add finally click on submit button as shown in below. If you want create tasks later simply click on Save button
-                <br>
-                <br>
-                <img src="Capture2.png" alt="">
-                <br>
-
-            </p>
-            <ul><b> Note:</b>
-                <br>
-                <li><b>Project Start date:</b>  If you not assign project date by default it would be current date.</li>
-                <br>
-                <li><b>Project Team member: </b> You can assign tasks for users those who are added in Project Team member field. If you add users in it those which are not added in users under setting will get added automatically with role user</li>
-                <br>
-                <li><b>Program Manager:</b>  If we enable this feature from settings from side panel under setting, under features, enable toggle switch in “Enable program manager” then it will display in the add project page. program manager can be able to approve project manager's timesheets. </li>
-                <br>
-                <li><b>Add Client Name:</b>  You can also add new client name from here those which are not added.</li>
-                <br>
-                <li><b> On Site Billing:</b> If this feature is enabled from settings from side panel, under setting, under feature tab in “Enable onsite billing” row, click on save settings button than it will be visible in the add project page where you can assign on site bill type for the project instead of based on project and individual.
+    <div class=col-lg-9>
+        <div class="p-lg-5 p-4 bg-white" id=content>
+        <h2 class=mb-5 id=title> Administration</h2>
+        <!-- <h6>Here we have two option to put app file into the app catalog</h6> -->
+        <div class="bg-light p-4">
+           
+            <ol>
+                <li><h3> Clients</h3>
+                <p><b>Add:</b>  Here you can add single client, click on Add tab, client popup page will display type mandatory field client details other details and click on Save & Continue button as shown in below image and add data for address, contact person and add document and finally click on Submit button
                     <br>
-                  <b> Note:</b>  You can add on site rate for users individually from user page under setting from side panel.
+                    <br>
+                    
+                    <div><img src="Capture.jpg" onclick="openModal('Capture.jpg')" alt=""width="100%" height="auto"></div>
+                    <br>
+                    <br>
+                  <b>Add Multiple:</b>   Here you can add multiple clients using CSV file, first download the sample file and add data into it as mentioned format, import the same CSV file and finally client on Save button as shown in below.
+                    <br>
+                    <br>
+                    <div><img src="Capture1.jpg" onclick="openModal('Capture1.jpg')" alt=""width="100%" height="auto"></div>
+                    <br>
+                  <b>Edit:</b>   You can be able to edit the client details just select the check box and click on edit tab, edit the details as per your need, click on Save & Continue button and finally click on Submit button.
+        <br>
+        <b>Archive:</b>  If you do achieve for clients such clients are not display in client name dropdown in add project page. To archive it, select it then click on achieve tab, archive client page will open, just click on archive button. To restore it back to active, do same and just click on restore button.
+        <br>
+        <b>Disabled:</b>  If you disabled client, you can't create or add project for that client, such client would not display in client dropdown list during adding projects
+        <br>
+        <b> Delete:</b> You can delete the client, just select the check and click on Delete tab.
+        
+                </p>
                 </li>
                 <br>
-                <li><b>Enable Global task:</b>  If it is enabled, global tasks which are created from Task under Administration will be show for that project in task column in weekly timesheet and track time.</li>
-                <br>
-                <li><b>Add Bulk Users:</b>  You can add bulk users in project team using CSV file. Please click on add bulk user link, popup will display, download the CSV file and add data in it as per specified format, import it then click on Add and finally click on OK button.</li>
-                  
-            </ul>
-            <br>
-            <br>
-         <b>Add Multiple:</b>    Here you can add multiple projects using CSV file, first download the sample file and add data as specified format, import the same CSV file and finally client on Save button as shown in below.
-<br>
-<b> Edit:</b> You can able to edit the project details, just select the check box and click on Edit tab, edit the details as per your need, click on Save button. 
-<br>
-<b>Archive:</b>  If you do achieve for projects such projects will not display in project name field in add task page due to which you cannot create tasks for such projects. To archive it, select it then click on status tab then select the archive. To restore it back to active, click on archive tab, you can find archive projects, select it and click on status tab then select restore.
-<br>
-<b>Disabled: </b> If you disabled project, such projects will not visible in weekly timesheet and track time due to which users are not able to submit timesheet of such projects
-<br>
-<b>Delete:</b>  You can able to delete the project, just select the check box and click on Delete tab
-
-        </li>
-        <li><h4>Tasks</h4> 
-        <p><b>Add:</b>  Here you can add or create task for the projects and you can assign it. Please select task under administration and click on Add tabs to create single task. First select the client from client dropdown field, all projects related to that client will display under project name, select projects, fill all details and assign user and finally on submit as shown in below.
-            <br>
-            <br>
-            <img src="Capture3.PNG" alt="">
-        </p>
-<ul>
-    <li>If Mandatory task start date and end date feature is enabled in settings under features tab, you cannot skip task start date and task deadline field during creating task.</li>
-    <br>
-    <li>If you want to assign a task to a new user, that user should be a part of the project so first add the user to the project then you can be able to assign 
-        Go to the projects under administration from side navigation panel, select the specific project and click on Edit tab, add user to Project team member and click on save button or task link. If you click on task, you can add and assign task from there itself no need come task module under administration and assign or add task for a new user.
-        </li>
+                <li><h3>Projects</h3> 
+                    <p><b> Add:</b> Here you can add single project for single client, click on Add tab, project page will display, add the mandatory fields. If you want to add tasks for same project than proceed with clicking on Save and Add Task button, Task page will display, add task add finally click on submit button as shown in below. If you want create tasks later simply click on Save button
+                        <br>
+                        <br>
+                        <div><img src="Capture2.jpg" onclick="openModal('Capture2.jpg')" alt=""width="100%" height="auto"></div>
+                        <br>
+        
+                    </p>
+                    <ul><b> Note:</b>
+                        <br>
+                        <li><b>Project Start date:</b>  If you not assign project date by default it would be current date.</li>
+                        <br>
+                        <li><b>Project Team member: </b> You can assign tasks for users those who are added in Project Team member field. If you add users in it those which are not added in users under setting will get added automatically with role user</li>
+                        <br>
+                        <li><b>Program Manager:</b>  If we enable this feature from settings from side panel under setting, under features, enable toggle switch in “Enable program manager” then it will display in the add project page. program manager can be able to approve project manager's timesheets. </li>
+                        <br>
+                        <li><b>Add Client Name:</b>  You can also add new client name from here those which are not added.</li>
+                        <br>
+                        <li><b> On Site Billing:</b> If this feature is enabled from settings from side panel, under setting, under feature tab in “Enable onsite billing” row, click on save settings button than it will be visible in the add project page where you can assign on site bill type for the project instead of based on project and individual.
+                            <br>
+                          <b> Note:</b>  You can add on site rate for users individually from user page under setting from side panel.
+                        </li>
+                        <br>
+                        <li><b>Enable Global task:</b>  If it is enabled, global tasks which are created from Task under Administration will be show for that project in task column in weekly timesheet and track time.</li>
+                        <br>
+                        <li><b>Add Bulk Users:</b>  You can add bulk users in project team using CSV file. Please click on add bulk user link, popup will display, download the CSV file and add data in it as per specified format, import it then click on Add and finally click on OK button.</li>
+                          
+                    </ul>
+                    <br>
+                    <br>
+                 <b>Add Multiple:</b>    Here you can add multiple projects using CSV file, first download the sample file and add data as specified format, import the same CSV file and finally client on Save button as shown in below.
         <br>
-    <li>User can be able to see his tasks those which are assigned to him from My task tab in home page</li>
-</ul>
-<p><b>Edit:</b>  Here you can edit the task like task name, task id, task deadline, assign task etc.
-    <br>
-   <b> Delete:</b> If you want to delete the tasks, just select it and click on Delete tab.
-    <br>
-    <img src="Capture4.PNG" alt="">
-    <br>
-    <br>
-  <b>Add Multiple Task:</b>   Here you can add multiple tasks for multiple projects in one go using CSV file.
-<br>
-Click on add multiple tabs, download the CSV sample file and fill the details as per specified format, choose the CSV file and click on save button.
-<br>
-<b>Global Tasks:</b>  It is a task which is used by all the users and all for projects. For a global task, no need to assign tasks.
-<br>
-<b>Note:</b>  If global task field is selected for the projects, user can select global task for that during the submission of weekly or daily timesheet (track time) as shown in image 
-<br>
-<img src="Capture5.PNG" alt="">
-<br>
-<h4>Self-Assign Task:</h4> 
-
- If you want to allow user to create tasks by their own, just you need to enable that feature from settings. To enable it go to settings from side panel under settings, under features tab, enable toggle in “Self-Assign Task” row and click of save setting button. Task tab will display in home page from where users can create tasks.
-
-<h4>Allow self-assign task billable: </h4> 
-
-If it is enabled, users can create billable task. To enable it go to settings from side panel under settings, under features tab, enable toggle in “Allow self-assign task billable” row and click of save setting button.
-
-
-</p>
-        </li>
-        <li><h3>Activities</h3> 
-            Here you can create various activities, if display activities feature is enabled in settings under general tab, you can able to see activities option from side navigation panel under administration and also in weekly timesheet and track time table from where user can select activities for their timesheet. You can create activities based on global, task specific, and project specific.
+        <b> Edit:</b> You can able to edit the project details, just select the check box and click on Edit tab, edit the details as per your need, click on Save button. 
+        <br>
+        <b>Archive:</b>  If you do achieve for projects such projects will not display in project name field in add task page due to which you cannot create tasks for such projects. To archive it, select it then click on status tab then select the archive. To restore it back to active, click on archive tab, you can find archive projects, select it and click on status tab then select restore.
+        <br>
+        <b>Disabled: </b> If you disabled project, such projects will not visible in weekly timesheet and track time due to which users are not able to submit timesheet of such projects
+        <br>
+        <b>Delete:</b>  You can able to delete the project, just select the check box and click on Delete tab
+        
+                </li>
+                <br>
+                <li><h4>Tasks</h4> 
+                <p><b>Add:</b>  Here you can add or create task for the projects and you can assign it. Please select task under administration and click on Add tabs to create single task. First select the client from client dropdown field, all projects related to that client will display under project name, select projects, fill all details and assign user and finally on submit as shown in below.
+                    <br>
+                    <br>
+                    <div><img src="Capture3.jpg" onclick="openModal('Capture3.jpg')" alt=""width="100%" height="auto"></div>
+                </p>
+        <ul>
+            <li>If Mandatory task start date and end date feature is enabled in settings under features tab, you cannot skip task start date and task deadline field during creating task.</li>
             <br>
-            <ul>
-                <li>If activities are global type, all users can select activities for all the projects.</li>
-                <li>If activities are task specific, only it is available on selection of that specific tasks in weekly timesheet or tack time for the users.</li>
-                <li>If activities are project specific, only it is available on selection of that specific project in weekly timesheet or tack time for the users.</li>
-            </ul>
+            <li>If you want to assign a task to a new user, that user should be a part of the project so first add the user to the project then you can be able to assign 
+                Go to the projects under administration from side navigation panel, select the specific project and click on Edit tab, add user to Project team member and click on save button or task link. If you click on task, you can add and assign task from there itself no need come task module under administration and assign or add task for a new user.
+                </li>
+                <br>
+            <li>User can be able to see his tasks those which are assigned to him from My task tab in home page</li>
+        </ul>
+        <p><b>Edit:</b>  Here you can edit the task like task name, task id, task deadline, assign task etc.
             <br>
-            To create activities, click on Activity from side panel under navigation panel, activity page will open chose the activity type as per your requirement and then click on Add tab, add activity page will open type the activity name and click on submit button as shown in below image.
+           <b> Delete:</b> If you want to delete the tasks, just select it and click on Delete tab.
             <br>
-            <img src="Capture6.PNG" alt="">
-        </li>
-    </ol>
-</body>
-</html>
+            <div><img src="Capture4.jpg" onclick="openModal('Capture4.jpg')" alt=""width="100%" height="auto"></div>
+            <br>
+            <br>
+
+          <b>Add Multiple Task:</b>   Here you can add multiple tasks for multiple projects in one go using CSV file.
+        <br>
+        Click on add multiple tabs, download the CSV sample file and fill the details as per specified format, choose the CSV file and click on save button.
+        <br>
+        <b>Global Tasks:</b>  It is a task which is used by all the users and all for projects. For a global task, no need to assign tasks.
+        <br>
+        <b>Note:</b>  If global task field is selected for the projects, user can select global task for that during the submission of weekly or daily timesheet (track time) as shown in image 
+        <br>
+        <br>
+        <div><img src="Capture5.jpg" onclick="openModal('Capture5.jpg')" alt=""width="100%" height="auto"></div>
+        <br>
+        <h4>Self-Assign Task:</h4> 
+        
+         If you want to allow user to create tasks by their own, just you need to enable that feature from settings. To enable it go to settings from side panel under settings, under features tab, enable toggle in “Self-Assign Task” row and click of save setting button. Task tab will display in home page from where users can create tasks.
+        <br>
+        <h4>Allow self-assign task billable: </h4> 
+        
+        If it is enabled, users can create billable task. To enable it go to settings from side panel under settings, under features tab, enable toggle in “Allow self-assign task billable” row and click of save setting button.
+        
+        
+        </p>
+                </li>
+                <br>
+                <li><h3>Activities</h3> 
+                    Here you can create various activities, if display activities feature is enabled in settings under general tab, you can able to see activities option from side navigation panel under administration and also in weekly timesheet and track time table from where user can select activities for their timesheet. You can create activities based on global, task specific, and project specific.
+                    <br>
+                    <ul>
+                        <li>If activities are global type, all users can select activities for all the projects.</li>
+                        <li>If activities are task specific, only it is available on selection of that specific tasks in weekly timesheet or tack time for the users.</li>
+                        <li>If activities are project specific, only it is available on selection of that specific project in weekly timesheet or tack time for the users.</li>
+                    </ul>
+                    <br>
+                    To create activities, click on Activity from side panel under navigation panel, activity page will open chose the activity type as per your requirement and then click on Add tab, add activity page will open type the activity name and click on submit button as shown in below image.
+                    <br>
+                    <br>
+                    <div><img src="Capture6.jpg" onclick="openModal('Capture6.jpg')" alt=""width="100%" height="auto"></div>
+                </li>
+            </ol>
+            </div>
+           
+                <p class="post-meta border-bottom pb-3 mb-0 mt-3">
+                Updated on 28 Dec 2018
+                </p>
+                <nav class="pagination mt-3">
+                <a class="nav nav-prev" href="../home_page/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
+                <span class="d-none d-md-block">Home Page</span></a>
+                <a class="nav nav-next" href="../report/" aria-label="Previous page">
+                <span class="d-none d-md-block">Report</span><i class="ti-arrow-right ml-2"></i></a>
+                </nav>
+                </div>
+                </div>
+                </div>
+                </div>
+                </section>
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                  
+                      <div class="mySlides">     
+                        <img src="" id="imageId" style="width:100%">
+                      </div>
+                  
+                      </div>
+                  </div>
+                <footer class="section pb-4">
+                <div class=container>
+                <div class="row align-items-center">
+                <div class="col-md-8 text-md-left text-center">
+                <p class="mb-md-0 mb-4">© 2022-<a href=https://www.hr365.us/>HR365.</a> <a href=https://www.cubiclogics.com/wp-content/uploads/2019/11/Cubic-Logics-SLA-Document.pdf>SLA.</a> <a href=https://www.hr365.us/terms-and-conditions/>T&C.</a> <a href=https://www.hr365.us/end-user-license-agreement-eula/>EULA.</a> <a href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy/>Privacy Policy.</a> <a href=https://www.cubiclogics.com/>Cubic Logics.</a></p>
+                </div>
+                <div class="col-md-4 text-md-right text-center">
+                <ul class=list-inline>
+                <li class=list-inline-item>
+                <a class="text-color d-inline-block p-2" href=https://www.facebook.com/hr365apps/ aria-label=Facebook><i class=ti-facebook></i></a>
+                </li>
+                <li class=list-inline-item>
+                <a class="text-color d-inline-block p-2" href=https://twitter.com/HR365_HRMS aria-label=Twitter><i class=ti-twitter-alt></i></a>
+                </li>
+                <li class=list-inline-item>
+                <a class="text-color d-inline-block p-2" href=https://www.linkedin.com/company/cubic-logics-india-pvt-ltd aria-label=Linkedin><i class=ti-linkedin></i></a>
+                </li>
+                </ul>
+                </div>
+                </div>
+                </div>
+                </footer>
+                <script src=https://hr365docs.github.io/docs/js/script.min.js></script>
+                </body>
+                </html>
+
