@@ -2,7 +2,10 @@ body{line-height:1.5;font-family:var(--font-family),sans-serif;-webkit-font-smoo
 .ptb-20.section {
     padding: 20px 0px;
 }
-
+list-styled-content li {
+  padding-left: 20px;
+  position: relative;
+}
 .overlay::before {
     background: linear-gradient( 260deg,#5637da 0%,#9c3dc3 69%)!important;
 }
