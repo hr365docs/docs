@@ -90,3 +90,7 @@ img {
     width: 14%;
     color: var(--white-color)!important;
 }
+
+.navbar-light .navbar-brand{
+  width: 14%;
+}
