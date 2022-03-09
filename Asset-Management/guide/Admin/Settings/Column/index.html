@@ -51,7 +51,7 @@
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container px-2 px-md-0">
                 <a class="navbar-brand px-2" href="https://hr365docs.github.io/product/">
-                    <img src='logo.png' width="100%" height="auto" alt="HR365" />
+                    <img src='../../../../../images/logo_.png' width="100%" height="auto" alt="HR365" />
                 </a>
                 <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
                     aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
@@ -60,25 +60,25 @@
                 <div class="collapse navbar-collapse text-center" id=navigation>
                     <ul class="navbar-nav ml-auto">
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="https://hr365docs.github.io/product/">Home</a>
+                            <a class="nav-link text-dark" href="https://hr365docs.github.io/docs/">Home</a>
                         </li>
                         <li class=nav-item>
                             <a class="nav-link text-dark" href="../../../../Employee-Directory/">Employee Directory</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href=https://hr365docs/My-project/faq>Asset Management</a>
+                            <a class="nav-link text-dark" href="../../../../../Asset-Management/">Asset Management</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href=https://hr365docs/My-project/faq>HR365-Helpdesk</a>
+                            <a class="nav-link text-dark" href="../../../../../helpdesk/">HR365-Helpdesk</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href=https://hr365docs/My-project/faq>Time Off Manager</a>
+                            <a class="nav-link text-dark" href="../../../../../time-off-manager/">Time Off Manager</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href=https://hr365docs/My-project/faq>Timesheet</a>
+                            <a class="nav-link text-dark" href="../../../../../timesheet/">Timesheet</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href=https://hr365docs/My-project/contact>Employee
+                            <a class="nav-link text-dark" href="../../../../../employee-on-boarding/">Employee
                                 On-boarding</a>
                         </li>
                     </ul>
@@ -93,20 +93,38 @@
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <a class=back-btn href="../../../../Asset-Management/" aria-label=back></a>
+                        <a class=back-btn href="../../../../Helpdesk/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title=Installation
                                 class="sidelist
     active">
-                                <a href="../../Admin-Guide/">
+                                <a href="../../User-guide/">
                                     Admin Guide
                                 </a>
                                 <ul>
-                                    <li data-nav-id="./Settings" title=Settings class="sidelist">
-                                        <a href="../Settings/">
+                                    <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
+                                        <a href="./Introduction/">
                                             Settings
                                         </a>
+                                        <ul>
+                                            <li data-nav-id="./User" title=User class="sidelist"><a
+                                                    href="./User">User</a></li>
+                                            <li data-nav-id="./General-Settings" title=General-Settings
+                                                class="sidelist "><a href="./General-Settings">General
+                                                    Settings</a></li>
+                                            <li data-nav-id="./Email-Notification" title=Email-Notification
+                                                class="sidelist"><a href="./Email-Notification">Email Notification</a>
+                                            </li>
+                                            <li data-nav-id="./Custom-Emails" title=Custom-Emails class="sidelist"><a
+                                                    href="./Custom-Emails">Custom Emails</a></li>
+                                            <li data-nav-id="./Column-Setting" title=Column-Setting
+                                                class="sidelist active"><a href="./Column-Setting">Column Setting</a>
+                                            </li>
+                                            <li data-nav-id="./Dashboard-Settings" title=Dashboard-Settings
+                                                class="sidelist"><a href="./Dashboard-Settings">Dashboard Settings</a>
+                                            </li>
 
+                                        </ul>
                                     </li>
                                     <li data-nav-id="../Admin-Guide/Administration/" title=Administration
                                         class="sidelist ">
@@ -186,7 +204,7 @@
                                             QR Code
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Deleted-Assets/" title=Deleted-Assets class="sidelist active">
+                                    <li data-nav-id="./Deleted-Assets/" title=Deleted-Assets class="sidelist">
                                         <a href="../Deleted-Assets/">
                                             Deleted Assets
                                         </a>
@@ -212,22 +230,113 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <h2 class=mb-5 id=title> Deleted Asset</h2>
+                        <h2 class=mb-5 id=title>Column Setting</h2>
                         <div class="bg-light p-4">
                             <ul class=page-list>
 
-                                <p>Admin and Asset Manager can delete the assets. The deleted assets from administration
-                                    page will shows in deleted assets, we can either restore it back or can delete
-                                    permanently. </p>
-                                <img src="Capture46.PNG" alt="">
+                                <p>Here you can set date format, currency, asset accept notification, system generated
+                                    barcode, theme color,
+                                    brand logo etc.
+                                    <br>
+                                    <br>
+                                    <img src="Capture3.png" alt="">
+                                </p>
+                                <ol type="a">
+                                    <li> <b>Assets accept notification:</b> If it is enabled, when asset is assigned to
+                                        users, they will receive
+                                        email notification from where use can accept/reject assets. If it is disable
+                                        when asset assigned to
+                                        users, email notification we not send and those assets will show in
+                                        acknowledgement status page later we
+                                        can initiate </li>
+                                    <br>
+                                    <li> <b>System generated barcode:</b> If this is enabled, barcode generate
+                                        automatically on adding assets</li>
+                                    <br>
+                                    <li> <b> Show projects while assigning assets:</b> If this is enabled, project
+                                        option will display while
+                                        assigning assets in pop, you can assign assets to the users along with project
+                                    </li>
+                                    <br>
+                                    <li> <b>Camera Scanner: </b> If this is enabled, camera scanner tab will display in
+                                        home page from where you
+                                        can scan barcode of the assets to search the assets.</li>
+                                    <br>
+                                    <li> <b>External User:</b> If you enabled it, you could add external users or guest
+                                        users in the application
+                                        and can assign assets to them.
+                                        <b>Note:</b> Make sure guests or external users SharePoint site permissions
+                                        should be provided where the
+                                        Asset management application is hosted
+                                    </li>
+                                    <br>
+                                    <li> <b>Assign Assets to Location:</b> If this is enabled, location option will
+                                        display while assigning
+                                        assets in pop, from where you can assign assets to the location.</li>
+                                    <br>
+                                    <li> <b> Retain Asset's Last Location:</b> If this feature is enabled, the user’s
+                                        location will retain on
+                                        available assets after returning the assets. You can see retained location in
+                                        user location field
+                                        of the assets. </li>
+                                    <br>
+                                    <li><b> Asset Acknowledgement Text:</b> if you type acknowledgement text, user can
+                                        see in acknowledgement
+                                        page (acknowledgement page link is available in assigned email notification of
+                                        the user).</li>
+                                    <br>
+                                    <li><b>Create PDF of asset acknowledgement:</b> When we enable this switch and setup
+                                        Power Automate, pdf
+                                        file will create and stored in SP library and sent to user who has acknowledged
+                                        the assets.
+                                        <br>
+                                        <a
+                                            href=" https://YourTenantName.sharepoint.com/sites/SiteName/HR365AMPAssetdoc">
+                                            https://YourTenantName.sharepoint.com/sites/SiteName/HR365AMPAssetdoc </a>
+                                        This is the URL where we
+                                        can find pdf files
+                                    </li>
+                                    <br>
+                                    <li><b>MS Intune Integration:</b> If you integrate it, Intune assets will sync in
+                                        the application.</li>
+                                    <br>
+                                    <li> <b> MS group Integration:</b> If you integrate it, distribution type groups
+                                        will sync in the
+                                        application
+                                    </li>
+                                    <br>
+                                    <li><b>Assets Advance Booking:</b> if you disabled this asset booking feature
+                                        disable from the application.
+                                    </li>
+                                    <br>
+                                    <li><b> Depreciation Method:</b> You can enable depreciation feature, just selecting
+                                        either Straight Line or
+                                        Diminishing Balance method as per your requirement and finally clicking on save
+                                        button.</li>
+                                    <br>
+                                    <li><b> Assign Assets to Non M365 Users:</b> If this is enabled, assign assets to
+                                        non M365 users’ option
+                                        will display while assigning assets in pop, from where you can assign assets to
+                                        non O365.</li>
+                                    <br>
+                                    <li><b> Enable Software:</b> If this this is enabled, software tabs in home page
+                                        will displays, one tab is
+                                        used to sync O365 license another is used to add software manually and can
+                                        assign to users.</li>
+                                    <br>
+                                    <li><b>Display Assign Assets and Return Assets options in side Navigation Panel:</b>
+                                        You can hide assigned
+                                        and return assets in navigation panel just disabling it</li>
+                                </ol>
+
                         </div>
                         <!-- <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 29 Dec 2018</p> -->
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../../Admin-Guide/QR-Code/" aria-label="Previous page"><i
+                            <a class="nav nav-prev" href="../../Admin-Guide/settings/" aria-label="Previous page"><i
                                     class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block"></span></a>
-                            <a class="nav nav-next" href="../../Admin-Guide/Aknowledgement-status/"
-                                aria-label="Previous page"> <span class="d-none d-md-block">Acknowledgement Status
-                                </span><i class="ti-arrow-right ml-2"></i></a>
+                            <a class="nav nav-next" href="../../Admin-Guide/Email-Notification/"
+                                aria-label="Previous page"> <span class="d-none d-md-block">Email Notification</span><i
+                                    class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
                 </div>
