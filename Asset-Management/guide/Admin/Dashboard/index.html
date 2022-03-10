@@ -141,7 +141,7 @@
                                             Administration
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist active">
+                                    <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                         <a href="../Add-Assets/">
                                             Add Assets
                                         </a>
@@ -166,7 +166,7 @@
                                             Audit log
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Dashboard/" title=Dashboard class="sidelist">
+                                    <li data-nav-id="./Dashboard/" title=Dashboard class="sidelist active">
                                         <a href="../Dashboard/">
                                             Dashboard
                                         </a>
@@ -239,124 +239,61 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <h2 class=mb-5 id=title>Add Asset</h2>
+                        <h2 class=mb-5 id=title> Dashboard </h2>
                         <div class="bg-light p-4">
                             <ul class=page-list>
 
-                                You can enable fields those which are required and disable those which are not required
-                                of in add assets page. Click on asset tab, add asset page will open then click on
-                                settings gear icon at right top, column display page will open. Uncheck the check boxes
-                                for disable and check the check boxes for enable fields and finally click on save
-                                button. You are not able to disable mandatory fields like asset name, asset type and
-                                category.
-                                <p><img src="Capture15.png" alt=""></p>
-                                <br>
-                                For add asset page, you can setup default category, subcategory, asset type and status
-                                from side navigation panel under administration.
-                                <br>
-                                We can add assets from two places.
-
-                                <ol>
-                                    <li>Asset tab</li>
-                                    <br>
-                                    <li>Assets from side navigation panel under Administration</li>
-                                </ol>
-                                <ol>
-                                    <li>
-                                        <h4>Asset Tab</h4>Fill mandatory fields like asset name, category and asset type
-                                        and others are optional fields, upload image or add document. You can also set
-                                        asset expiry notification for asset just enable it and click on submit button or
-                                        save icon as shown in below. Created asset fall under home and assign asset
-                                        table. <br>
-                                        <b>Note -</b> To generate system barcode please enable “System Generated
-                                        Barcode” from general setting.
-                                        <br>
-                                        <img src="Capture16.png" alt="">
-                                        <br>
-                                        <br>
-                                        <b><u>Adding an Asset as Multiple</u></b>
-                                        Click on Add Multiple buttons, fill mandatory field and type number value to
-                                        create number of asset and click on Submit button as shown in below. <br>
-                                        <b> Note -</b> Do not type serial number for creating multiple assets.
-                                        <br>
-                                        <img src="Capture17.png" alt="">
-                                        <br>
-                                        <br>
-                                        <b><u>Import asset or Bulk Assets</u></b>
-                                        You can add bulk assets about 200+ in one go using CSV file. Download the sample
-                                        file and add data as specified format.
-                                        <br>
-                                        <br>
-                                        <b>Note -</b> Care should be taken while adding data in CSV file.
-                                        <br>
-                                        <ol>
-                                            <li>Add Asset ID in specified column and is mandatory.</li>
-                                            <li>Remove separators from the cost / value.</li>
-                                            <li>Use date format should be MM/DD/YYYY, this is uploading the data, while
-                                                displaying it will follow as per your choice in settings.</li>
-                                            <li>Please do not change order of the columns or add new columns, this may
-                                                lead into feeding values in incorrect columns.</li>
-                                            <li>Mandatory fields like Asset Name, Asset Id, Asset Type and Category
-                                                should not be empty.</li>
-                                            <li>Barcode should not be more than 8 digits.</li>
-                                            <li>Please do not change order of the columns or add new columns, this may
-                                                lead into feeding values in incorrect columns.</li>
-                                            <li>Barcode should not be more than 8 digits.</li>
-                                        </ol>
-                                        <br>
-                                        Click on asset tab then import asset, add multiple assets page will display then
-                                        choose the data loaded CSV file from system and click on save as shown in below.
-                                        You can add multiple assets from Bulk Asset tab of home page
-                                        <br>
-                                        <img src="Capture18.png" alt="">
-                                    </li>
-                                    <br>
-
-                                    <br>
-                                    <li>
-                                        <h4>Assets from side navigation panel under administration</h4>
-                                        <br>
-                                        <ol>
-                                            <li>New Assets - From side navigation panel click on Asset under
-                                                Administration, click on New Assets tab and follow the above step
-                                                mentioned under Asset tab </li>
-                                            <br>
-                                            <li>Delete Assets - From side navigation panel click on Asset under
-                                                Administration, select the asset and click on Delete Asset tab. You can
-                                                delete 25 assets at a time.</li>
-                                            <br>
-                                            <li>Clone Asset - If you want to create new asset with minor change with the
-                                                existing one or same copy of existing one you can go for clone asset.
-                                                From side navigation panel click on Asset under Administration, select
-                                                the asset and click on Clone Asset tab, either edit data or remain same
-                                                as per your requirement and finally click on Submit button. </li>
-                                            <br>
-                                            <li>Edit Assets - From side navigation panel click on Asset under
-                                                Administration, Administration page will open, click on Edit Asset tab,
-                                                edit pop page will display then click on Edit icon , you will enter in
-                                                edit mode, edit the asset and finally click on Update button as or Click
-                                                on hyper link of asset under Home or Assign Assets table, edit pop page
-                                                will display then click on Edit icon, you will enter in edit mode, edit
-                                                the asset and finally click on Update button as shown in below image.
-                                                <br>
-                                                <br>
-                                                <img src="Capture19.png" alt="">
-                                            </li>
-
-                                        </ol>
-                                    </li>
-                                </ol>
-
+                                <p>In dashboard there four rows which contain graphs table etc. those we can hide or
+                                    display from dashboarding settings under settings from side panel.</p>
+                                <div class="row1">
+                                    <h4>Row 1</h4>
+                                    <img src="Capture25.png" alt="">
+                                    <p>In this we can see different types of status with number from where we can find
+                                        number of assets based on status as shown in below. You can add other status as
+                                        per your requirement from status under administration from side panel.</p>
+                                </div>
+                                <div class="row2">
+                                    <h4>Row 2</h4>
+                                    <img src="Capture26.png" alt="">
+                                    <p>In this row you can finds graphs for total assets, asset by department and assets
+                                        by location</p>
+                                    <p><b> Total assets graph:</b> Here you can find number of assets based on category
+                                        and subcategory, just over the mouse on graph it, shows number of assets. </p>
+                                    <p><b> Assets by department:</b> The assigned assets to groups wills shows assets
+                                        number here.</p>
+                                    <p><b> Assets by location:</b> The assigned assets to locations wills shows assets
+                                        number here.</p>
+                                </div>
+                                <div class="row3">
+                                    <h4>Row 3</h4>
+                                    <img src="Capture27.png" alt="">
+                                    <p><b>Assets Availability:</b> in this table you can find the total number and
+                                        available number of assets based on subcategory.</p>
+                                    <p><b> Expiring Soon:</b> In this calendar you can find the assets displayed on
+                                        calendar according to date of expiry of the assets.</p>
+                                    <p><b> Assets by Vendor:</b> In this graph you can find number assets details based
+                                        on vendor of the assets.</p>
+                                </div>
+                                <div class="row4">
+                                    <h4>Row 4</h4>
+                                    <img src="Capture28.PNG" alt="">
+                                    <p><b> Asset by status:/b> In this graph find number of assets based of the status
+                                            of the assets</p>
+                                    <p><b> Recent Activity:</b> In this table you can find you recent activity for
+                                        assigned and returned assets.
+                                        The last assigned asset will display on the top. The last returned assets will
+                                        display on the top of the table. You can check it by selecting from dropdown.
+                                    </p>
+                                </div>
 
                         </div>
                         <!-- <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 29 Dec 2018</p> -->
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../../Admin-Guide/Administration/"
-                                aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                                    class="d-none d-md-block"></span></a>
-                            <a class="nav nav-next" href="../../Admin-Guide/Assign-Asset/" aria-label="Previous page">
-                                <span class="d-none d-md-block">Assign Assets</span><i
-                                    class="ti-arrow-right ml-2"></i></a>
+                            <a class="nav nav-prev" href="../../Admin-Guide/Audit-log/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block"></span></a>
+                            <a class="nav nav-next" href="../../Admin-Guide/MS-Intune-Integration/"
+                                aria-label="Previous page"> <span class="d-none d-md-block"> MS Intune
+                                    Integration</span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
                 </div>
