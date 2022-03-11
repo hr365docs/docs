@@ -155,17 +155,22 @@
         </div>
         <div class=col-lg-9>
           <div class="p-lg-5 p-4 bg-white" id=content>
-            <h2 class=mb-5 id=title>Advanced</h2>
+            <!-- <h2 class=mb-5 id=title></h2> -->
             <div class="bg-light p-4">
               <ul class=page-list>
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Advanced
+                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                </h2>
+
+                <br>
                 <div><img src="advanced.png" onclick="openModal('advanced.png')" alt="" width="100%" height="auto">
                 </div>
                 <br>
                 <h5>Configure SharePoint API permissions:</h5>
-                <ul class="ul_styles">
+                <ul class="ul_li_styles">
                   <li>SharePoint admin can configure API permissions.</li>
                 </ul>
-                <ul class="ul_styles">
+                <ul class="ul_li_styles">
                   <li>This configuration helps in excluding block sign-in users, excluding hidden users in GAL,
                     excluding shared mailbox users of O365, syncing mobile numbers from azure AD.</li>
                 </ul>
@@ -175,10 +180,10 @@
                 <ol>
                   <li>Click on <b>click here</b> link in settings, which redirect to SharePoint admin centre access API
                     page.</li>
-                </ol>
-                <ol>
-                  <li>There you will find 3 Microsoft graph under organization- wide select and click on approve one by
-                    one for all 3 Microsoft graph</li>
+
+                  <li>There you will find three Microsoft graph under organization-wide. Select and click on approve one
+                    by
+                    one for all three Microsoft graph</li>
                 </ol>
                 <br>
 
@@ -187,7 +192,7 @@
                 <div><img src="approve.png" onclick="openModal('approve.png')" alt="" width="100%" height="auto"></div>
                 <br>
                 <br>
-                <ul class="ul_styles">
+                <ul class="ul_li_styles">
                   <li><b>Sync unlicensed users:</b> Technically users who does not contain work email Id in SharePoint
                     profile is considered as unlicensed user, you can sync those users by enabling toggle switch. </li>
                 </ul>
