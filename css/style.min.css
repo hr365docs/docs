@@ -94,3 +94,13 @@ img {
 .navbar-light .navbar-brand{
   width: 14%;
 }
+
+p.p_li_styles {
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+b.min-wd200 {
+    min-width: 170px;
+    display: inline-block;
+}
