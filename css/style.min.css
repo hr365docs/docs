@@ -117,3 +117,97 @@ a.nav-link.text-dark.active-dark {
   margin-bottom: 1rem!important;
 }
 
+
+.home-recent {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+.home-blog-latest {
+    float: left;
+    margin-right: 1%;
+    border: 1px solid #5c566b;
+    border-radius: 5px;
+}
+.home-recent h2 {
+    background-color: #5c566b;
+    color: #fff!important;
+    margin: 0!important;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 10px 3% 10px 3%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.home-recent h4.hd {
+    background-color: #f4ebe9;
+    text-align: center;
+    margin: 0 0 15px 0!important;
+    font-size: 11px;
+    padding: 7px 3% 7px 3%;
+    float: left;
+    width: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.blog_wrap {
+    float: left;
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.home-blog-latest h3 {
+    float: left;
+    width: 100%;
+    margin: 0 0 6px 0!important;
+}
+.blog_wrap .tags {
+    display: flex;
+    justify-content: flex-end;
+}
+#body .tags a.tag-link {
+    display: inline-block;
+    line-height: 2em;
+    font-size: .8em;
+    position: relative;
+    margin: 0 16px 8px 0;
+    padding: 0 10px 0 12px;
+    background: #5c566a;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    color: #fff;
+}
+.home-blog-latest p.author {
+    font-size: 12px;
+}
+.home-blog-latest h3 {
+    float: left;
+    width: 100%;
+    margin: 0 0 6px 0!important;
+}
+.home-recently-edited {
+    float: right;
+    border: 1px solid #5c566b;
+    border-radius: 5px;
+    margin-left: 1%;
+}.home-recently-edited h4:first-of-type {
+    margin-top: 0!important;
+}
+
+.edit_wrap {
+    float: left;
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
