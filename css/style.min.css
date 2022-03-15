@@ -105,18 +105,24 @@ b.min-wd200 {
     display: inline-block;
 }
 
-a.nav-link.text-dark.acitve {
+a.nav-link.text-dark.active {
   border-bottom: 2px solid #fff;
 }
-
+.banner a.nav-link.text-dark:hover {
+  color:#000 !important;
+}
 a.nav-link.text-dark.active-dark {
   border-bottom: 2px solid #000;
 }
-
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link.text-dark:hover{
+  color: #0078d7 !important;
+}
 .mb-5, .my-5 {
   margin-bottom: 1rem!important;
 }
-
+.over-hidd{
+  overflow: hidden;
+}
 
 .home-recent {
     float: left;
@@ -211,3 +217,28 @@ a.nav-link.text-dark.active-dark {
     padding-right: 3%;
 }
 
+
+@media (min-width: 902px){
+  .header-width{
+      max-width: 90%;
+  }
+  .navbar .nav-item .nav-link {
+      padding: 15px 5px!important;
+      font-size: 14px;
+  }
+  }
+
+@media (min-width: 992px){
+.header-width{
+    max-width: 85%;
+}
+.navbar .nav-item .nav-link {
+    padding: 15px 8px!important;
+    font-size: 15px;
+}
+}
+@media (min-width: 1200px){
+    .header-width{
+        max-width: 90%;
+    }
+    }
