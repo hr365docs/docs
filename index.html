@@ -92,7 +92,7 @@
 
 
             <li class="nav-item">
-              <a class="nav-link text-dark" href="./timesheet/">Timesheets</a>
+              <a class="nav-link text-dark" href="./timesheets/">Timesheets</a>
             </li>
 
 
@@ -122,7 +122,8 @@
           <div class=position-relative>
             <input id=search class=form-control placeholder="Have a question? Just ask here or enter terms">
             <i class="ti-search search-icon"></i>
-            
+            <script>$(function () { var a = [{ value: "Employee directory", label: "<p>Employee directory</p>", url: "https://betadocs.hr365.us/employee-directory/" },{ value: "Classic", label: "<p>Classic</p>", url: "https://betadocs.hr365.us/employee-directory/" }, {value: "Modern", label:"<p>Modern</p>", url:"https://betadocs.hr365.us/employee-directory/"}, {value: "Asset Management", label:"<p>Asset Management</p>", url:"https://betadocs.hr365.us/Asset-Management/"}, {value: "Helpdesk", label:"<p>Helpdesk</p>", url:"https://betadocs.hr365.us/helpdesk/"}, {value: "Time-off-manager", label:"<p>time-off-manager</p>", url:"https://betadocs.hr365.us/time-off-manager/"}, {value: "Timesheets", label:"<p>timesheets</p>", url:"https://betadocs.hr365.us/timesheet/"}, {value: "Employee on boarding", label:"<p>Employee on boarding</p>", url:"https://betadocs.hr365.us/employee-on-boarding/"} ]; 
+              $("#search").autocomplete({ source: a }).data("ui-autocomplete")._renderItem = function (b, a) { return $("<li>").append("<a href=" + a.url + ' + " &quot;" +  >' + a.value + "</a>" + a.label).appendTo(b) } })</script>
           </div>
         </div>
       </div>
@@ -170,7 +171,7 @@
           <a href="./timesheet/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <!-- <i class="ti-panel icon text-primary d-block mb-4"></i> -->
             <img src="timesheet_qns.png" alt="""width=" 100%" height="auto">
-            <h3 class="mb-3 mt-0">Timesheet</h3>
+            <h3 class="mb-3 mt-0">Timesheets</h3>
             <!-- <p class=mb-0>Timesheet</p> -->
           </a>
         </div>
