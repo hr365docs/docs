@@ -242,3 +242,7 @@ a.nav-link.text-dark.active-dark {
         max-width: 90%;
     }
     }
+
+    .mar-0px-auto{
+      margin: 0px auto;
+      }
