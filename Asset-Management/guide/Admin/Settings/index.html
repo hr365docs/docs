@@ -64,10 +64,10 @@
                             <a class="nav-link text-dark" href="https://hr365docs.github.io/docs/">Home</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../Employee-Directory/">Employee Directory</a>
+                            <a class="nav-link text-dark" href="../../../../employee-directory/">Employee Directory</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../Asset-Management/">Asset Management</a>
+                            <a class="nav-link text-dark active-dark" href="../../../../Asset-Management/">Asset Management</a>
                         </li>
                         <li class=nav-item>
                             <a class="nav-link text-dark" href="../../../../helpdesk/">HR365-Helpdesk</a>
@@ -81,6 +81,9 @@
                         <li class=nav-item>
                             <a class="nav-link text-dark" href="../../../../employee-on-boarding/">Employee
                                 On-boarding</a>
+                        </li>
+                        <li class=nav-item>
+                            <a class="nav-link text-dark" href="../../../../contact/">Contact</a>
                         </li>
                     </ul>
                     <!-- <select class=lang-list id=select-language onchange="location=this.value"><option id=en value=https://github.com/hr365docs/My-project.git/ selected>En -->
@@ -237,101 +240,32 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <h2 class=mb-5 id=title>Settings</h2>
+                        <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4">
                             <ul class=page-list>
-                                <h3>User</h3>
-
-                                <p>Admin can add user to this application. There are different types of roles like,
-                                    user, admin, asset
-                                    manager, supervisor and no access as shown in below image. </p>
-                                <br>
-                                <br>
-                                <p><img src="asset.PNG" alt=""></p>
-                                <div class="ul">
-                                    <ul>
-                                        <li>
-                                            <b> User:</b>
-                                            Only able to view assigned assets to them.
-                                        </li>
-                                        <li>
-                                            <b>Power user:</b> Able to see all the assets only.
-                                        </li>
-                                        <li>
-                                            <b>Asset Manager:</b> Able to add assets, delete assets, assign assets and
-                                            return assets, audit
-                                            assets,report assets, book assets, edit or delete book assets and
-                                            depreciation.
-                                        </li>
-                                        <li>
-                                            <b>Supervisor:</b> Able to assign assets, return assets, audit assets,
-                                            report
-                                            assets book assets, edit or delete book assets and depreciation.
-                                        </li>
-                                        <li>
-                                            <b>No Access:</b> User cannot access the application.
-                                        </li>
-                                    </ul>
-                                    <br>
-                                    <div class="box">
-                                        <ol type="i">
-                                            <li>
-                                                <b> <u>Add</u></b>
-                                                <br>
-                                                To add users, click on users under settings from side panel, page will
-                                                open, click
-                                                on add tab, add users page will open, First select the user type (M365
-                                                users or Non M365 users).
-                                                For M365 users details fill fetch from M365 automatically if exists, you
-                                                can edit the details
-                                                further and click on submit button. For non M365 users, need to add all
-                                                details manually.
-                                                <br>
-                                                <b>Note:</b> Assign & return assets notification for non M365 users
-                                                works on Power Automate
-                                                setup
-                                                <br>
-                                                <br>
-                                                <img src="asset1.PNG" alt="">
-                                            </li>
-                                            <li>
-                                                <b><u>Bulk Add</u></b>
-                                                <br>
-                                                Download the sample file and fill the email Ids and role as per
-                                                specified
-                                                format in the sample and save it. Choose the same file and click on save
-                                                button
-                                                <br>
-                                                <b>Note:</b> Add only email(s) and role for M365 users, no need to add
-                                                details if user’s details
-                                                are available in O365. If user is M365 user, update “No” in
-                                                <b>IsNonM365User</b>
-                                                column. You can add both M365 and non M365 users from bulk add.
-                                                <br>
-                                                <br>
-                                                <img src="asset2.PNG" alt="">
-                                            </li>
-                                            <li><b><u>Edit User Role</u></b>
-                                                <br>
-                                                We can edit user role for either individual or multiple users as shown
-                                                in below image. Select multiple users to assign same role.
-                                            </li>
-                                            <li>
-                                                <b><u>Delete User</u></b>
-                                                <br>
-                                                Select the users and click on delete users.
-                                            </li>
-                                            <li>
-                                                <b><u>Sync from M365</u></b>
-                                                <br>
-                                                If you click on sync from M365 tab, the user's detail in table will
-                                                update from O365
-                                            </li>
-                                        </ol>
-                                    </div>
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Settings<i class="fas fa-link"
+                                    style="font-size:12px; color:lightgray;"></i></a> </h3>
+                        <br>
+                        <div><img src="setting.png" onclick="openModal('setting.png')" alt="" width="100%"
+                            height="auto"></div>
+                            <br>
+                            In Setting:
+                            <br>
+                            <li>Users</li>
+                            <li>General Settings</li>
+                            <li>Email Notification</li>
+                            <li>Custom Email</li>
+                            <li>Columns Settings</li>
+                            <li>Dashboard Settings</li>
 
 
-                                </div>
+
+
+
+                           
+
+
+                               
 
 
                         </div>

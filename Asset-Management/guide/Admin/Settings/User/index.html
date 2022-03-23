@@ -236,64 +236,111 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <h2 class=mb-5 id=title>Users</h2>
+                        <!-- <h2 class=mb-5 id=title>Users</h2> -->
                         <div class="bg-light p-4">
-                            <ul class=page-list>
-                                Roles are used to define access rights to modules and determine what a user can do with
-                                access to it. There are two roles in Employee director plus:
-                                <br><br>
-                                <ol>
-                                    <li><b>Admin</b></li>
-                                    <li><b>User</b></li>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Users<i class="fas fa-link"
+                                    style="font-size:12px; color:lightgray;"></i></a> </h3>
+                        <br>
+                        
+
+                        <p>Admin can add user to this application. There are different types of roles like,
+                            user, admin, asset
+                            manager, supervisor and no access as shown in below image. </p>
+                       
+                        <br>
+                        <div><img src="Users.png" onclick="openModal('Users.png')" alt="" width="100%"
+                            height="auto"></div>
+                            <br>
+                        <div class="ul">
+                            <ul>
+                                <li>
+                                    <b> User:</b>
+                                    Only able to view assigned assets to them.
+                                </li>
+                                <li>
+                                    <b>Power user:</b> Able to see all the assets only.
+                                </li>
+                                <li>
+                                    <b>Asset Manager:</b> Able to add assets, delete assets, assign assets and
+                                    return assets, audit
+                                    assets,report assets, book assets, edit or delete book assets and
+                                    depreciation.
+                                </li>
+                                <li>
+                                    <b>Supervisor:</b> Able to assign assets, return assets, audit assets,
+                                    report
+                                    assets book assets, edit or delete book assets and depreciation.
+                                </li>
+                                <li>
+                                    <b>No Access:</b> User cannot access the application.
+                                </li>
+                            </ul>
+                            <br>
+                            <div class="box">
+                                <ol type="i">
+                                    <li>
+                                        <b> <u>Add</u></b>
+                                        <br>
+                                        To add users, click on users under settings from side panel, page will
+                                        open, click
+                                        on add tab, add users page will open, First select the user type (M365
+                                        users or Non M365 users).
+                                        For M365 users details fill fetch from M365 automatically if exists, you
+                                        can edit the details
+                                        further and click on submit button. For non M365 users, need to add all
+                                        details manually.
+                                        <br>
+                                        <b>Note:</b> Assign & return assets notification for non M365 users
+                                        works on Power Automate
+                                        setup
+                                        <br>
+                                        <br>
+                                        <div><img src="Add.png" onclick="openModal('Add.png')" alt="" width="100%"
+                                            height="auto"></div>
+                                            <br>
+                                    </li>
+                                    <li>
+                                        <b><u>Bulk Add</u></b>
+                                        <br>
+                                        Download the sample file and fill the email Ids and role as per
+                                        specified
+                                        format in the sample and save it. Choose the same file and click on save
+                                        button
+                                        <br>
+                                        <b>Note:</b> Add only email(s) and role for M365 users, no need to add
+                                        details if user’s details
+                                        are available in O365. If user is M365 user, update “No” in
+                                        <b>IsNonM365User</b>
+                                        column. You can add both M365 and non M365 users from bulk add.
+                                        <br>
+                                        <br>
+                                        <div><img src="edit.png" onclick="openModal('edit.png')" alt="" width="100%"
+                                            height="auto"></div><br>
+                                    </li>
+                                    <li><b><u>Edit User Role</u></b>
+                                        <br>
+                                        We can edit user role for either individual or multiple users as shown
+                                        in below image. Select multiple users to assign same role.
+                                    </li>
+                                    <li>
+                                        <b><u>Delete User</u></b>
+                                        <br>
+                                        Select the users and click on delete users.
+                                    </li>
+                                    <li>
+                                        <b><u>Sync from M365</u></b>
+                                        <br>
+                                        If you click on sync from M365 tab, the user's detail in table will
+                                        update from O365
+                                    </li>
                                 </ol>
-                                <br>
-                                <div><img src="role.png" onclick="openModal('role.png')" alt="" width="100%"
-                                        height="auto"></div>
-                                <br>
-                                <b> Responsibility</b>
-                                <br>
-                                <br>
-                                <li><b>Admin</b></li>
+                            </div>
 
-                                <ul class="ul_li_styles">
-                                    <li>Admin has full control.</li>
-                                </ul>
-                                <ul class="ul_li_styles">
-                                    <li>Able to do all settings.</li>
-                                </ul>
-                                <ul class="ul_li_styles">
-                                    <li>Able to edit employees profile.</li>
-                                </ul>
-                                <br>
-                                <li><b>User</b></li>
-
-                                <ul class="ul_li_styles">
-                                    <li>User can able to see employee details.</li>
-                                </ul>
-                                <ul class="ul_li_styles">
-                                    <li>Able to edit own profile.</li>
-                                </ul>
-
-
-
-                                <!-- <div class="notices note"><div class="paragraph">
-    <p>You must have Administrator access to add new user accounts and
-    edit access settings. Regular users have access to their own user account details.</p>
-    </div>
-    </div> -->
-
-                                <!-- <div class="paragraph"> -->
-
-                                <!-- <div class="notices info"><div class="paragraph"> -->
-                                <!-- <p>Only <strong>Active</strong> accounts can be used to log in to <strong>SuiteCRM</strong>. -->
-                                <!-- In addition, <strong>Inactive</strong> account usernames are not included in dropdown username -->
-                                <!-- lists (e.g. assigned to or modified by lists) used for record searching.</p> -->
-                                <!-- </div> -->
-                                <!-- </div> -->
 
                         </div>
-                        </ul>
-                    </div>
+
+
+                </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 29 Dec 2018</p>
                     <nav class="pagination mt-3">
                         <a class="nav nav-prev" href="../../Admin-Guide/" aria-label="Previous page"><i
@@ -341,7 +388,7 @@
             </div>
         </div>
     </footer>
-    <script src="../../../../js/script.min.js"></script>
+    <script src="../../../../../js/script.min.js"></script>
     <Script>
 
     </Script>
