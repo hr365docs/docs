@@ -115,18 +115,38 @@
         <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Preparing for a Larger Upgrade<i class="fas fa-link"
                 style="font-size:12px; color:lightgray;"></i></a> </h3>
     <br>
-<ul class=page-list>
-
-<!-- <h4>Introduction</h4> -->
-Usually upgrades are done in small iterations, and we recommend that you upgrade as often as possible. But we know that if you’re many versions behind the latest, and dealing with a large instance full of customisations, or having inherited the instance from a predecessor, perhaps with little documentation, can make the prospect of upgrading a bit more daunting.
-
-This guide is aimed at providing system administrators or CRM managers a checklist of considerations and tasks that will help ensure existing functionality and data integration are maintained between major version upgrades. It would be beneficial to have a developer resource to carry out the more technical jobs.
-<br>
-<div class="notices note"><div class="paragraph">
-    <p>This article is written in the context  for Employee Directory Modern.
-</p>
-    </div>
-    </div>
+    <p>In the Employee Directory application graph API is used to exclude block users, exclude users hidden in GAL, sync Azure images, sync mobile numbers from Active Directory, and sync AD properties.
+    </p>
+<p><b>Note:</b> Global Admin access is required to configure Azure API </p>
+<ol>
+    <li>Register app in the azure portal with the  below link:
+        <br>
+     <p><a href="">https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps 
+        </a> </p>  
+    </li>
+    <li>Select <b> App registrations.</b>
+    </li>
+    <li> Select <b> New registration.</b> </li>
+    <li>Provide any name and finally click on the Register button. You have created your Azure AD application.
+        </li>
+        <li>Now click on <b>Authentication</b> from the side panel, then on <b>Add a platform</b> button, 
+            Configuration platforms opens and select the <b>Single page application</b>. Provide employee 
+            directory application URL up to Home.aspx from browser URL box and click on configure 
+            button.
+        <br>
+    <a href="https://your tenant name.sharepoint.com/sites/Sitename/EDP/Pages/Home.aspx">https://your tenant name.sharepoint.com/sites/Sitename/EDP/Pages/Home.aspx</a>
+    </li>
+    <li>Select the <b>Access tokens & ID tokens</b> and click on the save icon</li>
+    <li> Now click on overview from side navigation panel and copy the <b>Application ID</b>
+    
+    <p>Copy 'Application (client)ID' and paste it in client ID field of MSAL in Employee directory 
+        settings and finally click on <b>submit</b> button, permission requested window opens, select 
+        the check box and click on <b></b> button as shown in below images.
+        </p>
+    <p><b>Note:</b> In case it fails to connect please refresh the browser past the ID and click on submit 
+        button.</p></li>
+    
+</ol>
 
 </ul>
 
