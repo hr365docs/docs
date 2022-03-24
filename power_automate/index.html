@@ -112,62 +112,58 @@
 <!-- <h2 class=mb-5 id=title>Installation Guide</h2> -->
 <div class="bg-light p-4">
     <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">How to connect SharePoint list to Power BI<i class="fas fa-link"
+        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">How to connect SharePoint list to power automate & fetch data in JSON format<i class="fas fa-link"
                 style="font-size:12px; color:lightgray;"></i></a> </h3>
     <br>
-    <!-- <p>To connect your SharePoint list with Power automate follow the below steps:
-    </p> -->
+    <p>To connect your SharePoint list with Power automate follow the below steps:
+    </p>
 
 <ol>
-    <li>Firstly, Download and install Power BI Desktop.
+    <li> Go to Microsoft flow and click on <b>Create</b> on the left side of the navigation pane.
         <br>
-    <li>Open Power BI Desktop and in the Home tab of the ribbon, select Get data</li>
         <br> 
-        <div><img src="Picture11.jpg" onclick="openModal('Picture11.jpg')" alt=""width="100%" height="auto"></div>
+        <div><img src="Picture1.jpg" onclick="openModal('Picture1.jpg')" alt=""width="100%" height="auto"></div>
     </li>
     <br>
-    <li>After clicking on Get data, click on More.
+    <li>Select <b>Instant cloud flow</b>.
         <br>
         <br>
-        <div><img src="Picture12.jpg" onclick="openModal('Picture12.jpg')" alt=""width="100%" height="auto"></div>
+        <div><img src="Picture2.jpg" onclick="openModal('Picture2.jpg')" alt=""width="100%" height="auto"></div>
     </li>
     <br>
     
     
-    <li>Select Online Services, then select SharePoint Online List.</li>
+    <li>Now enter your site address and list name from the dropdown, if it doesn’t show up in the dropdown click on Enter custom value and copy-paste your site address here.</li>
     <br>
-    <div><img src="Picture13.jpg" onclick="openModal('Picture13.jpg')" alt=""width="100%" height="auto"></div>
+    <div><img src="Picture3.jpg" onclick="openModal('Picture3.jpg')" alt=""width="100%" height="auto"></div>
     <br>
-    <li>Find the address (also known as a URL) of your SharePoint Online site that contains your list.</li>
+    <div><img src="Picture4.jpg" onclick="openModal('Picture4.jpg')" alt=""width="100%" height="auto"></div>
     <br>
-    <li>In Power BI Desktop, paste the address into the Site URL field in the open dialog box and click OK.</li>
+    <li>Click on the next step and search for Get items.</li>
     <br>
-    <div><img src="Picture14.jpg" onclick="openModal('Picture14.jpg')" alt=""width="100%" height="auto"></div>
+    <div><img src="Picture5.jpg" onclick="openModal('Picture5.jpg')" alt=""width="100%" height="auto"></div>
     <br>
-    <li>You may or may not be connected to Microsoft account. To connect  your Microsoft account, Select Microsoft account on the left side of the page.</li>
+    
+    <div><img src="Picture6.jpg" onclick="openModal('Picture6.jpg')" alt=""width="100%" height="auto"></div>
     <br>
-    <div><img src="Picture15.jpg" onclick="openModal('Picture15.jpg')" alt=""width="100%" height="auto"></div>
+    <li>Now enter your site address and list name from the dropdown, if it doesn’t show up in the dropdown click on Enter custom value and copy-paste your site address here.</li>
     <br>
-    <li>Select Sign In and enter the user name and password you use to sign in to Microsoft 365.</li>
+    <p><b>Note:</b>The site address should be the same as where you have installed the application(It can be any subsite or the main site.</p>
     <br>
-    <div><img src="Picture16.jpg" onclick="openModal('Picture16.jpg')" alt=""width="100%" height="auto"></div>
+    <div><img src="Picture7.jpg" onclick="openModal('Picture7.jpg')" alt=""width="100%" height="auto"></div>
+   <br>
+    <p><b>Note:</b>The list name should be the list where you have stored the data of all the tickets of the helpdesk.</p></li>
     <br>
-    <li>When you finish signing in, select Connect.</li>
+    <div><img src="Picture8.jpg" onclick="openModal('Picture8.jpg')" alt=""width="100%" height="auto"></div>
     <br>
-    <div><img src="Picture17.jpg" onclick="openModal('Picture17.jpg')" alt=""width="100%" height="auto"></div>
-    <br>
-    </li>
-    <li>Select Load. Power BI loads your list data into a new report.</li>
-     <br>
-     <li>On the left side, select the Data icon to see that your SharePoint list data was loaded.</li>
-     <br>
-    <div><img src="Picture18.jpg" onclick="openModal('Picture18.jpg')" alt=""width="100%" height="auto"></div>
-    <br>
-    <li>Select the report icon and start visualizing your report</li>
+    <li>Now click on the Next step, search for compose and select the values from the dynamic content.</li>
     <br> 
-    <li>Select columns you want to visualize by selecting the checkbox beside them in the Fields pane on the right.</li>
+    <div><img src="Picture9.jpg" onclick="openModal('Picture9.jpg')" alt=""width="100%" height="auto"></div>
+<br>
+    <li>Now click on Save and save your flow.</li>
     <br>
-    <div><img src="Picture19.jpg" onclick="openModal('Picture19.jpg')" alt=""width="100%" height="auto"></div>
+    <li>After running the flow we get the JSON data, we can use  JSON data in other sites and can get the data in that list.</li>
+    <div><img src="Picture10.jpg" onclick="openModal('Picture10.jpg')" alt=""width="100%" height="auto"></div>
 
    
     
