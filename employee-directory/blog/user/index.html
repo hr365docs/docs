@@ -123,65 +123,73 @@
         </div>
     
     <br>
-
-<ol>
-    <li>Register app in the azure portal with the  below link:
-        <br>
-     <a href="https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps ">
-        </a>  
-    </li>
-    <br>
-    <li>Select <b> App registrations.</b>
-        <br>
-        <br>
-        <div><img src="reistrations.png" onclick="openModal('reistrations.png')" alt=""width="100%" height="auto"></div>
-    </li>
-    <br>
-    <li> Select <b> New registration.</b> </li>
-    <br>
-    <div><img src="new_registration.png" onclick="openModal('new_registration.png')" alt=""width="100%" height="auto"></div>
-    <br>
-    <li>Provide any name and finally click on the Register button. You have created your Azure AD application.
+    <ol>
+        <li>
+            Register app in the azure portal with the  below link:
+            <a href="https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps">https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps</a>
         </li>
         <br>
-        <div><img src="Register.png" onclick="openModal('Register.png')" alt=""width="100%" height="auto"></div>
-    <br>
-        <li>Now click on <b>Authentication</b> from the side panel, then on <b>Add a platform</b> button, 
+        <li>
+            Select <b> App registrations.</b>
+            <br>
+            <br>
+            <div><img src="reistrations.png" onclick="openModal('reistrations.png')" alt=""width="100%" height="auto"></div>
+        </li>
+        <br>
+        <li>
+            Select <b> New registration.</b>
+            <br>
+            <br>
+            <div><img src="reistrations.png" onclick="openModal('reistrations.png')" alt=""width="100%" height="auto"></div>    
+
+        </li>
+        <br>
+        <li>
+            Provide any name and finally click on the <b>Register </b> button. You have created your Azure AD application.
+            <br><br>
+            <div><img src="Register.png" onclick="openModal('Register.png')" alt=""width="100%" height="auto"></div>
+        </li>
+        <br>
+        <li>
+            Now click on <b>Authentication</b> from the side panel, then on <b>Add a platform</b> button, 
             Configuration platforms opens and select the <b>Single page application</b>. Provide employee 
             directory application URL up to Home.aspx from browser URL box and click on configure 
             button.
+            <br><br>
+            https://your tenant name.sharepoint.com/sites/Sitename/EDP/Pages/Home.aspx
+            <br>
+            <div><img src="Authentiction.png" onclick="openModal('Authentiction.png')" alt=""width="100%" height="auto"></div>
+            <br>
+            <div><img src="configure.png" onclick="openModal('configure.png')" alt=""width="100%" height="auto"></div>
+        </li>
         <br>
-    <a href="https://your tenant name.sharepoint.com/sites/Sitename/EDP/Pages/Home.aspx">https://your tenant name.sharepoint.com/sites/Sitename/EDP/Pages/Home.aspx</a>
-    </li>
-    <br>
-        <div><img src="Authentiction.png" onclick="openModal('Authentiction.png')" alt=""width="100%" height="auto"></div>
-    <br>
-    <div><img src="configure.png" onclick="openModal('configure.png')" alt=""width="100%" height="auto"></div>
-    <br>
-    <li>Select the <b>Access tokens & ID tokens</b> and click on the save icon</li>
-    <br>
-        <div><img src="save.png" onclick="openModal('save.png')" alt=""width="100%" height="auto"></div>
-    <br>
-    <li> Now click on overview from side navigation panel and copy the <b>Application ID.</b>
+        <li>
+            Select the <b>Access tokens & ID tokens</b> and click on the save icon.
+            <br><br>
+            <div><img src="save.png" onclick="openModal('save.png')" alt=""width="100%" height="auto"></div>
+        </li>
         <br>
+        <li>
+            Now click on overview from side navigation panel and copy the <b>Application ID</b>.
+            <br><br>
+            <div><img src="application_ID.png" onclick="openModal('application_ID.png')" alt=""width="100%" height="auto"></div>
+
+        </li>
         <br>
-        <div><img src="application_ID.png" onclick="openModal('application_ID.png')" alt=""width="100%" height="auto"></div>
-    <br>
-     <li>Copy 'Application (client)ID' and paste it in client ID field of MSAL in Employee directory 
+        <li>
+            Copy 'Application (client)ID' and paste it in client ID field of MSAL in Employee directory 
         settings and finally click on <b>submit</b> button, permission requested window opens, select 
-        the check box and click on <b></b> button as shown in below images.</li>
-    
-       <br>
-    <p><b>Note:</b> In case it fails to connect please refresh the browser past the ID and click on submit 
-        button.</p></li>
-        <br>
-        <div><img src="advance.png" onclick="openModal('advance.png')" alt=""width="100%" height="auto"></div>
-    <br>
-    <br>
-        <div><img src="settings.png" onclick="openModal('settings.png')" alt=""width="100%" height="auto"></div>
-    <br>
-    
-</ol>
+        the check box and click on <b></b> button as shown in below images.
+            <br><br>
+            <p><b>Note:</b> In case it fails to connect please refresh the browser past the ID and click on submit 
+                button.</p></li>
+                <br>
+                <div><img src="advance.png" onclick="openModal('advance.png')" alt=""width="100%" height="auto"></div>
+                <br><br>
+                <div><img src="settings.png" onclick="openModal('settings.png')" alt=""width="100%" height="auto"></div>
+        </li>
+
+    </ol>
 
 </ul>
 
