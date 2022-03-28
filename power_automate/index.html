@@ -117,73 +117,80 @@
     <br>
     <p>To connect your SharePoint list with Power automate follow the below steps:
     </p>
-
-<ol>
-    <li> Go to Microsoft flow and click on <b>Create</b> on the left side of the navigation pane.
+    <ol>
+        <li>
+            Go to Microsoft flow and click on <b>Create</b> on the left side of the navigation pane.
+            <br><br>
+            <div><img src="Picture1.jpg" onclick="openModal('Picture1.jpg')" alt=""width="100%" height="auto"></div>
+        </li>
         <br>
-        <br> 
-        <div><img src="Picture1.jpg" onclick="openModal('Picture1.jpg')" alt=""width="100%" height="auto"></div>
-    </li>
-    <br>
-    <li>Select <b>Instant cloud flow</b>.
+        <li>
+            Select <b>Instant cloud flow</b>.
+             <br><br>
+             <div><img src="Picture2.jpg" onclick="openModal('Picture2.jpg')" alt=""width="100%" height="auto"></div>   
+        </li>
         <br>
+        <li>
+            After selecting Instant cloud flow, select <b>When an HTTP request is recived Request </b> and click on <b>create</b>.
+            <br><br>
+            <div><img src="request.jpg" onclick="openModal('request.jpg')" alt=""width="100%" height="auto"></div>
+            <br><br>
+            <div><img src="create.jpg" onclick="openModal('create.jpg')" alt=""width="100%" height="auto"></div>
+        </li>
         <br>
-        <div><img src="Picture2.jpg" onclick="openModal('Picture2.jpg')" alt=""width="100%" height="auto"></div>
-    </li>
-    <br>
-    
-    
-    <li>After selecting Instant cloud flow, select <b>When an HTTP request is recived Request and click on <b>create</b>.</li>
-    <br>
-    <div><img src="request.jpg" onclick="openModal('request.jpg')" alt=""width="100%" height="auto"></div>
-    <br>
-    <div><img src="create.jpg" onclick="openModal('create.jpg')" alt=""width="100%" height="auto"></div>
-    <br>
-    <li>Click on the next step and search for <b>Get items</b>.</li>
-    <br>
+        <li>
+            Click on the next step and search for <b>Get items</b>.
+            <br>
+            <br>
     <div><img src="item.jpg" onclick="openModal('item.jpg')" alt=""width="100%" height="auto"></div>
-    <br>
-    
-    <div><img src="Picture6.jpg" onclick="openModal('Picture6.jpg')" alt=""width="100%" height="auto"></div>
-    <br>
-    <li>Now enter your site address and list name from the dropdown, if it doesn’t show up in the dropdown click on <b>Enter custom value</b> and copy-paste your site address here.</li>
-    <br>
-    <div class="notices note">
-        <div class="paragraph">
-            <p>The site address should be the same as where you have installed the application. (It can be any subsite or the main site)</p>
-        </div>
-    
-    <br>
-    <div><img src="get_item.jpg" onclick="openModal('get_item.jpg')" alt=""width="100%" height="auto"></div>
-   <br>
-    <p><b>Note:</b> The list name should be the list where you have stored the data of all the tickets of the helpdesk.</p></li>
-    <br>
-    <div><img src="site.jpg" onclick="openModal('site.jpg')" alt=""width="100%" height="auto"></div>
-    <br>
-    <li>Now click on the Next step, search for <b>response</b> and give the result in the body.</li>
-    <br> 
-    <div><img src="response.jpg" onclick="openModal('response.jpg')" alt=""width="100%" height="auto"></div>
-    <br>
+        </li>
+        <br>
+        <li>
+            Now enter your site address and list name from the dropdown, if it doesn’t show up in the dropdown click on <b>Enter custom value</b> and copy-paste your site address here.
+            <br>
+            <div class="notices note">
+                <div class="paragraph">
+                    <p>The site address should be the same as where you have installed the application. (It can be any subsite or the main site)</p>
+                </div>
+                <br>
+                <div><img src="get_item.jpg" onclick="openModal('get_item.jpg')" alt=""width="100%" height="auto"></div>
+                <br>
+                <div class="notices note">
+                <div class="paragraph">
+                    <p>The list name should be the list where you have stored the data of all the tickets of the helpdesk.</p>
+                </div>
+                <br>
+                <div><img src="site.jpg" onclick="openModal('site.jpg')" alt=""width="100%" height="auto"></div>
+        </li>
+        <br>
+        <li>
+            Now click on the Next step, search for <b>response</b> and give the result in the body.
+            <br><br>
+            <div><img src="response.jpg" onclick="openModal('response.jpg')" alt=""width="100%" height="auto"></div>
+    <br><br>
     <div><img src="result.jpg" onclick="openModal('result.jpg')" alt=""width="100%" height="auto"></div>
+        </li>
+        <br>
+        <li>
+            Now click on <b>Save</b> and save your flow.
+        </li>
+        <br>
+        <li>
+            Now, copy the HTTP Post URL and go to the postman desktop app and paste the URL as shown below.
+            <br><br>
+            <div><img src="post.jpg" onclick="openModal('post.jpg')" alt=""width="100%" height="auto"></div>
+            <br><br>
+             <div><img src="postman.jpg" onclick="openModal('postman.jpg')" alt=""width="100%" height="auto"></div>
+        </li>
+        <br>
+        <li>
+            Once you click on <b>Send</b> button, you will get the following output in the JSON format.
+            <br><br>
+            <div><img src="Jason.jpg" onclick="openModal('Jason.jpg')" alt=""width="100%" height="auto"></div>
+        </li>
+    </ol>
 
-<br>
-    <li>Now click on <b>Save</b> and save your flow.</li>
-    <br>
-    <li>Now, copy the HTTP Post URL and go to the postman desktop app and paste the URL as shown below.</li>
-    <br>
-    <div><img src="post.jpg" onclick="openModal('post.jpg')" alt=""width="100%" height="auto"></div>
-    <br>
-    <br>
-    <div><img src="postman.jpg" onclick="openModal('postman.jpg')" alt=""width="100%" height="auto"></div>
-<br>
-    <li>Once you click on <b>Send</b> button, you will get the following output in the JSON format.</li>
-    <br>
-    <div><img src="Jason.jpg" onclick="openModal('Jason.jpg')" alt=""width="100%" height="auto"></div>
 
-
-   
-    
-</ol>
 
 </ul>
 
