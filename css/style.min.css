@@ -37,14 +37,14 @@ img {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 28px;
+    padding-top: 20px;
     left: 0;
     top: 15%;
     width: 75%;
     height: 80%;
     margin: 0px auto;
     overflow: auto;
-    background-color: #ddd;
+    /* background-color: #ddd; */
   }
   
   .modal-content {
