@@ -66,7 +66,7 @@
                             <a class="nav-link text-dark" href="../../../../Employee-Directory/">Employee Directory</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../Asset-Management/">Asset Management</a>
+                            <a class="nav-link text-dark active-dark" href="../../../../Asset-Management/">Asset Management</a>
                         </li>
                         <li class=nav-item>
                             <a class="nav-link text-dark" href="../../../../helpdesk/">HR365-Helpdesk</a>
@@ -250,17 +250,21 @@
 
                                 <p>In this page those assets display which are not yet email notified to users about
                                     assigned. There we can find assets</p>
-                                <ul>
-                                    <li>When assets are assigned from bulk asset using CSV file, </li>
+                                <ul class="ul_li_styles">
+                                    <li>When assets are assigned from bulk asset using CSV file,  </li>
                                     <li>If we assign assets when asset accept notification is disabled in general
-                                        settings </li>
+                                        settings. </li>
                                     <li>Synced Intune assets. </li>
                                 </ul>
                                 <p>To send assigned asset notification to users select the assets from action column and
                                     click on initiate now.
                                     <br>
-                                    Note: Allow to send notification for 25 assets at a time
-                                </p>
+                                    <div class="notices note">
+                                        <div class="paragraph">
+                                            <p>Allow to send notification for 25 assets at a time.</p>
+                                        </div>
+                                    </div>
+                                  
                                 <div><img src="initiate_now.png" onclick="openModal('initiate_now.png')" alt="" width="100%"
                                     height="auto"></div>
                         </div>
