@@ -90,7 +90,7 @@
     Admin-Guide
     </a>
     <ul >
-    <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist active">
+    <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
         <a href="../Introduction/">
         Introduction
     </a>  
@@ -141,7 +141,7 @@ Set up of application
         </li>
 </ul>
 </ul>
-<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title=Requirments class="sidelist">
+<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title=Requirments class="sidelist active">
     <a href="../Onboarding-process/">
         Onboarding Process
     </a>
@@ -162,50 +162,78 @@ Set up of application
 <div class="p-lg-5 p-4 bg-white" id=content>
 <!-- <h2 class=mb-5 id=title>Workflow</h2> -->
 <div class="bg-light p-4">
-    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Workflow <i
+    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Onboarding process <i
         class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>
 <ul class=page-list>
 
-    <p><b>Note:</b> Unlicensed user creation in O365 works on Power Automate setup</p>
-    <ol>
-        <li>	HR Manager: The one who can approve pre joining request.	
-            
-            </li>
-        <li>Admin: They just notified about to assign resources to new joinee.</li>
-    
-        <li>IT Teams: They just notified about to assign resources to new joinee.</li>
-        <br>
-        We can setup these Teams in advance settings
-    </ol>
-    <br>
-    <h5>Roles in the application:</h5>
-    <ol>
-        <h6><li>Admin:</li></h6>
-    <p>Admin have full control; they can add and manage users for Onboarding application.</p>
-    <ol type="i">
-        <li>Can add roles, cost center, departments, and grades.</li>
-        <li>Can be able to change settings of the application. </li>
-        <li>Can be able to do pre joining activities.</li>
-    </ol>
-        <h6>	<li>HR:</li></h6>
-        <ol type="i">
-            <li>The person with role HR can add and manage users for application. </li>
-            <li>Can do Onboarding process activities.</li>
-        </ol>
-        <h6><li>User:</li></h6>
-        <ol type="i">
-            <li>The person with role user can use only employee self-service portal.</li>
-        </ol>
-       <h6><li>No Access:</li> </h6>
-       <ol type="i">
-           <li>The person with no access role cannot access onboarding application.</li>
-       </ol>
-    </ol>
-    </div>
-    
-</ul>
-</div>
+    <h5>Step 1 -Pre joining request.</h5>
+                                <p>Click on pre-joining process under onboarding panel, pre-joining process page will
+                                    appear. Please fill details of the new joining candidate and click on submit button,
+                                    request mail send to HR manager, candidate binds in candidate To Join table as
+                                    employee type column pre joinee as shown in below images.</p>
+                                <p>Note: If “ Prejoinee HR Manager Approval Process” is enabled in advance setting,
+                                    request goes to HR Manager or else Candidate ID generates in O365 and send email
+                                    notification to Admin and IT for resources assigning.</p>
+                                <img src="pre-joinee.png" onclick="openModal('pre-joinee.png')" alt="" width="100%">
+                                <br><br>
+                                <img src="submit.png" onclick="openModal('submit.png')" alt="" width="100%">
+                                <br><br>
+                                <p>If HR Manger reject, HR executive will get notified through mail about rejection and
+                                    candidate entry get removed from the portal (Candidates to join table of home page),
+                                    no further processing.</p>
+                                <p>You can edit details of pre joinee from Edit Pre-Joining Process under Onboarding
+                                    section in portal as show in below image.</p>
+                                <p><b>Note:</b> If “Pre-joinee HR Manager Approval Process” is enabled in advance
+                                    settings. Candidate can not be found in edit pre joining process, directly display
+                                    in Joining Day</p>
+                                <img src="edit.png" onclick="openModal('edit.png')" alt="" width="100%">
+                                <br><br>
+                                <h5>Step 2 - Pre joining Approval.</h5>
+                                <p>Once HR executive submit the request, HR Managers or HR team will receive the request mail as shown in below images. If they approve, unlicensed user will create in O365 and notification mail sent to IT and admin team about to assign resources</p>
+                                <img src="mail.png" onclick="openModal('mail.png')" alt="" width="100%">
+                                <br><br>
+                                <img src="approve.png" onclick="openModal('approve.png')" alt="" width="100%">
+                                <br><br>
+                                <p>
+                                    Candidate will display in Joining day table and status of pre joining column of home table will updates to completed from pending
+                                    </p>
+                                
+                                    <img src="preliminary-joining.png" onclick="openModal('preliminary-joining.png')" alt="" width="100%">
+                                    <br><br>
+                                    <h5>Step 3. Joining Day 	</h5>
+                                    <p>When candidate join the organization, HR executives needs to update about his joining <accordingly class="br"></accordingly>
+                                        Please click on Joining day in onboarding section in home page, preliminary joining   page will open, select the candidate and click on Join tab, joining form will opens select the candidate joined type from dropdown list and click on submit button as shown in image. <br>
+                                        Once this is done, Joining Day column will update to joined from pending in table of home page
+                                        </p>
+                                        <img src="joined.png" onclick="openModal('joined.png')" alt="" width="100%">
+                                        <br><br>
+                                        <h5>Step 4 - Employee Self Service Portal.</h5>
+                                        <p>When candidate join organization, they should open Employee Self Service Portal and need to update their profile, update details and upload documents to complete Joining process activities.
+
+                                        </p>
+                                        <ol>
+                                            <li>Update Profile Candidate have to update their delve profile details those details will display in ESS portal. Click on update profile will redirect to delve profile.</li>
+                                            <li>Update Details; Candidate have to update and submit their personal details, work details. Once submit cannot edited by candidate.</li>
+                                            <li>Upload document: Candidate have to upload and submit documents </li>
+                                            <br>
+                                            <img src="portal.png" onclick="openModal('portal.png')" alt="" width="100%">
+                                            <p>Documents, updated and submitted details will found in Joining Process table of Onboarding Portal from where can check and complete joining process</p>
+                                            <br>
+                                            <h5>
+                                                Step5 - Joining Process.
+                                                </h5>
+                                                <p>Once candidate's complete employee self-service portal activity, those candidates will show in joining process table from where can check and complete Joining process. Please click Joining Process under Onboarding section, joining process panel will display, click on start button as shown in below images.</p>
+                                                <img src="start.png" onclick="openModal('portal.png')" alt="" width="100%">
+                                                <br><br>
+                                                <p>Click on Start button, HR Check List panel opens, candidate's summitted documents will shows in upload documents, candidate can be added in team's groups from team tab and finally complete the joining process in check list tab.</p>
+                                                <img src="draft.png" onclick="openModal('draft.png')" alt="" width="100%">
+                                                <br><br>
+                                                <p>When Joining process completes, candidate shown in existing employee details table, from where you can edit employee details and their role as shown in below image. And Joining process column of home page table will updates to Joined from pending.</p>
+                                                <img src="final.png" onclick="openModal('final.png')" alt="" width="100%">
+                                        </ol>
+                            </ul>
+                        </div>
 <!-- <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 29 Dec 2018</p> -->
 <nav class="pagination mt-3">
 <a class="nav nav-prev" href="../../Introductionn/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block"></span></a>
