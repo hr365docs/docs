@@ -142,37 +142,37 @@
 
                                         <ul>
                                             <li data-nav-id="./User/" title=User class="sidelist"><a
-                                                    href="../custom_columns/">Custom Columns</a></li>
+                                                    href="./custom_columns/">Custom Columns</a></li>
                                             </li>
                                             <li data-nav-id="./Email-Notification/" title=Email-Notification
-                                                class="sidelist"><a href="../Add-Assets/">
+                                                class="sidelist"><a href="./Add-Assets/">
                                                     Add Assets </a>
                                             </li>
-                                            <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist active"><a
-                                                    href="../Add_status/">Add Status</a></li>
+                                            <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist"><a
+                                                    href="./Add_status/">Add Status</a></li>
                                             <li data-nav-id="./Column-Setting/" title=Column-Setting class="sidelist"><a
-                                                    href="../Add_asset_type/">Add Asset Type</a></li>
+                                                    href="./Add_asset_type/">Add Asset Type</a></li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist"><a href="../Add_Project/">Add Project</a>
+                                                class="sidelist active"><a href="./Add_Project/">Add Project</a>
                                             </li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist"><a href="../model/">Add Model Number</a>
+                                                class="sidelist"><a href="./model/">Add Model Number</a>
                                             </li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                            class="sidelist"><a href="../sub_catagory/">Add Sub Cateogry</a>
+                                            class="sidelist"><a href="./sub_catagory/">Add Sub Cateogry</a>
                                         </li>
                                         <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="../location/">Add Location</a>
+                                        class="sidelist"><a href="./location/">Add Location</a>
                                     </li>
                                    
                                         <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="../Search Index/">Add Search Index</a>
+                                        class="sidelist"><a href="./Search Index/">Add Search Index</a>
                                     </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                    class="sidelist"><a href="../Deleted-Asset/">Add Deleted Assets</a>
+                                    class="sidelist"><a href="./Deleted-Asset/">Add Deleted Assets</a>
                                 </li>
                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                    class="sidelist"><a href="../Aknowledgement-status/">Add Acknowledgement Status</a>
+                                    class="sidelist"><a href="./Aknowledgement-status/">Add Acknowledgement Status</a>
                                 </li>
 
                                         </ul>
@@ -182,12 +182,12 @@
                                             Administration
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist active">
+                                    <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                         <a href="../../Admin/Add-Assets/">
                                             Add Assets
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Assign-Assets/" title=Assign-Assets class="sidelist">
+                                    <li data-nav-id="./Assign-Assets/" title=Assign-Assets class="sidelist active">
                                         <a href="../../Admin/Assign-Asset/">
                                             Assign Assets
                                         </a>
@@ -280,36 +280,79 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title>Add Asset</h2> -->
+                        <!-- <h2 class=mb-5 id=title>Assign-Asset</h2> -->
                         <div class="bg-light p-4">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#"> Add Status<i class="fas fa-link"
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Assign-Asset<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
                             <br>
                             <ul class=page-list>
 
-                                You can enable fields those which are required and disable those which are not required
-                                of in add assets page. Click on asset tab, add asset page will open then click on
-                                settings gear icon at right top, column display page will open. Uncheck the check boxes
-                                for disable and check the check boxes for enable fields and finally click on save
-                                button. You are not able to disable mandatory fields like asset name, asset type and
-                                category.
+
+                                You can assign assets either from Assign Assets tab or from side navigation panel. Here
+                                you can see assign link
+                                under action column, click on it, popup will display enter the name, select project,
+                                return date, and finally
+                                click on Assign button as shown in below.
                                 <br>
                                 <br>
-                                <div><img src="status.png" onclick="openModal('status.png')" alt="" width="100%"
+                                <div><img src="assign.png" onclick="openModal('assign.png')" alt="" width="100%"
                                     height="auto"></div>
+                                    <br>
+                                <p>If you want to assign assets along with project, first enable toggle switch for “Show
+                                    Projects While
+                                    Assigning Assets” from general settings page under settings from side panel.
+                                    <br>
+                                    Note: you can add projects, from project tab in home page or click on project under
+                                    administration from side
+                                    panel, project page will open from where you can add projects.
+                                    <br>
+                                    If you want to assign assets for location, first enable toggle switch for “Assign
+                                    Assets to Location” from
+                                    general settings page under settings from side panel.
+                                    <br>
+                                    <div class="notices note">
+                                        <div class="paragraph">
+                                            <p>First add locations from location options under administration from side panel,
+                                                location panel open from
+                                                where you can add location. Click on Sync location from M365 buttons to sync
+                                                location from O365.</p>
+                                        </div>
+                                    </div>
+                                    <div class="notices note">
+                                        <div class="paragraph">
+                                            <p>Location option under administration is used to assign assets to location, user
+                                                location field is
+                                                different.</p>
+                                        </div>
+                                    </div>
+                                
+                                </p>
+                                When you enable above features, you can see changes in assign pop
                                 <br>
-                               
+                                <br>
+                                <div><img src="location.png" onclick="openModal('location.png')" alt="" width="100%"
+                                    height="auto"></div>
+                                    <br>
+                                <p>If asset accept notification is enable in General setting, user will receive email
+                                    notification with link
+                                    from where users can take the action (accept/reject) accordingly.
+                                    <br>
+                                    <br>
+                                    The assigned one asset gets shifted from assign asset table to return asset table.
+                                    When you assign it, assigned date for the asset will bind in assigned date column of
+                                    home table.
+
+                                </p>
 
 
                         </div>
                         <!-- <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 29 Dec 2018</p> -->
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../Administration/"
-                                aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                                    class="d-none d-md-block">Administration</span></a>
-                            <a class="nav nav-next" href="../Assign-Asset/" aria-label="Previous page">
-                                <span class="d-none d-md-block">Assign Assets</span><i
+                            <a class="nav nav-prev" href="../Add-Assets/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Add Assets</span></a>
+                            <a class="nav nav-next" href="../Return-Asset/" aria-label="Previous page">
+                                <span class="d-none d-md-block">Return Assets</span><i
                                     class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>

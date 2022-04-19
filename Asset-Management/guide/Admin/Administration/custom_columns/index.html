@@ -63,7 +63,7 @@
                             <a class="nav-link text-dark" href="https://hr365docs.github.io/docs/">Home</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../Employee-Directory/">Employee Directory</a>
+                            <a class="nav-link text-dark active dark" href="../../../../Employee-Directory/">Employee Directory</a>
                         </li>
                         <li class=nav-item>
                             <a class="nav-link text-dark active-dark" href="../../../../Asset-Management/">Asset Management</a>
@@ -141,43 +141,43 @@
                                         </a>
 
                                         <ul>
-                                            <li data-nav-id="./User/" title=User class="sidelist"><a
-                                                    href="../custom_columns/">Custom Columns</a></li>
+                                            <li data-nav-id="./User/" title=User class="sidelist active"><a
+                                                    href="./custom_columns/">Custom Columns</a></li>
                                             </li>
                                             <li data-nav-id="./Email-Notification/" title=Email-Notification
-                                                class="sidelist"><a href="../Add-Assets/">
+                                                class="sidelist"><a href="./Add-Assets/">
                                                     Add Assets </a>
                                             </li>
                                             <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist"><a
-                                                    href="../Add_status/">Add Status</a></li>
+                                                    href="./Add_status/">Add Status</a></li>
                                             <li data-nav-id="./Column-Setting/" title=Column-Setting class="sidelist"><a
-                                                    href="../Add_asset_type/">Add Asset Type</a></li>
+                                                    href="./Add_asset_type/">Add Asset Type</a></li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist active"><a href="../Add_Project/">Add Project</a>
+                                                class="sidelist"><a href="./Add_Project/">Add Project</a>
                                             </li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist"><a href="../model/">Add Model Number</a>
-                                            </li>
-                                            <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                            class="sidelist"><a href="../sub_catagory/">Add Sub Cateogry</a>
+                                            class="sidelist"><a href="./model/">Add Model Number</a>
                                         </li>
                                         <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="../location/">Add Location</a>
+                                        class="sidelist"><a href="./sub_catagory/">Add Sub Cateogry</a>
+                                        </li>
+                                        <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
+                                        class="sidelist"><a href="./location/">Add Location</a>
                                     </li>
                                    
                                         <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="../Search Index/">Add Search Index</a>
+                                        class="sidelist"><a href="./Search Index/">Add Search Index</a>
                                     </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                    class="sidelist"><a href="../Deleted-Asset/">Add Deleted Assets</a>
+                                    class="sidelist"><a href="./Deleted-Asset/">Add Deleted Assets</a>
                                 </li>
                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                    class="sidelist"><a href="../Aknowledgement-status/">Add Acknowledgement Status</a>
+                                    class="sidelist"><a href="./Aknowledgement-status/">Add Acknowledgement Status</a>
                                 </li>
 
                                         </ul>
                                     <li data-nav-id="../Admin-Guide/Administration/" title=Administration
-                                        class="sidelist">
+                                        class="sidelist active">
                                         <a href="../../Admin/Administration/">
                                             Administration
                                         </a>
@@ -280,33 +280,106 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title>Add Asset</h2> -->
+                        <!-- <h2 class=mb-5 id=title>Administration</h2> -->
                         <div class="bg-light p-4">
-                            <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Add Project<i class="fas fa-link"
-                                        style="font-size:12px; color:lightgray;"></i></a> </h3>
-                            <br>
+
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Custom Columns<i class="fas fa-link"
+                                style="font-size:12px; color:lightgray;"></i></a> </h3>
+                    <br>
                             <ul class=page-list>
 
-                               
-                                <div><img src="project.png" onclick="openModal('project.png')" alt="" width="100%"
-                                    height="auto"></div>
-                                <br>
+                        
+                                        Here you can define custom field for <b>Assets</b> and <b>Users</b>.
+                                        <ul>
+                                            <li>
+                                                <br>
+                                                <b>For Assets</b> – Type the name in assets property name field and select property
+                                                column type and select column category as asset.
+                                                <br>
+                                                <div class="notices note">
+                                                    <div class="paragraph">
+                                                      <p>No need to select SPO user properties field.</p>
+                                                    </div>
+                                                  </div>
+                                                
+                                                
+                                               
+                                                <div><img src="add_custom.png" onclick="openModal('add_custom.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                                <br>
+                                                This custom field you can see while adding asset as shown in below.
+                                                <br>
+                                                <br>
+                                                <div><img src="asset.png" onclick="openModal('asset.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                                <br>
+                                                To add created one custom field column for assets in table, go to Column
+                                                settings, select the check box of created custom field and click on submit.
+                                            </li>
+                                            <br>
+                                            <li> <b>For Users</b> – select user properties or type name in asset Property Name
+                                                field and select Property Column Type and select column category as user as
+                                                shown in below.
+                                                <br>
+                                                <div class="notices note">
+                                                    <div class="paragraph">
+                                                      <p>If you select SPO user Properties data will fetch for
+                                                        SharePoint user profile no need adds manual while adding users.</p>
+                                                    </div>
+                                                  </div>
+                                            
+                                        
+                                                
+                                                <div><img src="custom.png" onclick="openModal('custom.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                                <br>
+                                                The created one custom field you can see in user table and Add User popup
+                                            page.
+                                            <br>
+                                            <br>
+                                            <div><img src="edit.png" onclick="openModal('edit.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                        </li>
+                                    </ul>
+                                    <br>
                                 
-                                        </ol>
-                                    </li>
-                                </ol>
+                                            
+                                    <div class="field 1">
+                                        <br>
+                                        <h5>Display control on custom field.</h5>
+                                        By default, display status of custom field is enabled.
 
+                                        <ul>
+                                            <li>You can control display of custom field in column setting page and in
+                                                user table. If status of the custom field is disabled for column
+                                                category type asset such custom field is not visible <b> Column Setting
+                                                    (Column order)</b> page </li>
+                                            <br>
+                                            <li>If status of the custom field is disabled for column category type user
+                                                such custom field is not visible Add user popup page and in user table
+                                            </li>
+                                            <br>
+                                            <div><img src="custom_column.png" onclick="openModal('custom_column.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                            <br>
+                                            <li><b>Delete</b> - Select the check box of custom field and click on Delete
+                                                button. </li>
+                                            <br>
+                                            <li> <b>Edit</b> - You can edit only custom field name, just select check box of
+                                                custom field and click on Edit button, edit popup page will display
+                                                change name in asset property name field in order change custom field
+                                                name and click on Submit button.</li>
+                                        </ul>
+                                    </div>
+                                </div>
 
                         </div>
                         <!-- <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 29 Dec 2018</p> -->
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../Administration/"
-                                aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                                    class="d-none d-md-block">Administration</span></a>
-                            <a class="nav nav-next" href="../Assign-Asset/" aria-label="Previous page">
-                                <span class="d-none d-md-block">Assign Assets</span><i
-                                    class="ti-arrow-right ml-2"></i></a>
+                            <a class="nav nav-prev" href="../Settings/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Settings</span></a>
+                            <a class="nav nav-next" href="../Add-Assets/" aria-label="Previous page">
+                                <span class="d-none d-md-block">Add Assets</span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
                 </div>
