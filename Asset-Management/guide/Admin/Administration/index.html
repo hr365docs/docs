@@ -135,6 +135,47 @@
 
                                         </ul>
                                     </li>
+                                    <li data-nav-id="./Settings/" title=Settings class="sidelist">
+                                        <a href="../Administration/">
+                                            Administration
+                                        </a>
+
+                                        <ul>
+                                            <li data-nav-id="./User/" title=User class="sidelist"><a
+                                                    href="../custom_columns/">Custom Columns</a></li>
+                                            </li>
+                                            <li data-nav-id="./Email-Notification/" title=Email-Notification
+                                                class="sidelist"><a href="../Add-Assets/">
+                                                    Add Assets </a>
+                                            </li>
+                                            <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist"><a
+                                                    href="../Add_status/">Add Status</a></li>
+                                            <li data-nav-id="./Column-Setting/" title=Column-Setting class="sidelist"><a
+                                                    href="../Add_asset_type/">Add Asset Type</a></li>
+                                            <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
+                                                class="sidelist"><a href="../Add_Project/">Add Project</a>
+                                            </li>
+                                            <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
+                                                class="sidelist"><a href="../Add_Project/">Add Model Number</a>
+                                            </li>
+                                            <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
+                                            class="sidelist"><a href="../Add_Project/">Add Sub Cateogry</a>
+                                        </li>
+                                        <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
+                                        class="sidelist"><a href="../location/">Add Location</a>
+                                    </li>
+                                   
+                                        <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
+                                        class="sidelist"><a href="../Search Index/">Add Search Index</a>
+                                    </li>
+                                    <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
+                                    class="sidelist"><a href="../Deleted-Asset/">Add Deleted Assets</a>
+                                </li>
+                                <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
+                                    class="sidelist"><a href="../Aknowledgement-status/">Add Acknowledgement Status</a>
+                                </li>
+
+                                        </ul>
                                     <li data-nav-id="../Admin-Guide/Administration/" title=Administration
                                         class="sidelist active">
                                         <a href="../../Admin/Administration/">
@@ -249,7 +290,65 @@
 
                                 <p>From administration we can, category, subcategory, vendor, model number, projects,
                                     asset type, status, locations and add custom fields</p>
+                                    <div class="field">
+                                        <h4>Custom Columns</h4>
+                                        Here you can define custom field for <b>Assets</b> and <b>Users</b>.
+                                        <ul>
+                                            <li>
+                                                <br>
+                                                <b>For Assets</b> – Type the name in assets property name field and select property
+                                                column type and select column category as asset.
+                                                <br>
+                                                <div class="notices note">
+                                                    <div class="paragraph">
+                                                      <p>No need to select SPO user properties field.</p>
+                                                    </div>
+                                                  </div>
+                                                
+                                                
+                                               
+                                                <div><img src="add_custom.png" onclick="openModal('add_custom.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                                <br>
+                                                This custom field you can see while adding asset as shown in below.
+                                                <br>
+                                                <br>
+                                                <div><img src="asset.png" onclick="openModal('asset.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                                <br>
+                                                To add created one custom field column for assets in table, go to Column
+                                                settings, select the check box of created custom field and click on submit.
+                                            </li>
+                                            <br>
+                                            <li> <b>For Users</b> – select user properties or type name in asset Property Name
+                                                field and select Property Column Type and select column category as user as
+                                                shown in below.
+                                                <br>
+                                                <div class="notices note">
+                                                    <div class="paragraph">
+                                                      <p>If you select SPO user Properties data will fetch for
+                                                        SharePoint user profile no need adds manual while adding users.</p>
+                                                    </div>
+                                                  </div>
+                                            
+                                        
+                                                
+                                                <div><img src="custom.png" onclick="openModal('custom.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                                <br>
+                                                The created one custom field you can see in user table and Add User popup
+                                            page.
+                                            <br>
+                                            <br>
+                                            <div><img src="edit.png" onclick="openModal('edit.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                        </li>
+                                    </ul>
+                                    <br>
+                                                
+
                                 <div class="content">
+                                    <b></b>
                                     <b>Category -</b> Click on category under administration from side panel, category
                                     page open then click on add tab, type category name, if you want to set as default
                                     value for add asset page, select the check box in default category column and add
@@ -274,61 +373,8 @@
 
                                 </div>
                                
-                                <div class="field">
-                                    <h4>Add Custom Field</h4>
-                                    Here you can define custom field for Assets and Users.
-                                    <ul>
-                                        <li>
-                                            <br>
-                                            <b>For Assets</b> – Type the name in assets property name field and select property
-                                            column type and select column category as asset.
-                                            <br>
-                                            <div class="notices note">
-                                                <div class="paragraph">
-                                                  <p>No need to select SPO user properties field.</p>
-                                                </div>
-                                              </div>
+                                
                                             
-                                            
-                                           
-                                            <div><img src="add_custom.png" onclick="openModal('add_custom.png')" alt="" width="100%"
-                                                height="auto"></div>
-                                            <br>
-                                            This custom field you can see while adding asset as shown in below.
-                                            <br>
-                                            <br>
-                                            <div><img src="asset.png" onclick="openModal('asset.png')" alt="" width="100%"
-                                                height="auto"></div>
-                                            <br>
-                                            To add created one custom field column for assets in table, go to Column
-                                            settings, select the check box of created custom field and click on submit.
-                                        </li>
-                                        <br>
-                                        <li> <b>For Users</b> – select user properties or type name in asset Property Name
-                                            field and select Property Column Type and select column category as user as
-                                            shown in below.
-                                            <br>
-                                            <div class="notices note">
-                                                <div class="paragraph">
-                                                  <p>If you select SPO user Properties data will fetch for
-                                                    SharePoint user profile no need adds manual while adding users.</p>
-                                                </div>
-                                              </div>
-                                        
-                                    
-                                            
-                                            <div><img src="custom.png" onclick="openModal('custom.png')" alt="" width="100%"
-                                                height="auto"></div>
-                                            <br>
-                                            
-                                            The created one custom field you can see in user table and Add User popup
-                                            page.
-                                            <br>
-                                            <br>
-                                            <div><img src="edit.png" onclick="openModal('edit.png')" alt="" width="100%"
-                                                height="auto"></div>
-                                        </li>
-                                    </ul>
                                     <div class="field 1">
                                         <br>
                                         <h5>Display control on custom field.</h5>

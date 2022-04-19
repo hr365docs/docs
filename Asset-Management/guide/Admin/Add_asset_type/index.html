@@ -135,6 +135,7 @@
 
                                         </ul>
                                     </li>
+
                                     <li data-nav-id="./Settings/" title=Settings class="sidelist">
                                         <a href="../Administration/">
                                             Administration
@@ -150,10 +151,10 @@
                                             </li>
                                             <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist"><a
                                                     href="../Add_status/">Add Status</a></li>
-                                            <li data-nav-id="./Column-Setting/" title=Column-Setting class="sidelist"><a
+                                            <li data-nav-id="./Column-Setting/" title=Column-Setting class="sidelist active"><a
                                                     href="../Add_asset_type/">Add Asset Type</a></li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist active"><a href="../Add_Project/">Add Project</a>
+                                                class="sidelist"><a href="../Add_Project/">Add Project</a>
                                             </li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
                                                 class="sidelist"><a href="../Add_Project/">Add Model Number</a>
@@ -182,12 +183,12 @@
                                             Administration
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
+                                    <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist active">
                                         <a href="../../Admin/Add-Assets/">
                                             Add Assets
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Assign-Assets/" title=Assign-Assets class="sidelist active">
+                                    <li data-nav-id="./Assign-Assets/" title=Assign-Assets class="sidelist">
                                         <a href="../../Admin/Assign-Asset/">
                                             Assign Assets
                                         </a>
@@ -280,79 +281,149 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title>Assign-Asset</h2> -->
+                        <!-- <h2 class=mb-5 id=title>Add Asset</h2> -->
                         <div class="bg-light p-4">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Assign-Asset<i class="fas fa-link"
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Add Asset Type<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
                             <br>
                             <ul class=page-list>
 
-
-                                You can assign assets either from Assign Assets tab or from side navigation panel. Here
-                                you can see assign link
-                                under action column, click on it, popup will display enter the name, select project,
-                                return date, and finally
-                                click on Assign button as shown in below.
+                                You can enable fields those which are required and disable those which are not required
+                                of in add assets page. Click on asset tab, add asset page will open then click on
+                                settings gear icon at right top, column display page will open. Uncheck the check boxes
+                                for disable and check the check boxes for enable fields and finally click on save
+                                button. You are not able to disable mandatory fields like asset name, asset type and
+                                category.
                                 <br>
                                 <br>
-                                <div><img src="assign.png" onclick="openModal('assign.png')" alt="" width="100%"
+                                <div><img src="upload_asset.png" onclick="openModal('upload_asset.png')" alt="" width="100%"
                                     height="auto"></div>
-                                    <br>
-                                <p>If you want to assign assets along with project, first enable toggle switch for “Show
-                                    Projects While
-                                    Assigning Assets” from general settings page under settings from side panel.
-                                    <br>
-                                    Note: you can add projects, from project tab in home page or click on project under
-                                    administration from side
-                                    panel, project page will open from where you can add projects.
-                                    <br>
-                                    If you want to assign assets for location, first enable toggle switch for “Assign
-                                    Assets to Location” from
-                                    general settings page under settings from side panel.
-                                    <br>
-                                    <div class="notices note">
-                                        <div class="paragraph">
-                                            <p>First add locations from location options under administration from side panel,
-                                                location panel open from
-                                                where you can add location. Click on Sync location from M365 buttons to sync
-                                                location from O365.</p>
-                                        </div>
-                                    </div>
-                                    <div class="notices note">
-                                        <div class="paragraph">
-                                            <p>Location option under administration is used to assign assets to location, user
-                                                location field is
-                                                different.</p>
-                                        </div>
-                                    </div>
-                                
-                                </p>
-                                When you enable above features, you can see changes in assign pop
                                 <br>
+                                For add asset page, you can setup default category, subcategory, asset type and status
+                                from side navigation panel under administration.
                                 <br>
-                                <div><img src="location.png" onclick="openModal('location.png')" alt="" width="100%"
-                                    height="auto"></div>
-                                    <br>
-                                <p>If asset accept notification is enable in General setting, user will receive email
-                                    notification with link
-                                    from where users can take the action (accept/reject) accordingly.
-                                    <br>
-                                    <br>
-                                    The assigned one asset gets shifted from assign asset table to return asset table.
-                                    When you assign it, assigned date for the asset will bind in assigned date column of
-                                    home table.
+                                We can add assets from two places.
 
-                                </p>
+                                <ol>
+                                    <li>Asset tab</li>
+                                    <li>Assets from side navigation panel under Administration</li>
+                                    <br>
+                                </ol>
+                                <ol>
+                                    <li>
+                                        <h4>Asset Tab</h4>Fill mandatory fields like asset name, category and asset type
+                                        and others are optional fields, upload image or add document. You can also set
+                                        asset expiry notification for asset just enable it and click on submit button or
+                                        save icon as shown in below. Created asset fall under home and assign asset
+                                        table. <br>
+                                         
+
+                                        <div class="notices note">
+                                            <div class="paragraph">
+                                              <p>To generate system barcode please enable “System Generated
+                                                Barcode” from general setting.</p>
+                                            </div>
+                                          </div>
+                                        
+                                        <div><img src="upload.png" onclick="openModal('upload.png')" alt="" width="100%"
+                                            height="auto"></div>
+                                        <br>
+                                        <b><u>Adding an Asset as Multiple</u></b>
+                                        Click on Add Multiple buttons, fill mandatory field and type number value to
+                                        create number of asset and click on Submit button as shown in below. <br>
+                                        <div class="notices note">
+                                            <div class="paragraph">
+                                              <p>Do not type serial number for creating multiple assets.</p>
+                                            </div>
+                                          </div>
+                                        
+                                        <div><img src="upload_asset.png" onclick="openModal('upload_asset.png')" alt="" width="100%"
+                                            height="auto"></div>
+                                        <br>
+                                        <br>
+                                        <b><u>Import asset or Bulk Assets</u></b>
+                                        You can add bulk assets about 200+ in one go using CSV file. Download the sample
+                                        file and add data as specified format.
+                                        
+                                        
+                                        <div class="notices note">
+                                            <div class="paragraph">
+                                              <p> Care should be taken while adding data in CSV file.</p>
+                                            </div>
+                                          </div>
+                                        
+                                        
+                                        <ol>
+                                            <li>Add Asset ID in specified column and is mandatory.</li>
+                                            <li>Remove separators from the cost / value.</li>
+                                            <li>Use date format should be MM/DD/YYYY, this is uploading the data, while
+                                                displaying it will follow as per your choice in settings.</li>
+                                            <li>Please do not change order of the columns or add new columns, this may
+                                                lead into feeding values in incorrect columns.</li>
+                                            <li>Mandatory fields like Asset Name, Asset Id, Asset Type and Category
+                                                should not be empty.</li>
+                                            <li>Barcode should not be more than 8 digits.</li>
+                                            <li>Please do not change order of the columns or add new columns, this may
+                                                lead into feeding values in incorrect columns.</li>
+                                            <li>Barcode should not be more than 8 digits.</li>
+                                        </ol>
+                                        <br>
+                                        Click on asset tab then import asset, add multiple assets page will display then
+                                        choose the data loaded CSV file from system and click on save as shown in below.
+                                        You can add multiple assets from Bulk Asset tab of home page.
+                                        <br>
+                                        <br>
+                                        <div><img src="save.png" onclick="openModal('save.png')" alt="" width="100%"
+                                            height="auto"></div>
+                                    </li>
+                                    <br>
+
+                                    <br>
+                                    <li>
+                                        <h4>Assets from side navigation panel under administration</h4>
+                                        <br>
+                                        <ol>
+                                            <li>New Assets - From side navigation panel click on Asset under
+                                                Administration, click on New Assets tab and follow the above step
+                                                mentioned under Asset tab </li>
+                                            <br>
+                                            <li>Delete Assets - From side navigation panel click on Asset under
+                                                Administration, select the asset and click on Delete Asset tab. You can
+                                                delete 25 assets at a time.</li>
+                                            <br>
+                                            <li>Clone Asset - If you want to create new asset with minor change with the
+                                                existing one or same copy of existing one you can go for clone asset.
+                                                From side navigation panel click on Asset under Administration, select
+                                                the asset and click on Clone Asset tab, either edit data or remain same
+                                                as per your requirement and finally click on Submit button. </li>
+                                            <br>
+                                            <li>Edit Assets - From side navigation panel click on Asset under
+                                                Administration, Administration page will open, click on Edit Asset tab,
+                                                edit pop page will display then click on Edit icon , you will enter in
+                                                edit mode, edit the asset and finally click on Update button as or Click
+                                                on hyper link of asset under Home or Assign Assets table, edit pop page
+                                                will display then click on Edit icon, you will enter in edit mode, edit
+                                                the asset and finally click on Update button as shown in below image.
+                                                <br>
+                                                <br>
+                                                <div><img src="asset_edit.png" onclick="openModal('asset_edit.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                            </li>
+
+                                        </ol>
+                                    </li>
+                                </ol>
 
 
                         </div>
                         <!-- <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 29 Dec 2018</p> -->
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../Add-Assets/" aria-label="Previous page"><i
-                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Add Assets</span></a>
-                            <a class="nav nav-next" href="../Return-Asset/" aria-label="Previous page">
-                                <span class="d-none d-md-block">Return Assets</span><i
+                            <a class="nav nav-prev" href="../Administration/"
+                                aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
+                                    class="d-none d-md-block">Administration</span></a>
+                            <a class="nav nav-next" href="../Assign-Asset/" aria-label="Previous page">
+                                <span class="d-none d-md-block">Assign Assets</span><i
                                     class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
