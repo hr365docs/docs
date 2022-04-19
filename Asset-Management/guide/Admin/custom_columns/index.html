@@ -63,7 +63,7 @@
                             <a class="nav-link text-dark" href="https://hr365docs.github.io/docs/">Home</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../Employee-Directory/">Employee Directory</a>
+                            <a class="nav-link text-dark active dark" href="../../../../Employee-Directory/">Employee Directory</a>
                         </li>
                         <li class=nav-item>
                             <a class="nav-link text-dark active-dark" href="../../../../Asset-Management/">Asset Management</a>
@@ -141,7 +141,7 @@
                                         </a>
 
                                         <ul>
-                                            <li data-nav-id="./User/" title=User class="sidelist"><a
+                                            <li data-nav-id="./User/" title=User class="sidelist active"><a
                                                     href="../custom_columns/">Custom Columns</a></li>
                                             </li>
                                             <li data-nav-id="./Email-Notification/" title=Email-Notification
@@ -177,7 +177,7 @@
 
                                         </ul>
                                     <li data-nav-id="../Admin-Guide/Administration/" title=Administration
-                                        class="sidelist">
+                                        class="sidelist active">
                                         <a href="../../Admin/Administration/">
                                             Administration
                                         </a>
@@ -239,7 +239,7 @@
                                             Depriciation
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Book-Assets/" title=Installation class="sidelist active">
+                                    <li data-nav-id="./Book-Assets/" title=Installation class="sidelist">
                                         <a href="../../Admin/Book-Asset/">
                                             Book Assets
                                         </a>
@@ -280,56 +280,106 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title>Book Asset</h2> -->
+                        <!-- <h2 class=mb-5 id=title>Administration</h2> -->
                         <div class="bg-light p-4">
-                            <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Book Asset<i class="fas fa-link"
-                                        style="font-size:12px; color:lightgray;"></i></a> </h3>
-                           
+
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Custom Columns<i class="fas fa-link"
+                                style="font-size:12px; color:lightgray;"></i></a> </h3>
+                    <br>
                             <ul class=page-list>
 
-
-                                <p>By default, Book assets feature is enabled, admin can disable it from general
-                                    settings from side panel under settings. To disabled book assets feature, in general
-                                    settings disable the toggle switch for “Assets Advance Booking”.</p>
-                                <div class="asset">
-                                    <h4><u>Book Asset</u> </h4>
-                                    <p>To book the assets to the users in advance click on Book Asset tab, click on book
-                                        assets of action, pop up will appear, select the user, assign date, and return
-                                        date and finally click on Yes book it button. Asset booking will work on assign
-                                        date and return date of the assets</p>
-                                        <div class="notices note">
-                                            <div class="paragraph">
-                                                <p>For booked assets, assign will work automatically on assigned date in case only if power automate is setup in your tenant. Please contact HR365 to
-                                                    setup the power automate.</p>
-                                            </div>
-                                        </div>
-                                   
-                                        <div><img src="book_asset.png" onclick="openModal('book_asset.png')" alt="" width="100%"
-                                            height="auto"></div>
+                        
+                                        Here you can define custom field for <b>Assets</b> and <b>Users</b>.
+                                        <ul>
+                                            <li>
+                                                <br>
+                                                <b>For Assets</b> – Type the name in assets property name field and select property
+                                                column type and select column category as asset.
+                                                <br>
+                                                <div class="notices note">
+                                                    <div class="paragraph">
+                                                      <p>No need to select SPO user properties field.</p>
+                                                    </div>
+                                                  </div>
+                                                
+                                                
+                                               
+                                                <div><img src="add_custom.png" onclick="openModal('add_custom.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                                <br>
+                                                This custom field you can see while adding asset as shown in below.
+                                                <br>
+                                                <br>
+                                                <div><img src="asset.png" onclick="openModal('asset.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                                <br>
+                                                To add created one custom field column for assets in table, go to Column
+                                                settings, select the check box of created custom field and click on submit.
+                                            </li>
                                             <br>
-                                    <p> <u>Cancelling booked assets and Updating booked asset</u>
+                                            <li> <b>For Users</b> – select user properties or type name in asset Property Name
+                                                field and select Property Column Type and select column category as user as
+                                                shown in below.
+                                                <br>
+                                                <div class="notices note">
+                                                    <div class="paragraph">
+                                                      <p>If you select SPO user Properties data will fetch for
+                                                        SharePoint user profile no need adds manual while adding users.</p>
+                                                    </div>
+                                                  </div>
+                                            
+                                        
+                                                
+                                                <div><img src="custom.png" onclick="openModal('custom.png')" alt="" width="100%"
+                                                    height="auto"></div>
+                                                <br>
+                                                The created one custom field you can see in user table and Add User popup
+                                            page.
+                                            <br>
+                                            <br>
+                                            <div><img src="edit.png" onclick="openModal('edit.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                        </li>
+                                    </ul>
+                                    <br>
+                                
+                                            
+                                    <div class="field 1">
                                         <br>
-                                        <br>
-                                        In case if you want to cancel the booked asset or to edit the booked assets, you
-                                        can do it from Booking Details.
-                                        To cancel the booked asset just click on cancel of action column and to edit the
-                                        booked assets (assign date or return date, click on update under of action
-                                        column, pop up will open change the date and click on Yes book it button. In
-                                        Booking Details page, you can find all the booked asset.
+                                        <h5>Display control on custom field.</h5>
+                                        By default, display status of custom field is enabled.
 
-                                    </p>
-                                    <div><img src="book.png" onclick="openModal('book.png')" alt="" width="100%"
-                                        height="auto"></div>
+                                        <ul>
+                                            <li>You can control display of custom field in column setting page and in
+                                                user table. If status of the custom field is disabled for column
+                                                category type asset such custom field is not visible <b> Column Setting
+                                                    (Column order)</b> page </li>
+                                            <br>
+                                            <li>If status of the custom field is disabled for column category type user
+                                                such custom field is not visible Add user popup page and in user table
+                                            </li>
+                                            <br>
+                                            <div><img src="custom_column.png" onclick="openModal('custom_column.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                            <br>
+                                            <li><b>Delete</b> - Select the check box of custom field and click on Delete
+                                                button. </li>
+                                            <br>
+                                            <li> <b>Edit</b> - You can edit only custom field name, just select check box of
+                                                custom field and click on Edit button, edit popup page will display
+                                                change name in asset property name field in order change custom field
+                                                name and click on Submit button.</li>
+                                        </ul>
+                                    </div>
                                 </div>
 
                         </div>
                         <!-- <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 29 Dec 2018</p> -->
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../Depriciation/" aria-label="Previous page"><i
-                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Depriciation</span></a>
-                            <a class="nav nav-next" href="../Software/" aria-label="Previous page"> <span
-                                    class="d-none d-md-block">Software</span><i class="ti-arrow-right ml-2"></i></a>
+                            <a class="nav nav-prev" href="../Settings/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Settings</span></a>
+                            <a class="nav nav-next" href="../Add-Assets/" aria-label="Previous page">
+                                <span class="d-none d-md-block">Add Assets</span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
                 </div>
