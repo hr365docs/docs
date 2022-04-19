@@ -259,16 +259,32 @@
                                     
                                 </p>
                                 <ol type="a">
-                                    <li> <b>Assets accept notification:</b> If it is enabled, when asset is assigned to
-                                        users, they will receive
-                                        email notification from where use can accept/reject assets. If it is disable
-                                        when asset assigned to
-                                        users, email notification we not send and those assets will show in
-                                        acknowledgement status page later we
-                                        can initiate </li>
+                                    <li>
+                                        <b> Depreciation Method:</b> You can enable depreciation feature, just selecting
+                                        either <b>Straight Line</b> or
+                                       <b> Diminishing Balance</b> method as per your requirement and finally click on <b>Save</b>
+                                        button.
+                                    </li>
                                     <br>
-                                    <li> <b>System generated barcode:</b> If this is enabled, barcode generate
-                                        automatically on adding assets</li>
+                                    <li> <b>System Generated Barcode:</b> If this is enabled, barcode generate
+                                        automatically on adding assets.</li>
+                                    <br>
+                                    <li> <b>External User:</b> If you enabled it, you could add external users or guest
+                                        users in the application
+                                        and can assign assets to them.
+                                       
+                                        <div class="notices note">
+                                            <div class="paragraph">
+                                                <p>Make sure guests or external users SharePoint site permissions
+                                                    should be provided where the
+                                                    Asset management application is hosted.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                   
+                                    <li>
+                                        <b>Internal Datalist Path:</b> If this is enabled, App data can b stored in SharePoint list within the app or externally at the site/subsite collection level where app is installed.
+                                    </li>
                                     <br>
                                     <li> <b> Show projects while assigning assets:</b> If this is enabled, project
                                         option will display while
@@ -279,30 +295,89 @@
                                         home page from where you
                                         can scan barcode of the assets to search the assets.</li>
                                     <br>
-                                    <li> <b>External User:</b> If you enabled it, you could add external users or guest
-                                        users in the application
-                                        and can assign assets to them.
-                                        <b>Note:</b> Make sure guests or external users SharePoint site permissions
-                                        should be provided where the
-                                        Asset management application is hosted
-                                    </li>
-                                    <br>
-                                    <li> <b>Assign Assets to Location:</b> If this is enabled, location option will
-                                        display while assigning
-                                        assets in pop, from where you can assign assets to the location.</li>
-                                    <br>
                                     <li> <b> Retain Asset's Last Location:</b> If this feature is enabled, the user’s
                                         location will retain on
                                         available assets after returning the assets. You can see retained location in
                                         user location field
                                         of the assets. </li>
                                     <br>
+                                    <li> <b>Assets accept notification:</b> If it is enabled, when asset is assigned to
+                                        users, they will receive
+                                        email notification from where use can accept/reject assets. If it is disable
+                                        when asset assigned to
+                                        users, email notification we not send and those assets will show in
+                                        acknowledgement status page later we
+                                        can initiate </li>
+                                    <br>
+ 
+                                    <li> <b>Assign Assets to Location:</b> If this is enabled, location option will
+                                        display while assigning
+                                        assets in pop, from where you can assign assets to the location.</li>
+                                    <br>
+                                    <li><b> Assign Assets to Non M365 Users:</b> If this is enabled, assign assets to
+                                        non M365 users’ option
+                                        will display while assigning assets in pop, from where you can assign assets to
+                                        non O365.</li>
+                                    <br>
+                                    <li><b>Assets Advance Booking:</b> if you disabled this asset booking feature
+                                        disable from the application.
+                                    </li>
+                                    <br>
+                                    <li><b> Enable Software:</b> If this this is enabled, software tabs in home page
+                                        will displays, one tab is
+                                        used to sync O365 license another is used to add software manually and can
+                                        assign to users.</li>
+                                    <br>
+                                    <li>
+                                        <b> Asset Location Mandatory:</b> If this this is enabled, you can get the asset location.</li>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b>CC to Location Email Id:</b> If this this is enabled, email notification will be sent to location.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b>Allow Asset Manager to Add Assets:</b> If this this is enabled, Manager can add Assets.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b>Allow Asset Manager to Delete Assets:</b> If this this is enabled, Manager can delete Assets.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b>Assign & Return Assets Option in Side Navigation Panel:</b> You can hide assigned
+                                        and return assets in navigation panel just disabling it.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b>Allow User to Book Assets:</b> If this this is enabled, Users can Book Assets.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b>Select Approvar to Book Assets:</b> If this this is enabled, Users can select approver.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b>Availability of Assets During Maintenance:</b> If this this is enabled, Users can book asset whcih is in maintenance.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b> Maintenance Module:</b>  If this this is enabled, you can add Maintenance Frequency and Maintenance Due Date while adding assets.
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <b>Hide Asset ID Prefix:</b> If this this is enabled, You can hide Asset ID prefix.
+                                    </li>
+                                    <br>
                                     <li><b> Asset Acknowledgement Text:</b> if you type acknowledgement text, user can
                                         see in acknowledgement
                                         page (acknowledgement page link is available in assigned email notification of
                                         the user).</li>
                                     <br>
-                                    <li><b>Create PDF of asset acknowledgement:</b> When we enable this switch and setup
+                                    <li>
+                                        <b>Barcode Customization:</b> From here you can customize barcodr by adding <b>Barcode Title Text</b>, <b>Organization Name</b>, <b>Asset Field Attribute</b> and enabling <b>Set Asset Field Attribute for Barcode</b>.
+                                    </li>
+                                    <!-- <li><b>Create PDF of asset acknowledgement:</b> When we enable this switch and setup
                                         Power Automate, pdf
                                         file will create and stored in SP library and sent to user who has acknowledged
                                         the assets.
@@ -313,37 +388,31 @@
                                         This is the URL where we
                                         can find pdf files
                                     </li>
+                                    <br> -->
                                     <br>
-                                    <li><b>MS Intune Integration:</b> If you integrate it, Intune assets will sync in
+                                    
+                                
+                                    <li>
+                                        <b>SCCM Integration:</b>
+                                    </li>
+                                    <br>
+                                
+                                    <li><b>Software & MS Intune Integration:</b> If you integrate it, Intune assets will sync in
                                         the application.</li>
                                     <br>
                                     <li> <b> MS group Integration:</b> If you integrate it, distribution type groups
                                         will sync in the
-                                        application
+                                        application.
                                     </li>
                                     <br>
-                                    <li><b>Assets Advance Booking:</b> if you disabled this asset booking feature
-                                        disable from the application.
+                                   
+                                    <li>
+                                        <b>Enable Theme Color:</b> You can select color as per your requirement and click on <b>Save</b> button.
                                     </li>
                                     <br>
-                                    <li><b> Depreciation Method:</b> You can enable depreciation feature, just selecting
-                                        either Straight Line or
-                                        Diminishing Balance method as per your requirement and finally clicking on save
-                                        button.</li>
-                                    <br>
-                                    <li><b> Assign Assets to Non M365 Users:</b> If this is enabled, assign assets to
-                                        non M365 users’ option
-                                        will display while assigning assets in pop, from where you can assign assets to
-                                        non O365.</li>
-                                    <br>
-                                    <li><b> Enable Software:</b> If this this is enabled, software tabs in home page
-                                        will displays, one tab is
-                                        used to sync O365 license another is used to add software manually and can
-                                        assign to users.</li>
-                                    <br>
-                                    <li><b>Display Assign Assets and Return Assets options in side Navigation Panel:</b>
-                                        You can hide assigned
-                                        and return assets in navigation panel just disabling it</li>
+
+                                    <li><b>Brand Logo:</b> You can upload logo by clicking on <b>Upload logo</b>. You can crop the logo and finally click on <b>Save Logo</b> button.
+                                       </li>
                                 </ol>
 
                         </div>
