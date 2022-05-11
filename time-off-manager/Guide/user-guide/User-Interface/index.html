@@ -94,11 +94,11 @@
             </a>
             
         <ul>
-            <li data-nav-id="../Getting-Started" title=Getting-Started class="sidelist">
+            <!-- <li data-nav-id="../Getting-Started" title=Getting-Started class="sidelist">
                 <a href="../Getting-Started">
                    Getting Started
                 </a>
-                </li>
+                </li> -->
 
                 <li data-nav-id="../Home-page" title=Home-page class=sidelist>
                     <a href="../Home-page">
@@ -124,23 +124,36 @@
 
     <div class=col-lg-9>
         <div class="p-lg-5 p-4 bg-white" id=content>
-        <h2 class=mb-5 id=title>User Interface</h2>
+        <!-- <h2 class=mb-5 id=title>User Interface</h2> -->
         <div class="bg-light p-4">
-         <ol>
-             <h5><li>Apply Leave:</li> </h5> 
-             <p>User can apply leave by clicking on <b>New Request</b> on the home page.</p>
-             <img src="../../../../static/leave.png" alt="" width="100%">
-             <br><br>
-             <p>After clicking on New Request, you will be redirected on the <b>Apply Leave</b> page as shown in below image</p>
-             <img src="../../../../static/apply.png" alt="" width="100%">
-             <br><br>
-             <p>From here user can select the type of leave they want to apply. Enter title, start date, end date and note to approver, then click on submit. </p>
-             <img src="../../../../static/apply-type.png" alt="" width="100%">
-             <br><br>
-             <p>By clicking on <b>“Submit”</b>  button you will receive a mail for applied leave. </p>
+            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">User Interface<i class="fas fa-link"
+                style="font-size:12px; color:lightgray;"></i></a> </h3>
+    <br>
+        
+             <h5>Apply Leave:</h5> 
              <br>
-             <img src="../../../../static/leave-mail.png" alt="" width="100%">
-         </ol>
+             <div><img src="new-request.png" onclick="openModal('new-request.png')" alt=""width="100%" height="auto"></div>
+             
+             <br>
+             <ol>
+                 <li>
+                    User can apply leave by clicking on <b>New Request</b> on the home page.
+                 </li>
+                 <br>
+                 <li>
+                    After clicking on New Request, you will be redirected on the <b>Apply Leave</b>.
+                 </li>
+                 <br>
+                 <li>
+                    From here user can select the type of leave they want to apply. Enter title, start date, end date and note to approver, then click on submit.
+                 </li>
+                 <br>
+                 <li>
+                    By clicking on <b>“Submit”</b>  button you will receive a mail for applied leave. 
+                 </li>
+             </ol>
+             
+        
      
             </div>
             <nav class="pagination mt-3">
@@ -153,6 +166,16 @@
 </div>
 </div>
 </section>
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <img src="" id="imageId" style="width:100%">
+        </div>
+
+    </div>
+</div>
 <footer class="section pb-4">
     <div class=container>
         <div class="row align-items-center">

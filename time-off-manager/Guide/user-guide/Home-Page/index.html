@@ -93,11 +93,11 @@
             </a>
             
         <ul>
-            <li data-nav-id="../Getting-Started" title=Getting-Started class="sidelist">
+            <!-- <li data-nav-id="../Getting-Started" title=Getting-Started class="sidelist">
                 <a href="../Getting-Started">
                    Getting Started
                 </a>
-                </li>
+                </li> -->
 
                 <li data-nav-id="../Home-page" title=Home-page class="sidelist active">
                     <a href="../Home-page">
@@ -126,7 +126,7 @@
         <h2 class=mb-5 id=title>Home Page</h2>
         <div class="bg-light p-4">
      <p> On <b>Home Page </b> user can request for leave and can see the status of applied leaves. Wheather it is being Approved, Cancelled, Rejected or Pending.</p>
-      <img src="../../../../static/home.png" alt="" width="100%">
+     <div><img src="home.png" onclick="openModal('home.png')" alt=""width="100%" height="auto"></div>
       <br><br>
       <ul>
           <li><b>New Request tab:</b> Click on it will open apply leave from where we can request the leave.</li>
@@ -154,6 +154,16 @@
 </div>
 </div>
 </section>
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <img src="" id="imageId" style="width:100%">
+        </div>
+
+    </div>
+</div>
 <footer class="section pb-4">
     <div class=container>
         <div class="row align-items-center">
