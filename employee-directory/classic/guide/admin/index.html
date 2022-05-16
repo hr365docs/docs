@@ -225,9 +225,7 @@ active">
                             </ul>
                         </div>
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                            <script>
-                            document.write(new Date().toLocalDateString());
-                            </script>
+                           
                             </p>
                         <nav class="pagination mt-3">
                             <a class="nav nav-prev" href="../../../../employee-directory/" aria-label="Previous page"><i
@@ -276,6 +274,13 @@ active">
         </div>
     </footer>
     <script src="../../../js/script.min.js"></script>
+     <script>
+                               
+                              
+        date = new Date().toLocaleDateString();
+        document.getElementById("date").innerHTML=date;
+       </script>
+                           
 </body>
 
 </html>
