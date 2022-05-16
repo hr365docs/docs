@@ -269,6 +269,7 @@ Casual Leaves = 24.
      
             </div>
             <nav class="pagination mt-3">
+                <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date"></p>
                 <a class="nav nav-prev" href=../../../Guide/admin-guide/reports/index.html aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block"></span></a>
                 <!-- <a class="nav nav-next" href=../../../Guide/admin-guide/Introduction/index.html aria-label="Previous page"> <span class="d-none d-md-block"> Introduction </span><i class="ti-arrow-right ml-2"></i></a> -->
                 </nav>
@@ -279,4 +280,10 @@ Casual Leaves = 24.
 </div>
 </section>
 <script src="../../../../js/script.min.js"></script>
+<script>
+                               
+                              
+    date = new Date().toLocaleDateString();
+    document.getElementById("date").innerHTML=date;
+   </script>
 </body>

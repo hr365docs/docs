@@ -260,9 +260,7 @@ active">
     </li>
     </ul>
 </div>
-<p class="post-meta border-bottom pb-3 mb-0 mt-3">
-Updated on 05 Jan 2020
-</p>
+<p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
 <nav class="pagination mt-3">
 <a class="nav nav-prev" href="../admin_guide/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
 <span class="d-none d-md-block">Employee on-boarding</span></a>
@@ -297,5 +295,11 @@ Updated on 05 Jan 2020
 </div>
 </footer>
 <script src="../../js/script.min.js"></script>
+<script>
+                               
+                              
+  date = new Date().toLocaleDateString();
+  document.getElementById("date").innerHTML=date;
+ </script>
 </body>
 </html>

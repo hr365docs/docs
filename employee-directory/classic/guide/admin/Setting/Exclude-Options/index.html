@@ -182,9 +182,8 @@
           </div>
           </ul>
 
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">
-            Updated on 28 Dec 2018
-          </p>
+          
+ <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
           <nav class="pagination mt-3">
             <a class="nav nav-prev" href="../General/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
               <span class="d-none d-md-block">General</span></a>
@@ -237,6 +236,12 @@
     </div>
   </footer>
   <script src=https://hr365docs.github.io/docs/js/script.min.js></script>
+  <script>
+                               
+                              
+    date = new Date().toLocaleDateString();
+    document.getElementById("date").innerHTML=date;
+   </script>
 </body>
 
 </html>

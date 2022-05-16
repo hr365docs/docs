@@ -251,9 +251,8 @@ Max limit of hours per day: You can setup maximum limit hour per day for Track T
     </ol>
             </div>
            
-                <p class="post-meta border-bottom pb-3 mb-0 mt-3">
-                Updated on 28 Dec 2018
-                </p>
+            <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+
                 <nav class="pagination mt-3">
                 <a class="nav nav-prev" href="../setting/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
                 <span class="d-none d-md-block">Settings</span></a>
@@ -297,7 +296,13 @@ Max limit of hours per day: You can setup maximum limit hour per day for Track T
                 </div>
                 </div>
                 </footer>
-                <script src=https://hr365docs.github.io/docs/js/script.min.js></script>
+                <script src="../../../../js/script.min.js"></script>
+                <script>
+                               
+                              
+                    date = new Date().toLocaleDateString();
+                    document.getElementById("date").innerHTML=date;
+                   </script>
                 </body>
                 </html>
 

@@ -209,7 +209,8 @@ System -->
                                 </li>
                             </ul>
                         </div>
-                        <p class="post-meta border-bottom pb-3 mb-0 mt-3">updated on 21 Jan 2022</p>
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+
                         <nav class="pagination mt-3">
                             <a class="nav nav-prev" href="https://hr365docs.github.io/My-project/Employee-Directory/"
                                 aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
@@ -265,6 +266,12 @@ System -->
         </div>
     </footer>
     <script src="../../../js/script.min.js"></script>
+    <script>
+                               
+                              
+        date = new Date().toLocaleDateString();
+        document.getElementById("date").innerHTML=date;
+       </script>
 </body>
 
 </html>

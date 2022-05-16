@@ -242,7 +242,7 @@
                   users on their birthday</p>
               </ul>
             </div>
-            <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 22 Jan 2022</p>
+            <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
             <nav class="pagination mt-3">
               <a class="nav nav-prev" href="../views/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
                 <span class="d-none d-md-block">Views</span></a>
@@ -293,6 +293,12 @@
     </div>
   </footer>
   <script src="../../../../../../js/script.min.js"></script>
+  <script>
+                               
+                              
+    date = new Date().toLocaleDateString();
+    document.getElementById("date").innerHTML=date;
+   </script>
 </body>
 
 </html>

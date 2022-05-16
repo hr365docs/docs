@@ -145,6 +145,7 @@
       </ul>
             </div>
             <nav class="pagination mt-3">
+                <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date"></p>
                 <a class="nav nav-prev" href="../Getting-Started/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block"></span>Getting Started</a>
                 <a class="nav nav-next" href="../User-Interface/" aria-label="Previous page"> <span class="d-none d-md-block">  User Interface </span><i class="ti-arrow-right ml-2"></i></a>
                 </nav>
@@ -196,4 +197,10 @@
     </div>
 </footer>
 <script src="../../../../js/script.min.js"></script>
+<script>
+                               
+                              
+    date = new Date().toLocaleDateString();
+    document.getElementById("date").innerHTML=date;
+   </script>
 </body>
