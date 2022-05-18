@@ -306,3 +306,7 @@ a.nav-link.text-dark.active-dark {
     .imgpadding{
     padding-right: 5px;
     }
+
+    .logoIcon_asset {
+      width: 15%;
+  }
