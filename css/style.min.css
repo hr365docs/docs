@@ -296,3 +296,13 @@ a.nav-link.text-dark.active-dark {
       .logoIcon_asset{
         width: 8%;
       }
+
+      .logodisplay{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .imgpadding{
+    padding-right: 5px;
+    }
