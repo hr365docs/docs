@@ -51,7 +51,7 @@
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container px-2 px-md-0">
                 <a class="navbar-brand px-2" href="https://kb..hr365.us/">
-                    <img class=img-fluid src="../../../../images/logo_.png" alt=HR365>
+                    <img class=img-fluid src="../../../../../../images/logo_.png" alt=HR365>
                 </a>
                 <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
                     aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
@@ -63,27 +63,31 @@
                             <a class="nav-link text-dark" href=https://hr365docs.github.io/docs />Home</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../employee-directory/">Employee
+                            <a class="nav-link text-dark" href="../../../../../../employee-directory/">Employee
                                 Directory</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../Asset-Management/">Asset
+                            <a class="nav-link text-dark" href="../../../../../../Asset-Management/">Asset
                                 Management</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark active-dark" href="../../../../helpdesk/">HR365
+                            <a class="nav-link text-dark active-dark" href="../../../../../../helpdesk/">HR365
                                 Helpdesk</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../time-off-manager/">Time Off
+                            <a class="nav-link text-dark" href="../../../../../../time-off-manager/">Time Off
                                 Manager</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../time-off-manager/">Timesheet</a>
+                            <a class="nav-link text-dark" href="../../../../../../timesheets/">Timesheets</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../employee-on-boarding/">Employee
+                            <a class="nav-link text-dark" href="../../../../../../employee-on-boarding/">Employee
                                 On-boarding</a>
+                        </li>
+                        <li class=nav-item>
+                            <a class="nav-link text-dark" href="../../../../../../contact/">Contact
+                               </a>
                         </li>
                     </ul>
                 </div>
@@ -100,7 +104,7 @@
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title=Installation
                                 class="sidelist
     active">
-                                <a href="../../admin/">
+                                <a href="../../../../admin/">
                                     Admin-Guide
                                 </a>
                                 <ul>
@@ -118,15 +122,15 @@
                                     <a href="../dashboard/">Dashboard</a>
                             
                                 </li>
-                                <li >
+                                <li class="sidelist active">
                                     <a href="../report/">Reports</a>
                             
                                 </li>
-                                <li>
+                                <li class="slidelist active">
                                     <a href="../teams/">Teams</a>
                             
                                 </li>
-                                <li class="sidelist active">
+                                <li class="sidelist">
                                     <a href="../help/">Help</a>
                             
                                 </li>
@@ -411,45 +415,66 @@
                                                               <ul class="sidenavSub-topics"></ul>
                                                               <a href="../settings/features/ticket_due_date/">
                                                              Tickets Due tickets
-                                                        </li>   
-
-                                    </li>
-                            </li>
+                                                        </li>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title> </h2> -->
+                        <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4">
-                            <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Help<i class="fas fa-link"
-                                        style="font-size:12px; color:lightgray;"></i></a> </h3>
-                            <br>
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Teams
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
                             
-                            <ul class=ul_li_styles>
-                                <li>Can check about the Help Desk application.</li>
-                                <li>From help panel you can contact Hr365 for any query</li>
-                                <li>Send feedback will would help us to improve the application</li>
-                                <li>Send feture request </li>
-                                <li>Check and validate your license just  by clicking on license validation</li>
-                                <li>Can check current version of the application</li>
-                                <br>
-                                <div><img src="help.png" onclick="openModal('help.png')" alt=""
-                                    width="100%" height="auto"></div>
 
+                            Admin can create teams from the settings. To create follow the below steps:
+                            <br><br>
+                           
+                            <ol>
+                                <li>
+                                    Click on teams, this displays <b>Teams</b> page. 
+                                </li>
+                              
+                                <li>
+                                    Click on <b>+New</b> button, this displays <b>New</b> page. 
+                                </li>
+                               
+                                <li>
+                                    Enter the <b>Name</b>, give <b>Code</b>, add <b>Supervisor</b> and add the <b>Team Members</b>.
+                                </li>
+                             
+                                <li>
+                                    Finally click the <b>Save</b> button.
+                                </li>
                                 
+                                <li>
+                                    All the created teams will display in the side navigation panel under teams, from where you can find ticket status based on teams.
+                                </li>
+                            </ol> 
+                            <br>
+                            <div><img src="team.png" onclick="openModal('team.png')" alt="" width="100%"
+                                height="auto"></div>
+                                <br>
+                          
+                                
+                                <div><img src="team_.png" onclick="openModal('team_.png')" alt="" width="100%"
+                                    height="auto"></div>
+                                    <br>
+                                   
+
 
                         </div>
                         </ul>
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                     <nav class="pagination mt-3">
-                        <a class="nav nav-prev" href="../teams/" aria-label="Previous page"><i
-                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Teams</span></a>
-                        <a class="nav nav-next" href="../comment_page/" aria-label="Previous page"> <span
-                                class="d-none d-md-block">Comment page</span><i class="ti-arrow-right ml-2"></i></a>
+                        <a class="nav nav-prev" href="../report/" aria-label="Previous page"><i
+                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Reports</span></a>
+                        <a class="nav nav-next" href="../help/" aria-label="Previous page"> <span
+                                class="d-none d-md-block">Help</span><i class="ti-arrow-right ml-2"></i></a>
                     </nav>
                 </div>
             </div>
@@ -496,7 +521,7 @@
             </div>
         </div>
     </footer>
-    <script src="../../../../js/script.min.js"></script>
+    <script src="../../../../../js/script.min.js"></script>
     <script>
                                
                               
