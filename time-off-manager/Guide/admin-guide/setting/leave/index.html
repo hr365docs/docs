@@ -163,19 +163,26 @@
         <div class="p-lg-5 p-4 bg-white" id=content>
         <!-- <h2 class=mb-5 id=title> Leaves</h2> -->
         <div class="bg-light p-4">
-            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Leaves Settings
+            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Leaves Type Settings
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
-              
-           <ol type="I">
-               <li><h6>Leave Reports</h6>Here you will find the information of total leaves, applied leaves, departments and week days.  You can also generate the report by clicking on export button. </li>
-               <br>
-               <img src="../../../../static/m18.png" alt="" width="100%">
-               <br><br>
-               <li><h6>Employee Leave Status </h6>Here, you will find all the information of the users leave balance and can check leave of users based on department and location. You can also generate the report by clicking on export button.</li>
-               <br>
-               <img src="../../../../static/m19.png" alt="" width="100%">
-           </ol>
+        Here you can add new leave type by clicking on add button and entering all the details. You can add leave types, status, accrual, show leave types in home page, partial day, leave notice in advance, secondary approver, tertiary approver etc.
+              <br>
+              <img src="leave_setting.png" onclick="openModal('leave_setting.png')" alt="" width="100%">
+              <br><br>
+              <ol type="i">
+                <li><b>Status:</b> If it is enabled, it will display in apply leave form and user can apply for that leave.</li>
+                <li><b>Accrual:</b> Leave accrual can be enabled for as per your requirement. (In Advance setting accrual leave should be enabled and then select accrual type). </li>
+                <li><b>Homepage:</b> If this is enabled, it will display in home page as Leave Status.</li>
+                <li><b>Partial Day:</b> if this is enabled for particular leave, user can able to apply leave for partial day (0.5 or 0.25 leave).</li>
+                <li><b>Leave Notice in Advance:</b> You can enter the number of days you want the leaves to applied in advance.</li>
+                <li><b>Secondary Approver:</b>You can select HR or manager of manager or any user as seconder approver. Select HR or MoM check box and enable switch. You can type person in people picker box, click on save button and enable switch.
+                 If Fist approver (i.e., Manager of user) approve the leave request, request goes to second approver. <br>
+                 Note: You can also make some second approver as auto approver from the advance settings, there you have to select the job title for second approver and cancel.
+                 
+                  </li>
+                <li> <b>Tertiary approver:</b> You can select HR or manager of manager or any selected email id as tertiary approver</li>
+            </ol>
            
      
         </div>
