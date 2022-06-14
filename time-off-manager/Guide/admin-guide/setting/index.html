@@ -170,119 +170,14 @@
               <p>Settings page is visible only for admin role person. By default, the one installed application is an admin, you can assign admin role to person from the user’s page.</p>
            
            <ol type="I">
-               <li><h6>Office Locations: </h6>Here, you can add office locations by clicking on Add button. For the location we can define work week. In this table add zero for weekend days and any number on working days. Use adds more button to add multiple office location and finally click on save.</li>
-               <br>
-               <img src="../../../../static/m20.png" alt="" width="100%">
-               <br><br>
-               Once you add office locations those location available will display in public holiday page from where you can add public holidays based on locations. These locations will show up in office location dropdown of add user panel. Public holidays and weekend leaves works for user based on location or office location
-               <br><br>
-               <li><h6>	Leave Type Setting: </h6>Here you can add new leave type by clicking on add button and entering all the details.
-               <br>
-               <img src="../../../../static/m21.png" alt="" width="100%">
-               <br><br>
-               <ol type="i">
-                   <li><b>Status:</b> If it is enabled, it will display in apply leave form and user can apply for that leave.</li>
-                   <li><b>Accrual:</b> Leave accrual can be enabled for as per your requirement. (In Advance setting accrual leave should be enabled and then select accrual type). </li>
-                   <li><b>Homepage:</b> If this is enabled, it will display in home page as Leave Status.</li>
-                   <li><b>Partial Day:</b> if this is enabled for particular leave, user can able to apply leave for partial day (0.5 or 0.25 leave).</li>
-                   <li><b>Leave Notice in Advance:</b> You can enter the number of days you want the leaves to applied in advance.</li>
-                   <li><b>Secondary Approver:</b>You can select HR or manager of manager or any user as seconder approver. Select HR or MoM check box and enable switch. You can type person in people picker box, click on save button and enable switch.
-                    If Fist approver (i.e., Manager of user) approve the leave request, request goes to second approver. <br>
-                    Note: You can also make some second approver as auto approver from the advance settings, there you have to select the job title for second approver and cancel.
-                    
-                     </li>
-                   <li> <b>Tertiary approver:</b> You can select HR or manager of manager or any selected email id as tertiary approver</li>
-               </ol>
-               <br>
-               <li><h6>	Advance Settings </h6>From here you can add approvers, notifications to approvers, allow negative leaves, change date format, theme color, company or brand logo and icon, Graph API Integration and Auto approvals etc.
-                <br>
-                <img src="../../../../static/m22.png" alt="" width="100%">
-            <ol type="i">
-                <li>Calculate leaves Include Weekends / Holidays: In case you want to include weekends as leaves, you can enable switch. Users are allowed to apply leaves for weekend </li>
-                <li><b>HR Approvers:</b> You can add HRs for approvers by entering their names.</li>
-                <li><b>Additional Approvers:</b> If you want the leaves to be approved by additional approvers, you can enable it.</li>
-                <li><b>Remainder notifications to approvers:</b> If any approver forgets to approve the leave, a remainder email notification will be sent if this in enabled.</li>
-                <li><b>Allow Negative Leaves:</b> If this is enabled, users are allowed to request the leaves even thou leaves are not available </li>
-                <li><b>Allow Backdate Leaves:</b> If this is enabled, users are allowed to request past can be allowed to submit back date leaves by X days</li>
-                <li><b>Leave Accrual:</b> It is the amount of vacation time that an employee has earned as per a company's employee benefits policy, you can enable it if you want.</li>
-                <li><b>Allow External Domains:</b> You can add External or guest user's domains separated by comma, e.g.: xyz.com, abc.com. You can allow guest user to request the leaves.
-                    First provide SharePoint site permission where Time off is hosted, add users in from user page from side navigation panel.
-                    </li>
-                    <li><b>Annual Leave Start Date and Annual Leave End Date:</b> You can mention the annual leave start date and end date here. If accrued leaves are enabled, leaves will be calculated and allocated to users based on these date and date of joining of the candidate. </li>
-            </ol>
-            </li>
-            <br>
-            <p>
-                <b>Example</b>
-                <div class="example">
-                    let say
-                    <br>
-                    candidate joining date = 15 <sup>th</sup> March 2021.
-                    <br>
-Annual Start date= 1 <sup>st</sup> Jan 2021 <br>
-Annual End Date = 31<sup>st</sup> Dec 2021. <br>
-Casual Leaves = 24.
-<p>&#10004; If accrued is disabled, candidate allocated leave would be 
-    (24 leaves /12 month) * Remaining months i.e., 9 months = 18 Leaves allocates for a years
-    </p>
-    <p>&#10004;	If accrued is enabled and type is Monthly, for march month allocated leave will be 2 and it increase by 2 on every month.</p>
-    <p>&#10004;	If accrued is enabled and type is quarterly <br>
-        24 leaves/ 3 quarter for year = 8 leaves for each quarter <br>
-       Now (1st quarter= 8 leaves) / 4 months = 2 leaves <br>
-       ∴   2 leaves * 2 months (remaining months to complete one quarter) = 4 leaves allocates in first quarter and then 8 leaves would allocate for in each quarter automatically.
-       </p>
-       <p>Allocated leaves </p>
-                </div>
-            </p>
-            <ol type="a">
-            <li><b>Date Format:</b> If you change the date format, it will update in entire application.</li>
-            <br>
-            <li><b>Work Week:</b> In this table add 0 in the cell for weekend Leave calculation will be done based on work days.</li>
-            <br>
-            <li><b>Maximum Allowed Leaves to Carry Forward Next Year:</b> You can enter the maximum number of leaves that can be carry forwarded.</li>
-            <br>
-            <li><b>Enable External Users:</b> You can enable it if you want to allow external users.</li>
-            <br>
-            <li><b>Leaves Based On:</b> Leaves are based on 3 categories: If you want to enable it just select check box and click on save button</li>
-            <ol>
-                <li><b>Regular:</b>  Here you can enter the total number of leaves. This leave allocates for all users based on date of joining and accrued (optional). If you want change leave for particular user, it can we done from user page.</li>
-              <br>
-                <img src="../../../../static/m23.png" alt="" width="100%">
-                <br><br>
-                <li>	<b>Level Based Leaves:</b> If this is enabled, level-based leaves and grades options 
-                    Will display under systems settings from where we have to first define grades for different job tile in grades then we have added leaves numbers for such grades from leave based option 
-                    </li>
-                    <br>
-                    <img src="../../../../static/m24.png" alt="" width="100%">
-                    <br><br>
-                <li>	<b>Tenure Based Leaves:</b>  If this is enabled, tenure-based leaves options., will display under systems settings from we you can assign leaves based on tenure </li>
-                <br>
-                <img src="../../../../static/m25.png" alt="" width="100%">
-            </ol>
-            <br>
-            <li><b>Brand Logo:</b> If you update your company/brand logo, it will update on the top of side navigation panel.</li>
-            <br>
-            <li>	<b>Predefined Themes:</b> You can select any of the theme color from the given colors only.</li>
-            <br>
-            <li><b>Internal Data list Path:</b> We recommend to use the data list externally so that it can connect to Power BI & Power Automate. </li>
-            <br>
-            <li>	<b>Allow Microsoft 365 users to access app by default:</b> By turning off, users will get access denied page if they are not added in the application. If this enable then user open the time off manager from application URL or from site content of SharePoint site, user would add in application automatically then we can edit and assign location</li>
-            <br>
-            <li><b>Enable advance features - vacation in outlook, etc.:</b> To show leaves in calendar of user and manager, we can configure graph API.</li>
-            <br>
-            <li><b>Auto approval of secondary approvers:</b> You can enter the job title of users for secondary approvers. </li>
-            <br>
-            <li><b>Auto approval of tertiary approvers:</b> You can enter the job title of users for tertiary approvers.</li>
-            <br>
-            <li><b>Auto Approval Exception:</b> You can mention leave types if  you don't want to auto approval from auto approvers.</li>
-            <br>
-            <li>	<b>Remainder notifications to approvers:</b> Manger will get notified if there is any pending leave request of their employees</li>
-            <br>
-            <li><b>Add Comp off Policy (in Days):</b> Here number can be entered in days that user can allowed to send add comp request for worked days within specified past days</li>
-            <br>
-            <li><b>Avail Comp off Policy (in Days):</b> Here number can be entered in days so that users are allowed to take the comp off leave within specified time period else comp leave will be cancelled </li>
-        </ol>
-           </ol>
+               <li><h6>Office Locations </h6>
+             
+               <li><h6>	Leave Type Setting</h6>
+            
+               <li><h6>	Advance Settings </h6>
+                
+           
+            
            
      
         </div>
