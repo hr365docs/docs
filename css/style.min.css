@@ -57,7 +57,7 @@ img {
   }s
   
   
-  .close {
+  .close_bt {
     color: #000;
     position: absolute;
     top: 3px;
@@ -66,8 +66,8 @@ img {
     font-weight: 500;
   }
   
-  .close:hover,
-  .close:focus {
+  .close_bt:hover,
+  .close_bt:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
