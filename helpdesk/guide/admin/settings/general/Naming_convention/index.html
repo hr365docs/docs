@@ -104,7 +104,7 @@
                                 class="sidelist
     active">
                                 <a href="../../../../admin/">
-                                    Admin-Guide
+                                    Admin Guide
                                 </a>
                                 <ul>
                                     <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
@@ -376,21 +376,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -438,15 +438,19 @@
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Naming Convention
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br>
-                            From here, you can rename display title, company name and application title. Click the <b>configure</b> button of <b>Naming Convention</b>, this displays <b>Naming Convention</b> page. 
+                          
+                            <p>
+                                From here, you can rename the display title, company name, and application title. Click the <b>configure</b> button of the <b>Naming Convention</b>, this displays the <b>Naming Convention</b> page. 
+                            </p>
                                
-                                <br><br>
+                                
                                 <div><img src="configure.png" onclick="openModal('configure.png')" alt="" width="100%"
                                     height="auto"></div>
-                                    <br>
+                                 <br>
+                                   <p>
                                     Enter the name and click on save icon.
-                                    <br><br>
+                                   </p>
+                                    
                                 <div><img src="name.png" onclick="openModal('name.png')" alt="" width="100%"
                                     height="auto"></div>
                         </div>
@@ -465,9 +469,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+      
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -506,7 +510,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+           function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                       
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

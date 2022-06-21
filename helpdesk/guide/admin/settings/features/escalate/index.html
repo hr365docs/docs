@@ -105,7 +105,7 @@
                                 class="sidelist
     active">
                                 <a href="../../../../admin/">
-                                    Admin-Guide
+                                    Admin Guide
                                 </a>
                                 <ul>
                                     <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
@@ -378,21 +378,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -437,21 +437,25 @@
                         <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Escalate tickets
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Escalate Tickets
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br>
-                            From here, you can escalate any issue if ticket is not resolved within the specific time interval.
-                            <br><br>
-                            To esalate the issue, follow the steps:
-                            <br><br>
+                           
+                          <p>
+                            From here, you can escalate any issue if the ticket is not resolved within a specific time interval.
+                          </p>
+                       
+                            <p>
+                                To esalate the issue, follow the steps:
+                            </p>
+                           
                             <ol>
                                 <li>
-                                    Go to home page and click the <b>Ticket ID</b> to open comment page.
+                                    Go to home page and click the <b>Ticket ID</b> to open the comment page.
                                 </li>
                                 <br>
                                 <li>
-                                    In comment page, click the <b>Escalate</b> button, this displays wordpad to write the comments.
+                                    On comment page, click the <b>Escalate</b> button, this displays wordpad to write the comments.
                                     <br><br>
                                 <div><img src="escalate_.png" onclick="openModal('escalate_.png')" alt="" width="100%"
                                     height="auto"></div>
@@ -491,9 +495,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+        
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -532,7 +536,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+            function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                      
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

@@ -101,7 +101,7 @@
                                 class="sidelist
     active">
                                 <a href="../../../admin/">
-                                    Admin-Guide
+                                    Admin Guide
                                 </a>
                                 <ul>
                                     <li data-nav-id="./installation/requirments/" title=Requirments
@@ -380,21 +380,21 @@
                                                           <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                               <ul class="sidenavSub-topics"></ul>
                                                               <a href="../../settings/features/use_team/">
-                                                            Use team code as ticket suffix
+                                                            Use Team Code as Ticket Suffix
                                                               </a>
                                       
                                                           </li>
                                                           <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                               <ul class="sidenavSub-topics"></ul>
                                                               <a href="../../settings/features/create_ticket_automatically/">
-                                                              Create ticket automatically
+                                                              Create Ticket Automatically
                                                               </a>
                                       
                                                           </li>
                                                           <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                               <ul class="sidenavSub-topics"></ul>
                                                               <a href="../../settings/features/auto_close_ticket/">
-                                                              Auto close Tickets
+                                                              Auto Close Tickets
                                                               </a>
                                       
                                                           </li>
@@ -440,12 +440,12 @@
                         <!-- <h2 class=mb-5 id=title> </h2> -->
                         <div class="bg-light p-4">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Kanban view<i class="fas fa-link"
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Kanban View<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
                            
                             
                            <p> To create new tickets in kanbal view, follow the below steps:</p>
-         <br><br>
+        
         <ol>
             <div><img src="kanban.png" onclick="openModal('kanban.png')" alt="" width="100%"
                 height="auto"></div><br>
@@ -470,7 +470,7 @@
         </ol>
        
        <p> To assign tickets in kanbal view, follow the below steps:</p>
-        <br><br>
+    
         <ol><div><img src="assigne_.png" onclick="openModal('assigne_.png')" alt="" width="100%"
             height="auto"></div><br>
             <br>
@@ -505,9 +505,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+        
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -546,7 +546,16 @@
     </footer>
     <script src="../../../../js/script.min.js"></script>
     <script>
-                               
+            function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                      
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

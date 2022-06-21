@@ -105,7 +105,7 @@
                                 class="sidelist
     active">
                                 <a href="../../../../admin/">
-                                    Admin-Guide
+                                    Admin Guide
                                 </a>
                                 <ul>
                                     <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
@@ -378,21 +378,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -437,26 +437,36 @@
                         <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Canned responses
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Canned Responses
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br>
+                        
 
-                            From here admin, supervisor can create responses which will be visible in comment page. There is global canned response, my canned response, and my signature.
-                                <br>
-                                <br>
-                                <b>Global canned response</b>: This response will display for admin and supervisor in comment page (click on ticket id to open comment page) whoever would be created.
-                                <br>
-                                <br>
-                                <b>My canned response and my signature</b>: This response will display for admin and supervisor in comments page (click on ticket id from home page to open the comments page) only if they create.
-                                <br>
-                              <br>
+                            <p>
+                                Canned response settings is available for all admin, supervisor and agents in the settings page. These responses can be viewed and used during a ticket comment in the comment page. To use these responses, click on the reply option and then on the canned response, the panel will open, select your response and click on the add button.
+                            </p>
+                              
+                               <p>
+                                There are 3 types of canned response.
+                               </p>
+                                <p>
+                                    <b>Global canned response</b>: These are public responses; all team members can create and use them freely.
+                                    My canned response: These responses are individual or user specific, one who created, can view and use during a ticket comment in the comment page.
+                                </p>
+                               
+                                <p>
+                                    <b>My signature</b>: All team members can set their own default signature. The default signature comes up on the comment page during ticket comments. These responses or signatures are individual-specific.
+                                </p>
+                                
                               <div><img src="can.png" onclick="openModal('can.png')" alt="" width="100%"
                                 height="auto"></div>
                                 <br>
-                                <br>
+                                <div><img src="canned_re.png" onclick="openModal('canned_re.png')" alt="" width="100%"
+                                    height="auto"></div>
+                               <p>
                                 To create the <b>Canned Responses</b>, follow the below steps:
-                                <br>
+                               </p>
+                                
                                 <div class="notices note">
                                     <div class="paragraph">
                                         <p>Applicable for global canned response, my canned response, and my signature.</p>
@@ -466,8 +476,6 @@
                                 <ol>
                                     <li>
                                         Go to the <b>Settings</b>, click <b>Canned Responses</b> under <b>Features</b>.
-                                        <br>
-                                    
                                     </li>
                                     <br>
                                     <li>
@@ -481,7 +489,7 @@
                                     <li>
                                         Enter <b>Canned Response Title</b> and <b>Canned Message</b>.
                                         <br>
-                                        <br>
+                                     
                                         <!-- <div><img src="global_canned.png" onclick="openModal('global_canned.png')" alt="" width="100%"
                                             height="auto"></div> -->
                                     </li>
@@ -516,9 +524,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+        
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -557,7 +565,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+            function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                      
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

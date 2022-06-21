@@ -375,21 +375,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -438,7 +438,7 @@
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                                             From here admin can edit the email notification body or can disable the email notification. 
                                             <br>
-                                            There are different notifications that are sent to admin, supervisor, assignee and requesters based on different actions on tickets as per email notification settings.
+                                            Different notifications are sent to admin, supervisor, assignee, and requesters based on different actions on tickets as per email notification settings.
                                             <br><br>
                                 <div><img src="notification.png" onclick="openModal('notification.png')" alt="" width="100%"
                                     height="auto"></div>
@@ -460,9 +460,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+       
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -501,7 +501,16 @@
     </footer>
     <script src="../../../../js/script.min.js"></script>
     <script>
-                               
+          function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                        
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

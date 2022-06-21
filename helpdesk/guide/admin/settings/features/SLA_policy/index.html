@@ -105,7 +105,7 @@
                                 class="sidelist
     active">
                                 <a href="../../../../admin/">
-                                    Admin-Guide
+                                    Admin Guide
                                 </a>
                                 <ul>
                                     <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
@@ -378,21 +378,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -437,19 +437,25 @@
                         <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>SLA policy
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>SLA Policies
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br>
-                            An SLA policy (service level agreement) lets you set standards of performance. They're like a target, or a deadline, within which your support team is expected to resolve tickets. If any of the policy is breach, mail notification will escalate to team. 
-                            <br>
-                            <br>
+                          
+                            <p>
+                                An SLA policy (service level agreement) lets you set standards of performance. They're like a target, or a deadline, within which your support team is expected to resolve tickets. If any of the policies are breached, mail notification will escalate to the team. 
+                            </p>
                             
-                            You can either enable single SLA policy or have both SLA policies for all tickets.
-                            <br>
-                           By default SLA policy are disable, you can enable it by clicking <b>Enable SLA</b> toggle switch.
-                                <br>
-                                <br>
+                            <p>
+                                You can either enable a single SLA policy or have both SLA policies for all tickets.
+                            </p>
+                          
+                            
+                            <p>
+                                By default SLA policies are disabled, you can enable it by clicking <b>Enable SLA</b> toggle switch.
+                            </p>
+
+
+                    
                                 <div><img src="SLA.png" onclick="openModal('SLA.png')" alt="" width="100%"
                                     height="auto"></div>
                                     <br>
@@ -477,9 +483,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+      
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -518,7 +524,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+           function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                       
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

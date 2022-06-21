@@ -51,30 +51,30 @@ img {
     position: relative;
     background-color: #f4f4f4;
     margin: 0px auto;
-    padding: 0;
-    width: 92%;
+    padding: 20px;
+    width: 90%;
     max-width: 1200px;
-  }
+  }s
   
   
-  .close {
+  .close_bt {
     color: #000;
     position: absolute;
-    top: 10px;
-    right: 25px;
+    top: 3px;
+    right: 7px;
     font-size: 25px;
     font-weight: 500;
   }
   
-  .close:hover,
-  .close:focus {
+  .close_bt:hover,
+  .close_bt:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
   }
   
   .mySlides {
-    display: none;
+    display: block;
   }
   
   .cursor {

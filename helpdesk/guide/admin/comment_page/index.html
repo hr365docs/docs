@@ -374,21 +374,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../settings/features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../settings/features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../settings/features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -434,34 +434,36 @@
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Comment Page
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br>
-                            You will redirect to comments page of particular ticket once you click on ticket id or title from home page. 
-                            <br><br>
+                            
+                           <p>
+                            You will redirect to comments page of particular ticket once you click on <b>Ticket ID</b> or <b>Title</b> from home page.
+                           </p> 
+                            
                             <ul class="ul_li_styles">
                                 <li>
                                 From this page you can assign and update the status of the tickets.
                                 </li>
                               
                                 <li>
-                                You can reply to the ticket
+                                You can reply to the tickets.
                                 </li>
                                 <li>
-                                You can merge the ticket using Ticket ID
-                                </li>
-                             
-                                <li>
-                                    You can consult to team member before transfering of the Tickets
-                                </li>
-                                <li>
-                                    You can  transfer the ticket from one department to another.
+                                You can merge the ticket using Ticket ID.
                                 </li>
                              
                                 <li>
-                                    You can add private notes for agents reference.
+                                    You can consult to team member before transferring of the Tickets.
+                                </li>
+                                <li>
+                                    You can transfer the ticket from one department to another.
+                                </li>
+                             
+                                <li>
+                                    You can add private notes for the agent's reference.
                                 </li>
                               
                                 <li>
-                                    You can  split the ticket.
+                                    You can split the ticket.
                                 </li>
                                 
                                 <li>
@@ -477,7 +479,7 @@
                                 </li>
 
                             </ul>
-                            <br><br>
+                           <br>
                             <div><img src="comment.png" onclick="openModal('comment.png')" alt=""
                                 width="100%" height="auto"></div>
                                 
@@ -499,9 +501,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+       
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -540,7 +542,16 @@
     </footer>
     <script src="../../../../js/script.min.js"></script>
     <script>
-                               
+          function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                        
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

@@ -105,7 +105,7 @@
                                 class="sidelist
     active">
                                 <a href="../../../../admin/">
-                                    Admin-Guide
+                                    Admin Guide
                                 </a>
                                 <ul>
                                     <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
@@ -377,21 +377,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist active">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -436,12 +436,12 @@
                         <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Auto Close tickets
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Auto Close Tickets
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
                            
                             
-                           <p> If this is enabled, the ticket will automatically change the status from resolved to closed, once the ticket is in resloved status compltete the specified time interval. This feature works once the power automate setup in your tenant. Please contect for help appsupport@hr365.us</p>
+                           <p> If you enable this feature, resolved tickets close automatically at a specified time (ticket status changes from resolved to closed). Once the ticket is resolved and there is no action on the ticket (no comments or modification) within the specified time, the ticket closes automatically else the ticket remains resolved. This feature works on power automate, please contact HR365 to configure it.</p>
                                 <div><img src="auto_close_ticket.png" onclick="openModal('auto_close_ticket.png')" alt="" width="100%"
                                     height="auto"></div>
 
@@ -462,9 +462,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+       
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -503,7 +503,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+           function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                       
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

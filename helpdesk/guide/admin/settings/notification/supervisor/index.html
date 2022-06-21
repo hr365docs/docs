@@ -377,21 +377,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -441,17 +441,18 @@
                             </h2>
                             
 
-                            The admin can edit the email notification body in email templates and can disable or stop notifications sent to the supervisor. To disable the notification, open the template, uncheck the Active check box and click on the Save button. Following are the different actions on the tickets that lead to sending email notifications to the supervisor.
-                                <br><br>
+                            <p>
+                                The admin can edit the email notification body in email templates and can disable or stop notifications sent to the supervisor. To disable the notification, open the template, uncheck the Active check box and click on the Save button. Following are the different actions on the tickets that lead to sending email notifications to the supervisor.
+                            </p>
+                                
                             <ul class="ul_li_styles">
                                 <li>
                                     When a new ticket creates.
                                 </li>
                                 <li>
-                                    When a sub ticket is created from the main ticket
+                                    When a sub ticket is created from the main ticket.
                                 </li>
                                 </ul>
-                                <br>
                                 <br>
                                 <div><img src="supervisor.png" onclick="openModal('supervisor.png')" alt="" width="100%"
                                     height="auto"></div>
@@ -473,9 +474,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+        
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -514,7 +515,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+          function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                        
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

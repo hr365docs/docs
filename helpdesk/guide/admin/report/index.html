@@ -105,7 +105,7 @@
                                 class="sidelist
     active">
                                 <a href="../../admin/">
-                                    Admin-Guide
+                                    Admin Guide
                                 </a>
                                 <ul>
                                     <li data-nav-id="./installation/requirments/" title=Requirments
@@ -374,21 +374,21 @@
                                                           <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                               <ul class="sidenavSub-topics"></ul>
                                                               <a href="../settings/features/use_team/">
-                                                            Use team code as ticket suffix
+                                                            Use Team Code as Ticket Suffix
                                                               </a>
                                       
                                                           </li>
                                                           <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                               <ul class="sidenavSub-topics"></ul>
                                                               <a href="../settings/features/create_ticket_automatically/">
-                                                              Create ticket automatically
+                                                              Create Ticket Automatically
                                                               </a>
                                       
                                                           </li>
                                                           <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                               <ul class="sidenavSub-topics"></ul>
                                                               <a href="../settings/features/auto_close_ticket/">
-                                                              Auto close Tickets
+                                                              Auto Close Tickets
                                                               </a>
                                       
                                                           </li>
@@ -436,21 +436,27 @@
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Reports
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br>
+                         
                             <ul>
                                 
-                                    Here Admin, Supervisor can view and generate reports. Here you can filter the tickets information for selected dates, assigned to, teams (department or group), status, due date, comment and prioity. First filter the tickets as per your requirement and then do export to excel or export to excel with comment.
-                                    <br>
-                                    <br>
+                                    <p>Admin, and Supervisor can view and generate reports. First, filter the ticket information for selected dates, assigned to, teams (department or group), status, due date, comment, and priority as per your requirement and then do <b>export to excel</b> or <b>export to excel with comments</b>.</p>
+                                   
                                     <div><img src="report_.png" onclick="openModal('report_.png')" alt="" width="100%"
                                         height="auto"></div>
-                                        <br><br>
-                                        From here admin and supervisor can get the information about the number of tickets based on the ticket status and tracked time that is assigned to the agents. Admin can get the ticket information of all the teams' agents whereas supervisor can only their teams' agents. To fetch information based on date range, first select date rang, teams from the filter dropdown as per your requirement, and click on the filter icon. Click on the export to excel button to get the fetched information into an excel file.
-                               
-                               
-
-                               
-                                    <br>
+                                      <br>
+                                        <b><h4>Agent Report</h4></b>
+                                        <p>From here admins and supervisors get the report of the number of tickets that were assigned to the agents based on the ticket status and tracked time.</p>
+                                        <p>
+                                            Admin gets the ticket information of all the teams' agents whereas supervisor gets only their teams' agents.
+                                        </p>
+                                        <p>
+                                            To fetch information based on the date range. First, select the date range and then teams from the filter dropdown as per your requirement, and click on the filter icon. 
+                                        </p>
+                                        <p>
+                                            Click on the <b>Export to Excel</b> button to get the fetched information into an excel file.
+                                        </p>
+  
+                            
                                     <div><img src="agent_report.png" onclick="openModal('agent_report.png')" alt="" width="100%"
                                         height="auto"></div>
                                
@@ -476,9 +482,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+       
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -518,7 +524,16 @@
     <script src="../../../../js/script.min.js"></script>
     <script>
                                
-                              
+                               function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                     
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>

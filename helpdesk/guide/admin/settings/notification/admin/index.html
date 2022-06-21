@@ -375,14 +375,14 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
@@ -438,7 +438,9 @@
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
                           
-                            When a new is created, a notification is sent to the admin. To disable the notification, open the template, uncheck the <b>Active</b> check box and clcik on the <b>Submit</b> button.
+                            When a new is created, a notification is sent to the admin. To disable the notification, open the template, uncheck the <b>Active</b> check box, and click on the <b>Submit</b> button.
+
+
                                 <br><br>
   <div><img src="admin.png" onclick="openModal('admin.png')" alt="" width="100%"
     height="auto"></div>
@@ -460,9 +462,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+      
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -501,7 +503,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+            function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                      
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

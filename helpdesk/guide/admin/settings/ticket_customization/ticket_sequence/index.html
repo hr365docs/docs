@@ -104,7 +104,7 @@
                                 class="sidelist
     active">
                                 <a href="../../../../admin/">
-                                    Admin-Guide
+                                    Admin Guide
                                 </a>
                                 <ul>
                                     <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
@@ -375,21 +375,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -437,18 +437,23 @@
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Ticket Sequence
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br>
+                            
+                          <p>
                             From here you can provide <b>Ticket Name</b> and <b>Ticket Prefix</b>.
-                            <br><br>
+                          </p>
+                           
                                 <div><img src="sequence.png" onclick="openModal('sequence.png')" alt="" width="100%"
                                     height="auto"></div>
-                                    <br>
+                                  <br>
+                                    <p>
+                                        If ticket name is TID and ticket prefix is 100, the ticket ID would be TID#100XXXX.
+                                    </p>
                                    
-                                    If ticket name is TID and ticket prefix is 100, the ticket ID would be TID#100XXXX.
-                                    <br><br>
+                                   
+                                 
                                     <div><img src="ticket_sequence.png" onclick="openModal('ticket_sequence.png')" alt="" width="100%"
                                         height="auto"></div>
-                                        <br>
+                                      
 
                                     <div class="notices note">
                                         <div class="paragraph">
@@ -476,9 +481,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+      
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -517,7 +522,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+           function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                       
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

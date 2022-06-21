@@ -375,21 +375,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -453,7 +453,7 @@
                                                     Able to do all settings.
                                                 </li>
                                                 <li>
-                                                    Able to raise tickets behalf of another person.
+                                                    Able to raise tickets on behalf of another person.
                                                 </li>
                                                 <li>
                                                     Can generate reports of all teams.
@@ -474,10 +474,10 @@
                                             <br>
                                             <ul class="ul_li_styles">
                                                 <li>
-                                                    Able to raise tickets behalf of another person.
+                                                    Able to raise tickets on behalf of another person.
                                                 </li>
                                                 <li>
-                                                    Receives only raised ticket to their department.
+                                                    Receives only raised tickets to their department.
                                                 </li>
                                                 <li>
                                                     Able to assign the tickets based on ticket scopes.
@@ -497,10 +497,10 @@
                                             <br>
                                             <ul class="ul_li_styles">
                                                 <li>
-                                                    Able to raise tickets behalf of another person.
+                                                    Able to raise tickets on behalf of another person.
                                                 </li>
                                                 <li>
-                                                    They can be able to change the status of their assign tickets and can be able to re-assign to others.
+                                                    They can be able to change the status of their assigned tickets and can be able to re-assign to others.
                                                 </li>
                                                 <li>
                                                     Able to assign the tickets based on ticket scopes.
@@ -508,7 +508,7 @@
                                             </ul>
                                             <div class="notices note">
                                                 <div class="paragraph">
-                                                    <p>Based on custom settings, admin, supervisor, and agents can delete the tickets.</p>
+                                                    <p>Based on custom settings, the admin, supervisor, and agents can delete the tickets.</p>
                                                 </div>
                                             </div>
 
@@ -528,9 +528,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+       
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -569,7 +569,16 @@
     </footer>
     <script src="../../../../js/script.min.js"></script>
     <script>
-                               
+            function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                      
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

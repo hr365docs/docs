@@ -104,7 +104,7 @@
                                 class="sidelist
     active">
     <a href="../../admin/">
-        Admin-Guide
+        Admin Guide
     </a>
     <ul>
         <li data-nav-id="./installation/requirments/" title=Requirments
@@ -384,21 +384,21 @@
                                                               <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                                   <ul class="sidenavSub-topics"></ul>
                                                                   <a href="../settings/features/use_team/">
-                                                                Use team code as ticket suffix
+                                                                Use Team Code as Ticket Suffix
                                                                   </a>
                                           
                                                               </li>
                                                               <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                                   <ul class="sidenavSub-topics"></ul>
                                                                   <a href="../settings/features/create_ticket_automatically/">
-                                                                  Create ticket automatically
+                                                                  Create Ticket Automatically
                                                                   </a>
                                           
                                                               </li>
                                                               <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                                   <ul class="sidenavSub-topics"></ul>
                                                                   <a href="../settings/features/auto_close_ticket/">
-                                                                  Auto close Tickets
+                                                                  Auto Close Tickets
                                                                   </a>
                                           
                                                               </li>
@@ -461,15 +461,15 @@
         <br>
         <ul class="ul_li_styles">
             <li>
-                <b>Unassigned</b>: &ensp;Here <b>Admins</b> will receive all raised tickets. From here admin can assign tickets to agents and supervisor.
+                <b>Unassigned</b>: &ensp;All raised tickets will be accessible here to the <b>Admins</b>. From here the admin can assign tickets to agents and supervisors.
             </li>
             <br>
             <li>
-                <b>Team Tickets</b>: &ensp;Here <b>Agents</b> and <b>Supervisors</b> can see tickets assigned to them and their team members.
+                <b>Team Tickets</b>: &ensp;The <b>Agents</b> and <b>Supervisors</b> can see the tickets assigned to them and their team members here.
             </li>
             <br>
             <li>
-                <b>Teams Closed Ticket</b>: &ensp;Here <b>Agents</b> or <b>Supervisors</b> can see tickets those tickets have been closed (Ticket’s status is updated to closed). Admin can see all teams closed tickets.
+                <b>Teams Closed Ticket</b>: &ensp;The <b>Agents</b> or <b>Supervisors</b> can see those tickets which have been closed (Ticket’s status is updated as closed). Admin can view closed tickets of all teams.
             </li>
             <br>
             <li>
@@ -486,15 +486,15 @@
                 height="auto"></div>
               <ul class="ul_li_styles">  <br>
                 <li>
-                    <b>Unassigned</b>:&ensp; Here <b>Admins</b> will receive all raised tickets. From here admin can assign tickets to agents and the supervisor.
+                    <b>Unassigned</b>:&ensp; All raised tickets will be accessible here to the <b>Admins</b>. From here the admin can assign tickets to agents and supervisors.
                 </li>
                 <br>
                 <li>
-                    <b>Team Tickets</b>: &ensp;Here <b>Agents</b> and <b>Supervisors</b> can see tickets assigned to them and their team members.
+                    <b>Team Tickets</b>: &ensp;The <b>Agents</b> and <b>Supervisors</b> can see the tickets assigned to them and their team members here.
                 </li>
                 <br>
                 <li>
-                    <b>Teams Closed Ticket</b>: &ensp;Here <b>Agents</b> or <b>Supervisors</b> can see closed tickets those assigned to them and their team members. Admin can see all teams closed tickets.
+                    <b>Teams Closed Ticket</b>: &ensp;The <b>Agents</b> or <b>Supervisors</b> can see those tickets which have been closed (Ticket’s status is updated as closed). Admin can view closed tickets of all teams. 
                 </li>
                 <br>
                 <li>
@@ -503,7 +503,7 @@
                 <br>
     
             <li>
-                <b>My Tickets</b>:&ensp; Here <b>Agents</b> or <b>Supervisors</b> can see tickets only when assigned to them.
+                <b>My Tickets</b>:&ensp; Respective <b>Agents</b> or <b>Supervisors</b> can view the tickets only when they are assigned to them.
             </li>
             <br>
             <li>
@@ -511,7 +511,7 @@
             </li>
             <br>
             <li>
-                <b>My Closed</b>: &ensp;<b>Admins</b>, <b>Supervisor</b>, and <b>Agent</b> can see their tickets that have been closed. 
+                <b>My Closed</b>: &ensp;<b>Admins</b>, <b>Supervisor</b> and <b>Agent</b> can see their tickets that have been closed. 
                 
             </li>
             
@@ -536,9 +536,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+       
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -577,7 +577,16 @@
     </footer>
     <script src="../../../../js/script.min.js"></script>
     <script>
-                               
+           function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                       
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

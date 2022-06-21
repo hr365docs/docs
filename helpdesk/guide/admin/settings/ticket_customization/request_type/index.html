@@ -376,21 +376,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -435,21 +435,27 @@
                         <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Request type
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Request Type
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br>
+                         
 
-                                Admin can add request types from settings such request type will display in new ticket panel.
-                                <br>
-                                <br>
-                                To create requesttype, follow the below steps:
-                                <br><br>
+                                <p>
+                                    Admin can add request types from settings such request type will display in new ticket panel.
+                                </p>
+                                
+                                
+                               <p>
+                                To create request type, follow the below steps:
+                               </p>
+                               
                                 <ol>
                                     
                                     <li>
+                                       <p>
                                         Click on <b>+New</b>, this displays <b>Add Request Type</b> page. 
-                                        <br><br>
+                                       </p>
+                                       
                                         <div><img src="request_new.png" onclick="openModal('request_new.png')" alt="" width="100%"
                                             height="auto"></div>
                                             <br>
@@ -457,17 +463,24 @@
                                     </li>
                                  
                                     <li>
-                                        Enter <b>Add Request Type</b> and click on <b>Submit</b> button.
-                                        <br><br>
+                                        <p>
+                                            Enter <b>Add Request Type</b> and click on <b>Submit</b> button.
+                                        </p>
+                                      
                                         <div><img src="add.png" onclick="openModal('add.png')" alt="" width="100%"
                                             height="auto"></div>
                                     </li>
                                 </ol> 
+                                <br>
                                 
-                                    <br>
+
+                                   <p>
                                     <b>Delete:</b> Click the delete icon, this displays a dialog box. Click <b>Yes</b> button.
-                                    <br><br>
+                                   </p>
+                                   
+                                   <p>
                                     <b>Edit:</b> You can edit <b>Edit Request Type</b>. Click the edit icon, this displays <b>Edit Request Type</b>. Update the <b>Edit Request Type</b> and click on <b>Submit</b> button.
+                                   </p>
                                 
 
                                 <div><img src="request_type.png" onclick="openModal('request_type.png')" alt="" width="100%"
@@ -490,9 +503,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+        
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -531,7 +544,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+             function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                     
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;

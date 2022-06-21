@@ -105,7 +105,7 @@
                                 class="sidelist
     active">
                                 <a href="../../../../admin/">
-                                    Admin-Guide
+                                    Admin Guide
                                 </a>
                                 <ul>
                                     <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
@@ -377,21 +377,21 @@
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/use_team/">
-                                                      Use team code as ticket suffix
+                                                      Use Team Code as Ticket Suffix
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/create_ticket_automatically/">
-                                                        Create ticket automatically
+                                                        Create Ticket Automatically
                                                         </a>
                                 
                                                     </li>
                                                     <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/auto_close_ticket/">
-                                                        Auto close Tickets
+                                                        Auto Close Tickets
                                                         </a>
                                 
                                                     </li>
@@ -436,21 +436,22 @@
                         <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Auto Assign tickets
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Auto Assign Tickets
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
                             <br>
 
-                            <b>Auto Assign  Tickets</b>: If this is enabled the request sent by users from help desk email ID will directly assigned to team member. 
+                            <b>Auto Assign  Tickets</b>: If you enable this feature ticket gets assigned to the agents automatically. 
                                 <br>
                                 <br>
                             <b>Allow agents to set their availability</b>: If any agent sets their availability off, tickets will not get assigned to that user.
                                 <br><br>
-                               For auto assign, you have two methods. You can select the method. 
+                                There are two types of auto assign tickets method, you can select either one. 
                              <br><br>
-                               <b> Round Robin</b>: Assinging the tickets equally in some rational order.
+                               <b> Round Robin</b>: Assign tickets to the agent in a circular fashion.
                                    <br><br>
-                                   <b>Weighted Round Robin</b>: Assinging the tickets based on the number task. Those  having less task with get the tickets.
+                                   <b>Weighted Round Robin</b>: Assign the tickets to the agents who have the least tickets. Further, select the next agent with the least ticket, also it won't assign simultaneously two tickets to the same person.
+
                                <br><br>
                                 <div><img src="auto_assign_ticket.png" onclick="openModal('auto_assign_ticket.png')" alt="" width="100%"
                                     height="auto"></div>
@@ -472,9 +473,9 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+       
         <div class="modal-content">
-
+            <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
@@ -513,7 +514,16 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-                               
+            function openModal(src) {
+  
+  document.getElementById("imageId").src= src;
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  
+}                      
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
