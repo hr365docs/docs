@@ -90,10 +90,24 @@
                     Introduction
                 </a>  
                 </li>
+
+                <li data-nav-id="../Home-page" title=Home-page class=sidelist>
+                    <a href="../Home-Page/">
+                        Home Page
+                    </a>
+                    </li>
+                
+
             <li data-nav-id="./Setting/" title=Installation class="sidelist active ">
             <a href="../User_Interface/">
             User Interface
             </a>
+
+            <li data-nav-id="../user" title=user class="sidelist">
+                <a href="../Help/">
+               Help
+                </a>
+                </li>
             <!-- <ul class="sidenavSub-topics">
                 
                 </li><ul>
@@ -133,32 +147,56 @@
 
     <div class=col-lg-9>
         <div class="p-lg-5 p-4 bg-white" id=content>
-        <h2 class=mb-5 id=title> Status</h2>
+        <!-- <h2 class=mb-5 id=title> Status</h2> -->
         <!-- <h6>Here we have two option to put app file into the app catalog</h6> -->
         <div class="bg-light p-4">
            
-    
             <div class="status">
-                <h2>Status</h2>
-                <p>You can find status of your submitted timesheets in status tab as shown in below.</p>
-                <div><img src="Capture26.jpg" onclick="openModal('Capture26.jpg')" alt=""width="100%" height="auto"></div>
+                <h4>Status</h4>
+                <p>Here users can see the weekly and daily track time on projects/tasks.
+                     In the weekly panel, the user gets all the submissions of the project 
+                     according to week whereas in the daily panel you will get all the submissions on daily basis.
+                      Here user gets the history of all the submissions till the user is working in the organization.
+
+                </p>
+                <div><img src="userstatus.png" onclick="openModal('Capture26.jpg')" alt=""width="100%" height="auto"></div>
                 <br>
             </div>
+           
             <div class="my-task">
-                <h2>My Tasks</h2>
-                <p>User can be able to find task those which are assigned to them under My task tab as shown in below image.</p>
-                <div><img src="Capture27.jpg" onclick="openModal('Capture27.jpg')" alt=""width="100%" height="auto"></div>
+                <h4>My Tasks</h4>
+                <p> Here user gets maps with the projects/tasks that are assigned to the user. 
+                    The Project/task was assigned by the Manger. On those projects, the user is working all shown in My Task. 
+                    From here user also tracks the time and how many hours the user gives to a particular project.</p>
+                <div><img src="usermyst.png" onclick="openModal('Capture27.jpg')" alt=""width="100%" height="auto"></div>
                 <br>
             </div>
-            <div class="approval">
-                <h2>Approval</h2>
-                <p>Project managers can approve the timesheets from Approval tab, select the week then employee, click on item of
-                    the table, timesheets table with approve and reject button appears from where you can take the action
-                    accordingly</p>
-                    <div><img src="Capture28.jpg" onclick="openModal('Capture28.jpg')" alt=""width="100%" height="auto"></div>
-                    <br>
+
+            <div class="my-task">
+                <h4>Weekly Timesheets</h4>
+                <p>If the user is asked to track time weekly it can be done from the weekly timesheet. 
+                    Those projects which are assigned to the user will show here and the user will select the project and task and fill out the weekly timesheet.
+                      Here users can also write how many hours they give to a particular task and write a memo in which users can write all the activities done on the project. 
+                      (i.e it was 20% completed or the percentage of tasks completed). Here the user was also able to add a new project If the user wants to work on another one.
+
+                </p>
+                <div><img src="userweekly.png" onclick="openModal('Capture27.jpg')" alt=""width="100%" height="auto"></div>
+                <br>
             </div>
-            <div class="Log Weekly timesheets As.">
+
+            <div class="my-task">
+                <h4>Track Time</h4>
+                <p>Here users can submit daily track time for the current day or past day.
+                     To submit it, first select date, select project, tasks display related to selected project in task column dropdown,
+                      select task, add memo in memo column, add time in racker column finally click on save button, added details will appear in below table, 
+                      select the check box and finally click on submit button as shown in below image.</p>
+                <div><img src="usertrack.png" onclick="openModal('Capture27.jpg')" alt=""width="100%" height="auto"></div>
+                <br>
+            </div>
+
+          
+
+            <!-- <div class="Log Weekly timesheets As.">
                 <h2>Log Weekly timesheets As.</h2>
                 <p>By this feature admin and program manager can able to submit timesheets on behalf of the users and by default
                     this feature is disabled, to enable it, go to the settings from side panel under settings, under advance
@@ -204,16 +242,17 @@
                     filtered out as shown in below image. If you click on remind button, a reminder mail will be sent to
                     employee. </p>
                     <div><img src="Capture32.jpg" onclick="openModal('Capture32.jpg')" alt=""width="100%" height="auto"></div>
-            </div>
+            </div> -->
             </div>
            
             <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
 
                 <nav class="pagination mt-3">
-                <a class="nav nav-prev" href="../report/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
-                <span class="d-none d-md-block">Report</span></a>
-                <!-- <a class="nav nav-next" href=https://hr365docs.github.io/docs/employee-directory/linux/ aria-label="Previous page">
-                <span class="d-none d-md-block">Linux</span><i class="ti-arrow-right ml-2"></i></a> -->
+                    <a class="nav nav-prev" href="../Home-Page/"
+                        aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
+                            class="d-none d-md-block">Home Page</span></a>
+                    <a class="nav nav-next" href="../Help/" aria-label="Previous page"> <span
+                            class="d-none d-md-block">Help</span><i class="ti-arrow-right ml-2"></i></a>
                 </nav>
                 </div>
                 </div>
