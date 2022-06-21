@@ -77,9 +77,13 @@ img {
     display: block;
   }
   
-  .cursor {
+  .cursor_bt {
     cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 0px;
   }
+
   ol li {padding-left: 20px;}
   ul.ul_styles li {padding-left: 20px;}
   
