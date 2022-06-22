@@ -161,37 +161,36 @@
 </div>
 </section>
 <div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
+        
     <div class="modal-content">
-
+        <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
         <div class="mySlides">
             <img src="" id="imageId" style="width:100%">
         </div>
 
     </div>
 </div>
+
 <footer class="section pb-4">
     <div class=container>
         <div class="row align-items-center">
             <div class="col-md-8 text-md-left text-center">
-                <p class="mb-md-0 mb-4">© 2022- <a href="https://www.hr365.us/">HR365</a>.&nbsp;<a
-                        href="https://2020.hr365.us/wp-content/uploads/2020/01/HR365-SLA.pdf">SLA</a>.&nbsp;<a
-                        href="https://www.hr365.us/terms-and-conditions/">T&amp;C</a>.&nbsp; <a
-                        href="https://www.hr365.us/end-user-license-agreement-eula/">EULA</a>.&nbsp;<a
-                        href="https://www.hr365.us/privacy/">Privacy Policy</a>.&nbsp; <a
-                        href="https://www.cubiclogics.com" target="_blank" rel="noopener noreferrer">Cubic
-                        Logics</a>.&nbsp;</a></p>
+                <p class="mb-md-0 mb-4">© 2022-<a href=https://www.hr365.us />HR365.</a> <a
+                    href=https://www.cubiclogics.com/wp-content/uploads/2019/11/Cubic-Logics-SLA-Document.pdf>SLA.</a>
+                <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
+                    href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
+                    href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
+            </p>
             </div>
             <div class="col-md-4 text-md-right text-center">
                 <ul class=list-inline>
                     <li class=list-inline-item><a class="text-color d-inline-block p-2"
                             href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                class=ti-facebook></i></a>
-                    </li>
+                                class=ti-facebook></i></a></li>
                     <li class=list-inline-item><a class="text-color d-inline-block p-2"
                             href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                class=ti-twitter-alt></i></a>
-                    </li>
+                                class=ti-twitter-alt></i></a></li>
                     <!-- <li class=list-inline-item><a class="text-color d-inline-block p-2" href=# aria-label=Github><i class=ti-github></i></a></li> -->
                     <li class=list-inline-item><a class="text-color d-inline-block p-2"
                             href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
@@ -201,11 +200,22 @@
         </div>
     </div>
 </footer>
-<script src="../../../../js/script.min.js"></script>
+<script src="../../../../../js/script.min.js"></script>
 <script>
-                               
-                              
+       function openModal(src) {
+
+document.getElementById("imageId").src= src;
+document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+document.getElementById("myModal").style.display = "none";
+
+}                       
+                          
     date = new Date().toLocaleDateString();
     document.getElementById("date").innerHTML=date;
    </script>
 </body>
+
+</html> 
