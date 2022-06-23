@@ -143,102 +143,76 @@
 
     <div class=col-lg-9>
         <div class="p-lg-5 p-4 bg-white" id=content>
-        <!-- <h2 class=mb-5 id=title> Status</h2> -->
-        <!-- <h6>Here we have two option to put app file into the app catalog</h6> -->
+        <!-- <h2 class=mb-5 id=title> </h2> -->
         <div class="bg-light p-4">
-           
+            <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
+                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">User Interface<i class="fas fa-link"
+                        style="font-size:12px; color:lightgray;"></i></a> </h3>
+            <br>
             <div class="status">
-                <h4>Status</h4>
-                <p>
+                <h4>Update Details</h4>
+                <br>
+            </div>
+            <ol>
+                <li><h5>Employee Details</h5>
+                <p>Description</p>
+            
+                <div><img src="detailpanel.png" onclick="openModal('user.png')" alt=""width="100%" height="auto"></div>
+                </li>
+             </ol>
+     
+             <ol>
+                <li><h5>Employee Confidential Details</h5>
+                <p>Description</p>
+                <div><img src="user.png" onclick="openModal('user.png')" alt=""width="100%" height="auto"></div>
+                </li>
+             </ol>
+
+
+             <ol>
+                <li><h5>Work Details</h5>
+                <p>Description</p>
+                <div><img src="user.png" onclick="openModal('user.png')" alt=""width="100%" height="auto"></div>
+                </li>
+             </ol>
+
+             
+             <div class="status">
+                <h4>Upload Documents</h4>
+                <br>
+            </div>
+                <p>Here Users can Upload Documents by clicking on Upload Documents.
+
                 </p>
-                <div><img src="userstatus.png" onclick="openModal('Capture26.jpg')" alt=""width="100%" height="auto"></div>
+            
+                <div><img src="uploaddocmain.png" onclick="openModal('user.png')" alt=""width="100%" height="auto"></div>
                 <br>
-            </div>
-           
-            <div class="my-task">
-                <h4>My Tasks</h4>
-                <p></p>
-                <div><img src="usermyst.png" onclick="openModal('Capture27.jpg')" alt=""width="100%" height="auto"></div>
-                <br>
-            </div>
+                <p>After clicking on Upload Documents you will be redirected to the new page where you can Upload different-different documents as shown below image.
 
-            <div class="my-task">
-                <h4>Weekly Timesheets</h4>
-                <p>
                 </p>
-                <div><img src="userweekly.png" onclick="openModal('Capture27.jpg')" alt=""width="100%" height="auto"></div>
+                
+                <div><img src="uploaddoc1.png" onclick="openModal('user1.png')" alt=""width="100%" height="auto"></div>
                 <br>
+              <p>Here users have to Choose a file and select the file, then click on Open. 
+            </p>  
+            
+              <div><img src="uploaddoc2.png" onclick="openModal('user2.png')" alt=""width="100%" height="auto"></div>
+              <br>
+              
+                
+             
+
+            </div>
+            <nav class="pagination mt-3">
+                <a class="nav nav-prev" href="../Homepage/"
+                    aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
+                        class="d-none d-md-block">Home Page</span></a>
+                <!-- <a class="nav nav-next" href="../Help/" aria-label="Previous page"> <span
+                        class="d-none d-md-block">Help</span><i class="ti-arrow-right ml-2"></i></a> -->
+            </nav>
+            </div>
             </div>
 
-            <div class="my-task">
-                <h4>Track Time</h4>
-                <p></p>
-                <div><img src="usertrack.png" onclick="openModal('Capture27.jpg')" alt=""width="100%" height="auto"></div>
-                <br>
-            </div>
-
-          
-
-            <!-- <div class="Log Weekly timesheets As.">
-                <h2>Log Weekly timesheets As.</h2>
-                <p>By this feature admin and program manager can able to submit timesheets on behalf of the users and by default
-                    this feature is disabled, to enable it, go to the settings from side panel under settings, under advance
-                    settings tab enable “Time tracking delegation by Admin / PM” row toggle switch. </p>
-                <p>First click on weekly timesheets tab, log weekly timesheets dropdown appears, select the user from it and
-                    select the week number, fill the details in timesheetss, and finally click on submit button shown in below
-                    image.</p>
-                    <div><img src="Capture29.jpg" onclick="openModal('Capture29.jpg')" alt=""width="100%" height="auto"></div>
-                <p><b>Note:</b> same step should follow to submit daily timesheets on behalf of the users.</p>
-            </div>
-            <div class="task-status">
-                <h2>Task Status.</h2>
-                <p>Project manager can check task status of their employees from Task Status Tab of home page and notify users
-                    in case of task deadline date is overdue as shown image.</p>
-                    <div><img src="Capture30.jpg" onclick="openModal('Capture30.jpg')" alt=""width="100%" height="auto"></div>
-                    <br>
-                <p>Here you can filter task status from filters and can exports filtered data in to excel file, just click on
-                    export link at right top of the table.
-                    <br>
-                    <br>
-                    To notify the users about their task status, select the items in action column, click on notify button,
-                    popup will display and add the comments and click on submit button, users will get notified through mail
-                </p>
-            </div>
-            <div class="self-assign-task">
-                <h2>8. Self-Assign Task (or Home page task tab).</h2>
-                <p>Users can create their tasks by their own from task tab as shown in below image, by default it is disabled,
-                    admin can enable it from settings from side panel, under settings, under feature tab, enable toggle switch
-                    for “Self-Assign Task” row.</p>
-                    <div><img src="Capture31.jpg" onclick="openModal('Capture31.jpg')" alt=""width="100%" height="auto"></div>
-                    <br>
-                <p><b> Allow self-assign task billable -</b> By default this feature is disabled or billable is No in Add task
-                    page as shown in above image, when it is enable users are allowed to create billable tasks, admin can enable
-                    it from settings from side panel, under settings, under feature tab, enable toggle switch for “Allow
-                    self-assign task billable” row.</p>
-            </div>
-            <div class="pending">
-                <h2> Pending weekly timesheets</h2>
-                <p>By default it is disable, Admin can enable it from settings under general tab in “Show pending weekly
-                    timesheets from” row. select on from dropdown list and click on save settings button. Then you can able to
-                    see it in side panel under timesheets. </p>
-                <p>Select the filters based on your requirement and click on apply filters then all pending timesheetss will be
-                    filtered out as shown in below image. If you click on remind button, a reminder mail will be sent to
-                    employee. </p>
-                    <div><img src="Capture32.jpg" onclick="openModal('Capture32.jpg')" alt=""width="100%" height="auto"></div>
-            </div> -->
-            </div>
-           
-            <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-
-                <nav class="pagination mt-3">
-                    <a class="nav nav-prev" href="../Homepage/"
-                        aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                            class="d-none d-md-block">Home Page</span></a>
-                    <!-- <a class="nav nav-next" href="../Help/" aria-label="Previous page"> <span
-                            class="d-none d-md-block">Help</span><i class="ti-arrow-right ml-2"></i></a> -->
-                </nav>
-                </div>
-                </div>
                 </div>
                 </div>
             </section>
