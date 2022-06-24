@@ -58,7 +58,7 @@
 <a class="nav-link text-dark active-dark" href="../../../../helpdesk/"> Helpdesk</a>
 </li>
 <li class=nav-item>
-<a class="nav-link text-dark" href="../../../../time-off-manger/">Time Off Manager</a>
+<a class="nav-link text-dark" href="../../../../time-off-manager/">Time Off Manager</a>
 </li>
 <li class=nav-item>
 <a class="nav-link text-dark" href="../../../../timesheets/">Timesheets</a>
@@ -102,9 +102,9 @@
     Home Page
     </a>
         </li>
-        <li data-nav-id="./User-Interface/" title=User-Interface class="sidelist ">
-            <a href="../User-Interface/">
-            User Interface
+        <li data-nav-id="./User-Interface/" title=Help class="sidelist ">
+            <a href="../help/">
+                Help
             </a>
            </li>
     </ul>
@@ -115,12 +115,13 @@
         <div class="p-lg-5 p-4 bg-white" id=content>
         <!-- <h2 class=mb-5 id=title> </h2> -->
         <div class="bg-light p-4">
-            <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Home Page<i class="fas fa-link"
-                        style="font-size:12px; color:lightgray;"></i></a> </h3>
-            <ol><div><img src="home.png" onclick="openModal('home.png')" alt=""width="100%" height="auto"></div>
-                <p>In the Helpdesk application, the home page is the first page, where users can:
-                    <ol>
+           
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Home Page<i class="fas fa-link"
+                        style="font-size:12px; color:lightgray;"></i></a> </h2>
+          
+            
+                <p>In the Helpdesk application, the home page is the first page, where users can</p>
+                    <ul class="ul_li_styles">
                         <li>
                             	Raise tickets for any service.
                         </li>
@@ -133,54 +134,76 @@
                         <li>
                             	Edit the properties, View Ticket history, and download the ticket details on the comment page.
                         </li>
-                    </ol> </p> 
-                    <br>
-                    <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Home Page<i class="fas fa-link"
-                                style="font-size:12px; color:lightgray;"></i></a> </h3>
-                    
-                    <ol><div><img src="home.png" onclick="openModal('home.png')" alt=""width="100%" height="auto"></div>
-                        <p>In the Helpdesk application, the home page is the first page, where users can:
-                            <ol>
-                                <li>
-                                        Raise tickets for any service.
-                                </li>
-                                <li>
-                                        View the status of the tickets.
-                                </li>
-                                <li>
-                                        Reply to the service provider for any updates.
-                                </li>
-                                <li>
-                                        Edit the properties, View Ticket history, and download the ticket details on the comment page.
-                                </li>
-                            </ol> </p>
-
-   <ul>
-       <li><b>New Ticket:</b>From here, users can raise tickets for any service. To raise tickets see, <a href="../User-Interface/"> user interface.</a>
-    
-    <div><img src="new_ticket.png" onclick="openModal('new_ticket.png')" alt=""width="100%" height="auto"></div></li>
-       <br>
-       
-       
-       <b>My Ticket:</b>From here, the user can view ticket details and recently raised tickets.
-    <br><br>
-    <div><img src="my_ticket.png" onclick="openModal('my_ticket.png')" alt=""width="100%" height="auto"></div>
-       <br>
-       <li>
-        <b>Comment Page: From</b>
-       </li>
-       <li>
-        <b>Ticket History:</b>
-       </li>
-       <li>
-        <b>Download ticket details:</b>
-       </li>
-    </li>
-      
-   </ul>
+                        <br>
+                        <div><img src="home.png" onclick="openModal('home.png')" alt=""width="100%" height="auto"></div>
+                    </ul> 
+                  <br>
+                   
+                    <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">New Ticket<i class="fas fa-link"
+                        style="font-size:12px; color:lightgray;"></i></a> </h2>
+                        <p>
+                            From here, users can raise tickets for any service. To raise tickets, follow the below steps:
+                        </p>
+           
+            <ol>
+                
+               <li>
+                <p>Click on the <b>New ticket</b> on the Home page, this displays the new ticket page.</p>
+        
+                <div><img src="new_ticket.png" onclick="openModal('new_ticket.png')" alt=""width="100%" height="auto"></div>
+               </li>
+               <br>
+                <li>
+                    <p>Enter the <b>Title</b>, <b>Services</b>, <b>Services</b>, and <b>Ticket description</b>.</p>
+                   
+                    <div><img src="user2.png" onclick="openModal('user2.png')" alt=""width="100%" height="auto"></div>
+                   
+                </li>
+                <br>
+             <li>
+                <p>Click on the <b>Submit</b> button. The user will receive a mail for the applied ticket.</p>
+               
+                    <div><img src="mail.png" onclick="openModal('mail.png')" alt=""width="100%" height="auto"></div>
+             </li>
+                
              </ol>
-     
+            <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">My Ticket<i class="fas fa-link"
+                style="font-size:12px; color:lightgray;"></i></a> </h2>
+                <p>
+                    From here, the user can view ticket details and recently raised tickets.
+                </p>
+    <div><img src="my_ticket.png" onclick="openModal('my_ticket.png')" alt=""width="100%" height="auto"></div>
+    
+        <p>
+            <br>
+            <b>Comment Page:</b> Click the <b>Ticket ID</b> or <b>Title</b> to open the comment page. From here you can view comment properties, ticket history, etc. To reply on the comment page, click the reply button and write comments. Finally, click on the update button.
+            <br>
+            <div><img src="reply.png" onclick="openModal('reply.png')" alt=""width="100%" height="auto"></div>  
+            <br>
+            <div><img src="up_date.png" onclick="openModal('up_date.png')" alt=""width="100%" height="auto"></div>  
+        </p>
+       
+        <br>
+      
+      <br>
+       <p>
+        <b>Ticket History:</b>On the comment page, you can view ticket history. To view, click on <b>Click here</b> on Ticket history
+             <br>
+             <div><img src="history.png" onclick="openModal('history.png')" alt=""width="100%" height="auto"></div>
+             <br>
+             <div><img src="ticket_history.png" onclick="openModal('ticket_history.png')" alt=""width="100%" height="auto"></div>
+       </p>
+       <br>
+       <p>
+        <b>Download ticket details:</b>
+        On the comment page, you can download ticket details. Click on the download icon next to the ticket title.
+      
+        <br>
+             <div><img src="download.png" onclick="openModal('download.png')" alt=""width="100%" height="auto"></div>
+             
+       </p>
+      
+    
             </div>
             <nav class="pagination mt-3">
                 <a class="nav nav-prev" href="../Getting-Started/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Getting started</span></a>
