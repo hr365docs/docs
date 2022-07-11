@@ -6,7 +6,7 @@
     <title>Helpdesk</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
-    <meta name=description content="Helpdeskss">
+    <meta name=description content="Helpdesk">
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
     <link rel=icon href=https://hr365docs.github.io/docs/images/favicon.png type=image/x-icon>
@@ -131,12 +131,13 @@
                                 
                                     </li>
                                    
+                                    
+
                                     <li data-nav-id="./installation/requirments/" title=Requirments class="sidelist">
                                         <a href="../../../comment_page/">
                                             Comment Page
                                         </a>
                                     </li>
-
                                     <li data-nav-id="./Settings/" title=./Settings/ class="sidelist ">
                                         <ul class="sidenavSub-topics">
                                             <a href="../../../settings/">
@@ -224,7 +225,6 @@
                                                    Recycle Bin
                                                 </a>
                                             </li>
-
 
 
                                         </ul>
@@ -360,7 +360,7 @@
                                 
                                                     </li>
                                               
-                                                    <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist active">
+                                                    <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
                                                         <ul class="sidenavSub-topics"></ul>
                                                         <a href="../../features/SLA_policy/">
                                                          SLA Polices
@@ -438,12 +438,12 @@
                                                         </a>
                                 
                                                     </li>
-                                                    <!-- <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist">
+                                                    <li data-nav-id="./Add Assets/" title=Add-Assets class="sidelist active">
                                                         <ul class="sidenavSub-topics"></ul>
-                                                        <a href="../../features/ticket_due_date/">
-                                                       Tickets Due tickets
+                                                        <a href="../../features/new_tab/">
+                                                            Open Tickets in New Tab
                                 
-                                                    </li> -->
+                                                    </li>
                             </li>
                             </li>
                         </ul>
@@ -458,34 +458,14 @@
                         <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>SLA Policies
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Use Teams Code as Ticket Suffix
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                          
-                            <p>
-                                An SLA policy (service level agreement) lets you set standards of performance. They're like a target, or a deadline, within which your support team is expected to resolve tickets. If any of the policies are breached, mail notification will escalate to the team. 
-                            </p>
-                            
-                            <p>
-                                You can either enable a single SLA policy or have both SLA policies for all tickets.
-                            </p>
-                          
-                            
-                            <p>
-                                By default SLA policies are disabled, you can enable it by clicking <b>Enable SLA</b> toggle switch.
-                            </p>
-
-
-                    
-                                <div><img src="SLA.png" onclick="openModal('SLA.png')" alt="" width="100%"
+                          <p>
+                            Admin can enable the toggle switch for Use Teams code as ticket suffix.
+                          </p>
+                                <div><img src="team_code.png" onclick="openModal('team_code.png')" alt="" width="100%"
                                     height="auto"></div>
-                                    <br>
-                                    <br>
-                                    <div><img src="escalate.png" onclick="openModal('escalate.png')" alt="" width="100%"
-                                        height="auto"></div>
-                                        <br><br>
-                                        <div><img src="escalate_save.png" onclick="openModal('escalate_save.png')" alt="" width="100%"
-                                            height="auto"></div>
 
 
                         </div>
@@ -493,10 +473,10 @@
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                     <nav class="pagination mt-3">
-                        <a class="nav nav-prev" href="../business_hour/" aria-label="Previous page"><i
-                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Business hour</span></a>
-                        <a class="nav nav-next" href="../escalate/" aria-label="Previous page"> <span
-                                class="d-none d-md-block">Escalate tickets</span><i class="ti-arrow-right ml-2"></i></a>
+                        <a class="nav nav-prev" href="../escalate/" aria-label="Previous page"><i
+                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Escalate tickets</span></a>
+                        <a class="nav nav-next" href="../create_ticket_automatically/" aria-label="Previous page"> <span
+                                class="d-none d-md-block">Create ticket automatically</span><i class="ti-arrow-right ml-2"></i></a>
                     </nav>
                 </div>
             </div>
@@ -504,7 +484,7 @@
         </div>
     </section>
     <div id="myModal" class="modal">
-      
+       
         <div class="modal-content">
             <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
             <div class="mySlides">
@@ -545,7 +525,7 @@
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script>
-           function openModal(src) {
+            function openModal(src) {
   
   document.getElementById("imageId").src= src;
   document.getElementById("myModal").style.display = "block";
@@ -554,7 +534,7 @@
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
   
-}                       
+}                      
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
