@@ -34,7 +34,6 @@ img {
     border: 0;
 }
 .modal {
-    bottom: auto;
     display: none;
     position: fixed;
     z-index: 1;
