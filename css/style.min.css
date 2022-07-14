@@ -34,7 +34,7 @@ img {
     border: 0;
 }
 .modal {
-  cursor: pointer;
+  
     display: none;
     position: fixed;
     z-index: 1;
