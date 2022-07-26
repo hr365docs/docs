@@ -115,12 +115,7 @@
                     </a>
                   </li>
 
-                  <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                  title=Requirments class=sidelist>
-                  <a href="../../UserViews/">
-                    Views
-                  </a>
-                </li>
+                 
 
 
                   <li data-nav-id="../Setting/" title=Installation class=sidelist>
@@ -154,19 +149,18 @@
                       </a>
                     </li>
                   </ul>
-
-                  <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                    title=Requirments class=sidelist>
-                    <a href="../../Help/">
-                      Help
-                    </a>
-                  </li>
                 </ul>
               </li>
               <!-- <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/configuration/ title=Configuration class=sidelist> -->
               <!-- <a href="../Admin-Guide/System/"> -->
               <!-- System -->
               </a>
+              <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
+                    title=Requirments class=sidelist>
+                    <a href="../../Help/">
+                      Help
+                    </a>
+                  </li>
               </li>
             </ul>
             </li>
@@ -183,7 +177,7 @@
                 </h2>
 
              
-                <div><img src="advanced.png" onclick="openModal('advanced.png')" alt="" width="100%" height="auto">
+                <div><img src="edmadvance.png" onclick="openModal('edmadvance.png')" alt="" width="100%" height="auto">
                 </div>
 
                 <br>
@@ -218,8 +212,9 @@
                     profile is considered as unlicensed user, you can sync those users by enabling toggle switch. </li>
                 </ul>
                 <br>
-
-                <b>Sync unlicensed users</b>
+                <ul class="ul_li_styles">
+                <li><b>Sync unlicensed users</b></li>
+                </ul>
                 <ul class="ul_styles">
                   <li>Here we have 3 option to sync the images namely SPO, outlook and ED. </li>
                 </ul>
@@ -233,29 +228,115 @@
                     -username@domain.com.jpg</li>
                 </ul>
                 <br>
+
+                <ul class="ul_li_styles">
+                  <li>
                 <p> <b>Sync and display mobile number from azure:</b> This works on API; it sync’s mobile numbers from
                   azure. If mobile number is not available in azure, it displays mobile number if exist in SharePoint
                   user profile.</p>
+                  </li>
+                  </ul>
+
+                  <ul class="ul_li_styles">
+                    <li>
                 <p> <b>User presence:</b> This works on API, it shows MS teams status on profiles in home page</p>
+                </li>
+                </ul>
+
+                <ul class="ul_li_styles">
+                  <li>
                 <p><b>Auto load instead load more button:</b> If you enable this, users load automatically as you scroll
                   down vertically in home page, no need to click on load more button to load the users in home page.</p>
+              </li>
+                </ul>
+
+                <ul class="ul_li_styles">
+                  <li>
                 <p><b>Hide side navigation panel in SharePoint page:</b> If you enable this, side navigation panel of
                   SharePoint page will hide</p>
+                  </li>
+                  </ul>
                 <div><img src="side nav.png" onclick="openModal('side nav.png')" alt="" width="100%" height="auto">
                 </div>
                 <br>
                 <br>
                 <div><img src="EDM.png" onclick="openModal('EDM.png')" alt="" width="100%" height="auto"></div>
                 <br>
+
+                <ul class="ul_li_styles">
+                  <li>
                 <p> <b>Show extended fields in list view:</b> If this is enabled, the right-side hidden column in lists
                   view will displays, you can check it by scrolling horizontal to right side.</p>
+                  </li>
+                  </ul>
+
+                  <ul class="ul_li_styles">
+                    <li>
                 <p> <b>Records to load:</b> Load number of profiles on refresh or first-time page load, you can select
                   25 or 50 or 100. Higher numbers come with additional page load time, please select wisely.</p>
+                  </li>
+                  </ul>
+
+                  <ul class="ul_li_styles">
+                    <li>
                 <p> <b>Custom fields:</b> You can add custom fields and sync details from AD, Azure AD and SPO location.
                 </p>
-                <p> <b>Birthday animation:</b> On birthday of user, birthday notification will send to the users. This
+                </li>
+                </ul>
+
+                <ul class="ul_li_styles">
+                  <li>
+                <p> <b>Birthday and Anniversary templates:</b> On birthday/Anniversary of user, birthday/anniversary notification will send to the users. This
                   works on Power Automate setup. Here we can change the mail format from template which notified to
-                  users on their birthday</p>
+                  users on their birthday/anniversary.</p>
+                  </li>
+                  </ul>
+
+            <ul class="ul_li_styles">
+              <li>
+                  <p><b>Executive Assistant relationship:</b> We can show the assistant on the user’s profile card and executives on the assistant’s profile card.</p>
+           </li>
+           </ul>
+
+            <p><b>Note:This feature works with SharePoint API, please configure it.</b></p>
+
+            <p><b>Step1</b></p>
+            <p>First, add username address in extension attribute – Go to the Exchange admin center, click on reprints from the left
+               navigation panel, and under mailboxes, all users show. Click on the user’s display name and then more options.</p>
+               
+               <div><img src="Executive1.png" onclick="openModal('Executive1.png')" alt="" width="100%" height="auto"></div>
+               <br>
+               <div><img src="Executive2.png" onclick="openModal('Executive2.png')" alt="" width="100%" height="auto"></div>
+               <p>Here we add the assistant username address in custom attributes 3 and click on the ok button. In the same way, we can add to other users</p>
+               
+               <div><img src="Executive8.png" onclick="openModal('Executive8.png')" alt="" width="100%" height="auto"></div>
+
+               <p><b>Step2</b></p>
+
+               <p>Now go to the <b>Settings</b>> <b>Advance settings</b>> click on action button Executive assistnace relationship.</p>
+               
+               <div><img src="Executive3.png" onclick="openModal('Executive3.png')" alt="" width="100%" height="auto"></div>
+              <br>
+              <p>Select the properties, give the property name and click on the update button., here we select Extension attribute 3 because
+                 we updated the assistant name in custom attribute  3 in the exchange admin center, give the property name as
+                  Assistant which is meaningful.</p>
+
+                  <div><img src="Executive4.png" onclick="openModal('Executive4.png')" alt="" width="100%" height="auto"></div>
+              <br>
+              <p>Now go to the views in settings and update the Executive label, here we update Executives.</p>
+
+              <div><img src="Executive5.png" onclick="openModal('Executive5.png')" alt="" width="100%" height="auto"></div>
+              <br>
+              <p><b>Result:</b></p>
+                
+              <p>For users, their Assistant name shows in the profiles card.</p>
+
+              <div><img src="Executive6.png" onclick="openModal('Executive6.png')" alt="" width="100%" height="auto"></div>
+                <br>
+              <p>The users are executives shown in the profile card of the assistant as shown in below.</p>
+
+              <div><img src="Executive7.png" onclick="openModal('Executive7.png')" alt="" width="100%" height="auto"></div>
+              
               </ul>
             </div>
             <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
