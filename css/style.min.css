@@ -227,9 +227,7 @@ a.nav-link.text-dark.active-dark {
     padding-left: 3%;
     padding-right: 3%;
 }
-.versionlink{
-  font-size: 16px !important;
-}
+
 
 @media (min-width: 902px){
   .header-width{
@@ -314,6 +312,9 @@ a.nav-link.text-dark.active-dark {
     padding-right: 5px;
     }
 
+    .vesionLink{
+      font-size: 16px !important;
+    }
    
 
     
