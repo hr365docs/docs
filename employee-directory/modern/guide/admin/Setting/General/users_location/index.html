@@ -135,7 +135,7 @@
                           <li  data-nav-id="../advanced/" title="Search filters" class="sidelist">
                             <a href="../Search_filters/">Search filters</a>
                           </li>
-                          <li  data-nav-id="../advanced/" title="Sync unlicensed users" class="sidelistss">
+                          <li  data-nav-id="../advanced/" title="Sync unlicensed users" class="sidelists">
                             <a href="../users_to_export/">Allow users to export directory</a>
                           </li>
                           <li  data-nav-id="../advanced/" title="Show external users" class="sidelist">
@@ -205,7 +205,7 @@
                         <li  data-nav-id="../advanced/" title=" User presence " class="sidelist">
                           <a href="../User_presence/">User presence </a>
                         </li>
-                        <li  data-nav-id="../advanced/" title=" User presence " class="sidelist active">
+                        <li  data-nav-id="../advanced/" title=" User presence " class="sidelist ">
                           <a href="../Auto_load/">Auto load instead load more button  </a>
                         </li>
                         <li  data-nav-id="../advanced/" title="Hide side navigation panel " class="sidelist ">
@@ -261,9 +261,28 @@
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Auto load instead load more button
  <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
-                <p>If you enable this, users can load more records automatically on scroll or click of load more button.</p>
+                <p>
+                  <b>Update users location: </b> From here admin can able to add, update or delete the <b>Location</b>. You can view the added location on the <b>Search filters</b> of the home page.
+                  <div><img src="location.png" onclick="openModal('location.png')" alt="" width="100%"
+                      height="auto"></div>
+                      <br>
+                      <p>   <u><b>Add</b></u>:  To add the location, enter the name and click on <b>Add</b> button. You can also add the location by clicking on the sync location button. If you click, it will fetch location available in M365 and push the location names in a list.</p>
+                      <div><img src="add_location.png" onclick="openModal('add_location.png')" alt="" width="100%"
+                          height="auto"></div>
+                          <br>
+                          <p>   <u><b>Edit</b></u>: To edit click on the edit icon under action. This displays <b>Edit job title</b> page. Update the job title and click on the <b>Update</b> button.</p>
              
-                    <div><img src="auto_load.png" onclick="openModal('auto_load.png')" alt="" width="100%" height="auto"></div>
+              <p>   <u><b>Delete</b></u>: To delete click on the edit icon under action. This displays <b>Edit job title</b> page. click on the <b>Delete</b> button.</p>
+
+              <p>   <u><b>Status</b></u>: If you enable the active toggle switch, a checkmark icon will display under status. If it is enabled, it will display on the <b>Search filters</b> of the home page.</p>
+              <div class="paragraph">
+                  <p> <div class="notices note">
+                      <div class="paragraph">
+                          <p> Employee Directory syncs job title attribute with Microsoft 365 once in 24 hours, incase you delete attribute here and it exists in M365, it will show again here.</p>
+                      </div>
+                  </div></p>
+              </div>
+              </p>
                   
                   
 
