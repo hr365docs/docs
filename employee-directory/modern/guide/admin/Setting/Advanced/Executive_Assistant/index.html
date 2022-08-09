@@ -260,48 +260,89 @@
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Executive Assistant relationship <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
-                <li>
-                  <p><b>Executive Assistant relationship:</b> We can show the assistant on the user’s profile card and executives on the assistant’s profile card.
-                    <p><b>Note:This feature works with SharePoint API, please configure it.</b></p>
+               
+                  <p><b>Executive Assistant relationship:</b>From here, you can show the assistant on the user’s profile card and executives on the assistant’s profile card.
+                    <br>
+                    <div class="notices note">
+                      <div class="paragraph">
+                          <p> This feature works with SharePoint API <a href="../sharepoint_API/">SharePoint API</a>, please configure it.</p>
+                      </div>
+                  </div>
+                 
 
-                    <p><b>Step1</b></p>
-                    <p>First, add username address in extension attribute – Go to the Exchange admin center, click on recipients from the left
-                       navigation panel, and under mailboxes, all users show. Click on the user’s display name and then more options.</p>
-                       
-                       <div><img src="Executive1.png" onclick="openModal('Executive1.png')" alt="" width="100%" height="auto"></div>
-                       <br>
-                       <div><img src="Executive2.png" onclick="openModal('Executive2.png')" alt="" width="100%" height="auto"></div>
-                       <p>Here we add the assistant username address in custom attributes 3 and click on the ok button. In the same way, we can add to other users</p>
-                       
-                       <div><img src="Executive8.png" onclick="openModal('Executive8.png')" alt="" width="100%" height="auto"></div>
-        
-                       <p><b>Step2</b></p>
-        
-                       <p>Now go to the <b>Settings</b>> <b>Advance settings</b>> click on action button Executive assistnace relationship.</p>
-                       
-                       <div><img src="Executive3.png" onclick="openModal('Executive3.png')" alt="" width="100%" height="auto"></div>
+                   <u> <p><b>Step1</b></p></u>
+                    <p>First, add username address in extension attribute.
+                      <div><img src="Executive1.png" onclick="openModal('Executive1.png')" alt="" width="100%" height="auto"></div>
                       <br>
-                      <p>Select the properties, give the property name and click on the update button., here we select Extension attribute 3 because
-                         we updated the assistant name in custom attribute  3 in the exchange admin center, give the property name as
-                          Assistant which is meaningful.</p>
-        
+                      To add follow the below steps:
+                     <ol>
+                      <li>
+                        <p>
+                          Go to the Exchange admin center, click on recipients from the left navigation panel.
+                      <div><img src="exchange.png" onclick="openModal('exchange.png')" alt="" width="100%" height="auto"></div>
+                      <br>
+                      <div><img src="recipients.png" onclick="openModal('recipients.png')" alt="" width="100%" height="auto"></div>
+                        </p>
+                      </li>
+                      <br>
+                      <li>
+                        <p>
+                          Under mailboxes, all users are visible. Double-click the user’s display name and then more options.
+                          <div><img src="user.png" onclick="openModal('user.png')" alt="" width="100%" height="auto"></div>
+                          <br>
+                       <div><img src="more.png" onclick="openModal('more.png')" alt="" width="100%" height="auto"></div>
+                        </p>
+                      </li>
+                      <br>
+                      <li>
+                        <p>
+                          Add the assistant username address in the custom attributes(3) and click on the <b>OK</b> button. 
+                          <br>
+                          In the same way, you can add to other users.
+                          <div><img src="johnt_.png" onclick="openModal('johnt_.png')" alt="" width="100%" height="auto"></div>
+                        </p>
+                      </li>
+                     </ol>
+                        
+                     <br>
+                     <u>  <p><b>Step2</b></p></u>
+                     <ol>
+                      <li>
+                       <p>
+                        Go to the <b>Settings</b>> <b>Advance settings</b>> click on the <b>Action</b> button of <b>Executive Assistant relationship</b>.
+                        <div><img src="Executive3.png" onclick="openModal('Executive3.png')" alt="" width="100%" height="auto"></div>
+                       </p>
+                      </li>
+                      <br>
+                      <li>
+                        <p>
+                          Under <b>Add</b> tab,  select the <b>AD Properties</b> and  give the <b>Property Name</b>. Then, click on the <b>Submit</b> button.
+                          <br>
+                          Here, we selected <b>extensionAttribute 3</b>. Because in the Exchange admin center, the assistant username address is added in the custom attribute 3. And given the <b>Property Name</b> as Assistant which is meaningful.
                           <div><img src="Executive4.png" onclick="openModal('Executive4.png')" alt="" width="100%" height="auto"></div>
+                        </p>
+                      </li>
                       <br>
-                      <p>Now go to the views in settings and update the Executive label, here we update Executives.</p>
-        
-                      <div><img src="Executive5.png" onclick="openModal('Executive5.png')" alt="" width="100%" height="auto"></div>
+                      <li>
+                        <p>
+                          Now go to the views in the settings and update the Executive label. Here, updated as Executives.
+                          
+                          <div><img src="Executive5.png" onclick="openModal('Executive5.png')" alt="" width="100%" height="auto"></div>
+                        </p>
+                      </li>
+                     </ol>
                       
                       <br>
-                      <p><b>Result:</b></p>
+                     <u> <p><b>Result:</b></p></u>
                     
-                      <p>For users, their Assistant name shows in the profiles card.</p>
+                      <p>For users, their <b>Assistant</b> name shows in the profiles card.</p>
         
                       <div><img src="Executive6.png" onclick="openModal('Executive6.png')" alt="" width="100%" height="auto"></div>
                         <br>
-                      <p>The users are executives shown in the profile card of the assistant as shown in below.</p>
+                      <p>The users are <b>Executives</b> shown in the profile card of the assistant as shown in below.</p>
         
                       <div><img src="Executive7.png" onclick="openModal('Executive7.png')" alt="" width="100%" height="auto"></div></p>
-           </li>
+         
 
 
                
