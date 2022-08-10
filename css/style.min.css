@@ -92,6 +92,7 @@ img {
     list-style-type: initial;
   }
   .banner .navbar-brand {
+    margin-left: -5%;
     width: 14%;
     color: var(--white-color)!important;
 }
