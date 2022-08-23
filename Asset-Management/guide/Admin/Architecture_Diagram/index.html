@@ -6,7 +6,7 @@
     <title>Asset Management</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
-    <meta name=description content="Asset Management ">
+    <meta name=description content="Asset Management">
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
     <link rel=icon href=https://hr365docs.github.io/docs/images/favicon.png type=image/x-icon>
@@ -66,7 +66,7 @@
                             <a class="nav-link text-dark" href="../../../../employee-directory/">Employee Directory</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark active-dark" href="../../../../Asset-Management/">Asset Management</a>
+                            <a class="nav-link text-dark  active-dark" href="../../../../Asset-Management/">Asset Management</a>
                         </li>
                         <li class=nav-item>
                             <a class="nav-link text-dark" href="../../../../helpdesk/">HR365-Helpdesk</a>
@@ -109,13 +109,19 @@
                                     Admin Guide
                                 </a>
                                 <ul>
-                                    <li data-nav-id="./Settings/" title=./Settings/ class="sidelist active">
+                                    <li data-nav-id="./Settings/" title=./Settings/ class=sidelist>
 
                                         <a href="../intro/">
                                             Introduction
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Settings/" title=./Settings/ class="sidelist">
+                                    <li data-nav-id="./Settings/" title="Architecture_Diagram" class="sidelist active">
+
+                                        <a href="../Architecture_Diagram/">
+                                            Architecture Diagram
+                                        </a>
+                                    </li>
+                                    <li data-nav-id="./Settings/" title=./Settings/ class=sidelist>
 
                                         <a href="../home_page/">
                                             Home Page
@@ -134,14 +140,14 @@
                                             <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist">
                                                 <a href="../home_page/bulk_assets/">Bulk Assets</a>
                                             </li>
+                                           
                                                 <li data-nav-id="./User/" title=User class="sidelist"><a
                                                         href="../home_page/assign_assets/">Assign Assets</a></li>
                                                 <li data-nav-id="./General-Settings/" title=General-Settings
-                                                    class="sidelist"><a href="../home_page/return_assets/">Return Assets
+                                                    class="sidelist"><a href="./Settings/General-Settings/">Return Assets
                                                         </a>
                                                 </li>
-                                              
-                                                
+                                               
                                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
                                                 class="sidelist"><a href="../home_page/Booking_details/">
                                                     Booking Details</a>
@@ -151,7 +157,7 @@
                                             class="sidelist"><a href="../home_page/approve_reject_asset/">
                                               Approve/Reject Assets</a>
                                         </li>
-                                       
+                                        
 
                                             </ul>
                                         </ul>
@@ -160,19 +166,19 @@
 
                                         <ul class="sidenavSub-topics">
                                             <a href="../consumable/">
-                                               Consumables
+                                                Consumables
                                             </a>
                                             <ul>
                                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist"><a href="../home_page/add_consumable/">Add Consumable
-                                                    Item</a>
-                                            </li>
-                                           
-                                                
+                                                    class="sidelist"><a href="../home_page/add_consumable/">Add Consumable
+                                                        Item</a>
+                                                </li>
+                                               
                                                 <li data-nav-id="./Column-Setting/" title=Column-Setting
                                                     class="sidelist"><a href="../home_page/bulk_consumable/">Bulk 
                                                         Consumable</a></li>
-                                               
+                                                
+                                                
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
                                             class="sidelist"><a href="../home_page/consumable_item/">
                                               Consumable Items</a>
@@ -224,7 +230,6 @@
 
                                             </ul>
                                         </ul>
-                                        
                                         
                                         <li data-nav-id="./Settings/" title=Settings class="sidelist">
                                             <ul class="sidenavSub-topics">
@@ -289,7 +294,7 @@
                                             Report
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Audit-log/" title=Audit-log class="sidelist">
+                                    <li data-nav-id="./Audit-log/" title=Audit-log class="sidelist active">
                                         <a href="../Audit-log/">
                                             Audit log
                                         </a>
@@ -340,33 +345,31 @@
                                     
                             </li>
                         </ul>
-                    
                     </div>
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title> Introduction</h2> -->
+                        <!-- <h2 class=mb-5 id=title>Audit-log</h2> -->
                         <div class="bg-light p-4">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Introduction<i class="fas fa-link"
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Architecture Diagram<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
-                            <br>
+                     
                             <ul class=page-list>
 
-                               <p>
-                                <div><img src="Apps_00003.jpg" onclick="openModal('Apps_00003.png')" alt="" width="100%"
-                                    height="auto"></div>
-                               </p>
-                                    
+
+                               
+                                    <div><img src="Apps_00003.jpg" onclick="openModal('Apps_00003.jpg')" alt="" width="100%"
+                                        height="auto"></div>
+
+
                         </div>
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../../Admin/"
-                                aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                                    class="d-none d-md-block">Admin Guide</span></a>
-                            <a class="nav nav-next" href="../home_page/" aria-label="Previous page">
-                                <span class="d-none d-md-block">Home Page</span><i
-                                    class="ti-arrow-right ml-2"></i></a>
+                            <a class="nav nav-prev" href="../Report/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Report</span></a>
+                            <a class="nav nav-next" href="../Dashboard/" aria-label="Previous page">
+                                <span class="d-none d-md-block"> Dashboard</span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
                 </div>
