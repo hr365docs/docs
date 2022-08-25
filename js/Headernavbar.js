@@ -2,7 +2,7 @@ $(document).ready(function () {
 $(".navbar-nav.ml-auto").html("");
 
 $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-              "<a class='nav-link text-dark active' href='https://hr365docs.github.io/docs/'>Home</a>"+
+              "<a class='nav-link text-dark' href='https://hr365docs.github.io/docs/'>Home</a>"+
             "</li>");
 
             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
