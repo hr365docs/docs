@@ -14,11 +14,6 @@ $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
           "</li>");
 
 
-            $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-            "<a class='nav-link text-dark' href='./Asset-Management/'>Asset Management</a>"+
-            "</li>");
-
-
                 $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
                 " <a class='nav-link text-dark' href='./helpdesk/'>HR365-Helpdesk</a>"+
             "</li>");
