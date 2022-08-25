@@ -47,7 +47,9 @@ $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
            
 });
 
-
+// $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
+// "<a class='nav-link text-dark' href='"+ linkref+"/employee-directory/'>Employee Directory</a>"+
+// "</li>");
 
 
             
