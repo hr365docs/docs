@@ -6,40 +6,40 @@ $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
             "</li>");
 
             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-              "<a class='nav-link text-dark' href='./employee-directory/'>Employee Directory</a>"+
+              "<a class='nav-link text-dark' href='../employee-directory/'>Employee Directory</a>"+
             "</li>");
 
 
             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-            "<a class='nav-link text-dark' href='./Asset-Management/'>Asset Management</a>"+
+            "<a class='nav-link text-dark' href='../Asset-Management/'>Asset Management</a>"+
           "</li>");
 
 
                 $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-                " <a class='nav-link text-dark' href='./helpdesk/'>HR365-Helpdesk</a>"+
+                " <a class='nav-link text-dark' href='../helpdesk/'>HR365-Helpdesk</a>"+
             "</li>");
 
 
                 $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-                "<a class='nav-link text-dark' href='./time-off-manager/'>Time-Off Manager</a>"+
+                "<a class='nav-link text-dark' href='../time-off-manager/'>Time-Off Manager</a>"+
                 "</li>");
 
 
                 $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-                "<a class='nav-link text-dark' href='./timesheets/'>Timesheet</a>"+
+                "<a class='nav-link text-dark' href='../timesheets/'>Timesheet</a>"+
             "</li>");
 
 
             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-            "<a class='nav-link text-dark' href='./employee-on-boarding/'>Employee On-boarding</a>"+
+            "<a class='nav-link text-dark' href='../employee-on-boarding/'>Employee On-boarding</a>"+
             "</li>");
 
             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-            "<a class='nav-link text-dark' href='./Performance-Management/'>Performance Management</a>"+
+            "<a class='nav-link text-dark' href='../Performance-Management/'>Performance Management</a>"+
             "</li>");
 
             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-            "<a class='nav-link text-dark' href='./contact/'>Contact</a>"+
+            "<a class='nav-link text-dark' href='../contact/'>Contact</a>"+
             "</li>");
 
            
