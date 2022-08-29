@@ -6,7 +6,7 @@ $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
             "</li>");
 
             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-              "<a class='nav-link text-dark employeedirectorylink' href='../employee-directory/'>Employee Directory</a>"+
+              "<a class='nav-link text-dark employeedirectorylink' href='../sharepoint-employee-directory/'>HR365 SharePoint Employee Directory"+
             "</li>");
 
 
@@ -48,7 +48,7 @@ $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
 });
 
 // $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-// "<a class='nav-link text-dark' href='"+ linkref+"/employee-directory/'>Employee Directory</a>"+
+// "<a class='nav-link text-dark' href='"+ linkref+"/sharepoint-employee-directory/'>HR365 SharePoint Employee Directory"+
 // "</li>");
 
 
