@@ -322,6 +322,8 @@ a.nav-link.text-dark.active-dark {
 
   }
    
-
+html{
+  scroll-behavior: smooth;
+}
     
     

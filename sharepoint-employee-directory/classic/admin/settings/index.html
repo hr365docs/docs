@@ -454,11 +454,11 @@ function closeModal() {
   document.getElementById("myModal").style.display = "none";
   
 }                       
-                              
+$("#showHidemenu").hide();                       
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
-        var hideshowvar="show"
-        
+        var hideshowvar="hide"
+          
    function hideshowdiv(event){
             event.stopPropagation();
           event.preventDefault();
