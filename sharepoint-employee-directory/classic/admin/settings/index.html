@@ -125,7 +125,7 @@ active">
                                             Users
                                         </a>
                                     </li>
-                                    <li data-nav-id="./Setting/" title=Settings class="sidelist active">
+                                    <li data-nav-id="./Setting/" title=Settings class="sidelist active" onclick="hideshowdiv(event);">
                                         <a href="../settings/">
                                             <!-- <a href="#MainSettings"></a> -->
                                             Settings
@@ -133,7 +133,7 @@ active">
                                         <ul class="sidenavSub-topics">
 
                                     </li>
-                                    <ul>
+                                    <ul id="showHidemenu">
                                         <li data-nav-id="../General" title=General class=sidelist>
                                             <a href="#GeneralSettings">
                                                 General
@@ -204,7 +204,7 @@ active">
                             </ul>
                         </div>
                         
-                        <div class="showHidemenu">
+                    
                         <div class="bg-light p-4" >
                             <ul class=page-list>
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="GeneralSettings">General Settings <i
@@ -380,7 +380,7 @@ active">
                               To add delve you can we you -->
                             </ul>
                           </div>
-                          </div>
+                         
 
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">
@@ -435,7 +435,8 @@ active">
             </div>
         </div>
     </footer>
-    <script src="../../../../../js/script.min.js"></script>
+    <script src="../../../../js/script.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
     <script>
            function openModal(src) {
   
@@ -450,6 +451,25 @@ function closeModal() {
                               
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
+        var hideshowvar="show"
+        
+   function hideshowdiv(event){
+            event.stopPropagation();
+          event.preventDefault();
+
+            if(hideshowvar == "show"){
+
+                $("#showHidemenu").hide(); 
+                hideshowvar="hide";
+            }
+            else{
+
+                $("#showHidemenu").show();
+                hideshowvar="show";
+            }
+        }
+
+        
        </script>
 </body>
 
