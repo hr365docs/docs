@@ -317,6 +317,10 @@ a.nav-link.text-dark.active-dark {
     .vesionLink{
       font-size: 16px !important;
     }
+    .setting_side_nav_bar::before{
+      display: none;
+
+  }
    
 
     
