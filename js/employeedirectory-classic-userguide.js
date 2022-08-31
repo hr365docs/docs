@@ -54,9 +54,6 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
 
 
 
-//             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-//             "<a class='nav-link text-dark assetmanagementlink' href='../Asset-Management/'>Asset Management</a>"+
-//           "</li>");
 
 
 //                 $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
