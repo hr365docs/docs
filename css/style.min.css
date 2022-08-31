@@ -329,6 +329,9 @@ a.nav-link.text-dark.active-dark {
 
   .imageIcon{
     max-width: 14px;
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
   }
    
 html{
