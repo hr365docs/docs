@@ -321,6 +321,21 @@ a.nav-link.text-dark.active-dark {
       display: none;
 
   }
+  .dropdownicon{
+    display: flex !important;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .imageIcon {
+    max-width: 14px;
+    transition: 0.3s;
+  }
+  .drodown_icon{
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(180deg);
+  }
    
 html{
   scroll-behavior: smooth;

@@ -93,6 +93,7 @@
             </div>
         </nav>
     </header>
+    <!-- hgdgfjgh -->
     <section class="single section-sm pb-0">
         <div class=container>
             <div class=row>
@@ -107,6 +108,7 @@ active">
                                 <a href="../../user/">
                                     User Guide
                                 </a>
+<<<<<<< HEAD
                                 <ul class="items">
                                     <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
                                         title=Introduction class="sidelist active">
@@ -150,6 +152,11 @@ active">
                                         </ul>
                                     </li>
 
+=======
+                                <ul class="items sidensvbarlink">
+                                   
+                                </ul>
+>>>>>>> aaf3c7aa34f376d98f23c9bc58b92c73bd750859
                             </li>
                         </ul>
                         </ul>
@@ -230,7 +237,17 @@ active">
         </div>
     </footer>
     <script src="../../../../../js/script.min.js"></script>
-    <script>
+    <script src="../../../../js/Headernavbar.js"></script>
+     <script src='../../../../js/employeedirectory-classic-userguide.js'></script>
+
+        <script>
+
+    let rinterface=document.querySelector(".qwe");
+    rinterface.addEventListener("click",(e)=>{ 
+        e.preventDefault();
+        console.log(window.location.pathname="sharepoint-employee-directory/classic/user/userinterface/")
+    })
+    // console.log(rinterface)
            function openModal(src) {
   
   document.getElementById("imageId").src= src;
@@ -239,12 +256,27 @@ active">
 
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
-  
-}                       
-                              
+}                                                  
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
+
+      
+  <script type="text/javascript">
+    
+    $(document).ready(function () {
+        $(".introductionlink").addClass('active');
+        	$(".gettingstartedlink").removeClass('active');
+        	$(".userprofilelink").removeClass('active');
+	      	$(".userinterfacelink").removeClass('active');
+        	$(".homelink").removeClass('active');
+        	$(".searchlink").removeClass('active');
+		      $(".viewslink").removeClass('active');
+        	
+              
+  
+    }); 
+  </script>
 </body>
 
 </html> 

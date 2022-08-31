@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel=stylesheet>
   <script src=https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js></script>
   <script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
+  
   <style>
     :root {
       --primary-color: #5637da;
@@ -104,6 +105,7 @@
                 <a href="../../user/">
                   User Guide
                 </a>
+<<<<<<< HEAD
                 <ul class="items">
                   <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
                     title=Introduction class=sidelist>
@@ -150,6 +152,10 @@
                         </ul>
                         </li>
                       </li>
+=======
+                <ul class="items sidensvbarlink">
+                 
+>>>>>>> aaf3c7aa34f376d98f23c9bc58b92c73bd750859
 
                   </li>
                 </ul>
@@ -162,8 +168,7 @@
             <!-- <h2 class=mb-5 id=title>User Interface</h2> -->
             <div class="bg-light p-4">
               <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>User Interface <i class="fas fa-link"
-                      style="font-size:12px; color:lightgray;"></i></a> </h2>
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>User Interface </a> </h2>
              
                 <li data-nav-id=https://github.com/hr365docs/My-project.git/Upgrading/ title=Upgrading class="sidelist
 active">
@@ -199,7 +204,7 @@ Navigation Elements -->
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="_homepage">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=# name="Homepage">Home Page <i class="fas fa-link"
                       style="font-size:12px; color:lightgray;"></i></a> </h2>
@@ -215,7 +220,7 @@ Navigation Elements -->
 
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="_searchpage">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=# name="Searchpage">Search <i class="fas fa-link"
                       style="font-size:12px; color:lightgray;"></i></a> </h2>
@@ -247,7 +252,7 @@ Navigation Elements -->
               </ul>
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="_viewpage">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=# name="Viewpage">Views <i class="fas fa-link"
                       style="font-size:12px; color:lightgray;"></i></a> </h2>
@@ -331,6 +336,8 @@ Navigation Elements -->
     </div>
 </footer>
 <script src="../../../../../js/script.min.js"></script>
+<script src="../../../../js/employeedirectory-classic-userguide.js"></script>
+<script src="../../../../js/Headernavbar.js"></script>
 <script>
        function openModal(src) {
 
@@ -342,28 +349,43 @@ function closeModal() {
 document.getElementById("myModal").style.display = "none";
 
 }                       
-$("#userinterecenavbar").hide();                       
+// $("#userinterecenavbar").hide();                       
     date = new Date().toLocaleDateString();
     document.getElementById("date").innerHTML=date;
 
-    var hideshowinterface="hide"
-          
-          function hideshowuserinterface(event){
-                   event.stopPropagation();
-                 event.preventDefault();
+          // var hideshowinterface="hide"
+          // function hideshowuserinterface(event){
+          //          event.stopPropagation();
+          //        event.preventDefault();
        
-                   if(hideshowinterface == "show"){
+          //          if(hideshowinterface == "show"){
        
-                       $("#userinterecenavbar").hide(); 
-                       hideshowinterface="hide";
-                   }
-                   else{
+          //              $("#userinterecenavbar").hide(); 
+          //              hideshowinterface="hide";
+          //          }
+          //          else{
        
-                       $("#userinterecenavbar").show();
-                       hideshowinterface="show";
-                   }
-               }
+          //              $("#userinterecenavbar").show();
+          //              hideshowinterface="show";
+          //          }
+          //      }
    </script>
+
+<script type="text/javascript">
+    
+  $(document).ready(function () {
+      $(".introductionlink").removeClass('active');
+        $(".gettingstartedlink").removeClass('active');
+        $(".userprofilelink").removeClass('active');
+        $(".userinterfacelink").addClass('active');
+        $(".homelink").removeClass('active');
+        $(".searchlink").removeClass('active');
+        $(".viewslink").removeClass('active');
+        
+            
+
+  }); 
+</script>
 </body>
 
 </html> 
