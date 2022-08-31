@@ -10,7 +10,7 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
 "<ul class='ml-15 sidenavSub-topics'>"+
     "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
     "title=gettingstarted class='sielist gettingstartedlink'>"+
-        "<a href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/gettingstarted/'>Getting started</a>"+
+        "<a href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/getting-started/'>Getting started</a>"+
     "</li>"+
     "<li data-nav-id=https://github.com/hr365docs/My-project.git/user_profile/requirments/"+
     "title=Profile class='sidelist userprofilelink'>"+
@@ -19,7 +19,7 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
     "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
     "title=User_interface class='sidelist userinterfacelink' >"+
     "<div class='dropdownicon' >"+
-        "<a class='qwe' href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/userinterface/'>User interface</a>"+
+        "<a class='qwe' href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/user-interface/'>User interface</a>"+
         "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon' onclick='hideshowuserinterface(event)'>"+
     "</div>"+
 
@@ -27,16 +27,16 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
 
             "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
                 "title=home_page class='sidelist homelink'>"+
-                "<a href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/userinterface/#userhomepage'>Home Page</a>"+
+                "<a href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/user-interface/#userhomepage'>Home Page</a>"+
             "</li>"+
             "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
             "title=search class='sidelist searchlink'>"+
-                "<a href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/userinterface/#usersearchpage'>Search</a>"+
+                "<a href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/user-interface/#usersearchpage'>Search</a>"+
 
             "</li>"+
             "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
             "title=views class='sidelist viewslink'>"+
-                "<a href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/userinterface/#userhomepage'>Views</a>"+
+                "<a href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/user-interface/#userhomepage'>Views</a>"+
 
             "</li>"+
 
