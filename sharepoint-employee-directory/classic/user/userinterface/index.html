@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel=stylesheet>
   <script src=https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js></script>
   <script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
+  
   <style>
     :root {
       --primary-color: #5637da;
@@ -122,9 +123,9 @@
                       </li>
 
                       <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                        title=user_interface class="sidelist active" onclick="hideshowuserinterface(event)">
+                        title=user_interface class="sidelist active dropdownicon" onclick="hideshowuserinterface(event)" >
 
-                        <a href="../userinterface/">User interface</a>
+                        <a href="../userinterface/">User interface</a><img src="./down-arrow-svgrepo-com.svg" alt="" style="min-width:20px ;">
 
                         <li class="setting_side_nav_bar">
                         <ul class="ml-15 sidenavSub-topics" id="userinterecenavbar">
@@ -162,8 +163,7 @@
             <!-- <h2 class=mb-5 id=title>User Interface</h2> -->
             <div class="bg-light p-4">
               <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>User Interface <i class="fas fa-link"
-                      style="font-size:12px; color:lightgray;"></i></a> </h2>
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>User Interface </a> </h2>
              
                 <li data-nav-id=https://github.com/hr365docs/My-project.git/Upgrading/ title=Upgrading class="sidelist
 active">
@@ -199,7 +199,7 @@ Navigation Elements -->
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="_homepage">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=# name="Homepage">Home Page <i class="fas fa-link"
                       style="font-size:12px; color:lightgray;"></i></a> </h2>
@@ -215,7 +215,7 @@ Navigation Elements -->
 
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="_searchpage">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=# name="Searchpage">Search <i class="fas fa-link"
                       style="font-size:12px; color:lightgray;"></i></a> </h2>
@@ -247,7 +247,7 @@ Navigation Elements -->
               </ul>
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="_viewpage">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=# name="Viewpage">Views <i class="fas fa-link"
                       style="font-size:12px; color:lightgray;"></i></a> </h2>

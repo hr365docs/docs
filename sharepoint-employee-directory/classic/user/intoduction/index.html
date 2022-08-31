@@ -110,7 +110,7 @@ active">
                                 <ul class="items">
                                     <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
                                         title=Introduction class="sidelist active">
-                                        <a href="../intoduction/">
+                                        <a href="../intoduction">
                                             Introduction
                                         </a>
                                         </li>
@@ -127,24 +127,24 @@ active">
                                             title=User_interface class="sidelist">
                                                 <a class="qwe" href="../userinterface/">User interface</a>
 
-                                                <!-- <ul class="ml-15 sidenavSub-topics">
+                                                <ul class="ml-15 sidenavSub-topics">
                     
                                                     <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
                                         title=home_page class="sidelist">
-                                                        <a href="../userinterface/">Home Page</a>
+                                                        <a href="../userinterface/#_homepage">Home Page</a>
                                                     </li>
                                                     <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
                                                     title=search class="sidelist">
-                                                        <a href="../userinterface/">Search</a>
+                                                        <a href="../userinterface/#_searchpage">Search</a>
 
                                                     </li>
                                                     <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
                                                     title=views class="sidelist">
-                                                        <a href="../userinterface/">Views</a>
+                                                        <a href="../userinterface/#_viewpage">Views</a>
 
                                                     </li>
 
-                                                </ul> -->
+                                                </ul> 
                                             </li>
 
                                         </ul>
@@ -233,18 +233,11 @@ active">
     <script>
 
     let rinterface=document.querySelector(".qwe");
-    rinterface.addEventListener("click",(e)=>{
-        
-        
-        
+    rinterface.addEventListener("click",(e)=>{ 
         e.preventDefault();
-        
-
-
-
-        
+        console.log(window.location.pathname="sharepoint-employee-directory/classic/user/userinterface/")
     })
-    console.log(rinterface)
+    // console.log(rinterface)
            function openModal(src) {
   
   document.getElementById("imageId").src= src;
