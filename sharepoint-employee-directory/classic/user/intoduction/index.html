@@ -108,51 +108,9 @@ active">
                                 <a href="../../user/">
                                     User Guide
                                 </a>
-                                <ul class="items">
-                                    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                        title=Introduction class="sidelist active">
-                                        <a href="../intoduction">
-                                            Introduction
-                                        </a>
-                                        </li>
-                                        <ul class="ml-15 sidenavSub-topics">
-                                            <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                            title=gettingstarted class="sidelist">
-                                                <a href="../gettingstarted/">Getting started</a>
-                                            </li>
-                                            <li data-nav-id=https://github.com/hr365docs/My-project.git/user_profile/requirments/
-                                            title=Profile class="sidelist">
-                                                <a href="../profile/">Managing User Profile</a>
-                                            </li>
-                                            <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                            title=User_interface class="sidelist" >
-                                            <div class="dropdownicon" >
-                                                <a class="qwe" href="../userinterface/">User interface</a>
-                                                <img src="../userinterface/down-arrow-svgrepo-com.svg" alt="" class="imageIcon" onclick="hideshowuserinterface(event)">
-                                            </div>
-                                                <ul class="ml-15 sidenavSub-topics" id="userinterecenavbar">
-                    
-                                                    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                        title=home_page class="sidelist">
-                                                        <a href="../userinterface/#_homepage">Home Page</a>
-                                                    </li>
-                                                    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                                    title=search class="sidelist">
-                                                        <a href="../userinterface/#_searchpage">Search</a>
-
-                                                    </li>
-                                                    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                                    title=views class="sidelist">
-                                                        <a href="../userinterface/#_viewpage">Views</a>
-
-                                                    </li>
-
-                                                </ul> 
-                                            </li>
-
-                                        </ul>
-                                    </li>
-
+                                <ul class="items sidensvbarlink">
+                                   
+                                </ul>
                             </li>
                         </ul>
                         </ul>
@@ -234,7 +192,9 @@ active">
     </footer>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../../js/Headernavbar.js"></script>
-    <script>
+     <script src='../../../../js/employeedirectory-classic-userguide.js'></script>
+
+        <script>
 
     let rinterface=document.querySelector(".qwe");
     rinterface.addEventListener("click",(e)=>{ 
@@ -254,6 +214,23 @@ function closeModal() {
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
+
+      
+  <script type="text/javascript">
+    
+    $(document).ready(function () {
+        $(".introductionlink").addClass('active');
+        	$(".gettingstartedlink").removeClass('active');
+        	$(".userprofilelink").removeClass('active');
+	      	$(".userinterfacelink").removeClass('active');
+        	$(".homelink").removeClass('active');
+        	$(".searchlink").removeClass('active');
+		      $(".viewslink").removeClass('active');
+        	
+              
+  
+    }); 
+  </script>
 </body>
 
 </html> 

@@ -105,52 +105,8 @@
                 <a href="../../user/">
                   User Guide
                 </a>
-                <ul class="items">
-                  <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                    title=Introduction class=sidelist>
-                    <a href="../intoduction/">
-                      Introduction
-                    </a>
-                    </li>
-                    <ul class="ml-15 sidenavSub-topics">
-                      <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                    title=Gettingstarted class=sidelist>
-                        <a href="../gettingstarted/">Getting started</a>
-                      </li>
-                      <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                      title=user_profile class=sidelist>
-                        <a href="../profile/">Managing User Profile</a>
-                      </li>
-
-                      <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                        title=user_interface class="sidelist active dropdownicon" onclick="hideshowuserinterface(event)" >
-
-                        <a href="../userinterface/">User interface</a><img  src="./down-arrow-svgrepo-com.svg" alt="" class="imageIcon">
-
-                        <li class="setting_side_nav_bar">
-                        <ul class="ml-15 sidenavSub-topics" id="userinterecenavbar">
-                          <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                         title=home_page class=sidelist>
-                            <a href="#Homepage">Home Page</a>
-
-                          </li>
-                          <!-- <li>    
-                <a href="../User-Interface/navigation/">Navigation</a>
-              </li> -->
-              <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-              title=search class=sidelist>
-                            <a href="#Searchpage">Search</a>
-
-                          </li>
-                          <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                    title=views class=sidelist>
-                            <a href="#Viewpage">Views</a>
-
-                          </li>
-
-                        </ul>
-                        </li>
-                      </li>
+                <ul class="items sidensvbarlink">
+                 
 
                   </li>
                 </ul>
@@ -331,7 +287,7 @@ Navigation Elements -->
     </div>
 </footer>
 <script src="../../../../../js/script.min.js"></script>
-<script src="../../../../js/Headernavbar.js"></script>
+<script src="../../../../js/employeedirectory-classic-userguide.js"></script>
 <script>
        function openModal(src) {
 
@@ -364,6 +320,23 @@ $("#userinterecenavbar").hide();
                    }
                }
    </script>
+
+<script type="text/javascript">
+    
+  $(document).ready(function () {
+      $(".introductionlink").removeClass('active');
+      $(".gettingstartedlink").removeClass('active');
+        $(".gettingstartedlink").removeClass('active');
+        $(".userprofilelink").removeClass('active');
+        $(".userinterfacelink").addClass('active');
+        $(".homelink").removeClass('active');
+        $(".searchlink").removeClass('active');
+        $(".viewslink").removeClass('active');
+        
+            
+
+  }); 
+</script>
 </body>
 
 </html> 
