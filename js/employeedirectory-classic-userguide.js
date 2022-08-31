@@ -50,9 +50,7 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
 });
 
 
-//             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-//               "<a class='nav-link text-dark employeedirectorylink' href='../sharepoint-employee-directory/'>Employee Directory"+
-//             "</li>");
+
 
 
 //             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
