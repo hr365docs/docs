@@ -107,56 +107,8 @@
                                 <a href="../../admin/">
                                     Admin Guide
                                 </a>
-                                <ul>
-                                    <li data-nav-id="./installation/requirments/" title=Introduction class=sidelist>
-                                        <a href="../../admin/introduction/">
-                                            Introduction
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                        title="Architecture Diagram" class=sidelist>
-                                        <a href="../../admin/architecturediagram/">
-                                            Architecture Diagram
-                                        </a>
-                                    <li>
-                                    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                        title=Users class="sidelist active">
-                                        <a href="../../admin/user/">
-                                            Users
-                                        </a>
-                                    </li>
-                                    <li data-nav-id="./Setting/" title=Settings class=sidelist>
-                                        <a href="../../admin/settings/">
-                                            Settings
-                                        </a>
-                                        <ul class="sidenavSub-topics">
+                                <ul class="edmsidenavadmin">
 
-                                    </li>
-                                    <!-- <ul>
-                                        <li data-nav-id="../General" title=General class=sidelist>
-                                            <a href="#GeneralSettings">
-                                                General
-                                            </a>
-                                        </li>
-                                        <li data-nav-id="../Exclude-Options/" title= Exclude_Options class=sidelist>
-                                            <a href="#ExcludeSettings">
-                                                Exclude Options
-                                            </a>
-                                        </li>
-
-                                        <li data-nav-id="../views/" title=Views class=sidelist>
-                                            <a href="#ViewsSettings">
-                                                Views
-                                            </a>
-                                        </li>
-
-                                        <li data-nav-id="../advanced/" title=Advanced class=sidelist>
-                                            <a href="#AdvacncedSettings">
-                                                Advanced
-                                            </a>
-                                        </li>
-                                    </ul> -->
                                 </ul>
                             </li>
                             <!-- <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/configuration/ title=Configuration class=sidelist> -->
@@ -287,6 +239,8 @@
         </div>
     </footer>
     <script src="../../../../../js/script.min.js"></script>
+    <script src="../../../../js/edm-adminguide-icon.js"></script>
+    <script src="../../../../js/employeedirecrory-classic-adminguide.js"></script>
     <script>
            function openModal(src) {
   
@@ -302,6 +256,24 @@ function closeModal() {
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
+
+
+<script type="text/javascript">
+    
+    $(document).ready(function () {
+       
+	$(".adminitro").removeClass('active');
+          $(".admindiagram").removeClass('active');
+          $(".adminusers").addClass('active');
+          $(".adminsettings").removeClass('active');
+          $(".admingeneral").removeClass('active');
+          $(".adminexclude").removeClass('active');
+          $(".adminview").removeClass('active');
+		$(".adminadvanced").removeClass('active');
+
+  
+    }); 
+  </script>
 </body>
 
 </html> 
