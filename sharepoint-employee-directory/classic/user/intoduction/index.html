@@ -124,10 +124,12 @@ active">
                                                 <a href="../profile/">Managing User Profile</a>
                                             </li>
                                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                            title=User_interface class="sidelist dropdownicon">
-                                                <a class="qwe" href="../userinterface/">User interface</a><img src="../userinterface/down-arrow-svgrepo-com.svg" alt="" style="max-width:20px ;">
-
-                                                <ul class="ml-15 sidenavSub-topics">
+                                            title=User_interface class="sidelist" >
+                                            <div class="dropdownicon" >
+                                                <a class="qwe" href="../userinterface/">User interface</a>
+                                                <img src="../userinterface/down-arrow-svgrepo-com.svg" alt="" class="imageIcon" onclick="hideshowuserinterface(event)">
+                                            </div>
+                                                <ul class="ml-15 sidenavSub-topics" id="userinterecenavbar">
                     
                                                     <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
                                         title=home_page class="sidelist">
@@ -230,6 +232,7 @@ active">
         </div>
     </footer>
     <script src="../../../../../js/script.min.js"></script>
+    <script src="../../../../js/Headernavbar.js"></script>
     <script>
 
     let rinterface=document.querySelector(".qwe");
@@ -246,9 +249,7 @@ active">
 
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
-  
-}                       
-                              
+}                                                  
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
