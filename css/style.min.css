@@ -327,8 +327,11 @@ a.nav-link.text-dark.active-dark {
     align-items: center;
   }
 
-  .imageIcon{
+  .imageIcon {
     max-width: 14px;
+    transition: 5s;
+  }
+  .drodown_icon{
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
     transform:rotate(90deg);
