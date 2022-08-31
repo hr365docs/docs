@@ -329,12 +329,12 @@ a.nav-link.text-dark.active-dark {
 
   .imageIcon {
     max-width: 14px;
-    transition: 5s;
+    transition: 0.3s;
   }
   .drodown_icon{
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
-    transform:rotate(90deg);
+    transform:rotate(180deg);
   }
    
 html{

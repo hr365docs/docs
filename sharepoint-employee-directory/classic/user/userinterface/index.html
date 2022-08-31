@@ -288,6 +288,7 @@ Navigation Elements -->
 </footer>
 <script src="../../../../../js/script.min.js"></script>
 <script src="../../../../js/employeedirectory-classic-userguide.js"></script>
+<script src="../../../../js/Headernavbar.js"></script>
 <script>
        function openModal(src) {
 
@@ -299,26 +300,26 @@ function closeModal() {
 document.getElementById("myModal").style.display = "none";
 
 }                       
-$("#userinterecenavbar").hide();                       
+// $("#userinterecenavbar").hide();                       
     date = new Date().toLocaleDateString();
     document.getElementById("date").innerHTML=date;
 
-          var hideshowinterface="hide"
-          function hideshowuserinterface(event){
-                   event.stopPropagation();
-                 event.preventDefault();
+          // var hideshowinterface="hide"
+          // function hideshowuserinterface(event){
+          //          event.stopPropagation();
+          //        event.preventDefault();
        
-                   if(hideshowinterface == "show"){
+          //          if(hideshowinterface == "show"){
        
-                       $("#userinterecenavbar").hide(); 
-                       hideshowinterface="hide";
-                   }
-                   else{
+          //              $("#userinterecenavbar").hide(); 
+          //              hideshowinterface="hide";
+          //          }
+          //          else{
        
-                       $("#userinterecenavbar").show();
-                       hideshowinterface="show";
-                   }
-               }
+          //              $("#userinterecenavbar").show();
+          //              hideshowinterface="show";
+          //          }
+          //      }
    </script>
 
 <script type="text/javascript">
