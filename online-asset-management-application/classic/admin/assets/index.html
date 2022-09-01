@@ -63,7 +63,7 @@
                             <a class="nav-link text-dark" href="https://hr365docs.github.io/docs/">Home</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../../sharepoint-employee-directory/">Employee Directory</a>
+                            <a class="nav-link text-dark" href="../../../../../employee-directory/">Employee Directory</a>
                         </li>
                         <li class=nav-item>
                             <a class="nav-link text-dark active-dark" href="../../../../online-asset-management-application/">Asset Management</a>
@@ -108,7 +108,7 @@
                                 <a href="../../admin/">
                                     Admin Guide
                                 </a>
-                                <ul>
+                                <ul id="asidebar">
                                     <li data-nav-id="./Settings/" title=./Settings/ class=sidelist>
 
                                         <a href="../intro/">
@@ -117,7 +117,7 @@
                                     </li>
                                     <li data-nav-id="./Settings/" title="Architecture Diagram" class=sidelist>
 
-                                        <a href="../architecturediagram/">
+                                        <a href="../architecture-diagram/">
                                             Architecture Diagram
                                         </a>
                                     </li>
@@ -134,24 +134,24 @@
                                                 Assets
                                             </a>
                                             <ul>
-                                                <li data-nav-id="./Email-Notification/" title=Email-Notification
-                                                class="sidelist" ><a href="#addAssets">Add Asset</a>
+                                                <li data-nav-id="./Email-Notification/" title=Add-Assets
+                                                class="sidelist" ><a href="../assets/#add-assets">Add Asset</a>
                                             </li>
                                             <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist">
-                                                <a href="#bulkassets">Bulk Assets</a>
+                                                <a href="../assets/#bulk-assets">Bulk Assets</a>
                                             </li>
                                                 <li data-nav-id="./User/" title=User class="sidelist"><a
-                                                        href="#assignassets">Assign Assets</a></li>
+                                                        href="../assets/#assign-assets">Assign Assets</a></li>
                                                 <li data-nav-id="./General-Settings/" title=General-Settings
-                                                    class="sidelist"><a href="#returnassets">Return Assets
+                                                    class="sidelist"><a href="../assets/#return-assets">Return Assets
                                                         </a>
                                                 </li>
                                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist"><a href="#bookingdetails">
+                                                class="sidelist"><a href="../assets/#booking-details">
                                                     Booking Details</a>
                                             </li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                            class="sidelist"><a href="#approvereject">
+                                            class="sidelist"><a href="../assets/#approve-reject">
                                               Approve/Reject Assets</a>
                                         </li>
                                                
@@ -235,7 +235,7 @@
                                             <li data-nav-id="./User/" title=User class="sidelist"><a
                                                     href="../administration/custom_columns/">Custom Columns</a></li>
                                             </li>
-                                            <li data-nav-id="./Email-Notification/" title=Email-Notification
+                                            <li data-nav-id="./Email-Notification/" title=Add-Assets
                                                 class="sidelist"><a href="../administration/addassets/">
                                                     Add Assets </a>
                                             </li>
@@ -244,10 +244,10 @@
                                             <li data-nav-id="./Column-Setting/" title=Column-Setting class="sidelist"><a
                                                     href="../administration/Add_asset_type/">Add Asset Type</a></li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist"><a href="../administration/Add_Project/">Add Project</a>
+                                                class="sidelist"><a href="../administration/#add-project">Add Project</a>
                                             </li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                            class="sidelist"><a href="../administration/model/">Add Model Number</a>
+                                            class="sidelist"><a href="../administration/#model">Add Model Number</a>
                                         </li>
                                         <li data-nav-id="./Dashboard-Settings/" title=Vendor
                                         class="sidelist"><a href="../administration/vendor/">Vendor</a>
@@ -259,23 +259,23 @@
                                         class="sidelist"><a href="../administration/sub_catagory/">Add Sub Category</a>
                                     </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Location
-                                    class="sidelist"><a href="../administration/location/">Add Location</a>
+                                    class="sidelist"><a href="../administration/#location">Add Location</a>
                                 </li>
                                 <li data-nav-id="./Dashboard-Settings/" title=Pickup-Location
                                 class="sidelist"><a href="../administration/pickup/">Add Pickup Location</a>
                             </li>
                                    
                                         <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="../administration/search_index/">Add Search Index</a>
+                                        class="sidelist"><a href="../administration/#search-index">Add Search Index</a>
                                     </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                    class="sidelist"><a href="../administration/deleted_asset/">Add Deleted Assets</a>
+                                    class="sidelist"><a href="../administration/#deleted-asset">Add Deleted Assets</a>
                                 </li>
                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                    class="sidelist"><a href="../administration/acknowledgementstatus/">Add Acknowledgement Status</a>
+                                    class="sidelist"><a href="../administration/#acknowledge-st">Add Acknowledgement Status</a>
                                 </li>
                                 <li data-nav-id="./Dashboard-Settings/" title="Add Equipments"
-                                class="sidelist"><a href="../administration/equipment/">Add Equipments</a>
+                                class="sidelist"><a href="../administration/#equipment">Add Equipments</a>
                             </li>
 
                                         </ul>
@@ -323,7 +323,7 @@
                                         </a>
                                     </li>
                                     <li data-nav-id="./Book-Assets/" title=Installation class="sidelist">
-                                        <a href="../book_assets/">
+                                        <a href="../bbook_assets/">
                                             Book Assets
                                         </a>
                                     </li>
@@ -350,9 +350,9 @@
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
                         <!-- <h2 class=mb-5 id=title>Add Asset</h2> -->
-                        <div class="bg-light p-4" id="addAssets">
+                        <div class="bg-light p-4" id="add-assets">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Add Asset <i class="fas fa-link"
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Add Asset<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
                     
                             <ul class=page-list>
@@ -452,7 +452,7 @@
 
 
                         </div>
-                        <div class="bg-light p-4" id="bulkassets">
+                        <div class="bg-light p-4" id="bulk-assets">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Import asset or Bulk Assets<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -508,7 +508,7 @@
 
 
                         </div>
-                        <div class="bg-light p-4" id="assignassets">
+                        <div class="bg-light p-4" id="assign-assets">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Assign Assets<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -574,7 +574,7 @@
 
 
                         </div>
-                        <div class="bg-light p-4" id="returnassets">
+                        <div class="bg-light p-4" id="return-assets">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Return Assets<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -618,7 +618,7 @@
 
 
                         </div>
-                        <div class="bg-light p-4" id="bookingdetails">
+                        <div class="bg-light p-4" id="booking-details">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Booking Details<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -641,7 +641,7 @@
                                     <div><img src="book.png" onclick="openModal('book.png')" alt="" width="100%"
                                         height="auto"></div>
                                 </div>
-                                <div class="bg-light p-4" id="approvereject">
+                                <div class="bg-light p-4" id="approve-reject">
                                     <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                         <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Approve/Reject Asset<i class="fas fa-link"
                                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -737,6 +737,7 @@ function closeModal() {
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
+       <script src="../aside-assets/aside-assets.js"></script>
 
 </body>
 
