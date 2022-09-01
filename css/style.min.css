@@ -385,6 +385,7 @@ html{
 #userinterecenavbar{
   display: none;
 }
+
 @media screen and (max-width: 991px) {
   .blog_docs #content{
     width: 100%!important;
