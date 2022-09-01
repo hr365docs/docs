@@ -73,7 +73,7 @@ $(document).ready(function () {
            "<a href='/sharepoint-employee-directory/modern/admin/settings/'>"+
                 "Settings"+
             "</a>"+
-            "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIconmainsetting' onclick='hideshowmodernmainsetting(event)'>"+
+            "<img src='./down-arrow-svgrepo-com.svg' class='imageIconmainsetting' onclick='hideshowmodernmainsetting(event)'>"+
            "</div>"+
 
             "<ul class='sidenavSub-topics'>"+
@@ -85,7 +85,7 @@ $(document).ready(function () {
                   "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>"+
                     "General"+
                   "</a>"+
-                  "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIcongeneral' onclick='hideshowmoderngeneral(event)'>"+
+                  "<img src='./down-arrow-svgrepo-com.svg' class='imageIcongeneral' onclick='hideshowmoderngeneral(event)'>"+
                 "</div>"+
             
                   "<ul class='sidenavSub-topics' id='edmmoderngeneral'>"+
@@ -150,7 +150,7 @@ $(document).ready(function () {
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>"+
                     "Advanced"+
                   "</a>"+
-                  "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIconadvanced' onclick='hideshowmodern(event)'>"+
+                  "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced' onclick='hideshowmodern(event)'>"+
                 "</div>"+
             
                   "<ul class='sidenavSub-topics' id='modernsettingedm'>"+
