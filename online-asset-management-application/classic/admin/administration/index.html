@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel=stylesheet>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
+    
     <style>
         :root {
             --primary-color: #5637da;
@@ -63,10 +64,10 @@
                             <a class="nav-link text-dark" href="https://hr365docs.github.io/docs/">Home</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark active dark" href="../../../../sharepoint-employee-directory/">Employee Directory</a>
+                            <a class="nav-link text-dark active dark" href="../../../../employee-directory/">Employee Directory</a>
                         </li>
                         <li class=nav-item>
-                            <a class="nav-link text-dark active-dark" href="../../../../Asset-Management/">Asset Management</a>
+                            <a class="nav-link text-dark active-dark" href="../../../../online-asset-management-application/">Asset Management</a>
                         </li>
                         <li class=nav-item>
                             <a class="nav-link text-dark" href="../../../../helpdesk/">HR365-Helpdesk</a>
@@ -108,7 +109,7 @@
                                 <a href="../../admin/">
                                     Admin Guide
                                 </a>
-                                <ul>
+                                <ul id="asidebar"> 
                                     <li data-nav-id="./Settings/" title=Introduction class=sidelist>
 
                                         <a href="../intro/">
@@ -117,7 +118,7 @@
                                     </li>
                                     <li data-nav-id="./Settings/" title="Architecture Diagram" class=sidelist>
 
-                                        <a href="../architecturediagram/">
+                                        <a href="../architecture-diagram/">
                                             Architecture Diagram
                                         </a>
                                     </li>
@@ -136,14 +137,14 @@
                                             </ul>
                                             <ul>
                                                 
-                                                <li data-nav-id="./Email-Notification/" title=Email-Notification
-                                                class="sidelist"><a href="../assets/">Add Asset</a>
+                                                <li data-nav-id="./Email-Notification/" title=Add-Assets
+                                                class="sidelist"><a href="../assets/#add-assets">Add Asset</a>
                                             </li>
                                             <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist">
-                                                <a href="../assets/">Bulk Assets</a>
+                                               <a href="../assets/#bulk-assets">Bulk Assets</a>
                                             </li>
                                             <li data-nav-id="./User/" title=User class="sidelist"><a
-                                                href="../assets/">Assign Assets</a></li>
+                                                        href="../assets/#assign-assets">Assign Assets</a></li>
                                         <li data-nav-id="./General-Settings/" title=General-Settings
                                             class="sidelist"><a href="../assets/">Return Assets
                                                 </a>
@@ -212,17 +213,17 @@
                                                         Settings</a>
                                                 </li>
                                                 <li data-nav-id="./Email-Notification/" title=Email-Notification
-                                                    class="sidelist"><a href="../settings/emailnotification/">Email
+                                                    class="sidelist"><a href="../settings/">Email
                                                         Notification</a>
                                                 </li>
                                                 <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist">
-                                                    <a href="../settings/customemail/">Custom Emails</a>
+                                                    <a href="../settings//">Custom Emails</a>
                                                 </li>
                                                 <li data-nav-id="./Column-Setting/" title=Column-Setting
-                                                    class="sidelist"><a href="../settings/columnsetting/">Column
+                                                    class="sidelist"><a href="../settings/">Column
                                                         Setting</a></li>
                                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                    class="sidelist"><a href="../settings/dashboardsetting/">Dashboard
+                                                    class="sidelist"><a href="../settings/">Dashboard
                                                         Settings</a>
                                                 </li>
 
@@ -237,49 +238,49 @@
     
                                             
                                                 <li data-nav-id="./User/" title=User class="sidelist"><a
-                                                        href="#customcolumns">Custom Columns</a></li>
+                                                        href="../administration/#custom-col">Custom Columns</a></li>
                                                 </li>
-                                                <li data-nav-id="./Email-Notification/" title=Email-Notification
-                                                    class="sidelist"><a href="#addassets">
+                                                <li data-nav-id="./Email-Notification/" title= Add-Assets
+                                                    class="sidelist"><a href="../administration/#add-assets">
                                                         Add Assets </a>
                                                 </li>
                                                 <li data-nav-id="./Custom-Emails/" title=Custom-Emails class="sidelist"><a
-                                                        href="#addstatus">Add Status</a></li>
+                                                        href="../administration/#add-status">Add Status</a></li>
                                                 <li data-nav-id="./Column-Setting/" title=Column-Setting class="sidelist"><a
-                                                        href="#addassettype">Add Asset Type</a></li>
+                                                        href="../administration/#add-type">Add Asset Type</a></li>
                                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                    class="sidelist"><a href="#addproject">Add Project</a>
+                                                    class="sidelist"><a href="../administration/#add-project">Add Project</a>
                                                 </li>
                                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                    class="sidelist"><a href="#model">Add Model Number</a>
+                                                    class="sidelist"><a href="../administration/#model">Add Model Number</a>
                                                 </li>
                                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                    class="sidelist"><a href="#vender">Add Vendor</a>
+                                                    class="sidelist"><a href="../administration/#vender">Add Vendor</a>
                                                 </li>
                                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist"><a href="#category">Add Catagory</a>
+                                                class="sidelist"><a href="../administration/#category">Add Catagory</a>
                                             </li>
                                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                                class="sidelist"><a href="#subcategory">Add Sub Cateogry</a>
+                                                class="sidelist"><a href="../administration/#subcategory">Add Sub Cateogry</a>
                                             </li>
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                            class="sidelist"><a href="#location">Add Location</a>
+                                            class="sidelist"><a href="../administration/#location">Add Location</a>
                                         </li>
                                         <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="#pickup">Add Pickup Location</a>
+                                        class="sidelist"><a href="../administration/#pickup">Add Pickup Location</a>
                                     </li>
                                        
                                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                            class="sidelist"><a href="#searchindex">Add Search Index</a>
+                                            class="sidelist"><a href="../administration/#search-index">Add Search Index</a>
                                         </li>
                                         <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="#deletedasset">Add Deleted Assets</a>
+                                        class="sidelist"><a href="../administration/#deleted-asset">Add Deleted Assets</a>
                                     </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="#acknowledgementstatus">Add Acknowledgement Status</a>
+                                        class="sidelist"><a href="../administration/#acknowledge-st">Add Acknowledgement Status</a>
                                     </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                    class="sidelist"><a href="#equipment">Add Equipments</a>
+                                    class="sidelist"><a href="../administration/#equipment">Add Equipments</a>
                                 </li>
     
                                             </ul>
@@ -330,7 +331,7 @@
                                         </a>
                                     </li>
                                     <li data-nav-id="./Book-Assets/" title=Installation class="sidelist">
-                                        <a href="../book_assets/">
+                                        <a href="../book-assets/">
                                             Book Assets
                                         </a>
                                     </li>
@@ -348,7 +349,7 @@
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
                         <!-- <h2 class=mb-5 id=title>Administration</h2> -->
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="administration">
 
                             <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Administration<i class="fas fa-link"
                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -363,7 +364,7 @@
                                         <li data-nav-id="./User/" title=User class="sidelist"><a
                                             href="../administration/custom_columns/">Custom Columns</a></li>
                                     </li>
-                                    <li data-nav-id="./Email-Notification/" title=Email-Notification
+                                    <li data-nav-id="./Email-Notification/" title=Add-Assets
                                         class="sidelist"><a href="../../admin/administration/addassets/">
                                             Add Assets </a>
                                     </li>
@@ -375,32 +376,32 @@
                                         class="sidelist"><a href="../../administration/Add_Project/">Add Project</a>
                                     </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="../../administration/model/">Add Model Number</a>
+                                        class="sidelist"><a href="../../administration/#model">Add Model Number</a>
                                     </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                        class="sidelist"><a href="./../administration/vendor/">Add Vendor</a>
+                                        class="sidelist"><a href="./../administration/#vendor">Add Vendor</a>
                                     </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                    class="sidelist"><a href="../administration/catagory/">Add Catagory</a>
+                                    class="sidelist"><a href="../administration/#catagory">Add Catagory</a>
                                 </li>
                                     <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                    class="sidelist"><a href="../administration/sub_catagory/">Add Sub Cateogry</a>
+                                    class="sidelist"><a href="../administration/#subcatagory">Add Sub Cateogry</a>
                                 </li>
                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                class="sidelist"><a href="../administration/location/">Add Location</a>
+                                class="sidelist"><a href="../administration/#location">Add Location</a>
                             </li>
                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
                             class="sidelist"><a href="../administration/pickup/">Add Pickup Location</a>
                         </li>
                            
                                 <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                                class="sidelist"><a href="../administration/search_index/">Add Search Index</a>
+                                class="sidelist"><a href="../administration/#search-index">Add Search Index</a>
                             </li>
                             <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                            class="sidelist"><a href="../administration/deleted_asset/">Add Deleted Assets</a>
+                            class="sidelist"><a href="../administration/#deleted-asset">Add Deleted Assets</a>
                         </li>
                         <li data-nav-id="./Dashboard-Settings/" title=Dashboard-Settings
-                            class="sidelist"><a href="../administration/acknowledgementstatus/">Add Acknowledgement Status</a>
+                            class="sidelist"><a href="../administration/#acknowledge-st">Add Acknowledgement Status</a>
                         </li>
 
         
@@ -408,7 +409,7 @@
                                 </li>
 
                         </div>
-                        <div class="bg-light p-4" id="customcolumns">
+                        <div class="bg-light p-4" id="custom-col">
 
                             <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Custom Columns<i class="fas fa-link"
                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -499,7 +500,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="bg-light p-4" id="addassets">
+                                <div class="bg-light p-4" id="add-assets">
                                     <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                         <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Add Asset<i class="fas fa-link"
                                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -561,7 +562,7 @@
         
         
                                 </div>
-                                <div class="bg-light p-4" id="addstatus">
+                                <div class="bg-light p-4" id="add-status">
                                     <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                         <h3 id="_dashboards"><a class="header-icon-link highlight" href="#"> Add Status<i class="fas fa-link"
                                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -617,7 +618,7 @@
         
         
                                 </div>
-                                <div class="bg-light p-4" id="addassettype">
+                                <div class="bg-light p-4" id="add-type">
                                     <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                         <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Add Asset Type<i class="fas fa-link"
                                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -673,7 +674,7 @@
         
         
                                 </div>
-                                <div class="bg-light p-4" id="addproject">
+                                <div class="bg-light p-4" id="add-project">
                                     <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                         <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Add Project<i class="fas fa-link"
                                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -790,7 +791,7 @@
                                           
                                           
                                             </div>
-                                            <div class="bg-light p-4" id="vender">
+                                            <div class="bg-light p-4" id="vendor">
                                                 <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                                     <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Vendor<i class="fas fa-link"
                                                             style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -844,7 +845,7 @@
                                                       
                            
                                                         </div>
-                                                        <div class="bg-light p-4" id="category">
+                                                        <div class="bg-light p-4" id="catagory">
                                                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#"> Catagory<i class="fas fa-link"
                                                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -904,7 +905,7 @@
                                                                 
                                        
                                                                     </div>
-                                                                    <div class="bg-light p-4" id="subcategory">
+                                                                    <div class="bg-light p-4" id="subcatagory">
                                                                         <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                                                             <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Sub Catagory<i class="fas fa-link"
                                                                                     style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -1068,7 +1069,7 @@
                                                                                         
                                                                
                                                                                             </div>
-                                                                                            <div class="bg-light p-4" id="searchindex">
+                                                                                            <div class="bg-light p-4" id="search-index">
                                                                                                 <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                                                                                     <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Search Index<i class="fas fa-link"
                                                                                                             style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -1118,7 +1119,7 @@
                                                                                            
                                                                                                           
                                                                                         </div>
-                                                                                        <div class="bg-light p-4" id="deletedasset">
+                                                                                        <div class="bg-light p-4" id="deleted-asset">
                                                                                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                                                                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Deleted Asset<i class="fas fa-link"
                                                                                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -1132,7 +1133,7 @@
                                                                                                     <div><img src="deleted.png" onclick="openModal('deleted.png')" alt="" width="100%"
                                                                                                         height="auto"></div>
                                                                                         </div>
-                                                                                        <div class="bg-light p-4" id="acknowledgementstatus">
+                                                                                        <div class="bg-light p-4" id="acknowledge-st">
                                                                                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                                                                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Acknowledgement Status<i class="fas fa-link"
                                                                                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -1233,8 +1234,8 @@
                                                                                                     </div>
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../Dashboard/" aria-label="Previous page"><i
-                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Dashboard setting</span></a>
+                            <a class="nav nav-prev" href="../../admin/settings/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Settings</span></a>
                             <a class="nav nav-next" href="../report/" aria-label="Previous page">
                                 <span class="d-none d-md-block">Report</span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
@@ -1299,6 +1300,7 @@ function closeModal() {
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
+       <script src="../aside-assets/aside-assets.js"></script>
 </body>
 
 </html> 
