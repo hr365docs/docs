@@ -3,12 +3,14 @@ $("#modernsettingedm").hide();
 $("#edmmoderngeneral").hide();
 $("#modernadminmainsetting").hide();
 $("#userinterecenavbar").hide();
+$("#modernuserguide").hide();
 
 var hideshowinterfacenew="show"
 var hideshowinterface="show"
 var hideshowedpadmin="show"
 var hideshowgeneral="show"
 var hideshowmainsetting="show"
+var modernuserguide="show"
 
 
 
@@ -118,3 +120,26 @@ function hideshowuserinterface(event){
              hideshowinterface="show";
          }
      }
+
+
+    //  employee directory modern user guide
+
+    function hideshowmodernuserguide(event){
+        event.stopPropagation();
+      event.preventDefault();
+      
+      
+     
+      $(".imageIconmainsetting").toggleClass("drodown_icon");
+       // $(".dropdownicon img").css("border", "1px solid black")
+        if(modernuserguide == "show"){
+
+            $("#modernuserguide").hide(); 
+            modernuserguide="hide";
+        }
+        else{
+
+            $("#modernuserguide").show();
+            modernuserguide="show";
+        }
+    }
