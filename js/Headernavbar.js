@@ -50,8 +50,9 @@
 // $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
 // "<a class='nav-link text-dark' href='"+ linkref+"/sharepoint-employee-directory/'>Employee Directory"+
 // "</li>");
-$("#userinterecenavbar").hide();  
-var hideshowinterface="hide"
+
+$("#userinterecenavbar").hide();
+var hideshowinterface="show"
 function hideshowuserinterface(event){
          event.stopPropagation();
        event.preventDefault();
@@ -70,3 +71,5 @@ function hideshowuserinterface(event){
              hideshowinterface="show";
          }
      }
+
+     

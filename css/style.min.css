@@ -340,5 +340,32 @@ a.nav-link.text-dark.active-dark {
 html{
   scroll-behavior: smooth;
 }
-    
-    
+
+
+
+/* employee directory blog css code */
+.blog_link{
+  word-wrap: break-word;
+}
+
+.home-blog-latest h2{ 
+  font-size: 26px;
+}
+
+
+.home-blog-latest h3{
+  font-size: 20px;
+}
+
+.blog_docs{
+  gap: 20px;
+}
+
+@media screen and(max-width:991px) {
+  .blog_docs #content{
+    max-width: 100%;
+    }
+    .blog_docs .home-blog-latest{
+      margin: 30px o;
+    }
+}
