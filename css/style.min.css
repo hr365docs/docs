@@ -376,7 +376,7 @@ html{
 
 @media screen and (max-width: 991px) {
   .blog_docs #content{
-    width: 100%;
+    width: 100%!important;
   }
   .blog_docs .home-blog-latest{
     margin: 30px o;
