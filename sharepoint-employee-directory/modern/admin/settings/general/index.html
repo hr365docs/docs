@@ -132,11 +132,15 @@
                                         <ul>
                    
                                             <li data-nav-id="../advanced/" title=General class="sidelist active">
-                                              <a href="../general/">
-                                                General
-                                              </a>
-                                              <ul class="sidenavSub-topics">
-                                                <li  data-nav-id="../advanced/" title="Search filters" class="sidelist">
+                                              <div class="dropdownicon">
+                                                <a href="../general/">
+                                                  General
+                                                </a>
+                                                <img src="../../../../down-arrow-svgrepo-com.svg" class="imageIcon" onclick="hideshowmoderngeneral(event)">
+                                              </div>
+                                              <ul class="sidenavSub-topics" id="edmmoderngeneral">
+
+                                                <!-- <li  data-nav-id="../advanced/" title="Search filters" class="sidelist">
                                                   <a href="./Search_filters/">Search filters</a>
                                                 </li>
                                                 <li  data-nav-id="../advanced/" title="Allow users to export directory" class="sidelistss">
@@ -167,7 +171,7 @@
                                                 </li>
                                                 <li  data-nav-id="../advanced/" title="Custom link" class="sidelist">
                                                   <a href="./Custom_link/">Custom link</a>
-                                                </li>
+                                                </li> -->
                                                 
                                             </li>
                                           </ul>
@@ -281,7 +285,7 @@
                             </ul>
                         </div>
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="search-filter">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Search filters
                             <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -295,7 +299,7 @@
                        
                         </div>
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="allow-user-export-directory">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Allow users to export directory
              <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -314,7 +318,7 @@
                          
                         </div>
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="language-selection-as-browser">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language selection as browser default language
              <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -334,7 +338,7 @@
                         </div>
 
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="language-selection">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language selection
              <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -352,7 +356,7 @@
                        
                         </div>
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="update-roles">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Update users role and permissions
              <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -409,7 +413,7 @@
                         </div>
 
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="update-department">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Update users department
              <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -451,7 +455,7 @@
                         </div>
 
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="update-jobtitle">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Update job title
              <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -487,7 +491,7 @@
                        
                         </div>
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="update-location">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Update users location
              <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -523,7 +527,7 @@
                         </div>
 
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="collaboration">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Collaboration
              <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -543,7 +547,7 @@
                        
                         </div>
 
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="custom-link">
                           <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Custom link
              <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
