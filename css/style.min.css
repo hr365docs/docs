@@ -417,7 +417,7 @@ font-size: 20px;
 gap: 20px;
 }
 
-.navbar-nav .ml-auto{
+.common-header .navbar-nav .ml-auto{
 width: 100% !important;
 display: flex !important;
 column-gap: 25px !important;
