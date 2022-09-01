@@ -331,7 +331,7 @@ a.nav-link.text-dark.active-dark {
     max-width: 14px;
     transition: 0.3s;
   }
-  .drodown_icon{
+  .drodown_icon,.user-items-dropdown img.active{
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
     transform:rotate(180deg);
@@ -341,4 +341,18 @@ html{
   scroll-behavior: smooth;
 }
     
-    
+/* user-interface */
+.user-items-dropdown img{
+  max-width: 14px;
+  transition: 0.3s;
+}
+.user-items-dropdowny{
+  display: flex;
+}
+
+.user-items-dropdowny .sidenavSub-topics{
+  display: none;
+}
+.sidenavSub-topics.active{
+  display: block;
+}

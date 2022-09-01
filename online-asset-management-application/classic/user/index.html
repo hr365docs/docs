@@ -49,7 +49,7 @@
 <a class="nav-link text-dark" href=https://hr365docs.github.io/docs/>Home</a>
 </li>
 <li class=nav-item>
-<a class="nav-link text-dark" href="../../../sharepoint-employee-directory/">Employee Directory</a>
+<a class="nav-link text-dark" href="../../../employee-directory/">Employee Directory</a>
 </li>
 <li class=nav-item>
 <a class="nav-link text-dark active-dark" href="../../../online-asset-management-application/">Asset Mangement</a>
@@ -89,9 +89,9 @@ active">
 <a href="../../../online-asset-management-application/">
 User Guide
 </a>
-<ul>
+<ul id="userasidebar">
     <li data-nav-id="./installation/requirments/" title=Introduction class=sidelist>
-        <a href="./introduction/">
+        <a href="./introduction/index.html">
         Introduction
         </a>  
     </li>
@@ -155,7 +155,7 @@ User Guide
 <div class=col-lg-9>
     <div class="p-lg-5 p-4 bg-white" id=content>
         <!-- <h2 class=mb-5 id=title></h2> -->
-        <div class="bg-light p-4">
+        <div class="bg-light p-4" id="asset-manage">
             <ul class="items page-list">
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Asset-Management
                          <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -174,13 +174,13 @@ active">
                     <ul class="list-styled-content">
                         <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
                             title=Introduction class=sidelist>
-                            <a href="./introduction/">
+                            <a href="../user/introduction/index.html">
                                 Introduction
                             </a>
                             <!-- <ul class="ml-15 sidenavSub-topics"> -->
                                 <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
                                 title=Home_page class=sidelist>
-                                    <a href="./Homepage/">Home Page</a>
+                                    <a href="./homepage/">Home Page</a>
                                 </li>
                                
                                 <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
@@ -227,7 +227,7 @@ active">
 <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
 <nav class="pagination mt-3">
 <a class="nav nav-prev" href="../../../online-asset-management-application/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>Asset-Management <span class="d-none d-md-block"></span></a>
-<a class="nav nav-next" href="../user/introduction/"aria-label="Previous page"> <span class="d-none d-md-block">Introduction</span><i class="ti-arrow-right ml-2"></i></a>
+<a class="nav nav-next" href="../user/introduction/index.html"aria-label="Previous page"> <span class="d-none d-md-block">Introduction</span><i class="ti-arrow-right ml-2"></i></a>
 </nav>
 </div>
 </div>
@@ -290,6 +290,7 @@ document.getElementById("myModal").style.display = "none";
     date = new Date().toLocaleDateString();
     document.getElementById("date").innerHTML=date;
    </script>
+   <script src="../user/user-assets/user-assets.js"></script>
 </body>
 
 </html> 

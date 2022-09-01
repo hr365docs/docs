@@ -49,10 +49,10 @@
 <a class="nav-link text-dark" href=https://hr365docs.github.io/docs/>Home</a>
 </li>
 <li class=nav-item>
-<a class="nav-link text-dark" href="../../../../sharepoint-employee-directory/">Employee Directory</a>
+<a class="nav-link text-dark" href="../../../../employee-directory/">Employee Directory</a>
 </li>
 <li class=nav-item>
-<a class="nav-link text-dark active-dark" href="../../../../Asset-Management/">Asset Mangement</a>
+<a class="nav-link text-dark active-dark" href="../../../../online-asset-management-application/">Asset Mangement</a>
 </li>
 <li class=nav-item>
 <a class="nav-link text-dark " href="../../../../helpdesk/"> Helpdesk</a>
@@ -89,7 +89,7 @@
                 <a href="../../user/">
                 User Guide
                 </a>
-                <ul>
+                <ul id="userasidebar">
                     <li data-nav-id="../Introduction" title=Introduction class="sidelist">
                         <a href="../introduction/">
                         Introduction
@@ -157,7 +157,7 @@
     <div class=col-lg-9>
         <div class="p-lg-5 p-4 bg-white" id=content>
         <!-- <h2 class=mb-5 id=title>Getting Started</h2> -->
-        <div class="bg-light p-4">
+        <div class="bg-light p-4" id="getting-started">
             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Getting started<i class="fas fa-link"
                         style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -178,7 +178,7 @@
             </div>
             <nav class="pagination mt-3">
                 <a class="nav nav-prev" href="../introduction/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Introduction</span></a>
-                <a class="nav nav-next" href="../Home-Page/" aria-label="Previous page"> <span class="d-none d-md-block"> Home page </span><i class="ti-arrow-right ml-2"></i></a>
+                <a class="nav nav-next" href="../homepage/" aria-label="Previous page"> <span class="d-none d-md-block"> Home page </span><i class="ti-arrow-right ml-2"></i></a>
                 </nav>
             </div>
             </div>
@@ -242,6 +242,7 @@ document.getElementById("myModal").style.display = "none";
     date = new Date().toLocaleDateString();
     document.getElementById("date").innerHTML=date;
    </script>
+   <script src="../../user/user-assets/user-assets.js"></script>
 
 </body>
 

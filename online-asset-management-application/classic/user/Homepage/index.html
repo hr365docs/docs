@@ -28,7 +28,7 @@
 <meta property="og:title" content="Asset-Management">
 <meta property="og:description" content="Employee directory">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-employee-directory/">
+<meta property="og:url" content="https://hr365docs.github.io/docs/employee-directory/">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Asset-Management">
 <meta name=twitter:description content="Employee directory">
@@ -49,7 +49,7 @@
         <a class="nav-link text-dark" href=https://hr365docs.github.io/docs/>Home</a>
         </li>
         <li class=nav-item>
-        <a class="nav-link text-dark" href="../../../../sharepoint-employee-directory/">Employee Directory</a>
+        <a class="nav-link text-dark" href="../../../../employee-directory/">Employee Directory</a>
         </li>
         <li class=nav-item>
         <a class="nav-link text-dark active-dark" href="../../../../online-asset-management-application/">Asset Mangement</a>
@@ -89,7 +89,7 @@
             <a href="../../user/">
             User Guide
             </a>
-            <ul>
+            <ul id="userasidebar">
                 <li data-nav-id="../Introduction" title=Introduction class="sidelist">
                     <a href="../introduction/">
                     Introduction
@@ -158,7 +158,7 @@
     <div class=col-lg-9>
         <div class="p-lg-5 p-4 bg-white" id=content>
         <!-- <h2 class=mb-5 id=title> Help</h2> -->
-        <div class="bg-light p-4">
+        <div class="bg-light p-4" id="home-page">
             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Home Page
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
@@ -175,11 +175,11 @@
       
       <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
         <nav class="pagination mt-3">
-            <a class="nav nav-prev" href="../introduction/"
+            <a class="nav nav-prev" href="../getting-started/"
                 aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                    class="d-none d-md-block">Introduction</span></a>
+                    class="d-none d-md-block">Getting_Started</span></a>
             <a class="nav nav-next" href="../userinterface/" aria-label="Previous page"> <span
-                    class="d-none d-md-block">User Interface</span><i class="ti-arrow-right ml-2"></i></a>
+                    class="d-none d-md-block">User_Interface</span><i class="ti-arrow-right ml-2"></i></a>
         </nav>
     </div>
 </div>
@@ -243,6 +243,7 @@ document.getElementById("myModal").style.display = "none";
     date = new Date().toLocaleDateString();
     document.getElementById("date").innerHTML=date;
    </script>
+   <script src="../../user/user-assets/user-assets.js"></script>
 </body>
 
 </html> 
