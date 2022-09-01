@@ -37,9 +37,7 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
             "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
             "title=views class='sidelist viewslink'>"+
                 "<a href='https://kb.hr365.us/sharepoint-employee-directory/classic/user/user-interface/#userhomepage'>Views</a>"+
-
             "</li>"+
-
         "</ul>"+ 
     "</li>"+
 

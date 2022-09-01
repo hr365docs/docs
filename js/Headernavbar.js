@@ -50,11 +50,20 @@
 // $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
 // "<a class='nav-link text-dark' href='"+ linkref+"/sharepoint-employee-directory/'>Employee Directory"+
 // "</li>");
+
+
+$("#userinterecenavbar").hide();
+var hideshowinterface="show"
+function hideshowuserinterface(event){
+         event.stopPropagation();
+       event.preventDefault();
+
 // $("#userinterecenavbar").hide();  
 // var hideshowinterface="show"
 // function hideshowuserinterface(event){
 //          event.stopPropagation();
 //        event.preventDefault();
+
        
        
 //        $(".imageIcon").toggleClass("drodown_icon");
@@ -66,7 +75,16 @@
 //          }
 //          else{
 
+
+             $("#userinterecenavbar").show();
+             hideshowinterface="show";
+         }
+     
+
+     
+
 //              $("#userinterecenavbar").show();
 //              hideshowinterface="show";
 //          }
 //      }
+
