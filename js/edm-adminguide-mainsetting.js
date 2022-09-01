@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('#modernadminmainsetting').html('');
 
-    $('#modernadminmainsetting').append("<li data-nav-id='../advanced/' title=General class='sidelist edpgeneral' >"+
+    $('#modernadminmainsetting').append("<li data-nav-id='../advanced/' title=General class='sidelist' >"+
                                                  
     "<div class='dropdownicon'>"+
       "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>"+
@@ -18,19 +18,19 @@ $(document).ready(function () {
     "</li>"+
   
 
-  "<li data-nav-id='../Exclude-Options/' title='Exclude Options' class='sidelist edpexclude'>"+
+  "<li data-nav-id='../Exclude-Options/' title='Exclude Options' class='sidelist'>"+
       "<a href='/sharepoint-employee-directory/modern/admin/settings/excludeoptions/'>"+
           "Exclude Options"+
       "</a>"+
   "</li>"+
 
-  "<li data-nav-id='../views/' title=Views class='sidelist edpviews'>"+
+  "<li data-nav-id='../views/' title=Views class='sidelist'>"+
       "<a href='/sharepoint-employee-directory/modern/admin/settings/views/'>"+
           "Views"+
       "</a>"+
   "</li>"+
 
-  "<li data-nav-id='../advanced/' title=Advanced class='sidelist edpadvanced'>"+
+  "<li data-nav-id='../advanced/' title=Advanced class='sidelist'>"+
 
     "<div class='dropdownicon'>"+
       "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>"+

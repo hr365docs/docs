@@ -5,7 +5,7 @@ $(document).ready(function () {
     "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#search-filter'>Search filters</a>"+
   "</li>"+
 
-  "<li  data-nav-id='../advanced/' title='Allow users to export directory' class='sidelists'>"+
+  "<li  data-nav-id='../advanced/' title='Allow users to export directory' class='sidelist'>"+
     "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#allow-user-export-directory'>Allow users to export directory</a>"+
   "</li>"+
 
