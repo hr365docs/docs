@@ -130,7 +130,7 @@ function hideshowuserinterface(event){
       
       
      
-      $(".imageIconmainsetting").toggleClass("drodown_icon");
+      $(".imageIconmodernuser").toggleClass("drodown_icon");
        // $(".dropdownicon img").css("border", "1px solid black")
         if(modernuserguide == "show"){
 

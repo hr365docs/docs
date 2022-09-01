@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('#modernadminmainsetting').append("<li data-nav-id='../advanced/' title=General class='sidelist edpgeneral' >"+
                                                  
     "<div class='dropdownicon'>"+
-      "<a href='/sharepoint-employee-directory/modern/admin/settings/general/'>"+
+      "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>"+
         "General"+
       "</a>"+
       "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIcongeneral' onclick='hideshowmoderngeneral(event)'>"+
@@ -49,3 +49,4 @@ $(document).ready(function () {
                                         });
 
                                      
+                                        
