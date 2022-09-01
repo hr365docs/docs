@@ -350,7 +350,7 @@ html{
   display: flex;
 }
 
-.user-items-dropdowny .sidenavSub-topics{
+.user-items-dropdown .sidenavSub-topics{
   display: none;
 }
 .sidenavSub-topics.active{
