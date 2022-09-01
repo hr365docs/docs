@@ -57,33 +57,8 @@
                     aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
                     <span class=navbar-toggler-icon></span>
                 </button>
-                <div class="collapse navbar-collapse text-center" id=navigation>
-                    <ul class="navbar-nav ml-auto">
-                        <li class=nav-item>
-                            <a class="nav-link text-dark" href=https://hr365docs.github.io/docs />Home</a>
-                        </li>
-                        <li class=nav-item>
-                            <a class="nav-link text-dark active-dark" href="../../../../sharepoint-employee-directory/">Employee Directory
-                        </li>
-                        <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../Asset-Management/">Asset Management</a>
-                        </li>
-                        <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../helpdesk/">HR365-Helpdesk</a>
-                        </li>
-                        <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../time-off-manager/">Time Off Manager</a>
-                        </li>
-                        <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../timesheets/">Timesheet</a>
-                        </li>
-                        <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../Performance-Management/">Performance Management</a>
-                        </li>
-                        <li class=nav-item>
-                            <a class="nav-link text-dark" href="../../../../../contact/">Contact</a>
-                          </li>
-                    </ul>
+                <div class="collapse navbar-collapse text-center common-header" id=navigation>
+                  
                 </div>
             </div>
         </nav>
@@ -102,58 +77,8 @@ active">
                                 <a href="../../../../sharepoint-employee-directory/">
                                     Admin Guide
                                 </a>
-                                <ul>
-                                    <li data-nav-id="./installation/requirments/" title=Introduction class=sidelist>
-                                        <a href="../admin/introduction/">
-                                            Introduction
-                                        </a>
-                                    </li>
+                                <ul class="edmsidenavadmin">
 
-                                    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                    title=Users class=sidelist>
-                                    <a href="../admin/architecturediagram/">
-                                        Architecture Diagram
-                                    </a>
-                                </li>
-
-                                    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                                        title=Users class=sidelist>
-                                        <a href="../admin/user/">
-                                            Users
-                                        </a>
-                                    </li>
-                                    <li data-nav-id="./Setting/" title=settings class=sidelist>
-                                        <a href="../admin/settings/">
-                                            Settings
-                                        </a>
-                                        <ul class="sidenavSub-topics">
-
-                                    </li>
-                                    <!-- <ul>
-                                        <li data-nav-id="../General" title=General class=sidelist>
-                                            <a href="#GeneralSettings">
-
-                                                General
-                                            </a>
-                                        </li>
-                                        <li data-nav-id="../Exclude-Options/" title=  Exclude_Options class=sidelist>
-                                            <a href="#ExcludeSettings">
-                                                Exclude Options
-                                            </a>
-                                        </li>
-
-                                        <li data-nav-id="../views/" title=Views class=sidelist>
-                                            <a href="#ViewsSettings">
-                                                Views
-                                            </a>
-                                        </li>
-
-                                        <li data-nav-id="../advanced/" title=Advanced class=sidelist>
-                                            <a href="#AdvacncedSettings">
-                                                Advanced
-                                            </a>
-                                        </li>
-                                    </ul> -->
                                 </ul>
                             </li>
                             <!-- <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/configuration/ title=Configuration class=sidelist> -->
@@ -210,18 +135,18 @@ active">
                             <a href="./User-Interface/navigation/">Navigation</a>
                         </li> -->
                                                     <li>
-                                                        <a href="#GeneralSettings">General</a>
+                                                        <a href="../admin/settings/#generalsetting">General</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#ExcludeSettings">Exclude Options</a>
+                                                        <a href="../admin/settings/#excludesetting">Exclude Options</a>
 
                                                     </li>
                                                     <li>
-                                                        <a href="#ViewsSettings">Views</a>
+                                                        <a href="../admin/settings/#viewsetting">Views</a>
 
                                                     </li>
                                                     <li>
-                                                        <a href="#AdvacncedSettings">Advanced</a>
+                                                        <a href="../admin/settings/#advancesetting">Advanced</a>
 
                                                     </li>
 
@@ -295,6 +220,9 @@ active">
         </div>
     </footer>
     <script src="../../../../../js/script.min.js"></script>
+    <script src="../../../js/showhidefunction.js"></script>
+    <script src="../../../js/employeedirecrory-classic-adminguide.js"></script>
+    <script src="../../../js/header-footer.js"></script>
     <script>
            function openModal(src) {
   
@@ -310,6 +238,22 @@ function closeModal() {
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
+
+<script type="text/javascript">
+    
+    $(document).ready(function () {
+         $(".adminitro").removeClass('active');
+          $(".admindiagram").removeClass('active');
+          $(".adminusers").removeClass('active');
+          $(".adminsettings").removeClass('active');
+          $(".admingeneral").removeClass('active');
+          $(".adminexclude").removeClass('active');
+          $(".adminview").removeClass('active');
+		$(".adminadvanced").removeClass('active');
+              
+  
+    }); 
+  </script>
 </body>
 
 </html> 
