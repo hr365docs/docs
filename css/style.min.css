@@ -92,7 +92,7 @@ img {
     list-style-type: initial;
   }
   .banner .navbar-brand {
-    margin-left: -5%;
+    /* margin-left: -5%; */
     width: 14%;
     color: var(--white-color)!important;
 }
@@ -330,11 +330,15 @@ a.nav-link.text-dark.active-dark {
   .imageIcon {
     max-width: 14px;
     transition: 0.3s;
-  }
-  .drodown_icon,.user-items-dropdown img.active{
+    cursor: pointer;
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
     transform:rotate(180deg);
+  }
+  .drodown_icon,.user-items-dropdown img.active{
+    -moz-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg);
   }
    
 html{
@@ -344,8 +348,12 @@ html{
 /* user-interface */
 .user-items-dropdown img{
   max-width: 14px;
+  -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(180deg);
   transition: 0.3s;
   margin-left: 12px;
+  cursor: pointer;
 }
 .user-items-dropdowny{
   display: flex;
@@ -356,4 +364,120 @@ html{
 }
 .sidenavSub-topics.active{
   display: block;
+}
+.setting_side_nav_bar::before{
+  display: none;
+
+}
+.dropdownicon{
+display: flex !important;
+gap: 10px;
+align-items: center;
+}
+
+.imageIcon {
+max-width: 14px;
+transition: 0.3s;
+cursor: pointer;
+-moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(180deg);
+}
+
+.imageIcongeneral{
+max-width: 14px;
+transition: 0.3s;
+-moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(180deg);
+cursor: pointer;
+}
+
+.imageIconadvanced{
+max-width: 14px;
+transition: 0.3s;
+-moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(180deg);
+cursor: pointer;
+}
+
+.imageIconmainsetting{
+max-width: 14px;
+transition: 0.3s;
+-moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(180deg);
+cursor: pointer;
+}
+
+.imageIconmodernuser{
+max-width: 14px;
+transition: 0.3s;
+-moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(180deg);
+cursor: pointer;
+}
+.drodown_icon{
+-moz-transform:rotate(00deg);
+-webkit-transform:rotate(0deg);
+transform:rotate(0deg);
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+
+
+/* employee directory blog css code */
+.blog_link{
+word-wrap: break-word;
+}
+
+.home-blog-latest h2{ 
+font-size: 26px;
+}
+
+
+.home-blog-latest h3{
+font-size: 20px;
+}
+
+.blog_docs{
+gap: 20px;
+}
+
+#userinterecenavbar{
+  display: none;
+}
+#settingsadmin{
+  display: none;
+}
+#modernuserguide{
+  display: none;
+}
+#edmmoderngeneral{
+  display: none;
+}
+#modernsettingedm{
+  display: none;
+}
+#modernadminmainsetting{
+  display: none;
+}
+
+.common-header .navbar-nav .ml-auto{
+width: 100% !important;
+display: flex !important;
+column-gap: 25px !important;
+}
+@media screen and (max-width: 991px) {
+.blog_docs #content{
+width: 100%!important;
+}
+.blog_docs .home-blog-latest{
+margin: 30px 0px;
+}
 }
