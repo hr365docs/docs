@@ -1,51 +1,3 @@
-// $(document).ready(function () {
-//     $("#edmfullyadminguide").html("");
-
-//     $("#edmfullyadminguide").append("<ul>"+
-//         "<li data-nav-id='./installation/requirments/' title=Introduction class=sidelist>"+
-//             "<a href='../../admin/introduction/'>"+
-//                 "Introduction"+
-//             "</a>"+
-//         "</li>"+
-//         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-//             "title=' Profile Card' class=sidelist>"+
-//             "<a href='../../admin/profilecard/'>"+
-//                 "Profile Card"+
-//             "</a>"+
-//         "</li>"+
-        
-        
-
-//         "<li data-nav-id='./Setting/' title=Settings class='sidelist active'>"+
-//           "<div class='dropdownicon'>"+
-//            "<a href='../../admin/settings/'>"+
-//                 "Settings"+
-//             "</a>"+
-//             "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIconmainsetting' onclick='hideshowmodernmainsetting(event)'>"+
-//            "</div>"+
-
-//             "<ul class='sidenavSub-topics'>"+
-
-//                 "<ul id='modernadminmainsetting'>"+
-                    
-
-//                 "</ul>"+
-              
-//             "</ul>"+
-   
-//     "</a>"+
-//     "</ul>"+
-//     "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-//     "title=Help class=sidelist>"+
-//     "<a href='../../admin/help/'>"+
-//         "Help"+
-//     "</a>"+
-//     "</li>")
-                                           
-//                                         });
-
-
-
 
 
 
@@ -54,11 +6,13 @@ $(document).ready(function () {
     $("#edmfullyadminguide").html("");
 
     $("#edmfullyadminguide").append("<ul>"+
-        "<li data-nav-id='./installation/requirments/' title=Introduction class=sidelist>"+
-            "<a href='/sharepoint-employee-directory/modern/admin/introduction/'>"+
-                "Introduction"+
-            "</a>"+
-        "</li>"+
+
+    "<li data-nav-id='./installation/requirments/' title=Introduction class=sidelist>"+
+    "<a href='/sharepoint-employee-directory/modern/admin/introduction/'>"+
+        "Introduction"+
+    "</a>"+
+    "</li>"+
+
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
             "title=' Profile Card' class=sidelist>"+
             "<a href='/sharepoint-employee-directory/modern/admin/profilecard/'>"+
@@ -66,9 +20,7 @@ $(document).ready(function () {
             "</a>"+
         "</li>"+
         
-        
-
-        "<li data-nav-id='./Setting/' title=Settings class='sidelist active'>"+
+        "<li data-nav-id='./Setting/' title=Settings class='sidelist'>"+
           "<div class='dropdownicon'>"+
            "<a href='/sharepoint-employee-directory/modern/admin/settings/'>"+
                 "Settings"+
@@ -79,7 +31,7 @@ $(document).ready(function () {
             "<ul class='sidenavSub-topics'>"+
 
                 "<ul id='modernadminmainsetting'>"+
-                "<li data-nav-id='../advanced/' title=General class='sidelist edpgeneral' >"+
+                "<li data-nav-id='../advanced/' title=General class='sidelist' >"+
                                                  
                 "<div class='dropdownicon'>"+
                   "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>"+
@@ -93,7 +45,7 @@ $(document).ready(function () {
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#search-filter'>Search filters</a>"+
                 "</li>"+
               
-                "<li  data-nav-id='../advanced/' title='Allow users to export directory' class='sidelists'>"+
+                "<li  data-nav-id='../advanced/' title='Allow users to export directory' class='sidelist'>"+
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#allow-user-export-directory'>Allow users to export directory</a>"+
                 "</li>"+
               
@@ -132,19 +84,19 @@ $(document).ready(function () {
                 "</li>"+
               
             
-              "<li data-nav-id='../Exclude-Options/' title='Exclude Options' class='sidelist edpexclude'>"+
+              "<li data-nav-id='../Exclude-Options/' title='Exclude Options' class='sidelist'>"+
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/excludeoptions/'>"+
                       "Exclude Options"+
                   "</a>"+
               "</li>"+
             
-              "<li data-nav-id='../views/' title=Views class='sidelist edpviews'>"+
+              "<li data-nav-id='../views/' title=Views class='sidelist'>"+
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/views/'>"+
                       "Views"+
                   "</a>"+
               "</li>"+
             
-              "<li data-nav-id='../advanced/' title=Advanced class='sidelist edpadvanced'>"+
+              "<li data-nav-id='../advanced/' title=Advanced class='sidelist'>"+
             
                 "<div class='dropdownicon'>"+
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>"+
@@ -157,7 +109,7 @@ $(document).ready(function () {
                   "<li  data-nav-id='../advanced/' title='SharePoint API' class='sidelist'>"+
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#configure-permission'>Configure SharePoint API permissions</a>"+
                 "</li>"+
-                "<li  data-nav-id='../advanced/' title='Sync unlicensed users' class='sidelistss'>"+
+                "<li  data-nav-id='../advanced/' title='Sync unlicensed users' class='sidelist'>"+
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#sync-unlicensed-users'>Sync unlicensed users</a>"+
                 "</li>"+
                 "<li  data-nav-id='../advanced/' title='Show external users' class='sidelist'>"+
@@ -219,13 +171,6 @@ $(document).ready(function () {
 
             "</ul>")
    
-    // "</a>"+
-    // "</ul>"+
-    // "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-    // "title=Help class=sidelist>"+
-    // "<a href='/sharepoint-employee-directory/modern/admin/help/'>"+
-    //     "Help"+
-    // "</a>"+
-    // "</li>")
+    
                                            
                                         });

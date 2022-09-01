@@ -92,7 +92,7 @@ img {
     list-style-type: initial;
   }
   .banner .navbar-brand {
-    margin-left: -5%;
+    /* margin-left: -5%; */
     width: 14%;
     color: var(--white-color)!important;
 }
@@ -377,6 +377,14 @@ html{
   gap: 20px;
 }
 
+.navbar-nav .ml-auto{
+  width: 100% !important;
+    display: flex !important;
+    column-gap: 25px !important;
+}
+#userinterecenavbar{
+  display: none;
+}
 
 @media screen and (max-width: 991px) {
   .blog_docs #content{
