@@ -420,9 +420,9 @@ transition: 0.3s;
 cursor: pointer;
 }
 .drodown_icon{
--moz-transform:rotate(90deg);
--webkit-transform:rotate(90deg);
-transform:rotate(180deg);
+-moz-transform:rotate(00deg);
+-webkit-transform:rotate(0deg);
+transform:rotate(0deg);
 }
 
 html{
