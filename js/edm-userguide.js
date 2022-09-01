@@ -6,10 +6,11 @@ $(document).ready(function () {
     "<a href='/sharepoint-employee-directory/modern/user/introduction/'>"+
       "Introduction"+
     "</a>"+
+    "</li>"+
     "<ul class='ml-15 sidenavSub-topics'>"+
-      "<li>"+
-        "<a href='/sharepoint-employee-directory/modern/user/getting-started/'>Getting started</a>"+
-      "</li>"+
+      // "<li>"+
+      //   "<a href='/sharepoint-employee-directory/modern/user/getting-started/'>Getting started</a>"+
+      // "</li>"+
       "<li>"+
         "<a href='/sharepoint-employee-directory/modern/user/managinguseraccounts/'>Managing User Profile</a>"+
       "</li>"+
