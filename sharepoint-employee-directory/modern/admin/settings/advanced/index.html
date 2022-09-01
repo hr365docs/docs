@@ -184,11 +184,14 @@
                     </li>
 
                     <li data-nav-id="../advanced/" title=Advanced class="sidelist active">
-                      <a href="../advanced/">
-                        Advanced
-                      </a>
-                      <ul class="sidenavSub-topics">
-                        <li  data-nav-id="../advanced/" title="SharePoint API" class="sidelist">
+                      <div class="dropdownicon">
+                        <a href="../advanced/">
+                          Advanced
+                        </a>
+                        <img src="../../../../down-arrow-svgrepo-com.svg" class="imageIcon" onclick="hideshowmodern(event)">
+                      </div>
+                      <ul class="sidenavSub-topics" id="modernsettingedm">
+                        <!-- <li  data-nav-id="../advanced/" title="SharePoint API" class="sidelist">
                           <a href="./sharepoint_API/">Configure SharePoint API permissions</a>
                         </li>
                         <li  data-nav-id="../advanced/" title="Sync unlicensed users" class="sidelistss">
@@ -235,7 +238,9 @@
                         </li>
                         <li  data-nav-id="../Records/" title="Import non M365 users" class="sidelist">
                           <a href="./Import/">Import non M365 users </a>
-                        </li>
+                        </li> -->
+
+                        </ul>
                     </li>
                   </ul>
                 </ul>
@@ -279,9 +284,9 @@
               </ul>
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="configure-permission">
               <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Configure SharePoint API permissions
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#" >Configure SharePoint API permissions
 
                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
@@ -322,9 +327,9 @@
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="sync-unlicensed-users">
               <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Sync unlicensed users
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Sync unlicensed users
 
                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
@@ -341,9 +346,9 @@
            
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="show-external-users">
               <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Show external users
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Show external users
 
                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
@@ -371,9 +376,9 @@
            
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="organizational-chart">
               <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Organizational Chart
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Organizational Chart
 
                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
@@ -413,9 +418,9 @@
            
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="sync-profile-image">
               <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Sync employee profile images
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Sync employee profile images
 
                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
@@ -442,7 +447,7 @@
            
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="sync-mobile-number">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Sync and display mobile number from azure
 
@@ -464,7 +469,7 @@
            
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="user-presence">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>User presence
 
@@ -488,7 +493,7 @@
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="auto-load">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Auto load instead load more button
  <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -505,7 +510,7 @@
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="hide-navigation-panel">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide side navigation panel in SharePoint page
 
@@ -533,7 +538,7 @@
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="hide-webpart-title">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide webpart title in SharePoint page <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
@@ -556,7 +561,7 @@
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="custom-css">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Custom css for webpart to remove spaces
  <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -579,7 +584,7 @@
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="records">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Record to load
 
@@ -598,7 +603,7 @@
            
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="birthday-template">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Birthday and anniversary templates<i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
@@ -636,7 +641,7 @@
            
             </div>
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="custom-fields">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Custom fields
  <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -705,7 +710,7 @@
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="executive-assistant">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Executive Assistant relationship <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                 </h2>
@@ -799,7 +804,7 @@
             </div>
 
 
-            <div class="bg-light p-4">
+            <div class="bg-light p-4" id="import-nonM365-users">
               <ul class=page-list>
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Import non M365 users
 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -897,6 +902,8 @@
     </div>
 </footer>
 <script src="../../../../../js/script.min.js"></script>
+<script src="../../../../../js/showhidefunction.js"></script>
+<script src="../../../../../js/edm-admin-advanced.js"></script>
 <script>
        function openModal(src) {
 

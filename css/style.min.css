@@ -331,6 +331,18 @@ a.nav-link.text-dark.active-dark {
     max-width: 14px;
     transition: 0.3s;
   }
+  .imageIcongeneral{
+    max-width: 14px;
+    transition: 0.3s;
+  }
+  .imageIconadvanced{
+    max-width: 14px;
+    transition: 0.3s;
+  }
+  .imageIconmainsetting{
+    max-width: 14px;
+    transition: 0.3s;
+  }
   .drodown_icon{
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
