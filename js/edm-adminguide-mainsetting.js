@@ -7,10 +7,10 @@ $(document).ready(function () {
       "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>"+
         "General"+
       "</a>"+
-      "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIcongeneral' onclick='hideshowmoderngeneral(event)'>"+
+      "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon' '>"+
     "</div>"+
 
-      "<ul class='sidenavSub-topics' id='edmmoderngeneral'>"+
+      "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmoderngeneral'>"+
 
         
       "</ul>"+
@@ -36,10 +36,10 @@ $(document).ready(function () {
       "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>"+
         "Advanced"+
       "</a>"+
-      "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIconadvanced' onclick='hideshowmodern(event)'>"+
+      "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>"+
     "</div>"+
 
-      "<ul class='sidenavSub-topics' id='modernsettingedm'>"+
+      "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>"+
         
        
         "</ul>"+

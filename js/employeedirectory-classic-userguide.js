@@ -20,10 +20,10 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
     "title=User_interface class='sidelist' >"+
     "<div class='dropdownicon' >"+
         "<a class='qwe' href='/sharepoint-employee-directory/classic/user/user-interface/'>User interface</a>"+
-        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon' onclick='hideshowuserinterface(event)'>"+
+        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon aside_dropdown_icon' '>"+
     "</div>"+
 
-       "<ul class='ml-15 sidenavSub-topics' id='userinterecenavbar'>"+
+       "<ul class='ml-15 sidenavSub-topics aside_dropdown_list' id='userinterecenavbar'>"+
 
             "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
                 "title=home_page class='sidelist'>"+

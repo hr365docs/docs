@@ -25,11 +25,11 @@ $(document).ready(function () {
                                             "<!-- <a href='#MainSettings'></a> -->"+
                                             "Settings"+
                                         "</a>"+
-                                        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon' onclick='hideshowadminsetting(event)'></img>"+
+                                        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon aside_dropdown_icon' '></img>"+
                                     "</div>"+
                                     "</li>"+
                                     "<li class='setting_side_nav_bar'>"+
-                                    "<ul id='settingsadmin'>"+
+                                    "<ul id='settingsadmin' class='aside_dropdown_list'>"+
                                         "<li data-nav-id='../General' title=General class='sidelist'>"+
                                             "<a href='/sharepoint-employee-directory/classic/admin/settings/#generalsetting'>"+
                                                 "General"+
