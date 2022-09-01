@@ -354,5 +354,6 @@ html{
   display: none;
 }
 .sidenavSub-topics.active{
-  display: block;
+  display: flex;
+  margin-left: 5px;
 }
