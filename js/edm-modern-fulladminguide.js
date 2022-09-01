@@ -6,11 +6,13 @@ $(document).ready(function () {
     $("#edmfullyadminguide").html("");
 
     $("#edmfullyadminguide").append("<ul>"+
-        "<li data-nav-id='./installation/requirments/' title=Introduction class=sidelist>"+
-            "<a href='/sharepoint-employee-directory/modern/admin/introduction/'>"+
-                "Introduction"+
-            "</a>"+
-        "</li>"+
+
+    "<li data-nav-id='./installation/requirments/' title=Introduction class=sidelist>"+
+    "<a href='/sharepoint-employee-directory/modern/admin/introduction/'>"+
+        "Introduction"+
+    "</a>"+
+    "</li>"+
+
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
             "title=' Profile Card' class=sidelist>"+
             "<a href='/sharepoint-employee-directory/modern/admin/profilecard/'>"+
@@ -18,8 +20,6 @@ $(document).ready(function () {
             "</a>"+
         "</li>"+
         
-        
-
         "<li data-nav-id='./Setting/' title=Settings class='sidelist'>"+
           "<div class='dropdownicon'>"+
            "<a href='/sharepoint-employee-directory/modern/admin/settings/'>"+
@@ -171,13 +171,6 @@ $(document).ready(function () {
 
             "</ul>")
    
-    // "</a>"+
-    // "</ul>"+
-    // "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-    // "title=Help class=sidelist>"+
-    // "<a href='/sharepoint-employee-directory/modern/admin/help/'>"+
-    //     "Help"+
-    // "</a>"+
-    // "</li>")
+    
                                            
                                         });
