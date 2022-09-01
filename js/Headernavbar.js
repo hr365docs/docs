@@ -52,11 +52,11 @@
 // "</li>");
 
 
-$("#userinterecenavbar").hide();
-var hideshowinterface="show"
-function hideshowuserinterface(event){
-         event.stopPropagation();
-       event.preventDefault();
+// $("#userinterecenavbar").hide();
+// var hideshowinterface="show"
+// function hideshowuserinterface(event){
+//          event.stopPropagation();
+//        event.preventDefault();
 
 // $("#userinterecenavbar").hide();  
 // var hideshowinterface="show"
@@ -76,9 +76,9 @@ function hideshowuserinterface(event){
 //          else{
 
 
-             $("#userinterecenavbar").show();
-             hideshowinterface="show";
-         }
+        //      $("#userinterecenavbar").show();
+        //      hideshowinterface="show";
+        //  }
      
 
      
