@@ -452,6 +452,21 @@ gap: 20px;
 #userinterecenavbar{
   display: none;
 }
+#settingsadmin{
+  display: none;
+}
+#modernuserguide{
+  display: none;
+}
+#edmmoderngeneral{
+  display: none;
+}
+#modernsettingedm{
+  display: none;
+}
+#modernadminmainsetting{
+  display: none;
+}
 
 .common-header .navbar-nav .ml-auto{
 width: 100% !important;
