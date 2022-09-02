@@ -81,7 +81,10 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
 
            
 
-           
+
+// window.addEventListener("load",()=>{
+//     console.log(window.location.href.substring(window.location.href.lastIndexOf('/') - 2));
+// })
 
 
 

@@ -2,7 +2,7 @@ $(document).ready(function () {
     $(".edmsidenavadmin").html("");
 
     $(".edmsidenavadmin").append("<li data-nav-id='./installation/requirments/' title=Introduction class=sidelist adminitro>"+
-                                        "<a href='/sharepoint-employee-directory/classic/admin/introduction/'>"+
+                                        "<a class='gffgdfgd' href='/sharepoint-employee-directory/classic/admin/introduction/'>"+
                                             "Introduction"+
                                         "</a>"+
                                     "</li>"+
@@ -57,3 +57,5 @@ $(document).ready(function () {
                                     "</li>")
                                            
                                         });
+
+

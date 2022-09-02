@@ -28,6 +28,12 @@
             display: none;
 
         } */
+        #generalsetting.active{
+            padding-top:80px!important;
+        }
+        #generalsetting{
+            transition: 0.3s;
+        }
     </style>
     <link href=https://hr365docs.github.io/docs/css/style.min.css rel=stylesheet media=screen>
     <script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js></script>
@@ -413,8 +419,16 @@ function closeModal() {
           $(".adminexclude").removeClass('active');
           $(".adminview").removeClass('active');
 		$(".adminadvanced").removeClass('active');
-  
     }); 
+    window.addEventListener("load",()=>{
+        let style=document.querySelector(".aside_dropdown_list >.sidelist");
+        style.addEventListener("click",()=>{  
+            let stylgenral=document.querySelector("#generalsetting");
+            stylgenral.classList.toggle("active")
+        })
+    })
+    
+
   </script>
 </body>
 
