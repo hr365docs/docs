@@ -25,10 +25,10 @@ $(document).ready(function () {
            "<a href='/sharepoint-employee-directory/modern/admin/settings/'>"+
                 "Settings"+
             "</a>"+
-            "<img src='./down-arrow-svgrepo-com.svg' class='imageIconmainsetting' onclick='hideshowmodernmainsetting(event)'>"+
+            "<img src='./down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon''>"+
            "</div>"+
 
-            "<ul class='sidenavSub-topics'>"+
+            "<ul class='sidenavSub-topics aside_dropdown_list'>"+
 
                 "<ul id='modernadminmainsetting'>"+
                 "<li data-nav-id='../advanced/' title=General class='sidelist' >"+
@@ -37,10 +37,10 @@ $(document).ready(function () {
                   "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>"+
                     "General"+
                   "</a>"+
-                  "<img src='./down-arrow-svgrepo-com.svg' class='imageIcongeneral' onclick='hideshowmoderngeneral(event)'>"+
+                  "<img src='./down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>"+
                 "</div>"+
             
-                  "<ul class='sidenavSub-topics' id='edmmoderngeneral'>"+
+                  "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmoderngeneral'>"+
                   "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>"+
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#search-filter'>Search filters</a>"+
                 "</li>"+
@@ -102,10 +102,10 @@ $(document).ready(function () {
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>"+
                     "Advanced"+
                   "</a>"+
-                  "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced' onclick='hideshowmodern(event)'>"+
+                  "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>"+
                 "</div>"+
             
-                  "<ul class='sidenavSub-topics' id='modernsettingedm'>"+
+                  "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>"+
                   "<li  data-nav-id='../advanced/' title='SharePoint API' class='sidelist'>"+
                   "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#configure-permission'>Configure SharePoint API permissions</a>"+
                 "</li>"+

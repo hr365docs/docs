@@ -19,10 +19,10 @@ $(document).ready(function () {
         "title=Requirments class='sidelist'>"+
         "<div class='dropdownicon'>"+
         "<a class='qwe' href='/sharepoint-employee-directory/modern/user/userinterface/'>User Interface</a>"+
-        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser' onclick='hideshowmodernuserguide(event)'>"+
+        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon''>"+
         "</div>"+
 
-        "<ul class='ml-15 sidenavSub-topics' id='modernuserguide'>"+
+        "<ul class='ml-15 sidenavSub-topics aside_dropdown_list' id='modernuserguide'>"+
           "<li>"+
             "<a href='/sharepoint-employee-directory/modern/user/userinterface/#homepage'>Home Page</a>"+
 
