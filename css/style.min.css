@@ -1275,9 +1275,9 @@ html {
   .administration-dropdown img.active,
   .consumable-dropdown img.active
   {
-    -moz-transform:rotate(0deg);
-    -webkit-transform:rotate(0deg);
-    transform:rotate(0deg);
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
   }
   .administr-img,
   .consumable-img{
