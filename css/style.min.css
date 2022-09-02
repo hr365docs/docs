@@ -1410,6 +1410,11 @@ html {
   column-gap: 25px !important;
 }
 
+.headerstyle{
+    width: 98%;
+    column-gap: 20px;
+}
+
 @media screen and (max-width: 991px) {
   .blog_docs #content {
     width: 100% !important;
