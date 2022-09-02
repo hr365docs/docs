@@ -1,5 +1,7 @@
 
-    window.addEventListener("load",()=>{ 
+
+    // Dropdown js Code
+    window.addEventListener("load",()=>{
         let dropdowmitems= document.querySelectorAll(".aside_dropdown_icon");
         let dropdowmlist= document.querySelectorAll(".aside_dropdown_list");
         dropdowmitems.forEach((element,index)=>{
