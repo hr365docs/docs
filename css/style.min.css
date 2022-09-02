@@ -1256,10 +1256,10 @@ html {
    .administration-dropdown img,
    .consumable-dropdown img{
     max-width: 14px;
-    -moz-transform:rotate(90deg);
+    /* -moz-transform:rotate(90deg);
       -webkit-transform:rotate(90deg);
-      transform:rotate(180deg);
-    transition: 0.3s;
+      transform:rotate(0deg);*/
+    transition: 0.3s; 
     margin-left: 12px;
     cursor: pointer;
    }
@@ -1290,9 +1290,9 @@ html {
 .assets-dropdown img,
 .settings-dropdown img{
   max-width: 14px;
-  -moz-transform:rotate(90deg);
+  /* -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
-    transform:rotate(180deg);
+    transform:rotate(0deg); */
   transition: 0.3s;
   margin-left: 12px;
   cursor: pointer;
@@ -1319,6 +1319,7 @@ html {
   margin-left: 12px;
   cursor: pointer;
 }
+
 /* user-interface */
 .user-items-dropdown img {
   max-width: 14px;
