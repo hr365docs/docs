@@ -9,3 +9,4 @@ function dropdown(){
 
     $(".user-items-dropdown .sidenavSub-topics").toggleClass("active");
 }
+
