@@ -1426,7 +1426,9 @@ html {
   }
 }
 
-
+.common-scroll{
+  transition: 0.3s;
+}
 .common-scroll.active{
   padding-top: 80px;
 }
