@@ -145,28 +145,15 @@
     // }
 
 
+
+    // Dropdown js Code
     window.addEventListener("load",()=>{
-    
         let dropdowmitems= document.querySelectorAll(".aside_dropdown_icon");
         let dropdowmlist= document.querySelectorAll(".aside_dropdown_list");
-
         dropdowmitems.forEach((element,index)=>{
             element.addEventListener("click",()=>{
-                console.log(element)
-                console.log(element.classList.toggle("active"))
+                element.classList.toggle("active")
                 dropdowmlist[index].classList.toggle("active")
             })
         })
-
-
-
-
-        // for(let i of dropdowmitems){
-        //     i.addEventListener("click",()=>{
-        //         i.classList.toggle("active")
-                
-                
-        //     })
-            
-        // }
     })
