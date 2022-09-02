@@ -1388,6 +1388,7 @@ html {
 /* employee directory blog css code */
 .blog_link {
   word-wrap: break-word;
+  line-break: anywhere;
 }
 
 .home-blog-latest h2 {
@@ -1408,6 +1409,11 @@ html {
   width: 100% !important;
   display: flex !important;
   column-gap: 25px !important;
+}
+
+.headerstyle{
+    width: 98%;
+    column-gap: 20px;
 }
 
 @media screen and (max-width: 991px) {

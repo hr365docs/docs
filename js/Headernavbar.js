@@ -11,7 +11,7 @@
 
 
 //             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-//             "<a class='nav-link text-dark assetmanagementlink' href='../Asset-Management/'>Asset Management</a>"+
+//             "<a class='nav-link text-dark assetmanagementlink' href='../online-asset-management-application/'>Asset Management</a>"+
 //           "</li>");
 
 
