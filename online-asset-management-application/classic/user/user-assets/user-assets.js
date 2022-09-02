@@ -4,9 +4,26 @@ $(document).ready(function () {
 })
 
 
-console.log(document.querySelectorAll(".common-scroll"))
-   // Dropdown js Code
-   window.addEventListener("load",()=>{
+
+window.addEventListener("load",()=>{
+    // common onclick scroll js code 
+    let commonscroll =document.querySelectorAll(".common-scroll")
+    let dropdowminneritem= document.querySelectorAll(".aside_dropdown_icon~ul li");
+
+    dropdowminneritem.forEach((element,index)=>{
+        element.addEventListener("click",()=>{
+         
+            let commonscrollactive =document.querySelector(".common-scroll.active")
+            if(commonscrollactive){
+                commonscrollactive.classList.remove("active")
+            }
+            
+            commonscroll[index].classList.add("active")
+        })
+    })
+
+    
+    // Dropdown js Code
     let dropdowmitems= document.querySelectorAll(".aside_dropdown_icon");
     let dropdowmlist= document.querySelectorAll(".aside_dropdown_list");
     dropdowmitems.forEach((element,index)=>{
