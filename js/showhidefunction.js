@@ -10,11 +10,23 @@
         })
 
 
-        let dropdowmitem= document.querySelectorAll(".aside_dropdown_list li");
-        dropdowmitem.forEach((element,index)=>{
-            console.log(index)
-            element.addEventListener("click",()=>{
-                    console.log(element)
+  
+    
+            // common onclick scroll js code 
+            let commonscroll =document.querySelectorAll(".common-scroll")
+            let dropdowminneritem= document.querySelectorAll(".aside_dropdown_list li");
+            console.log(dropdowminneritem)
+        
+            dropdowminneritem.forEach((element,index)=>{
+                element.addEventListener("click",()=>{
+                    
+                    let commonscrollactive =document.querySelector(".common-scroll.active")
+                    if(commonscrollactive){
+                        commonscrollactive.classList.remove("active")
+                        commonscrollactive.removeAttribute("style")
+                    }
+                    commonscroll[index].classList.add("active")
+                    commonscroll[index].setAttribute("style","padding-top:80px!important")
+                })
             })
-        })
     })
