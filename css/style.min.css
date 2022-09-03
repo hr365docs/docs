@@ -190,7 +190,8 @@ select:focus {
 
 .section-sm {
   padding-top: 60px;
-  padding-bottom: 60px
+  padding-bottom: 60px;
+  
 }
 
 @media(max-width:768px) {
@@ -200,9 +201,14 @@ select:focus {
 }
 
 .section-title {
-  margin-bottom: 40px
+  margin-bottom: 40px;
+ 
 }
-
+.section-text-align{
+  margin-top: 6px;
+  margin-bottom: 40px;
+  margin-left: 9px;
+}
 .bg-cover {
   background-size: cover;
   background-position: 50%;
