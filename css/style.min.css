@@ -209,6 +209,10 @@ select:focus {
   margin-bottom: 40px;
   margin-left: 9px;
 }
+.section-hr-asset{
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
 .bg-cover {
   background-size: cover;
   background-position: 50%;
