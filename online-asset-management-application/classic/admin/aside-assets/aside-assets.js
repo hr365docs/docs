@@ -26,9 +26,6 @@ $(document).ready(function () {
     
     
     
-    
-    
-    
     // Dropdown js Code
     let dropdowmitems= document.querySelectorAll(".aside_dropdown_icon");
     let dropdowmlist= document.querySelectorAll(".aside_dropdown_list");

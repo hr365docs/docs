@@ -15,7 +15,8 @@
             // common onclick scroll js code 
             let commonscroll =document.querySelectorAll(".common-scroll")
             let dropdowminneritem= document.querySelectorAll(".aside_dropdown_list li");
-            console.log(dropdowminneritem)
+            
+           
         
             dropdowminneritem.forEach((element,index)=>{
                 element.addEventListener("click",()=>{
