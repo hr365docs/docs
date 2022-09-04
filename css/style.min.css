@@ -1379,8 +1379,7 @@ html {
     height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: 0.3s"
-
+    transition: 0.3s;
 }
 
 .aside_dropdown_list.active {
