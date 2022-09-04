@@ -7,9 +7,7 @@ window.addEventListener("load", () => {
 
     // common onclick scroll js code 
     let commonscroll = document.querySelectorAll(".common-scroll")
-
     let dropdowmperent = document.querySelectorAll(".aside_dropdown_list");
-
     for (let i of dropdowmperent) {
         let dropdowminneritem = i.querySelectorAll(".aside_dropdown_list li");
         dropdowminneritem.forEach((element, index) => {
