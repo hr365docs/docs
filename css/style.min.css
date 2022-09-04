@@ -1362,16 +1362,26 @@ html {
     align-items: center;
 }
 
-.aside_dropdown_icon {
+.aside_dropdown_icon,
+.aside_dropdown_icon_setting {
     max-width: 14px;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.aside_dropdown_icon.active {
+.aside_dropdown_icon.active,
+.aside_dropdown_icon_setting.active {
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+}
+
+.aside_dropdown_list_setting {
+    display: none;
+}
+
+.aside_dropdown_list_setting.activew {
+    display: block;
 }
 
 .aside_dropdown_list {
