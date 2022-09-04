@@ -31,18 +31,16 @@ window.addEventListener("load", () => {
 
 
 
-
+    // new page add padding onclick js code
     function getid() {
         var baseUrl = (window.location).href;
         var koopId = baseUrl.substring(baseUrl.lastIndexOf('#') + 1);
-
         let getid = document.getElementsByTagName("div");
         for (let i = 0; i < getid.length; i++) {
             if (koopId == getid[i].id) {
                 let id = getid[i];
                 id.classList.add("active")
                 id.setAttribute("style", "padding-top:80px")
-
             }
 
         }
@@ -64,18 +62,11 @@ window.addEventListener("load", () => {
     let dropdowmitems = document.querySelectorAll(".aside_dropdown_icon");
     let dropdowmlist = document.querySelectorAll(".aside_dropdown_list");
 
-
     dropdowmitems.forEach((element, index) => {
         element.addEventListener("click", () => {
-
             let getheight = dropdowmlist[index].scrollHeight;
-            // console.log(getheight.set("style", "display:none"))
-            // getheight.setAttribute("style", `height:${getheight}px`)
-
             let dropdowmlistactive = document.querySelector(".aside_dropdown_list.active")
-
             if (dropdowmlistactive) {
-                // console.log(dropdowmlistactive.classList.remove(".active"))
                 dropdowmlistactive.classList.remove("active")
                 dropdowmlist[index].setAttribute("style", `height:0px;overflow:hidden;opacity:0;`)
 
