@@ -189,14 +189,8 @@ select:focus {
 }
 
 .section-sm {
-<<<<<<< HEAD
     padding-top: 60px;
-    padding-bottom: 60px
-=======
-  padding-top: 60px;
-  padding-bottom: 60px;
-  
->>>>>>> 34b72b4e7fe0e79ffa391865fbfe51f6e9fccd85
+    padding-bottom: 60px;
 }
 
 @media(max-width:768px) {
@@ -206,22 +200,20 @@ select:focus {
 }
 
 .section-title {
-<<<<<<< HEAD
-    margin-bottom: 40px
-=======
-  margin-bottom: 40px;
- 
+    margin-bottom: 40px;
 }
-.section-text-align{
-  margin-top: 6px;
-  margin-bottom: 40px;
-  margin-left: 9px;
+
+.section-text-align {
+    margin-top: 6px;
+    margin-bottom: 40px;
+    margin-left: 9px;
 }
-.section-hr-asset{
-  margin-bottom: 40px;
-  margin-left: 40px;
->>>>>>> 34b72b4e7fe0e79ffa391865fbfe51f6e9fccd85
+
+.section-hr-asset {
+    margin-bottom: 40px;
+    margin-left: 40px;
 }
+
 .bg-cover {
     background-size: cover;
     background-position: 50%;
@@ -1351,9 +1343,10 @@ html {
     display: flex;
 }
 
-.user-items-dropdown .sidenavSub-topics {
+
+/* .user-items-dropdown .sidenavSub-topics {
     display: none;
-}
+} */
 
 .sidenavSub-topics.active {
     display: block;
