@@ -55,14 +55,17 @@ window.addEventListener("load", () => {
             let dropdowmlistactive = document.querySelector(".aside_dropdown_list.active")
             if (dropdowmlistactive) {
                 dropdowmlistactive.classList.remove("active")
-                dropdowmlist[index].setAttribute("style", `height:0px;overflow:hidden;opacity:0;`)
-
+                dropdowmlistactive.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
+                    // element.classList.remove("active")
             } else {
                 dropdowmlist[index].classList.add("active")
-                dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity:1;opacity: 1;`)
+                dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity: 1;`)
             }
 
+
+
             element.classList.toggle("active")
+
 
         })
     })
