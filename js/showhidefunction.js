@@ -1,22 +1,22 @@
 window.addEventListener("load", () => {
+
     // common onclick scroll js code 
     let commonscroll = document.querySelectorAll(".common-scroll")
-
-    let dropdowminneritem = document.querySelectorAll(".aside_dropdown_list li");
-
-    dropdowminneritem.forEach((element, index) => {
-        element.addEventListener("click", () => {
-            let commonscrollactive = document.querySelector(".common-scroll.active")
-            if (commonscrollactive) {
-                commonscrollactive.classList.remove("active")
-                commonscrollactive.removeAttribute("style")
-            }
-            commonscroll[index].classList.add("active")
-            commonscroll[index].setAttribute("style", "padding-top:80px")
+    let dropdowmperent = document.querySelectorAll(".aside_dropdown_list");
+    for (let i of dropdowmperent) {
+        let dropdowminneritem = i.querySelectorAll(".aside_dropdown_list li");
+        dropdowminneritem.forEach((element, index) => {
+            element.addEventListener("click", () => {
+                let commonscrollactive = document.querySelector(".common-scroll.active")
+                if (commonscrollactive) {
+                    commonscrollactive.classList.remove("active")
+                    commonscrollactive.removeAttribute("style")
+                }
+                commonscroll[index].classList.add("active")
+                commonscroll[index].setAttribute("style", "padding-top:80px!important")
+            })
         })
-    })
-
-
+    }
 
 
 
@@ -30,19 +30,12 @@ window.addEventListener("load", () => {
                 let id = getid[i];
                 id.classList.add("active")
                 id.setAttribute("style", "padding-top:80px!important")
-            }
 
+            }
         }
 
     }
     getid()
-
-
-
-
-
-
-
 
 
 
@@ -57,11 +50,10 @@ window.addEventListener("load", () => {
             let dropdowmlistactive = document.querySelector(".aside_dropdown_list.active")
             if (dropdowmlistactive) {
                 dropdowmlistactive.classList.remove("active")
-                dropdowmlist[index].setAttribute("style", `height:0px;overflow:hidden;opacity:0;`)
-
+                dropdowmlistactive.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
             } else {
                 dropdowmlist[index].classList.add("active")
-                dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity:1;opacity: 1;`)
+                dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity: 1;`)
             }
 
             element.classList.toggle("active")
@@ -69,14 +61,12 @@ window.addEventListener("load", () => {
         })
     })
 
-
-
     // Setting open dropdown js code
 
     let dropdownsetting = document.querySelector(".aside_dropdown_icon_setting");
     let dropdownitemssetting = document.querySelector(".aside_dropdown_list_setting");
     dropdownsetting.addEventListener("click", () => {
-
+        dropdownsetting.classList.toggle("active")
         dropdownitemssetting.classList.toggle("active")
     })
 })
