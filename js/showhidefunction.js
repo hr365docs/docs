@@ -19,7 +19,6 @@ window.addEventListener("load", () => {
     }
 
 
-
     // new page add padding onclick js code
     function getid() {
         var baseUrl = (window.location).href;
@@ -71,5 +70,5 @@ window.addEventListener("load", () => {
     })
 
 
-    
+
 })

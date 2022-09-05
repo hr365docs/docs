@@ -8,9 +8,9 @@ $(document).ready(function () {
     "</a>"+
     "</li>"+
     "<ul class='ml-15 sidenavSub-topics'>"+
-      // "<li>"+
-      //   "<a href='/sharepoint-employee-directory/modern/user/getting-started/'>Getting started</a>"+
-      // "</li>"+
+      "<li>"+
+        "<a href='/sharepoint-employee-directory/modern/user/gettingstarted/'>Getting started</a>"+
+      "</li>"+
       "<li title=Managing User Profile>"+
         "<a href='/sharepoint-employee-directory/modern/user/managinguseraccounts/'>Managing User Profile</a>"+
       "</li>"+
