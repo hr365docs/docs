@@ -2,7 +2,7 @@ $(document).ready(function () {
     $("#tmpclassicadmin").html("");
 
     $("#tmpclassicadmin").append("<ul>"+
-        "<li data-nav-id='/employee-vacation-tracker-time-off-manager/classic/admin/introduction' title=Introduction class='sidelist'>"+
+        "<li data-nav-id='/employee-vacation-tracker-time-off-manager/classic/admin/' title=Introduction class='sidelist'>"+
         "<a href='../introduction/'>"+
         "Introduction"+
         "</a>"+
