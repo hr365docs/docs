@@ -2,8 +2,8 @@ $(document).ready(function () {
     $("#tmpclassicadmin").html("");
 
     $("#tmpclassicadmin").append("<ul>"+
-        "<li data-nav-id='/employee-vacation-tracker-time-off-manager/classic/admin/introduction' title=Introduction class='sidelist'>"+
-        "<a href='../introduction/'>"+
+        "<li data-nav-id='../Introduction' title=Introduction class='sidelist'>"+
+        "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/introduction/'>"+
         "Introduction"+
         "</a>"+
         "</li>"+
@@ -39,7 +39,7 @@ $(document).ready(function () {
                         "</li>"+
          
 
-        "<li data-nav-id='../system-settings' title=system-settings class='sidelist active'>"+
+        "<li data-nav-id='../system-settings' title=system-settings class='sidelist'>"+
                         "<div class='dropdownicon'>"+   
                             "<a class='qwe' href='/employee-vacation-tracker-time-off-manager/classic/admin/settings/'>"+
                             "System Settings"+
