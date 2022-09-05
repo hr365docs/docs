@@ -2,8 +2,8 @@ $(document).ready(function () {
     $("#tmpclassicadmin").html("");
 
     $("#tmpclassicadmin").append("<ul>"+
-        "<li data-nav-id='/employee-vacation-tracker-time-off-manager/classic/admin/' title=Introduction class='sidelist'>"+
-        "<a href='../introduction/'>"+
+        "<li data-nav-id='../Introduction' title=Introduction class='sidelist'>"+
+        "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/introduction/'>"+
         "Introduction"+
         "</a>"+
         "</li>"+
