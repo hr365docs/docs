@@ -44,7 +44,7 @@ $(document).ready(function () {
                             "<a class='qwe' href='/employee-vacation-tracker-time-off-manager/classic/admin/settings/'>"+
                             "System Settings"+
                             "</a>"+
-                            "<img src='../../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+                            "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
                             "</div>"+
                             "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                                 "<li data-nav-id='../user' title=user class='sidelist'>"+
