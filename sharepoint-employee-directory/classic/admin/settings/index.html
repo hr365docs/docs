@@ -14,7 +14,7 @@
     <script src=https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
     <style>
-        :root {
+         :root {
             --primary-color: #5637da;
             --body-color: #f9f9f9;
             --text-color: #636363;
@@ -23,15 +23,16 @@
             --light-color: #f8f9fa;
             --font-family: Lato
         }
-
         /* .setting_side_nav_bar::before{
             display: none;
 
         } */
-        #generalsetting.active{
-            padding-top:80px!important;
+        
+        #generalsetting.active {
+            padding-top: 80px!important;
         }
-        #generalsetting{
+        
+        #generalsetting {
             transition: 0.3s;
         }
     </style>
@@ -64,12 +65,11 @@
                 <a class="navbar-brand px-2" href="https://kb.hr365.us/">
                     <img class=img-fluid src=logo.png alt=HR365>
                 </a>
-                <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
-                    aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
+                <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
                     <span class=navbar-toggler-icon></span>
                 </button>
                 <div class="collapse navbar-collapse text-center common-header" id=navigation>
-                 
+
                 </div>
             </div>
         </nav>
@@ -82,14 +82,14 @@
                         <h5 style="color:SlateBlue"> <a href="../../../../sharepoint-employee-directory/">Employee Directory Classic </a></h5>
                         <a class=back-btn href="../../admin/" aria-label=back></a>
                         <ul class=list-styled>
-                            <li data-nav-id="../../../../sharepoint-employee-directory/" title= Admin-Guide class="sidelist
+                            <li data-nav-id="../../../../sharepoint-employee-directory/" title=A dmin-Guide class="sidelist
 active">
                                 <a href="../../admin/">
                                     Admin-Guide
                                 </a>
-                               <ul class="edmsidenavadmin">
+                                <ul class="edmsidenavadmin">
 
-                               </ul>
+                                </ul>
 
 
                                 <!-- <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/configuration/ title=Configuration class=sidelist> -->
@@ -104,7 +104,7 @@ active">
                 <div class=col-lg-9>
                     <div class="p-lg-5 p-4 bg-white" id=content>
                         <!-- <h2 class=mb-5 id=title></h2> -->
-                       <!-- setting -->
+                        <!-- setting -->
                         <div class="bg-light p-4">
 
                             <ul class=page-list>
@@ -112,224 +112,196 @@ active">
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Settings <i
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 
-                               
 
 
 
 
-                                <p>In settings there are four options namely General, Exclude Options, Views and
-                                    Advanced.</p>
 
-                                <div><img src="setting.png" onclick="openModal('setting.png')" alt="" width="100%"
-                                        height="auto"></div>
+                                <p>In settings there are four options namely General, Exclude Options, Views and Advanced.
+                                </p>
+
+                                <div><img src="setting.png" onclick="openModal('setting.png')" alt="" width="100%" height="auto"></div>
                                 <div class="notices note">
                                     <div class="paragraph">
-                                        <p>You must have <b>admin role</b> to access <b>settings</b>. Regular users
-                                            have
-                                            access
-                                            to
-                                            their
-                                            own user account
-                                            details.</p>
+                                        <p>You must have <b>admin role</b> to access <b>settings</b>. Regular users have access to their own user account details.
+                                        </p>
                                     </div>
                                 </div>
 
                             </ul>
                         </div>
-                        
-                    
+
+
                         <div class="bg-light p-4 common-scroll" id="generalsetting">
                             <ul class=page-list>
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="generalsettings">General Settings <i
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
-                             
 
 
-                                <p>In this, you can hide search filter in home page, update user profile, export user
-                                    details, overwrite user profile details, grant admin role to user, update themes,
-                                    uploading your company logo and display logo in user profile popup.</p>
 
-                                <div><img src="Setting_Gen.png" onclick="openModal('Setting_Gen.png')" alt=""
-                                        width="100%" height="auto"></div>
+                                <p>In this, you can hide search filter in home page, update user profile, export user details, overwrite user profile details, grant admin role to user, update themes, uploading your company logo and display logo in user profile
+                                    popup.</p>
+
+                                <div><img src="Setting_Gen.png" onclick="openModal('Setting_Gen.png')" alt="" width="100%" height="auto"></div>
 
                                 <p>
                                     <br>
-                                    <b>Search filters: </b> Here you can hide search filter in home page. You cannot
-                                    hide all the filters; one filter is you mandatory.
+                                    <b>Search filters: </b> Here you can hide search filter in home page. You cannot hide all the filters; one filter is you mandatory.
                                 </p>
                                 <p>
-                                    <b>Update user profile: </b>From here you can provide profile update aceess to
-                                    users.
+                                    <b>Update user profile: </b>From here you can provide profile update aceess to users.
                                 </p>
                                 <p>
                                     <b>Export user details: </b>From here you can export the details of users.
                                 </p>
                                 <p>
-                                    <b>Overwrite user profile details: </b>From here you can update profile update of
-                                    users.
+                                    <b>Overwrite user profile details: </b>From here you can update profile update of users.
                                 </p>
                                 <p>
-                                    <b>Update user’s role and permissions: </b>From here you can provide admin access to
-                                    users. Just add users here to provide access. If you want to change the permission
-                                    from admin to users just delete the user. Only Admin can see the setting icons in
-                                    homepage from where he/she can do the settings
+                                    <b>Update user’s role and permissions: </b>From here you can provide admin access to users. Just add users here to provide access. If you want to change the permission from admin to users just delete the user. Only
+                                    Admin can see the setting icons in homepage from where he/she can do the settings
                                 </p>
                                 <p>
-                                    <b>Collaborations:</b> SIP and Tel works based on protocol system settings in your
-                                    machine.
+                                    <b>Collaborations:</b> SIP and Tel works based on protocol system settings in your machine.
                                 </p>
                                 <p>
                                     <b>Actions: </b>You can setup icons that displays on profile grids in home page.
                                 </p>
                                 <p>
-                                    <b>Upload logo:</b>You upload the logo, it will be visible on profile card. You can
-                                    crop the logo.
-                                <div class="notices note">
-                                    <div class="paragraph">
-                                        <p>For best view logo size must be width 200px and height 120px </p>
-                                    </div>
+                                    <b>Upload logo:</b>You upload the logo, it will be visible on profile card. You can crop the logo.
+                                    <div class="notices note">
+                                        <div class="paragraph">
+                                            <p>For best view logo size must be width 200px and height 120px </p>
+                                        </div>
+                                        <br>
+                                        <div><img src="crop.png" onclick="openModal('crop.png')" alt="" width="100%" height="auto"></div>
+                                </p>
+                            </ul>
+                            </div>
+
+
+                            <div class="bg-light p-4 common-scroll" id="excludesetting">
+                                <ul class=page-list>
+                                    <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="excludesettings">Exculde Options<i class="fas fa-link"
+                                    style="font-size:12px; color:lightgray;"></i></a> </h3>
+
+
+
+                                    <p>Here you can exclude individual users based on selection or group of users.</p>
+
+                                    <div><img src="setting_Exclude.png" onclick="openModal('setting_Exclude.png')" alt="" width="100%" height="auto"></div>
                                     <br>
-                                    <div><img src="crop.png" onclick="openModal('crop.png')" alt="" width="100%"
-                                            height="auto"></div>
-                                    </p>
-                            </ul>
-                        </div>
+
+                                    <ul class="ul_li_styles">
+                                        <li>For individual users, use exclude users by name.</li>
+                                    </ul>
+                                    <ul class="ul_li_styles">
+                                        <li>For group of users you can use exclude user by domains, exclude user by department, exclude users by job title, exclude user by office location, exclude user by using csv file.</li>
+                                    </ul>
+                            </div>
 
 
-                        <div class="bg-light p-4 common-scroll" id="excludesetting">
-                            <ul class=page-list>
-                              <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="excludesettings">Exculde Options<i class="fas fa-link"
+                            <div class="bg-light p-4 common-scroll" id="viewsetting">
+                                <ul class=page-list>
+                                    <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="viewssettings">Views<i class="fas fa-link"
                                     style="font-size:12px; color:lightgray;"></i></a> </h3>
-                          
-              
-              
-                              <p>Here you can exclude individual users based on selection or group of users.</p>
-              
-                              <div><img src="setting_Exclude.png" onclick="openModal('setting_Exclude.png')" alt="" width="100%"
-                                  height="auto"></div>
-                              <br>
-              
-                              <ul class="ul_li_styles">
-                                <li>For individual users, use exclude users by name.</li>
-                              </ul>
-                              <ul class="ul_li_styles">
-                                <li>For group of users you can use exclude user by domains, exclude user by department, exclude users
-                                  by job title, exclude user by office location, exclude user by using csv file.</li>
-                              </ul>
-                          </div>
+
+                                    In Employee Directory you will be presented with various views. These views are structured to present you with key information.
+                                    <br>
+                                    <br>
+
+                                    <div><img src="setting_view.png" onclick="openModal('setting_view.png')" alt="" width="100%" height="auto"></div>
+                                    <br>
+                                    <b>Sort by:</b> In home page users can be sorted or displayed based on their first name or last name or display name. By default, users are sorted by their first name.
+                                    <br>
+                                    <br>
+                                    <h5>Hide or displays fields in profile card </h5>
+                                    <ul class="ul_li_styles">
+                                        <li>In profile cards we can hide or display skills, hobbies, about me, work phone, manager, date of birth and date of joining just by disabling the toggle switch in views of setting page.</li>
+                                    </ul>
+                                    <ul class="ul_li_styles">
+                                        <li>If you hide or disable work phone, it will also hide in grid views.</li>
+                                    </ul>
+                                    <ul class="ul_li_styles">
+                                        <li>You can hide display email in grid view.</li>
+                                    </ul>
+
+                                    <br>
+                                    <p><b>Use work email id instead account login id:</b> If it is enabled work email ID, it will display in both profile card and in grid views instead of login id</p>
+                                </ul>
+                            </div>
 
 
-                          <div class="bg-light p-4 common-scroll" id="viewsetting">
-                            <ul class=page-list>
-                              <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="viewssettings">Views<i class="fas fa-link"
+                            <div class="bg-light p-4 common-scroll" id="advancesetting">
+                                <ul class=page-list>
+                                    <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="advacncedsettings">Advanced <i class="fas fa-link"
                                     style="font-size:12px; color:lightgray;"></i></a> </h3>
-                            
-                              In Employee Directory you will be presented with various views. These views are structured to present
-                              you with key information.
-                              <br>
-                              <br>
-              
-                              <div><img src="setting_view.png" onclick="openModal('setting_view.png')" alt="" width="100%"
-                                  height="auto"></div>
-                              <br>
-                              <b>Sort by:</b> In home page users can be sorted or displayed based on their first name or last name or
-                              display name. By default, users are sorted by their first name.
-                              <br>
-                              <br>
-                              <h5>Hide or displays fields in profile card </h5>
-                              <ul class="ul_li_styles">
-                                <li>In profile cards we can hide or display skills, hobbies, about me, work phone, manager, date of
-                                  birth and date of joining just by disabling the toggle switch in views of setting page.</li>
-                              </ul>
-                              <ul class="ul_li_styles">
-                                <li>If you hide or disable work phone, it will also hide in grid views.</li>
-                              </ul>
-                              <ul class="ul_li_styles">
-                                <li>You can hide display email in grid view.</li>
-                              </ul>
-              
-                              <br>
-                              <p><b>Use work email id instead account login id:</b> If it is enabled work email ID, it will display in
-                                both profile card and in grid views instead of login id</p>
-                            </ul>
-                          </div>
 
 
-                          <div class="bg-light p-4 common-scroll" id="advancesetting">
-                            <ul class=page-list>
-                              <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="advacncedsettings">Advanced <i class="fas fa-link"
-                                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                         
-              
-              
-                              Here you can auto sync user from M365, add non microsoft 365 users, import non microsoft 365 users, sync
-                              employee profile image, show organisation chart, display delbe profile based on selection.
-                              <br>
-                              <br>
-                              <div><img src="setting_advanced.png" onclick="openModal('setting_advanced.png')" alt="" width="100%"
-                                  height="auto"></div>
-              
-                              <br>
-                              <ul class="ul_li_styles">
-                                <li><b>Daily Auto Sync New Users From M365:</b>From here you can sync new users daily. </li>
-                              </ul>
-              
-              
-                              <ul class="ul_li_styles">
-                                <li><b>Sync user from M365:</b> From here you can sync user profile. </li>
-                              </ul>
-              
-              
-                              <ul class="ul_li_styles">
-                                <li><b>Add non microsoft 365 users:</b> From here you can add users which is not able in non microsoft
-                                  365.</li>
-                              </ul>
-              
-              
-                              <ul class="ul_li_styles">
-                                <li><b>Import non microsoft 365 users:</b> From here you can import users which is not able in non
-                                  microsoft 365. </li>
-                              </ul>
-                              <br>
-              
-                              <h4>Sync employee profile image</h4>
-              
-                              <ul class="ul_li_styles">
-                                <li>Here we have 5 option to sync the images namely SPO, outlook, delve, azure AD and ED. </li>
-                              </ul>
-                              <ul class="ul_li_styles">
-                                <li>In case if you select outlook or ED options, if image is not available for outlook or ED, image
-                                  from SharePoint user profile if exist.</li>
-                              </ul>
-                              <ul class="ul_li_styles">
-                                <li>ED: Change the source of profile images, you can use custom images by placing images in image
-                                  library. Click on click here, redirect to image library upload the images. Format of image is
-                                  -username@domain.com.jpg</li>
-                              </ul>
-                              <br>
-              
-                              <!-- <b>Delve</b>
+
+                                    Here you can auto sync user from M365, add non microsoft 365 users, import non microsoft 365 users, sync employee profile image, show organisation chart, display delbe profile based on selection.
+                                    <br>
+                                    <br>
+                                    <div><img src="setting_advanced.png" onclick="openModal('setting_advanced.png')" alt="" width="100%" height="auto"></div>
+
+                                    <br>
+                                    <ul class="ul_li_styles">
+                                        <li><b>Daily Auto Sync New Users From M365:</b>From here you can sync new users daily. </li>
+                                    </ul>
+
+
+                                    <ul class="ul_li_styles">
+                                        <li><b>Sync user from M365:</b> From here you can sync user profile. </li>
+                                    </ul>
+
+
+                                    <ul class="ul_li_styles">
+                                        <li><b>Add non microsoft 365 users:</b> From here you can add users which is not able in non microsoft 365.
+                                        </li>
+                                    </ul>
+
+
+                                    <ul class="ul_li_styles">
+                                        <li><b>Import non microsoft 365 users:</b> From here you can import users which is not able in non microsoft 365. </li>
+                                    </ul>
+                                    <br>
+
+                                    <h4>Sync employee profile image</h4>
+
+                                    <ul class="ul_li_styles">
+                                        <li>Here we have 5 option to sync the images namely SPO, outlook, delve, azure AD and ED. </li>
+                                    </ul>
+                                    <ul class="ul_li_styles">
+                                        <li>In case if you select outlook or ED options, if image is not available for outlook or ED, image from SharePoint user profile if exist.</li>
+                                    </ul>
+                                    <ul class="ul_li_styles">
+                                        <li>ED: Change the source of profile images, you can use custom images by placing images in image library. Click on click here, redirect to image library upload the images. Format of image is -username@domain.com.jpg
+                                        </li>
+                                    </ul>
+                                    <br>
+
+                                    <!-- <b>Delve</b>
                               <br>
                               To add delve you can we you -->
-                            </ul>
-                          </div>
-                         
+                                </ul>
+                            </div>
 
-                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                        <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../user/" aria-label="Previous page"><i
+
+                            <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                                <nav class="pagination mt-3">
+                                    <a class="nav nav-prev" href="../user/" aria-label="Previous page"><i
                                     class="ti-arrow-left mr-2"></i>
                                 <span class="d-none d-md-block">Users</span></a>
-                            <!-- <a class="nav nav-next" href="../settings/" aria-label="Previous page">
+                                    <!-- <a class="nav nav-next" href="../settings/" aria-label="Previous page">
                                 <span class="d-none d-md-block">Settings</span><i class="ti-arrow-right ml-2"></i></a> -->
-                        </nav>
+                                </nav>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <div id="myModal" class="modal">
-        
+
         <div class="modal-content">
             <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
             <div class="mySlides">
@@ -343,26 +315,20 @@ active">
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2022-<a href=https://www.hr365.us />HR365.</a> <a
-                        href=https://www.cubiclogics.com/wp-content/uploads/2019/11/Cubic-Logics-SLA-Document.pdf>SLA.</a>
-                    <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                        href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                        href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                    Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                </p>
+                    <p class="mb-md-0 mb-4">© 2022-<a href=https://www.hr365.us />HR365.</a> <a href=https://www.cubiclogics.com/wp-content/uploads/2019/11/Cubic-Logics-SLA-Document.pdf>SLA.</a>
+                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy
+                        />Privacy Policy.
+                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
+                    </p>
                 </div>
                 <div class="col-md-4 text-md-right text-center">
                     <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
+                        <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
                                     class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
+                        <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
                                     class=ti-twitter-alt></i></a></li>
                         <!-- <li class=list-inline-item><a class="text-color d-inline-block p-2" href=# aria-label=Github><i class=ti-github></i></a></li> -->
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
+                        <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd" aria-label=Linkedin><i class=ti-linkedin></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -374,62 +340,57 @@ active">
     <script src="../../../../js/employeedirecrory-classic-adminguide.js"></script>
     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
     <script>
-           function openModal(src) {
-  
-  document.getElementById("imageId").src= src;
-  document.getElementById("myModal").style.display = "block";
-}
+        function openModal(src) {
 
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-  
-}                       
-// $("#showHidemenu").hide();                       
+            document.getElementById("imageId").src = src;
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+
+        }
+        // $("#showHidemenu").hide();                       
         date = new Date().toLocaleDateString();
-        document.getElementById("date").innerHTML=date;
-//         var hideshowvar="hide"
-          
-//    function hideshowdiv(event){
-//             event.stopPropagation();
-//           event.preventDefault();
+        document.getElementById("date").innerHTML = date;
+        //         var hideshowvar="hide"
 
-//             if(hideshowvar == "show"){
+        //    function hideshowdiv(event){
+        //             event.stopPropagation();
+        //           event.preventDefault();
 
-//                 $("#showHidemenu").hide(); 
-//                 hideshowvar="hide";
-//             }
-//             else{
+        //             if(hideshowvar == "show"){
 
-//                 $("#showHidemenu").show();
-//                 hideshowvar="show";
-//             }
-//         }
+        //                 $("#showHidemenu").hide(); 
+        //                 hideshowvar="hide";
+        //             }
+        //             else{
 
-        
-       </script>
+        //                 $("#showHidemenu").show();
+        //                 hideshowvar="show";
+        //             }
+        //         }
+    </script>
 
-<script type="text/javascript">
-    
-    $(document).ready(function () {
-        $(".adminitro").addClass('active');
-          $(".admindiagram").removeClass('active');
-          $(".adminusers").removeClass('active');
-          $(".adminsettings").addClass('active');
-          $(".admingeneral").removeClass('active');
-          $(".adminexclude").removeClass('active');
-          $(".adminview").removeClass('active');
-		$(".adminadvanced").removeClass('active');
-    }); 
-    window.addEventListener("load",()=>{
-        let style=document.querySelector(".aside_dropdown_list >.sidelist");
-        style.addEventListener("click",()=>{  
-            let stylgenral=document.querySelector("#generalsetting");
-            stylgenral.classList.toggle("active")
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".adminitro").addClass('active');
+            $(".admindiagram").removeClass('active');
+            $(".adminusers").removeClass('active');
+            $(".adminsettings").addClass('active');
+            $(".admingeneral").removeClass('active');
+            $(".adminexclude").removeClass('active');
+            $(".adminview").removeClass('active');
+            $(".adminadvanced").removeClass('active');
+        });
+        window.addEventListener("load", () => {
+            let style = document.querySelector(".aside_dropdown_list >.sidelist");
+            style.addEventListener("click", () => {
+                let stylgenral = document.querySelector("#generalsetting");
+                stylgenral.classList.toggle("active")
+            })
         })
-    })
-    
-
-  </script>
+    </script>
 </body>
 
-</html> 
+</html>
