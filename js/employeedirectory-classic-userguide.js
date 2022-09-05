@@ -9,7 +9,7 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
 "</li>"+
 "<ul class='ml-15 sidenavSub-topics'>"+
     "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-    "title=gettingstarted class='sielist gettingstartedlink'>"+
+    "title=Getting started class='sielist gettingstartedlink'>"+
         "<a href='/sharepoint-employee-directory/classic/user/getting-started/'>Getting started</a>"+
     "</li>"+
     "<li data-nav-id=https://github.com/hr365docs/My-project.git/user_profile/requirments/"+
@@ -17,7 +17,7 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
         "<a href='/sharepoint-employee-directory/classic/user/profile/'>Managing User Profile</a>"+
     "</li>"+
     "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-    "title=User_interface class='sidelist' >"+
+    "title=User interface class='sidelist' >"+
     "<div class='dropdownicon' >"+
         "<a class='qwe' href='/sharepoint-employee-directory/classic/user/user-interface/'>User interface</a>"+
         "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon aside_dropdown_icon' '>"+
@@ -26,16 +26,16 @@ $(".sidensvbarlink").append("<li data-nav-id=https://github.com/hr365docs/My-pro
        "<ul class='ml-15 sidenavSub-topics aside_dropdown_list' id='userinterecenavbar'>"+
 
             "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-                "title=home_page class='sidelist'>"+
+                "title=Home class='sidelist'>"+
                 "<a href='/sharepoint-employee-directory/classic/user/user-interface/#userhomepage'>Home Page</a>"+
             "</li>"+
             "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-            "title=search class='sidelist'>"+
+            "title=Search class='sidelist'>"+
                 "<a href='/sharepoint-employee-directory/classic/user/user-interface/#usersearchpage'>Search</a>"+
 
             "</li>"+
             "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-            "title=views class='sidelist'>"+
+            "title=Views class='sidelist'>"+
                 "<a href='/sharepoint-employee-directory/classic/user/user-interface/#userviewpage'>Views</a>"+
             "</li>"+
         "</ul>"+ 
