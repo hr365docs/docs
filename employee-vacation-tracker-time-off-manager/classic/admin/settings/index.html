@@ -55,79 +55,14 @@
     <div class=row>
     <div class=col-lg-3>
     <div class=sidebar>
-    <a class=back-btn href="../../admin-guide/" aria-label=back></a>
+    <a class=back-btn href="../../admin/" aria-label=back></a>
     
     <ul class=list-styled>
-        <li data-nav-id=../Time-off-manager/index.html title=Admin-Guide class="sidelist active">
-        <a href="../../admin-guide/">
+        <li data-nav-id=../Time-off-manager/index.html title="Admin Guide" class="sidelist active">
+        <a href="../../admin/">
         Admin Guide
         </a>
-        <ul>
-        <li data-nav-id="../Introduction" title=Introduction class="sidelist">
-        <a href="../Introduction/">
-        Introduction
-        </a>
-        </li>
-    
-        <li data-nav-id="../Home-page" title=Home-page class=sidelist>
-            <a href="../Home-page">
-                Home Page
-            </a>
-            </li>
-        
-        <li data-nav-id="../ HR-actions" title= HR-actions class=sidelist>
-        <a href="../HR-actions/">
-           HR actions
-        </a>
-        </li>
-    
-        <li data-nav-id="../holidays" title=holidays class="sidelist">
-                <a href="../holidays">
-                    Public Holidays
-                </a>
-                </li>
-    
-        <li data-nav-id="../user" title=user class="sidelist">
-                    <a href="../user">
-                    Users
-                    </a>
-                    </li>
-    
-        <li data-nav-id="../user" title=user class="sidelist">
-                        <a href="../reports">
-                        Reports
-                        </a>
-                        </li>
-         
-        <li data-nav-id="../system-settings" title=system-settings class="sidelist active">
-                            <a href="../setting/">
-                            System Settings
-                            </a>
-                            <ul class="sidenavSub-topics">
-                                <li data-nav-id="../user" title=user class="sidelist">
-                                    <a href="../setting/organization/">
-                                    Organizations
-                                    </a>
-                                    </li>
-                                    <li data-nav-id="../user" title=user class="sidelist">
-                                        <a href="../setting/leave/">
-                                        Leave Setting
-                                        </a>
-                                        </li>
-                                        <li data-nav-id="../user" title=user class="sidelist">
-                                            <a href="../setting/advance/">
-                                            Advance Setting
-                                            </a>
-                                            </li>
-                            </ul>
-                            </li>
-    
-                            <li data-nav-id="../user" title=user class="sidelist">
-                                <a href="../help/">
-                               Help
-                                </a>
-                                </li>
-                        
+        <div id="tmpclassicadmin"></div>   
             </li>
         </ul>
     </li>
@@ -146,13 +81,13 @@
            
            <ol type="I">
             <li>
-                <a href="../setting/organization/">Office Locations</a>
+                <a href="../settings/#organization">Office Locations</a>
             </li>
             <li>
-                <a href="../setting/leave/">Leave Type Setting</a>
+                <a href="../settings/#leave-type-settings">Leave Type Setting</a>
             </li>
             <li>
-                <a href="../setting/advance/">Advance Settings</a>   
+                <a href="../settings/#advance-settings">Advance Settings</a>   
             </li>
 
            </ol>
@@ -161,7 +96,7 @@
      
         </div>
 
-        <div class="bg-light p-4">
+        <div class="bg-light p-4" id="organization">
             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Organizations
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
@@ -174,7 +109,7 @@
            
      
         </div>
-        <div class="bg-light p-4">
+        <div class="bg-light p-4" id="leave-type-settings">
             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Leaves Type Settings
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
@@ -209,7 +144,7 @@
            
      
         </div>
-        <div class="bg-light p-4">
+        <div class="bg-light p-4" id="advance-settings">
             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Advance Settings
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
@@ -463,6 +398,7 @@ Casual Leaves = 24.
             </footer>
             <script src="../../../../../js/script.min.js"></script>
             <script src="../../../../js/header-footer.js"></script>
+            <script src="../../../../js/showhidefunction.js"></script>
             <script>
                    function openModal(src) {
           
@@ -479,6 +415,7 @@ Casual Leaves = 24.
                 document.getElementById("date").innerHTML=date;
                </script>
                <script src="../../../../js/header-footer.js"></script>
+               <script src="../../../../js/tmp-classic-adminguide.js"></script>
         </body>
         
         </html> 
