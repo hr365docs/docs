@@ -69,4 +69,7 @@ window.addEventListener("load", () => {
         dropdownsetting.classList.toggle("active")
         dropdownitemssetting.classList.toggle("active")
     })
+
+
+    
 })
