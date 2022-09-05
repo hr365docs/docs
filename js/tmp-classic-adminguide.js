@@ -39,7 +39,7 @@ $(document).ready(function () {
                         "</li>"+
          
 
-        "<li data-nav-id='../system-settings' title=system-settings class='sidelist active'>"+
+        "<li data-nav-id='../system-settings' title=system-settings class='sidelist'>"+
                         "<div class='dropdownicon'>"+   
                             "<a class='qwe' href='/employee-vacation-tracker-time-off-manager/classic/admin/settings/'>"+
                             "System Settings"+
