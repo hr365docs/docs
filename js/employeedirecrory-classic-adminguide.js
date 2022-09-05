@@ -35,7 +35,7 @@ $(document).ready(function () {
                                                 "General"+
                                             "</a>"+
                                         "</li>"+
-                                        "<li data-nav-id='../Exclude-Options/' title= Exclude_Options class='sidelist'>"+
+                                        "<li data-nav-id='../Exclude-Options/' title= Exclude class='sidelist'>"+
                                             "<a href='/sharepoint-employee-directory/classic/admin/settings/#excludesetting'>"+
                                                 "Exclude Options"+
                                             "</a>"+
