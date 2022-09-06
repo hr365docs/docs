@@ -13,15 +13,19 @@ window.addEventListener("load", () => {
         var koopId = baseUrl.substring(baseUrl.lastIndexOf('#') + 1);
         let getid = document.getElementsByTagName("div");
         let getancher = document.getElementsByTagName("a");
-        for (let i = 0; i < getid.length; i++) {
-            if (koopId == getid[i].id) {
-                let id = getid[i];
-                id.classList.add("active")
-                id.setAttribute("style", "padding-top:80px!important");
+        for (let i = 0; i < getancher.length; i++) {
+            if (getid.length > i) {
+                if (koopId == getid[i].id) {
+                    let id = getid[i];
+                    id.classList.add("active")
+                    id.setAttribute("style", "padding-top:80px!important");
+                }
+
             }
             if (getid[0].baseURI == getancher[i].href) {
                 getancher[i].parentNode.classList.add("active")
             }
+
 
         }
 
