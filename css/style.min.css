@@ -1380,7 +1380,7 @@ html {
     display: none;
 }
 
-.aside_dropdown_list_setting.activew {
+.aside_dropdown_list_setting.active {
     display: block;
 }
 
