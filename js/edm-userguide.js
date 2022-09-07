@@ -8,10 +8,10 @@ $(document).ready(function () {
     "</a>"+
     "</li>"+
     "<ul class='ml-15 sidenavSub-topics'>"+
-      "<li>"+
+      "<li class='sidelist'>"+
         "<a href='/sharepoint-employee-directory/modern/user/gettingstarted/'>Getting started</a>"+
       "</li>"+
-      "<li title=Managing User Profile>"+
+      "<li class='sidelist' title=Managing User Profile>"+
         "<a href='/sharepoint-employee-directory/modern/user/managinguseraccounts/'>Managing User Profile</a>"+
       "</li>"+
 
@@ -23,21 +23,21 @@ $(document).ready(function () {
         "</div>"+
 
         "<ul class='ml-15 sidenavSub-topics aside_dropdown_list' id='modernuserguide'>"+
-          "<li title=Home>"+
+          "<li  class='sidelist' title=Home>"+
             "<a href='/sharepoint-employee-directory/modern/user/userinterface/#homepage'>Home Page</a>"+
 
           "</li>"+
           
-          "<li title=Search>"+
+          "<li  class='sidelist' title=Search>"+
             "<a href='/sharepoint-employee-directory/modern/user/userinterface/#search'>Search</a>"+
 
           "</li>"+
-          "<li title=Views>"+
+          "<li  class='sidelist' title=Views>"+
             "<a href='/sharepoint-employee-directory/modern/user/userinterface/#views'>Views</a>"+
 
           "</li>"+
 
-          "<li title=Help>"+
+          "<li  class='sidelist' title=Help>"+
             "<a href='/sharepoint-employee-directory/modern/user/userinterface/#help'>Help</a>"+
 
           "</li>"+

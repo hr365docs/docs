@@ -16,25 +16,38 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
 
-        "<li data-nav-id='./Setting/' title=Settings class='sidelist'>" +
-        "<div class='dropdownicon'>" +
+        "<li class='dropdownicon sidelist'>"+
         "<a href='/sharepoint-employee-directory/modern/admin/settings/'>" +
         "Settings" +
         "</a>" +
         "<img src='./down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
-        "</div>" +
+    "</li>"+
+
+        "<li data-nav-id='./Setting/' title=Settings class='sidelist'>" +
+        // "<div class='dropdownicon'>" +
+        // "<a href='/sharepoint-employee-directory/modern/admin/settings/'>" +
+        // "Settings" +
+        // "</a>" +
+        // "<img src='./down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
+        // "</div>" +
 
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>" +
 
         "<ul id='modernadminmainsetting'>" +
-        "<li data-nav-id='../advanced/' title=General class='sidelist' >" +
-
-        "<div class='dropdownicon'>" +
+        "<li class='dropdownicon sidelist'>"+
         "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>" +
         "General" +
         "</a>" +
         "<img src='./down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
-        "</div>" +
+        "</li>"+
+        "<li data-nav-id='../advanced/' title=General class='sidelist' >" +
+
+        // "<div class='dropdownicon'>" +
+        // "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>" +
+        // "General" +
+        // "</a>" +
+        // "<img src='./down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        // "</div>" +
 
         "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmoderngeneral'>" +
         "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
@@ -92,14 +105,21 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
 
-        "<li data-nav-id='../advanced/' title=Advanced class='sidelist'>" +
-
-        "<div class='dropdownicon'>" +
+        "<li class='dropdownicon sidelist'>"+
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>" +
         "Advanced" +
         "</a>" +
         "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
-        "</div>" +
+        "</li>"+
+
+        "<li data-nav-id='../advanced/' title=Advanced class='sidelist'>" +
+
+        // "<div class='dropdownicon'>" +
+        // "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>" +
+        // "Advanced" +
+        // "</a>" +
+        // "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        // "</div>" +
 
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
         "<li  data-nav-id='../advanced/' title='SharePoint API' class='sidelist'>" +
