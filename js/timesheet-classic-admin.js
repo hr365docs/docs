@@ -192,7 +192,7 @@ $(document).ready(function () {
 
                     "<li class='dropdownicon sidelist'>"+
                     "<a  class='qwe' href='/online-timesheet-software/classic/admin/settings/setting/'>"+
-                    "Setting"+
+                    "Settings"+
                      "</a>"+
                      "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcongeneral aside_dropdown_icon'>"+
                 "</li>"+
