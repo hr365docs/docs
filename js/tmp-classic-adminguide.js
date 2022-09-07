@@ -39,13 +39,21 @@ $(document).ready(function () {
                         "</li>"+
          
 
-        "<li data-nav-id='../system-settings' title=system-settings class='sidelist'>"+
-                        "<div class='dropdownicon'>"+   
-                            "<a class='qwe' href='/employee-vacation-tracker-time-off-manager/classic/admin/settings/'>"+
-                            "System Settings"+
-                            "</a>"+
-                            "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
-                            "</div>"+
+                        "<li class='dropdownicon sidelist'>"+
+                        "<a class='qwe' href='/employee-vacation-tracker-time-off-manager/classic/admin/settings/'>"+
+                        "System Settings"+
+                        "</a>"+
+                        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+                    "</li>"+
+
+
+        "<li data-nav-id='../system-settings' title=system-settings class='sidelist dropdown_romove_dot'>"+
+                        // "<div class='dropdownicon'>"+   
+                        //     "<a class='qwe' href='/employee-vacation-tracker-time-off-manager/classic/admin/settings/'>"+
+                        //     "System Settings"+
+                        //     "</a>"+
+                        //     "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+                        //     "</div>"+
                             "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                                 "<li data-nav-id='../user' title=user class='sidelist'>"+
                                     "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/settings/#organization'>"+
@@ -63,7 +71,7 @@ $(document).ready(function () {
                                             "</a>"+
                                             "</li>"+
                             "</ul>"+
-                            "</li>"+
+                            "</li >"+
     
                             "<li data-nav-id='../user' title=user class='sidelist'>"+
                                 "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/help/'>"+
