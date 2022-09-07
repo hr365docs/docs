@@ -23,7 +23,7 @@ $(document).ready(function() {
         "<img src='./down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
     "</li>"+
 
-        "<li data-nav-id='./Setting/' title=Settings class='sidelist'>" +
+        "<li data-nav-id='./Setting/' title=Settings class='sidelist dropdown_romove_dot'>" +
         // "<div class='dropdownicon'>" +
         // "<a href='/sharepoint-employee-directory/modern/admin/settings/'>" +
         // "Settings" +
@@ -112,7 +112,7 @@ $(document).ready(function() {
         "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>"+
 
-        "<li data-nav-id='../advanced/' title=Advanced class='sidelist'>" +
+        "<li data-nav-id='../advanced/' title=Advanced class='sidelist dropdown_romove_dot'>" +
 
         // "<div class='dropdownicon'>" +
         // "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>" +

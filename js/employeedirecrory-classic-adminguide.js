@@ -28,10 +28,10 @@ $(document).ready(function() {
         "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon aside_dropdown_icon' '></img>"+
         "</li>"+
 
-        "<li data-nav-id='./Setting/' title=Settings class='sidelist' onclick='hideshowdiv(event);'>" +
+        "<li data-nav-id='./Setting/' title=Settings class='sidelist dropdown_romove_dot' onclick='hideshowdiv(event);'>" +
 
         "</li>" +
-        "<li class='setting_side_nav_bar dropdown_romove_dot'>" +
+        "<li class='setting_side_nav_bar '>" +
         "<ul id='settingsadmin' class='aside_dropdown_list'>" +
         "<li data-nav-id='../General' title=General class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/classic/admin/settings/#generalsetting'>" +

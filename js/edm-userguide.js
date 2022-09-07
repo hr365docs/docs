@@ -15,12 +15,17 @@ $(document).ready(function () {
         "<a href='/sharepoint-employee-directory/modern/user/managinguseraccounts/'>Managing User Profile</a>"+
       "</li>"+
 
+      "<li class='dropdownicon sidelist'>"+
+      "<a class='qwe' href='/sharepoint-employee-directory/modern/user/userinterface/'>User Interface</a>"+
+      "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon''>"+
+  "</li>"+
+
       "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-        "title=User Interface class='sidelist'>"+
-        "<div class='dropdownicon'>"+
-        "<a class='qwe' href='/sharepoint-employee-directory/modern/user/userinterface/'>User Interface</a>"+
-        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon''>"+
-        "</div>"+
+        "title=User Interface class='sidelist dropdown_romove_dot'>"+
+        // "<div class='dropdownicon'>"+
+        // "<a class='qwe' href='/sharepoint-employee-directory/modern/user/userinterface/'>User Interface</a>"+
+        // "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon''>"+
+        // "</div>"+
 
         "<ul class='ml-15 sidenavSub-topics aside_dropdown_list' id='modernuserguide'>"+
           "<li  class='sidelist' title=Home>"+
