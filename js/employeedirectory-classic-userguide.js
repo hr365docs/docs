@@ -25,7 +25,7 @@ $(document).ready(function() {
         "<ul class='ml-15 sidenavSub-topics aside_dropdown_list' id='userinterecenavbar'>" +
 
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
-        "title=Home class='sidelist dropdown_romove_dot'>" +
+        "title=Home class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/classic/user/user-interface/#userhomepage'>Home Page</a>" +
         "</li>" +
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
