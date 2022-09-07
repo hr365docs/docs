@@ -8,19 +8,19 @@ $(document).ready(function () {
         "</a>"+
         "</li>"+
         "<li data-nav-id='../Introduction' title=Getting-Started class='sidelist'>"+
-            "<a href='/employee-vacation-tracker-time-off-manager/classic/user/getting-started'>"+
+            "<a href='/employee-vacation-tracker-time-off-manager/classic/user/getting-started/'>"+
                 "Getting Started"+
             "</a>"+
             "</li>"+
     
         "<li data-nav-id='../Home-page' title=Home-page class=sidelist>"+
-            "<a href='/employee-vacation-tracker-time-off-manager/classic/user/home-page'>"+
+            "<a href='/employee-vacation-tracker-time-off-manager/classic/user/home-page/'>"+
                 "Home Page"+
             "</a>"+
             "</li>"+
         
         "<li data-nav-id='../ HR-actions' title= HR-actions class=sidelist>"+
-        "<a href='/employee-vacation-tracker-time-off-manager/classic/user/user-interface'>"+
+        "<a href='/employee-vacation-tracker-time-off-manager/classic/user/user-interface/'>"+
           "User Interface"+
         "</a>"+
         "</li>"+
@@ -28,7 +28,7 @@ $(document).ready(function () {
         
     
          "<li data-nav-id='../user' title=user class='sidelist'>"+
-                "<a href='/employee-vacation-tracker-time-off-manager/classic/user/help'>"+
+                "<a href='/employee-vacation-tracker-time-off-manager/classic/user/help/'>"+
                 "Help"+
                 "</a>"+
             "</li>"+
