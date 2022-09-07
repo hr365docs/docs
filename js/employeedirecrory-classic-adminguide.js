@@ -19,16 +19,19 @@ $(document).ready(function() {
         "Users" +
         "</a>" +
         "</li>" +
-        "<li data-nav-id='./Setting/' title=Settings class='sidelist' onclick='hideshowdiv(event);'>" +
-        "<div class='dropdownicon' >" +
+
+        "<li class='dropdownicon sidelist'>"+
         "<a class='qwe' href='/sharepoint-employee-directory/classic/admin/settings/'>" +
         "<!-- <a href='#MainSettings'></a> -->" +
         "Settings" +
         "</a>" +
-        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon aside_dropdown_icon' '></img>" +
-        "</div>" +
+        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon aside_dropdown_icon' '></img>"+
+        "</li>"+
+
+        "<li data-nav-id='./Setting/' title=Settings class='sidelist' onclick='hideshowdiv(event);'>" +
+
         "</li>" +
-        "<li class='setting_side_nav_bar'>" +
+        "<li class='setting_side_nav_bar dropdown_romove_dot'>" +
         "<ul id='settingsadmin' class='aside_dropdown_list'>" +
         "<li data-nav-id='../General' title=General class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/classic/admin/settings/#generalsetting'>" +
