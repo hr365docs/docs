@@ -21,7 +21,6 @@ window.addEventListener("load", () => {
                     // console.log(getid[0].baseURI)
             }
         }
-
     }
     getid()
 
