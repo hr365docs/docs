@@ -121,6 +121,7 @@ $(document).ready(function() {
         // "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         // "</div>" +
 
+        
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
         "<li  data-nav-id='../advanced/' title='SharePoint API' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#configure-permission'>Configure SharePoint API permissions</a>" +
