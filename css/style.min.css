@@ -1232,7 +1232,9 @@ a.nav-link.text-dark.active-dark {
     gap: 10px;
     align-items: center;
 }
-
+.dropdown_romove_dot::before{
+    display: none;
+}
 .drodown_icon,
 .user-items-dropdown img.active {
     -moz-transform: rotate(90deg);

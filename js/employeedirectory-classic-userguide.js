@@ -16,17 +16,16 @@ $(document).ready(function() {
         "title=Profile class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/classic/user/profile/'>Managing User Profile</a>" +
         "</li>" +
+        "<li class='dropdownicon sidelist'>"+
+            "<a class='qwe' href='/sharepoint-employee-directory/classic/user/user-interface/'>User interface</a>" +
+            "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon aside_dropdown_icon' '>" +
+        "</li>"+
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
-        "title=User interface class='sidelist' >" +
-        "<div class='dropdownicon' >" +
-        "<a class='qwe' href='/sharepoint-employee-directory/classic/user/user-interface/'>User interface</a>" +
-        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcon aside_dropdown_icon' '>" +
-        "</div>" +
-
+        "title=User interface class='sidelist dropdown_romove_dot' >" +
         "<ul class='ml-15 sidenavSub-topics aside_dropdown_list' id='userinterecenavbar'>" +
 
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
-        "title=Home class='sidelist'>" +
+        "title=Home class='sidelist dropdown_romove_dot'>" +
         "<a href='/sharepoint-employee-directory/classic/user/user-interface/#userhomepage'>Home Page</a>" +
         "</li>" +
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
