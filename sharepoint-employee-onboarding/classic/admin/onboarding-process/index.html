@@ -45,35 +45,7 @@
         <span class=navbar-toggler-icon></span>
         </button>
 <div class="collapse navbar-collapse text-center common-header" id=navigation>
-    <!-- <ul class="navbar-nav ml-auto">
-        <li class=nav-item>
-            <a class="nav-link text-dark" href="https://hr365docs.github.io/docs/">Home</a>
-            </li>
-            <li class=nav-item>
-            <a class="nav-link text-dark" href="../../../../sharepoint-employee-directory/">Employee Directory
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../Asset-Management/">Asset Management</a>
-             </li>
-             <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../helpdesk/">H365-Helpdesk</a>
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../time-off-manager/">Time Off Manager</a>
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../timesheets/">Timesheet</a>
-            </li>
-            <li class=nav-item>
-            <a class="nav-link text-dark active-dark" href="../../../../employee-on-boarding/">Employee On-boarding</a>
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../Performance-Management/">Performance Management</a>
-                </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../contact/">Contact</a>
-                </li>
-        </ul> -->
+   
 <!-- <select class=lang-list id=select-language onchange="location=this.value"><option id=en value=https://github.com/hr365docs/My-project.git/ selected>En -->
 <!-- </option><option id=fr value=https://github.com/hr365docs/My-project.git/fr/>Fr</option></select> -->
 </div>
@@ -85,7 +57,7 @@
 <div class=row>
 <div class=col-lg-3>
 <div class=sidebar>
-    <h5 style="color:SlateBlue">Employee On-boarding Classic</h5>
+    <h5 style="color:SlateBlue"> <a href="../../../../sharepoint-employee-onboarding/">Employee On-boarding Classic</a></h5>
     <a class=back-btn href="../../admin/" aria-label=back></a>
     <ul class=list-styled>
     <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title="Admin Guide" class="sidelist
@@ -93,7 +65,7 @@
     <a href="../../admin/">
         Admin Guide
     </a>
-    <ul >
+    <ul id="obm-admin-aside">
     <li data-nav-id="./installation/requirments/" title="Introduction" class="sidelist">
         <a href="../introduction/">
         Introduction
@@ -240,7 +212,7 @@ Set up of application
                         </div>
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
 <nav class="pagination mt-3">
-<a class="nav nav-prev" href="../Advance-setting/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Advance Setting</span></a>
+<a class="nav nav-prev" href="../../admin/set-up-of-application/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Setting Up Of Application</span></a>
 <!-- <a class="nav nav-next" href="../set-up-of-application/" aria-label="Previous page"> <span class="d-none d-md-block">Set up of all Application</span><i class="ti-arrow-right ml-2"></i></a> -->
 </nav>
 </div>
@@ -305,6 +277,8 @@ document.getElementById("myModal").style.display = "none";
     document.getElementById("date").innerHTML=date;
    </script>
    <script src="../../../../js/header-footer.js"></script>
+   <script src="../../../../js/showhidefunction.js"></script>
+   <script src="../js-admin/obm-admin-aside.js"></script>
 </body>
 
 </html> 

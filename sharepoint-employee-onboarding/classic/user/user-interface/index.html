@@ -44,35 +44,7 @@
 <span class=navbar-toggler-icon></span>
 </button>
 <div class="collapse navbar-collapse text-center common-header" id=navigation>
-<!-- <ul class="navbar-nav ml-auto">
-<li class=nav-item>
-<a class="nav-link text-dark" href=https://hr365docs.github.io/docs/>Home</a>
-</li>
-<li class=nav-item>
-<a class="nav-link text-dark" href="../../../../sharepoint-employee-directory/">Employee Directory
-</li>
-<li class=nav-item>
-<a class="nav-link text-dark" href="../../../../Asset-Management/">Asset Mangement</a>
-</li>
-<li class=nav-item>
-<a class="nav-link text-dark" href="../../../../helpdesk/"> Helpdesk</a>
-</li>
-<li class=nav-item>
-<a class="nav-link text-dark" href="../../../../time-off-manger/">Time Off Manager</a>
-</li>
-<li class=nav-item>
-<a class="nav-link text-dark " href="../../../../timesheetss/">Timesheet</a>
-</li>
-<li class=nav-item>
-<a class="nav-link text-dark active-dark" href="../../../../employee-on-boarding/">Employee On-boarding</a>
-</li>
-<li class=nav-item>
-    <a class="nav-link text-dark" href="../../../../Performance-Management/">Performance Management</a>
-    </li>
-<li class="nav-item">
-    <a class="nav-link text-dark" href="../../../../contact/">Contact</a>
-</li>
-</ul> -->
+
 </div>
 </div>
 </nav>
@@ -83,22 +55,22 @@
     <div class=row>
     <div class=col-lg-3>
     <div class=sidebar>
-        <h5 style="color:SlateBlue">Employee On-boarding Classic</h5>
-        <a class=back-btn href="../../user-guide/" aria-label=back></a>
+        <h5 style="color:SlateBlue"> <a href="../../../../sharepoint-employee-onboarding/">Employee On-boarding Classic</a></h5>
+        <a class=back-btn href="../../user/" aria-label=back></a>
     
     <ul class=list-styled>
     <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title=User-Guide class="sidelist">
-        <a href="../../user-guide/">
+        <a href="../../user/">
             User Guide
             </a>
-            <ul>
+            <ul id="obm-user-aside">
                 <li data-nav-id="./installation/requirments/" title=Introduction class="sidelist">
                     <a href="../introduction/">
                     Introduction
                 </a>  
                 </li>
                 <li data-nav-id="./installation/requirments/" title=Getting-Started class=sidelist>
-                    <a href="../Getting-Started/">
+                    <a href="../getting-Started/">
                         Getting Started
                     </a>  
                 </li>
@@ -111,24 +83,24 @@
                 
 
                     <li data-nav-id="./installation/requirments/" title= User-Interface class="sidelist active">
-                        <a href="../userface/">
+                        <a href="../user-interface/">
                         User Interface
                         </a>  
                         <ul class="sidenavSub-topics">
                             <li data-nav-id="../General" title= Update_Profiles  class=sidelist>
-                              <a href="../userface/">
+                              <a href="../user-interface/">
                                 Update Profiles 
                                 </a>
                                 </li>
                 
                                 <li data-nav-id="../General" title=  Update_Details  class=sidelist>
-                                    <a href="../userface/">
+                                    <a href="../user-interface/">
                                         Update Details 
                                       </a>
                                       </li>
                 
                                       <li data-nav-id="../General" title= Upload_Documents class=sidelist>
-                                        <a href="../userface/">
+                                        <a href="../user-interface/">
                                             Upload Documents
                                           </a>
                                           </li>
@@ -172,17 +144,9 @@
 
 
            
-            <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-
-
-                <nav class="pagination mt-3">
-                <a class="nav nav-prev" href="../homepage/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
-                <span class="d-none d-md-block">Home Page</span></a>
-                <a class="nav nav-next" href="../userface/updtprofile/" aria-label="Previous page">
-                <span class="d-none d-md-block">User Profiles</span><i class="ti-arrow-right ml-2"></i></a>
-                </nav>
+          
                 </div>
-                <div class="bg-light p-4">
+                <div class="bg-light p-4" id="update-profiles">
                     <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                         <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Update Profiles<i class="fas fa-link"
                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -216,7 +180,7 @@
                      
                     
                     </div>
-                <div class="bg-light p-4">
+                <div class="bg-light p-4" id="update-details">
                     <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                         <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Update Details<i class="fas fa-link"
                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -253,7 +217,7 @@
         
                     </div>
            
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="upload-documents">
                             <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Upload Documents<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -283,14 +247,22 @@
                             
                               <div><img src="OBP3.png" onclick="openModal('OBP3.png')" alt=""width="100%" height="auto"></div>
                               <br>
-                                
-                             
-                
+                              <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+
+
+                                <nav class="pagination mt-3">
+                                <a class="nav nav-prev" href="../homepage/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
+                                 <span class="d-none d-md-block">Home Page</span></a>
+                                <!-- <a class="nav nav-next" href="../user-interface/updtprofile/" aria-label="Previous page">
+                                <span class="d-none d-md-block">User Profiles</span><i class="ti-arrow-right ml-2"></i></a> -->
+                                </nav> 
+                            
                             </div>
                 </div>
                 </div>
                 </div>
                 </section>
+               
                 <div id="myModal" class="modal">
                 
                     <div class="modal-content">
@@ -348,6 +320,8 @@
                     document.getElementById("date").innerHTML=date;
                    </script>
                    <script src="../../../../js/header-footer.js"></script>
+                   <script src="../../user/js-user/obm-user-aside.js"></script>
+                   <script src="../../../../js/showhidefunction.js"></script>
             </body>
             
             </html> 
