@@ -62,12 +62,12 @@ $(document).ready(function () {
                                     "</li>"+
                                     "<li data-nav-id='../user' title=user class='sidelist'>"+
                                         "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/settings/#leave-type-settings'>"+
-                                        "Leave Setting"+
+                                        "Leave Settings"+
                                         "</a>"+
                                         "</li>"+
                                         "<li data-nav-id='../user' title=user class='sidelist'>"+
                                             "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/settings/#advance-settings'>"+
-                                            "Advance Setting"+
+                                            "Advance Settings"+
                                             "</a>"+
                                             "</li>"+
                             "</ul>"+
