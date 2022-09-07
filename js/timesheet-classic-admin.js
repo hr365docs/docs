@@ -12,13 +12,21 @@ $(document).ready(function () {
             "Home Page"+
         "</a>"+  
         "</li>"+
-    "<li data-nav-id='./Setting/' title=Timesheet class=sidelist>"+
-        "<div class='dropdownicon'>"+
-    "<a class='qwe' href='/online-timesheet-software/classic/admin/timesheet/'>"+
-    "Timesheet"+
-    "</a>"+
-    "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
-        "</div>"+
+
+        "<li class='dropdownicon sidelist'>"+
+        "<a class='qwe' href='/online-timesheet-software/classic/admin/timesheet/'>"+
+        "Timesheet"+
+        "</a>"+
+        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+    "</li>"+
+
+    "<li data-nav-id='./Setting/' title=Timesheet class='sidelist dropdown_romove_dot'>"+
+    //     "<div class='dropdownicon'>"+
+    // "<a class='qwe' href='/online-timesheet-software/classic/admin/timesheet/'>"+
+    // "Timesheet"+
+    // "</a>"+
+    // "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+    //     "</div>"+
     "<ul class='ml-15 sidenavSub-topics'>"+
         
         "</li>"+
@@ -43,13 +51,20 @@ $(document).ready(function () {
             "</ul>"+
         "</ul>"+
             
-            "<li data-nav-id='./Setting/' title=Reports class=sidelist>"+
-                    "<div class='dropdownicon'>"+
+        "<li class='dropdownicon sidelist'>"+
         "<a  class='qwe' href='/online-timesheet-software/classic/admin/reports/'>"+
         "Reports"+
         "</a>"+
         "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
-                    "</div>"+
+    "</li>"+
+
+            "<li data-nav-id='./Setting/' title=Reports class='sidelist dropdown_romove_dot'>"+
+        //             "<div class='dropdownicon'>"+
+        // "<a  class='qwe' href='/online-timesheet-software/classic/admin/reports/'>"+
+        // "Reports"+
+        // "</a>"+
+        // "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+        //             "</div>"+
         "<ul class='ml-15 sidenavSub-topics'>"+
             
             "</li>"+
@@ -90,13 +105,20 @@ $(document).ready(function () {
     
          "</ul>"+
     
-    "<li data-nav-id='./Setting/' title=Administration class=sidelist>"+
-        "<div class='dropdownicon'>"+
-        "<a class='qwe' href='/online-timesheet-software/classic/admin/administrator/'>"+
-        "Administration"+
-        "</a>"+
-        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
-        "</div>"+
+         "<li class='dropdownicon sidelist'>"+
+         "<a class='qwe' href='/online-timesheet-software/classic/admin/administrator/'>"+
+         "Administration"+
+         "</a>"+
+         "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+     "</li>"+
+
+    "<li data-nav-id='./Setting/' title=Administration class='sidelist dropdown_romove_dot'>"+
+        // "<div class='dropdownicon'>"+
+        // "<a class='qwe' href='/online-timesheet-software/classic/admin/administrator/'>"+
+        // "Administration"+
+        // "</a>"+
+        // "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+        // "</div>"+
         "<ul class='ml-15 sidenavSub-topics'>"+
             
             "</li>"+
@@ -124,14 +146,20 @@ $(document).ready(function () {
             "</ul>"+
         "</ul>"+
     
-    
-    "<li data-nav-id='./Setting/' title=Settings class=sidelist>"+
-        "<div class='dropdownicon'>"+
+        "<li class='dropdownicon sidelist'>"+
         "<a  class='qwe' href='/online-timesheet-software/classic/admin/settings/'>"+
         "Settings"+
         "</a>"+
         "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmainsetting aside_dropdown_icon_setting'>"+
-        "</div>"+
+    "</li>"+
+
+    "<li data-nav-id='./Setting/' title=Settings class='sidelist dropdown_romove_dot'>"+
+        // "<div class='dropdownicon'>"+
+        // "<a  class='qwe' href='/online-timesheet-software/classic/admin/settings/'>"+
+        // "Settings"+
+        // "</a>"+
+        // "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmainsetting aside_dropdown_icon_setting'>"+
+        // "</div>"+
         "<ul class='ml-15 sidenavSub-topics'>"+
             
             "</li>"+
@@ -161,13 +189,21 @@ $(document).ready(function () {
                        "Departments"+
                         "</a>"+
                     "</li>"+
-                    "<li data-nav-id='../Exclude-Options/' title=Setting class='sidelist'>"+
-                        "<div class='dropdownicon'>"+
-                        "<a  class='qwe' href='/online-timesheet-software/classic/admin/settings/setting/'>"+
-                       "Setting"+
-                        "</a>"+
-                        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcongeneral aside_dropdown_icon'>"+
-                        "</div>"+
+
+                    "<li class='dropdownicon sidelist'>"+
+                    "<a  class='qwe' href='/online-timesheet-software/classic/admin/settings/setting/'>"+
+                    "Setting"+
+                     "</a>"+
+                     "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcongeneral aside_dropdown_icon'>"+
+                "</li>"+
+
+                    "<li data-nav-id='../Exclude-Options/' title=Setting class='sidelist dropdown_romove_dot'>"+
+                    //     "<div class='dropdownicon'>"+
+                    //     "<a  class='qwe' href='/online-timesheet-software/classic/admin/settings/setting/'>"+
+                    //    "Setting"+
+                    //     "</a>"+
+                    //     "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcongeneral aside_dropdown_icon'>"+
+                    //     "</div>"+
                         "<ul class='ml-15 sidenavSub-topics'>"+
             
                         "</li>"+
