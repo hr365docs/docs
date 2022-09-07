@@ -17,7 +17,7 @@ $(document).ready(function () {
     "<a class='qwe' href='/online-timesheet-software/classic/admin/timesheet/'>"+
     "Timesheet"+
     "</a>"+
-    "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+    "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
         "</div>"+
     "<ul class='ml-15 sidenavSub-topics'>"+
         
@@ -48,7 +48,7 @@ $(document).ready(function () {
         "<a  class='qwe' href='/online-timesheet-software/classic/admin/reports/'>"+
         "Reports"+
         "</a>"+
-        "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
                     "</div>"+
         "<ul class='ml-15 sidenavSub-topics'>"+
             
@@ -95,7 +95,7 @@ $(document).ready(function () {
         "<a class='qwe' href='/online-timesheet-software/classic/admin/administrator/'>"+
         "Administration"+
         "</a>"+
-        "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
         "</div>"+
         "<ul class='ml-15 sidenavSub-topics'>"+
             
@@ -130,7 +130,7 @@ $(document).ready(function () {
         "<a  class='qwe' href='/online-timesheet-software/classic/admin/settings/'>"+
         "Settings"+
         "</a>"+
-        "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmainsetting aside_dropdown_icon_setting'>"+
+        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmainsetting aside_dropdown_icon_setting'>"+
         "</div>"+
         "<ul class='ml-15 sidenavSub-topics'>"+
             
@@ -166,7 +166,7 @@ $(document).ready(function () {
                         "<a  class='qwe' href='/online-timesheet-software/classic/admin/settings/setting/'>"+
                        "Setting"+
                         "</a>"+
-                        "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIcongeneral aside_dropdown_icon'>"+
+                        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIcongeneral aside_dropdown_icon'>"+
                         "</div>"+
                         "<ul class='ml-15 sidenavSub-topics'>"+
             
