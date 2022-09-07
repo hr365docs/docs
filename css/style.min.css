@@ -1294,9 +1294,9 @@ html {
 .helpdesk-dropdown{
     display: flex;
 }
-.helpdesk-dropdown .sidenavSub-topics{
+/* .helpdesk-dropdown .sidenavSub-topics{
     display: none;
-}
+} */
 .helpdesk-dropdown img.active {
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
@@ -1416,9 +1416,9 @@ html {
     transition: 0.3s;
 }
 
-.aside_dropdown_list.active {
+/* .aside_dropdown_list.active {
     display: block;
-}
+} */
 
 html {
     scroll-behavior: smooth;

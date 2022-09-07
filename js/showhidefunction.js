@@ -69,6 +69,7 @@ window.addEventListener("load", () => {
                 element.classList.add("active");
                 dropdowmlist[index].classList.add("active")
                 dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity: 1;`)
+                
             }
         })
     })
