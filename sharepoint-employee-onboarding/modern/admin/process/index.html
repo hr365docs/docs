@@ -45,35 +45,7 @@
         <span class=navbar-toggler-icon></span>
         </button>
 <div class="collapse navbar-collapse text-center common-header" id=navigation>
-    <!-- <ul class="navbar-nav ml-auto">
-        <li class=nav-item>
-            <a class="nav-link text-dark" href="https://hr365docs.github.io/docs/">Home</a>
-            </li>
-            <li class=nav-item>
-            <a class="nav-link text-dark" href="../../../../sharepoint-employee-directory/">Employee Directory
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../Asset-Management/">Asset Management</a>
-             </li>
-             <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../helpdesk/">H365-Helpdesk</a>
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../time-off-manager/">Time Off Manager</a>
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../timesheets/">Timesheet</a>
-            </li>
-            <li class=nav-item>
-            <a class="nav-link text-dark active-dark" href="../../../../employee-on-boarding/">Employee On-boarding</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="../../../../Performance-Management/">Performance Management</a>
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../contact/">Contact</a>
-                </li>
-        </ul> -->
+   
 <!-- <select class=lang-list id=select-language onchange="location=this.value"><option id=en value=https://github.com/hr365docs/My-project.git/ selected>En -->
 <!-- </option><option id=fr value=https://github.com/hr365docs/My-project.git/fr/>Fr</option></select> -->
 </div>
@@ -93,7 +65,7 @@
     <a href="../../admin/">
         Admin Guide
         </a>
-        <ul>
+        <ul id="obm-modern-admin">
             <li data-nav-id="./installation/requirments/" title="Overview" class="sidelist">
                 <a href="../overview/">
                 Overview
@@ -105,7 +77,7 @@
               </a>
           </li>
           <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title="Access requirements" class="sidelist">
-          <a href="../Access_requirements/">
+          <a href="../access-requirements/">
             Access requirements
           </a>
           </li>
@@ -295,7 +267,7 @@
        
 
 </div>
-<div class="bg-light p-4">
+<div class="bg-light p-4" id="my-active-task">
   <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>My Active Task<i
       class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>
@@ -314,7 +286,7 @@ height="auto"></div>
 
                              
 </div>
-<div class="bg-light p-4">
+<div class="bg-light p-4" id="my-overdue-task">
   <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>My Overdue Task<i
       class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>
@@ -331,7 +303,7 @@ height="auto"></div>
 
                              
 </div>
-<div class="bg-light p-4">
+<div class="bg-light p-4" id="onboarding-process">
   <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Onboarding Process<i
       class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>
@@ -465,8 +437,8 @@ height="auto"></div>
 
                              
 </div>
-<div class="bg-light p-4">
-  <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Offboarding<i
+<div class="bg-light p-4" id="offboarding-process">
+  <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Offboarding Process<i
       class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>  
 <ul class=page-list>
@@ -503,7 +475,7 @@ In the <b>Offboarding</b> tab, you add employee details and task.
 
                              
  </div>
- <div class="bg-light p-4">
+ <div class="bg-light p-4" id="all-active-task">
   <h2 id="_dashboards"><a class="header-icon-link highlight" href=#> All Active Task<i
       class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>
@@ -521,7 +493,7 @@ height="auto"></div>
 
                              
   </div>
-  <div class="bg-light p-4">
+  <div class="bg-light p-4" id="all-overdue-task">
     <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>All Overdue Task<i
         class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>
@@ -537,7 +509,7 @@ height="auto"></div>
 
                                
 </div>
-<div class="bg-light p-4">
+<div class="bg-light p-4" id="onboarded">
   <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Onboarded<i
       class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>
@@ -579,7 +551,7 @@ height="auto"></div>
 
                              
 </div>
-<div class="bg-light p-4">
+<div class="bg-light p-4" id="offboarded">
   <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Offboarded<i
       class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>
@@ -690,6 +662,7 @@ document.getElementById("myModal").style.display = "none";
     document.getElementById("date").innerHTML=date;
    </script>
    <script src="../../../../js/header-footer.js"></script>
+   <script src="../js-modern-admin/obm-modern-admin.js"></script>
 </body>
 
 </html> 
