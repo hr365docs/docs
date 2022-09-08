@@ -45,35 +45,7 @@
         <span class=navbar-toggler-icon></span>
         </button>
 <div class="collapse navbar-collapse text-center common-header" id=navigation>
-    <!-- <ul class="navbar-nav ml-auto">
-        <li class=nav-item>
-            <a class="nav-link text-dark" href="https://hr365docs.github.io/docs/">Home</a>
-            </li>
-            <li class=nav-item>
-            <a class="nav-link text-dark" href="../../../../../sharepoint-employee-directory/">Employee Directory
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../../Asset-Management/">Asset Management</a>
-             </li>
-             <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../../helpdesk/">H365-Helpdesk</a>
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../../time-off-manager/">Time Off Manager</a>
-            </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../../timesheets/">Timesheet</a>
-            </li>
-            <li class=nav-item>
-            <a class="nav-link text-dark active-dark" href="../../../../../employee-on-boarding/">Employee On-boarding</a>
-            </li>
-            <li class=nav-item>
-              <a class="nav-link text-dark" href="../../../../../Performance-Management/">Performance Management</a>
-              </li>
-            <li class=nav-item>
-                <a class="nav-link text-dark" href="../../../../../contact/">Contact</a>
-                </li>
-        </ul> -->
+  
 <!-- <select class=lang-list id=select-language onchange="location=this.value"><option id=en value=https://github.com/hr365docs/My-project.git/ selected>En -->
 <!-- </option><option id=fr value=https://github.com/hr365docs/My-project.git/fr/>Fr</option></select> -->
 </div>
@@ -93,7 +65,7 @@
     <a href="../../../admin/">
         Admin Guide
         </a>
-        <ul>
+        <ul id="obm-modern-admin">
             <li data-nav-id="./installation/requirments/" title=Overview class="sidelist">
                 <a href="../../overview/">
                 Overview
@@ -105,7 +77,7 @@
               </a>
           </li>
           <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title="Access requirements" class="sidelist">
-          <a href="../../Access_requirements/">
+          <a href="../../access-requirements/">
             Access requirements
           </a>
           </li>
@@ -335,8 +307,8 @@
         <div><img src="administration.png" onclick="openModal('administration.png')" alt="" width="100%"
           height="auto"></div>
 </div>
-<div class="bg-light p-4">
-  <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Task Catagories <i
+<div class="bg-light p-4" id="categories">
+  <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Categories <i
       class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 <br>
 <ul class=page-list>
@@ -389,7 +361,7 @@ Catagories will reflects in the <a href="../standard_task/">Standard Task</a>.
   height="auto"></div> -->
  
                       </div>
-                      <div class="bg-light p-4">
+                      <div class="bg-light p-4" id="departments">
                         <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Departments <i
                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                     <br>
@@ -444,7 +416,7 @@ Catagories will reflects in the <a href="../standard_task/">Standard Task</a>.
                       <b>Edit</b>:- You can edit department and/or admin. Click the edit icon, this display <b>Edit Department</b> page. Update the department and/or admin and click on <b>Update</b> button.
                     <br>
                         </div>      
-                        <div class="bg-light p-4">
+                        <div class="bg-light p-4" id="activity-type">
                           <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Activity Type<i
                               class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                               <br>
@@ -500,7 +472,7 @@ Catagories will reflects in the <a href="../standard_task/">Standard Task</a>.
                         <b>Edit</b>:- You can edit activity type and/or admin. Click the edit icon, this display <b>Edit Activity type</b> page. Update the activity type and/or admin and click on <b>Update</b> button.
                       <br>
                           </div>   
-                          <div class="bg-light p-4">
+                          <div class="bg-light p-4" id="standard-task">
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Standard Task<i
                                 class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                                 <br>
@@ -564,7 +536,7 @@ Catagories will reflects in the <a href="../standard_task/">Standard Task</a>.
                           <b>Edit</b>:- You can edit <b>Task Name</b>, <b>Process Type</b>, <b>Catagory</b>, <b>Resolution Days</b>, <b>Department</b>, <b>Activity Type</b>, <b>Task Assigned Type</b> and <b>Remarks</b>. Click the edit icon, this display <b>Edit Location</b> page. Update the fields which you want to update and click on <b>Update</b> button.
                         <br>
                             </div>             
-                            <div class="bg-light p-4">
+                            <div class="bg-light p-4" id="task-template">
                               <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Task Template<i
                                   class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                                   <br>
@@ -617,7 +589,7 @@ Catagories will reflects in the <a href="../standard_task/">Standard Task</a>.
                             
                           </ul>
                           </div>
-                          <div class="bg-light p-4">
+                          <div class="bg-light p-4" id="positions">
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Positions<i
                                 class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                                 <br>
@@ -665,7 +637,7 @@ Catagories will reflects in the <a href="../standard_task/">Standard Task</a>.
                           <b>Edit</b>:- You can edit postion name. Click the edit icon, this display <b>Edit Postion</b> page. Update the <b>Employee Type</b> and click on <b>Update</b> button.
                         <br>
                             </div>
-                            <div class="bg-light p-4">
+                            <div class="bg-light p-4" id="employee-types">
                               <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Employee Type<i
                                   class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                                   <br>
@@ -711,7 +683,7 @@ Catagories will reflects in the <a href="../standard_task/">Standard Task</a>.
                             <b>Edit</b>:- You can edit <b>Employee Type</b>. Click the edit icon, this display <b>Edit Employee Type</b> page. Update the <b>Employee Type</b> and click on <b>Update</b> button.
                           <br>
                               </div>
-                              <div class="bg-light p-4">
+                              <div class="bg-light p-4" id="location">
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Location <i
                                     class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                             <br>
@@ -767,7 +739,7 @@ Catagories will reflects in the <a href="../standard_task/">Standard Task</a>.
                               <b>Edit</b>:- You can edit <b>Zip code</b>. Click the edit icon, this display <b>Edit Location</b> page. Update the <b>Zip Code</b> and click on <b>Update</b> button.
                             <br>
                                 </div>
-                                <div class="bg-light p-4">
+                                <div class="bg-light p-4" id="reason-for-offboard">
                                   <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Reason For Offboard <i
                                       class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                               <br>
@@ -806,7 +778,7 @@ Catagories will reflects in the <a href="../standard_task/">Standard Task</a>.
                                 <b>Edit</b>: You can edit <b>Reason For Offboarding</b>. Click the edit icon, this display <b>Edit Reason</b> page. Update the <b>Reason For Offboarding</b> and click on <b>Update</b> button.
                               <br>
                                   </div>
-                                  <div class="bg-light p-4">
+                                  <div class="bg-light p-4" id="notice-period">
                                     <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Notice Period <i
                                         class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                                 <br>
@@ -914,6 +886,8 @@ document.getElementById("myModal").style.display = "none";
     document.getElementById("date").innerHTML=date;
    </script>
    <script src="../../../../../js/header-footer.js"></script>
+   <script src="../../../../../js/showhidefunction.js"></script>
+   <script src="../../js-modern-admin/obm-modern-admin.js"></script>
 </body>
 
 </html> 

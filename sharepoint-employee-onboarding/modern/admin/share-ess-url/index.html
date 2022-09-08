@@ -44,9 +44,7 @@
             <span class=navbar-toggler-icon></span>
             </button>
     <div class="collapse navbar-collapse text-center common-header" id=navigation>
-      
-      
-    <!-- <select class=lang-list id=select-language onchange="location=this.value"><option id=en value=https://github.com/hr365docs/My-project.git/ selected>En -->
+        <!-- <select class=lang-list id=select-language onchange="location=this.value"><option id=en value=https://github.com/hr365docs/My-project.git/ selected>En -->
     <!-- </option><option id=fr value=https://github.com/hr365docs/My-project.git/fr/>Fr</option></select> -->
     </div>
     </div>
@@ -93,7 +91,7 @@
                   System Setting
                   </a>
                   <ul class="sidenavSub-topics">
-                    <li data-nav-id="../General" title="Users" class=sidelist>
+                    <li data-nav-id="../General" title=Users class=sidelist>
                       <a href="../set-up-of-application/system_setting/users/">
                         Users 
                         </a>
@@ -125,12 +123,12 @@
                                             </li>
                   </ul>
                   </li>
-            <li data-nav-id="../General" title=Administration class=sidelist>
+            <li data-nav-id="../General" title="Administration" class=sidelist>
                 <a href="../set-up-of-application/administration/">
                   Administration 
                   </a>
                   <ul class="sidenavSub-topics">
-                    <li data-nav-id="../General" title=Categories class=sidelist>
+                    <li data-nav-id="../General" title="Categories" class=sidelist>
                       <a href="../set-up-of-application/administration/catagories/">
                         Categories 
                         </a>
@@ -141,7 +139,7 @@
                             </a>
                             </li>
                            
-                                <li data-nav-id="../General" title="Activity Type " class=sidelist>
+                                <li data-nav-id="../General" title="Activity Type" class=sidelist>
                                   <a href="../set-up-of-application/administration/activity_type/">
                                     Activity Type 
                                     </a>
@@ -156,7 +154,7 @@
                                            Task Templates
                                             </a>
                                             </li>
-                                        <li data-nav-id="../General" title=Positions class=sidelist>
+                                        <li data-nav-id="../General" title="Positions" class=sidelist>
                                           <a href="../set-up-of-application/administration/positions/">
                                             Positions
                                             </a>
@@ -166,7 +164,7 @@
                                                 Employee Types
                                                 </a>
                                                 </li>
-                                                <li data-nav-id="../General" title=Location class=sidelist>
+                                                <li data-nav-id="../General" title="Location" class=sidelist>
                                                   <a href="../set-up-of-application/administration/location/">
                                                     Location
                                                     </a>
@@ -184,22 +182,22 @@
                   </ul>
                   </li>
                 
-            <li data-nav-id="../General" title=Reports class="sidelist active">
+            <li data-nav-id="../General" title="Reports" class=sidelist>
                 <a href="../report/">
                   Reports
                   </a>
                   </li>
                  
                   
-                  <li data-nav-id="../views/" title="Share Ess Url" class="sidelist">
+                  <li data-nav-id="../views/" title="Share Ess Url" class="sidelist active">
                       <a href="../ess/">
                         Share Ess Url
                       </a>
                   </li>
-                  <li data-nav-id="../views/" title="Process" class="sidelist">
+                  <li data-nav-id="../views/" title="Process" class="sidelist active">
                     <a href="../Process/">Process</a>
                     <ul class="sidenavSub-topics">
-                      <li data-nav-id="../General" title="My Active Task " class=sidelist>
+                      <li data-nav-id="../General" title="My Active Task" class=sidelist>
                         <a href="../Process/my_active_task/">
                           My Active Task 
                           </a>
@@ -219,7 +217,7 @@
                                           Offboarding
                                           </a>
                                           </li>
-                                          <li data-nav-id="../General" title=" All active Task" class="sidelist">
+                                          <li data-nav-id="../General" title="All active Task" class="sidelist">
                                             <a href="../Process/active_task/">
                                               All active Task
                                               </a>
@@ -238,31 +236,47 @@
                                                         Offboarded
                                                         </a>
                                                         </li>
-  
 
                 </li>  
                   
           </ul>
+        </li>
     </div>
     </div>
     <div class=col-lg-9>
     <div class="p-lg-5 p-4 bg-white" id=content>
     
     <div class="bg-light p-4">
-        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Reports<i
+        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Employee Self-Service Portal<i
             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
             <br>
     <ul class=page-list>
-      
-<p>From here you can see all the details in <b>Task</b>, <b>Onboarding</b>, <b>Offboarding</b>, <b>Onboarded</b> and <b>Abandoned</b> reports.</p> 
+       <p>From here you can share the link of ESS portal to employees.
+        <ol>
+          <li>
+            Click on 
+            <b>Share ess Url</b>, this will display <b>Share ESS Link with Employees</b> dialog box.
+          </li>
+          <li>
+            Search the employee name and click  on the <b>Share</b> button.
+            <div class="notices note">
+              <div class="paragraph">
+                  <p>You can share the link to only one employee at a time.</p>
+              </div>
+          </div>
+          </li>
+        </ol> 
+       
+    
+<img src="share.png" onclick="openModal('share.png')" alt="" width="100%">
 <br>
-<img src="report.png" onclick="openModal('report.png')" alt="" width="100%">
+<img src="ESS_mail.png" onclick="openModal('ESS_mail.png')" alt="" width="100%">
     </ul>
     </div>
     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
     <nav class="pagination mt-3">
-    <a class="nav nav-prev" href="../set-up-of-application/administration/notice_period/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Notice period</span></a>
-    <a class="nav nav-next" href="../ess/" aria-label="Previous page"> <span class="d-none d-md-block">Share ESS Url</span><i class="ti-arrow-right ml-2"></i></a>
+    <a class="nav nav-prev" href="../report/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Reports</span></a>
+    <a class="nav nav-next" href="../Process/" aria-label="Previous page"> <span class="d-none d-md-block">Process</span><i class="ti-arrow-right ml-2"></i></a>
     </nav>
     </div>
     </div>
