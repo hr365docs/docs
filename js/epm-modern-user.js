@@ -50,7 +50,6 @@ $(document).ready(function () {
 "<li data-nav-id='./installation/requirments/' title='360 Feedback' class='sidelist dropdown_romove_dot'>"+
    
         
-    
     "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
             "<li data-nav-id='../General' title='Recieved'  class=sidelist>"+
             "<a href='/employee-performance-management/modern/user/feedback/#received'>"+
