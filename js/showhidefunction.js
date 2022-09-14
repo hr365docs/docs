@@ -14,6 +14,7 @@ window.addEventListener("load", () => {
                     let id = getid[i];
                     id.classList.add("active")
                     id.setAttribute("style", "padding-top:80px!important");
+                    console.log(koopId)
                 }
             }
             if (getid[0].baseURI == getancher[i].href) {

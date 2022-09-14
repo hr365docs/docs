@@ -27,25 +27,25 @@ $(document).ready(function () {
         
         "<ul>"+
            "<li data-nav-id='./Email-Notification/' title=Users class='sidelist'>"+
-           "<a href='/employee-performance-management/modern/admin/administration/#'>"+
+           "<a href='/employee-performance-management/modern/admin/administration/#users'>"+
           "Users"+
            "</a>"+
           "</li>"+
 
            "<li data-nav-id='./Custom-Emails/' title=Categories class='sidelist'>"+
-               "<a href='/employee-performance-management/modern/admin/administration/#'>"+
+               "<a href='/employee-performance-management/modern/admin/administration/#categories'>"+
               "Categories"+
             "</a>"+
           "</li>"+
 
             "<li data-nav-id='./User/' title=KRA class='sidelist'>"+
-            "<a href='/employee-performance-management/modern/admin/administration/#'>"+
+            "<a href='/employee-performance-management/modern/admin/administration/#kra'>"+
             "KRA(Key Result Area)"+
             "</a>"+
            " </li>"+
 
             "<li data-nav-id='./General-Settings/' title='Role Template' class='sidelist'>"+
-            "<a href='/employee-performance-management/modern/admin/administration/#'>"+
+            "<a href='/employee-performance-management/modern/admin/administration/#role-template'>"+
            " Role Template"+
                    " </a>"+
            " </li>"+
@@ -73,7 +73,7 @@ $(document).ready(function () {
             "</li>"+
           
            " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
-                "<a href='/employee-performance-management/modern/admin/settings/users/'>"+
+                "<a href='/employee-performance-management/modern/admin/settings/#users'>"+
                 "Users"+
                " </a>"+
             "</li>"+
