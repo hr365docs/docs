@@ -71,7 +71,7 @@ $(document).ready(function() {
 //             "</li>");
 
 //             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
-//             "<a class='nav-link text-dark performancelink' href='../employee-performance-management/'>Performance Management Modern</a>"+
+//             "<a class='nav-link text-dark performancelink' href='../employee-performance-management/'>Performance Management</a>"+
 //             "</li>");
 
 //             $(".navbar-nav.ml-auto").append("<li class='nav-item'>"+
