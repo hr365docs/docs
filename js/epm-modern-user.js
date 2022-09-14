@@ -42,7 +42,7 @@ $(document).ready(function () {
 
 
 "<li class='dropdownicon sidelist'>"+
-    "<a class='qwe' href='./feedback/'>"+
+    "<a class='qwe' href='/employee-performance-management/modern/user/feedback/'>"+
         "360 Feedback"+
      "</a>"+ 
     "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
