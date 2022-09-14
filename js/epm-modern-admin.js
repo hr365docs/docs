@@ -26,9 +26,9 @@ $(document).ready(function () {
     "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
         
         "<ul>"+
-           "<li data-nav-id='./Email-Notification/' title=users class='sidelist'>"+
+           "<li data-nav-id='./Email-Notification/' title=Users class='sidelist'>"+
            "<a href='/employee-performance-management/modern/admin/administration/#'>"+
-          "users"+
+          "Users"+
            "</a>"+
           "</li>"+
 
