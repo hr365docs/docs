@@ -51,6 +51,11 @@ $(document).ready(function () {
    
         
     "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
+    "<li data-nav-id='../General' title='Feedback Request'  class=sidelist>"+
+                "<a href='/employee-performance-management/modern/user/feedback/#feedback-request'>"+
+                    "Feedback Request"+
+                  "</a>"+
+            "</li>"+
             "<li data-nav-id='../General' title='Recieved'  class=sidelist>"+
             "<a href='/employee-performance-management/modern/user/feedback/#received'>"+
             "Recieved"+
@@ -69,11 +74,7 @@ $(document).ready(function () {
                   "</a>"+
             "</li>"+
 
-            "<li data-nav-id='../General' title='Feedback Request'  class=sidelist>"+
-                "<a href='/employee-performance-management/modern/user/feedback/#feedback-request'>"+
-                    "Feedback Request"+
-                  "</a>"+
-            "</li>"+
+            
 
     "</ul>"+
 
