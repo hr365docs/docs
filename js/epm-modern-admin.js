@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $("#epm-modern-admin").html("");
+    $("#epmmodernadmin").html("");
 
-    $("#epm-modern-admin").append("<li data-nav-id='./Settings/' title=Introduction class=sidelist>"+
+    $("#epmmodernadmin").append("<li data-nav-id='./Settings/' title=Introduction class=sidelist>"+
 
     "<a href='/employee-performance-management/modern/admin/introduction/'>"+
        " Introduction"+
