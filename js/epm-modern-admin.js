@@ -58,16 +58,16 @@ $(document).ready(function () {
     "<a  class='qwe' href='/employee-performance-management/modern/admin/settings/'>"+
         "Settings"+
     "</a>"+
-    "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmainsetting aside_dropdown_icon_setting active'>"+
+    "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
 "</li>"+
 
 "<li data-nav-id='./Settings/' title=Settings class='sidelist dropdown_romove_dot'>"+
-    "<ul class='sidenavSub-topics aside_dropdown_list_setting active'>"+
+    "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
         
        " <ul>"+
            
            " <li data-nav-id='./General-Settings/' title='General Settings' class='sidelist'>"+
-            "<a href='/employee-performance-management/modern/admin/settings/general/#'>"+
+            "<a href='/employee-performance-management/modern/admin/settings/#general-setting'>"+
            " General Settings"+
             "</a>"+
             "</li>"+
@@ -77,50 +77,21 @@ $(document).ready(function () {
                 "Users"+
                " </a>"+
             "</li>"+
+
             "<li data-nav-id='./Column-Setting/' title=Notification class='sidelist'>"+
-           "<a href='/employee-performance-management/modern/admin/settings/notification/'>"+
+           "<a href='/employee-performance-management/modern/admin/settings/#notification'>"+
            " Notification"+
            "</a>"+
            "</li>"+
 
-
-           " <li class='dropdownicon sidelist'>"+
-                "<a  class='qwe' href='/employee-performance-management/modern/admin/settings/features/'>"+
+           " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
+                "<a href='/employee-performance-management/modern/admin/settings/#features'>"+
                 "Features"+
-                "</a>"+
-                "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIcongeneral aside_dropdown_icon active'>"+
+               " </a>"+
             "</li>"+
 
-            "<li data-nav-id='./Dashboard-Settings/' title=Features class='sidelist dropdown_romove_dot'>"+
-                
 
-                "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
-                    "<li data-nav-id='./Custom-Emails/' title=Ratings class='sidelist'>"+
-                        "<a href='/employee-performance-management/modern/admin/settings/features/#'>"+
-                       " Ratings"+
-                        "</a>"+
-                    "</li>"+
-
-                    "<li data-nav-id='./Custom-Emails/' title='360 Feedback' class='sidelist'>"+
-                        "<a href='/employee-performance-management/modern/admin/settings/features/#'>"+
-                        "360 Feedback"+
-                        "</a>"+
-                    "</li>"+
-
-                    "<li data-nav-id='./Custom-Emails/' title='Rating Verbatim' class='sidelist'>"+
-                        "<a href='/employee-performance-management/modern/admin/settings/features/#'>"+
-                        "Rating Verbatim"+
-                        "</a>"+
-                    "</li>"+
-
-                    "<li data-nav-id='./Custom-Emails/' title='Appraisal Cycle' class='sidelist'>"+
-                        "<a href='/employee-performance-management/modern/admin/settings/features/#'>"+
-                       " Appraisal Cycle"+
-                       " </a>"+
-                    "</li>"+
-               " </ul>"+
-           " </li>"+
-
+       
         "</ul>"+
     "</ul>"+
 
