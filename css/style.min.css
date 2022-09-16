@@ -1467,12 +1467,24 @@ html {
 .common-scroll.active {
     padding-top: 80px;
 }
-.sidensvbarlink{
+/* .sidensvbarlink{
     overflow-y: scroll;
     max-height: calc(100vh - 10px);
     padding-bottom: 50px;
 }
 .edmsidenavadmin{
+    overflow-y: scroll;
+    max-height: calc(100vh - 10px);
+    padding-bottom: 50px;
+} */
+
+#userasidebar{
+    overflow-y: scroll;
+    max-height: calc(100vh - 10px);
+    padding-bottom: 50px;
+}
+
+#asidebar{
     overflow-y: scroll;
     max-height: calc(100vh - 10px);
     padding-bottom: 50px;
