@@ -6,18 +6,27 @@ $(document).ready(function() {
 
 
 
+    // Header Active  js code
+    window.addEventListener("load",()=>{
 
-const links = document.querySelectorAll('nav-link');
     
-if (links.length) {
-  links.forEach((link) => {
-    link.addEventListener('click', (e) => {
-      links.forEach((link) => {
-          link.classList.remove('active');
-      });
-      e.preventDefault();
-      link.classList.add('active');
-    });
-  });
-}
-
+    function getid() {
+        
+        // var koopId = baseUrl.substring(baseUrl.lastIndexOf('#') + 1);
+        
+        let headeritems = document.querySelectorAll(" .navbar-nav li");
+        let headerLinks = document.querySelectorAll(" .navbar-nav a");
+        let headerlinkslenght = headerLinks.length;
+        
+        for (let i = 0; i < headerlinkslenght; i++) {
+            if (window.location.href == headerLinks[i].href) {
+                
+                console.log(headeritems[i])
+                
+                
+            }
+        }
+        
+    }
+    getid()
+})
