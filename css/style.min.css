@@ -1489,3 +1489,10 @@ html {
     max-height: calc(100vh - 120px);
     padding-bottom: 50px;
 }
+
+#asidebar::-webkit-scrollbar-thumb{
+    background-color: green;
+}
+#asidebar::-webkit-scrollbar-track{
+    background-color: #fff;
+}
