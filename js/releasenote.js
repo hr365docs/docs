@@ -1,6 +1,7 @@
 let commonscroll = document.querySelectorAll(".releasenotepadding")
 
-    let dropdowminneritem = document.querySelectorAll(".versiononclick");
+let dropdowminneritem = document.querySelectorAll(".versiononclick");
+    
     dropdowminneritem.forEach((element, index) => {
         element.addEventListener("click", () => {
             for (let i of dropdowminneritem) {
@@ -16,3 +17,6 @@ let commonscroll = document.querySelectorAll(".releasenotepadding")
             commonscroll[index].setAttribute("style", "padding-top:80px!important")
         })
     })
+
+
+    
