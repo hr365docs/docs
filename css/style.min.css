@@ -1480,12 +1480,12 @@ html {
 
 #userasidebar{
     overflow-y: scroll;
-    max-height: calc(100vh - 10px);
+    max-height: calc(100vh - 120px);
     padding-bottom: 50px;
 }
 
 #asidebar{
     overflow-y: scroll;
-    max-height: calc(100vh - 10px);
+    max-height: calc(100vh - 120px);
     padding-bottom: 50px;
 }
