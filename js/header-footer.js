@@ -7,26 +7,12 @@ $(document).ready(function() {
 
 
     // Header Active  js code
-    window.addEventListener("load",()=>{
-
-    
-    function getid() {
-        
-        // var koopId = baseUrl.substring(baseUrl.lastIndexOf('#') + 1);
-        
-        let headeritems = document.querySelectorAll(" .navbar-nav li");
-        let headerLinks = document.querySelectorAll(" .navbar-nav a");
-        let headerlinkslenght = headerLinks.length;
-        
-        for (let i = 0; i < headerlinkslenght; i++) {
-            if (window.location.href == headerLinks[i].href) {
-                
-                console.log(headeritems[i])
-                
-                
+    window.addEventListener("load", () => {
+        let headerItems = document.querySelectorAll(".navbar-nav .nav-item a")
+        for (let i = 0; i < headerItems.length; i++) {
+            if (window.location.href == headerItems[i].href) {
+                headerItems[i].classList.add("active")
             }
+    
         }
-        
-    }
-    getid()
-})
+    })
