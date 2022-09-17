@@ -250,35 +250,8 @@
                                 </p>
 
                         </div>
-                        <div class="bg-light p-4 common-scroll" id="service">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Services
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-
-                                <p>
-                                    Once you create teams, admin can add various services for individual department from settings as shown in below.
-                                </p>
-
-                                <div><img src="serice.png" onclick="openModal('serice.png')" alt="" width="100%" height="auto"></div>
-
-
-                        </div>
-                        <div class="bg-light p-4 common-scroll" id="sub-service">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Sub Service
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-
-                                <p>
-                                    From here you can create, edit and delete sub services. You can create the sub service based on service ticket.
-                                </p>
-
-
-                                <div><img src="sub-serice.png" onclick="openModal('sub-serice.png')" alt="" width="100%" height="auto"></div>
-                        </div>
+                      
+                       
                         <div class="bg-light p-4 common-scroll" id="ticket-field">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Ticket Field
@@ -302,7 +275,7 @@
 
 
 
-                                <div><img src="fields.png" onclick="openModal('fields.png')" alt="" width="100%" height="auto"></div>
+                                <div><img src="ticket_sq.png" onclick="openModal('ticket_sq.png')" alt="" width="100%" height="auto"></div>
                         </div>
                         <div class="bg-light p-4 common-scroll" id=ticket-sequence>
                             <ul class=page-list>
@@ -314,15 +287,15 @@
                                     From here you can provide <b>Ticket Name</b> and <b>Ticket Prefix</b>.
                                 </p>
 
-                                <div><img src="sequence.png" onclick="openModal('sequence.png')" alt="" width="100%" height="auto"></div>
+                                <div><img src="ticket_sequence.png" onclick="openModal('ticket_sequence.png')" alt="" width="100%" height="auto"></div>
                                 <br>
                                 <p>
-                                    If ticket name is TID and ticket prefix is 100, the ticket ID would be TID#100XXXX.
+                                    If ticket name is SR and ticket prefix is 1, the ticket ID would be SR#100XXXX.
                                 </p>
 
 
 
-                                <div><img src="ticket_sequence.png" onclick="openModal('ticket_sequence.png')" alt="" width="100%" height="auto"></div>
+                                <div><img src="Ticket_sq_id.png" onclick="openModal('Ticket_sq_id.png')" alt="" width="100%" height="auto"></div>
 
 
                                 <div class="notices note">
@@ -335,18 +308,341 @@
 
 
                         </div>
-                        <div class="bg-light p-4 common-scroll" id="recycle-bin">
+                        <div class="bg-light p-4 common-scroll" id="merge-tickets">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Recycle Bin
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Merge Tickets
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    Admin can enable the toggle switch for merging the tickets. From here, the ticket
+                                    which you are merging will update as closed. Data of the closed ticket will
+                                    automatically transfer into the entered ticket id.
+                                </p>
+                                <div><img src="merge_ticket.png" onclick="openModal('merge_ticket.png')" alt="" width="100%"
+                                        height="auto"></div>
+                                <br>
+
+                                <p>To merge the tickets, follow the steps:</p>
+                                <ol>
+                                    <li>
+                                        <p>Go to home page and click the <b>Ticket ID</b> to open the comment page.</p>
+                                    </li>
+
+                                    <li>
+                                        <p>On the comment page, click the <b>Merge</b> button, which displays a pop-up.
+                                        </p>
+                                        <div><img src="merge.png" onclick="openModal('merge.png')" alt=""
+                                                width="100%" height="auto"></div>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <p>Click the <b>Yes</b> button, which displays merge to pop-up.</p>
+                                        <div><img src="merge_yes.png" onclick="openModal('merge_yes.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <p>Enter the <b>Ticket ID</b> to merge into.</p>
+                                        <div><img src="merged.png" onclick="openModal('merged.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <p> Click the <b>Merge</b> button.</p>
+                                        <div><img src="click_merge.png" onclick="openModal('click_merge.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                    </li>
+                                </ol>
+
+
+                        </div>
+                        <div class="bg-light p-4 common-scroll" id="split-tickets">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Split Tickets
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    Admin can enable the toggle switch for split tickets.
+                                </p>
+                                <div><img src="split_ticket.png" onclick="openModal('split_ticket.png')" alt="" width="100%"
+                                        height="auto"></div>
+                                <br>
+                                <p>To split the ticket, follow the steps:</p>
+                                <ol>
+                                    <li>
+                                        <p>Go to home page and click the <b>Ticket ID</b> to open the comment page.</p>
+                                    </li>
+
+                                    <li>
+                                        <p>On the comment page, click the <b>Split</b> button, which displays a pop-up.
+                                        </p>
+                                        <div><img src="split_icon.png" onclick="openModal('split_icon.png')" alt=""
+                                                width="100%" height="auto"></div>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <p>Click the <b>Yes</b> button, which displays <b>Ticket Split</b> to pop-up.
+                                        </p>
+                                        <div><img src="split_yes.png" onclick="openModal('split_yes.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <p>Enter <b>New Ticket Title</b> and comments, select <b>Teams</b> and
+                                            <b>Services</b> to merge into.
+                                        </p>
+                                        <div><img src="split_title.png" onclick="openModal('split_title.png')" alt=""
+                                                width="100%" height="auto"></div>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <p> Click the <b>Split</b> button.</p>
+                                       
+                                    </li>
+                                </ol>
+
+                        </div>
+                        <div class="bg-light p-4 common-scroll" id="review-tickets">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Review Tickets
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    Admin can enable the toggle switch for review ticket.
+                                </p>
+                                <div><img src="review_ticket.png" onclick="openModal('review_ticket.png')" alt="" width="100%"
+                                        height="auto"></div>
+                                <br>
+                                <p>To review the tickets, follow the steps:</p>
+                                <ol>
+                                    <li>
+                                        <p>Go to home page and click the <b>Ticket ID</b> to open the comment page.
+                                            <div><img src="review_tick.png" onclick="openModal('review_tick.png')" alt=""
+                                                width="100%" height="auto"></div></p>
+                                    </li>
+
+                                    <li>
+                                        <p> On comment page, click the <b>Review</b> button, this displays wordpad to
+                                            write the comments.</p>
+
+                                     
+                                        <br>
+                                        <div><img src="review_btn.png" onclick="openModal('review_btn.png')"
+                                                alt="" width="100%" height="auto"></div>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <p> Select Teams Members with whom you want the share the review.</p>
+                                    </li>
+
+                                    <li>
+                                        <p> Click the <b>Review</b> button.</p>
+
+                                    </li>
+
+                                </ol>
+
+                        </div>
+                        <div class="bg-light p-4 common-scroll" id="escalate-tickets">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Escalate Tickets
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
                                 <p>
-                                    The deleted tickets will display in recycle bin, the admin can restore them or delete them permanently.
+                                    From here, you can escalate any issue if the ticket is not resolved within a
+                                    specific time interval.
                                 </p>
 
-                                <div><img src="bin.png" onclick="openModal('bin.png')" alt="" width="100%" height="auto"></div>
+                                <p>
+                                    To esalate the issue, follow the steps:
+                                </p>
+
+                                <ol>
+                                    <li>
+                                        <p>Go to home page and click the <b>Ticket ID</b> to open the comment page.</p>
+                                    </li>
+
+                                    <li>
+                                        <p> On comment page, click the <b>Escalate</b> button, this displays wordpad to
+                                            write the comments.</p>
+
+                                     
+                                        <br>
+                                        <div><img src="new_esc_team.png" onclick="openModal('new_esc_team.png')" alt=""
+                                                width="100%" height="auto"></div>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <p> Select <b>Escalation Teams</b> and <b> Escalation Teams Members</b>.</p>
+                                        <div><img src="add_esc_team.png" onclick="openModal('add_esc_team.png')" alt=""
+                                            width="100%" height="auto"></div>
+                                    </li>
+
+                                    <li>
+                                        <p> Click the <b>Escalate</b> button.
+                                            <div><img src="esc_submit.png" onclick="openModal('esc_submit.png')" alt=""
+                                                width="100%" height="auto"></div>
+                                        </p>
+
+                                   </li>
+                                  </ol>
+                        </div>
+                        <div class="bg-light p-4 common-scroll" id="ticket-suffix">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Use Teams Code as
+                                        Ticket Suffix
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    Admin can enable the toggle switch for Use Teams code as ticket suffix.
+                                </p>
+                                <div><img src="ticket_suffix.png" onclick="openModal('ticket_suffix.png')" alt="" width="100%"
+                                        height="auto"></div>
+
+
+                        </div>
+                        <div class="bg-light p-4 common-scroll" id="create-ticket">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Create Ticket
+                                        Automatically
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+
+                                <p>
+                                    If this is enabled the request sent by users from the helpdesk email ID will be
+                                    directly considered as a ticket and will display in the unassigned tab of the home
+                                    page. If this is disabled, the raised request will display in Ticket Mailbox from
+                                    where
+                                    you can create or can delete it.
+                                </p>
+
+                                <div><img src="ticket_automatic.png" onclick="openModal('ticket_automatic.png')" alt="" width="100%"
+                                        height="auto"></div>
+
+
+                        </div>
+                        <div class="bg-light p-4 common-scroll" id="auto-close">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Auto Close Tickets
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+
+                                <p> If you enable this feature, resolved tickets close automatically at a specified time
+                                    (ticket status changes from resolved to closed). Once the ticket is resolved and
+                                    there is no action on the ticket (no comments or modification)
+                                    within the specified time, the ticket closes automatically else the ticket remains
+                                    resolved. This feature works on power automate, please contact HR365 to configure
+                                    it.</p>
+                                <div><img src="auto_close_ticket.png" onclick="openModal('auto_close_ticket.png')"
+                                        alt="" width="100%" height="auto"></div>
+
+
+                        </div>
+                        <div class="bg-light p-4 common-scroll" id="auto-assign">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Auto Assign Tickets
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
                                 <br>
+
+                                <b>Auto Assign Tickets</b>: If you enable this feature ticket gets assigned to the
+                                agents automatically.
+                                <br>
+                                <br>
+                                <b>Allow agents to set their availability</b>: If this is enabled the control will
+                                visible in the settings to the agents from which they can diable it. Tickets will not
+                                get assigned to that agent until they enable it.
+                                <br><br> There are two types of auto assign tickets method, you can select either one.
+                                <br><br>
+                                <b> Round Robin</b>: Assign tickets to the agent in a circular fashion.
+                                <br><br>
+                                <b>Weighted Round Robin</b>: Assign the tickets to the agents who have the least
+                                tickets. Further, select the next agent with the least ticket, also it won't assign
+                                simultaneously two tickets to the same person.
+
+                                <br><br>
+                                <div><img src="auto_assign_ticket.png" onclick="openModal('auto_assign_ticket.png')"
+                                        alt="" width="100%" height="auto"></div>
+
+
+                        </div>
+                        <div class="bg-light p-4 common-scroll" id="sub-tickets">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Sub Tickets
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    From here, you can create a sub ticket from a ticket. By default sub tickets are
+                                    disabled, you can enable it by clicking <b>Enable sub ticket</b> toggle switch. You
+                                    can <b>Assign Sub Ticket</b> by checking the <b>Teams</b> and/or <b>Teams
+                                        Members</b> check box and clicking on the <b>Save</b> button as shown below.
+
+                                </p>
+
+                                <div><img src="enable_sub_tic.png" onclick="openModal('enable_sub_tic.png')" alt="" width="100%"
+                                        height="auto"></div>
+
+                                <p>
+                                    The <b>Sub Ticket</b> option will be displayed on the comment page as shown below.
+                                </p>
+
+                                <div><img src="sub_ticket_icon.png" onclick="openModal('sub_ticket_icon.png')" alt="" width="100%"
+                                        height="auto"></div>
+
+                                <p>
+                                    To create sub tickets, follow the below steps:
+                                </p>
+                                <div class="notices note">
+                                    <div class="paragraph">
+                                        <p>You can create multiple sub tickets from a main ticket.</p>
+                                    </div>
+                                </div>
+                                <ol>
+                                    <li>
+                                        <p>
+                                            Go to the comment page, click the <b>Sub Ticket</b> option.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            Select <b>Yes</b> in a dialog box, this displays the <b>Sub Ticket</b> page.
+                                        </p>
+
+                                        <div><img src="sub_ticket_yes.png" onclick="openModal('sub_ticket_yes.png')" alt="" width="100%"
+                                                height="auto"></div>
+
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            Enter <b>Sub Ticket Title</b> and <b>Comments</b>.
+                                        </p>
+
+                                        <div><img src="sub_ticket_dialog.png" onclick="openModal('sub_ticket_dialog.png')" alt=""
+                                                width="100%" height="auto"></div>
+
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            Sub ticket created and displayed on home page.
+                                        </p>
+
+                                        <div><img src="sub_tick_home.png" onclick="openModal('sub_tick_home.png')" alt="" width="100%"
+                                                height="auto"></div>
+                                        <!-- <br>
+                                            <br><br>
+                                            <div><img src="sub_slip.png" onclick="openModal('sub_slip.png')" alt="" width="100%"
+                                                height="auto"></div> -->
+
+                                    </li>
+                                </ol>
+
+
 
 
                         </div>
