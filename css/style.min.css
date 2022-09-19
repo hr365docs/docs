@@ -1491,16 +1491,22 @@ html {
         }
     }
 
-    @media (min-width: 1000px) and (max-width: 1500px) {
+    section .container{
+        max-width: 100%!important;
+        padding-left: 30px;
+            padding-right: 30px;
+    }
+    
+    /* @media (min-width: 320px) and (max-width: 1500px) {
 
-        .container{
-            max-width: 1350px !important;
+        section .container{
+            max-width: 100%;
             padding-left: 30px;
             padding-right: 30px;
         }
-    }
+    } */
 
-    
+
     @media(min-width:1200px) {
         .ui-menu {
             max-width: 730px !important
