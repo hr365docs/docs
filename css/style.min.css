@@ -1484,6 +1484,16 @@ html {
     padding-bottom: 50px;
 }
 
+#userasidebar::-webkit-scrollbar-thumb{
+    background-color: #cfcbca;
+}
+#userasidebar::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+#userasidebar::-webkit-scrollbar {
+    width: 7px;
+}
+
 #asidebar{
     overflow-y: scroll;
     max-height: calc(100vh - 120px);
@@ -1491,11 +1501,11 @@ html {
 }
 
 #asidebar::-webkit-scrollbar-thumb{
-    background-color: green;
+    background-color: #cfcbca;
 }
 #asidebar::-webkit-scrollbar-track{
     background-color: #fff;
 }
 #asidebar::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
 }
