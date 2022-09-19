@@ -1507,7 +1507,7 @@ html {
     } */
 @media (min-width: 988px) and (max-width: 1200px) {
     .headerstyle{
-        column-gap: 7px;
+        column-gap: 7px !important;
     }
 }
 
