@@ -1491,10 +1491,10 @@ html {
         }
     }
 
-    @media (min-width: 1000px) and (max-width: 1084px) {
+    @media (min-width: 1000px) and (max-width: 1330) {
 
         .container{
-            max-width: 1150px !important;
+            max-width: 1250px !important;
         }
     }
 
