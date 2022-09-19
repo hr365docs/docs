@@ -1496,3 +1496,6 @@ html {
 #asidebar::-webkit-scrollbar-track{
     background-color: #fff;
 }
+#asidebar::-webkit-scrollbar {
+    width: 10px;
+}
