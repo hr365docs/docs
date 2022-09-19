@@ -1491,7 +1491,7 @@ html {
         }
     }
 
-    @media (min-width: 1000px) and (max-width: 1330) {
+    @media (min-width: 1000px) and (max-width: 1330px) {
 
         .container{
             max-width: 1250px !important;
