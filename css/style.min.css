@@ -1496,7 +1496,7 @@ html {
         padding-left: 30px;
             padding-right: 30px;
     }
-    
+
     /* @media (min-width: 320px) and (max-width: 1500px) {
 
         section .container{
@@ -1505,7 +1505,11 @@ html {
             padding-right: 30px;
         }
     } */
-
+@media (min-width: 988px) and (max-width: 1200px) {
+    .headerstyle{
+        column-gap: 7px;
+    }
+}
 
     @media(min-width:1200px) {
         .ui-menu {
