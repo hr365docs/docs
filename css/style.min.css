@@ -1491,10 +1491,12 @@ html {
         }
     }
 
-    @media (min-width: 1000px) and (max-width: 1084px) {
+    @media (min-width: 1000px) and (max-width: 1500px) {
 
         .container{
-            max-width: 1150px;
+            max-width: 1350px !important;
+            padding-left: 30px;
+            padding-right: 30px;
         }
     }
 
