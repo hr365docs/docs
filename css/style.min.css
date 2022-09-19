@@ -1511,14 +1511,14 @@ html {
     }
 }
 
-    @media(min-width:1200px) {
+@media(min-width:1200px) {
         .ui-menu {
             max-width: 730px !important
         }
         .header-width {
             max-width: 90%;
         }
-    }
+}
    
 
 
