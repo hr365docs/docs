@@ -1491,6 +1491,13 @@ html {
         }
     }
 
+    @media (min-width: 1000px) and (max-width: 1084px) {
+
+        .container{
+            max-width: 1150px;
+        }
+    }
+
     @media(min-width:1200px) {
         .ui-menu {
             max-width: 730px !important
