@@ -10,7 +10,7 @@ $(document).ready(function() {
     window.addEventListener("load", () => {
         let headerItems = document.querySelectorAll(".navbar-nav .nav-item a")
         for (let i = 0; i < headerItems.length; i++) {
-            if (window.location.href == headerItems[i].href) {
+            if (window.location.pathname.split('/')[1] == headerItems[i].pathname.split('/')[1]) {
                 headerItems[i].classList.add("active")
             }
     
