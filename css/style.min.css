@@ -1500,6 +1500,7 @@ html {
         }
     }
 
+    
     @media(min-width:1200px) {
         .ui-menu {
             max-width: 730px !important
