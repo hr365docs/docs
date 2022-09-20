@@ -1319,18 +1319,8 @@ html {
 .common-scroll.active {
     padding-top: 80px;
 }
-/* .sidensvbarlink{
-    overflow-y: scroll;
-    max-height: calc(100vh - 10px);
-    padding-bottom: 50px;
-}
-.edmsidenavadmin{
-    overflow-y: scroll;
-    max-height: calc(100vh - 10px);
-    padding-bottom: 50px;
-} */
 
-#userasidebar{
+/* #userasidebar{
     overflow-y: scroll;
     max-height: calc(100vh - 120px);
     padding-bottom: 50px;
@@ -1344,27 +1334,54 @@ html {
 }
 #userasidebar::-webkit-scrollbar {
     width: 7px;
-}
+} */
 
-#asidebar{
+.sidenavbarscrollstyle{
     overflow-y: scroll;
     max-height: calc(100vh - 120px);
     padding-bottom: 50px;
 }
 
-#asidebar::-webkit-scrollbar-thumb{
+.sidenavbarscrollstyle::-webkit-scrollbar-thumb{
     background-color: #cfcbca;
 }
-#asidebar::-webkit-scrollbar-track{
+.sidenavbarscrollstyle::-webkit-scrollbar-track{
     background-color: #fff;
 }
-#asidebar::-webkit-scrollbar {
+.sidenavbarscrollstyle::-webkit-scrollbar {
     width: 7px;
 }
 
+section .container{
+    max-width: 100%!important;
+    padding-left: 30px;
+        padding-right: 30px;
+}
 
 /* Media queries start */
 
+@media (min-width: 902px) {
+    .header-width {
+        max-width: 90%;
+    }
+    .navbar .nav-item .nav-link {
+        padding: 15px 5px !important;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .header-width {
+        max-width: 85%;
+    }
+    .navbar .nav-item .nav-link {
+        padding: 15px 8px !important;
+        font-size: 13px;
+    }
+    .ui-menu {
+        max-width: 610px !important
+    }
+}
 @media screen and (max-width: 991px) {
     .blog_docs #content {
         width: 100% !important;
@@ -1448,6 +1465,9 @@ html {
         .ui-menu {
             width: calc(100% - 30px) !important
         }
+        .mbHeading{
+            font-size: 25px;
+        }
     }
 
     @media(min-width:576px) {
@@ -1466,48 +1486,24 @@ html {
         .banner .navbar-brand {
             width: 35% !important;
         }
+       
     }
 
-    @media (min-width: 902px) {
-        .header-width {
-            max-width: 90%;
-        }
-        .navbar .nav-item .nav-link {
-            padding: 15px 5px !important;
-            font-size: 14px;
-        }
+
+@media (min-width: 988px) and (max-width: 1200px) {
+    .headerstyle{
+        column-gap: 2px !important;
     }
+}
 
-    @media (min-width: 992px) {
-        .header-width {
-            max-width: 85%;
-        }
-        .navbar .nav-item .nav-link {
-            padding: 15px 8px !important;
-            font-size: 13px;
-        }
-        .ui-menu {
-            max-width: 610px !important
-        }
-    }
-
-    @media (min-width: 1000px) and (max-width: 1500px) {
-
-        .container{
-            max-width: 1350px !important;
-            padding-left: 30px;
-            padding-right: 30px;
-        }
-    }
-
-    @media(min-width:1200px) {
+@media(min-width:1200px) {
         .ui-menu {
             max-width: 730px !important
         }
         .header-width {
             max-width: 90%;
         }
-    }
+}
    
 
 

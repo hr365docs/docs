@@ -87,4 +87,34 @@ window.addEventListener("load", () => {
 
 
    
+
+    // Header Active  js code
+    
+        
+        let asidedropdowns = document.querySelectorAll(".aside_dropdown_list")
+        
+
+        for (let i = 0; i < asidedropdowns.length; i++) {
+        console.log(asidedropdowns[i])
+            // if (window.location.pathname.split('/')[1] == headerItems[i].pathname.split('/')[1]) {
+            //     if(document.querySelector("header.shadow-bottom.sticky-top.bg-white")){
+            //         headerItems[i].classList.add("active-dark")
+            //     }
+            //     else{
+            //         headerItems[i].classList.add("active")
+            //     }
+            // }
+    
+        }
+    
+
+
+
+
+
+
+
+
+
+
 })
