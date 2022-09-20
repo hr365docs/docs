@@ -1468,6 +1468,10 @@ section .container{
         .mbHeading{
             font-size: 25px;
         }
+
+        .mobgetstarted{
+            font-size: 18px;
+        }
     }
 
     @media(min-width:576px) {
