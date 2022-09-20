@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $("#tmpclassicadmin").html("");
+    $("#id="tmpclassicadmin" class="sidenavbarscrollstyle"").html("");
 
-    $("#tmpclassicadmin").append("<ul>"+
+    $("#id="tmpclassicadmin" class="sidenavbarscrollstyle"").append("<ul>"+
         "<li data-nav-id='../Introduction' title=Introduction class='sidelist'>"+
         "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/introduction/'>"+
         "Introduction"+
