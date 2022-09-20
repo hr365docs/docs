@@ -1319,18 +1319,8 @@ html {
 .common-scroll.active {
     padding-top: 80px;
 }
-/* .sidensvbarlink{
-    overflow-y: scroll;
-    max-height: calc(100vh - 10px);
-    padding-bottom: 50px;
-}
-.edmsidenavadmin{
-    overflow-y: scroll;
-    max-height: calc(100vh - 10px);
-    padding-bottom: 50px;
-} */
 
-#userasidebar{
+/* #userasidebar{
     overflow-y: scroll;
     max-height: calc(100vh - 120px);
     padding-bottom: 50px;
@@ -1344,21 +1334,21 @@ html {
 }
 #userasidebar::-webkit-scrollbar {
     width: 7px;
-}
+} */
 
-#asidebar{
+.sidenavbarscrollstyle{
     overflow-y: scroll;
     max-height: calc(100vh - 120px);
     padding-bottom: 50px;
 }
 
-#asidebar::-webkit-scrollbar-thumb{
+.sidenavbarscrollstyle::-webkit-scrollbar-thumb{
     background-color: #cfcbca;
 }
-#asidebar::-webkit-scrollbar-track{
+.sidenavbarscrollstyle::-webkit-scrollbar-track{
     background-color: #fff;
 }
-#asidebar::-webkit-scrollbar {
+.sidenavbarscrollstyle::-webkit-scrollbar {
     width: 7px;
 }
 
