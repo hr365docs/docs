@@ -13,12 +13,15 @@ window.addEventListener("load", () => {
                 if (koopId == getid[i].id) {
                     let id = getid[i];
                     id.classList.add("active")
+                    // console.log(id,"SAdasdasd")
+                    // console.log(id.setAttribute("style", `height:100%;opacity: 1;`))
                     id.setAttribute("style", "padding-top:80px!important");
-                    console.log(koopId)
+                    // console.log(koopId,"sdasd")
                 }
             }
             if (getid[0].baseURI == getancher[i].href) {
                 getancher[i].parentNode.classList.add("active")
+                console.log(getancher[i].parentElement)
                     // console.log(getid[0].baseURI)
             }
         }
@@ -88,24 +91,24 @@ window.addEventListener("load", () => {
 
    
 
-    // Header Active  js code
+    // // Header Active  js code
     
         
-        let asidedropdowns = document.querySelectorAll(".aside_dropdown_list")
+    //     let asidedropdowns = document.querySelectorAll(".aside_dropdown_list")
         
 
-        for (let i = 0; i < asidedropdowns.length; i++) {
-        console.log(asidedropdowns[i])
-            // if (window.location.pathname.split('/')[1] == headerItems[i].pathname.split('/')[1]) {
-            //     if(document.querySelector("header.shadow-bottom.sticky-top.bg-white")){
-            //         headerItems[i].classList.add("active-dark")
-            //     }
-            //     else{
-            //         headerItems[i].classList.add("active")
-            //     }
-            // }
+    //     for (let i = 0; i < asidedropdowns.length; i++) {
+    //     console.log(asidedropdowns[i])
+    //         // if (window.location.pathname.split('/')[1] == headerItems[i].pathname.split('/')[1]) {
+    //         //     if(document.querySelector("header.shadow-bottom.sticky-top.bg-white")){
+    //         //         headerItems[i].classList.add("active-dark")
+    //         //     }
+    //         //     else{
+    //         //         headerItems[i].classList.add("active")
+    //         //     }
+    //         // }
     
-        }
+    //     }
     
 
 
