@@ -1472,6 +1472,13 @@ section .container{
         .mobgetstarted{
             font-size: 18px;
         }
+        .mobfontsize{
+            font-size: 13px;
+        }
+
+        .mobdisplay{
+            display: flex;
+        }
     }
 
     @media(min-width:576px) {
