@@ -1531,7 +1531,10 @@ section .container{
    
 
 
-.sidelist.active+li ul{
+.sidelist.active + li ul{
     display: block;
+    height: initial;
+    overflow: visible;
+    opacity: 1;
 }
 
