@@ -1462,6 +1462,10 @@ section .container{
 
 
     @media(max-width:575px) {
+
+        .mobgap{
+            gap: 50px;
+        }
         .ui-menu {
             width: calc(100% - 30px) !important
         }
