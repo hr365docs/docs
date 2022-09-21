@@ -1531,3 +1531,7 @@ section .container{
    
 
 
+.sidelist.active+li ul{
+    display: block;
+}
+

@@ -31,7 +31,7 @@ $(document).ready(function() {
         // "<img src='./down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
         // "</div>" +
 
-        "<ul class='sidenavSub-topics aside_dropdown_list_setting'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list_setting' value='settings'>" +
 
         "<ul id='modernadminmainsetting'>" +
         "<li class='dropdownicon sidelist'>"+
