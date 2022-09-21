@@ -1462,22 +1462,34 @@ section .container{
 
 
     @media(max-width:575px) {
+
+        .mobgap{
+            gap: 50px;
+        }
         .ui-menu {
             width: calc(100% - 30px) !important
         }
         .mbHeading{
             font-size: 25px;
         }
-
+        .mbfaq{
+            font-size: 22px;
+        }
         .mobgetstarted{
             font-size: 18px;
         }
         .mobfontsize{
-            font-size: 13px;
+            font-size: 20px;
         }
-
+        .logoIcon {
+            width: 15%;
+        }
         .mobdisplay{
             display: flex;
+        }
+
+        .moblogo{
+            width: 15%;
         }
     }
 
@@ -1488,6 +1500,7 @@ section .container{
     }
 
     @media (max-width:480px) {
+       
         .blog_wrap .tags {
             width: 100%;
         }
@@ -1516,5 +1529,6 @@ section .container{
         }
 }
    
+
 
 
