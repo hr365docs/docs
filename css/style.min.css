@@ -1472,7 +1472,9 @@ section .container{
         .mbHeading{
             font-size: 25px;
         }
-
+        .mbfaq{
+            font-size: 22px;
+        }
         .mobgetstarted{
             font-size: 18px;
         }
