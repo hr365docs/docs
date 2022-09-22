@@ -81,6 +81,7 @@ window.addEventListener("load", () => {
         })
     })
 
+    
     // Setting open dropdown js code
     if (document.querySelector(".aside_dropdown_icon_setting")) {
         let dropdownsetting = document.querySelector(".aside_dropdown_icon_setting");
