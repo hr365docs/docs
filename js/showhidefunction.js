@@ -35,6 +35,7 @@ window.addEventListener("load", () => {
         let dropdowminneritem = i.querySelectorAll(".aside_dropdown_list li");
         dropdowminneritem.forEach((element, index) => {
             element.addEventListener("click", () => {
+              
                 for (let i of dropdowminneritem) {
                     i.classList.remove("active")
                     for (let j of commonscroll) {
@@ -60,16 +61,19 @@ window.addEventListener("load", () => {
             let dropdowmlistactive = document.querySelector(".aside_dropdown_list.active")
             if (element.classList.contains("active")) {
                 element.classList.remove("active");
+                localStorage.setItem("Dropdownstate","Close")
                 dropdowmlistactive.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
             } else {
                 for (let i of dropdowmitems) {
                     i.classList.remove("active");
+                   
                 }
                 for (let j of dropdowmlist) {
                     j.classList.remove("active");
                     j.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
                 }
                 element.classList.add("active");
+                localStorage.setItem("Dropdownstate",dropdowmlist[index])
                 dropdowmlist[index].classList.add("active")
                 dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity: 1;`)
                 
