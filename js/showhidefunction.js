@@ -50,7 +50,17 @@ window.addEventListener("load", () => {
         })
     }
 
-
+    // Onload Open dropdown js code\
+    // let baseURI=window.location.pathname;
+    
+    // for(let i=0; i<dropdowmperent.length; i++){
+        
+    //     if(baseURI==dropdowmperent[i].getAttribute("value")){
+    //         dropdowmperent[i].classList.add("active")
+    //         dropdowmperent[i].setAttribute("style", "height:initial;opacity: 1;")
+    //     }
+            
+    // }
     // Dropdown js Code
     let dropdowmitems = document.querySelectorAll(".aside_dropdown_icon");
     let dropdowmlist = document.querySelectorAll(".aside_dropdown_list");
@@ -61,7 +71,7 @@ window.addEventListener("load", () => {
             let dropdowmlistactive = document.querySelector(".aside_dropdown_list.active")
             if (element.classList.contains("active")) {
                 element.classList.remove("active");
-                localStorage.setItem("Dropdownstate","Close")
+                
                 dropdowmlistactive.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
             } else {
                 for (let i of dropdowmitems) {
@@ -72,6 +82,7 @@ window.addEventListener("load", () => {
                     j.classList.remove("active");
                     j.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
                 }
+              
                 element.classList.add("active");
                 localStorage.setItem("Dropdownstate",dropdowmlist[index])
                 dropdowmlist[index].classList.add("active")
@@ -81,7 +92,7 @@ window.addEventListener("load", () => {
         })
     })
 
-    
+
     // Setting open dropdown js code
     if (document.querySelector(".aside_dropdown_icon_setting")) {
         let dropdownsetting = document.querySelector(".aside_dropdown_icon_setting");

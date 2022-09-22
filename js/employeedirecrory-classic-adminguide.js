@@ -32,7 +32,7 @@ $(document).ready(function() {
 
         "</li>" +
         "<li class='setting_side_nav_bar '>" +
-        "<ul id='settingsadmin' class='aside_dropdown_list'>" +
+        "<ul id='settingsadmin' class='aside_dropdown_list' value='/sharepoint-employee-directory/classic/admin/'>" +
         "<li data-nav-id='../General' title=General class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/classic/admin/settings/#generalsetting'>" +
         "General" +
