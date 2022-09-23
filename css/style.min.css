@@ -1358,6 +1358,11 @@ section .container{
         padding-right: 30px;
 }
 
+.mobdisplay{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
 /* Media queries start */
 
 @media (min-width: 902px) {
