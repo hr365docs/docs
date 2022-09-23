@@ -1518,6 +1518,12 @@ section .container{
        
     }
 
+    @media (min-width:877px) and (max-width:1024px){
+    
+        .mobdisplay{
+            column-gap: 30px !important;
+        }
+    }
 
 @media (min-width: 988px) and (max-width: 1200px) {
     .headerstyle{
@@ -1533,6 +1539,8 @@ section .container{
             max-width: 90%;
         }
 }
+
+
    
 
 
