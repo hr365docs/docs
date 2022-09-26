@@ -1567,6 +1567,12 @@ align-items: center;
         }
     }
 
+    @media (min-width:1024px) and (max-width:1230px){
+        .epmmobdisplay{
+            column-gap: 20px;
+        }
+    }
+
 @media (min-width: 988px) and (max-width: 1200px) {
     .headerstyle{
         column-gap: 2px !important;
