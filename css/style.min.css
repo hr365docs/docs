@@ -1363,6 +1363,11 @@ section .container{
     justify-content: center;
     column-gap: 15px;
 }
+.epmmobdisplay{
+display: flex;
+column-gap: 3px;
+align-items: center;
+}
 /* Media queries start */
 
 @media (max-width:1025px){
@@ -1372,6 +1377,10 @@ section .container{
     }
     .mobgetstarted{
         font-size: 21px;
+    }
+
+    .supportHeading{
+        font-size: 38px;
     }
 }
 
@@ -1488,6 +1497,9 @@ section .container{
 
     @media(max-width:575px) {
 
+        .epmmobfontsize{
+            font-size: 16px;
+        }
         .supportHeading{
             font-size: 20px;
         }
