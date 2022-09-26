@@ -1361,7 +1361,7 @@ section .container{
 .mobdisplay{
     display: flex;
     justify-content: center;
-    column-gap: 15px;
+    /* column-gap: 15px; */
 }
 /* Media queries start */
 
