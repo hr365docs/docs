@@ -1432,7 +1432,7 @@ align-items: center;
 
 @media (max-width:820px){
     .epmmobdisplay{
-        column-gap: 30px !important;
+        column-gap: 30px;
     }
 }
 
@@ -1509,7 +1509,7 @@ align-items: center;
     @media(max-width:575px) {
 
         .epmmobdisplay{
-            column-gap: 3px !important;
+            column-gap: 3px;
         }
         .epmmobfontsize{
             font-size: 16px;
