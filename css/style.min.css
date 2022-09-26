@@ -1498,6 +1498,10 @@ section .container{
             font-size: 17px;
             /* font-size: 25px; */
         }
+        .faqmbHeading{
+            font-size: 24px;
+        }
+
         .mbfaq{
             font-size: 22px;
         }
