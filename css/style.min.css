@@ -1507,6 +1507,9 @@ align-items: center;
 
     @media(max-width:575px) {
 
+        .epmmobdisplay{
+            column-gap: 3px !important;
+        }
         .epmmobfontsize{
             font-size: 16px;
         }
