@@ -1367,11 +1367,13 @@ section .container{
 display: flex;
 column-gap: 3px;
 align-items: center;
+justify-content: center;
 }
 
 .obmgapclass{
     column-gap: 22px;
     display: flex;
+    justify-content: center;
 }
 /* Media queries start */
 
