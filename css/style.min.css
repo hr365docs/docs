@@ -1358,6 +1358,12 @@ section .container{
         padding-right: 30px;
 }
 
+.tmpmobdisplay{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
 .mobdisplay{
     display: flex;
     justify-content: center;
