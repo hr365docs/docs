@@ -1560,6 +1560,12 @@ align-items: center;
        
     }
 
+    @media (min-width:1024px) and (max-width:1230px){
+        .epmmobdisplay{
+            column-gap: 20px !important;
+        }
+    }
+
     @media (min-width:877px) and (max-width:1024px){
     
         .mobdisplay{
@@ -1567,11 +1573,7 @@ align-items: center;
         }
     }
 
-    @media (min-width:1024px) and (max-width:1230px){
-        .epmmobdisplay{
-            column-gap: 20px !important;
-        }
-    }
+    
 
 @media (min-width: 988px) and (max-width: 1200px) {
     .headerstyle{
