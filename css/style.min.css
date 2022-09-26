@@ -1427,7 +1427,7 @@ align-items: center;
 
 @media (max-width:820px){
     .epmmobdisplay{
-        column-gap: 30px;
+        column-gap: 30px !important;
     }
 }
 
