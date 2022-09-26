@@ -1371,6 +1371,7 @@ align-items: center;
 
 .obmgapclass{
     column-gap: 22px;
+    display: flex;
 }
 /* Media queries start */
 
