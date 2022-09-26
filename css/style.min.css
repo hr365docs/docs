@@ -1425,6 +1425,12 @@ align-items: center;
     }
 }
 
+@media (max-width:820px){
+    .epmmobdisplay{
+        column-gap: 30px;
+    }
+}
+
     @media(max-width:768px) {
 
         .navbar .navbar-brand {
