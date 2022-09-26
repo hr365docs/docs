@@ -1488,6 +1488,9 @@ section .container{
 
     @media(max-width:575px) {
 
+        .supportHeading{
+            font-size: 20px;
+        }
         .mobgap{
             gap: 50px;
         }
