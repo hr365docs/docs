@@ -1367,10 +1367,12 @@ section .container{
 
 @media (max-width:1025px){
     .mbHeading{
-        font-size: 38px;
+        font-size: 35px;
         /* font-size: 25px; */
     }
-    
+    .mobgetstarted{
+        font-size: 21px;
+    }
 }
 
 @media (min-width: 902px) {
