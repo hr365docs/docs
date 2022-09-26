@@ -1375,6 +1375,8 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
+
+
 /* Media queries start */
 
 @media (max-width:1025px){
