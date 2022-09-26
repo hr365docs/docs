@@ -1363,6 +1363,11 @@ section .container{
     justify-content: center;
     column-gap: 15px;
 }
+.hdpmobdisplay{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
 .epmmobdisplay{
 display: flex;
 column-gap: 3px;
