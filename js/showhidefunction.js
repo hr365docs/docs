@@ -50,17 +50,7 @@ window.addEventListener("load", () => {
         })
     }
 
-    // Onload Open dropdown js code\
-    // let baseURI=window.location.pathname;
-    
-    // for(let i=0; i<dropdowmperent.length; i++){
-        
-    //     if(baseURI==dropdowmperent[i].getAttribute("value")){
-    //         dropdowmperent[i].classList.add("active")
-    //         dropdowmperent[i].setAttribute("style", "height:initial;opacity: 1;")
-    //     }
-            
-    // }
+
     // Dropdown js Code
     let dropdowmitems = document.querySelectorAll(".aside_dropdown_icon");
     let dropdowmlist = document.querySelectorAll(".aside_dropdown_list");
@@ -93,7 +83,9 @@ window.addEventListener("load", () => {
     })
 
 
-    // Setting open dropdown js code
+
+
+    // Setting open nested dropdown js code
     if (document.querySelector(".aside_dropdown_icon_setting")) {
         let dropdownsetting = document.querySelector(".aside_dropdown_icon_setting");
         let dropdownitemssetting = document.querySelector(".aside_dropdown_list_setting");
@@ -103,37 +95,4 @@ window.addEventListener("load", () => {
         })
 
     }
-
-
-   
-
-    // // Header Active  js code
-    
-        
-    //     let asidedropdowns = document.querySelectorAll(".aside_dropdown_list")
-        
-
-    //     for (let i = 0; i < asidedropdowns.length; i++) {
-    //     console.log(asidedropdowns[i])
-    //         // if (window.location.pathname.split('/')[1] == headerItems[i].pathname.split('/')[1]) {
-    //         //     if(document.querySelector("header.shadow-bottom.sticky-top.bg-white")){
-    //         //         headerItems[i].classList.add("active-dark")
-    //         //     }
-    //         //     else{
-    //         //         headerItems[i].classList.add("active")
-    //         //     }
-    //         // }
-    
-    //     }
-    
-
-
-
-
-
-
-
-
-
-
 })

@@ -1475,7 +1475,8 @@ section .container{
             width: calc(100% - 30px) !important
         }
         .mbHeading{
-            font-size: 25px;
+            font-size: 17px;
+            /* font-size: 25px; */
         }
         .mbfaq{
             font-size: 22px;
@@ -1484,7 +1485,8 @@ section .container{
             font-size: 18px;
         }
         .mobfontsize{
-            font-size: 20px;
+            font-size: 15px;
+            /* font-size: 20px; */
         }
         .logoIcon {
             width: 15%;
