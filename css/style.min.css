@@ -1376,7 +1376,11 @@ justify-content: center;
     justify-content: center;
 }
 
-
+.assetsmobdisplay{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
 /* Media queries start */
 
 @media (max-width:1025px){
