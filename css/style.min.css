@@ -193,22 +193,22 @@ select:focus {
     margin-bottom: 40px;
 }
 
-.hdpsection-title {
+/* .hdpsection-title {
     margin-bottom: 40px;
     margin-top: 5px;
-}
+} */
 
-.section-text-align {
+/* .section-text-align {
     margin-top: 13px;
     margin-bottom: 40px;
     margin-left: 9px;
-}
+} */
 
-.section-hr-asset {
+/* .section-hr-asset {
     margin-bottom: 40px;
     margin-top: 2px;
-    /* margin-left: 40px; */
-}
+    margin-left: 40px;
+} */
 
 .bg-cover {
     background-size: cover;
@@ -1365,10 +1365,10 @@ section .container{
         padding-right: 30px;
 }
 
-.epmsection-title{
+/* .epmsection-title{
     margin-bottom: 40px;
     margin-top: 5px;
-}
+} */
 
 .tmpmobdisplay{
     display: flex;
@@ -1380,22 +1380,26 @@ section .container{
     display: flex;
     justify-content: center;
     column-gap: 15px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-.tmpsection-title{
+
+/* .tmpsection-title{
     margin-bottom: 40px;
     margin-top: 10px;
-}
+} */
 .hdpmobdisplay{
     display: flex;
     justify-content: center;
     column-gap: 15px;
 }
 
-.obmsection-title{
+/* .obmsection-title{
     margin-top: 5px;
     margin-bottom: 40px;
-}
+} */
 .epmmobdisplay{
 display: flex;
 column-gap: 3px;
@@ -1403,10 +1407,10 @@ align-items: center;
 justify-content: center;
 }
 
-.timesheetsection-title{
+/* .timesheetsection-title{
     margin-bottom: 40px;
     margin-top: 5px;
-}
+} */
 .obmgapclass{
     column-gap: 22px;
     display: flex;
@@ -1441,6 +1445,7 @@ justify-content: center;
     display: inline-flex;
     align-items: center;
     vertical-align: middle;
+    margin: 0px;
   }
 
   .fontweight{
@@ -1638,10 +1643,10 @@ justify-content: center;
         .logoIcon {
             width: 8%;
         }
-        .mobdisplay{
+        /* .mobdisplay{
             display: flex;
             column-gap: unset !important;
-        }
+        } */
 
         .moblogo{
             width: 15%;
@@ -1672,16 +1677,16 @@ justify-content: center;
         .epmmobdisplay{
             column-gap: 20px !important;
         }
-        .section-text-align{
+        /* .section-text-align{
             margin-top: 4px;
-        }
+        } */
     }
 
     @media (min-width:877px) and (max-width:1024px){
     
-        .mobdisplay{
+        /* .mobdisplay{
             column-gap: 30px !important;
-        }
+        } */
     }
 
     
