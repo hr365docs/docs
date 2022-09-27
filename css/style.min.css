@@ -1523,6 +1523,9 @@ section .container{
 
 @media (min-width:877px) and (max-width:1024){
 
+    .performancemainlogo{
+        column-gap: 25px;
+    }
     .assetsmainlogo{
         column-gap: 28px;
     }
@@ -1725,6 +1728,13 @@ section .container{
         column-gap: 2px !important;
     }
    
+}
+
+@media (min-width:600px) and (max-width:1024px){
+
+    .performancemainlogo{
+        column-gap: 35px;
+    }
 }
 
 @media(min-width:1200px) {
