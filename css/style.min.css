@@ -1578,7 +1578,7 @@ section .container{
     @media(max-width:575px) {
 
         .findadviceheading{
-            font-size: 18px;
+            font-size: 18px !important;
         }
         .epmmobfontsize{
             font-size: 16px;
