@@ -1544,6 +1544,9 @@ justify-content: center;
 
     @media(max-width:575px) {
 
+        .tmpmobdisplay{
+            column-gap: 60px;
+        }
         .assetsmobdisplay{
             column-gap: 55px;
         }
