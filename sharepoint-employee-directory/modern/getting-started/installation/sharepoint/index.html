@@ -107,7 +107,7 @@
                             <ul class=page-list>
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Installation of application from SharePoint Store<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
-                                        <div class="notices note">
+                                        
                                             <!-- <div class="paragraph">
                                                 <p>Only SharePoint admin can install the appliications.
                                                 Admin can make a member an admin. </p>
@@ -175,23 +175,21 @@
                                                         alt="" width="100%" height="auto"></div>
                                                 <br>
                                                 <li>
-                                                    Click on <b>I’ll do it later</b> button.
-                                                    <div class="notices note">
-                                                        <div class="paragraph">
-                                                            <p> This will asks you to allow the API permission to sync mobile numbers and to show
-                                                                teams’ presence in Employee Directory Modern.
-                                                                You can do it later once the installation completes, from the settings in Employee Directory Modern.
- 
-                                                                </p>
-                                                        </div>
-                                                    </div>
+                                                    A dialog box will open click on the <b>Go to API acess page</b>.
+                                                  
+                                                    <div>  <br><img src="api.png" onclick="openModal('api.png')"
+                                                        alt="" width="100%" height="auto"></div>
+                                                <br>
                                                 </li>
                                           
-                                                <div><img src="api.png" onclick="openModal('api.png')"
-                                                    alt="" width="100%" height="auto"></div>
-                                            <br>
+                                            <li>
+                                            <p> On SharePoint admin center page,From left panel under advanced click on API access option under pending request, there are 3 requests (Presence.Read.All, User.Read.All, and MailboxSettings.Read) select and click on approve one by one for all the 3 requests.</p>
+                                        </p>
+                                                                                                       <div><img src="api_permission.png" onclick="openModal('api_permission.png')"
+                                                                                                           alt="" width="100%" height="auto"></div>
+                                                                                                   <br>
                                             <div><img src="added.png" onclick="openModal('added.png')"
-                                                alt="" width="100%" height="auto"></div>
+                                                alt="" width="100%" height="auto"></div></li>
                                         <br>
                                                 <li>Go to Location (i.e., Site collection or subsite) where you want to install the <b>Employee Directory Modern</b> application.</li>
                                               
