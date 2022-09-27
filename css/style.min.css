@@ -1448,6 +1448,8 @@ justify-content: center;
   }
 /* Media queries start */
 
+
+
 @media (max-width:1280px){
     .mobgap{
         gap: 50px;
