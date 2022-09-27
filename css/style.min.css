@@ -1442,6 +1442,9 @@ section .container{
         font-size: 35px;
         
     }
+    .questionHeading{
+        font-size: 35px;
+    }
     .mobgetstarted{
         font-size: 21px;
     }
@@ -1484,6 +1487,10 @@ section .container{
     .mbHeading{
         font-size: 20px;
         
+    }
+
+    .questionHeading{
+        font-size:20px;
     }
     .mobfontsize {
         font-size: 24px;
@@ -1570,6 +1577,9 @@ section .container{
 
     @media(max-width:575px) {
 
+        .findadviceheading{
+            font-size: 18px;
+        }
         .epmmobfontsize{
             font-size: 16px;
         }
@@ -1585,6 +1595,9 @@ section .container{
         .mbHeading{
             font-size: 17px;
            
+        }
+        .questionHeading{
+            font-size: 20px;
         }
         .faqmbHeading{
             font-size: 24px;
