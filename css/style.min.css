@@ -193,23 +193,6 @@ select:focus {
     margin-bottom: 40px;
 }
 
-/* .hdpsection-title {
-    margin-bottom: 40px;
-    margin-top: 5px;
-} */
-
-/* .section-text-align {
-    margin-top: 13px;
-    margin-bottom: 40px;
-    margin-left: 9px;
-} */
-
-/* .section-hr-asset {
-    margin-bottom: 40px;
-    margin-top: 2px;
-    margin-left: 40px;
-} */
-
 .bg-cover {
     background-size: cover;
     background-position: 50%;
@@ -1464,7 +1447,7 @@ justify-content: center;
 @media (max-width:1025px){
     .mbHeading{
         font-size: 35px;
-        /* font-size: 25px; */
+        
     }
     .mobgetstarted{
         font-size: 21px;
@@ -1509,7 +1492,7 @@ justify-content: center;
     }
     .mbHeading{
         font-size: 20px;
-        /* font-size: 25px; */
+        
     }
     .mobfontsize {
         font-size: 24px;
@@ -1624,7 +1607,7 @@ justify-content: center;
         }
         .mbHeading{
             font-size: 17px;
-            /* font-size: 25px; */
+           
         }
         .faqmbHeading{
             font-size: 24px;
@@ -1638,16 +1621,12 @@ justify-content: center;
         }
         .mobfontsize{
             font-size: 15px;
-            /* font-size: 20px; */
+           
         }
         .logoIcon {
             width: 8%;
         }
-        /* .mobdisplay{
-            display: flex;
-            column-gap: unset !important;
-        } */
-
+       
         .moblogo{
             width: 15%;
         }
@@ -1677,17 +1656,10 @@ justify-content: center;
         .epmmobdisplay{
             column-gap: 20px !important;
         }
-        /* .section-text-align{
-            margin-top: 4px;
-        } */
+       
     }
 
-    @media (min-width:877px) and (max-width:1024px){
     
-        /* .mobdisplay{
-            column-gap: 30px !important;
-        } */
-    }
 
     
 
