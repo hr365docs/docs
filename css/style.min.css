@@ -1404,6 +1404,18 @@ justify-content: center;
     column-gap: 10px;
     justify-content: center;
 }
+
+.logoIcon {
+    display: inline-block;
+    width: 4%;
+    vertical-align: top;
+  }
+
+  .logotitle {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+  }
 /* Media queries start */
 
 @media (max-width:1280px){
