@@ -1429,6 +1429,10 @@ section .container{
   .fontweight{
     font-weight: 500;
   }
+
+  .contactbtn{
+    text-transform: none !important;
+  }
 /* Media queries start */
 
 
