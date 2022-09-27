@@ -1361,7 +1361,7 @@ section .container{
 .tmpmobdisplay{
     display: flex;
     justify-content: center;
-    column-gap: 50px;
+    column-gap: 45px;
 }
 
 .mobdisplay{
