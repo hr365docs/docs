@@ -193,14 +193,20 @@ select:focus {
     margin-bottom: 40px;
 }
 
+.hdpsection-title {
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+
 .section-text-align {
-    margin-top: 6px;
+    margin-top: 13px;
     margin-bottom: 40px;
     margin-left: 9px;
 }
 
 .section-hr-asset {
     margin-bottom: 40px;
+    margin-top: 2px;
     /* margin-left: 40px; */
 }
 
@@ -1358,6 +1364,11 @@ section .container{
         padding-right: 30px;
 }
 
+.epmsection-title{
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+
 .tmpmobdisplay{
     display: flex;
     justify-content: center;
@@ -1369,10 +1380,20 @@ section .container{
     justify-content: center;
     column-gap: 15px;
 }
+
+.tmpsection-title{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
 .hdpmobdisplay{
     display: flex;
     justify-content: center;
     column-gap: 15px;
+}
+
+.obmsection-title{
+    margin-top: 5px;
+    margin-bottom: 40px;
 }
 .epmmobdisplay{
 display: flex;
@@ -1381,6 +1402,10 @@ align-items: center;
 justify-content: center;
 }
 
+.timesheetsection-title{
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
 .obmgapclass{
     column-gap: 22px;
     display: flex;
