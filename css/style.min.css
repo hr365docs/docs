@@ -1357,7 +1357,16 @@ section .container{
     margin-bottom: 15px;
 }
 
-.directmainlogo{
+.edpmodernlogo{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.edpclassiclogo{
     display: flex;
     justify-content: center;
     column-gap: 25px;
