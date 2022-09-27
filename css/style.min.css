@@ -1438,6 +1438,13 @@ section .container{
 }
 
 @media (max-width:1025px){
+
+    .tspmainlogo{
+        column-gap: 40px;
+    }
+    .hdpmainlogo{
+        column-gap: 40px;
+    }
     .mbHeading{
         font-size: 35px;
         
@@ -1451,6 +1458,10 @@ section .container{
 
     .supportHeading{
         font-size: 38px;
+    }
+
+    .assetsmainlogo{
+        column-gap: 35px;
     }
 }
 
@@ -1592,10 +1603,23 @@ section .container{
             .ui-menu {
                 max-width: 690px !important
             }
+
+            .performancemainlogo{
+                column-gap: 35px;
+            }
     }
 
     @media(max-width:575px) {
 
+        .assetsmainlogo{
+            column-gap: 55px;
+        }
+        .tspmainlogo{
+            column-gap: 45px;
+        }
+        .hdpmainlogo{
+            column-gap: 60px;
+        }
         .findadviceheading{
             font-size: 18px !important;
         }
@@ -1645,10 +1669,34 @@ section .container{
         .ui-menu {
             max-width: 510px !important
         }
+        
     }
 
     @media (max-width:480px) {
        
+        .tmpmainlogo{
+            column-gap: 55px;
+        }
+        .obpmainlogo{
+            column-gap: 22px;
+        }
+
+        .obmmainlogo{
+            column-gap: 14px;
+        }
+
+
+
+        .performancemainlogo{
+            column-gap: unset;
+        }
+        .edpclassiclogo{
+            align-items: unset !important;
+        }
+
+        .edpmodernlogo{
+            align-items: unset !important;
+        }
         .blog_wrap .tags {
             width: 100%;
         }
