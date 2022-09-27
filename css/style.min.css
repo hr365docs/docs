@@ -1437,6 +1437,16 @@ section .container{
   
 }
 
+@media (min-width:1225) and (max-width:1230){
+    .hdpmainlogo{
+        column-gap: 20px;
+    }
+
+    .assetsmainlogo{
+        column-gap: 20px;
+    }
+}
+
 @media (max-width:1025px){
 
     .tspmainlogo{
@@ -1604,9 +1614,9 @@ section .container{
                 max-width: 690px !important
             }
 
-            .performancemainlogo{
+            /* .performancemainlogo{
                 column-gap: 35px;
-            }
+            } */
     }
 
     @media(max-width:575px) {
@@ -1709,14 +1719,7 @@ section .container{
        
     }
 
-    @media (min-width:1024px) and (max-width:1230px){
-       
-    }
-
-    
-
-    
-
+ 
 @media (min-width: 988px) and (max-width: 1200px) {
     .headerstyle{
         column-gap: 2px !important;
