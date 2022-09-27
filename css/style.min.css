@@ -1672,6 +1672,9 @@ justify-content: center;
         .epmmobdisplay{
             column-gap: 20px !important;
         }
+        .section-text-align{
+            margin-top: 4px;
+        }
     }
 
     @media (min-width:877px) and (max-width:1024px){
