@@ -1331,7 +1331,16 @@ section .container{
         padding-right: 30px;
 }
 
-.mobdisplay{
+.obpmainlogo{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hdpmainlogo{
     display: flex;
     justify-content: center;
     column-gap: 15px;
@@ -1339,7 +1348,56 @@ section .container{
     text-align: center;
     margin-bottom: 15px;
 }
+.obmmainlogo{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
 
+.directmainlogo{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tspmainlogo{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.assetsmainlogo{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.tmpmainlogo{
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.performancemainlogo{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
 .assetsheight{
     height: 65px;
     width: 65px;
