@@ -1463,6 +1463,10 @@ section .container{
 
 
 @media (max-width:1280px){
+
+    .upgradingfont{
+        font-size: 20px;
+    }
     .installguidefont{
         font-size: 22px;
     }
