@@ -1441,6 +1441,9 @@ section .container{
     fill: white;
 }
 
+.navbar-light .navbar-close-icon{
+    fill:#5e5e5c ;
+}
 
 
 .navbar-toggler[aria-expanded="true"] span {
