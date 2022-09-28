@@ -1437,6 +1437,12 @@ section .container{
 
 /* Header Toggle Css Code */
 
+.navbar-dark .navbar-close-icon{
+    fill: white;
+}
+
+
+
 .navbar-toggler[aria-expanded="true"] span {
     display: none; 
  }
