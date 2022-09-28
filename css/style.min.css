@@ -1499,12 +1499,12 @@ section .container{
         column-gap: 40px;
     }
     .mbHeading{
-        font-size: 35px;
+        font-size: 20px;
         
     }
 
     .tablecontentfont{
-        font-size: 34px;
+        font-size: 19px;
     }
 
     .questionHeading{
