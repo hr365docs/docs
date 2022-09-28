@@ -1437,14 +1437,16 @@ section .container{
 
 /* Header Toggle Css Code */
 
-.navbar-dark .navbar-close-icon{
+/* .navbar-dark .navbar-close-icon{
     fill: white;
 }
 
 .navbar-light .navbar-close-icon{
     fill:#5e5e5c ;
+} */
+.navbar.navbar-light .navbar-toggler[aria-expanded="true"] svg path{
+  fill: red;
 }
-
 
 .navbar-toggler[aria-expanded="true"] span {
     display: none; 
