@@ -1433,6 +1433,7 @@ section .container{
   .contactbtn{
     text-transform: none !important;
   }
+  
 
 
 /* Header Toggle Css Code */
@@ -1462,7 +1463,17 @@ section .container{
 
 
 @media (max-width:1280px){
-  
+    .installguidefont{
+        font-size: 22px;
+    }
+
+    .faqmbHeading{
+        font-size: 28px;
+    }
+
+    .mbfaq{
+        font-size: 25px;
+    }
 }
 
 @media (min-width:1225) and (max-width:1230){
