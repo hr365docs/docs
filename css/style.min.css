@@ -1502,6 +1502,11 @@ section .container{
         font-size: 35px;
         
     }
+
+    .tablecontentfont{
+        font-size: 34px;
+    }
+
     .questionHeading{
         font-size: 35px;
     }
@@ -1551,6 +1556,10 @@ section .container{
     .mbHeading{
         font-size: 20px;
         
+    }
+
+    .tablecontentfont{
+        font-size: 19px;
     }
 
     .questionHeading{
@@ -1694,6 +1703,10 @@ section .container{
         .mbHeading{
             font-size: 17px;
            
+        }
+
+        .tablecontentfont{
+            font-size: 16px;
         }
         .questionHeading{
             font-size: 20px;
