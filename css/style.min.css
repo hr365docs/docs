@@ -1433,6 +1433,21 @@ section .container{
   .contactbtn{
     text-transform: none !important;
   }
+
+
+/* Header Toggle Css Code */
+
+.navbar-toggler[aria-expanded="true"] span {
+    display: none; 
+ }
+ .navbar-toggler[aria-expanded="true"] svg{
+     display: block; 
+  }
+ 
+ .navbar-toggler[aria-expanded="false"] svg{
+     display: none; 
+  }
+
 /* Media queries start */
 
 
@@ -1751,15 +1766,3 @@ section .container{
 }
 
 
-/* Header Toggle Css Code */
-
-.navbar-toggler[aria-expanded="true"] span {
-   display: none; 
-}
-.navbar-toggler[aria-expanded="true"] svg{
-    display: block; 
- }
-
-.navbar-toggler[aria-expanded="false"] svg{
-    display: none; 
- }
