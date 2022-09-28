@@ -1433,12 +1433,51 @@ section .container{
   .contactbtn{
     text-transform: none !important;
   }
+  
+
+
+/* Header Toggle Css Code */
+
+
+.navbar.navbar-light .navbar-toggler[aria-expanded="true"] svg path{
+    fill:#5e5e5c
+}
+
+.navbar-toggler[aria-expanded="true"] span {
+    display: none; 
+ }
+ .navbar-toggler[aria-expanded="true"] svg{
+     display: block; 
+  }
+ 
+ .navbar-toggler[aria-expanded="false"] svg{
+     display: none; 
+  }
+
+
+
+
+  
 /* Media queries start */
 
 
 
 @media (max-width:1280px){
-  
+
+    .upgradingfont{
+        font-size: 20px;
+    }
+    .installguidefont{
+        font-size: 22px;
+    }
+
+    .faqmbHeading{
+        font-size: 28px;
+    }
+
+    .mbfaq{
+        font-size: 26px;
+    }
 }
 
 @media (min-width:1225) and (max-width:1230){
@@ -1460,11 +1499,16 @@ section .container{
         column-gap: 40px;
     }
     .mbHeading{
-        font-size: 35px;
+        font-size: 20px;
         
     }
+
+    .tablecontentfont{
+        font-size: 19px;
+    }
+
     .questionHeading{
-        font-size: 35px;
+        font-size: 30px;
     }
     .mobgetstarted{
         font-size: 21px;
@@ -1514,8 +1558,12 @@ section .container{
         
     }
 
+    .tablecontentfont{
+        font-size: 19px;
+    }
+
     .questionHeading{
-        font-size:20px;
+        font-size:25px;
     }
     .mobfontsize {
         font-size: 24px;
@@ -1656,6 +1704,10 @@ section .container{
             font-size: 17px;
            
         }
+
+        .tablecontentfont{
+            font-size: 16px;
+        }
         .questionHeading{
             font-size: 20px;
         }
@@ -1749,9 +1801,5 @@ section .container{
             max-width: 90%;
         }
 }
-
-
-   
-
 
 
