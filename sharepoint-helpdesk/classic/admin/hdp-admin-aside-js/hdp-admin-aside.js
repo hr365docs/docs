@@ -4,15 +4,20 @@ $(document).ready(function () {
         "<li data-nav-id='./installation/requirments/' title=Introduction class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/introduction/'>Introduction</a>"+
         "</li>"+
+
         "<li data-nav-id='./installation/requirments/' title='Architecture Diagram' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/architecture-diagram/'>Architecture Diagram</a>"+
         "</li>"+
-        "<li data-nav-id='./Settings/' class='sidelist'>"+
-        "<li  title='Home Page' class='helpdesk-dropdown sidelist'>"+
-       // "<li class='dropdownicon sidelist'>"+
+
+
+       
+
+        "<li class='dropdownicon sidelist'>"+
         "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/home-page/'>Home Page</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
-      //  "</li>"+
+        "</li>"+
+
+        "<li data-nav-id='./Settings/' title='Home Page'  title='Home Page' class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Settings/' title='Kanban' class='sidelist'>"+
         " <a href='/sharepoint-helpdesk/classic/admin/home-page/#kanban-view'>Kanban</a>"+
@@ -21,7 +26,10 @@ $(document).ready(function () {
         " <a href='/sharepoint-helpdesk/classic/admin/home-page/#table-view'>Table</a>"+
         " </li>"+
         "</ul>"+
+
+
         "</li>"+
+
         "<li data-nav-id='./Settings/' title=Dashboard class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/dashboard/'>Dashboard</a>"+
         "</li>"+
