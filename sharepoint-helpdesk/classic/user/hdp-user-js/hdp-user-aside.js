@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $("#hdp-user-aside").html("");
-    $("#hdp-user-aside").append("<li data-nav-id='./Introduction/' title=Introduction class='sidelist'>"+
+    $("#hdp-user-aside").append(
+    "<li data-nav-id='./Introduction/' title=Introduction class='sidelist'>"+
     "<a href='/sharepoint-helpdesk/classic/user/introduction/'>Introduction</a>"+
     "</li>"+
     "<li data-nav-id='../getting-started/' title='Getting Started' class='sidelist'>"+

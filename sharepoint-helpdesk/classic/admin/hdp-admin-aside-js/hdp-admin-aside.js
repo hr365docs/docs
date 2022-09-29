@@ -9,8 +9,10 @@ $(document).ready(function () {
         "</li>"+
         "<li data-nav-id='./Settings/' class='sidelist'>"+
         "<li  title='Home Page' class='helpdesk-dropdown sidelist'>"+
-        "<a href='/sharepoint-helpdesk/classic/admin/home-page/'>Home Page</a>"+
+       // "<li class='dropdownicon sidelist'>"+
+        "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/home-page/'>Home Page</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
+      //  "</li>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Settings/' title='Kanban' class='sidelist'>"+
         " <a href='/sharepoint-helpdesk/classic/admin/home-page/#kanban-view'>Kanban</a>"+
