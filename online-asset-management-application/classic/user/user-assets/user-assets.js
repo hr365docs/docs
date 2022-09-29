@@ -10,10 +10,13 @@ $(document).ready(function() {
         "<li data-nav-id='./Home-page' title='Home Page' class='sidelist'>"+
         "<a href='/online-asset-management-application/classic/user/homepage/'> Home Page </a>"+
         "</li>"+
-        "<li data-nav-id='./installation/requirments/' title='User Interface' class='sidelist user-items-dropdown'>"+
+
+        "<li class='dropdownicon sidelist'>"+
         "<a href='/online-asset-management-application/classic/user/userinterface/'> User Interface </a>"+
         "<img  class='user-img aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
-         "<ul class='sidenavSub-topics aside_dropdown_list' id='user-dropdown'>"+
+        "</li>"+
+        "<li data-nav-id='./installation/requirments/' title='User Interface' class='sidelist dropdown_romove_dot'>"+
+        "<ul class='sidenavSub-topics aside_dropdown_list'>"+
           "<li data-nav-id='../General' title='My Assets' class='sidelist'>"+
            "<a href='/online-asset-management-application/classic/user/userinterface/#my-assets'> My Assets </a>"+
             "</li>"+
@@ -28,7 +31,8 @@ $(document).ready(function() {
                "<li data-nav-id='./installation/requirments/' title='Help' class='sidelist'>"+
                "<a href='/online-asset-management-application/classic/user/help/'> Help </a>"+
                 "</li>"+
-                "</ul>")
+                "</ul>"+
+                "</li>")
 })
 
 

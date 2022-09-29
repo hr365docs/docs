@@ -11,14 +11,14 @@ $(document).ready(function() {
     "<li data-nav-id='./Settings/' title='Home Page' class='sidelist'>"+
     "<a href='/online-asset-management-application/classic/admin/homepage/'> Home Page </a>"+
     "</li>"+
-    "<li data-nav-id='./Settings/' class='sidelist'>"+
-    "<li class='assets-dropdown sidelist'  title='Assets'>"+
+
+    
+    "<li class='dropdownicon sidelist'>"+
      "<a href='/online-asset-management-application/classic/admin/assets/'> Assets </a>"+
      "<img  class='assets-img aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
      "</li>"+
-     "<li class='admin-items'>"+
-     "<ul class='sidenavSub-topics aside_dropdown_list' id='assets-item-dropdown'>"+
-      "<ul>"+
+     "<li data-nav-id='./Settings/' title='Assets'  class='sidelist dropdown_romove_dot'>"+
+     "<ul class='sidenavSub-topics aside_dropdown_list'>"+
        "<li data-nav-id='./Email-Notification/' title='Add Assets' class='sidelist'>"+
        "<a href='/online-asset-management-application/classic/admin/assets/#add-assets'>Add Asset</a>"+
         "</li>"+
@@ -37,18 +37,16 @@ $(document).ready(function() {
             "<li data-nav-id='./Dashboard-Settings/' title='Approve/Reject Assets' class='sidelist'>"+
             "<a href='/online-asset-management-application/classic/admin/assets/#approve-reject-assets'> Approve/Reject Assets</a>"+
             "</li>"+
-             "</li>"+
-             "</ul>"+
               "</ul>"+
               "</li>"+
-              "<li data-nav-id='./Settings/'class='sidelist'>"+
-               "<li class='consumable-dropdown sidelist'  title='Consumable' >"+
+           
+              "<li class='dropdownicon sidelist'>"+
                "<a href='/online-asset-management-application/classic/admin/consumable/'> Consumable </a>"+
                "<img class='consumable-img aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
                "</li>"+
-                "<li class='admin-items'>"+
-                "<ul class='sidenavSub-topics aside_dropdown_list' id='consumable-item-dropdown'>"+
-                "<ul>"+
+
+               "<li data-nav-id='./Settings/' title='Consumable'  class='sidelist dropdown_romove_dot'>"+
+               "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                 "<li data-nav-id='./Dashboard-Settings/' title='Add Consumable Item' class='sidelist'>"+
                 "<a href='/online-asset-management-application/classic/admin/consumable/#add-consumable-item'>Add Consumable Item</a>"+
                  "</li>"+
@@ -64,21 +62,21 @@ $(document).ready(function() {
                   "<li data-nav-id='./Dashboard-Settings/' title='Approve/Reject Consumable' class='sidelist'>"+
                   "<a href='/online-asset-management-application/classic/admin/consumable/#approve-reject-consumable'> Approve/Reject Consumable </a>"+
                   "</li>"+
-                  "</li>"+
                   "</ul>"+
-                   "</ul>"+
-                   "</li>"+
+  "</li>"+
+
                    "<li data-nav-id='./Software/' title='Software' class='sidelist'>"+
                     "<a href='/online-asset-management-application/classic/admin/software/'> Software </a>"+
                     "</li>"+
-                    "<li data-nav-id='./Settings/' class='sidelist'>"+
-                     "<li class='settings-dropdown sidelist'  title='Settings'> "+
+
+                   
+                     "<li class='settings-dropdown sidelist'> "+
                      "<a href='/online-asset-management-application/classic/admin/settings/'> Settings </a>"+
                      "<img class='aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
-                     "<li class='admin-items'>"+
-                     "<ul class='aside_dropdown_list sidenavSub-topics' id='settings-list-dropdown'>"+
-                     "<ul>"+
+
+                   "<li data-nav-id='./Settings/' title='Settings'  class='sidelist dropdown_romove_dot'>"+
+                   "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                      "<li data-nav-id='./User/' title='User' class='sidelist'>"+
                      "<a href='/online-asset-management-application/classic/admin/settings/#user'>User</a>"+
                      "</li>"+
@@ -97,17 +95,16 @@ $(document).ready(function() {
                      "<li data-nav-id='./Dashboard-Settings/' title='Dashboard_Settings' class='sidelist'>"+
                      "<a href='/online-asset-management-application/classic/admin/settings/#dashboard-setting'>Dashboard Settings</a>"+
                       "</li>"+
-                      "</li>"+
-                      "</ul>"+
                        "</ul>"+
                        "</li>"+
-                       "<li data-nav-id='./Settings/'  class='sidelist '>"+
-                        "<li class='administration-dropdown sidelist' title='Administration'>"+
+
+                       "<li class='dropdownicon sidelist'>"+
                         "<a href='/online-asset-management-application/classic/admin/administration/'> Administration </a>"+
                         "<img  class='administr-img aside_dropdown_icon'  src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
                         "</li>"+
-                        "<li class='admin-items'>"+
-                        "<ul class='aside_dropdown_list sidenavSub-topics' id='administr-list-dropdown'>"+
+                        "<li data-nav-id='./Settings/' title='Administration' class='sidelist dropdown_romove_dot'>"+
+                        "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+                       
                          "<li data-nav-id='./User/' title='Custom Columns' class='sidelist'>"+
                          "<a href='/online-asset-management-application/classic/admin/administration/#custom-columns'>Custom Columns</a>"+
                          "</li>"+
@@ -153,9 +150,9 @@ $(document).ready(function() {
                              "<li data-nav-id='./Dashboard-Settings/' title='Add Equipments' class='sidelist'>"+
                              "<a href='/online-asset-management-application/classic/admin/administration/#add-equipments'>Add Equipments</a>"+ 
                             "</li>"+
-                             "</li>"+
                              "</ul>"+
                              "</li>"+
+                             
                              "<li data-nav-id='./Report/' title='Report' class='sidelist'>"+ 
                              "<a href='/online-asset-management-application/classic/admin/report/'> Report </a>"+
                              "</li>"+
