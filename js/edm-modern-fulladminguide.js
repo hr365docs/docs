@@ -40,7 +40,7 @@ $(document).ready(function() {
         "</a>" +
         "<img src='./down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>"+
-        "<li data-nav-id='../advanced/' title=General class='sidelist' >" +
+        "<li data-nav-id='../advanced/' title=General class='sidelist dropdown_romove_dot' >" +
 
         // "<div class='dropdownicon'>" +
         // "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>" +
