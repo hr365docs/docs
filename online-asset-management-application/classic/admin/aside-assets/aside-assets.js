@@ -14,9 +14,10 @@ $(document).ready(function() {
 
     
     "<li class='dropdownicon sidelist'>"+
-     "<a href='/online-asset-management-application/classic/admin/assets/'> Assets </a>"+
-     "<img  class='imageIconmodernuser aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
+     "<a + href='/online-asset-management-application/classic/admin/assets/'> Assets </a>"+
+     "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
      "</li>"+
+     
      "<li data-nav-id='./Settings/' title='Assets'  class='sidelist dropdown_romove_dot'>"+
      "<ul class='sidenavSub-topics aside_dropdown_list'>"+
        "<li data-nav-id='./Email-Notification/' title='Add Assets' class='sidelist'>"+
@@ -41,8 +42,8 @@ $(document).ready(function() {
               "</li>"+
            
               "<li class='dropdownicon sidelist'>"+
-               "<a href='/online-asset-management-application/classic/admin/consumable/'> Consumable </a>"+
-               "<img class='imageIconmodernuser aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
+               "<a + href='/online-asset-management-application/classic/admin/consumable/'> Consumable </a>"+
+               "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
                "</li>"+
 
                "<li data-nav-id='./Settings/' title='Consumable'  class='sidelist dropdown_romove_dot'>"+
@@ -71,8 +72,8 @@ $(document).ready(function() {
 
                    
                      "<li class='settings-dropdown sidelist'> "+
-                     "<a href='/online-asset-management-application/classic/admin/settings/'> Settings </a>"+
-                     "<img class='imageIconmodernuser aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
+                     "<a + href='/online-asset-management-application/classic/admin/settings/'> Settings </a>"+
+                     "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
 
                    "<li data-nav-id='./Settings/' title='Settings'  class='sidelist dropdown_romove_dot'>"+
@@ -99,8 +100,8 @@ $(document).ready(function() {
                        "</li>"+
 
                        "<li class='dropdownicon sidelist'>"+
-                        "<a href='/online-asset-management-application/classic/admin/administration/'> Administration </a>"+
-                        "<img class='imageIconmodernuser aside_dropdown_icon'  src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
+                        "<a  href='/online-asset-management-application/classic/admin/administration/'> Administration </a>"+
+                        "<img   class='helpdesk-img aside_dropdown_icon'  src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
                         "</li>"+
                         "<li data-nav-id='./Settings/' title='Administration' class='sidelist dropdown_romove_dot'>"+
                         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
@@ -186,110 +187,41 @@ $(document).ready(function() {
     
 
 })
-
-
-window.addEventListener("load", () => {
-
-
-    // new page add padding onclick js code
-    function getid() {
-        var baseUrl = (window.location).href;
-        var koopId = baseUrl.substring(baseUrl.lastIndexOf('#') + 1);
-        let getid = document.getElementsByTagName("div");
-        let getancher = document.getElementsByTagName("a");
-        for (let i = 0; i < getancher.length; i++) {
-            if (getid.length > i) {
-                if (koopId == getid[i].id) {
-                    let id = getid[i];
-                    id.classList.add("active")
-                    id.setAttribute("style", "padding-top:80px!important");
-                }
-
-            }
-            if (getid[0].baseURI == getancher[i].href) {
-                getancher[i].parentNode.classList.add("active")
-            }
-
-
-        }
-
-    }
-    getid()
-
-    // common onclick scroll js code 
-    let commonscroll = document.querySelectorAll(".common-scroll")
-    let dropdowmperent = document.querySelectorAll(".aside_dropdown_list");
-    for (let i of dropdowmperent) {
-        let dropdowminneritem = i.querySelectorAll(".aside_dropdown_list li");
-        dropdowminneritem.forEach((element, index) => {
-            element.addEventListener("click", () => {
-                for (let i of dropdowminneritem) {
-                    i.classList.remove("active")
-                    for (let j of commonscroll) {
-                        j.classList.remove("active")
-                        j.removeAttribute("style")
-                    }
-                }
-                element.classList.add("active")
-                commonscroll[index].classList.add("active")
-                commonscroll[index].setAttribute("style", "padding-top:80px!important")
-            })
-        })
-    }
-
-
-    // Dropdown js Code
-    let dropdowmitems = document.querySelectorAll(".aside_dropdown_icon");
-    let dropdowmlist = document.querySelectorAll(".aside_dropdown_list");
-
-    dropdowmitems.forEach((element, index) => {
-        element.addEventListener("click", () => {
-            let getheight = dropdowmlist[index].scrollHeight;
-            let dropdowmlistactive = document.querySelector(".aside_dropdown_list.active")
-            if (element.classList.contains("active")) {
-                element.classList.remove("active");
-                dropdowmlistactive.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
-            } else {
-                for (let i of dropdowmitems) {
-                    i.classList.remove("active");
-                }
-                for (let j of dropdowmlist) {
-                    j.classList.remove("active");
-                    j.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
-                }
-                element.classList.add("active");
-                dropdowmlist[index].classList.add("active")
-                dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity: 1;`)
-            }
-        })
-    })
-})
 // window.addEventListener("load", () => {
-
 
 //     // new page add padding onclick js code
 //     function getid() {
 //         var baseUrl = (window.location).href;
-//         var koopId = baseUrl.substring(baseUrl.lastIndexOf('#') + 1);
+//         var urlId = baseUrl.substring(baseUrl.lastIndexOf('#') + 1);
 //         let getid = document.getElementsByTagName("div");
 //         let getancher = document.getElementsByTagName("a");
 //         let countlenght = getancher.length
 //         for (let i = 0; i < countlenght; i++) {
 //             if (getid.length > i) {
-//                 if (koopId == getid[i].id) {
+//                 if (urlId == getid[i].id) {
 //                     let id = getid[i];
 //                     id.classList.add("active")
 //                     id.setAttribute("style", "padding-top:80px!important");
 //                 }
 //             }
+//             // Active li in dropdown
 //             if (getid[0].baseURI == getancher[i].href) {
 //                 getancher[i].parentNode.classList.add("active")
-//                     // console.log(getid[0].baseURI)
+//                 let ancherparent =getancher[i].parentElement;
+//                 let activeItem = ancherparent.closest(".aside_dropdown_list");
+//             // Active ul in dropdown
+//                 if(activeItem){
+//                     activeItem.classList.add("active");
+//                     activeItem.setAttribute("style", "height:initial;opacity: 1;")
+
+//                     let getperentclass = ancherparent.closest(".aside_dropdown_list_setting")
+//                     if (getperentclass) {
+//                         getperentclass.classList.add("active")
+                        
+//                     }
+//                 } 
 //             }
 //         }
-
-
-
 //     }
 //     getid()
 
@@ -314,10 +246,15 @@ window.addEventListener("load", () => {
 //         })
 //     }
 
-
 //     // Dropdown js Code
 //     let dropdowmitems = document.querySelectorAll(".aside_dropdown_icon");
 //     let dropdowmlist = document.querySelectorAll(".aside_dropdown_list");
+
+//     for(let i=0; i<dropdowmlist.length; i++){
+//         if (dropdowmlist[i].getAttribute("style")=="height:initial;opacity: 1;") {
+//             dropdowmitems[i].classList.add("active")
+//         }
+//     }
 
 //     dropdowmitems.forEach((element, index) => {
 //         element.addEventListener("click", () => {
@@ -328,18 +265,20 @@ window.addEventListener("load", () => {
 //                 dropdowmlistactive.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
 //             } else {
 //                 for (let i of dropdowmitems) {
-//                     i.classList.remove("active");
+//                     i.classList.remove("active"); 
 //                 }
 //                 for (let j of dropdowmlist) {
 //                     j.classList.remove("active");
 //                     j.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
 //                 }
 //                 element.classList.add("active");
+//                 localStorage.setItem("Dropdownstate",dropdowmlist[index])
 //                 dropdowmlist[index].classList.add("active")
-//                 dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity: 1;`)
+//                 dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity: 1;`)   
 //             }
 //         })
 //     })
+
 
 //     // Setting open dropdown js code
 //     if (document.querySelector(".aside_dropdown_icon_setting")) {
@@ -349,6 +288,6 @@ window.addEventListener("load", () => {
 //             dropdownsetting.classList.toggle("active")
 //             dropdownitemssetting.classList.toggle("active")
 //         })
-
 //     }
+
 // })

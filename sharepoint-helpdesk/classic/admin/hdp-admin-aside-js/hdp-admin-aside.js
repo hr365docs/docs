@@ -41,11 +41,11 @@ $(document).ready(function () {
         "</li>"+
         "<ul class='sidenavSub-topics'>"+
         "<li title='Settings'  class='helpdesk-dropdown sidelist'>"+
-        "<a href='/sharepoint-helpdesk/classic/admin/settings/'>Settings</a>"+
+        "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/settings/'>Settings</a>"+
         "<img class='helpdesk-img aside_dropdown_icon_setting' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>"+
         "<li data-nav-id='./User/' class='sidelist' title=General>"+
-        "<a href='/sharepoint-helpdesk/classic/admin/settings/general/'>General</a>"+
+        "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/settings/general/'>General</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./General-Settings/' title='Date Format' class='sidelist'>"+
@@ -80,7 +80,7 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics'>"+
         "</ul>"+
         "<li class='helpdesk-dropdown sidelist' title='Ticket Customization'>"+
-        "<a href='/sharepoint-helpdesk/classic/admin/settings/ticket-customization/'>Ticket Customization</a>"+
+        "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/settings/ticket-customization/'>Ticket Customization</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Assign-Assets/' title='Priority Type' class='sidelist'>"+
@@ -149,7 +149,7 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
         "<li class='helpdesk-dropdown sidelist' title='Users/Roles/Permissions'>"+
-        "<a href='/sharepoint-helpdesk/classic/admin/settings/role/'>Users, Roles, Permissions</a>"+
+        "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/settings/role/'>Users, Roles, Permissions</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Assign-Assets/ ' title=Add/Edit class='sidelist '>"+
@@ -172,7 +172,7 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
         "<li  title='Integrations' class='helpdesk-dropdown sidelist'>"+
-        "<a href='/sharepoint-helpdesk/classic/admin/settings/integration/'>Integrations</a>"+
+        "<a class='qwe'  href='/sharepoint-helpdesk/classic/admin/settings/integration/'>Integrations</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Assign-Assets/ ' title='Phone' class='sidelist '>"+
@@ -198,7 +198,7 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
         "<li class='helpdesk-dropdown sidelist'  title='Notification' >"+
-        "<a href='/sharepoint-helpdesk/classic/admin/settings/notification/'>Notification</a>"+
+        "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/settings/notification/'>Notification</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Assign-Assets/ ' title='Requester' class='sidelist '>"+
@@ -225,7 +225,7 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
         "<li title='Features' class='helpdesk-dropdown sidelist'>"+
-        "<a href='/sharepoint-helpdesk/classic/admin/settings/features/'>Features</a>"+
+        "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/settings/features/'>Features</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Assign-Assets/ ' title='Canned Responses' class='sidelist '>"+
