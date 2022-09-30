@@ -5,9 +5,11 @@ $(document).ready(function() {
         "<li data-nav-id='./installation/requirments/' title=Overview class='sidelist '>"+
         "<a href='/sharepoint-employee-onboarding/modern/admin/overview/'> Overview </a>"+
         "</li>"+
+
         "<li data-nav-id='../Exclude-Options/' title='Home Page' class=sidelist>"+
         "<a href='/sharepoint-employee-onboarding/modern/admin/home/'> Home Page </a>"+
         "</li>"+
+
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title='Access requirements' class='sidelist'>"+
         "<a href='/sharepoint-employee-onboarding/modern/admin/access-requirements/'> Access requirements </a>"+
         "</li>"+
@@ -17,11 +19,15 @@ $(document).ready(function() {
         "<a class='qwe'  href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/'> Set up of the application </a>"+
         "<img class='helpdesk-img aside_dropdown_icon_setting' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>"+
         "</li>"+
+
         "<li data-nav-id='./Setting/' title='Set up of application' class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>"+
-        "<li title='System Setting' class='helpdesk-dropdown sidelist'>"+
+        
+        "<li class='dropdownicon sidelist'>"+
         "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/system-setting/'> System Setting </a>"+
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>"+
+        "</li>"+
+        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='../General' title=Users class=sidelist>"+
         "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/system-setting/#users'> Users </a>"+
@@ -42,10 +48,13 @@ $(document).ready(function() {
         "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/system-setting/#custom-fields'> Custom Fields </a>"+
         "</li>"+
         "</ul>"+
-        "<li data-nav-id='../General' class=sidelist>"+
-        "<li title=Administration class='helpdesk-dropdown sidelist'>"+
+
+      
+        "<li class='dropdownicon sidelist'>"+
         "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/'> Administration </a>"+
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>"+
+        "</li>"+
+        "<li data-nav-id='../General' title=Administration class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='../General' title=Categories class=sidelist>"+
         "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#categories'> Categories </a>"+
