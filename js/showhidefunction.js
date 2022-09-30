@@ -21,16 +21,24 @@ window.addEventListener("load", () => {
                 let ancherparent =getancher[i].parentElement;
                 let activeItem = ancherparent.closest(".aside_dropdown_list");
             // Active ul in dropdown
+                var getperentclass = ancherparent.closest(".aside_dropdown_list_setting")
                 if(activeItem){
                     activeItem.classList.add("active");
                     activeItem.setAttribute("style", "height:initial;opacity: 1;")
 
-                    let getperentclass = ancherparent.closest(".aside_dropdown_list_setting")
+                    
+
                     if (getperentclass) {
                         getperentclass.classList.add("active")
-                        
                     }
-                } 
+                }
+
+                // let getperentclassdfs = ancherparent.closest(".aside_dropdown_list_setting")
+                
+                if (getperentclass) {
+                    getperentclass.classList.add("active")
+                    
+                }
             }
         }
     }
