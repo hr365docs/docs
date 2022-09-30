@@ -158,12 +158,12 @@ $(document).ready(function () {
         "</ul>"+
         "</li>"+
 
-        "<li data-nav-id='./Add Assets/'  class=' sidelist '>"+
-        "<ul class='sidenavSub-topics '>"+
-        "</ul>"+
-        "<li class='helpdesk-dropdown sidelist' title='Users/Roles/Permissions'>"+
+        
+        "<li class='helpdesk-dropdown sidelist' >"+
         "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/settings/role/'>Users, Roles, Permissions</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/' title='Users/Roles/Permissions' class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Assign-Assets/ ' title=Add/Edit class='sidelist '>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/role/#users'>Add/Edit Users</a>"+
