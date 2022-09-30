@@ -39,11 +39,18 @@ $(document).ready(function () {
         "<li data-nav-id='./Settings/' title=Comment Page class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/comment-page/'>Comment Page</a>"+
         "</li>"+
-        "<ul class='sidenavSub-topics'>"+
-        "<li title='Settings'  class='helpdesk-dropdown sidelist'>"+
+
+        
+
+        
+        "<li class='dropdownicon sidelist'>"+
         "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/settings/'>Settings</a>"+
         "<img class='helpdesk-img aside_dropdown_icon_setting' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
+        "</li>"+
+
+       "<li data-nav-id='./Settings/' title='Settings'  class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>"+
+        
         "<li data-nav-id='./User/' class='sidelist' title=General>"+
         "<a class='qwe' href='/sharepoint-helpdesk/classic/admin/settings/general/'>General</a>"+
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
@@ -76,6 +83,7 @@ $(document).ready(function () {
         "</li>"+
         "</li>"+
         "</ul>"+
+
         "<li data-nav-id='../Admin-Guide/Administration/'  class='sidelist'>"+
         "<ul class='sidenavSub-topics'>"+
         "</ul>"+
@@ -145,6 +153,7 @@ $(document).ready(function () {
         " </li>"+
         "</ul>"+
         "</li>"+
+
         "<li data-nav-id='./Add Assets/'  class=' sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
@@ -168,6 +177,7 @@ $(document).ready(function () {
         "</li>"+
         "</ul>"+
         "</li>"+
+
         "<li data-nav-id='./Add Assets/ ' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
@@ -194,6 +204,7 @@ $(document).ready(function () {
         "</li>"+
         "</ul>"+
         "</li>"+
+
         "<li data-nav-id='./Add Assets/ 'class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
@@ -221,6 +232,7 @@ $(document).ready(function () {
         "</li>"+
         "</ul>"+
         "</li>"+
+        
         "<li data-nav-id='./Add Assets/ '  class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
