@@ -8,10 +8,13 @@ $(document).ready(function() {
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title='Workflow' class='sidelist'>"+
         "<a href='/sharepoint-employee-onboarding/classic/admin/workflow/'> Workflow </a>"+
          "</li>"+
-         "<li data-nav-id='./Setting/'  class='sidelist '>"+
-         " <li title='Set up of application' class='helpdesk-dropdown sidelist'>"+
-         " <a href='/sharepoint-employee-onboarding/classic/admin/set-up-of-application/'> Set up of application </a>"+
+
+         
+          "<li class='dropdownicon sidelist'>"+
+         " <a class='qwe' href='/sharepoint-employee-onboarding/classic/admin/set-up-of-application/'> Set up of application </a>"+
          " <img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/classic/admin/js-admin/down-arrow-svgrepo-com.svg'>"+
+         "</li>"+
+         "<li data-nav-id='./Setting/' title='Set up of application'  class='sidelist dropdown_romove_dot'>"+
          " <ul class='sidenavSub-topics aside_dropdown_list'>"+
          " </li>"+
          "<ul>"+
