@@ -1454,6 +1454,16 @@ section .container{
      display: none; 
   }
 
+  /* faq expand icon */
+  .card-link[aria-expanded="true"] .ti-plus:before{
+    display: none;
+  }
+  .card-link[aria-expanded="true"] i{
+    height: 2px;
+    width: 15px;
+    background-color: var(--primary-color) !important;
+  }
+
 
 
 
