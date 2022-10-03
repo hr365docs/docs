@@ -146,12 +146,15 @@
         Find advice and answers from our support team fast or get in touch
       </p>
       <div class="position-relative">
-        <input
-          id="search"
-          class="form-control"
-          placeholder="Have a question? Just ask here or enter terms"
-        />
-        <i class="ti-search search-icon"></i>
+        <form class="banner_form" action="">
+
+          <input
+            id="search"
+            class="form-control"
+            placeholder="Have a question? Just ask here or enter terms"
+          />
+          <i class="ti-search search-icon"></i>
+        </form>
         
           
         <script>
@@ -171,7 +174,7 @@
           	},
           	
           	{
-          		value: "Requirments",
+          		value: "Requirements",
           		label: "<p>Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.\nJust download latest version of Hugo binary (\u0026gt; 0.53) for your OS (Windows, Linux, Mac) : it\u0026rsquo;s that simple.\n</p><p></p>",
           		url:"https:\/\/hr365docs.github.io\/HR365_Product\/timesheet\/requirments\/"
           	},
@@ -349,11 +352,38 @@
           	source: projects
           })
           .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-          	return $( "<li>" )
-          	.append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
-          	.appendTo( ul );
-          };
+            
+
+            
+          var input = document.querySelector('.banner_form input');
+
+            input.onkeyup = function(e) {
+            input_val = this.value; 
+            
+            let autocompleteitems= document.querySelectorAll(".autocomplete_items a");
+            for(let i=0; i<autocompleteitems.length; i++){
+                if(input_val==autocompleteitems[i].innerText){
+                  let geturl=document.querySelector('.banner_form');
+                  geturl.action=autocompleteitems[i].href
+                }
+            }
+          }
+           
+            
+            
+                      // variables
+        
+        
+        // events
+      
+        
+            return $( "<li class='autocomplete_items'>" )
+              .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
+              .appendTo( ul );
+            };
+            
           });
+          
         </script>
       </div>
     </div>
@@ -363,11 +393,6 @@
 
     </header>
     
-     
-
-  
-
-  
   <section class="section">
     <div class="container">
       <div class="row justify-content-center">
@@ -389,7 +414,7 @@
           </div>
         
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="https://hr365docs.github.io/HR365_Product/helpdesk/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <a href="./sharepoint-helpdesk/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
               
                 <i class="ti-credit-card icon text-primary d-block mb-4"></i>
               
@@ -401,7 +426,7 @@
           </div>
         
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="https://hr365docs.github.io/HR365_Product/time-off-manger/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <a href="./employee-vacation-tracker-time-off-manager/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
               
                 <i class="ti-package icon text-primary d-block mb-4"></i>
               
@@ -413,7 +438,7 @@
           </div>
         
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="https://hr365docs.github.io/HR365_Product/timesheet/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <a href="./online-timesheet-software/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
               
                 <i class="ti-panel icon text-primary d-block mb-4"></i>
               
@@ -425,7 +450,7 @@
           </div>
         
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="./asset-management/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <a href="./online-asset-management-application/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
               
                 <i class="ti-package icon text-primary d-block mb-4"></i>
               
@@ -437,7 +462,7 @@
           </div>
         
           <div class="col-lg-4 col-sm-6 mb-4">
-            <a href="https://hr365docs.github.io/HR365_Product/sharepoint-employee-onboarding/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <a href="./sharepoint-employee-onboarding/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
               
                 <i class="ti-package icon text-primary d-block mb-4"></i>
               
@@ -465,7 +490,7 @@
                 <p class="mb-4">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam.</p>
                 
                   
-                    <a href="/HR365_Product/contact/" class="btn btn-primary contactbtn">Contact Support</a>
+                    <a href="./contact/" class="btn btn-primary contactbtn">Contact Support</a>
                   
                 
               </div>
