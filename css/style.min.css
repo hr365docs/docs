@@ -1459,6 +1459,7 @@ section .container{
     display: none;
   }
   .card-link[aria-expanded="true"] i{
+    margin-top: 18px;
     height: 2px;
     width: 15px;
     background-color: var(--primary-color) !important;
