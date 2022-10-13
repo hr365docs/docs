@@ -168,6 +168,9 @@ $(document).ready(function() {
         "<li  data-nav-id='../Records/' title='Image Profile Tag'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#image-profile-tag'>Image Profile Tag </a>" +
         "</li>" +
+        "<li  data-nav-id='../Records/' title='Custom Function'  class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#custom-function'>Custom Function</a>" +
+        "</li>" +
         "<li  data-nav-id='../Records/' title='Executive Assistant'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#executive-assistant'>Executive Assistant relationship </a>" +
         "</li>" +

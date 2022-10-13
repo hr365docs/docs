@@ -114,8 +114,15 @@
             Find advice and answers from our support team fast or get in touch
           </p>
           <div class="position-relative">
-            <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms" />
-            <i class="ti-search search-icon"></i>
+            <form class="banner_form" action="">
+
+              <input
+                id="search"
+                class="form-control"
+                placeholder="Have a question? Just ask here or enter terms"
+              />
+              <i class="ti-search search-icon"></i>
+            </form>
 
 
             <script>
@@ -319,17 +326,44 @@
                   // },
 
                 ];
-                $("#search").autocomplete({
-                  source: projects
-                })
-                  .data("ui-autocomplete")._renderItem = function (ul, item) {
-                    return $("<li>")
-                      .append("<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label)
-                      .appendTo(ul);
-                  };
-              });
-            </script>
-          </div>
+                $( "#search" ).autocomplete({
+          	source: projects
+          })
+          .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+            
+
+            
+          var input = document.querySelector('.banner_form input');
+
+            input.onkeyup = function(e) {
+            input_val = this.value; 
+            
+            let autocompleteitems= document.querySelectorAll(".autocomplete_items a");
+            for(let i=0; i<autocompleteitems.length; i++){
+                if(input_val==autocompleteitems[i].innerText){
+                  let geturl=document.querySelector('.banner_form');
+                  geturl.action=autocompleteitems[i].href
+                  document.querySelector('#search').click();
+                }
+            }
+          }
+           
+            
+            
+                      // variables
+        
+        
+        // events
+      
+        
+            return $( "<li class='autocomplete_items'>" )
+              .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
+              .appendTo( ul );
+            };
+            
+          });
+          
+        </script>          </div>
         </div>
       </div>
     </div>

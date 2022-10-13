@@ -14,7 +14,44 @@ $(document).ready(function () {
   "</a>"+
 
 "</li>"+
+"<li class='dropdownicon sidelist'>"+
+    "<a  class='qwe' href='/employee-performance-management/modern/admin/roles/'>"+
+       " Roles"+
+    " </a>"+
+    " <img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+"</li>"+
+"<li data-nav-id='./Settings/' title=Roles class='sidelist dropdown_romove_dot'>"+
+"<ul class='sidenavSub-topics aside_dropdown_list active'>"+
+"<ul>"+
+  
+   
+        "<li data-nav-id='./Email-Notification/' title=users class='sidelist'>"+
+       "<a href='./roles/#'>User</a>"+
+        "</li>"+
 
+        "<li data-nav-id='./Custom-Emails/' title=Manager class='sidelist'>"+
+           " <a href='./roles/#'>Manager</a>"+
+       " </li>"+
+
+       " <li data-nav-id='./User/' title='HR Executive' class='sidelist'>"+
+       "<a href='./roles/#'>HR Executive</a>"+
+        "</li>"+
+
+       "<li data-nav-id='./General-Settings/' title='HR Manager' class='sidelist'>"+
+            "<a href='./roles/#'>HR Manager </a>"+
+        "</li>"+
+        "<li data-nav-id='./General-Settings/' title='HR Head' class='sidelist'>"+
+        "<a href='./roles/#'>HR Head </a>"+
+   " </li>"+
+    "<li data-nav-id='./General-Settings/' title='HR Manager Admin' class='sidelist'>"+
+    "<a href='./roles/#'>HR Manager -Admin </a>"+
+"</li>"+
+"<li data-nav-id='./General-Settings/' title='HR Head Admin' class='sidelist'>"+
+"<a href='./roles/#'>HR Head – Admin </a>"+
+"</li>"+
+    "</ul>"+
+"</ul>"+
+"</li>"+
 "<li class='dropdownicon sidelist'>"+
     "<a  class='qwe' href='/employee-performance-management/modern/admin/administration/'>"+
        " Administartion"+
