@@ -7,13 +7,28 @@ $(document).ready(function () {
        " Introduction"+
    " </a>"+
 "</li>"+
+"<li data-nav-id='./Settings/' title='Architecture Diagram' class=sidelist>"+
+
+    "<a href='/employee-performance-management/modern/admin/architecture-diagram/'>"+
+        "Architecture Diagram"+
+  "</a>"+
+
+"</li>"+
 "<li data-nav-id='./Settings/' title='Home Page' class=sidelist>"+
 
-    "<a href='/employee-performance-management/modern/admin/home/'>"+
+    "<a href='/employee-performance-management/modern/admin/home-page/'>"+
         "Home Page"+
   "</a>"+
 
 "</li>"+
+"<li data-nav-id='./Settings/' title='Dashboard' class=sidelist>"+
+
+    "<a href='/employee-performance-management/modern/admin/dashboard/'>"+
+        "Dashboard"+
+  "</a>"+
+
+"</li>"+
+
 "<li class='dropdownicon sidelist'>"+
     "<a  class='qwe' href='/employee-performance-management/modern/admin/roles/'>"+
        " Roles"+
@@ -26,28 +41,28 @@ $(document).ready(function () {
   
    
         "<li data-nav-id='./Email-Notification/' title=users class='sidelist'>"+
-       "<a href='./roles/#'>User</a>"+
+       "<a href='/employee-performance-management/modern/admin/roles/#user'>User</a>"+
         "</li>"+
 
         "<li data-nav-id='./Custom-Emails/' title=Manager class='sidelist'>"+
-           " <a href='./roles/#'>Manager</a>"+
+           " <a href='/employee-performance-management/modern/admin/roles/#manager'>Manager(Employee's Manger)</a>"+
        " </li>"+
 
        " <li data-nav-id='./User/' title='HR Executive' class='sidelist'>"+
-       "<a href='./roles/#'>HR Executive</a>"+
+       "<a href='/employee-performance-management/modern/admin/roles/#hr-executive-dashboard'>HR Executive-Dashboard</a>"+
         "</li>"+
 
        "<li data-nav-id='./General-Settings/' title='HR Manager' class='sidelist'>"+
-            "<a href='./roles/#'>HR Manager </a>"+
+            "<a href='/employee-performance-management/modern/admin/roles/#hr-manager-dashboard'>HR Manager-Dashboard </a>"+
         "</li>"+
         "<li data-nav-id='./General-Settings/' title='HR Head' class='sidelist'>"+
-        "<a href='./roles/#'>HR Head </a>"+
+        "<a href='/employee-performance-management/modern/admin/roles/#hr-head-dashboard'>HR Head-Dashboard </a>"+
    " </li>"+
     "<li data-nav-id='./General-Settings/' title='HR Manager Admin' class='sidelist'>"+
-    "<a href='./roles/#'>HR Manager -Admin </a>"+
+    "<a href='/employee-performance-management/modern/admin/roles/#hr-manager-admin-dashboard'>HR Manager Admin-Dashboard </a>"+
 "</li>"+
 "<li data-nav-id='./General-Settings/' title='HR Head Admin' class='sidelist'>"+
-"<a href='./roles/#'>HR Head – Admin </a>"+
+"<a href='/employee-performance-management/modern/admin/roles/#hr-head-admin'>HR Head–Admin </a>"+
 "</li>"+
     "</ul>"+
 "</ul>"+
@@ -82,8 +97,8 @@ $(document).ready(function () {
            " </li>"+
 
             "<li data-nav-id='./General-Settings/' title='Role Template' class='sidelist'>"+
-            "<a href='/employee-performance-management/modern/admin/administration/#role-template'>"+
-           " Role Template"+
+            "<a href='/employee-performance-management/modern/admin/administration/#add-kra'>"+
+           " KRA Template"+
                    " </a>"+
            " </li>"+
         "</ul>"+
