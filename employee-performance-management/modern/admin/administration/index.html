@@ -99,24 +99,22 @@
 
                                 <ul type="">
                                     <li>
-                                        <a href="../feedback/#users">Users</a>
+                                        <a href="/employee-performance-management/modern/admin/administration/#users">Users</a>
                                     </li>
                                     <li>
-                                        <a href="../feedback/#given">Categories</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="../feedback/#action">KRA</a>
+                                        <a href="/employee-performance-management/modern/admin/administration/#categories">Categories</a>
                                     </li>
 
                                     <li>
-                                        <a href="../feedback/#feedback-request">KRA Template</a>
+                                        <a href="/employee-performance-management/modern/admin/administration/#kra">KRA</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/employee-performance-management/modern/admin/administration/#role-template">Role Template</a>
                                     </li>
 
                                 </ul>
 
-                                <img src="../../user/" onclick="openModal('selfreview.png')"
-                                    alt="" width="100%">
 
 
                         </div>
@@ -130,8 +128,11 @@
                                 Add users feature could be used to add single users. Clients/ Admin can use the primary key like email id and insert the user from the autosuggestion. The profile of the individual is auto-populated from M365, if the profile exists on M365, admin can select the role and add or update the user’s details, and save the file using the save button.
                             </p>
 
-                            <img src="feedbackrequest.png" onclick="openModal('feedbackrequest.png')" alt=""
+                            <img src="user_panel.png" onclick="openModal('user_panel.png')" alt=""
                                 width="100%">
+<br><br>
+<img src="add_user.png" onclick="openModal('add_user.png')" alt=""
+width="100%">
 
                             <br>
                             <br>
@@ -140,13 +141,14 @@
                             </p>
                             <br>
                             <br>
-                            <img src="requestpanel.png" onclick="openModal('requestpanel.png')" alt="" width="100%">
+                            <img src="bulk_add.png" onclick="openModal('bulk_add.png')" alt="" width="100%">
                             <br>
                             <br>
                             <p><b>Full Sync from M365</b>: The O365 users can be synced or integrated into the application by clicking on the FULL SYNC button.</p>
-
-                            <img src="requestsubmit.png" onclick="openModal('requestsubmit.png')" alt="" width="100%">
-                            <img src="requestsubmit.png" onclick="openModal('requestsubmit.png')" alt="" width="100%">
+<div>
+                            <img src="user_setting.png" onclick="openModal('user_setting.png')" alt="" width="100%">
+                        </div><br>
+                           <div> <img src="setting_save.png" onclick="openModal('setting_save.png')" alt="" width="100%"></div><br>
                             <p>
                                <b> Delta sync from M365</b>: Changes made in O365 can be synced or updated in the application by clicking on Delta sync button.
                             </p>
@@ -163,8 +165,9 @@
                                 <div class="paragraph">
                                     <p> 
                                         Add categories whose sum of weightage should be equal to 100 (total weightage).
+                                      
                                         </p>
-                                   
+                                        <div> <img src="categories.png" onclick="openModal('categories.png')" alt="" width="100%"></div><br>
                                     
                                     
                                 </div>
@@ -186,26 +189,22 @@
    <b>Bulk KRA</b> :Using Bulk add option-Multiple KRA can be uploaded to the platform using CSV files. To add users in bulk users, download the sample file and update the details as per the specified format, finally, the file could be uploaded.
 </p>
 <p><b>Export</b> You can export the KRAs into an excel sheet by clicking on the export button.</p>
-                            <img src="givendata.png" onclick="openModal('givendata.png')" alt="" width="100%">
-                            <img src="givendata.png" onclick="openModal('givendata.png')" alt="" width="100%">
+                            <div><img src="kra.png" onclick="openModal('kra.png')" alt="" width="100%"></div><br>
+                            <div> <img src="add_kra.png" onclick="openModal('add_kra.png')" alt="" width="100%"></div>
 
                         </div>
 
 
-                        <div class="bg-light p-4 common-scroll" id="add-kra">
-                            <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Add KRA Template
+                        <div class="bg-light p-4 common-scroll" id="role-template">
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Role Template
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
                             <p>
-                                Admin can create KRA templates based on the job titles. These KRAs are assigned to users based on their job titles at their appraisal cycle.
-                            </p><br>
-
-
-                          
+                                Admin can create Role templates based on the job titles. These KRAs are assigned to users based on their job titles at their appraisal cycle.
+                            </p>
                             <br>
-                            <br>
-                            <p>To add or create the KRA template, Insert the name and description, select the job tiles, select or choose the KRAs which are related to the job tiles and click on the next button. Chose the KRA in each category and finally click on the save button. </p>
-                            <img src="feedbackform.png" onclick="openModal('feedbackform.png')" alt="" width="100%">
+                            <p>To add or create the Role template, Insert the name and description, select the job tiles, select or choose the KRAs which are related to the job tiles and click on the next button. Chose the KRA in each category and finally click on the save button. </p>
+                            <img src="add_role.png" onclick="openModal('add_role.png')" alt="" width="100%">
                             <p>
 
                             </p>
@@ -219,9 +218,9 @@
 
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                     <nav class="pagination mt-3">
-                        <a class="nav nav-prev" href="../self-review/" aria-label="Previous page"><i
-                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Self Review</span></a>
-
+                        <a class="nav nav-prev" href="../roles/" aria-label="Previous page"><i
+                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Roles</span></a>
+                                <a class="nav nav-next " href="../settings/" aria-label="Previous page"> <span class="d-none d-md-block">Settings</span><i class="ti-arrow-right ml-2"></i></a>
                     </nav>
                 </div>
             </div>

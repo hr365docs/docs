@@ -28,6 +28,14 @@ $(document).ready(function () {
   "</a>"+
 
 "</li>"+
+"</li>"+
+"<li data-nav-id='./Settings/' title='Appraisal Cycle Process' class=sidelist>"+
+
+    "<a href='/employee-performance-management/modern/admin/appraisal-cycle/'>"+
+        "Appraisal Cycle Process"+
+  "</a>"+
+
+"</li>"+
 
 "<li class='dropdownicon sidelist'>"+
     "<a  class='qwe' href='/employee-performance-management/modern/admin/roles/'>"+
@@ -97,8 +105,8 @@ $(document).ready(function () {
            " </li>"+
 
             "<li data-nav-id='./General-Settings/' title='Role Template' class='sidelist'>"+
-            "<a href='/employee-performance-management/modern/admin/administration/#add-kra'>"+
-           " KRA Template"+
+            "<a href='/employee-performance-management/modern/admin/administration/#role-template'>"+
+           " Role Template"+
                    " </a>"+
            " </li>"+
         "</ul>"+
