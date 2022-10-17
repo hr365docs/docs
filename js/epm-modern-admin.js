@@ -37,13 +37,13 @@ $(document).ready(function () {
 
 "</li>"+
 
-"<li class='dropdownicon sidelist'>"+
+"<li class='dropdownicon sidelist' title='Roles'>"+
     "<a  class='qwe' href='/employee-performance-management/modern/admin/roles/'>"+
        " Roles"+
     " </a>"+
     " <img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
 "</li>"+
-"<li data-nav-id='./Settings/' title=Roles class='sidelist dropdown_romove_dot'>"+
+"<li data-nav-id='./Settings/'  class='sidelist dropdown_romove_dot'>"+
 "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
 "<ul>"+
   
@@ -75,13 +75,13 @@ $(document).ready(function () {
     "</ul>"+
 "</ul>"+
 "</li>"+
-"<li class='dropdownicon sidelist'>"+
+"<li class='dropdownicon sidelist' title=Administartion>"+
     "<a  class='qwe' href='/employee-performance-management/modern/admin/administration/'>"+
        " Administartion"+
     " </a>"+
     " <img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
 "</li>"+
-"<li data-nav-id='./Settings/' title=Administartion class='sidelist dropdown_romove_dot'>"+
+"<li data-nav-id='./Settings/'  class='sidelist dropdown_romove_dot'>"+
 
     "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
         
@@ -115,14 +115,14 @@ $(document).ready(function () {
 
 
    
-"<li class='dropdownicon sidelist'>"+
+"<li class='dropdownicon sidelist' title=Settings>"+
     "<a  class='qwe' href='/employee-performance-management/modern/admin/settings/'>"+
         "Settings"+
     "</a>"+
     "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
 "</li>"+
 
-"<li data-nav-id='./Settings/' title=Settings class='sidelist dropdown_romove_dot'>"+
+"<li data-nav-id='./Settings/'  class='sidelist dropdown_romove_dot'>"+
     "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
         
        " <ul>"+

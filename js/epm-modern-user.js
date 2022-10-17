@@ -13,14 +13,14 @@ $(document).ready(function () {
     "</a>"+  
 "</li>"+
 
-"<li class='dropdownicon sidelist'>"+
+"<li class='dropdownicon sidelist' title='Self Review'>"+
 "<a class='qwe' href='/employee-performance-management/modern/user/self-review/'>"+
     "Self Review"+
     "</a>"+ 
     "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
 "</li>"+
 
-"<li data-nav-id='./installation/requirments/' title='Self Review'class='sidelist dropdown_romove_dot'>"+
+"<li data-nav-id='./installation/requirments/' class='sidelist dropdown_romove_dot'>"+
     
     
     "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
@@ -30,7 +30,7 @@ $(document).ready(function () {
             "</a>"+
             "</li>"+
 
-            "<li data-nav-id='../General' title=' Summary and Plan'  class=sidelist>"+
+            "<li data-nav-id='../General' title='Summary and Plan'  class=sidelist>"+
                 "<a href='/employee-performance-management/modern/user/self-review/#summary-and-plan'>"+
                     "Summary and Plan"+
                   "</a>"+
@@ -41,13 +41,13 @@ $(document).ready(function () {
 "</li>"+
 
 
-"<li class='dropdownicon sidelist'>"+
+"<li class='dropdownicon sidelist' title='360 Feedback'>"+
     "<a class='qwe' href='/employee-performance-management/modern/user/feedback/'>"+
         "360 Feedback"+
      "</a>"+ 
     "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
 "</li>"+
-"<li data-nav-id='./installation/requirments/' title='360 Feedback' class='sidelist dropdown_romove_dot'>"+
+"<li data-nav-id='./installation/requirments/'  class='sidelist dropdown_romove_dot'>"+
    
         
     "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
