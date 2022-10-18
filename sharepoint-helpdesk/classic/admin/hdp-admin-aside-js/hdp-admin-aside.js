@@ -63,11 +63,17 @@ $(document).ready(function () {
         "</li>"+
         "<li data-nav-id='./Email-Notification/' title=Theme class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#theme'>Theme</a>"+
+        "<li data-nav-id='./Email-Notification/' title='Teams Option' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#teams-option'>Teams Option on New Ticket Form</a>"+
+                                                                    "</li>"+
         "</li><li data-nav-id='./Column-Setting/' title='Display Resolved Tab On Homepage' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#display-resolved'>Display Resolved Tab on Home Page</a>"+
         "</li>"+
         "<li data-nav-id='./Dashboard-Settings/' title='Display Help Page' Help Page class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#display-help'> Display Help Page</a>"+
+        "</li>"+
+        "<li data-nav-id='./Dashboard-Settings/' title='SharePoint Site Collection Home Link' Help Page class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#sharepoint-site-link'>SharePoint Site Collection Home Link</a>"+
         "</li>"+
         "<li data-nav-id='./Add Assets/ ' title='Open Tickets in New Tab' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
