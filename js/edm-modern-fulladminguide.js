@@ -165,8 +165,13 @@ $(document).ready(function() {
         "<li  data-nav-id='../Records/' title='Custom fields'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#custom-fields'>Custom fields </a>" +
         "</li>" +
+        " <li  data-nav-id='../Records/' title='Extend Custom Field' class='sidelist '>"+
+        " <a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#extend-custom-field'>Extend custom fields search capability </a>"+
+
+        
+       "  </li>"+
        " <li  data-nav-id='../Records/' title='Mobile Search' class='sidelist '>"+
-                           " <a href='../../../sharepoint-employee-directory/modern/admin/settings/advanced/#extend-mobile-number'>Extend mobile number and phone number search capability </a>"+
+                           " <a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#extend-mobile-number'>Extend mobile number and phone number search capability </a>"+
 
                            
                           "  </li>"+
