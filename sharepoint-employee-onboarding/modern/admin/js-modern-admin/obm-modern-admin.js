@@ -9,7 +9,9 @@ $(document).ready(function() {
         "<li data-nav-id='../Exclude-Options/' title='Home Page' class=sidelist>"+
         "<a href='/sharepoint-employee-onboarding/modern/admin/home/'> Home Page </a>"+
         "</li>"+
-
+        "<li data-nav-id='../Exclude-Options/' title='Dashboard' class=sidelist>"+
+        "<a href='/sharepoint-employee-onboarding/modern/admin/dashboard/'>Dashboard</a>"+
+        "</li>"+
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title='Access requirements' class='sidelist'>"+
         "<a href='/sharepoint-employee-onboarding/modern/admin/access-requirements/'> Access requirements </a>"+
         "</li>"+
