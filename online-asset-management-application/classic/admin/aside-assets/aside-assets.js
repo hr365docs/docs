@@ -145,8 +145,8 @@ $(document).ready(function() {
                             "<li data-nav-id='./Dashboard-Settings/' title='Add Deleted Assets' class='sidelist'>"+
                             "<a href='/online-asset-management-application/classic/admin/administration/#add-deleted-assets'>Add Deleted Assets</a>"+
                             "</li>"+
-                            "<li data-nav-id='./Dashboard-Settings/' title='Add Acknowledgement Status' class='sidelist'>"+
-                            "<a href='/online-asset-management-application/classic/admin/administration/#acknowledgement-status'>Add Acknowledgement Status</a>"+
+                            "<li data-nav-id='./Dashboard-Settings/' title='Add Acknowledgment Status' class='sidelist'>"+
+                            "<a href='/online-asset-management-application/classic/admin/administration/#acknowledgement-status'>Add Acknowledgment Status</a>"+
                              "</li>"+
                              "<li data-nav-id='./Dashboard-Settings/' title='Add Equipments' class='sidelist'>"+
                              "<a href='/online-asset-management-application/classic/admin/administration/#add-equipments'>Add Equipments</a>"+ 
