@@ -137,6 +137,9 @@ $(document).ready(function() {
            "<li data-nav-id='../General' title=Offboarded class='sidelist'>"+
            "<a href='/sharepoint-employee-onboarding/modern/admin/process/#offboarded'> Offboarded </a>"+
            "</li>"+
+           "<li data-nav-id='../General' title=Training class='sidelist'>"+
+           "<a href='/sharepoint-employee-onboarding/modern/admin/process/#training'>Training</a>"+
+           "</li>"+
            "</ul>"+
            "<li data-nav-id='../General' title=Help class='sidelist'>"+
            "<a href='/sharepoint-employee-onboarding/modern/admin/help/'>Help</a>"+

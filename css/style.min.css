@@ -693,7 +693,7 @@ code {
 }
 
 .back-btn {
-    position: relative
+    position:absolute;
 }
 
 .back-btn::before {
