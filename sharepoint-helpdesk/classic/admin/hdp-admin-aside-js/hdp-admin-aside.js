@@ -89,6 +89,9 @@ $(document).ready(function () {
         "<li data-nav-id='./Dashboard-Settings/' title=Brand Logo class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#brand-logo'>Brand Logo</a>"+
         "</li>"+
+        "<li data-nav-id='./Dashboard-Settings/' title=Language class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#language'>Language</a>"+
+        "</li>"+
         "</li>"+
         "</li>"+
         "</ul>"+
