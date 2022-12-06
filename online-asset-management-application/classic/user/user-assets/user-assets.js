@@ -2,7 +2,7 @@ $(document).ready(function() {
     $("#userasidebar").html("");
     $("#userasidebar").append(
         "<ul> <li data-nav-id='./installation/requirments/' title='Introduction' class='sidelist'>"+
-        "<a href='/online-asset-management-application/classic/user/introduction/index.html'> Introduction </a>"+
+        "<a href='/online-asset-management-application/classic/user/introduction/'> Introduction </a>"+
         "</li>"+
         "<li data-nav-id='./Home-page' title='Getting Started' class='sidelist'>"+
         "<a href='/online-asset-management-application/classic/user/getting-started/'> Getting Started </a>"+
