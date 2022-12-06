@@ -1,5 +1,6 @@
 document.querySelectorAll("head link")[2].href=window.location.origin + "/images/headericon.png.ico"
 $(document).ready(function() {
+    document.getElementsByName("description")[0].content=document.title;
     $(".common-header").html(
         "<ul class='navbar-nav ml-auto headerstyle'>"+
     "</li>"+
