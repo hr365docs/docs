@@ -140,6 +140,9 @@ $(document).ready(function() {
            "<li data-nav-id='../General' title=Training class='sidelist'>"+
            "<a href='/sharepoint-employee-onboarding/modern/admin/process/#training'>Training</a>"+
            "</li>"+
+           "<li data-nav-id='../General' title=preboarding class='sidelist'>"+
+           "<a href='/sharepoint-employee-onboarding/modern/admin/process/#preboarding'>Preboarding</a>"+
+           "</li>"+
            "</ul>"+
            "<li data-nav-id='../General' title=Help class='sidelist'>"+
            "<a href='/sharepoint-employee-onboarding/modern/admin/help/'>Help</a>"+
