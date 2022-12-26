@@ -132,6 +132,10 @@
                 <br>
                 <li><b>Leave Notice in Advance:</b>&ensp; You can enter the number of days you want the leaves to applied in advance.</li>
                 <br>
+                <li><b>Show in calendar:</b>&ensp;Show/hide applied leaves on the calendar of apply leave form from the leave settings.</li>
+                <br>
+                <img src="show_cal.png" onclick="openModal('show_cal.png')" alt="" width="100%">
+              <br><br>
                 <li><b>Secondary Approver:</b>&ensp;You can select HR or manager of manager or any user as seconder approver. Select HR or MoM check box and enable switch. You can type person in people picker box, click on save button and enable switch.
                  If Fist approver (i.e., Manager of user) approve the leave request, request goes to second approver. 
                  <div class="notices note">
@@ -144,6 +148,10 @@
                  
                   </li>
                 <li> <b>Tertiary approver:</b> &ensp;You can select HR or manager of manager or any selected email id as tertiary approver</li>
+                <li><b>Import leaves:</b>&ensp;You can import leaves from the Leave Type Settings (Can add balance leaves of last year through the bulk import).</li>
+                <br>
+                <img src="import_leave.png" onclick="openModal('import_leave.png')" alt="" width="100%">
+              <br><br>
             </ol>
            
      
@@ -301,9 +309,9 @@ Casual Leaves = 24.
                <br>
                <img src="approver.png" onclick="openModal('approver.png')" alt="" width="100%">
                <br><br>
-               <li><h6>Calculate leaves based on hourly basis</h6>Here, you can calculate leaves in hourly basis. If you want to enable it, just select check box and click on save icon.</li>
+               <li><h6>Calculate partial leave</h6>Here, you can calculate partial leave (Can select the partial day on either an hourly basis or half/quarter-day from the advanced setting).</li>
                <br>
-               <img src="hourly.png" onclick="openModal('hourly.png')" alt="" width="100%">
+               <img src="calculate_partial.png" onclick="openModal('calculate_partial.png')" alt="" width="100%">
                <br><br>
                <li><h6>Second level approval for leave cancellation</h6>If this is enabled, If you want second-level approval for leave cancellation. </li>
                <br>
@@ -317,13 +325,21 @@ Casual Leaves = 24.
                <br>
                <img src="recurrence.png" onclick="openModal('recurrence.png')" alt="" width="100%">
                <br><br>
-               <li><h6>Color code in calendar by</h6>Here, you can define color in calendar bases on leave satus and leave type. If you want to enable it, just select check box and click on save icon.</li>
+               <li><h6>Color code in calendar by</h6>Here, you can define color in calendar bases on leave status and leave type. If you want to enable it, just select check box and click on save icon.</li>
                <br>
                <img src="color_c.png" onclick="openModal('color_c.png')" alt="" width="100%">
                <br><br>
                <li><h6>Leaves Reordering</h6>From here you can reorder the leave tabs of leave request form.</li>
                <br>
                <img src="color_code.png" onclick="openModal('color_code.png')" alt="" width="100%">
+               <br><br>
+               <li><h6>Language selection as browser default language</h6>Here, you can enable the toggle for the language selection as browser default language.</li>
+               <br>
+               <img src="language.png" onclick="openModal('language.png')" alt="" width="100%">
+               <br><br>
+               <li><h6>Language selection in case browser default language is not detected</h6>Here, you can select language in case browser default language is not detected</li>
+               <br>
+               <img src="language_select.png" onclick="openModal('language_select.png')" alt="" width="100%">
                <br><br>
                <li><h6>Email templates </h6>Here, you can conifure email notification body and add more placeholders.</li>
                <br>
@@ -347,6 +363,7 @@ Casual Leaves = 24.
            </ol>
 
         </div>
+  
         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                                 <nav class="pagination mt-3">
                                     <a class="nav nav-prev" href="../reports/"
