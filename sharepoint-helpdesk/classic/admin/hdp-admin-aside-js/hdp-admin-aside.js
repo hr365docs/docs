@@ -75,6 +75,9 @@ $(document).ready(function () {
         "<li data-nav-id='./Dashboard-Settings/' title='Display Help Page' Help Page class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#display-help'> Display Help Page</a>"+
         "</li>"+
+        "<li data-nav-id='./Dashboard-Settings/' title='Allow All to Comment on Tickets' Help Page class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#allow-comment-ticket'>Allow All to Comment on Tickets</a>"+
+        "</li>"+
         "<li data-nav-id='./Dashboard-Settings/' title='SharePoint Site Collection Home Link' Help Page class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/general/#sharepoint-site-link'>SharePoint Site Collection Home Link</a>"+
         "</li>"+
