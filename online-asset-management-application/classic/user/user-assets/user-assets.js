@@ -8,23 +8,23 @@ $(document).ready(function() {
         "<a href='/online-asset-management-application/classic/user/getting-started/'> Getting Started </a>"+
         "</li>"+
         "<li data-nav-id='./Home-page' title='Home Page' class='sidelist'>"+
-        "<a href='/online-asset-management-application/classic/user/homepage/'> Home Page </a>"+
+        "<a href='/online-asset-management-application/classic/user/home-page/'> Home Page </a>"+
         "</li>"+
 
         "<li class='dropdownicon sidelist'>"+
-        "<a class='qwe' href='/online-asset-management-application/classic/user/userinterface/'> User Interface </a>"+
+        "<a class='qwe' href='/online-asset-management-application/classic/user/user-interface/'> User Interface </a>"+
         "<img   class='imageIconmodernuser aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
         "</li>"+
         "<li data-nav-id='./installation/requirments/' title='User Interface' class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
           "<li data-nav-id='../General' title='My Assets' class='sidelist'>"+
-           "<a href='/online-asset-management-application/classic/user/userinterface/#my-assets'> My Assets </a>"+
+           "<a href='/online-asset-management-application/classic/user/user-interface/#my-assets'> My Assets </a>"+
             "</li>"+
             "<li data-nav-id='../General' title='Book Assets' class='sidelist'>"+
-            "<a href='/online-asset-management-application/classic/user/userinterface/#book-assets'> Book Assets </a>"+
+            "<a href='/online-asset-management-application/classic/user/user-interface/#book-assets'> Book Assets </a>"+
              "</li>"+
              "<li data-nav-id='../General' title='Booking Details' class='sidelist'>"+
-             "<a href='/online-asset-management-application/classic/user/userinterface/#booking-details'> Booking Details </a>"+
+             "<a href='/online-asset-management-application/classic/user/user-interface/#booking-details'> Booking Details </a>"+
               "</li>"+
               "</ul>"+
                "</li>"+

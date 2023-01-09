@@ -19,7 +19,7 @@ $(document).ready(function () {
   
 
   "<li data-nav-id='../Exclude-Options/' title='Exclude Options' class='sidelist'>"+
-      "<a href='/sharepoint-employee-directory/modern/admin/settings/excludeoptions/'>"+
+      "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/'>"+
           "Exclude Options"+
       "</a>"+
   "</li>"+

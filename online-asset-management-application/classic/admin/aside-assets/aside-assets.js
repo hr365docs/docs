@@ -9,7 +9,7 @@ $(document).ready(function() {
     "<a href='/online-asset-management-application/classic/admin/architecture-diagram/'> Architecture Diagram </a>"+
     "</li>"+
     "<li data-nav-id='./Settings/' title='Home Page' class='sidelist'>"+
-    "<a href='/online-asset-management-application/classic/admin/homepage/'> Home Page </a>"+
+    "<a href='/online-asset-management-application/classic/admin/home-page/'> Home Page </a>"+
     "</li>"+
 
     
