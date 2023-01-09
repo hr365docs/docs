@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
         "title=' Profile Card' class=sidelist>" +
-        "<a href='/sharepoint-employee-directory/modern/admin/profilecard/'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/profile-card/'>" +
         "Profile Card" +
         "</a>" +
         "</li>" +
