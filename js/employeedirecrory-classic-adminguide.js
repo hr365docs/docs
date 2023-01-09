@@ -9,7 +9,7 @@ $(document).ready(function() {
         "<li>" +
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
         "title='Architecture Diagram' class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/classic/admin/architecturediagram/'>" +
+        "<a href='/sharepoint-employee-directory/classic/admin/architecture-diagram/'>" +
         "Architecture Diagram" +
         "</a>" +
         "<li>" +
