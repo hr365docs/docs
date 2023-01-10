@@ -26,16 +26,16 @@ $(document).ready(function() {
 
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
         "title=Home class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/classic/user/user-interface/#userhomepage'>Home Page</a>" +
+        "<a href='/sharepoint-employee-directory/classic/user/user-interface/#user-home-page'>Home Page</a>" +
         "</li>" +
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
         "title=Search class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/classic/user/user-interface/#usersearchpage'>Search</a>" +
+        "<a href='/sharepoint-employee-directory/classic/user/user-interface/#user-search-page'>Search</a>" +
 
         "</li>" +
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
         "title=Views class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/classic/user/user-interface/#userviewpage'>Views</a>" +
+        "<a href='/sharepoint-employee-directory/classic/user/user-interface/#user-view-page'>Views</a>" +
         "</li>" +
         "</ul>" +
         "</li>" +

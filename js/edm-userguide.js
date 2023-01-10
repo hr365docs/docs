@@ -25,7 +25,7 @@ $(document).ready(function () {
 
         "<ul class='ml-15 sidenavSub-topics aside_dropdown_list' id='modernuserguide'>"+
           "<li  class='sidelist' title=Home>"+
-            "<a href='/sharepoint-employee-directory/modern/user/user-interface/#homepage'>Home Page</a>"+
+            "<a href='/sharepoint-employee-directory/modern/user/user-interface/#home-page'>Home Page</a>"+
 
           "</li>"+
           

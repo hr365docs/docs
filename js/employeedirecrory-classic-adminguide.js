@@ -34,24 +34,24 @@ $(document).ready(function() {
         "<li class='setting_side_nav_bar '>" +
         "<ul id='settingsadmin' class='aside_dropdown_list' value='/sharepoint-employee-directory/classic/admin/'>" +
         "<li data-nav-id='../General' title=General class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/classic/admin/settings/#generalsetting'>" +
+        "<a href='/sharepoint-employee-directory/classic/admin/settings/#general-setting'>" +
         "General" +
         "</a>" +
         "</li>" +
         "<li data-nav-id='../Exclude-Options/' title= Exclude class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/classic/admin/settings/#excludesetting'>" +
+        "<a href='/sharepoint-employee-directory/classic/admin/settings/#exclude-options'>" +
         "Exclude Options" +
         "</a>" +
         "</li>" +
 
         "<li data-nav-id='../views/' title=Views class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/classic/admin/settings/#viewsetting'>" +
+        "<a href='/sharepoint-employee-directory/classic/admin/settings/#view-setting'>" +
         "Views" +
         "</a>" +
         "</li>" +
 
         "<li data-nav-id='../advanced/' title=Advanced class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/classic/admin/settings/#advancesetting'>" +
+        "<a href='/sharepoint-employee-directory/classic/admin/settings/#advanced-setting'>" +
         "Advanced" +
         "</a>" +
         "</li>" +

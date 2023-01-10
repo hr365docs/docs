@@ -28,11 +28,11 @@
 
         } */
         
-        #generalsetting.active {
+        #general-setting.active {
             padding-top: 80px!important;
         }
         
-        #generalsetting {
+        #general-setting {
             transition: 0.3s;
         }
     </style>
@@ -135,7 +135,7 @@ active">
                         </div>
 
 
-                        <div class="bg-light p-4 common-scroll" id="generalsetting">
+                        <div class="bg-light p-4 common-scroll" id="general-setting">
                             <ul class=page-list>
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="generalsettings">General Settings <i
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -183,7 +183,7 @@ active">
                             </div>
 
 
-                            <div class="bg-light p-4 common-scroll" id="excludesetting">
+                            <div class="bg-light p-4 common-scroll" id="exclude-options">
                                 <ul class=page-list>
                                     <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="excludesettings">Exclude Options<i class="fas fa-link"
                                     style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -204,7 +204,7 @@ active">
                             </div>
 
 
-                            <div class="bg-light p-4 common-scroll" id="viewsetting">
+                            <div class="bg-light p-4 common-scroll" id="view-setting">
                                 <ul class=page-list>
                                     <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="viewssettings">Views<i class="fas fa-link"
                                     style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -235,7 +235,7 @@ active">
                             </div>
 
 
-                            <div class="bg-light p-4 common-scroll" id="advancesetting">
+                            <div class="bg-light p-4 common-scroll" id="advanced-setting">
                                 <ul class=page-list>
                                     <h3 id="_dashboards"><a class="header-icon-link highlight" href=# name="advacncedsettings">Advanced <i class="fas fa-link"
                                     style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -389,7 +389,7 @@ active">
         window.addEventListener("load", () => {
             let style = document.querySelector(".aside_dropdown_list >.sidelist");
             style.addEventListener("click", () => {
-                let stylgenral = document.querySelector("#generalsetting");
+                let stylgenral = document.querySelector("#general-setting");
                 stylgenral.classList.toggle("active")
             })
         })

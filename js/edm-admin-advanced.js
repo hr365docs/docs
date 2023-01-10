@@ -47,7 +47,7 @@ $(document).ready(function () {
     "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#executive-assistant'>Executive Assistant relationship </a>"+
   "</li>"+
   "<li  data-nav-id='../Records/' title='Import non M365 users' class='sidelist'>"+
-    "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#import-nonM365-users'>Import non M365 users </a>"+
+    "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#import-non-M365-users'>Import non M365 users </a>"+
   "</li>")
                                            
                                         });

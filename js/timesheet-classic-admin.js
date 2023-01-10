@@ -32,7 +32,7 @@ $(document).ready(function () {
         "</li>"+
         "<ul class='aside_dropdown_list'>"+
             "<li data-nav-id='../General' title='Weekly' class=sidelist>"+
-                "<a href='/online-timesheet-software/classic/admin/timesheet/#weekly'>"+
+                "<a href='/online-timesheet-software/classic/admin/timesheet/#weekly-timesheets'>"+
                   "Weekly Timesheets"+
                   "</a>"+
                   "</li>"+
@@ -42,7 +42,7 @@ $(document).ready(function () {
                       "</a>"+
                   "</li>"+
                   "<li data-nav-id='../Exclude-Options/' title=Approval class=sidelist>"+
-                    "<a href='/online-timesheet-software/classic/admin/timesheet/#pending-weekly'>"+
+                    "<a href='/online-timesheet-software/classic/admin/timesheet/#pending-weekly-timesheets'>"+
                     "Pending Weekly Timesheets"+
                     "</a>"+
                 "</li>"+
