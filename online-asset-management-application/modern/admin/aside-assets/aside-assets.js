@@ -15,7 +15,7 @@ $(document).ready(function() {
     
     "<li class='dropdownicon sidelist'>"+
      "<a + href='/online-asset-management-application/modern/admin/assets/'> Assets </a>"+
-     "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/user-assets/down-arrow-svgrepo-com.svg'>"+
+     "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
      "</li>"+
      
      "<li data-nav-id='./Settings/' title='Assets'  class='sidelist dropdown_romove_dot'>"+
@@ -43,7 +43,7 @@ $(document).ready(function() {
            
               "<li class='dropdownicon sidelist'>"+
                "<a + href='/online-asset-management-application/modern/admin/consumable/'> Consumable </a>"+
-               "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/user-assets/down-arrow-svgrepo-com.svg'>"+
+               "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                "</li>"+
 
                "<li data-nav-id='./Settings/' title='Consumable'  class='sidelist dropdown_romove_dot'>"+
@@ -73,7 +73,7 @@ $(document).ready(function() {
                    
                      "<li class='settings-dropdown sidelist'> "+
                      "<a + href='/online-asset-management-application/modern/admin/settings/'> Settings </a>"+
-                     "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/user-assets/down-arrow-svgrepo-com.svg'>"+
+                     "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
 
                    "<li data-nav-id='./Settings/' title='Settings'  class='sidelist dropdown_romove_dot'>"+
@@ -101,7 +101,7 @@ $(document).ready(function() {
 
                        "<li class='dropdownicon sidelist'>"+
                         "<a  href='/online-asset-management-application/modern/admin/administration/'> Administration </a>"+
-                        "<img   class='helpdesk-img aside_dropdown_icon'  src='/online-asset-management-application/modern/user/user-assets/down-arrow-svgrepo-com.svg'>"+
+                        "<img   class='helpdesk-img aside_dropdown_icon'  src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                         "</li>"+
                         "<li data-nav-id='./Settings/' title='Administration' class='sidelist dropdown_romove_dot'>"+
                         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
