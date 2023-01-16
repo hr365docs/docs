@@ -128,9 +128,9 @@ $(document).ready(function() {
                          "<a href='/online-asset-management-application/classic/admin/administration/#add-vendor'>Add Vendor</a>"+
                          "</li>"+
                          "<li data-nav-id='./Dashboard-Settings/' title='Add_Catagory' class='sidelist'>"+
-                         "<a href='/online-asset-management-application/classic/admin/administration/#add-catagory'>Add Catagory</a>"+ 
+                         "<a href='/online-asset-management-application/classic/admin/administration/#add-catagory'>Add Category</a>"+ 
                          "</li>"+
-                         "<li data-nav-id='./Dashboard-Settings/' title='Add Sub Catagory' class='sidelist'>"+
+                         "<li data-nav-id='./Dashboard-Settings/' title='Add Sub Category' class='sidelist'>"+
                          "<a href='/online-asset-management-application/classic/admin/administration/#add-subcatagory'>Add Sub Cateogry</a>"+ 
                          "</li>"+
                         "<li data-nav-id='./Dashboard-Settings/' title='Add Location' class='sidelist'>"+
