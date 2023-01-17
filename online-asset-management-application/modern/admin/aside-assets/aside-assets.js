@@ -42,7 +42,7 @@ $(document).ready(function() {
               "</li>"+
            
               "<li class='dropdownicon sidelist'>"+
-               "<a + href='/online-asset-management-application/modern/admin/consumable/'> Consumable </a>"+
+               "<a  href='/online-asset-management-application/modern/admin/consumable/'> Consumable </a>"+
                "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                "</li>"+
 
@@ -71,34 +71,221 @@ $(document).ready(function() {
                     "</li>"+
 
                    
-                     "<li class='settings-dropdown sidelist'> "+
-                     "<a + href='/online-asset-management-application/modern/admin/settings/'> Settings </a>"+
-                     "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
+                    "<li class='dropdownicon sidelist'>"+
+                    "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/'>Settings</a>"+
+                    "<img class='helpdesk-img aside_dropdown_icon_setting' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
-
+            
                    "<li data-nav-id='./Settings/' title='Settings'  class='sidelist dropdown_romove_dot'>"+
-                   "<ul class='sidenavSub-topics aside_dropdown_list'>"+
-                     "<li data-nav-id='./User/' title='User' class='sidelist'>"+
-                     "<a href='/online-asset-management-application/modern/admin/settings/#user'>User</a>"+
-                     "</li>"+
-                     "<li data-nav-id='./General-Settings/' title='General Settings' class='sidelist'>"+
-                     "<a href='/online-asset-management-application/modern/admin/settings/#general-setting'>General Settings</a>"+
-                      "</li>"+
-                     "<li data-nav-id='./Email-Notification/' title='Email Notification' class='sidelist'>"+
-                     "<a href='/online-asset-management-application/modern/admin/settings/#email-notification'>Email Notification</a>"+ 
-                     "</li>"+
-                     "<li data-nav-id='./Custom-Emails/' title='Custom_Emails' class='sidelist'>"+ 
-                     "<a href='/online-asset-management-application/modern/admin/settings/#custom-email'>Custom Emails</a>"+ 
-                     "</li>"+
-                     "<li data-nav-id='./Column-Setting/' title='Column Setting' class='sidelist'>"+
-                     "<a href='/online-asset-management-application/modern/admin/settings/#column-setting'>Column Setting</a>"+
-                     "</li>"+
-                     "<li data-nav-id='./Dashboard-Settings/' title='Dashboard_Settings' class='sidelist'>"+
-                     "<a href='/online-asset-management-application/modern/admin/settings/#dashboard-setting'>Dashboard Settings</a>"+
-                      "</li>"+
-                       "</ul>"+
-                       "</li>"+
-
+                    "<ul class='sidenavSub-topics aside_dropdown_list_setting'>"+
+            
+                    "<li class='dropdownicon sidelist'>"+
+                    "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/general/'>General</a>"+
+                    "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
+                    "</li>"+
+                    "<li data-nav-id='./User/'  title=General  class='sidelist dropdown_romove_dot'>"+
+                    "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+            
+                    "<li data-nav-id='./General-Settings/' title='API Permissions' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/general/#api-permissions'>API Permissions</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Email-Notification/' title='Currency' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/general/#currency'>Currency</a>"+
+               
+                    "</li><li data-nav-id='./Column-Setting/' title='Date Format' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/general/#date-format'>Date Format</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Dashboard-Settings/' title='Asset ID Prefix' Help Page class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/general/#asset-id-prefix'>Asset ID Prefix</a>"+
+                    "</li>"+
+                   
+                    "<li data-nav-id='./Custom-Emails/' title='First Asset ID' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/general/#first-asset-id'>First Asset ID</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Assign-Assets/' title='Organization Name' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/general/#organization-name'>Organization Name</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Dashboard-Settings/' title='Email Template' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/general/#email-template'>Email Template</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Dashboard-Settings/' title='Email Notifications' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/general/#email-notifications'>Email Notifications</a>"+
+                    "</li>"+
+                   
+                    "</li>"+
+                    "</li>"+
+                    "</ul>"+
+            
+                   
+                    "<li class='dropdownicon sidelist'>"+
+                    "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/views'>Views</a>"+
+                    "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
+                    "</li>"+
+            
+                    "<li data-nav-id='../Admin-Guide/Administration/' title='Theme' class='sidelist dropdown_romove_dot'>"+
+                    "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+                    "<li data-nav-id='./Assign-Assets/' title='Theme' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#theme'>Theme</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Assign-Assets/' title=Projects While Assigning Assets class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#projects-while-assigning-assets'>Projects While Assigning Assets</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Assign-Assets/' title=Side Navigation Panel class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#side-navigation-panel'>Side Navigation Panel</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Assign-Assets/' title=WebPart Title class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#webpart-title'>WebPart Title </a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Assign-Assets/' title='Custom Webpart CSS' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#custom-webpart-css'>Custom Webpart CSS </a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Assign Assets and Return Assets Options' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#assign-assets-and-return-assets-options'>Assign Assets and Return Assets Options</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Column Views' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#column-views'>Column Views</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Dashboard Views' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#dashboard-views'>Dashboard Views</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Brand Logo' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"
+                   +
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#brand-logo'>Brand Logo</a>"+
+                    "</li>"+
+                 
+                    "</ul>"+
+                    "</li>"+
+            
+                    
+                    "<li class='helpdesk-dropdown sidelist' >"+
+                    "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/role/'>Users, Roles, Permissions</a>"+
+                    "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/' title='Users/Roles/Permissions' class='sidelist dropdown_romove_dot'>"+
+                    "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+                    "<li data-nav-id='./Assign-Assets/ ' title='Users' class='sidelist '>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/role/#users'>Users</a>"+
+                    "<li data-nav-id='./Assign-Assets/ ' title='Asset Manager to Add Assets' class='sidelist '>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/role/#asset-manager-to-add-assets'>Asset Manager to Add Assets</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Assign-Assets/' title='Asset Manager to Delete Assets' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/role/#asset-manager-to-delete-assets'>Asset Manager to Delete Assets</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Assign-Assets/' title='User to Book Assets' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/role/#user-to-book-assets'>User to Book Assets</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Assign-Assets/ ' title='User to Select Approver to Book Assets' class='sidelist '>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/role/#allow-user-to-select-approver'>Allow User to Select Approver</a>"+
+                    "</li>"+
+                    "</ul>"+
+                    "</li>"+
+            
+                   
+                    "<li class='dropdownicon sidelist'>"+
+                    "<a class='qwe'  href='/online-asset-management-application/modern/admin/settings/integration/'>Integrations</a>"+
+                    "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Integrations' class='sidelist dropdown_romove_dot'>"+
+                    "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+                    "<li data-nav-id='./Assign-Assets/ ' title='Intune' class='sidelist '>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/integration/#intune'>Intune</a>"+
+                    // "<li data-nav-id='./Add Assets/ ' title='Helpdesk Mailbox' class='sidelist '>"+
+                    // "<ul class='sidenavSub-topics '>"+
+                    // "</ul>"+
+                    // "<a href='/online-asset-management-application/modern/admin/settings/integration/#helpdesk-mailbox'>Helpdesk Mailbox</a>"+
+                    // "</li>"+
+                  
+                    // "<li data-nav-id='./Add Assets/ ' title='Integrate with HR365 Asset Management' class='sidelist '>"+
+                    // "<ul class='sidenavSub-topics '>"+
+                    // "</ul>"+
+                    // "<a href='/online-asset-management-application/modern/admin/settings/integration/#integrate'>Integrate with HR365 Asset Management</a>"+
+                    "</li>"+
+                    "</ul>"+
+                    "</li>"+
+            
+                   
+                    
+                    
+                    "<li class='dropdownicon sidelist'>"+
+                    "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/features/'>Features</a>"+
+                    "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Features' class='sidelist dropdown_romove_dot'>"+
+                    "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+                    "<li data-nav-id='./Assign-Assets/ ' title='Depreciation Method' class='sidelist '>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#depreciation-method'>Depreciation Method</a>"+
+                    "<li data-nav-id='./Add Assets/ ' title='System Generated Barcode' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#system-generated-barcode'>System Generated Barcode</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='External User'class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#external-user'>External User</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Retain Asset's Last Location' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#retain-assets-last-location'>Retain Asset's Last Location</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Assign Assets to Location' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#assign-assets-to-location'>Assign Assets to Location</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Assign Assets to Non M365 Users' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#assign-assets-to-Non-M365-users'>Assign Assets to Non M365 Users</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Advance Booking of Assets' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#advance-booking-of-assets'>Advance Booking of Assets</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Software' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#software'>Software</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Asset's Location' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#assets-location'>Asset's Location</a>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Camera Scanner' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#camera-scanner'>Camera Scanner</a>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Consumable Module' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#consumable-module'>Consumable Module</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Maintenance Module' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#maintenance-module'>Maintenance Module</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Asset Acknowledgement' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#asset-acknowledgement'>Asset Acknowledgement</a>"+
+                    "</li>"+
+                    "</li>"+
+                    "</li>"+
+                    "</ul>"+
+                    "</ul>"+
+                    "</li>"+
+                    "</ul>"+
                        "<li class='dropdownicon sidelist'>"+
                         "<a  href='/online-asset-management-application/modern/admin/administration/'> Administration </a>"+
                         "<img   class='helpdesk-img aside_dropdown_icon'  src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
@@ -139,18 +326,18 @@ $(document).ready(function() {
                           "<li data-nav-id='./Dashboard-Settings/' title='Add_Pickup_Location' class='sidelist'>"+
                           "<a href='/online-asset-management-application/modern/admin/administration/#add-pickup-location'>Add Pickup Location</a>"+
                            "</li>"+
-                           "<li data-nav-id='./Dashboard-Settings/' title='Add Search Index' class='sidelist'>"+
-                           "<a href='/online-asset-management-application/modern/admin/administration/#add-search-index'>Add Search Index</a>"+
-                            "</li>"+
+                          //  "<li data-nav-id='./Dashboard-Settings/' title='Add Search Index' class='sidelist'>"+
+                          //  "<a href='/online-asset-management-application/modern/admin/administration/#add-search-index'>Add Search Index</a>"+
+                          //   "</li>"+
                             "<li data-nav-id='./Dashboard-Settings/' title='Add Deleted Assets' class='sidelist'>"+
                             "<a href='/online-asset-management-application/modern/admin/administration/#add-deleted-assets'>Add Deleted Assets</a>"+
                             "</li>"+
                             "<li data-nav-id='./Dashboard-Settings/' title='Add Acknowledgment Status' class='sidelist'>"+
                             "<a href='/online-asset-management-application/modern/admin/administration/#acknowledgement-status'>Add Acknowledgment Status</a>"+
                              "</li>"+
-                             "<li data-nav-id='./Dashboard-Settings/' title='Add Equipments' class='sidelist'>"+
-                             "<a href='/online-asset-management-application/modern/admin/administration/#add-equipments'>Add Equipments</a>"+ 
-                            "</li>"+
+                            //  "<li data-nav-id='./Dashboard-Settings/' title='Add Equipments' class='sidelist'>"+
+                            //  "<a href='/online-asset-management-application/modern/admin/administration/#add-equipments'>Add Equipments</a>"+ 
+                            // "</li>"+
                              "</ul>"+
                              "</li>"+
 
@@ -169,9 +356,9 @@ $(document).ready(function() {
                               "<li data-nav-id='./Camera-Scanner/' title='Camera Scanner' class='sidelist'>"+
                               "<a href='/online-asset-management-application/modern/admin/camera-scanner/'> Camera Scanner </a>"+
                               "</li>"+
-                              "<li data-nav-id='./Barcode-Scanner/' title='Barcode Scanner' class='sidelist'>"+
-                               "<a href='/online-asset-management-application/modern/admin/barcode-scanner/'> Barcode Scanner </a>"+
-                               "</li>"+
+                              // "<li data-nav-id='./Barcode-Scanner/' title='Barcode Scanner' class='sidelist'>"+
+                              //  "<a href='/online-asset-management-application/modern/admin/barcode-scanner/'> Barcode Scanner </a>"+
+                              //  "</li>"+
                                "<li data-nav-id='./Depreciation/' title='Depreciation' class='sidelist'>"+
                                 "<a href='/online-asset-management-application/modern/admin/depreciation/'> Depreciation </a>"+
                                 "</li>"+
@@ -187,107 +374,3 @@ $(document).ready(function() {
     
 
 })
-// window.addEventListener("load", () => {
-
-//     // new page add padding onclick js code
-//     function getid() {
-//         var baseUrl = (window.location).href;
-//         var urlId = baseUrl.substring(baseUrl.lastIndexOf('#') + 1);
-//         let getid = document.getElementsByTagName("div");
-//         let getancher = document.getElementsByTagName("a");
-//         let countlenght = getancher.length
-//         for (let i = 0; i < countlenght; i++) {
-//             if (getid.length > i) {
-//                 if (urlId == getid[i].id) {
-//                     let id = getid[i];
-//                     id.classList.add("active")
-//                     id.setAttribute("style", "padding-top:80px!important");
-//                 }
-//             }
-//             // Active li in dropdown
-//             if (getid[0].baseURI == getancher[i].href) {
-//                 getancher[i].parentNode.classList.add("active")
-//                 let ancherparent =getancher[i].parentElement;
-//                 let activeItem = ancherparent.closest(".aside_dropdown_list");
-//             // Active ul in dropdown
-//                 if(activeItem){
-//                     activeItem.classList.add("active");
-//                     activeItem.setAttribute("style", "height:initial;opacity: 1;")
-
-//                     let getperentclass = ancherparent.closest(".aside_dropdown_list_setting")
-//                     if (getperentclass) {
-//                         getperentclass.classList.add("active")
-                        
-//                     }
-//                 } 
-//             }
-//         }
-//     }
-//     getid()
-
-//     // common onclick scroll js code 
-//     let commonscroll = document.querySelectorAll(".common-scroll")
-//     let dropdowmperent = document.querySelectorAll(".aside_dropdown_list");
-//     for (let i of dropdowmperent) {
-//         let dropdowminneritem = i.querySelectorAll(".aside_dropdown_list li");
-//         dropdowminneritem.forEach((element, index) => {
-//             element.addEventListener("click", () => {
-//                 for (let i of dropdowminneritem) {
-//                     i.classList.remove("active")
-//                     for (let j of commonscroll) {
-//                         j.classList.remove("active")
-//                         j.removeAttribute("style")
-//                     }
-//                 }
-//                 element.classList.add("active")
-//                 commonscroll[index].classList.add("active")
-//                 commonscroll[index].setAttribute("style", "padding-top:80px!important")
-//             })
-//         })
-//     }
-
-//     // Dropdown js Code
-//     let dropdowmitems = document.querySelectorAll(".aside_dropdown_icon");
-//     let dropdowmlist = document.querySelectorAll(".aside_dropdown_list");
-
-//     for(let i=0; i<dropdowmlist.length; i++){
-//         if (dropdowmlist[i].getAttribute("style")=="height:initial;opacity: 1;") {
-//             dropdowmitems[i].classList.add("active")
-//         }
-//     }
-
-//     dropdowmitems.forEach((element, index) => {
-//         element.addEventListener("click", () => {
-//             let getheight = dropdowmlist[index].scrollHeight;
-//             let dropdowmlistactive = document.querySelector(".aside_dropdown_list.active")
-//             if (element.classList.contains("active")) {
-//                 element.classList.remove("active");
-//                 dropdowmlistactive.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
-//             } else {
-//                 for (let i of dropdowmitems) {
-//                     i.classList.remove("active"); 
-//                 }
-//                 for (let j of dropdowmlist) {
-//                     j.classList.remove("active");
-//                     j.setAttribute("style", "height:0px;overflow:hidden;opacity:0;")
-//                 }
-//                 element.classList.add("active");
-//                 localStorage.setItem("Dropdownstate",dropdowmlist[index])
-//                 dropdowmlist[index].classList.add("active")
-//                 dropdowmlist[index].setAttribute("style", `height:${getheight}px;opacity: 1;`)   
-//             }
-//         })
-//     })
-
-
-//     // Setting open dropdown js code
-//     if (document.querySelector(".aside_dropdown_icon_setting")) {
-//         let dropdownsetting = document.querySelector(".aside_dropdown_icon_setting");
-//         let dropdownitemssetting = document.querySelector(".aside_dropdown_list_setting");
-//         dropdownsetting.addEventListener("click", () => {
-//             dropdownsetting.classList.toggle("active")
-//             dropdownitemssetting.classList.toggle("active")
-//         })
-//     }
-
-// })
