@@ -11,6 +11,18 @@ p {
     color: var(--text-color);
     font-size: 15px
 }
+.iframe-upper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.iframe-txt {
+    color: #444 !important;
+    width:50%;
+}
+.iframe-video{
+    width: 415px;}
 
 h1,
 h2,
@@ -1815,5 +1827,21 @@ section .container{
             max-width: 90%;
         }
 }
+@media only screen and (max-width: 768px) {
 
+    .faq-list-sec .elementor-toggle-title{
+        font-size:2vw!important
+    }
+    .elementor-tab-content  p{
+            font-size: 1.8vw!important;
+        line-height: 2.5vw !important;
+    }
+    .iframe-video{
+        width: 100%;
+    }
+    .iframe-txt{
+        width: 100%;
+    }
+    
+    }
 
