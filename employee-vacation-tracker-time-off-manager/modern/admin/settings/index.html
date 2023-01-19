@@ -1,7 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title>Time-Off Manager | Admin | Settings</title>
+<title>Time-Off Manager 365 | Admin | Settings</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=generator content="Hugo 0.92.2">
 <meta name=description content="Time-Off Manager ">
@@ -58,7 +58,7 @@
     <div class=row>
     <div class=col-lg-3>
     <div class=sidebar>
-        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../employee-vacation-tracker-time-off-manager/">Time-Off Manager Classic </a></h5>
+        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../employee-vacation-tracker-time-off-manager/">Time-Off Manager 365 </a></h5>
     <a class=back-btn href="../../../../employee-vacation-tracker-time-off-manager/" aria-label=back></a>
     
     <ul class=list-styled>
@@ -66,7 +66,7 @@
         <a href="../../admin/">
         Admin Guide
         </a>
-        <div id="tmpclassicadmin" class="sidenavbarscrollstyle"></div>     
+        <div id="tmpmodernadmin" class="sidenavbarscrollstyle"></div>     
             </li>
         </ul>
     </li>
@@ -100,7 +100,7 @@
      
         </div>
 
-        <div class="bg-light p-4" id="organization">
+        <div class="bg-light p-4 common-scroll" id="organization">
             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Organizations
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
@@ -113,7 +113,7 @@
            
      
         </div>
-        <div class="bg-light p-4" id="leave-type-settings">
+        <div class="bg-light p-4 common-scroll" id="leave-type-settings">
             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Leaves Type Settings
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
@@ -156,7 +156,7 @@
            
      
         </div>
-        <div class="bg-light p-4" id="advance-settings">
+        <div class="bg-light p-4 common-scroll" id="advance-settings">
             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Advance Settings
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
@@ -224,18 +224,18 @@ Casual Leaves = 24.
                <img src="calculate.png" onclick="openModal('calculate.png')" alt="Leave calculate" width="100%">
                <br><br>
                
-               <li><h6>Date Format</h6>If you change the date format, it will update in entire application.</li>
+               <!-- <li><h6>Date Format</h6>If you change the date format, it will update in entire application.</li>
                <br>
                <img src="date_format.png" onclick="openModal('date_format.png')" alt="Date formate" width="100%">
-               <br><br>
-               <li><h6>Total Hours In Work Week</h6>Here, you can add total working hours in a week.</li>
+               <br><br> -->
+               <!-- <li><h6>Total Hours In Work Week</h6>Here, you can add total working hours in a week.</li>
                <br>
                <img src="total_hours.png" onclick="openModal('total_hours.png')" alt="Total hours" width="100%">
                <br><br>
                <li><h6> Work Week</h6>In this table add 0 in the cell for weekend. Leave calculation will be done based on working days.</li>
                <br>
                <img src="work_week.png" onclick="openModal('work_week.png')" alt="Work week" width="100%">
-               <br><br>
+               <br><br> -->
                <li><h6> Select The Leave Type To Carry Forward</h6>You can select the leave type and enter the number of leaves, which would be carried forward.</li>
                <br>
                <img src="carry_forward.png" onclick="openModal('carry_forward.png')" alt="Carry forward" width="100%">
@@ -268,11 +268,14 @@ Casual Leaves = 24.
             <br>
             <li>
                 <b>Level Based Leaves</b>: If this is enabled, level-based leaves and grades options 
-                    Will display under systems settings from where we have to first define grades for different job tile in grades then we have added leaves numbers for such grades from leave based option. 
+                    Will display under systems settings from where we have to first define grades for different job title in grades then we have added leaves numbers for such grades from leave based option. 
                     <br><br>
                <img src="level_base.png" onclick="openModal('level_base.png')" alt="Leave based" width="100%">
                <br><br>
+               <img src="grade_level.png" onclick="openModal('grade_level.png')" alt="grade level" width="100%">
+               <br>
             </li>
+
          
             <li>
                 Tenure Based Leaves: If this is enabled, second-level approval for leave cancellation will be available. By default, HR is the second-level approver for leave cancellation.
@@ -416,7 +419,7 @@ Casual Leaves = 24.
             <script src="../../../../../js/script.min.js"></script>
             <script src="../../../../js/header-footer.js"></script>
             <script src="../../../../js/showhidefunction.js"></script>
-            <script src="../../../../js/tmp-classic-adminguide.js"></script>
+            <script src="../../../../js/tmp-modern-adminguide.js"></script>
             <script>
                    function openModal(src) {
           
