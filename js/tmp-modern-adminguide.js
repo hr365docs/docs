@@ -55,17 +55,22 @@ $(document).ready(function () {
                         //     "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
                         //     "</div>"+
                             "<ul class='sidenavSub-topics aside_dropdown_list'>"+
-                                "<li data-nav-id='../user' title=user class='sidelist'>"+
+                            "<li data-nav-id='../user' title=General class='sidelist'>"+
+                            "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#general'>"+
+                            "General"+
+                            "</a>"+
+                            "</li>"+
+                                "<li data-nav-id='../user' title=Organization class='sidelist'>"+
                                     "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#organization'>"+
                                     "Organizations"+
                                     "</a>"+
                                     "</li>"+
-                                    "<li data-nav-id='../user' title=user class='sidelist'>"+
+                                    "<li data-nav-id='../user' title=Leave Settings class='sidelist'>"+
                                         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#leave-type-settings'>"+
                                         "Leave Settings"+
                                         "</a>"+
                                         "</li>"+
-                                        "<li data-nav-id='../user' title=user class='sidelist'>"+
+                                        "<li data-nav-id='../user' title=Advance Setting class='sidelist'>"+
                                             "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#advance-settings'>"+
                                             "Advance Settings"+
                                             "</a>"+
