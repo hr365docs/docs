@@ -17,7 +17,11 @@ $(document).ready(function () {
     "Home Page"+
     "</a>"+  
 "</li>"+
-
+"<li data-nav-id='./installation/requirments/' title='Reports' class=sidelist>"+
+    "<a href='/online-timesheet-software/classic/user/reports/'>"+
+    "Reports"+
+    "</a>"+  
+"</li>"+
 "<li data-nav-id='./installation/requirments/' title='User Interface' class=sidelist>"+
     "<a href='/online-timesheet-software/classic/user/user-interface/'>"+
     "User Interface"+
