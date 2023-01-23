@@ -1758,6 +1758,7 @@ section .container{
         .moblogo{
             width: 15%;
         }
+       
     }
 
     @media(min-width:576px) {
@@ -1780,7 +1781,7 @@ section .container{
             column-gap: 14px;
         }
 
-
+       
 
         .performancemainlogo{
             column-gap: unset;
