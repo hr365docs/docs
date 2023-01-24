@@ -71,12 +71,12 @@ $(document).ready(function() {
                     "</li>"+
 
                    
-                    "<li class='dropdownicon sidelist'>"+
+                    "<li class='dropdownicon sidelist' title='Settings'>"+
                     "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/'>Settings</a>"+
                     "<img class='helpdesk-img aside_dropdown_icon_setting' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
             
-                   "<li data-nav-id='./Settings/' title='Settings'  class='sidelist dropdown_romove_dot'>"+
+                   "<li data-nav-id='./Settings/'   class='sidelist dropdown_romove_dot'>"+
                     "<ul class='sidenavSub-topics aside_dropdown_list_setting'>"+
             
                     "<li class='dropdownicon sidelist'>"+
@@ -117,7 +117,7 @@ $(document).ready(function() {
                     "</ul>"+
             
                    
-                    "<li class='dropdownicon sidelist'>"+
+                    "<li class='dropdownicon sidelist' title='Views'>"+
                     "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/views'>Views</a>"+
                     "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
@@ -165,11 +165,11 @@ $(document).ready(function() {
                     "</li>"+
             
                     
-                    "<li class='helpdesk-dropdown sidelist' >"+
+                    "<li class='helpdesk-dropdown sidelist'title='Users/Roles/Permissions' >"+
                     "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/role/'>Users, Roles, Permissions</a>"+
                     "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
-                    "<li data-nav-id='./Add Assets/' title='Users/Roles/Permissions' class='sidelist dropdown_romove_dot'>"+
+                    "<li data-nav-id='./Add Assets/'  class='sidelist dropdown_romove_dot'>"+
                     "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                     "<li data-nav-id='./Assign-Assets/ ' title='Users' class='sidelist '>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/role/#users'>Users</a>"+
@@ -189,11 +189,11 @@ $(document).ready(function() {
                     "</li>"+
             
                    
-                    "<li class='dropdownicon sidelist'>"+
+                    "<li class='dropdownicon sidelist' title='Integrations'>"+
                     "<a class='qwe'  href='/online-asset-management-application/modern/admin/settings/integration/'>Integrations</a>"+
                     "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
-                    "<li data-nav-id='./Add Assets/ ' title='Integrations' class='sidelist dropdown_romove_dot'>"+
+                    "<li data-nav-id='./Add Assets/ '  class='sidelist dropdown_romove_dot'>"+
                     "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                     "<li data-nav-id='./Assign-Assets/ ' title='Intune' class='sidelist '>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/integration/#intune'>Intune</a>"+
@@ -214,11 +214,11 @@ $(document).ready(function() {
                    
                     
                     
-                    "<li class='dropdownicon sidelist'>"+
+                    "<li class='dropdownicon sidelist' title='Features'>"+
                     "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/features/'>Features</a>"+
                     "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
-                    "<li data-nav-id='./Add Assets/ ' title='Features' class='sidelist dropdown_romove_dot'>"+
+                    "<li data-nav-id='./Add Assets/ '  class='sidelist dropdown_romove_dot'>"+
                     "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                     "<li data-nav-id='./Assign-Assets/ ' title='Depreciation Method' class='sidelist '>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/features/#depreciation-method'>Depreciation Method</a>"+
@@ -286,11 +286,11 @@ $(document).ready(function() {
                     "</ul>"+
                     "</li>"+
                     "</ul>"+
-                       "<li class='dropdownicon sidelist'>"+
+                       "<li class='dropdownicon sidelist' title='Administration'>"+
                         "<a  href='/online-asset-management-application/modern/admin/administration/'> Administration </a>"+
                         "<img   class='helpdesk-img aside_dropdown_icon'  src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                         "</li>"+
-                        "<li data-nav-id='./Settings/' title='Administration' class='sidelist dropdown_romove_dot'>"+
+                        "<li data-nav-id='./Settings/'  class='sidelist dropdown_romove_dot'>"+
                         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                        
                          "<li data-nav-id='./User/' title='Custom Columns' class='sidelist'>"+
