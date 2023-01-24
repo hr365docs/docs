@@ -13,12 +13,12 @@ $(document).ready(function() {
     "</li>"+
 
     
-    "<li class='dropdownicon sidelist'>"+
+    "<li class='dropdownicon sidelist' title='Assets'>"+
      "<a + href='/online-asset-management-application/modern/admin/assets/'> Assets </a>"+
      "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
      "</li>"+
      
-     "<li data-nav-id='./Settings/' title='Assets'  class='sidelist dropdown_romove_dot'>"+
+     "<li data-nav-id='./Settings/'   class='sidelist dropdown_romove_dot'>"+
      "<ul class='sidenavSub-topics aside_dropdown_list'>"+
        "<li data-nav-id='./Email-Notification/' title='Add Assets' class='sidelist'>"+
        "<a href='/online-asset-management-application/modern/admin/assets/#add-assets'>Add Asset</a>"+
@@ -41,12 +41,12 @@ $(document).ready(function() {
               "</ul>"+
               "</li>"+
            
-              "<li class='dropdownicon sidelist'>"+
+              "<li class='dropdownicon sidelist' title='Consumable'>"+
                "<a  href='/online-asset-management-application/modern/admin/consumable/'> Consumable </a>"+
                "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                "</li>"+
 
-               "<li data-nav-id='./Settings/' title='Consumable'  class='sidelist dropdown_romove_dot'>"+
+               "<li data-nav-id='./Settings/'   class='sidelist dropdown_romove_dot'>"+
                "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                 "<li data-nav-id='./Dashboard-Settings/' title='Add Consumable Item' class='sidelist'>"+
                 "<a href='/online-asset-management-application/modern/admin/consumable/#add-consumable-item'>Add Consumable Item</a>"+
