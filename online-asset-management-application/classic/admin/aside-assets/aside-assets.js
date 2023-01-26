@@ -163,8 +163,8 @@ $(document).ready(function() {
                              "<li data-nav-id='./Dashboard/' title='Dashboard' class='sidelist'>"+ 
                              "<a href='/online-asset-management-application/classic/admin/dashboard/'> Dashboard </a>"+
                              "</li>"+
-                             "<li data-nav-id='./MS-Intune-Integration/' title='MS Intune Integration' class='sidelist'>"+
-                              "<a href='/online-asset-management-application/classic/admin/ms-intune-integration/'> MS Intune Integration </a>"+
+                             "<li data-nav-id='./MS-Intune-Integration/' title='Azure API Configuration' class='sidelist'>"+
+                              "<a href='/online-asset-management-application/classic/admin/azure-api-configuration/'>Azure API Configuration </a>"+
                               "</li>"+
                               "<li data-nav-id='./Camera-Scanner/' title='Camera Scanner' class='sidelist'>"+
                               "<a href='/online-asset-management-application/classic/admin/camera-scanner/'> Camera Scanner </a>"+
