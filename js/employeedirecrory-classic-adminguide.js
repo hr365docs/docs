@@ -56,6 +56,12 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
 
+        "<li data-nav-id='../advanced/' title='Azure API Configuration' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/classic/admin/settings/#azure-api-configuration'>" +
+        "Azure API Configuration" +
+        "</a>" +
+        "</li>" +
+
         "</ul>" +
         "</li>")
 
