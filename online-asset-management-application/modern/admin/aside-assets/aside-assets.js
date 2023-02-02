@@ -353,6 +353,9 @@ $(document).ready(function() {
                              "<li data-nav-id='./MS-Intune-Integration/' title='MS Intune Integration' class='sidelist'>"+
                               "<a href='/online-asset-management-application/modern/admin/ms-intune-integration/'> MS Intune Integration </a>"+
                               "</li>"+
+                              "<li data-nav-id='./MS-Intune-Integration/' title='API Permissions' class='sidelist'>"+
+                              "<a href='/online-asset-management-application/modern/admin/api-permissions/'>API Permissions</a>"+
+                              "</li>"+
                               "<li data-nav-id='./Camera-Scanner/' title='Camera Scanner' class='sidelist'>"+
                               "<a href='/online-asset-management-application/modern/admin/camera-scanner/'> Camera Scanner </a>"+
                               "</li>"+
