@@ -183,6 +183,9 @@ $(document).ready(function() {
         "<li  data-nav-id='../Records/' title='Executive Assistant relationship'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#executive-assistant'>Executive Assistant relationship </a>" +
         "</li>" +
+        "<li  data-nav-id='../Records/' title='Employee info page'  class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#employee-info-page'>Employee info page</a>" +
+        "</li>" +
         "<li  data-nav-id='../Records/' title='Import non M365 users' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#import-non-M365-users'>Import non M365 users </a>" +
         "</li>" +
