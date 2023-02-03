@@ -15,14 +15,14 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
 
-        "<li class='dropdownicon sidelist'>"+
+        "<li class='dropdownicon sidelist' title='Settings'>"+
         "<a href='/sharepoint-employee-directory/modern/admin/settings/'>" +
         "Settings" +
         "</a>" +
         "<img src='./down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
     "</li>"+
 
-        "<li data-nav-id='./Setting/' title=Settings class='sidelist dropdown_romove_dot'>" +
+        "<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
         // "<div class='dropdownicon'>" +
         // "<a href='/sharepoint-employee-directory/modern/admin/settings/'>" +
         // "Settings" +
@@ -33,13 +33,13 @@ $(document).ready(function() {
         "<ul class='sidenavSub-topics aside_dropdown_list_setting' value='settings'>" +
 
         "<ul id='modernadminmainsetting'>" +
-        "<li class='dropdownicon sidelist'>"+
+        "<li class='dropdownicon sidelist' title='General'>"+
         "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>" +
         "General" +
         "</a>" +
         "<img src='./down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>"+
-        "<li data-nav-id='../advanced/' title=General class='sidelist dropdown_romove_dot' >" +
+        "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
         // "<div class='dropdownicon'>" +
         // "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>" +
@@ -104,7 +104,7 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
 
-        "<li class='dropdownicon sidelist'>"+
+        "<li class='dropdownicon sidelist' title='Advanced'>"+
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>" +
         "Advanced" +
         "</a>" +
@@ -122,7 +122,7 @@ $(document).ready(function() {
 
         
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
-        "<li  data-nav-id='../advanced/' title='SharePoint API' class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#configure-permission'>Configure SharePoint API permissions</a>" +
         "</li>" +
         "<li  data-nav-id='../advanced/' title='Sync unlicensed users' class='sidelist'>" +
@@ -134,25 +134,25 @@ $(document).ready(function() {
         "<li  data-nav-id='../advanced/' title='Organizational Chart' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#organizational-chart'>Organizational Chart</a>" +
         "</li>" +
-        "<li  data-nav-id='../advanced/' title='profile images' class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='Sync employee profile images' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#sync-profile-image'>Sync employee profile images</a>" +
         "</li>" +
-        "<li  data-nav-id='../advanced/' title=' display mobile number' class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='Sync and display mobile number from azure' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#sync-mobile-number'>Sync and display mobile number from azure</a>" +
         "</li>" +
         "<li  data-nav-id='../advanced/' title=' User presence' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#user-presence'>User presence </a>" +
         "</li>" +
-        "<li  data-nav-id='../advanced/' title='Auto load' class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='Auto load instead load more button' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#auto-load'>Auto load instead load more button </a>" +
         "</li>" +
-        "<li  data-nav-id='../advanced/' title='Hide side navigation panel'  class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='Hide side navigation panel in SharePoint page'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#hide-navigation-panel'>Hide side navigation panel in SharePoint page  </a>" +
         "</li>" +
-        "<li  data-nav-id='../advanced/' title='Hide webpart title' class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='Hide webpart title in SharePoint page' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#hide-webpart-title'>Hide webpart title in SharePoint page  </a>" +
         "</li>" +
-        "<li  data-nav-id='../advanced/' title='Custom css for webpart' class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='Custom css for webpart to remove spaces' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#custom-css'>Custom css for webpart to remove spaces  </a>" +
         "</li>" +
         "<li  data-nav-id='../Records/' title='Records to load' class='sidelist'>" +
@@ -164,12 +164,12 @@ $(document).ready(function() {
         "<li  data-nav-id='../Records/' title='Custom fields'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#custom-fields'>Custom fields </a>" +
         "</li>" +
-        " <li  data-nav-id='../Records/' title='Extend Custom Field' class='sidelist '>"+
+        " <li  data-nav-id='../Records/' title='Extend custom fields search capability' class='sidelist '>"+
         " <a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#extend-custom-field'>Extend custom fields search capability </a>"+
 
         
        "  </li>"+
-       " <li  data-nav-id='../Records/' title='Mobile Search' class='sidelist '>"+
+       " <li  data-nav-id='../Records/' title='Extend mobile number and phone number search capability' class='sidelist '>"+
                            " <a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#extend-mobile-number'>Extend mobile number and phone number search capability </a>"+
 
                            
@@ -180,7 +180,7 @@ $(document).ready(function() {
         "<li  data-nav-id='../Records/' title='Custom Function'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#custom-function'>Custom Function</a>" +
         "</li>" +
-        "<li  data-nav-id='../Records/' title='Executive Assistant'  class='sidelist'>" +
+        "<li  data-nav-id='../Records/' title='Executive Assistant relationship'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#executive-assistant'>Executive Assistant relationship </a>" +
         "</li>" +
         "<li  data-nav-id='../Records/' title='Import non M365 users' class='sidelist'>" +
@@ -194,8 +194,7 @@ $(document).ready(function() {
 
         "</a>" +
         "</ul>" +
-        "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
-        "title=Help class=sidelist>" +
+        "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Help' class=sidelist>" +
         "<a href='/sharepoint-employee-directory/modern/admin/help/'>" +
         "Help" +
         "</a>" +
