@@ -1,21 +1,20 @@
 $(document).ready(function () {
     $("#edmmodernuserguide").html("");
 
-    $("#edmmodernuserguide").append("<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
-    "title=Introduction class=sidelist>"+
+    $("#edmmodernuserguide").append("<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title=Introduction class=sidelist>"+
     "<a href='/sharepoint-employee-directory/modern/user/introduction/'>"+
       "Introduction"+
     "</a>"+
     "</li>"+
     "<ul class='ml-15 sidenavSub-topics'>"+
-      "<li class='sidelist'>"+
+      "<li class='sidelist' title='Getting started'>"+
         "<a href='/sharepoint-employee-directory/modern/user/getting-started/'>Getting started</a>"+
       "</li>"+
-      "<li class='sidelist' title=Managing User Profile>"+
+      "<li class='sidelist' title='Managing User Profile'>"+
         "<a href='/sharepoint-employee-directory/modern/user/managing-user-profile/'>Managing User Profile</a>"+
       "</li>"+
 
-      "<li class='dropdownicon sidelist'>"+
+      "<li class='dropdownicon sidelist' title='User Interface'>"+
       "<a class='qwe' href='/sharepoint-employee-directory/modern/user/user-interface/'>User Interface</a>"+
       "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon''>"+
   "</li>"+
