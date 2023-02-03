@@ -13,7 +13,7 @@ $(document).ready(function() {
     "</li>"+
 
     
-    "<li class='dropdownicon sidelist'>"+
+    "<li class='dropdownicon sidelist' title='Assets'>"+
      "<a + href='/online-asset-management-application/classic/admin/assets/'> Assets </a>"+
      "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
      "</li>"+
@@ -41,7 +41,7 @@ $(document).ready(function() {
               "</ul>"+
               "</li>"+
            
-              "<li class='dropdownicon sidelist'>"+
+              "<li class='dropdownicon sidelist' title='Consumable'>"+
                "<a + href='/online-asset-management-application/classic/admin/consumable/'> Consumable </a>"+
                "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
                "</li>"+
@@ -71,7 +71,7 @@ $(document).ready(function() {
                     "</li>"+
 
                    
-                     "<li class='settings-dropdown sidelist'> "+
+                     "<li class='settings-dropdown sidelist' title='Settings'> "+
                      "<a + href='/online-asset-management-application/classic/admin/settings/'> Settings </a>"+
                      "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+
@@ -99,7 +99,7 @@ $(document).ready(function() {
                        "</ul>"+
                        "</li>"+
 
-                       "<li class='dropdownicon sidelist'>"+
+                       "<li class='dropdownicon sidelist' title='Administration'>"+
                         "<a  href='/online-asset-management-application/classic/admin/administration/'> Administration </a>"+
                         "<img   class='helpdesk-img aside_dropdown_icon'  src='/online-asset-management-application/classic/user/user-assets/down-arrow-svgrepo-com.svg'>"+
                         "</li>"+
@@ -115,10 +115,10 @@ $(document).ready(function() {
                          "<li data-nav-id='./Custom-Emails/' title='Add Status' class='sidelist'>"+
                          "<a href='/online-asset-management-application/classic/admin/administration/#add-status'>Add Status</a>"+
                          "</li>"+
-                         "<li data-nav-id='./Column-Setting/' title='Add_Asset_Type' class='sidelist'>"+
+                         "<li data-nav-id='./Column-Setting/' title='Add Asset Type' class='sidelist'>"+
                          "<a href='/online-asset-management-application/classic/admin/administration/#add-asset-type'>Add Asset Type</a>"+
                          "</li>"+
-                         "<li data-nav-id='./Dashboard-Settings/' title='Add_Project' class='sidelist'>"+
+                         "<li data-nav-id='./Dashboard-Settings/' title='Add Project' class='sidelist'>"+
                          "<a href='/online-asset-management-application/classic/admin/administration/#add-project'>Add Project</a>"+
                           "</li>"+
                          "<li data-nav-id='./Dashboard-Settings/' title='Add Model Number' class='sidelist'>"+
@@ -127,7 +127,7 @@ $(document).ready(function() {
                          "<li data-nav-id='./Dashboard-Settings/' title='Add Vendor' class='sidelist'>"+
                          "<a href='/online-asset-management-application/classic/admin/administration/#add-vendor'>Add Vendor</a>"+
                          "</li>"+
-                         "<li data-nav-id='./Dashboard-Settings/' title='Add_Catagory' class='sidelist'>"+
+                         "<li data-nav-id='./Dashboard-Settings/' title='Add Catagory' class='sidelist'>"+
                          "<a href='/online-asset-management-application/classic/admin/administration/#add-catagory'>Add Category</a>"+ 
                          "</li>"+
                          "<li data-nav-id='./Dashboard-Settings/' title='Add Sub Category' class='sidelist'>"+
@@ -136,7 +136,7 @@ $(document).ready(function() {
                         "<li data-nav-id='./Dashboard-Settings/' title='Add Location' class='sidelist'>"+
                          "<a href='/online-asset-management-application/classic/admin/administration/#add-location'>Add Location</a>"+
                           "</li>"+
-                          "<li data-nav-id='./Dashboard-Settings/' title='Add_Pickup_Location' class='sidelist'>"+
+                          "<li data-nav-id='./Dashboard-Settings/' title='Add Pickup Location' class='sidelist'>"+
                           "<a href='/online-asset-management-application/classic/admin/administration/#add-pickup-location'>Add Pickup Location</a>"+
                            "</li>"+
                            "<li data-nav-id='./Dashboard-Settings/' title='Add Search Index' class='sidelist'>"+
