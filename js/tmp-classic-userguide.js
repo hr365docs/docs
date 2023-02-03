@@ -19,7 +19,7 @@ $(document).ready(function () {
             "</a>"+
             "</li>"+
         
-        "<li data-nav-id='../ HR-actions' title= HR-actions class=sidelist>"+
+        "<li data-nav-id='../ HR-actions' title='User Interface' class=sidelist>"+
         "<a href='/employee-vacation-tracker-time-off-manager/classic/user/user-interface/'>"+
           "User Interface"+
         "</a>"+
