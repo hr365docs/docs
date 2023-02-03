@@ -7,20 +7,18 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
         "<li>" +
-        "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
-        "title='Architecture Diagram' class='sidelist'>" +
+        "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Architecture Diagram' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/classic/admin/architecture-diagram/'>" +
         "Architecture Diagram" +
         "</a>" +
         "<li>" +
-        "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/" +
-        "title=Users class=sidelist adminusers>" +
+        "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Users' class=sidelist adminusers>" +
         "<a href='/sharepoint-employee-directory/classic/admin/user/'>" +
         "Users" +
         "</a>" +
         "</li>" +
 
-        "<li class='dropdownicon sidelist'>"+
+        "<li class='dropdownicon sidelist' title='Settings'>"+
         "<a class='qwe' href='/sharepoint-employee-directory/classic/admin/settings/'>" +
         "<!-- <a href='#MainSettings'></a> -->" +
         "Settings" +
@@ -38,7 +36,7 @@ $(document).ready(function() {
         "General" +
         "</a>" +
         "</li>" +
-        "<li data-nav-id='../Exclude-Options/' title= Exclude class='sidelist'>" +
+        "<li data-nav-id='../Exclude-Options/' title= 'Exclude Options' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/classic/admin/settings/#exclude-options'>" +
         "Exclude Options" +
         "</a>" +
