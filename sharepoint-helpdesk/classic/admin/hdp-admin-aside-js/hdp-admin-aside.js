@@ -170,6 +170,11 @@ $(document).ready(function () {
         "</ul>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/ticket-customization/#ticket-aging-reports'>Ticket Aging Reports</a>"+
         " </li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Auto close Tickets' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/classic/admin/settings/ticket-customization/#reopen-tickets-on-reply'>Reopen Tickets on Reply</a>"+
+        "</li>"+
         "</ul>"+
         "</li>"+
 
