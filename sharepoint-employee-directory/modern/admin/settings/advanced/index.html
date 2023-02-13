@@ -494,6 +494,104 @@
 
 
             </div>
+            
+            <div class="bg-light p-4 common-scroll" id="">
+              <ul class=page-list>
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>How to make birth date and hire date property searchable in SharePoint People Search<i
+                      class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                </h2>
+                <p>The below configuration is for the “upcoming birthday and work anniversaries” feature that could be made searchable within SharePoint.</p>
+                <p><b>https://YourTenantName-admin.sharepoint.com</b></p>
+
+              <p>Before we begin, there are some basic prerequisites.</p>
+              <p><b>(a)</b>	This is applicable to Office 365 environments.</p>
+              <p><b>(b)</b>	Login user should be a SharePoint Admin to access the SharePoint admin center.</p><br>
+              <p><b>A.	How to make a birth date property searchable?</b></p>
+              <p>Go to the admin center with the below URL.</p>
+              <p><b>https://YourTenantName-admin.sharepoint.com</b></p>
+              <p>YourTenanatName – Replace your tenant’s name from the above URL.</p>
+              <p>Click on More features from the side navigation panel and search as mentioned in the below image.</p>
+                <br>
+                <p>
+                
+                <div><img src="search.png" onclick="openModal('search.png')" alt="Search" width="100%" height="auto"></div>
+                <br>
+
+                </p>
+                <p>Select the Manage search Scheme.</p>
+                <p>
+                
+                  <div><img src="search_scheme.png" onclick="openModal('search_scheme.png')" alt="search scheme" width="100%" height="auto"></div>
+                  <br>
+  
+                  </p>
+               <p>Search word “refi” in managed property search, all refinable date properties would be displayed, finally click on <b>RefinableDate00</b></p>
+               <p>
+                
+                <div><img src="refinable.png" onclick="openModal('refinable.png')" alt="refinable" width="100%" height="auto"></div>
+                <br>
+
+                </p>
+                <p>Scroll the page to bottom and search for Add a Mapping option, click on the same, finally you would be directed to crawl property selection.</p>
+                <p>
+                
+                  <div><img src="add_mapping.png" onclick="openModal('add_mapping.png')" alt="add mapping" width="100%" height="auto"></div>
+                  <br>
+  
+                  </p>
+                  <p>Now search for birthday as shown below:</p>
+                  <p>
+                
+                    <div><img src="find.png" onclick="openModal('find.png')" alt="find" width="100%" height="auto"></div>
+                    <br>
+    
+                    </p>
+                    <p>Select the <b>PeopleSPS Birthday</b> and click on OK button.</p>
+                    <p>
+                
+                      <div><img src="people_sp.png" onclick="openModal('people_sp.png')" alt="people sp" width="100%" height="auto"></div>
+                      <br>
+                      <div><img src="OK.png" onclick="openModal('OK.png')" alt="OK" width="100%" height="auto"></div>
+                      <br>
+                      </p>
+                      <p>Once the PeoplesPS Birthday mapped, finally click on OK button</p>
+                      <p>
+                        <div><img src="click_OK.png" onclick="openModal('click_OK.png')" alt="click OK" width="100%" height="auto"></div>
+                        <br>
+        </p>
+        <p>Search word “refi” in managed property search, this will list refinabledate properties then click on RefinableDate01</p>
+        <p>
+          <div><img src="refi2.png" onclick="openModal('refi2.png')" alt="refi2" width="100%" height="auto"></div>
+          <br>
+</p>
+<p>Scroll the page to bottom and search for Add a Mapping option, click on the same, finally you would be directed to crawl property selection</p>
+<p>
+  <div><img src="add_mapping.png" onclick="openModal('add_mapping.png')" alt="add mapping" width="100%" height="auto"></div>
+  <br>
+</p>
+<p>Search for Hire</p>
+<p>
+  <div><img src="Hire.png" onclick="openModal('Hire.png')" alt="Hire" width="100%" height="auto"></div>
+  <br>
+</p>
+<p>Select the PeopleSPS-HireDate and click on OK button.</p>
+<p>
+  <div><img src="hired.png" onclick="openModal('hired.png')" alt="hired" width="100%" height="auto"></div>
+  <br>
+</p>
+<p>Once the PeopleSPS-HireDate mapped, finally click on the OK button.</p>
+<p>
+  <div><img src="hired_ok.png" onclick="openModal('hired_ok.png')" alt="hired ok" width="100%" height="auto"></div>
+  <br>
+</p>
+<p>Once the birthday and hire date are mapped, please wait for 8 to 24 hours and You should be able to check the upcoming anniversaries feature in Employee Directory.</p>
+<!-- <p>
+  <div><img src="temp.png" onclick="openModal('temp.png')" alt="birthday template" width="100%" height="auto"></div>
+  <br>
+</p> -->
+
+
+            </div>
 
             <div class="bg-light p-4 common-scroll" id="custom-fields">
               <ul class=page-list>
