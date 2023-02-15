@@ -83,6 +83,9 @@ $(document).ready(function() {
         "<li  data-nav-id='../advanced/' title='Collaboration ' class='sidelist '>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#collaboration'>Collaboration </a>" +
         "</li>" +
+        "<li  data-nav-id='../advanced/' title='Organization name label' class='sidelist '>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#organization-name-label'>Organization name label </a>" +
+        "</li>" +
         "<li  data-nav-id='../advanced/' title='Custom link ' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#custom-link'>Custom link</a>" +
         "</li>" +
