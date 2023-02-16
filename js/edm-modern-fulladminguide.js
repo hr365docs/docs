@@ -107,7 +107,7 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
         "<li data-nav-id='../views/' title='Make user sortable' class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#make-user-sortabel'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#make-user-sortable'>" +
         "Make user sortable" +
         "</a>" +
         "</li>" +
