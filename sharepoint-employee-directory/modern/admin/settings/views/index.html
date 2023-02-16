@@ -135,7 +135,7 @@
                     <div><img src="save_.png" onclick="openModal('save_.png')" alt="sort by" width="100%" height="auto"></div>
 
                     </p><br>
-                    <p><b><u>How to make users sortable on the basis of preferred name (display name) property in the Employee Directory</u></b></p>
+                    <!-- <p><b><u>How to make users sortable on the basis of preferred name (display name) property in the Employee Directory</u></b></p>
                     <p>Navigate to Search schema from the below URL:</p>
                     <p><b>https://YourTenantName-admin.sharepoint.com/_layouts/15/searchadmin/ta_listmanagedproperties.aspx?level=tenant</b></p>
                     <p>YourTenantName- Replace your tenant’s name from the above URL.</p>
@@ -153,9 +153,40 @@
                 <p><div><img src="click_ok.png" onclick="openModal('click_ok.png')" alt="click ok" width="100%" height="auto"></div></p><br>
                 <p>Once we have mapped the crawling property, Click on the OK button to finish the mapping process.</p>
                 <p><div><img src="preffer_ok.png" onclick="openModal('preffer_ok.png')" alt="preffer ok" width="100%" height="auto"></div></p><br>
-                <p>Please wait for 8 to 24 hours and check the sorting display name in Employee Directory.</p>
+                <p>Please wait for 8 to 24 hours and check the sorting display name in Employee Directory.</p> -->
               </li>
                   <br>
+                  <div class="bg-light p-4 common-scroll" id="make-user-sortabel">
+                    <ul class=page-list>
+                      <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>How to make users sortable on the basis of preferred name (display name) property in the Employee Directory<i
+                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                      </h2>
+                   
+                      <p>Navigate to Search schema from the below URL:</p>
+                      <p><b>https://YourTenantName-admin.sharepoint.com/_layouts/15/searchadmin/ta_listmanagedproperties.aspx?level=tenant</b></p>
+                      <p>YourTenantName- Replace your tenant’s name from the above URL.</p>
+                      <p>Search PreferredName by clicking on the managed properties (on the top left side). PreferredName do not have a sortable set (Sort value is empty) as shown in the below image and hence in Employee Directory, the users with display names are not sortable. Here we have to map the PreferredName to RefinableString03 and make sorting executable in Employee Directory.</p>
+                      <div><img src="sort.png" onclick="openModal('sort.png')" alt="sort" width="100%" height="auto">
+                      </div><br>
+                      <p>Here we will pick an unmapped RefinableString03 property and map it to the PreferredName fields.</p>
+                      <p>Now search the refinablestring, all refinablestrings itinerary would be displayed, select and click on Refinablestring03, a search page would appear, please scroll at the bottom.</p>
+                   <p><div><img src="refineablestring.png" onclick="openModal('refineablestring.png')" alt="refineablestring" width="100%" height="auto"></div></p><br>
+                   <p><div><img src="property_name.png" onclick="openModal('property_name.png')" alt="property name" width="100%" height="auto"></div></p><br>
+                  <p>Click on Add a mapping option as shown in the below image, crawled property selection would pop-up.</p>
+                  <p><div><img src="add_map.png" onclick="openModal('add_map.png')" alt="app map" width="100%" height="auto"></div></p><br>
+                  <p>Now search the Preferredname, select on it and finally click on the OK button as shown below.</p>
+                  <p><div><img src="find.png" onclick="openModal('find.png')" alt="find" width="100%" height="auto"></div></p><br>
+                  <p><div><img src="click_ok.png" onclick="openModal('click_ok.png')" alt="click ok" width="100%" height="auto"></div></p><br>
+                  <p>Once we have mapped the crawling property, Click on the OK button to finish the mapping process.</p>
+                  <p><div><img src="preffer_ok.png" onclick="openModal('preffer_ok.png')" alt="preffer ok" width="100%" height="auto"></div></p><br>
+                  <p>Please wait for 8 to 24 hours and check the sorting display name in Employee Directory.</p>
+      
+      
+      
+      
+                    </ul>
+                  </div>
+                  
                   <li>
                     <p>
                       <b>User properties in grid view:</b> From here admin can set the properties in grid view as per
