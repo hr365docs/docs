@@ -1623,7 +1623,11 @@ section .container{
 @media only screen and (max-width:575px){
     .remove-padding{
         padding: 0px !important;
-}}
+}
+.ul_li_styles{
+    list-style-position: inside;
+}
+}
     @media(max-width:768px) {
 
         .navbar .navbar-brand {
