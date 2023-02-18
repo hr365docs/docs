@@ -1634,6 +1634,9 @@ section .container{
 .padding-left{
     padding: 0px !important;
 }
+.list-inside{
+    list-style-position: inside !important;
+}
 }
     @media(max-width:768px) {
 
