@@ -1637,6 +1637,9 @@ section .container{
 .list-inside{
     list-style-position: inside !important;
 }
+.heading-h3{
+    font-size: 22px !important;
+}
 }
     @media(max-width:768px) {
 
