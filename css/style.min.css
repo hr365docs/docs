@@ -1631,6 +1631,9 @@ section .container{
 .h2-heading{
     font-size: 25px;
 }
+.padding-left{
+    padding: 0px;
+}
 }
     @media(max-width:768px) {
 
