@@ -1701,7 +1701,10 @@ section .container{
     }
 
     @media(max-width:575px) {
-
+        .container{
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
         .assetsmainlogo{
             column-gap: 55px;
         }
