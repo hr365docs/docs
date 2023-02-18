@@ -83,6 +83,9 @@ $(document).ready(function() {
         "<li  data-nav-id='../advanced/' title='Collaboration ' class='sidelist '>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#collaboration'>Collaboration </a>" +
         "</li>" +
+        "<li  data-nav-id='../advanced/' title='Organization name label' class='sidelist '>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#organization-name-label'>Organization name label </a>" +
+        "</li>" +
         "<li  data-nav-id='../advanced/' title='Custom link ' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#custom-link'>Custom link</a>" +
         "</li>" +
@@ -101,6 +104,11 @@ $(document).ready(function() {
         "<li data-nav-id='../views/' title=Views class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/views/'>" +
         "Views" +
+        "</a>" +
+        "</li>" +
+        "<li data-nav-id='../views/' title='Make user sortable' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#make-user-sortable'>" +
+        "Make user sortable" +
         "</a>" +
         "</li>" +
 
@@ -160,6 +168,9 @@ $(document).ready(function() {
         "</li>" +
         "<li  data-nav-id='../Records/' title='Birthday and anniversary templates'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#birthday-template'>Birthday and anniversary templates</a>" +
+        "</li>" +
+        "<li  data-nav-id='../Records/' title='Birth date and hire date property searchable'  class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#birth-date-and-hire-date-property-searchable'>Birth date and hire date property searchable</a>" +
         "</li>" +
         "<li  data-nav-id='../Records/' title='Custom fields'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#custom-fields'>Custom fields </a>" +
