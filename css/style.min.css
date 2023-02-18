@@ -1632,7 +1632,7 @@ section .container{
     font-size: 25px;
 }
 .padding-left{
-    padding: 0px;
+    padding: 0px !important;
 }
 }
     @media(max-width:768px) {
