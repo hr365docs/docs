@@ -1701,10 +1701,16 @@ section .container{
     }
 
     @media(max-width:575px) {
+    .remove-padding{
+        padding: 0.5rem !important;
+    }
       .container-padding{
         padding-left: 10px !important;
     padding-right: 10px !important;
       }
+      ul.ul_li_styles {
+        list-style-position: inside;
+    }
         .assetsmainlogo{
             column-gap: 55px;
         }
