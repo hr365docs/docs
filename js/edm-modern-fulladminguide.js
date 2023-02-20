@@ -161,6 +161,9 @@ $(document).ready(function() {
         "<li  data-nav-id='../Records/' title='Birthday and anniversary templates'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#birthday-template'>Birthday and anniversary templates</a>" +
         "</li>" +
+        "<li  data-nav-id='../Records/' title='Make birth date and hire date searchable'  class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#make-birth-date-and-hire-date-searchable'>Make birth date and hire date searchable</a>" +
+        "</li>" +
         "<li  data-nav-id='../Records/' title='Custom fields'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#custom-fields'>Custom fields </a>" +
         "</li>" +
