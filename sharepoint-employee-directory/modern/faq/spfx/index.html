@@ -68,13 +68,19 @@
   
    
     <ol>
-        <li>
-            Start by opening the Microsoft Azure – https://portal.azure.com/
-        </li>
+        <div class="notices note">
+            <div class="paragraph">
+                <p>Global Admin access is required to configure Azure API.</p>
+            </div></div>
+
+      <li>
+                                        Register app in the azure portal with the below link:<br>
+                                        <a class="blog_link" href="https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps">https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps</a>
+                                    </li>
         <br>
         <div><img src="azure_active_directory.png" onclick="openModal('azure_active_directory.png')" alt="azure active directory" width="100%" height="auto"></div><br>
         
-        <li>From here select <b>App registrations.</b>
+        <li>Select <b>App registrations.</b>
             </li><br>
             <div><img src="app_register.png" onclick="openModal('app_register.png')" alt="app registration" width="100%" height="auto"></div>
             <br>
@@ -96,7 +102,7 @@
         </li> -->
         <br>
         <li>
-        	Click on “API permissions” under Manage (left side) you will see the application related permissions.
+        	Click on <b>API permissions</b> under Manage (left side) you will see the application related permissions.
             <br><br>
             <div><img src="sharepoint_online.png" onclick="openModal('sharepoint_online.png')" alt="API permissions" width="100%" height="auto"></div>
         </li>
@@ -110,9 +116,9 @@
         </li>
         <br>
         <li>
-            After all these changes please go to Employee Directory and check.
+            Choose graph api and save the configuration from the employee directory's advanced settings. After that refresh the page.
             <br><br>
-            <div><img src="../../admin/settings/views/save_.png" onclick="openModal('save_.png')" alt="Check EDM"width="100%" height="auto"></div>
+        <div><img src="select_graph.png" onclick="openModal('select_graph.png')" alt="Select Graph"width="100%" height="auto"></div>
         </li>
         <br>
         
