@@ -57,7 +57,8 @@
     <div class="container container-padding">
 <div class=row>
 </div>
-<div class= "mar-0px-auto col-lg-9" style="margin: 0px auto">
+<!--col-lg-9-------commented <div class= "mar-0px-auto col-lg-9" style="margin: 0px auto"> -->
+    <div class= "mar-0px-auto" style="margin: 0px auto"></div>
 <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
 <!-- <h2 class=mb-5 id=title>Installation Guide</h2> -->
 <div class="bg-light p-4 remove-padding">
@@ -68,25 +69,31 @@
    
     <ol>
         <li>
-            Navigate to Azure portal app registration page as shown.
-            <div><img src="app.png" onclick="openModal('app.png')" alt="app registration" width="100%" height="auto"></div>
+            Start by opening the Microsoft Teams admin center – https://portal.azure.com/
         </li>
         <br>
+        <div><img src="azure_active_directory.png" onclick="openModal('azure_active_directory.png')" alt="azure active directory" width="100%" height="auto"></div><br>
+        
+        <li>From here select <b>App registrations.</b>
+            </li><br>
+            <div><img src="app_register.png" onclick="openModal('app_register.png')" alt="app registration" width="100%" height="auto"></div>
+            <br>
         <li>
         	Search for SharePoint  and click on “SharePoint Online Client Extensibility Web Application Principal”.
-            <br>
-            <br>
-            <div><img src="application.png" onclick="openModal('application.png')" alt="All applications" width="100%" height="auto"></div>
-            <div><img src="sharepoint.png" onclick="openModal('sharepoint.png')" alt="sharepoint" width="100%" height="auto"></div>
+           
         </li>
         <br>
-        <li>
+        <div><img src="select_sharepoint.png" onclick="openModal('select_sharepoint.png')" alt="All applications" width="100%" height="auto"></div><br>
+        <div><img src="sharepoint.png" onclick="openModal('sharepoint.png')" alt="sharepoint" width="100%" height="auto"></div><br>
+
+
+        <!-- <li>
             Select <b> New registration.</b>
             <br>
             <br>
             <div><img src="../../../blog/user/reistrations.png" onclick="openModal('reistrations.png')" alt="New registration" width="100%" height="auto"></div>    
 
-        </li>
+        </li> -->
         <br>
         <li>
         	Click on “API permissions” under Manage (left side) you will see the application related permissions.
