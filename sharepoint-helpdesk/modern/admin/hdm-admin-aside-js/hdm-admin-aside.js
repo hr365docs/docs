@@ -120,8 +120,11 @@ $(document).ready(function () {
         "<li data-nav-id='./Assign-Assets/' title=Ticket Field class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/ticket-customization/#ticket-field'>Ticket Field</a>"+
         "</li>"+
-        "<li data-nav-id='./Assign-Assets/' title=Ticket-Sequence class='sidelist'>"+
+        "<li data-nav-id='./Assign-Assets/' title=Ticket Sequence class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/ticket-customization/#ticket-sequence'>Ticket Sequence</a>"+
+        "</li>"+
+        "<li data-nav-id='./Assign-Assets/' title=Custom Forms class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/ticket-customization/#custom-form'>Custom Forms</a>"+
         "</li>"+
         "<li data-nav-id='./Add Assets/ ' title='Merge Tickets' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
