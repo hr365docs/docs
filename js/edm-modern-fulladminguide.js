@@ -86,7 +86,9 @@ $(document).ready(function() {
         "<li  data-nav-id='../advanced/' title='Custom link ' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#custom-link'>Custom link</a>" +
         "</li>" +
-
+        "<li  data-nav-id='../advanced/' title='Organization chart type ' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#organization-chart-type'>Organization chart type</a>" +
+        "</li>" +
         "</ul>" +
 
         "</li>" +
