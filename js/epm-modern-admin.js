@@ -109,6 +109,11 @@ $(document).ready(function () {
            " Role Template"+
                    " </a>"+
            " </li>"+
+           "<li data-nav-id='./General-Settings/' title='1:1 Template' class='sidelist'>"+
+           "<a href='/employee-performance-management/modern/admin/administration/#1:1-template'>"+
+          " 1:1 Template"+
+                  " </a>"+
+          " </li>"+
         "</ul>"+
    " </ul>"+
 "</li>"+
