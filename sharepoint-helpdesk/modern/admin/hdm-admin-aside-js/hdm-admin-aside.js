@@ -70,6 +70,12 @@ $(document).ready(function () {
         "</li><li data-nav-id='./Column-Setting/' title='Display Resolved Tab On Homepage' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#display-resolved'>Display Resolved Tab on Home Page</a>"+
         "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Language selection as browser default language' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#language-selection-as-browser-default-language'>Language selection as browser default language</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Language selection in case browser default language is not detected' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#language-selection-as-browser-default-language-not-detected'>Language selection in case browser default language is not detected</a>"+
+        "</li>"+
         "<li data-nav-id='./Dashboard-Settings/' title='Display Help Page' Help Page class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#display-help'> Display Help Page</a>"+
         "</li>"+
@@ -297,6 +303,26 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#time-tracking'>Time Tracking</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Remove Custom Webpart CSS' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#remove-custom-webpart-css'>Remove Custom Webpart CSS</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Hide Webpart Title on Sharepoint Page' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#hide-webpart-title-on-sharepoint-page'>Hide Webpart Title on Sharepoint Page</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Hide Side Navigation Panel on Sharepoint Page' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#hide-side-navigation-panel-on-sharepoint-page'>Hide Side Navigation Panel on Sharepoint Page</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Hide Top Command Bar on Sharepoint Page' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#hide-top-command-bar-panel-on-sharepoint-page'>Hide Top Command Bar on Sharepoint Page</a>"+
         "</li>"+
         "</ul>"+
         "</ul>"+
