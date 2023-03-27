@@ -371,9 +371,25 @@ $(document).ready(function() {
                                 "<li data-nav-id='./Software/' title='QR Code' class='sidelist'>"+
                                 "<a href='/online-asset-management-application/modern/admin/qr-code/'> QR Code </a>"+
                                 "</li>"+
-                                "<li data-nav-id='./Software/' title='Help' class='sidelist'>"+
-                                 "<a href='/online-asset-management-application/modern/admin/help/'>Help</a>"+
-                                 "</li>")
+                                "<li class='dropdownicon sidelist' title='Help'>"+
+                                "<a + href='/online-asset-management-application/modern/admin/help/'> Help</a>"+
+                                "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
+                                "</li>"+
+                                
+                                "<li data-nav-id='./Settings/'   class='sidelist dropdown_romove_dot'>"+
+                                "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+                                  "<li data-nav-id='./Email-Notification/' title='Product Activation' class='sidelist'>"+
+                                  "<a href='/online-asset-management-application/modern/admin/help/#product-activation'>Product Activation</a>"+
+                                   "</li>"+
+                                 
+                                         "</ul>"+
+                                         "</li>"
+                                //          +
+                                // "<li data-nav-id='./Software/' title='Help' class='sidelist'>"+
+                                //  "<a href='/online-asset-management-application/modern/admin/help/'>Help</a>"+
+                                //  "</li>"
+
+                                 )
     
 
 })
