@@ -299,6 +299,11 @@ $(document).ready(function () {
         "</ul>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#apply-sla-policies'>Apply SLA Polices</a>"+
         "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Dashboard Settings' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#dashboard-settings'>Dashboard Settings</a>"+
+        "</li>"+
         "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
