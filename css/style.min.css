@@ -1420,6 +1420,14 @@ section .container{
     text-align: center;
     margin-bottom: 15px;
 }
+.contractmainlogo{
+    display: flex;
+    justify-content: center;
+    column-gap: 17px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
 .assetsheight{
     height: 65px;
     width: 65px;
@@ -1604,6 +1612,9 @@ section .container{
     .performancemainlogo{
         column-gap: 25px;
     }
+    .contractmainlogo{
+        column-gap: 32px;
+    }
     .assetsmainlogo{
         column-gap: 28px;
     }
@@ -1619,6 +1630,10 @@ section .container{
     .performancemainlogo{
         column-gap: 28px;
     }
+    .contractmainlogo{
+        column-gap: 35px;
+    }
+
 }
 
 @media (max-width:820px){
@@ -1785,6 +1800,11 @@ section .container{
         }
         
     }
+    @media only screen and (max-width: 575px) {
+        .contractmainlogo{
+            column-gap: 14px;
+        }
+    }
 
     @media (max-width:480px) {
        
@@ -1804,6 +1824,7 @@ section .container{
         .performancemainlogo{
             column-gap: unset;
         }
+      
         .edpclassiclogo{
             align-items: unset !important;
         }
@@ -1835,6 +1856,9 @@ section .container{
 
     .performancemainlogo{
         column-gap: 35px;
+    }
+    .contractmainlogo{
+        column-gap: 42px;
     }
 }
 
