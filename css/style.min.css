@@ -285,7 +285,9 @@ pre {
 .navbar-brand img {
     margin-bottom: 0
 }
-
+.navbar-brand{
+    margin-right: 10px ;
+}
 .navbar .dropdown:hover .dropdown-menu {
     visibility: visible;
     opacity: 1;
@@ -1312,8 +1314,8 @@ html {
 }
 
 .headerstyle {
-    width: 98%;
-    column-gap: 20px;
+    width: 100% !important;
+    column-gap: 5px !important;
 }
 
 .common-scroll.active {

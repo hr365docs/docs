@@ -29,10 +29,10 @@ $(document).ready(function () {
 
 "</li>"+
 "</li>"+
-"<li data-nav-id='./Settings/' title='Appraisal Cycle Process' class=sidelist>"+
+"<li data-nav-id='./Settings/' title='Contracts' class=sidelist>"+
 
-    "<a href='/contract-management/modern/admin/appraisal-cycle/'>"+
-        "Appraisal Cycle Process"+
+    "<a href='/contract-management/modern/admin/contracts/'>"+
+        "Contracts"+
   "</a>"+
 
 "</li>"+
@@ -86,34 +86,74 @@ $(document).ready(function () {
     "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
         
         "<ul>"+
-           "<li data-nav-id='./Email-Notification/' title=Users class='sidelist'>"+
-           "<a href='/contract-management/modern/admin/administration/#users'>"+
-          "Users"+
+           "<li data-nav-id='./Email-Notification/' title=Approval Workflow class='sidelist'>"+
+           "<a href='/contract-management/modern/admin/administration/#approval-workflow'>"+
+          "Approval Workflow"+
            "</a>"+
           "</li>"+
 
-           "<li data-nav-id='./Custom-Emails/' title=Categories class='sidelist'>"+
-               "<a href='/contract-management/modern/admin/administration/#categories'>"+
-              "Categories"+
+           "<li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
+               "<a href='/contract-management/modern/admin/administration/#users'>"+
+              "Users"+
             "</a>"+
           "</li>"+
 
-            "<li data-nav-id='./User/' title=KRA class='sidelist'>"+
-            "<a href='/contract-management/modern/admin/administration/#kra'>"+
-            "KRA(Key Result Area)"+
+            "<li data-nav-id='./User/' title=Departments class='sidelist'>"+
+            "<a href='/contract-management/modern/admin/administration/#departments'>"+
+            "Departments"+
             "</a>"+
            " </li>"+
 
-            "<li data-nav-id='./General-Settings/' title='Role Template' class='sidelist'>"+
-            "<a href='/contract-management/modern/admin/administration/#role-template'>"+
-           " Role Template"+
+            "<li data-nav-id='./General-Settings/' title='Job Title' class='sidelist'>"+
+            "<a href='/contract-management/modern/admin/administration/#job-title'>"+
+           " Job Title"+
                    " </a>"+
            " </li>"+
-           "<li data-nav-id='./General-Settings/' title='1:1 Template' class='sidelist'>"+
-           "<a href='/contract-management/modern/admin/administration/#1:1-template'>"+
-          " 1:1 Template"+
+           "<li data-nav-id='./General-Settings/' title='locations' class='sidelist'>"+
+           "<a href='/contract-management/modern/admin/administration/#locations'>"+
+          " Locations"+
                   " </a>"+
           " </li>"+
+          "<li data-nav-id='./General-Settings/' title='role' class='sidelist'>"+
+          "<a href='/contract-management/modern/admin/administration/#role'>"+
+         " Role"+
+                 " </a>"+
+         " </li>"+
+         "<li data-nav-id='./General-Settings/' title='Business Unit' class='sidelist'>"+
+         "<a href='/contract-management/modern/admin/administration/#business-unit'>"+
+        " Business Unit"+
+                " </a>"+
+        " </li>"+
+        "<li data-nav-id='./General-Settings/' title='Clause Type' class='sidelist'>"+
+        "<a href='/contract-management/modern/admin/administration/#clause-type'>"+
+       " Clause Type"+
+               " </a>"+
+       " </li>"+
+       "<li data-nav-id='./General-Settings/' title='Contract Categories' class='sidelist'>"+
+        "<a href='/contract-management/modern/admin/administration/#contract-categories'>"+
+       "Contract Categories"+
+               " </a>"+
+       " </li>"+
+       "<li data-nav-id='./General-Settings/' title='Counterparty Types' class='sidelist'>"+
+       "<a href='/contract-management/modern/admin/administration/#counterparty-types'>"+
+      "Counterparty Types"+
+              " </a>"+
+      " </li>"+
+      "<li data-nav-id='./General-Settings/' title='Obligation Categories' class='sidelist'>"+
+      "<a href='/contract-management/modern/admin/administration/#obligation-categories'>"+
+     "Obligation Categories"+
+             " </a>"+
+     " </li>"+
+     "<li data-nav-id='./General-Settings/' title='Termination Reasons' class='sidelist'>"+
+     "<a href='/contract-management/modern/admin/administration/#termination-reasons'>"+
+    "Termination Reasons"+
+            " </a>"+
+    " </li>"+
+    "<li data-nav-id='./General-Settings/' title='Clause Library' class='sidelist'>"+
+    "<a href='/contract-management/modern/admin/administration/#clause-library'>"+
+   "Clause Library"+
+           " </a>"+
+   " </li>"+
         "</ul>"+
    " </ul>"+
 "</li>"+
@@ -132,21 +172,21 @@ $(document).ready(function () {
         
        " <ul>"+
            
-           " <li data-nav-id='./General-Settings/' title='General Settings' class='sidelist'>"+
-            "<a href='/contract-management/modern/admin/settings/#general-setting'>"+
-           " General Settings"+
+           " <li data-nav-id='./General-Settings/' title='Users, Roles and Permissions' class='sidelist'>"+
+            "<a href='/contract-management/modern/admin/settings/#users-roles-permissions'>"+
+           " Users, Roles and Permissions"+
             "</a>"+
             "</li>"+
           
-           " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
-                "<a href='/contract-management/modern/admin/settings/#users'>"+
-                "Users"+
+           " <li data-nav-id='./Custom-Emails/' title=Integrations class='sidelist'>"+
+                "<a href='/contract-management/modern/admin/settings/#integrations'>"+
+                "Integrations"+
                " </a>"+
             "</li>"+
 
-            "<li data-nav-id='./Column-Setting/' title=Notification class='sidelist'>"+
-           "<a href='/contract-management/modern/admin/settings/#notification'>"+
-           " Notification"+
+            "<li data-nav-id='./Column-Setting/' title=Contract Fields class='sidelist'>"+
+           "<a href='/contract-management/modern/admin/settings/#contract-fields'>"+
+           " Contract Fields"+
            "</a>"+
            "</li>"+
 
@@ -155,6 +195,11 @@ $(document).ready(function () {
                 "Features"+
                " </a>"+
             "</li>"+
+            " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
+            "<a href='/contract-management/modern/admin/settings/#general-settings'>"+
+            "General Settings"+
+           " </a>"+
+        "</li>"+
 
 
        
