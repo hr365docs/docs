@@ -333,6 +333,9 @@ $(document).ready(function () {
         "</ul>"+
         "</li>"+
         "</ul>"+
+        "<li data-nav-id='./Settings/ ' title=knowledgebase class='sidelist '>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/knowledgebase/'>Knowledgebase</a>"+
+        "</li>"+
         "<li data-nav-id='./Settings/ ' title=Help class='sidelist '>"+
         "<a href='/sharepoint-helpdesk/modern/admin/help/'>Help</a>"+
         "</li>")
