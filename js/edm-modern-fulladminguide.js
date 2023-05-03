@@ -184,6 +184,9 @@ $(document).ready(function() {
         "<li  data-nav-id='../Records/' title='Custom Function'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#custom-function'>Custom Function</a>" +
         "</li>" +
+        "<li  data-nav-id='../Records/' title='Select topbar filters'  class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Select-topbar-filters'>Select topbar filters</a>" +
+        "</li>" +
         "<li  data-nav-id='../Records/' title='Executive Assistant relationship'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#executive-assistant'>Executive Assistant relationship </a>" +
         "</li>" +

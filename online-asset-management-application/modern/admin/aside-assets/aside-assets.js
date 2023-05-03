@@ -197,11 +197,27 @@ $(document).ready(function() {
                     "<ul class='sidenavSub-topics aside_dropdown_list'>"+
                     "<li data-nav-id='./Assign-Assets/ ' title='Intune' class='sidelist '>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/integration/#intune'>Intune</a>"+
-                    // "<li data-nav-id='./Add Assets/ ' title='Helpdesk Mailbox' class='sidelist '>"+
-                    // "<ul class='sidenavSub-topics '>"+
-                    // "</ul>"+
-                    // "<a href='/online-asset-management-application/modern/admin/settings/integration/#helpdesk-mailbox'>Helpdesk Mailbox</a>"+
-                    // "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='MS Intune Filter' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/integration/#ms-intune'>MS Intune Filter</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Alloc8 Integration' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/integration/#alloc8-integration'>Alloc8 Integration</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Kace Integration' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/integration/#kace-integration'>Kace Integration</a>"+
+                    "</li>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='SCCM Integration' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/integration/#SCCM-integration'>SCCM Integration</a>"+
+                    "</li>"+
                   
                     // "<li data-nav-id='./Add Assets/ ' title='Integrate with HR365 Asset Management' class='sidelist '>"+
                     // "<ul class='sidenavSub-topics '>"+
@@ -251,6 +267,11 @@ $(document).ready(function() {
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/features/#advance-booking-of-assets'>Advance Booking of Assets</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Quick Action' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#quick-action'>Quick Action</a>"+
                     "</li>"+
                     "<li data-nav-id='./Add Assets/ ' title='Software' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
