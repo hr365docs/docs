@@ -4,6 +4,9 @@ $(document).ready(function () {
     $("#modernsettingedm").append( "<li  data-nav-id='../advanced/' title='SharePoint API' class='sidelist'>"+
     "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#configure-permission'>Configure SharePoint API permissions</a>"+
   "</li>"+
+  "<li  data-nav-id='../advanced/' title='Filter Group by' class='sidelist'>"+
+    "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#filter-group-by'>Filter Group by</a>"+
+  "</li>"+
   "<li  data-nav-id='../advanced/' title='Sync unlicensed users' class='sidelist'>"+
     "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#sync-unlicensed-users'>Sync unlicensed users</a>"+
   "</li>"+

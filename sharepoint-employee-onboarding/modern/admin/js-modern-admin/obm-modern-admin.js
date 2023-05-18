@@ -15,7 +15,9 @@ $(document).ready(function() {
         "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title='Access requirements' class='sidelist'>"+
         "<a href='/sharepoint-employee-onboarding/modern/admin/access-requirements/'> Access requirements </a>"+
         "</li>"+
-
+        "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title='Settings' class='sidelist'>"+
+        "<a href='/sharepoint-employee-onboarding/modern/admin/settings/'> Settings </a>"+
+        "</li>"+
       
         "<li class='dropdownicon sidelist'>"+
         "<a class='qwe'  href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/'> Set up of the application </a>"+

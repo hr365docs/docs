@@ -124,7 +124,11 @@ $(document).ready(function() {
         
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
         "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#configure-permission'>Configure SharePoint API permissions</a>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#'>Configure SharePoint API permissions</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Filter Group by' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#filter-group-by'>Filter Group by</a>" +
+        "</li>" +
         "</li>" +
         "<li  data-nav-id='../advanced/' title='Sync unlicensed users' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#sync-unlicensed-users'>Sync unlicensed users</a>" +
