@@ -102,16 +102,7 @@
                 </p>
                 <br>
                 <ol>
-                  <li>
-                    <p>
-                      <b>Desktop and Mobile default view</b>: From here, you set the default view for desktop and
-                      mobile. You can select any one view (grid, list, or tile). Finally, click on the <b>Save</b>
-                      button.
-                    <div><img src="default.png" onclick="openModal('default.png')" alt="default view" width="100%" height="auto">
-                    </div>
-                    </p>
-                  </li>
-                  <br>
+
                   <li>
                     <p>
                       <b>Views</b>: From here, you set the views on the home page. It is mandatory to enable at least
@@ -126,6 +117,28 @@
                     </p>
                   </li>
                   <br>
+                  <li>
+                    <p>
+                      <b>Desktop and Mobile default view</b>: From here, you set the default view for desktop and
+                      mobile. You can select any one view (grid, list, or tile). Finally, click on the <b>Save</b>
+                      button.<br>
+                     
+                    <div><img src="default.png" onclick="openModal('default.png')" alt="default view" width="100%" height="auto">
+                    </div>
+                    <br>
+                    <b>Show non M365 users :</b> If the admin enables this feature, it
+                      will display the non365 user's icon on the home page. You can add non-M365 users from
+                      <b>Import</b> under advanced settings.<br>
+                    
+                    <br>
+                    <div><img src="nonM365.png" onclick="openModal('nonM365.png')" alt="non M365" width="100%" height="auto">
+                    </div>
+
+                    
+                    </p>
+                  </li>
+                  <br>
+                 
                   <li>
                     <p>
                       <b>Sort by:</b> From here admin can set the <b>Sort by</b> based on their first name or last name
@@ -195,17 +208,22 @@
                     </p>
                   </li>
                   <br>
+
                   <li>
                     <p>
-                      <b>Use work email id instead account login id :</b> Users details are being pulled based on UPN or
-                      work email id, default setting is off, if you want to pull records based on work email, turn it on
-                      from here.
-                    <div><img src="login_id.png" onclick="openModal('login_id.png')" alt="login ID" width="100%" height="auto">
+                      <b>User properties in profile card :</b> From here, you can <b>hide</b> or <b>show</b> the Title, Department, Skills, School and Projects etc. properties with the help of the given checkboxes in the User properties in profile card.
+                    <div><img src="user_profile_card.png" onclick="openModal('user_profile_card.png')" alt="user profile card" width="100%" height="auto">
+                    </div>
+                    <br>
+                    Now you will be able to see About me, Projects and Skills etc. property in the profile card as shown below:<br>
+                    <br>
+                    <div><img src="profile_card_otpt.png" onclick="openModal('profile_card_otpt.png')" alt="user profile card" width="100%" height="auto">
                     </div>
 
                     </p>
                   </li>
                   <br>
+
                   <li>
                     <p>
                       <b>Executive(s) label :</b>From here you can rename the executives label on the assistant’s
@@ -221,15 +239,16 @@
                   <br>
                   <li>
                     <p>
-                      <b>Display profile image:</b> The default setting is on. Admin can disable it from the toggle
-                      switch. If this is enabled, the profile images will be displayed on the home page.
-
-                    <div><img src="profile_image.png" onclick="openModal('profile_image.png')" alt="profile image" width="100%"
-                        height="auto"></div>
+                      <b>Use work email id instead account login id :</b> Users details are being pulled based on UPN or
+                      work email id, default setting is off, if you want to pull records based on work email, turn it on
+                      from here.
+                    <div><img src="login_id.png" onclick="openModal('login_id.png')" alt="login ID" width="100%" height="auto">
+                    </div>
 
                     </p>
                   </li>
                   <br>
+                 
                   <li>
                     <p>
                       <b>Clear alphabet selection with reset filter :</b> The default setting is off. This setting will
@@ -237,9 +256,25 @@
 
                     <div><img src="filter_.png" onclick="openModal('filter_.png')" alt="filter" width="100%" height="auto">
                     </div>
+                    <br>
+                    <div><img src="filter_1.png" onclick="openModal('filter_1.png')" alt="filter" width="100%" height="auto">
+                    </div>
 
                     </p>
                   </li>
+                  <br>
+                  <!-- <li>
+                    <p>
+                      <b>Display profile image:</b> The default setting is on. Admin can disable it from the toggle
+                      switch. If this is enabled, the profile images will be displayed on the home page.
+
+                    <div><img src="profile_image.png" onclick="openModal('profile_image.png')" alt="profile image" width="100%"
+                        height="auto"></div>
+
+                    </p>
+                  </li> -->
+                  
+                 
                   <br>
                   <li>
                     <p>
@@ -251,7 +286,7 @@
                     </p>
                   </li>
                   <br>
-                  <li>
+                  <!-- <li>
                     <p>
                       <b>Show qr code icon in grid view:</b> The default setting is off. If the admin enables this
                       feature, it will display a QR code in the grid view.
@@ -259,7 +294,7 @@
                     <div><img src="code.png" onclick="openModal('code.png')" alt="QR code" width="100%" height="auto"></div>
 
                     </p>
-                  </li>
+                  </li> -->
                   <br>
                   <li>
                     <p>
@@ -283,27 +318,13 @@
                     </p>
                   </li>
                   <br>
+                 
+                  
                   <li>
                     <p>
-                      <b>Show non M365 users :</b> The default setting is off. If the admin enables this feature, it
-                      will display the non365 user's icon on the home page. You can add non-M365 users from
-                      <b>Import</b> under advanced settings.
+                      You can change filter type from drop down to free text search by turning the toggle to off
 
-                    <div><img src="non_M365.png" onclick="openModal('non_M365.png')" alt="non M365 users" width="100%" height="auto">
-                    </div>
-                    <br>
-                    <div><img src="nonM365.png" onclick="openModal('nonM365.png')" alt="non M365" width="100%" height="auto">
-                    </div>
-
-                    </p>
-                  </li>
-                  <br>
-                  <li>
-                    <p>
-                      <b>Show title/department/location filters as dropdown:</b> If the admin enables this feature, it
-                      will display these properties as a dropdown on the home page.
-
-                    <div><img src="title.png" onclick="openModal('title.png')" alt="show filters" width="100%" height="auto"></div>
+                    <div><img src="set_dropdown.png" onclick="openModal('set_dropdown.png')" alt="show filters" width="100%" height="auto"></div>
                     <br>
                     <div><img src="dropdown.png" onclick="openModal('dropdown.png')" alt="dropdown" width="100%" height="auto">
                     </div>
@@ -311,7 +332,17 @@
                     </p>
                   </li>
                   <br>
+
                   <li>
+                    <p>
+                      In profile cards we can hide or display <b>Display mobile</b> in grid view</b> from view settings.
+                    <div><img src="display_mbl.png" onclick="openModal('display_mbl.png')" alt="profile hide show" width="100%" height="auto"></div>
+                    <br>
+                 
+                    </p>
+                  </li><br>
+
+                  <!-- <li>
                     <p>
                       <b>Hide mobile number for specific users</b>:Here you can hide the mobile number for specific
                       users in the application.
@@ -325,19 +356,10 @@
                     </p>
                   </li>
                 </ol>
-                <br>
-<h5><u>Hide or displays fields in profile card </u></h5>
+                <br> -->
+<!-- <h5><u>Hide or displays fields in profile card </u></h5>
 
-                <li>
-                  <p>
-                    In profile cards we can hide or display <b>Title</b>, <b>Department</b>,
-                    , <b>Display work phone</b>, <b>Display mobile</b>, <b>Display email
-                      in grid view</b> from view settings.
-                  <div><img src="profile_hide_show.png" onclick="openModal('profile_hide_show.png')" alt="profile hide show" width="100%" height="auto"></div>
-                  <br>
                
-                  </p>
-                </li><br>
                 <li>
                   <p>
                     In profile cards we can hide or display <b>Skills</b>, <b>Hobbies</b>,
@@ -415,7 +437,7 @@
                   </p>
                 <br>
 </li>
-<br>
+<br> -->
                 <h5><u>Hide the Manager</u></h5>
                 <li>
                   <!-- <p>
