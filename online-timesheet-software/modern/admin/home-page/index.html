@@ -3,10 +3,10 @@
 
 <head>
     <meta charset=utf-8>
-    <title>Helpdesk 365 | Admin | Home-Page</title>
+    <title>Timesheet 365 | Admin | Home-Page</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
-    <meta name=description content="HR365 Helpdesk">
+    <meta name=description content="HR365 Timesheet">
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
     <link rel=icon href=# type=image/x-icon>
@@ -35,15 +35,15 @@
     <meta property="og:image:width" content="2881">
     <meta property="og:image:height" content="681">
     <meta property="og:image:type" content="image/png">
-    <meta name=twitter:title content="HR365 Helpdesk">
-    <meta name=twitter:description content="HR365 Helpdesk">
-    <meta property="og:title" content="HR365 Helpdesk">
-    <meta property="og:description" content="HR365 Helpdesk">
+    <meta name=twitter:title content="HR365 Timesheet">
+    <meta name=twitter:description content="HR365 Timesheet">
+    <meta property="og:title" content="HR365 Timesheet">
+    <meta property="og:description" content="HR365 Timesheet">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-helpdesk/">
+    <meta property="og:url" content="https://hr365docs.github.io/docs/online-timesheet-software/">
     <meta name=twitter:card content="summary">
-    <meta name=twitter:title content="HR365 Helpdesk">
-    <meta name=twitter:description content="HR365 Helpdesk">
+    <meta name=twitter:title content="HR365 Timesheet">
+    <meta name=twitter:description content="HR365 Timesheet">
 </head>
 
 <body>
@@ -71,7 +71,7 @@
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../sharepoint-helpdesk/">Helpdesk 365</a>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../online-timesheet-software/">Timesheet 365</a>
                         </h5>
                         <a class=back-btn href="../../admin/" aria-label=back></a>
                         <ul class=list-styled>
@@ -88,265 +88,100 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title>Home Page</h2> -->
+                     
                         <div class="bg-light p-4 remove-padding">
-                            <!-- <ul class=page-list> -->
 
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Home Page
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                In home page, you have data of Unassigned, Teams Tickets, Teams Closed, Ticket Mailbox, My Tickets, Requested by Me, and My Closed tickets.
-                                <br><br>
-                                <p>There are two options in Home Page to display the tickets </p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=""  title="Home Page">Home Page<i
+                                        class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
 
-                                <ol type="I" >                                   
-                                    
-                                    <li>Table View</li>
-                                    <li>Kanban View</li>
-                                   </ol>
+
+                            <p>In the Timesheet application, the home page is the first page, where users can</p>
+                            <ul class="ul_li_styles">
+                                <li>
+                                    Status.
+                                </li>
+                                <li>
+                                   My Tasks.
+                                </li>
+                                <li>
+                                    Weekly Timesheet.
+                                </li>
+                                <li>
+                                    Track time (Daily time tracking).
+                                </li>
+                                <li>
+                                   Approval.
+                                </li>
+                                <li>
+                                    Tasks Status
+                                </li>
                                 <br>
-                                <h4>Table view</h4>
-                                <ul style="list-style-type:disc">
-                                <li>Tickets will be highlighted with the different colours on the basis of ticket Priority</li>
                                
-                                <li>Bell icon notification for unread tickets on the home page.</li>
-                                </ul>
-                                <br>
-                                <div><img src="tableview.png" onclick="openModal('tableview.png')" alt="View" width="100%"
-                                        height="auto"></div>
-                                <br>
-                                <h4>Kanban view</h4>
-                                <br>
-                                <p>On click of this icon kanban view will be opened</p>
-                                <div><img src="kanbanview.png" onclick="openModal('kanbanview.png')" alt="Home kanban" width="100%"
-                                        height="auto"></div>
-                                <br>
-
-                                    <p>You can drag and drop tickets to change the status of ticket in kanban view</p>
-
-                                <div><img src="kanbanView1.png" onclick="openModal('kanbanview1.png')" alt="Home kanban" width="100%"
-                                    height="auto"></div>
-                            <br>
-                               
-                                <!-- <ul class="ul_li_styles">
-                                    <li>
-                                        <b>Unassigned</b>: &ensp;All raised tickets will be accessible here to the
-                                        <b>Admins</b>. From here the admin can assign tickets to agents and supervisors.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <b>Team Tickets</b>: &ensp;The <b>Agents</b> and <b>Supervisors</b> can see the
-                                        tickets assigned to them and their team members here.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <b>Teams Closed Ticket</b>: &ensp;The <b>Agents</b> or <b>Supervisors</b> can
-                                        see those tickets which have been closed (Ticket’s status is updated as closed).
-                                        Admin can view closed tickets of all teams.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <b>My Closed</b>: &ensp;<b>Admin</b>, <b>Supervisor</b>, and <b>Agents</b> can
-                                        see their tickets that have been closed.
-
-                                    </li>
-                                </ul>
-                                <br><br>
-
-                                <b> <u> Table view</u></b>
-                                <br>
-                                <br>
-                                <div><img src="home_table.png" onclick="openModal('home_table.png')" alt="Home table" width="100%"
-                                        height="auto"></div>
-                                <ul class="ul_li_styles"> <br>
-                                    <li>
-                                        <b>Unassigned</b>:&ensp; All raised tickets will be accessible here to the
-                                        <b>Admins</b>. From here the admin can assign tickets to agents and supervisors.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <b>Team Tickets</b>: &ensp;The <b>Agents</b> and <b>Supervisors</b> can see the
-                                        tickets assigned to them and their team members here.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <b>Teams Closed Ticket</b>: &ensp;The <b>Agents</b> or <b>Supervisors</b> can
-                                        see those tickets which have been closed (Ticket’s status is updated as closed).
-                                        Admin can view closed tickets of all teams.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <b>Ticket Mailbox</b>: &ensp;The tickets raised from helpdesk email ID will come
-                                        under <b>Ticket Mailbox</b>. Admin can view such tickets. Admin can give access
-                                        to view ticket mailbox to <b>Ticket Mail Manager</b> from settings.
-                                    </li>
-                                    <br>
-
-                                    <li>
-                                        <b>My Tickets</b>:&ensp; Respective <b>Agents</b> or <b>Supervisors</b> can view
-                                        the tickets only when they are assigned to them.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <b>Requested By Me</b>:&ensp; <b>Admins</b>, <b>Supervisors</b>, and
-                                        <b>Agents</b> can see their raised tickets in this tab.
-                                    </li>
-                                    <br>
-                                    <li>
-                                        <b>My Closed</b>: &ensp;<b>Admins</b>, <b>Supervisor</b> and <b>Agent</b> can
-                                        see their tickets that have been closed.
-
-                                    </li>
-
-
-                                </ul> -->
                             </ul>
                             <br>
 
-                            <h4>Ticket Creation</h4>
-                            
-                            <p>From here, users can raise tickets for any service. To raise tickets, follow the below steps:</p>
-
-                            <li>Click on the <b>+ New ticket </b> on the Home page, this displays the new ticket page.</li>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href="">Home<i
+                                        class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                            <li>
+                                Status : Users find the status of their submitted timesheets over here. Select the weekly radio button to check the weekly submitted timesheet and select the daily radio button to check the daily submitted timesheet.
+                            </li>
+<br>
+                            <div><img src="homeStatus.png" onclick="openModal('homeStatus.png')" alt="Status"
+                                width="100%" height="auto"></div>
+                                <br>
+                                <li>
+                                    My Task- Users find all the tasks which are assigned to them over here along with other details like task allocated hours, track hours, and task deadline dates.
+                                </li>
+                                <br>
+                                <div><img src="myTask.png" onclick="openModal('myTask.png')" alt="My Tasks"
+                                    width="100%" height="auto"></div>
+                                    <br>
+                           <li>Weekly Timesheet : Users fill out their timesheets and submit them over here.</li>
+                           <br>
+                           <div><img src="weeklyTime.png" onclick="openModal('weeklyTime.png')" alt="weekly TimeSheet"
+                            width="100%" height="auto"></div>
                             <br>
-                            <div><img src="ticketCreate.png" onclick="openModal('ticketCreate.png')" alt="Add Ticket" width="100%"
-                                height="auto"></div>
-                        <br>
-                           <h5>Drag and Drop</h5>
-                           <p>User can attach the file(s) with the help of Drag and Drop feature</p>
-                                <div><img src="dragDrop.png" onclick="openModal('dragDrop.png')" alt="Drag Drop" width="100%"
-                                        height="auto"></div>
+                            <p>To submit the timesheet, select the week number, project, task, and activity then fill in the time and add the comments by clicking on the comment icon for each day. You can also select task status and workplace. Click on the plus icon located on the right side in case to fill in hours for the next project or task and finally click on submit button. You can click on the draft button in order to just save it and submit it later.</p>
+                           
+                           <p>
+                            Remove or delete the submitted timesheet – Click on the cross or cancel icon located on the right side to remove the timesheet.
+                           </p>
+                           
+                           <li>Track time (Daily time tracking) : Users can submit hours for a single day over here.</li>
+
+                           <br>
+                           <div><img src="Tracktime.png" onclick="openModal('Tracktime.png')" alt="Track time (Daily time tracking) "
+                            width="100%" height="auto"></div>
+                            <br>
+                            <p>To submit the daily timesheet, select the date, project, and task then fill in the time and add the comments by clicking on the comment icon and click on the save icon. You can add hours for the next projects or tasks and save them and finally click on submit button. </p>
+                    
+                            <li>Approval : Admin, program manager, and project manager can see the approval tab and can approve the user’s timesheets over here.  </li>
+<br>
+                            <p>Select the filters (Employee name, month, or week) and click on Apply filter icon to get the submitted timesheets then click on the week number, this will explore the details with approve and reject buttons. From here the timesheet can be approved or rejected accordingly with a comment. Then users will receive email notifications about approval or rejection along with comments.</p>
+                            <div><img src="approval.png" onclick="openModal('approval.png')" alt="Approval "
+                                width="100%" height="auto"></div>
                                 <br>
 
-
-
                         </div>
-
-                        <!-- <div class="bg-light p-4 remove-padding common-scroll" id="kanban-view">
-                            <li data-nav-id=../Getting-started/installation/using-app-file title='Kanban View'
-                                class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="">Kanban View<i
-                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
-
-
-                                <p> To create new tickets in kanbal view, follow the below steps:</p>
-
-                                <ol>
-                                    <div><img src="Kanban_view.png" onclick="openModal('Kanban_view.png')" alt="Kanban view" width="100%"
-                                            height="auto"></div><br>
-                                    <li>
-                                        Go to home page and select <b>kanban</b> view.
-                                    </li>
-
-                                    <li>
-                                        Click on <b>+New Ticket</b>, this displays <b>New Ticket</b> page.
-
-                                    </li>
-
-                                    <li>
-                                        Enter <b>Title</b>, <b>Priority</b>, <b>Request type</b>, <b>Teams</b>,
-                                        <b>service</b>, <b>Requester</b> and <b>Ticket Discription.</b>
-
-                                    </li>
-                                    <li>Can also copy-paste screenshots in the ticket description.</li>
-
-                                    <li>
-                                        Click the <b>Submit</b> button.
-                                    </li>
-                                </ol>
-
-                                <p> To assign tickets in kanbal view, follow the below steps:</p>
-
-                                <ol>
-                                    <div><img src="assign_to_sub.png" onclick="openModal('assign_to_sub.png')" alt="Assign tickets" width="100%"
-                                            height="auto"></div><br>
-                                    <br>
-                                    <li>
-                                        Drag the ticket from <b>Unassigned</b> column and drop it in <b>Teams
-                                            Tickets</b> column, this displays <b>Assign to</b> pop-up.
-                                    </li>
-                                    <li>
-                                        Select the <b>Teams</b>, <b>Assigned to</b> and <b>Status</b>.
-                                    </li>
-                                    <li>
-                                        Click the <b>Submit</b> button.
-                                    </li>
-                                </ol>
-
-
-
-
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="table-view">
-                            <li data-nav-id=../Getting-started/installation/using-app-file title="Table View"
-                                class="sidelist">
-                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="">Table View<i
-                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
-
-
-                                <p>To create new tickets in table view, follow the below steps:</p>
-
-                                <ol>
-                                    <div><img src="table.png" onclick="openModal('table.png')" alt="Table View" width="100%"
-                                            height="auto"></div><br>
-                                    <li>
-                                        Go to home page and select <b>Table</b> view.
-                                    </li>
-
-                                    <li>
-                                        Click on <b>+New Ticket</b>, this displays <b>New Ticket</b> page.
-
-                                    </li>
-
-                                    <li>
-                                        Enter <b>Title</b>, <b>Priority</b>, <b>Request type</b>, <b>Teams</b>,
-                                        <b>service</b>, <b>Requester</b> and <b>Ticket Discription</b>.
-
-
-                                    </li>
-                                    <li>Can also copy-paste screenshots in the ticket description.</li>
-
-                                    <li>
-                                        Click the <b>Submit</b> button.
-                                    </li>
-                                </ol>
-
-
-                                <p>To assign tickets in table view, follow the below steps:</p>
-
-                                <ol>
-                                    <div><img src="assigned.png" onclick="openModal('assigned.png')" alt="Assigned steps" width="100%"
-                                            height="auto"></div><br>
-                                    <li>
-                                        Click on <b>Ticket ID</b> or <b>Title</b> from home page.
-                                    </li>
-                                    <li>
-                                        Enter the <b>Assigned to</b> and <b>Status</b> in comment page under properties.
-                                    </li>
-                                    <li>
-                                        Click the <b>Update</b> button.
-                                    </li>
-                                </ol>
-
-
-
-
-
-                        </div> -->
-
-                        </ul>
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                            <nav class="pagination mt-3">
+                                <a class="nav nav-prev" href="/online-timesheet-software/modern/admin/architecture-diagram/"
+                                    aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
+                                        class="d-none d-md-block">Architecture Diagram</span></a>
+                                <a class="nav nav-next" href="/online-timesheet-software/modern/admin/reports/"
+                                    aria-label="Previous page"> <span class="d-none d-md-block">Reports</span><i
+                                        class="ti-arrow-right ml-2"></i></a>
+                            </nav>
+                        <!-- <nav class="pagination mt-3">
+                            <a class="nav nav-prev" href="../getting-started/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Getting
+                                    started</span></a>
+                            <a class="nav nav-next" href="../help/" aria-label="Previous page"> <span
+                                    class="d-none d-md-block"> Help </span><i class="ti-arrow-right ml-2"></i></a>
+                        </nav> -->
                     </div>
-                    <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                    <nav class="pagination mt-3">
-                        <a class="nav nav-prev" href="/sharepoint-helpdesk/modern/admin/architecture-diagram/"
-                            aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                                class="d-none d-md-block">Architecture Diagram</span></a>
-                        <a class="nav nav-next" href="/sharepoint-helpdesk/modern/admin/dashboard/"
-                            aria-label="Previous page"> <span class="d-none d-md-block">Dashboard</span><i
-                                class="ti-arrow-right ml-2"></i></a>
-                    </nav>
+                </div>
+                    
                 </div>
             </div>
         </div>

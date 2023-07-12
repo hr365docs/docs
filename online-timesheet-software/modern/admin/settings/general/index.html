@@ -3,10 +3,10 @@
 
 <head>
     <meta charset=utf-8>
-    <title>Helpdesk 365 | General</title>
+    <title>Timesheet 365 | General</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
-    <meta name=description content="HR365 Helpdesk">
+    <meta name=description content="HR365 Timesheet">
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
     <link rel=icon href=# type=image/x-icon>
@@ -35,15 +35,15 @@
     <meta property="og:image:width" content="2881">
     <meta property="og:image:height" content="681">
     <meta property="og:image:type" content="image/png">
-    <meta name=twitter:title content="HR365 Helpdesk">
-    <meta name=twitter:description content="HR365 Helpdesk">
-    <meta property="og:title" content="HR365 Helpdesk">
-    <meta property="og:description" content="HR365 Helpdesk">
+    <meta name=twitter:title content="HR365 Timesheet">
+    <meta name=twitter:description content="HR365 Timesheet">
+    <meta property="og:title" content="HR365 Timesheet">
+    <meta property="og:description" content="HR365 Timesheet">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-helpdesk/">
+    <meta property="og:url" content="https://hr365docs.github.io/docs/online-timesheet-software/">
     <meta name=twitter:card content="summary">
-    <meta name=twitter:title content="HR365 Helpdesk">
-    <meta name=twitter:description content="HR365 Helpdesk">
+    <meta name=twitter:title content="HR365 Timesheet">
+    <meta name=twitter:description content="HR365 Timesheet">
 </head>
 
 <body>
@@ -70,7 +70,7 @@
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../sharepoint-helpdesk/">Helpdesk 365</a>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../online-timesheet-software/">Timesheet 365</a>
                         </h5>
                         <a class=back-btn href="../../../admin/" aria-label=back></a>
                         <ul class=list-styled>
@@ -95,34 +95,20 @@
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 
                                 <p>
-                                    From here you can update date format, logo, theme etc.
+                                    From here you can update date format, logo, theme, default currency etc.
                                 </p>
                                 <br>
                                 <div><img src="general_setting.png" onclick="openModal('general_setting.png')" alt="General setting"
                                         width="100%" height="auto"></div>
  </div>
-<div class="bg-light p-4 remove-padding common-scroll" id="date-format">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Date Format
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-<p>
-                                    From here admin can change the date format. The date format settings apply
-                                    everywhere in the application.
-                                </p>
-
-                                <div><img src="date_format.png" onclick="openModal('date_format.png')" alt="Date format"
-                                        width="100%" height="auto"></div>
-
-
-                        </div>
+                    
                         <div class="bg-light p-4 remove-padding common-scroll" id="theme">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Theme
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Predefined Theme
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    From here, the admin can change the theme of the helpdesk application.
+                                   From here you can select the theme for the application. There are three themes namely dark mode, light mode, and site theme color.
                                 </p>
 
                                 <div><img src="theme.png" onclick="openModal('theme.png')" alt="Theme" width="100%"
@@ -130,6 +116,33 @@
                                 <br>
 
 
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="date-format">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Date Format
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+<p>
+                                    From here you can select the date format. This date format will update everywhere in the application.
+                                </p>
+                               
+                                <div><img src="date_format.png" onclick="openModal('date_format.png')" alt="Date format"
+                                        width="100%" height="auto"></div>
+
+
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="start-day-of-the-week">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Start Day of The Week
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                
+                                    <p>Start day of the week: Here you can select the start day of the week for the weekly timesheet.</p>
+                               
+                                <div><img src="startDay.png" onclick="openModal('startDay.png')" alt="Start Day" width="100%"
+                                        height="auto"></div>
+    
+    
                         </div>
                 <!-- <div class="bg-light p-4 remove-padding common-scroll" id="teams-option">
                     <ul class=page-list>
@@ -207,68 +220,50 @@
     
 
                 </div> -->
-                    <div class="bg-light p-4 remove-padding common-scroll" id="display-resolved">
+                    <div class="bg-light p-4 remove-padding common-scroll" id="defaul-tcurrency ">
                         <ul class=page-list>
-                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Display Resolved Tab on
-                                    Home Page
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Default Currency 
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
 
                             <p>
-                                If you enable <b>Display Resolved Tabs in Home Page</b> from <b>General</b>, you can
-                                view the resolved tabs on the home page.
-
+                                Here you can select your default currency and the same will show on add project page.
                             </p>
 
-                            <div><img src="display_tab.png" onclick="openModal('display_tab.png')" alt="Display tab" width="100%"
+                            <div><img src="defaulturrency.png" onclick="openModal('defaulturrency.png')" alt="Default Currency" width="100%"
                                     height="auto"></div>
 
 
                     </div>
-                    <div class="bg-light p-4 remove-padding common-scroll" id="language-selection-as-browser-default-language">
+                    
+                    <div class="bg-light p-4 remove-padding common-scroll" id="client-module-name">
                         <ul class=page-list>
-                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language selection as browser default language
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Client Module Name
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
 
                             <p>
-                                Here, you can enable the toggle for the language selection as browser default language.
+                                Here you can rename the client title and the same will update everywhere in the application.
 
                             </p>
 
-                            <div><img src="language.png" onclick="openModal('language.png')" alt="Language" width="100%"
+                            <div><img src="clientmdukname.png" onclick="openModal('clientmdukname.png')" alt="Language selection" width="100%"
                                     height="auto"></div>
 
 
                     </div>
-                    <div class="bg-light p-4 remove-padding common-scroll" id="language-selection-as-browser-default-language-not-detected">
+                    <div class="bg-light p-4 remove-padding common-scroll" id="project-module-name">
                         <ul class=page-list>
-                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language selection in case browser default language is not detected
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Project Module Name
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
 
                             <p>
-                                Helpdesk 365 can work in Czech, Dutch, English, French, German, Hungarian, Italian, Japanese, Polish,Portuguese, Russian and Spanish as per your browser language. Admin can enable the toggle Language selection as browser default language.
+                                Here you can rename the project title and the same will update everywhere in the application.
 
                             </p>
 
-                            <div><img src="select_lang.png" onclick="openModal('select_lang.png')" alt="Language selection" width="100%"
-                                    height="auto"></div>
-
-
-                    </div>
-                    <div class="bg-light p-4 remove-padding common-scroll" id="display-help">
-                        <ul class=page-list>
-                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Display Help Page
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                            </h2>
-
-                            <p>
-                                Admin could enable the help page from the general settings, and users would be able to see the help option on the side navigation panel.
-
-                            </p>
-
-                            <div><img src="help_.png" onclick="openModal('help_.png')" alt="help" width="100%"
+                            <div><img src="projectmodul.png" onclick="openModal('projectmodul.png')" alt="help" width="100%"
                                     height="auto"></div>
 
 
@@ -325,70 +320,117 @@
 
 
                     </div> -->
-                    <div class="bg-light p-4 remove-padding common-scroll" id="naming-convention">
+                    <div class="bg-light p-4 remove-padding common-scroll" id="task-module-name">
                         <ul class=page-list>
-                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Naming Convention
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Task Module Name
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
 
                             <p>
-                                From here, you can rename the display title, company name, and application title.
-                                Click the <b>configure</b> button of the <b>Naming Convention</b>, this displays the
-                                <b>Naming Convention</b> page.
+                                Here you can rename the task title and the same will update everywhere in the application.
                             </p>
-                            <div><img src="name_convention.png" onclick="openModal('name_convention.png')" alt="Name convention"
+                            <div><img src="taskModule.png" onclick="openModal('taskModule.png')" alt="Task Module"
                                     width="100%" height="auto"></div>
-                            <br>
-                            <p>
-                                Enter the name and click on save icon.
-                            </p>
-
-                            <div><img src="save_convention.png" onclick="openModal('save_convention.png')" alt="Save convention"
-                                    width="100%" height="auto"></div>
-                   
-                    <br>
-                    <p><u><b>Use Teams Code as Ticket Suffix</b></u> : As a suffix, you may use team code.With the use of a toggle, you may turn this on or off . The <b>team code</b> will be added at the end of the <b>Ticket ID</b>.
-                        
-                    </p>
-
-                    <div><img src="code_suffix.png" onclick="openModal('code_suffix.png')" alt="Code suffix"
-                            width="100%" height="auto"></div>
-                </div><br>
+                            
+                </div>
                 
-                <div><img src="id_suffix.png" onclick="openModal('id_suffix.png')" alt="Id suffix"
-                    width="100%" height="auto"></div>
-        
-
-                <br>
-                <p><u><b>Teams Name in New Ticket Page </b></u> :Enable this to show the teams' name instead of the teams' code on the New Ticket panel or ticket form.
-                        
-                </p>
-
-                <div><img src="teams_name.png" onclick="openModal('teams_name.png')" alt="Teams name"
-                        width="100%" height="auto"></div>
-            </div><br>
-            
-            <div><img src="teams_shown.png" onclick="openModal('teams_shown.png')" alt="Teams shown"
-                width="100%" height="auto"></div>
-    <br>
-    <div><img src="added_team.png" onclick="openModal('added_team.png')" alt="Added team"
-        width="100%" height="auto"></div>
-
-                    <div class="bg-light p-4 remove-padding common-scroll" id="recycle-bin">
-                        <ul class=page-list>
-                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Recycle Bin
+                <div class="bg-light p-4 remove-padding common-scroll" id="activity-module-name">
+                    <ul class=page-list>
+                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Activity Module Name
                                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                            </h2>
+                        </h2>
 
-                            <p>
-                                The deleted tickets will display in recycle bin, the admin can restore them or delete them permanently.
-                            </p>
+                        <p>
+                            Here you can rename the task title and the same will update everywhere in the application.
+                        </p>
+                        <div><img src="activityModule.png" onclick="openModal('activityModule.png')" alt="Activity Module"
+                                width="100%" height="auto"></div>
+                        
+            </div>
+             
+            <div class="bg-light p-4 remove-padding common-scroll" id="language">
+                <ul class=page-list>
+                    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language
+                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                    </h2>
 
-                            <div><img src="bin.png" onclick="openModal('bin.png')" alt="Recycle bin" width="100%" height="auto"></div>
-                            <br>
+                    <p>
+                        Here you can choose your preferred language out of these languages. Czech, Dutch, English, French, German, Hungarian, Italian, Japanese, Polish, Portuguese, Russian, and Spanish.
+                    </p>
+                    <div><img src="language.png" onclick="openModal('language.png')" alt="language"
+                            width="100%" height="auto"></div>
+                    
+        </div>
 
+        <div class="bg-light p-4 remove-padding common-scroll" id="ISOweek">
+            <ul class=page-list>
+                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Follow ISO Week Number Format 
+                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                </h2>
 
-                    </div>
+                <p>
+                    Here you can select ISO week format for the weekly timesheet.
+                </p>
+                <div><img src="ISOweek.png" onclick="openModal('ISOweek.png')" alt="ISO Week"
+                        width="100%" height="auto"></div>
+                
+    </div>
+
+    <div class="bg-light p-4 remove-padding common-scroll" id="remove-custom-webpart-css">
+        <ul class=page-list>
+            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Remove Custom Webpart CSS 
+                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+            </h2>
+
+            <p>
+                Here you can remove extra spaces from the SharePoint page.
+            </p>
+            <div><img src="webpartcss.png" onclick="openModal('webpartcss.png')" alt="Webpart CSS"
+                    width="100%" height="auto"></div>
+            
+</div>
+
+<div class="bg-light p-4 remove-padding common-scroll" id="hide-webpart-title">
+    <ul class=page-list>
+        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Webpart Title on SharePoint Page
+                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+        </h2>
+
+        <p>
+            Here you can hide the Webpart tile of the SharePoint page.
+        </p>
+        <div><img src="webpartTitle.png" onclick="openModal('webpartTitle.png')" alt="Webpart CSS"
+                width="100%" height="auto"></div>
+        
+</div>
+
+<div class="bg-light p-4 remove-padding common-scroll" id="hide-side-navigation">
+    <ul class=page-list>
+        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Side Navigation Panel on SharePoint Page
+                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+        </h2>
+
+        <p>
+             Here you can hide the left navigation panel on SharePoint Page.
+        </p>
+        <div><img src="hideNavigation.png" onclick="openModal('hideNavigation.png')" alt="Hide Navigation"
+                width="100%" height="auto"></div>
+        
+</div>
+
+<div class="bg-light p-4 remove-padding common-scroll" id="hide-top-command">
+    <ul class=page-list>
+        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Top Command Bar on SharePoint Page
+                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+        </h2>
+
+        <p>
+             Here you can hide to top command bar on the SharePoint page.
+        </p>
+        <div><img src="hideTopCommand.png" onclick="openModal('hideTopCommand.png')" alt="Hide Top Command."
+                width="100%" height="auto"></div>
+        
+</div>
                     <div class="bg-light p-4 remove-padding common-scroll" id="brand-logo">
                         <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Brand Logo
@@ -397,7 +439,7 @@
 
 
                             <p>
-                                From here admin can add or update the company logo. The updated logo is displayed at the top of the left-side navigation panel. The recommended size of the logo is 150 X 60 with the same aspect ratio along with a transparent or white background is recommended for a better visibility and experience.
+                                 Here you can add your company logo and the same will display at the top left navigation panel.From here admin can add or update the company logo. The updated logo is displayed at the top of the left-side navigation panel. The recommended size of the logo is 150 X 60 with the same aspect ratio along with a transparent or white background is recommended for a better visibility and experience.
                             </p>
 
 
@@ -418,7 +460,7 @@
                      
                         <div><img src="language.png" onclick="openModal('language.png')" alt="Language" width="100%" height="auto">
                         </div><br>
-                        <p> Helpdesk can work in Czech, Dutch, English, French, German, Hungarian, Italian, Japanese, Polish,Portuguese, Russian and Spanish as per your browser language. Admin can enable the toggle <b>Language selection as browser default language.</b></p> 
+                        <p> Timesheet can work in Czech, Dutch, English, French, German, Hungarian, Italian, Japanese, Polish,Portuguese, Russian and Spanish as per your browser language. Admin can enable the toggle <b>Language selection as browser default language.</b></p> 
                         <div><img src="language_enable.png" onclick="openModal('language_enable.png')" alt="Language enable" width="100%" height="auto">
                         </div><br>
 
@@ -429,9 +471,9 @@
             </div> -->
                 <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                 <nav class="pagination mt-3">
-                    <a class="nav nav-prev" href="../../settings/" aria-label="Previous page"><i
-                            class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Settings</span></a>
-                    <a class="nav nav-next" href="/sharepoint-helpdesk/modern/admin/settings/ticket-customization/"
+                    <a class="nav nav-prev" href="../../settings/role/" aria-label="Previous page"><i
+                            class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Users</span></a>
+                    <a class="nav nav-next" href="/online-timesheet-software/modern/admin/settings/ticket-customization/"
                         aria-label="Previous page"> <span class="d-none d-md-block">Ticket Customization</span><i
                             class="ti-arrow-right ml-2"></i></a>
                 </nav>

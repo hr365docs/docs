@@ -3,10 +3,10 @@
 
 <head>
     <meta charset=utf-8>
-    <title>Helpdesk 365 | Role</title>
+    <title>Timesheet 365 | Role</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
-    <meta name=description content="HR365 Helpdesk">
+    <meta name=description content="HR365 Timesheet">
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
     <link rel=icon href=# type=image/x-icon>
@@ -35,15 +35,15 @@
     <meta property="og:image:width" content="2881">
     <meta property="og:image:height" content="681">
     <meta property="og:image:type" content="image/png">
-    <meta name=twitter:title content="HR365 Helpdesk">
-    <meta name=twitter:description content="HR365 Helpdesk">
-    <meta property="og:title" content="HR365 Helpdesk">
-    <meta property="og:description" content="HR365 Helpdesk">
+    <meta name=twitter:title content="HR365 Timesheet">
+    <meta name=twitter:description content="HR365 Timesheet">
+    <meta property="og:title" content="HR365 Timesheet">
+    <meta property="og:description" content="HR365 Timesheet">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-helpdesk/">
+    <meta property="og:url" content="https://hr365docs.github.io/docs/online-timesheet-software/">
     <meta name=twitter:card content="summary">
-    <meta name=twitter:title content="HR365 Helpdesk">
-    <meta name=twitter:description content="HR365 Helpdesk">
+    <meta name=twitter:title content="HR365 Timesheet">
+    <meta name=twitter:description content="HR365 Timesheet">
 </head>
 
 <body>
@@ -70,7 +70,7 @@
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../sharepoint-helpdesk/">Helpdesk 365</a></h5>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../online-timesheet-software/">Timesheet 365</a></h5>
                         <a class=back-btn href="../../../admin/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title="Admin Guide"class="sidelist
@@ -87,13 +87,15 @@
                         <!-- <h2 class=mb-5 id=title>General Settings</h2> -->
                         <div class="bg-light p-4 remove-padding">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Roles <i
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Users <i
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
-                                <p>From here, admin can assign roles to users and teams.</p>
+                                <p>
+                                    Admin can add users over here with various roles like the user, project manager, program manager, project observer, and coordinator. Use Add button to add a single user and use the Add Bulk button to add multiple users. Updated user details (Title, department, and manager name) in M365 can be updated same in the user page by clicking on Sync from M365 button.
+                                </p>
 
                                 <div><img src="user_role.png" onclick="openModal('user_role.png')" alt="User role" width="100%" height="auto"></div>
 
-                                <br> Importance of Roles:
+                                <br> Importance of Roles and permissions:
                                 <br><br>
                                 <b>Admin:</b>
                                 <ul class="ul_li_styles">
@@ -101,76 +103,103 @@
                                         Admin has full control.
                                     </li>
                                     <li>
-                                        	Able to perform all settings.
+                                        Admin can tune the Timesheet 365 application.
                                     </li>
                                     <li>
-                                        Able to raise tickets on behalf of another person.
+                                        Admin can edit or delete the approved timesheet.
                                     </li>
                                     <li>
-                                        Generate reports of all teams.
+                                        Admin can approve the timesheet for all projects if approval settings are enabled.
                                     </li>
                                     <li>
-                                        View dashboard.
+                                        Can submit the timesheet on behalf of their project team members.
                                     </li>
                                     <li>
-                                        Able to assign the tickets of all teams.
+                                        Can view the pending timesheet for the week of the user and send the reminder notification.
                                     </li>
-                                    <li>
-                                        View all the teams in side navigation.
-                                    </li>
+
                                 </ul>
                                 <br>
                                 <br>
-                                <b>Supervisor:</b>
+                                <b>Program Manager:</b>
                                 <br>
                                 <ul class="ul_li_styles">
                                     <li>
-                                        Able to raise tickets on behalf of another person.
+                                        Can approve timesheets for their project managers and project team members.
                                     </li>
                                     <li>
-                                        Receives only raised tickets to their department.
+                                        Can add tasks and activities to their projects.
                                     </li>
                                     <li>
-                                        Able to assign the tickets based on ticket scopes.
+                                        Can view and download the timesheet report of their projects.
+                                    
+                                </ul>
+                                <br><br>
+                                <b>Project Manager:</b>
+                                <br>
+                                <ul class="ul_li_styles">
+                                    <li>
+                                        Can approve timesheets for their project team members.
                                     </li>
                                     <li>
-                                        	Generate reports of their teams.
+                                        Can add tasks and activities to their projects.
                                     </li>
                                     <li>
-                                        View dashboard.
+                                        Can submit the timesheet on behalf of their project team members.
                                     </li>
                                     <li>
-                                        View only those teams inside navigation, if they are supervisors the assigned teams (teams specific).
+                                        Can view and download the timesheet reports of their projects. 
                                     </li>
                                 </ul>
                                 <br><br>
-                                <b>Agents:</b>
+                                <b>Project Observer:</b>
                                 <br>
                                 <ul class="ul_li_styles">
                                     <li>
-                                        Able to raise tickets on behalf of another person.
+                                        Can add tasks and activities to their projects.
                                     </li>
                                     <li>
-                                	They would be able to change the status of their assigned tickets and would be able to re-assign to others.
+                                        Can view and download the timesheet report of their projects.
+                                    </li>
+                                  
+                                </ul>
+                                <br><br>
+                                <b>Project Coordinator:</b>
+                                <br>
+                                <ul class="ul_li_styles">
+                                    <li>
+                                        Can just view all clients, projects, tasks, and task status.
                                     </li>
                                     <li>
-                                        Able to assign the tickets based on ticket scopes.
+                                        Can view and download the timesheet report of all projects.
+                                    </li>
+                                  
+                                </ul>
+                                <br><br>
+                                <b>Users:</b>
+                                <br>
+                                <ul class="ul_li_styles">
+                                    <li>
+                                        Just submit the timesheet and view their timesheet status.
                                     </li>
                                 </ul>
-                                <div class="notices note">
-                                    <div class="paragraph">
-                                        <p>Based on custom settings, the admin, supervisor, and agents can delete the tickets.</p>
-                                    </div>
-                                </div>
+                                <b>No access:</b>
+                                <br>
+                                <ul class="ul_li_styles">
+                                    <li>
+                                        Can’t access the application.
+                                    </li>
+                                </ul>
+                             
 
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="users">
+                        <!-- <div class="bg-light p-4 remove-padding common-scroll" id="users">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Users
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    Admin can assign roles to O365 users with ticket scope as per requirement in the Helpdesk application. You can select both supervisor and agents for multiple teams, however, ticket scope will remain the same along with roles.
+                                    Admin can assign roles to O365 users with ticket scope as per requirement in the Timesheet application. You can select both supervisor and agents for multiple teams, however, ticket scope will remain the same along with roles.
                                 </p>
 
 
@@ -181,7 +210,7 @@
                                 <br>
                                 <ul class="ul_li_styles">
                                     <li>
-                                        Can view all team's unassigned tickets in the Helpdesk.
+                                        Can view all team's unassigned tickets in the Timesheet.
                                     </li>
                                     <li>
                                         Can assign tickets for all teams.
@@ -195,7 +224,7 @@
                                 <br>
                                 <ul class="ul_li_styles">
                                     <li>
-                                        Can view all team's unassigned tickets in the Helpdesk.
+                                        Can view all team's unassigned tickets in the Timesheet.
                                     </li>
                                     <li>
                                         Can assign tickets for all teams.
@@ -339,35 +368,7 @@
                                
 
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="service">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Services
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-
-                                <p>
-                                    Once you create teams, admin can add various services for individual department from settings as shown in below.
-                                </p>
-
-                                <div><img src="add_service.png" onclick="openModal('add_service.png')" alt="Add service" width="100%" height="auto"></div>
-
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="sub-service">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Sub Service
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-
-                                <p>
-                                    From here you can create, edit and delete sub services. You can create the sub service based on service ticket.
-                                </p>
-
-
-                                <div><img src="sub_service.png" onclick="openModal('sub_service.png')" alt="Sub service" width="100%" height="auto"></div>
-                        </div>
+                        
                         <div class="bg-light p-4 remove-padding common-scroll" id="advance">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Advance Permissions
@@ -407,7 +408,7 @@
                                 </p>
                                 <div><img src="enable.png" onclick="openModal('enable.png')" alt="Enable" width="100%" height="auto"></div> -->
                                 <br>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Ticket Properties 
+                                <!-- <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Ticket Properties 
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
@@ -419,14 +420,14 @@
                                 <div><img src="ticket_pro.png" onclick="openModal('ticket_pro.png')" alt="ticket property" width="100%" height="auto"></div>
 
 
-                        </div>
+                        </div> --> 
                         </ul>
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="/sharepoint-helpdesk/modern/admin/settings/ticket-customization/" aria-label="Previous page"><i
-                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Ticket Customization</span></a>
-                            <a class="nav nav-next" href="/sharepoint-helpdesk/modern/admin/settings/integration/" aria-label="Previous page"> <span class="d-none d-md-block">Integrations</span><i class="ti-arrow-right ml-2"></i></a>
+                            <a class="nav nav-prev" href="/online-timesheet-software/modern/admin/settings/" aria-label="Previous page"><i
+                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Settings</span></a>
+                            <a class="nav nav-next" href="/online-timesheet-software/modern/admin/settings/features/" aria-label="Previous page"> <span class="d-none d-md-block">Features</span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
                 </div>
             </div>
