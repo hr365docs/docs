@@ -188,6 +188,8 @@ $(document).ready(function () {
         "<li data-nav-id='./Assign-Assets/ ' title=Add/Edit class='sidelist '>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/role/#users'>Add/Edit Users</a>"+
         "<li data-nav-id='./Assign-Assets/ ' title='Teams' class='sidelist '>"+
+        "<a href='/sharepoint-helpdesk/classic/admin/settings/role/#endUsers'>Add/Edit End Users</a>"+
+        "</li>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/role/#teams'>Add/Edit Teams</a>"+
         "</li>"+
         "<li data-nav-id='./Assign-Assets/' title=Service class='sidelist'>"+
@@ -225,6 +227,10 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/integration/#integrate'>Integrate with HR365 Asset Management</a>"+
+        "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/classic/admin/settings/integration/#integrateMicrosoft'>Integrate Microsoft Form with Helpdesk</a>"+
         "</li>"+
         "</ul>"+
         "</li>"+

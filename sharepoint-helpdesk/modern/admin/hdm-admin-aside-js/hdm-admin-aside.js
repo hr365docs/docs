@@ -189,6 +189,10 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Assign-Assets/ ' title=Add/Edit class='sidelist '>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/role/#users'>Add/Edit Users</a>"+
+        "</li>"+
+        "<li data-nav-id='./Assign-Assets/' title=Add/EditEnd class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/role/#endUsers'>Add/Edit End Users</a>"+
+        "</li>"+
         "<li data-nav-id='./Assign-Assets/ ' title='Teams' class='sidelist '>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/role/#teams'>Add/Edit Teams</a>"+
         "</li>"+
@@ -226,7 +230,11 @@ $(document).ready(function () {
         "<li data-nav-id='./Add Assets/ ' title='Integrate with HR365 Asset Management' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#integrate'>Integrate with HR365 Asset Management</a>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#integrateMicrosoft'>Integrate with HR365 Asset Management</a>"+
+        "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#integrateMicrosoft'>Integrate Microsoft Form with Helpdesk</a>"+
         "</li>"+
         "</ul>"+
         "</li>"+
