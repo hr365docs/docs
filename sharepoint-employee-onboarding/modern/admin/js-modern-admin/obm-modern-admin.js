@@ -103,7 +103,7 @@ $(document).ready(function () {
 
 
         "<li data-nav-id='../General' title=Users class=sidelist>" +
-        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/task-administation/#Task-'> Task </a>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/task-administation/#Task'> Task </a>" +
         "</li>" +
 
         "<li data-nav-id='../General' title=Users class=sidelist>" +
