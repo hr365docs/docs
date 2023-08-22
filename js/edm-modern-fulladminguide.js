@@ -15,6 +15,13 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
 
+        "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Dashboard' class=sidelist>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/dashboard/'>" +
+        "Dashboard" +
+        "</a>" +
+        "</li>" +
+
+
         "<li class='dropdownicon sidelist' title='Settings'>"+
         "<a href='/sharepoint-employee-directory/modern/admin/settings/'>" +
         "Settings" +
