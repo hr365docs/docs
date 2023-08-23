@@ -150,7 +150,7 @@ $(document).ready(function () {
         "<a  class='qwe' href='/online-timesheet-software/classic/admin/settings/'>"+
         "Settings"+
         "</a>"+
-        "<img src='../down-arrow-svgrepo-com.svg'  class='imageIconmainsetting aside_dropdown_icon_setting'>"+
+        "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmainsetting aside_dropdown_icon_setting'>"+
     "</li>"+
 
     "<li data-nav-id='./Setting/' title=Settings class='sidelist dropdown_romove_dot'>"+
