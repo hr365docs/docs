@@ -26,7 +26,7 @@ $(document).ready(function() {
         "<a href='/sharepoint-employee-directory/modern/admin/settings/'>" +
         "Settings" +
         "</a>" +
-        "<img src='./down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
+        "<img src='../down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
     "</li>"+
 
         "<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
@@ -44,7 +44,7 @@ $(document).ready(function() {
         "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>" +
         "General" +
         "</a>" +
-        "<img src='./down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "<img src='../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>"+
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
@@ -122,7 +122,7 @@ $(document).ready(function() {
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>" +
         "Advanced" +
         "</a>" +
-        "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        "<img src='../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>"+
 
         "<li data-nav-id='../advanced/' title=Advanced class='sidelist dropdown_romove_dot'>" +
@@ -219,7 +219,7 @@ $(document).ready(function() {
         "<a href='/sharepoint-employee-directory/modern/admin/help/'>" +
         "Help" +
         "</a>" +
-        "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        "<img src='../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>"+
 
         "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
