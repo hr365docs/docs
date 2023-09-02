@@ -26,6 +26,9 @@ $(document).ready(function() {
         "<li data-nav-id='./Custom-Emails/' title='Bulk Assets' class='sidelist'> "+
         "<a href='/online-asset-management-application/modern/admin/assets/#bulk-assets'>Bulk Assets</a>"+
         " </li>"+
+        "<li data-nav-id='./Custom-Emails/' title='Bulk Assets' class='sidelist'> "+
+        "<a href='/online-asset-management-application/modern/admin/assets/#multiple-assets'>Bulk Assets</a>"+
+        " </li>"+
          "<li data-nav-id='./User/' title='Assign_Assets' class='sidelist'>"+
          "<a href='/online-asset-management-application/modern/admin/assets/#assign-assets'>Assign Assets</a>"+
          " </li>"+
