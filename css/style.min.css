@@ -7,6 +7,10 @@ body {
     background-color: var(--body-color);
 }
 
+/* img {
+    border: 2px solid #000; 
+  } */
+
 p {
     color: var(--text-color);
     font-size: 15px
