@@ -8,6 +8,12 @@ $(document).ready(function() {
         "Introduction" +
         "</a>" +
         "</li>" +
+        
+        "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Profile Card' class=sidelist>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/ArchitectureDiagram/'>" +
+        "Architecture Diagram" +
+        "</a>" +
+        "</li>" +
 
         "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Profile Card' class=sidelist>" +
         "<a href='/sharepoint-employee-directory/modern/admin/profile-card/'>" +

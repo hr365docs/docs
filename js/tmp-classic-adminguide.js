@@ -7,6 +7,7 @@ $(document).ready(function () {
         "Introduction"+
         "</a>"+
         "</li>"+
+       
     
         "<li data-nav-id='../Home-page' title=Home-page class=sidelist>"+
             "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/home-page/'>"+
@@ -25,6 +26,7 @@ $(document).ready(function () {
                     "Public Holidays"+
                 "</a>"+
                 "</li>"+
+                
     
         "<li data-nav-id='../user' title=user class='sidelist'>"+
                     "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/user/'>"+

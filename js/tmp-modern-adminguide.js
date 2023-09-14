@@ -13,7 +13,11 @@ $(document).ready(function () {
                 "Home Page"+
             "</a>"+
             "</li>"+
-        
+            "<li data-nav-id='../ArchitectureDiagram' title=ArchitectureDiagram class=sidelist>"+
+            "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/ArchitectureDiagram/'>"+
+                "Architecture Diagram"+
+            "</a>"+
+            "</li>"+
         "<li data-nav-id='../ HR-actions' title= HR-actions class=sidelist>"+
         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/hr-actions/'>"+
            "HR actions"+
