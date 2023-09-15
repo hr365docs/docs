@@ -21,7 +21,7 @@ $(document).ready(function() {
     "<a class='nav-link text-dark timesheetlink' href='/online-timesheet-software/'>Timesheet</a>"+
     "</li>"+
     "<li class='nav-item'>"+
-    "<a class='nav-link text-dark onboardinglink' href='/sharepoint-employee-onboarding/'>On-boarding</a>"+
+    "<a class='nav-link text-dark onboardinglink' href='/sharepoint-employee-onboarding/'>On-Boarding</a>"+
     "</li>"+
     "<li class='nav-item'>"+
     "<a class='nav-link text-dark performancelink' href='/employee-performance-management/'>Performance Management</a>"+
