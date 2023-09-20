@@ -1,14 +1,14 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $("#edmfullyadminguide").html("");
 
     $("#edmfullyadminguide").append("<ul>" +
-
+        // ritika dasboard
         "<li data-nav-id='./installation/requirments/' title=Introduction class=sidelist>" +
         "<a href='/sharepoint-employee-directory/modern/admin/introduction/'>" +
         "Introduction" +
         "</a>" +
         "</li>" +
-        
+
         "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Profile Card' class=sidelist>" +
         "<a href='/sharepoint-employee-directory/modern/admin/ArchitectureDiagram/'>" +
         "Architecture Diagram" +
@@ -21,19 +21,37 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
 
-        "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Dashboard' class=sidelist>" +
+        "<li class='dropdownicon sidelist' title='dashboard'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/dashboard/'>" +
         "Dashboard" +
         "</a>" +
+        "<img src='../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>" +
 
+        "<li data-nav-id='../advanced/' title=dashboard class='sidelist dropdown_romove_dot'>" +
 
-        "<li class='dropdownicon sidelist' title='Settings'>"+
+
+
+        "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
+        "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/dashboard/general'>General</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/dashboard/advance'>Advance</a>" +
+        "</li>" +
+        
+        "</ul>" +
+       
+        
+
+
+// setting start 
+        "<li class='dropdownicon sidelist' title='Settings'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/'>" +
         "Settings" +
         "</a>" +
         "<img src='../down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
-    "</li>"+
+        "</li>" +
 
         "<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
         // "<div class='dropdownicon'>" +
@@ -46,12 +64,12 @@ $(document).ready(function() {
         "<ul class='sidenavSub-topics aside_dropdown_list_setting' value='settings'>" +
 
         "<ul id='modernadminmainsetting'>" +
-        "<li class='dropdownicon sidelist' title='General'>"+
+        "<li class='dropdownicon sidelist' title='General'>" +
         "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>" +
         "General" +
         "</a>" +
         "<img src='../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
-        "</li>"+
+        "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
         // "<div class='dropdownicon'>" +
@@ -124,17 +142,17 @@ $(document).ready(function() {
         "</a>" +
         "</li>" +
 
-        "<li class='dropdownicon sidelist' title='Advanced'>"+
+        "<li class='dropdownicon sidelist' title='Advanced'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>" +
         "Advanced" +
         "</a>" +
         "<img src='../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
-        "</li>"+
+        "</li>" +
 
         "<li data-nav-id='../advanced/' title=Advanced class='sidelist dropdown_romove_dot'>" +
 
 
-        
+
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
         "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#'>Configure SharePoint API permissions</a>" +
@@ -185,16 +203,16 @@ $(document).ready(function() {
         "<li  data-nav-id='../Records/' title='Custom fields'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#custom-fields'>Custom fields </a>" +
         "</li>" +
-        " <li  data-nav-id='../Records/' title='Extend custom fields search capability' class='sidelist '>"+
-        " <a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#extend-custom-field'>Extend custom fields search capability </a>"+
+        " <li  data-nav-id='../Records/' title='Extend custom fields search capability' class='sidelist '>" +
+        " <a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#extend-custom-field'>Extend custom fields search capability </a>" +
 
-        
-       "  </li>"+
-       " <li  data-nav-id='../Records/' title='Extend mobile number and phone number search capability' class='sidelist '>"+
-                           " <a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#extend-mobile-number'>Extend mobile number and phone number search capability </a>"+
 
-                           
-                          "  </li>"+
+        "  </li>" +
+        " <li  data-nav-id='../Records/' title='Extend mobile number and phone number search capability' class='sidelist '>" +
+        " <a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#extend-mobile-number'>Extend mobile number and phone number search capability </a>" +
+
+
+        "  </li>" +
         "<li  data-nav-id='../Records/' title='Image Profile Tag'  class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#image-profile-tag'>Image Profile Tag </a>" +
         "</li>" +
@@ -221,29 +239,30 @@ $(document).ready(function() {
 
         "</a>" +
         "</ul>" +
-        "<li class='dropdownicon sidelist' title='Help'>"+
+        // setting end 
+        "<li class='dropdownicon sidelist' title='Help'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/help/'>" +
         "Help" +
         "</a>" +
         "<img src='../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
-        "</li>"+
+        "</li>" +
 
         "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
 
 
-        
+
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
         "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>Product Activation</a>" +
         "</li>" +
-       
-       
-       
-       
-       
-      
-       
-      
+
+
+
+
+
+
+
+
 
         "</ul>" +
         // "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Help' class=sidelist>" +
@@ -251,6 +270,8 @@ $(document).ready(function() {
         // "Help" +
         // "</a>" +
         // "</li>" +
+
+
 
         "</ul>")
 
