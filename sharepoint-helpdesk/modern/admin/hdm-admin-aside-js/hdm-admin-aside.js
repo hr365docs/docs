@@ -70,28 +70,30 @@ $(document).ready(function () {
         "</li><li data-nav-id='./Column-Setting/' title='Display Resolved Tab On Homepage' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#display-resolved'>Display Resolved Tab on Home Page</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='Language selection as browser default language' class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#language-selection-as-browser-default-language'>Language selection as browser default language</a>"+
-        "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='Language selection in case browser default language is not detected' class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#language-selection-as-browser-default-language-not-detected'>Language selection in case browser default language is not detected</a>"+
-        "</li>"+
+        
         "<li data-nav-id='./Dashboard-Settings/' title='Display Help Page' Help Page class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#display-help'> Display Help Page</a>"+
         "</li>"+
-        // "<li data-nav-id='./Dashboard-Settings/' title='Allow All to Comment on Tickets' Help Page class='sidelist'>"+
-        // "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#allow-comment-ticket'>Allow All to Comment on Tickets</a>"+
-        // "</li>"+
-        // "<li data-nav-id='./Dashboard-Settings/' title='SharePoint Site Collection Home Link' Help Page class='sidelist'>"+
-        // "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#sharepoint-site-link'>SharePoint Site Collection Home Link</a>"+
-        // "</li>"+
-        // "<li data-nav-id='./Add Assets/ ' title='Open Tickets in New Tab' class='sidelist '>"+
-        // "<ul class='sidenavSub-topics '>"+
-        // "</ul>"+
-        // "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#open-tickets'>Open Tickets in New Tab</a>"+
-        // "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Display Select Teams and priority as dropdown in new ticket page' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Select-Teams-and-priority-as-dropdown-in-new-ticket-page'>Select Teams and priority as dropdown in new ticket page</a>"+
+        "</li>"+
+       
+         "</li><li data-nav-id='./Column-Setting/' title='Display Select Teams and priority as dropdown in new ticket page' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Show-resolved-ticket-in-resolved-tab-only'>Show resolved ticket in resolved tab only</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#GCC-Tenant'>GCC-Tenant</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Language selection as browser default language' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#language'>Language </a>"+
+        "</li>"+
+      
+        "</li>"+
         "<li data-nav-id='./Custom-Emails/' title=Naming Convention class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#naming-convention'>Naming Convention</a>"+
+        "</li>"+
+        "<li data-nav-id='./Custom-Emails/' title=Naming Convention class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Hide-Sharepoint-Pages-Default-Components'>Hide Sharepoint Page's Default Components</a>"+
         "</li>"+
         "<li data-nav-id='./Assign-Assets/' title='Recycle Bin' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#recycle-bin'>Recycle Bin</a>"+
@@ -99,9 +101,6 @@ $(document).ready(function () {
         "<li data-nav-id='./Dashboard-Settings/' title=Brand Logo class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#brand-logo'>Brand Logo</a>"+
         "</li>"+
-        // "<li data-nav-id='./Dashboard-Settings/' title=Language class='sidelist'>"+
-        // "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#language'>Language</a>"+
-        // "</li>"+
         "</li>"+
         "</li>"+
         "</ul>"+
@@ -310,33 +309,63 @@ $(document).ready(function () {
         "<li data-nav-id='./Add Assets/ ' title='Dashboard Settings' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Approver-Workflow'>Approver Workflow</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Dashboard Settings' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Rules-Automation'>Rules & Automation</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Dashboard Settings' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#dashboard-settings'>Dashboard Settings</a>"+
         "</li>"+
         "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
+
+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Chatbot-Bubble-365-setting'>Chatbot Bubble 365 setting</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+
+
+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Configure-different-mailboxes-for-different-team'>Configure different mailboxes for different team</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+
+
+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Service-Entitlement'>Service Entitlement</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Enable-Archival-of-ticket'>Enable Archival of ticket</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+
+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#time-tracking'>Time Tracking</a>"+
         "</li>"+
-        "<li data-nav-id='./Add Assets/ ' title='Remove Custom Webpart CSS' class='sidelist '>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#remove-custom-webpart-css'>Remove Custom Webpart CSS</a>"+
+
+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Show-sample-data-in-dashboard'>Show sample data in dashboard</a>"+
         "</li>"+
-        "<li data-nav-id='./Add Assets/ ' title='Hide Webpart Title on Sharepoint Page' class='sidelist '>"+
-        "<ul class='sidenavSub-topics '>"+
-        "</ul>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#hide-webpart-title-on-sharepoint-page'>Hide Webpart Title on Sharepoint Page</a>"+
-        "</li>"+
-        "<li data-nav-id='./Add Assets/ ' title='Hide Side Navigation Panel on Sharepoint Page' class='sidelist '>"+
-        "<ul class='sidenavSub-topics '>"+
-        "</ul>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#hide-side-navigation-panel-on-sharepoint-page'>Hide Side Navigation Panel on Sharepoint Page</a>"+
-        "</li>"+
-        "<li data-nav-id='./Add Assets/ ' title='Hide Top Command Bar on Sharepoint Page' class='sidelist '>"+
-        "<ul class='sidenavSub-topics '>"+
-        "</ul>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#hide-top-command-bar-panel-on-sharepoint-page'>Hide Top Command Bar on Sharepoint Page</a>"+
-        "</li>"+
+       
         "</ul>"+
         "</ul>"+
         "</li>"+
@@ -344,6 +373,8 @@ $(document).ready(function () {
         "<li data-nav-id='./Settings/ ' title=knowledgebase class='sidelist '>"+
         "<a href='/sharepoint-helpdesk/modern/admin/knowledgebase/'>Knowledgebase</a>"+
         "</li>"+
+
+       
         "<li data-nav-id='./Settings/ ' title=Help class='sidelist '>"+
         "<a href='/sharepoint-helpdesk/modern/admin/help/'>Help</a>"+
         "</li>")
