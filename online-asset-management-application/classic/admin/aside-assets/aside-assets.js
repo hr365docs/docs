@@ -32,6 +32,7 @@ $(document).ready(function() {
          " <li data-nav-id='./General-Settings/' title='Return Assets' class='sidelist'>"+
           "<a href='/online-asset-management-application/classic/admin/assets/#return-assets'>Return Assets </a>"+
           " </li>"+
+          
            "<li data-nav-id='./Dashboard-Settings/' title='Booking Details' class='sidelist'>"+
            "<a href='/online-asset-management-application/classic/admin/assets/#booking-details'> Booking Details</a>"+
             "</li>"+

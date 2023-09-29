@@ -55,22 +55,24 @@
                 </a>
                 <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
                     aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
-                     <span class=navbar-toggler-icon></span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x" viewBox="0 0 16 16">
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
+                    <span class=navbar-toggler-icon></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
                 </button>
                 <div class="collapse navbar-collapse text-center common-header" id=navigation>
-                 
+
                 </div>
             </div>
         </nav>
     </header>
 
     <section class="single section-sm pb-0">
-          <div class="container container-padding">
+        <div class="container container-padding">
             <div class=row>
-              
+
             </div>
             <div class="mar-0px-auto d-lg-flex blog_docs" style="margin: 0px auto">
                 <div class="p-lg-3 p-4 remove-padding bg-white" style="width: 60%" id=content>
@@ -78,182 +80,124 @@
                     <div class="bg-light p-4 remove-padding">
                         <li data-nav-id=../Getting-started/installation/using-app-file title=Installation
                             class="sidelist">
-                            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Ticket Mailbox Power Automate configuration<i class="fas fa-link"
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Ticket Mailbox Power
+                                    Automate configuration<i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
                             <br>
-                            <p>Please follow the below steps to configure the Ticket Mailbox flow. We can configure it either with a Shared mailbox or regularuser's email box.</p>
-                            
-                            
-                            <div class="notices note">
-                            <div class="paragraph">
-                                <p>Note: One who configures the ticket mailbox should be a member of the shared mailbox with send as permission is required.</p>
-                            </div>
-                            </div>
+                            <p>Configuring Ticket Mailbox in Helpdesk 365 using Power Automate.</p>
                             <ol>
-                                <li>
-                                    <p>Sign into power automation.</p>
-                                    <div class="blog_link">
-                                        <b>https://make.powerautomate.com/</b>
-                                    </div>
-                                    <br>
+                                <h3>Prerequisites:</h3>
+                                <li>A shared mailbox or service account mailbox (regular user mailbox) can be configured
+                                    with Helpdesk 365. If it's a shared mailbox, the logged-in account should have
+                                    access to it. For a service account, log in with appropriate permissions.</li>
+                                <li>The logged-in user must have 'send as delegate' permissions to the shared mailbox.
                                 </li>
-                                <br>
+                                <li>The logged-in user should have SharePoint admin access.</li>
+                            </ol>
+                            <ol>
+                                <p>
+                                    Steps to configure the Power Automate flow:
+                                </p>
+                                <li>Log in to portal.office.com.</li>
+                                <p>Select 'Admin' from the app launcher.</p>
+                                <div><img src="1.png" onclick="openModal('1.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Navigate to Microsoft 365 admin center, and choose 'Shared mailboxes' under 'Teams &
+                                    Groups.'</li>
+                                <div><img src="2.png" onclick="openModal('2.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>If a shared mailbox doesn't exist, click "+ Add a shared mailbox," provide the
+                                    necessary details, and click "Save changes."</li>
+                                <div><img src="3.png" onclick="openModal('3.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Once the shared mailbox is created, find it, choose it, and scroll down to manage
+                                    mailbox permissions.</li>
+                                <div><img src="4.png" onclick="openModal('4.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Provide access to all three mailbox permissions for the logged-in user.</li>
+                                <div><img src="5.png" onclick="openModal('5.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
                                 <li>
-                                    <p>On the left pane, select My flows. On the top please select import and then the import package option.</p>
+                                    Now, select 'Power Automate' from the app launcher.
+                                </li>
+                                <div><img src="6.png" onclick="openModal('6.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <p>Click here to download the Power Automate solution, select 'Solutions' from the left
+                                    panel, and import the solution at the top by inserting the downloaded file and
+                                    clicking 'Next.'
+                                    Note: Do not unzip the solution file
+                                </p>
+                                <div><img src="07.png" onclick="openModal('07.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li> Click 'Next' again.</li>
+                                <div><img src="9.png" onclick="openModal('8.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Choose the connections for the logged-in user from the drop-down list and select
+                                    'Import.' Note: If there's no existing connection, create one by clicking 'New
+                                    Connection.'</li>
+                                <div><img src="8.png" onclick="openModal('9.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <p>Note: If you do not have an existing connection, you can make one by clicking on New
+                                    Connection. </p>
+                                <div><img src="10.png" onclick="openModal('10.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Select the imported solution named 'HR365 Helpdesk.'</li>
+                                <div><img src="11.png" onclick="openModal('11.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Under the left navigation panel, choose 'Environment variable,' click on the 'Site
+                                    URL' variable, and replace the default value with your application site URL.</li>
+                                <div><img src="12.png" onclick="openModal('12.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Copy the application site URL up to 'sitename' and paste it into the default value.
+                                </li>
+                                <div><img src="13.png" onclick="openModal('13.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Now click 'SupportMailBoxID' under the display name, replace the default value with
+                                    your shared mailbox ID (created in step 4), and click 'Save.'</li>
+                                <div><img src="14.png" onclick="openModal('14.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Click 'SitePageTitle' under the display name and replace the default value with your
+                                    site page title</li>
+                                <div><img src="15.png" onclick="openModal('15.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Edit (HR365- -- HD SharedMailbox) the flow by clicking in vertical ellipse icon and
+                                    click on edit</li>
+                                <div><img src="16.png" onclick="openModal('16.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                        <p>Click on the first row (When a new email arrives) then click on the folder icon and select the inbox folder</p>
+                                        <div><img src="17.png" onclick="openModal('17.png')" alt="My flows" width="100%"
+                                            height="auto"></div><br>
+                                            <p>Once the inbox folder selected then save the flow by clicking on the save icon.</p>
+                                            <div><img src="18.png" onclick="openModal('18.png')" alt="My flows" width="100%"
+                                                height="auto"></div><br>
+                                                <p>Edit the HR365 – HD External Email Trigger </p>
+                                                <div><img src="19.png" onclick="openModal('19.png')" alt="My flows" width="100%"
+                                                    height="auto"></div><br>
+                                                    <p>Below screen display once click on edit ‘HR365 – HD External Email Trigger’. Click on the condition and then click on ‘Get Flow’, select the default value in the Environment dropdown, and select ‘HR365 – HD SharedMailox’ in the flow dropdown.</p>
+                                                    <div><img src="20.png" onclick="openModal('20.png')" alt="My flows" width="100%"
+                                                        height="auto"></div><br>
+<li>In the left navigation panel, go to 'Cloud flows.' Turn on the flow for 'SharedMailbox' and 'ExternalUserEmail' as shown in the image.</li>
+<div><img src="21.png" onclick="openModal('16.png')" alt="My flows" width="100%"
+    height="auto"></div><br>
+    <li>Once the flows are activated, visit the Helpdesk application, go to settings, and then to 'Helpdesk mailbox.' Click on 'Configure' and select 'Validate.' This action will display the configured mailbox.</li>
+    <div><img src="22.png" onclick="openModal('22.png')" alt="My flows" width="100%"
+        height="auto"></div><br>
+    <li>Now turn on the toggle to send all emails from the Helpdesk mailbox.</li>
+    <div><img src="23.png" onclick="openModal('23.png')" alt="My flows" width="100%"
+        height="auto"></div><br>
+    <li>Proceed to the ticket customization section and enable the toggle for creating tickets automatically.</li>
+    <div><img src="24.png" onclick="openModal('24.png')" alt="My flows" width="100%"
+        height="auto"></div><br>
+    <li>Test the configuration by sending an email to the shared mailbox ID. For instance, Adele Vance (User) sent an email to the configured mailbox, and it was successfully converted into a ticket.</li>
+    <div><img src="25.png" onclick="openModal('25.png')" alt="My flows" width="100%"
+        height="auto"></div><br>
 
-                                    <div><img src="my-flows.png" onclick="openModal('my-flows.png')" alt="My flows" width="100%"
-                                            height="auto"></div>
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Please click on upload and select ticket mailbox zip file wait until the package gets uploaded.</p>
-                                    <br>
-                                    <div class="notices note">
-                                        <div class="paragraph">
-                                            <p>Note: For both the Shared mailbox email id and user mailbox there is a separate zip file. If you would ticket to set up your shared mailbox email id as ticket mailbox, then please select Shared mailbox power automate zip file.</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <p>Do SharePoint and outlook office 365 connection.</p>
-                                   
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Under related resources, click on the action icon of the first row</p>
-
-                                    <div><img src="releated-resource.png" onclick="openModal('releated-resource')" alt="Related resources" width="100%"
-                                            height="auto"></div>
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Once you click on the action icon, the import setup panel opens select your email id and click on the save button.</p>
-                                    <div class="notices note">
-                                        <div class="paragraph">
-                                            <p>Note in case your email id is not showing up in the import panel, please follow step 6</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div><img src="save-step5.png" onclick="openModal('save-step5')" alt="Import setup" width="100%"
-                                            height="auto"></div>
-                                    
-                                  
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Click on Create new then new connection select SharePoint and create it by providing your credentials.</p>
-                                    <p>If we want to set up the user mailbox as a ticket mailbox then provide user credentials.</p>
-                                    <div><img src="createnew-step6.png" onclick="openModal('createnew-step6')" alt="New connection" width="100%"
-                                            height="auto"></div>
-                                    <br>
-                                    <br>
-                                    <div><img src="newconnection-step6.png" onclick="openModal('newconnection-step6')" alt="connection" width="100%"
-                                            height="auto"></div>
-                                    <br>
-                                    <br>
-                                    <div><img src="create-step6.png" onclick="openModal('create-step6')" alt="Steps" width="100%"
-                                                height="auto"></div>       
-                                </li>
-                                <br>
-                                <br>
-                                <li>
-                                    <p>Now under related resources, click on the action icon of the second row, import panel will display select your email id and click on save in case of email is not displayed follow the above step. Their select outlook office365 and create it by providing your credentials.</p>
-
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Under related resources, click on the action icon of the third row, import panel will display select content conversation, and click on save in case it’s not shown please follow the above step. They search for content conversation and create it.</p>
-                                    <p>Once you complete all 3 rows of related resources, click the top first icon, import panel open, select the create as new form setup dropdown and click in the save button.</p>
-                                    <div><img src="setup-step8.png" onclick="openModal('setup-step8')" alt="setup" width="100%"
-                                            height="auto"></div>
-                                    <br>
-                                    <br>
-                                    <div><img src="createnew-step8.png" onclick="openModal('createnew-step8')" alt="Create New" width="100%"
-                                        height="auto"></div>
-                                </li>
-                                <br>
-                                <li>
-                                    <p>After all connections are configured (all icons greyed) please click on import.</p>
-
-                                    <div><img src="importstep9.png" onclick="openModal('importstep9')" alt="All connectios" width="100%"
-                                            height="auto"></div>
-                                </li>
-                                <br>
-                                <li>
-                                   <p>Once the process is completed you will see the below page, click on open flow. In case if Import failed, please refer step 13 onwards.</p>
-                                    <br>
-                                    <div><img src="openflow-step10.png" onclick="openModal('openflow-step10')" alt="Open flow" width="100%"
-                                        height="auto"></div>
-                                        <br>
-                                   
-                                   <p>Please put your email address and pickup it from autosuggestion in the Mail address box, click on the folder icon, and select the inox</p>
-                                  <br>
-                                  <div><img src="original-step10.png" onclick="openModal('original-step10')" alt="Original step" width="100%"
-                                    height="auto"></div>
-                                    <br>
-
-                                            <div class="notices note">
-                                                <div class="paragraph">
-                                                    <p>Note: please remove the comma from the email address box</p>    
-                                                </div>
-                                            </div>
-                                    <br>
-                                    <div><img src="removecomma-step10.png" onclick="openModal('removecomma-step10')" alt="Remove comma" width="100%"
-                                        height="auto"></div>    
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Put the support mailbox ID, add the site URL where the application is installed, and click on the save icon </p>
-                                    <p>https://YourTenantName.sharepoint.com/sites/Sitename/ If app is installed on the site collection site</p>
-                                    <p>https://YourTenantName.sharepoint.com if an app is installed on the root site</p>
-                                    <div><img src="step11.png" onclick="openModal('step11')" alt="Support mailbox" width="100%"
-                                            height="auto"></div>
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Go back and finally turn on the flow</p>
-
-                                    <div><img src="goback-step12.png" onclick="openModal('goback-step12')" alt="GO back" width="100%"
-                                            height="auto"></div>
-                                    <br>
-                                    <br>
-                                    <div><img src="turnon-step12.png" onclick="openModal('turnon-step12')" alt="Turn on" width="100%"
-                                        height="auto"></div>
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Click on ‘Save as a new flow’.</p>
-
-                                    <div><img src="step13.png" onclick="openModal('step13')" alt="Save a flow" width="100%"
-                                            height="auto"></div>
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Expand actions and select connections as per the required resource type (wherever a yellow triangle present)</p>
-
-                                    <div><img src="connection-step14.png" onclick="openModal('connection-step14')" alt="Expand actions" width="100%"
-                                            height="auto"></div>
-                                    <br>
-                                    <br>
-                                    <div><img src="url-step14.png" onclick="openModal('url-step14')" alt="URL" width="100%"
-                                        height="auto"></div>
-                                </li>
-                                <br>
-                                <li>
-                                    <p>Please ensure that all the connections are made & verified.</p>
-                                    <p>
-                                        Now please click on save & turn on the flow (refer step 12)
-                                    </p>
-
-                                    <div><img src="save-step15.png" onclick="openModal('save-step15')" alt="Save and turn" width="100%"
-                                            height="auto"></div>
-                                </li>
-                                <br>
-                                
-                                <!-- <p><b>Thank you & please mail at appsupport@hr365.us for any assistance.</b></p> -->
                             </ol>
 
 
-                            </ul>
+
+
+
                         </li>
                         </ul>
                         </ul>
@@ -274,98 +218,107 @@
                 <div style="width:40% ;margin-top: 16px;">
                     <!-- <div class="home-blog-latest p-lg-3 p-4 remove-padding" id="employee-directory-blog"> -->
 
-                        <div class="home-recent">
-                            <div class="home-blog-latest">
-                                <h2>Latest Posts</h2>
-                                <h4 class="hd">From Our Technical Blog</h4>
-            
-                                <div class="blog_wrap">
-            
-                                    <h3><a href="../../classic/admin/" class="highlight">Admin Guide</a></h3>
-                                    
-                                    <div class="tags">
-            
-                                        <a class="tag-link highlight" href="../../classic/admin/">admin</a>
-            
-                                    </div>
-            
-            
-                                    <!-- <p class="author">
+                    <div class="home-recent">
+                        <div class="home-blog-latest">
+                            <h2>Latest Posts</h2>
+                            <h4 class="hd">From Our Technical Blog</h4>
+
+                            <div class="blog_wrap">
+
+                                <h3><a href="../../classic/admin/" class="highlight">Admin Guide</a></h3>
+
+                                <div class="tags">
+
+                                    <a class="tag-link highlight" href="../../classic/admin/">admin</a>
+
+                                </div>
+
+
+                                <!-- <p class="author">
                        By pgorod | July 15, 2019
                      </p> -->
-                                    <div class="paragraph">
-                                        <p>
-                                            <p>This admin guide provides an overview features and functionality about the Helpkesk application to administrator. Admin can do customisations as per their requirements. </p>
-                                        </p>
-                                    </div>
-            
+                                <div class="paragraph">
                                     <p>
-                                        <a class="more highlight" href="../../classic/admin/">Read More &gt;</a>
+                                    <p>This admin guide provides an overview features and functionality about the
+                                        Helpkesk application to administrator. Admin can do customisations as per their
+                                        requirements. </p>
                                     </p>
-                                    <br>
-            
-            
-                                    <h3><a href="../../classic/user/" class="highlight">User Guide</a></h3>
-                                    <div class="tags">
-            
-                                        <a class="tag-link highlight" href="../../classic/user/">user</a>
-            
-                                    </div>
-            
-            
-                                    <!-- <p class="author">
+                                </div>
+
+                                <p>
+                                    <a class="more highlight" href="../../classic/admin/">Read More &gt;</a>
+                                </p>
+                                <br>
+
+
+                                <h3><a href="../../classic/user/" class="highlight">User Guide</a></h3>
+                                <div class="tags">
+
+                                    <a class="tag-link highlight" href="../../classic/user/">user</a>
+
+                                </div>
+
+
+                                <!-- <p class="author">
                        By pgorod | September 5, 2018
                      </p> -->
-                                    <div class="paragraph">
-                                        <p>This admin guide provides an overview features and functionality about the Helpkesk application to administrator. Admin can do customisations as per their requirements. </p>
-                                    </div>
-            
-                                    <p>
-                                        <a class="more highlight" href="../../classic/user/">Read More &gt;</a>
-                                    </p>
-            
-            
-            
-                                    <h3><a href="../../classic/getting-started/installation/" class="highlight">Installation Guide</a></h3>
-                                    <div class="tags">
-            
-                                        <a class="./blog/user/" href="../../classic/getting-started/installation/">Installation Guide</a>
-            
-                                    </div>
-            
-            
-                                    <!-- <p class="author">
+                                <div class="paragraph">
+                                    <p>This admin guide provides an overview features and functionality about the
+                                        Helpkesk application to administrator. Admin can do customisations as per their
+                                        requirements. </p>
+                                </div>
+
+                                <p>
+                                    <a class="more highlight" href="../../classic/user/">Read More &gt;</a>
+                                </p>
+
+
+
+                                <h3><a href="../../classic/getting-started/installation/" class="highlight">Installation
+                                        Guide</a></h3>
+                                <div class="tags">
+
+                                    <a class="./blog/user/"
+                                        href="../../classic/getting-started/installation/">Installation Guide</a>
+
+                                </div>
+
+
+                                <!-- <p class="author">
                        By Jim Mackin | July 23, 2018
                      </p> -->
-                                    <div class="paragraph">
-                                        <p>This guide provides information about installation the Helpdesk application. You have install from sharepint store or app catalog. </p>
-                                    </div>
-            
-                                    <p>
-                                        <a class="more highlight" href="../../classic/getting-started/installation/">Read More &gt;</a>
-                                    </p>
-            
-                                    <div>
-                                        <h3><a href="../../blog/power-automate/" class="highlight">Ticket Mailbox Power Automate configuration documentation</a></h3>
-                                     
-                                    
-                
-                                        <p>
-                                            <a class="more highlight" href="../../blog/power-automate/">Read More &gt;</a>
-                                        </p>
-                                    </div>
-            
+                                <div class="paragraph">
+                                    <p>This guide provides information about installation the Helpdesk application. You
+                                        have install from sharepint store or app catalog. </p>
                                 </div>
-            
+
+                                <p>
+                                    <a class="more highlight" href="../../classic/getting-started/installation/">Read
+                                        More &gt;</a>
+                                </p>
+
+                                <div>
+                                    <h3><a href="../../blog/power-automate/" class="highlight">Ticket Mailbox Power
+                                            Automate configuration documentation</a></h3>
+
+
+
+                                    <p>
+                                        <a class="more highlight" href="../../blog/power-automate/">Read More &gt;</a>
+                                    </p>
+                                </div>
+
                             </div>
-                          
+
                         </div>
 
                     </div>
 
-
                 </div>
+
+
             </div>
+        </div>
         </div>
         </div>
     </section>
@@ -384,7 +337,8 @@
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2023-<a href=https://www.hr365.us />HR365.</a><a href="https://www.hr365.us/sla/">SLA.</a>
+                    <p class="mb-md-0 mb-4">© 2023-<a href=https://www.hr365.us />HR365.</a><a
+                            href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
                             href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
@@ -399,7 +353,7 @@
                         <li class=list-inline-item><a class="text-color d-inline-block p-2"
                                 href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
                                     class=ti-twitter-alt></i></a></li>
-                    
+
                         <li class=list-inline-item><a class="text-color d-inline-block p-2"
                                 href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
                                 aria-label=Linkedin><i class=ti-linkedin></i></a></li>
