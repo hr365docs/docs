@@ -24,6 +24,9 @@ $(document).ready(function() {
        "<a href='/online-asset-management-application/modern/admin/assets/#add-assets'>Add Asset</a>"+
         "</li>"+
         "<li data-nav-id='./Custom-Emails/' title='Bulk Assets' class='sidelist'> "+
+        "<a href='/online-asset-management-application/modern/admin/assets/#Multiple-assets'>Multiple Assets</a>"+
+        " </li>"+
+        "<li data-nav-id='./Custom-Emails/' title='Bulk Assets' class='sidelist'> "+
         "<a href='/online-asset-management-application/modern/admin/assets/#bulk-assets'>Bulk Assets</a>"+
         " </li>"+
         // "<li data-nav-id='./Custom-Emails/' title='Bulk Assets' class='sidelist'> "+
