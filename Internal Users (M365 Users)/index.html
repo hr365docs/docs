@@ -87,53 +87,65 @@
                             <ol>
                                 <p>
                                     You can follow these steps in case the HR365 Helpdesk Modern solution has been
-                                    already configured
+                                    already configured. In case the Helpdesk mailbox is not configured, please refer to
+                                    the below document:<br>
+                                    <a href="../sharepoint-helpdesk/blog/power-automate/"> Ticket Mailbox Power Automate
+                                        configuration</a>
                                 </p>
                                 <li>Please go to the Integrating settings of Helpdesk 365, and enable the “Integrate
                                     Microsoft Form with Helpdesk”.</li>
                                 <div><img src="1.png" onclick="openModal( '1.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
-                                <p>Copy the URL of the ‘HR365 Helpdesk – Intranet’, and open it in a new tab. This MS
+                                <p>Copy the URL of the MS Form and paste the URL in a new tab. This MS
                                     Form is accessible to only your organization's users.
                                 </p>
                                 <div><img src="2.png" onclick="openModal( '2.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
-                                <li>Duplicate the form by Clicking on the ‘Duplicate it’ button</li>
+                                <li>Now click on the ‘Duplicate it’ button.</li>
                                 <div><img src="3.png" onclick="openModal( '3.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
                                 <li>Once you duplicate it, you can rename the form as per your choice by clicking on the
-                                    form name</li><br>
+                                    form name.
+                                    Note: This MS Form is accessible to Non-M365 users</li><br>
                                 <div><img src="4.png" onclick="openModal( '4.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
-                                <li>Click on the collect responses button, this opens the popup. Copy the click by
-                                    clicking on the copy link button.</li>
+                                <li>Click the "Collect Responses" button to open a popup window. Inside this window,
+                                    you'll be able to copy the link.</li>
                                 <div><img src="5.png" onclick="openModal( '5.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
-                                <li>Copy the Form ID from the URL as shown below. Here you need to copy complete id fond
-                                    next to id= in the URL</li><br>
-                                <div><img src="6.png" onclick="openModal( '6.png') " alt="Helpdesk" width="100% "
+                                <li>Login to your <a href="https://www.office.com/">Microsoft 365 </a>, click on the app
+                                    launcher and open the Power Automate.</li>
+                                <div><img src="011.png" onclick="openModal( '011.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
-                                <li>Now go to the power automate solution through the below link and open the HR365
-                                    Helpdesk Modern solution File.</li><br>
-                                <a href="https://make.powerautomate.com/">https://make.powerautomate.com/</a>
-                                <div><img src="09.png" onclick="openModal( '09.png') " alt="Helpdesk" width="100% "
+                                <li>Click on the Solutions, and import the solution.<br> <b>Note:</b> In case if you
+                                    have not downloded the solution yet, please click on the below link:<br>
+                                    <a
+                                        href="https://cubiclogics-my.sharepoint.com/:f:/p/shanavaj_r/EldENqiWHoxJuT92gwBU7mMBnXNeEasq5fs05d90fMP-5A?e=ukZ2af"><b>HR365
+                                            Helpdesk Solution</b></a>
+                                </li>
+                                <div><img src="012.png" onclick="openModal( '012.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
-                                <li>Click on edit after choosing the cloud flow "HR365 - HD MS Form Integration(Internal)".</li>
+                                <div><img src="9.png" onclick="openModal( '9.png') " alt="Helpdesk" width="100% "
+                                        height="auto "></div><br>
+                                <li>Navigate to cloud flows and select "HR365 - HD MS Form
+                                    Integration(Internal)" and edit the flow.</li>
                                 <div><img src="007.png" onclick="openModal( '007.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
-                                <li>Open the trigger "when a new response is submitted" and choose the earlier-created form from the list that appears.                                </li>
+                                <li>Open the trigger "when a new response is submitted" and choose the earlier-created
+                                    form from the list that appears. </li>
                                 <div><img src="002.png" onclick="openModal( '002.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
-                                <li>Continue to scroll down and choose the "Get response details" trigger, then choose your form once again.                                <div><img src="003.png" onclick="openModal( '003.png') " alt="Helpdesk" width="100% "
-                                        height="auto "></div><br> 
-                                <li>Now return to the flow by clicking the save button.
+                                <>Once you select MS Form name, scroll down and choose the trigger "Get response details" and then choose your form name once again. <div><img src="003.png" onclick="openModal( '003.png') "
+                                            alt="Helpdesk" width="100% " height="auto "></div><br>
+                                <li>Click the save button.
                                 </li>
                                 <div><img src="004.png" onclick="openModal( '004.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div>
-                                        <li>Go ahead and click the "Turn On" button.</li>
-                                        <div><img src="005.png" onclick="openModal( '005.png') " alt="Helpdesk" width="100% "
-                                            height="auto "></div>
-                                        
+                                <li>Go ahead and click the "Turn On" button.</li>
+                                <div><img src="005.png" onclick="openModal( '005.png') " alt="Helpdesk" width="100% "
+                                        height="auto "></div>
+                                 <li>
+                                    You can now verify the process by submitting the MS Form.</li>
                             </ol>
 
 
