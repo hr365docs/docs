@@ -87,9 +87,12 @@
                             <p>Configuring Ticket Mailbox in Helpdesk 365 using Power Automate.</p>
                             <ol>
                                 <h3>Prerequisites:</h3>
-                                <li>A shared mailbox or service account mailbox (regular user mailbox) can be configured
-                                    with Helpdesk 365. If it's a shared mailbox, the logged-in account should have
-                                    access to it. For a service account, log in with appropriate permissions.</li>
+                                <li>You can set up Helpdesk 365 with either a shared mailbox or a service account
+                                    mailbox (regular user mailbox). <br>
+                                    <b>Note</b>: In the case of a shared mailbox, the logged-in account should have the
+                                    necessary access. For a service account, you'll need to log in with the appropriate
+                                    permissions.
+                                </li>
                                 <li>The logged-in user must have 'send as delegate' permissions to the shared mailbox.
                                 </li>
                                 <li>The logged-in user should have SharePoint admin access.</li>
@@ -98,99 +101,97 @@
                                 <p>
                                     Steps to configure the Power Automate flow:
                                 </p>
-                                <li>Log in to portal.office.com.</li>
-                                <p>Select 'Admin' from the app launcher.</p>
+                                <li>Sign in to portal.office.com, then access the app launcher and choose 'Admin'.</li>
+                                <br>
                                 <div><img src="1.png" onclick="openModal('1.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Navigate to Microsoft 365 admin center, and choose 'Shared mailboxes' under 'Teams &
-                                    Groups.'</li>
+                                <li>You will now be directed to the Microsoft 365 admin center. From here, select
+                                    'Shared mailboxes' under 'Teams & Groups.</li><br>
                                 <div><img src="2.png" onclick="openModal('2.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>If a shared mailbox doesn't exist, click "+ Add a shared mailbox," provide the
-                                    necessary details, and click "Save changes."</li>
+                                <li>Next, generate a shared mailbox by clicking 'Add a shared mailbox,' provide the
+                                    required information, and then save your settings.</li><br>
                                 <div><img src="3.png" onclick="openModal('3.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Once the shared mailbox is created, find it, choose it, and scroll down to manage
-                                    mailbox permissions.</li>
+                                <li>After successfully creating the shared mailbox, locate it, select it, and scroll
+                                    down to access Manage mailbox permissions.</li><br>
                                 <div><img src="4.png" onclick="openModal('4.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Provide access to all three mailbox permissions for the logged-in user.</li>
+                                <li>Grant the logged-in user access to all three mailbox permissions.</li><br>
                                 <div><img src="5.png" onclick="openModal('5.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
                                 <li>
                                     Now, select 'Power Automate' from the app launcher.
-                                </li>
+                                </li><br>
                                 <div><img src="6.png" onclick="openModal('6.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <p>Click  <a href="https://cubiclogics-my.sharepoint.com/:f:/p/shanavaj_r/EldENqiWHoxJuT92gwBU7mMBnXNeEasq5fs05d90fMP-5A?e=ukZ2af">here</a> to download the Power Automate solution, select 'Solutions' from the left
-                                    panel, and import the solution at the top by inserting the downloaded file and
-                                    clicking 'Next.'
-                                    Note: Do not unzip the solution file
+                                <p>To download the Power Automate solution, click <a
+                                        href="https://cubiclogics-my.sharepoint.com/:f:/p/shanavaj_r/EldENqiWHoxJuT92gwBU7mMBnXNeEasq5fs05d90fMP-5A?e=ukZ2af">here</a>.
+                                    Then, go to the left panel and choose 'Solutions.' Import the solution at the top by
+                                    uploading the downloaded file and clicking <br>
+                                    <b>Note</b>: Do not unzip the solution file.
                                 </p>
                                 <div><img src="07.png" onclick="openModal('07.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li> Click 'Next' again.</li>
-                                <div><img src="9.png" onclick="openModal('8.png')" alt="My flows" width="100%"
+                                <li> Click on 'Next'.</li><br>
+                                <div><img src="9.png" onclick="openModal('9.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
                                 <li>Choose the connections for the logged-in user from the drop-down list and select
-                                    'Import.' Note: If there's no existing connection, create one by clicking 'New
-                                    Connection.'</li>
-                                <div><img src="8.png" onclick="openModal('9.png')" alt="My flows" width="100%"
+                                    'Import.</li><br>
+                                <div><img src="8.png" onclick="openModal('8.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <p>Note: If you do not have an existing connection, you can make one by clicking on New
+                                <p><b>Note </b>: If you do not have an existing connection, you can make one by clicking
+                                    on New
                                     Connection. </p>
                                 <div><img src="10.png" onclick="openModal('10.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Select the imported solution named 'HR365 Helpdesk.'</li>
+                                <li>Select the imported solution named 'HR365 Helpdesk Solution.'</li><br>
                                 <div><img src="11.png" onclick="openModal('11.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Under the left navigation panel, choose 'Environment variable,' click on the 'Site
-                                    URL' variable, and replace the default value with your application site URL.</li>
+                                <li>Navigate to the left-hand side navigation panel, select 'Environment variables,' and then click on the 'Site URL' variable. Replace the default value with your application's site URL.</li>
+                                <br>
                                 <div><img src="12.png" onclick="openModal('12.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Copy the application site URL up to 'sitename' and paste it into the default value.
-                                </li>
-                                <div><img src="13.png" onclick="openModal('13.png')" alt="My flows" width="100%"
+                                <li>Copy the application site URL up to 'sitename' and paste it into the default value field.
+                                </li><br>
+                                <div><img src="13.png" onclick="openModal('13.png')"    alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Now click 'SupportMailBoxID' under the display name, replace the default value with
-                                    your shared mailbox ID (created in step 4), and click 'Save.'</li>
+                                <li>Next, select 'SupportMailBoxID' under the display name, replace the default value with the ID of your shared mailbox (created in step 4), and then click 'Save'.</li><br>
                                 <div><img src="14.png" onclick="openModal('14.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Click 'SitePageTitle' under the display name and replace the default value with your
-                                    site page title</li>
+                                <li> Under the display name, choose 'SitePageTitle' and replace the default value with your site page title.</li><br>
                                 <div><img src="15.png" onclick="openModal('15.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Edit (HR365- -- HD SharedMailbox) the flow by clicking in vertical ellipse icon and
-                                    click on edit</li>
+                                <li>To edit the flow (HR365 - HD SharedMailbox), click on the vertical ellipsis icon, and then select 'Edit'.</li><br>
                                 <div><img src="16.png" onclick="openModal('16.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                        <p>Click on the first row (When a new email arrives) then click on the folder icon and select the inbox folder</p>
-                                        <div><img src="17.png" onclick="openModal('17.png')" alt="My flows" width="100%"
-                                            height="auto"></div><br>
-                                            <p>Once the inbox folder selected then save the flow by clicking on the save icon.</p>
-                                            <div><img src="18.png" onclick="openModal('18.png')" alt="My flows" width="100%"
-                                                height="auto"></div><br>
-                                                <p>Edit the HR365 – HD External Email Trigger </p>
-                                                <div><img src="19.png" onclick="openModal('19.png')" alt="My flows" width="100%"
-                                                    height="auto"></div><br>
-                                                    <p>Below screen display once click on edit ‘HR365 – HD External Email Trigger’. Click on the condition and then click on ‘Get Flow’, select the default value in the Environment dropdown, and select ‘HR365 – HD SharedMailox’ in the flow dropdown.</p>
-                                                    <div><img src="20.png" onclick="openModal('20.png')" alt="My flows" width="100%"
-                                                        height="auto"></div><br>
-<li>In the left navigation panel, go to 'Cloud flows.' Turn on the flow for 'SharedMailbox' and 'ExternalUserEmail' as shown in the image.</li>
-<div><img src="21.png" onclick="openModal('16.png')" alt="My flows" width="100%"
-    height="auto"></div><br>
-    <li>Once the flows are activated, visit the Helpdesk application, go to settings, and then to 'Helpdesk mailbox.' Click on 'Configure' and select 'Validate.' This action will display the configured mailbox.</li>
-    <div><img src="22.png" onclick="openModal('22.png')" alt="My flows" width="100%"
-        height="auto"></div><br>
-    <li>Now turn on the toggle to send all emails from the Helpdesk mailbox.</li>
-    <div><img src="23.png" onclick="openModal('23.png')" alt="My flows" width="100%"
-        height="auto"></div><br>
-    <li>Proceed to the ticket customization section and enable the toggle for creating tickets automatically.</li>
-    <div><img src="24.png" onclick="openModal('24.png')" alt="My flows" width="100%"
-        height="auto"></div><br>
-    <li>Test the configuration by sending an email to the shared mailbox ID. For instance, Adele Vance (User) sent an email to the configured mailbox, and it was successfully converted into a ticket.</li>
-    <div><img src="25.png" onclick="openModal('25.png')" alt="My flows" width="100%"
-        height="auto"></div><br>
+                                <p>Select the first row (When a new email arrives), and then click on the folder icon. Choose the inbox folder.</p>
+                                <div><img src="17.png" onclick="openModal('17.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <p>After selecting the inbox folder, save the flow by clicking on the save icon.</p>
+                                <div><img src="18.png" onclick="openModal('18.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <p>Now edit the flow (HR365 - HD External Email Trigger), click on the vertical ellipsis icon, and then select 'Edit'. </p>
+                                <div><img src="19.png" onclick="openModal('19.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <p>After clicking 'Edit' on 'HR365 - HD External Email Trigger,' go to the condition and click on 'Get Flow.' In the Environment dropdown, choose the default value, and in the flow dropdown, select 'HR365 - HD SharedMailbox.'</p>
+                                <div><img src="20.png" onclick="openModal('20.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>In the left navigation panel, navigate to 'Cloud flows.' Enable the flow for 'SharedMailbox' and 'ExternalUserEmail,' as illustrated in the image.</li><br>
+                                <div><img src="21.png" onclick="openModal('16.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>After activating the flows, visit the Helpdesk application, navigate to settings, and then access 'Helpdesk mailbox.' Click 'Configure' and choose 'Validate.' This action will reveal the configured mailbox.</li><br>
+                                <div><img src="22.png" onclick="openModal('22.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Now, toggle the switch to enable sending all emails from the Helpdesk mailbox.</li><br>
+                                <div><img src="23.png" onclick="openModal('23.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>Move on to the ticket customization section and activate the toggle for automatic ticket creation.</li><br>
+                                <div><img src="24.png" onclick="openModal('24.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <li>To verify the setup, test it by sending an email to the shared mailbox ID. For example, Adele Vance (User) sent an email to the configured mailbox, and it was seamlessly converted into a ticket.</li><br>
+                                <div><img src="25.png" onclick="openModal('25.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
 
                             </ol>
 

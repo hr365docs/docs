@@ -66,6 +66,9 @@ $(document).ready(function() {
                  "<li data-nav-id='./Dashboard-Settings/' title='Consumable Items' class='sidelist'>"+
                  "<a href='/online-asset-management-application/modern/admin/consumable/#consumable-items'> Assign Inventory</a>"+
                   "</li>"+
+                  "<li data-nav-id='./Dashboard-Settings/' title='Consumable Items' class='sidelist'>"+
+                 "<a href='/online-asset-management-application/modern/admin/consumable/#Assigned'>Assigned</a>"+
+                  "</li>"+
                  "<li data-nav-id='./Dashboard-Settings/' title='Request Consumable Items' class='sidelist'>"+
                  "<a href='/online-asset-management-application/modern/admin/consumable/#request-consumable'> Bulk Assign Inventory</a>"+
                   "</li>"+
@@ -148,9 +151,9 @@ $(document).ready(function() {
                     "<li data-nav-id='./Assign-Assets/' title='Custom Webpart CSS' class='sidelist'>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/views/#Hide-Asset-ID-Prefix'>Hide Asset ID Prefix </a>"+
                     "</li>"+
-                    // "<li data-nav-id='./Assign-Assets/' title='Custom Webpart CSS' class='sidelist'>"+
-                    // "<a href='/online-asset-management-application/modern/admin/settings/views/#custom-webpart-css'>Custom Webpart CSS </a>"+
-                    // "</li>"+
+                    "<li data-nav-id='./Assign-Assets/' title='Custom Webpart CSS' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#Language'>Language </a>"+
+                    "</li>"+
                     "<li data-nav-id='./Add Assets/ ' title='Assign Assets and Return Assets Options' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
@@ -159,7 +162,16 @@ $(document).ready(function() {
                     "<li data-nav-id='./Add Assets/ ' title='Column Views' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#Sample'>Sample Data In Dashboard</a>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Column Views' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/views/#column-views'>Column Views</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Column Views' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/views/#Sharepoint-Page-Views'>Sharepoint Page Views</a>"+
                     "</li>"+
                     "<li data-nav-id='./Add Assets/ ' title='Dashboard Views' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
@@ -284,6 +296,11 @@ $(document).ready(function() {
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/features/#quick-action'>Quick Action</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Quick Action' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#GCC-Tenant'>GCC Tenant</a>"+
                     "</li>"+
                     "<li data-nav-id='./Add Assets/ ' title='Software' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
