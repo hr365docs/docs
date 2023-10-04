@@ -665,6 +665,7 @@ li.sidelist li a {
     display: inline-block;
 }
 
+ 
 .sidelist li.sidelist {
     display: block
 }
@@ -1212,6 +1213,9 @@ html {
     transition: 0.3s;
     margin-left: 12px;
     cursor: pointer;
+}
+.ms_anchor_tag{
+   color: var(--primary-color); 
 }
 
 
@@ -1894,3 +1898,7 @@ section .container{
     
     }
 
+
+span.msanchortag{
+    color: var(--primary-color) !important; 
+    }
