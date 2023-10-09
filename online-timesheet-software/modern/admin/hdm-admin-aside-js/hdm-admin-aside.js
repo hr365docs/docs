@@ -51,6 +51,22 @@ $(document).ready(function () {
         "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/notification/'>Notification</a>"+
         
         "</li>"+
+        
+        "<li>"+
+        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/email-template/'>Email Template</a>"+
+        
+        "</li>"+
+        "<li>"+
+        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/integration/'>Integration</a>"+
+        
+        "</li>"+
+        "<li>"+
+        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/general-setting/'>Advance Setting</a>"+
+        
+        "</li>"+
+
+
+
                
        
         " </li>"+
