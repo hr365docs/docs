@@ -83,12 +83,15 @@
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
 
-        <p><b>Add Icon:</b> Click on Add Icon, it would open an apply leave from, users could request the leave.</p>
+        <p><b>Apply Leave:</b> Click on + Apply Leave, it would open an apply leave from, users could request the leave.</p>
         <br>
         <div><img src="ApplyLeaveAdd.png" onclick="openModal('ApplyLeaveAdd.png')" alt="Home page" width="100%" height="auto"></div>
         <br>
-        <p>Click on <b>Submit</b> button for apply to leave.</p>
+        <p>Fill in the information as needed.</p>
+        <div><img src="1.png" onclick="openModal('1.png')" alt="Home page" width="100%" height="auto"></div>
         <br>
+        <p>Click on <b>Submit</b> button for apply to leave.</p>
+     
         <div><img src="SubmitLeave.png" onclick="openModal('SubmitLeave.png')" alt="Home page" width="100%" height="auto"></div>
         <br>
 
@@ -117,9 +120,10 @@
                
            </ul>
            <br>
-     <p><h5>Manger actions</h5>
+
+     <p><h5>Approval</h5>
      
-        <p>This section is visible only for admins and managers, from where leave can be approved or rejected.</p>
+        <p>This section is visible only for admins , managers and user (who had Pending Leaves for Approve or Reject), from where leave can be approved or rejected.</p>
         <div><img src="home.png" onclick="openModal('home.png')" alt="Manager actions" width="100%" height="auto"></div>
               <br>
               <ul>
@@ -166,7 +170,7 @@
     </p>
     <div><img src="leave_cancellation.png" onclick="openModal('leave_cancellation.png')" alt="Leave cancellation" width="100%" height="auto"></div>
     <br>
-    <h5>New Request:</h5><p> One can apply for a leave by clicking on new request button.</p>
+    <!-- <h5>New Request:</h5><p> One can apply for a leave by clicking on new request button.</p>
    
    <h5>Calendar:</h5>  <p>In this calendar, leaves are displayed. Weekends in green color, public holidays in orange color, and your and other users of your department leaves(applied and approved leaves) in blue color.</p>
     
@@ -177,33 +181,36 @@
         </li>
         <li>You can also view information like total leaves this year, leave entitlement, leaves used, leaves remaining, and the number of days you are applying for leave.</li>
         <li><b>Additional Approvers:</b> This would display only when the admin has enabled (from advance settings). User could add additional approver (in additional approvers dropdown all managers roles persons show).
-            </li>
+            </li> -->
 <br>
     </ol>
     <h5>Comp Off Leave:</h5>
     <p>
-        User could specify the number of days between Comp off leaves that may be taken after the date you choose by using the Avail Comp off (off in lieu) Policy (in Days) option. Implement the Comp off (off in lieu) Policy (in Days).
-
-        <div><img src="avail_compoff.png" onclick="openModal('avail_compoff.png')" alt="Avail comp off" width="100%" height="auto"></div>
-        <br> 
-    </p>
-    <p> <div><img src="applied_compoff.png" onclick="openModal('applied_compoff.png')" alt="Applied comp off" width="100%" height="auto"></div>
+        The user can enable and disable the Compoff  from the home page in accordance with his needs.
         <br> </p>
+        <p>Go to settings</p>
+        <div><img src="2.png" onclick="openModal('2.png')" alt="Leave Recurrence" width="100%" height="auto"></div><br>
+        <p>Click on <b>Leaves</b></p>
+        <div><img src="3.png" onclick="openModal('3.png')" alt="Leave Recurrence" width="100%" height="auto"></div><br>
+        <p>Click on Edit or pencil icon</p>
+        <div><img src="4.png" onclick="openModal('4.png')" alt="Leave Recurrence" width="100%" height="auto"></div><br>
+        <p>Here you can Enable or disable Compoff from the home page in accordance with his needs. </p>
+        <div><img src="5.png" onclick="openModal('5.png')" alt="Leave Recurrence" width="100%" height="auto"></div><br>
         <!-- <p>
             <div><img src="comp_off_calender.png" onclick="openModal('comp_off_calender.png')" alt="Comp off calender" width="100%" height="auto"></div>
             <br> 
         </p> -->
       
     <h5>Leave Recurrence:</h5>
-    <p><b>Leave Recurrence</b> icon will appear in the top right corner of the Apply Leaves panel . Now click on that icon.
+    <p><b>Leave Recurrence</b> icon will appear in the right corner of the Apply Leaves panel . Now click on that icon.
      
     <div><img src="recurr_leave.png" onclick="openModal('recurr_leave.png')" alt="Leave Recurrence" width="100%" height="auto"></div>
     <br>
     <ol>
-        <li>
+        <!-- <li>
          <p>There will be two choices displayed: <b>Recurrence</b> and <b>One Time</b> . Choose <b>Recurrence</b> from the available options .</p>
          <div><img src="select_recurr.png" onclick="openModal('select_recurr.png')" alt="Select recurrence" width="100%" height="auto"></div>
-         </li>
+         </li> -->
          <br>
         <li>There are two types of recurrence leave you could apply for when you click on the <b>Recurrence</b>  choice under Recurrence option : 
             <ol type="I"><br> <li><b>Weekly</b> recurrence leave.</li>
@@ -217,7 +224,7 @@
             <p></p>  
            
             Click the Submit button after choosing the <b>Start Date</b> and <b>End Date .</b><br><br>
-                <div><img src="weekly_submit.png" onclick="openModal('weekly_submit.png')" alt="Weekly submit" width="100%" height="auto"></div> 
+                 
                 <p></p>  
             </li>
             <br>
