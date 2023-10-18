@@ -108,14 +108,15 @@
                                 <li>
                                     <a href="../settings/#general">General</a>
                                 </li>
+                                
                                 <li>
-                                    <a href="../settings/#organization">Office Locations</a>
+                                    <a href="../settings/#advance-settings">Advance Settings</a>
+                                </li>
+                                <li>
+                                    <a href="../settings/#organization">Organization</a>
                                 </li>
                                 <li>
                                     <a href="../settings/#leave-type-settings">Leave Type Setting</a>
-                                </li>
-                                <li>
-                                    <a href="../settings/#advance-settings">Advance Settings</a>
                                 </li>
 
                             </ol>
@@ -132,7 +133,7 @@
 
                             <ol>
                                 <li>
-                                    <h6>Side navigation theme
+                                    <h6>Theme
 
                                     </h6>Here, you can change the theme color light, dark and site theme.
                                 </li>
@@ -161,10 +162,10 @@
                                     <div class="example">
                                         let say
                                         <br>
-                                        candidate joining date = 15 <sup>th</sup> March 2021.
+                                        candidate joining date = 15 <sup>th</sup> March 2023.
                                         <br>
-                                        Annual Start date= 1 <sup>st</sup> Jan 2021 <br>
-                                        Annual End Date = 31<sup>st</sup> Dec 2021. <br>
+                                        Annual Start date= 1 <sup>st</sup> Jan 2023 <br>
+                                        Annual End Date = 31<sup>st</sup> Dec 2023. <br>
                                         Casual Leaves = 24.
                                         <p>&#10004; If accrued is disabled, candidate allocated leave would be
                                             (24 leaves /12 month) * Remaining months i.e., 9 months = 18 Leaves
@@ -213,28 +214,13 @@
                                 <img src="color_c.png" onclick="openModal('color_c.png')" alt="Color code" width="100%">
                                 <br><br>
                                 <li>
-                                    <h6>Remove custom webpart CSS</h6>If it is enabled, the space outside of webpart
-                                    would be removed.
+                                    <h6>Display team's time off on calendar
+
+                                    </h6>You can, if enabled, view the calendar of leaves taken by Team members in the
+                                    same department.
                                 </li>
                                 <br>
-                                <img src="remove_custom.png" onclick="openModal('remove_custom.png')"
-                                    alt="remove custom" width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Hide webpart title in sharepoint page</h6>Hide webpart title in the SharePoint
-                                    page where app is running.
-                                </li>
-                                <br>
-                                <img src="hide_webpart.png" onclick="openModal('hide_webpart.png')" alt="hide webpart"
-                                    width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Hide side navigation panel in sharepoint page</h6>Hide side navigation panel in
-                                    SharePoint page where app is running
-                                </li>
-                                <br>
-                                <img src="side_navigation.png" onclick="openModal('side_navigation.png')"
-                                    alt="side navigation" width="100%">
+                                <img src="1.png" onclick="openModal('1.png')" alt="allow user" width="100%">
                                 <br><br>
                                 <li>
                                     <h6>Allow all microsoft 365 users in this tenant</h6>Microsoft 365 users would not
@@ -247,13 +233,38 @@
                                     width="100%">
                                 <br><br>
                                 <li>
-                                    <h6>Leaves reordering</h6>Leaves could be reordered.
+                                    <h6>Show Sample data in Dashboard</h6>
                                 </li>
                                 <br>
                                 <img src="leaves_reordering.png" onclick="openModal('leaves_reordering.png')"
                                     alt="leave reordering" width="100%">
                                 <br><br>
-                                <img src="order.png" onclick="openModal('order.png')" alt="order" width="100%">
+                                <li>
+                                    <h6>Leaves reordering</h6>Here You Can reorder the Leaves.
+                                </li>
+                                <br>
+                                <img src="2.png" onclick="openModal('2.png')" alt="brand logo" width="100%">
+                                <br><br>
+                                <li>
+                                    <h6>Hide SharePoint page's default components.</h6>Select Configure to Process
+                                    Continue.
+                                </li><br>
+                                <img src="4.png" onclick="openModal('4.png')" alt="brand logo" width="100%">
+                                <br><br>
+                                <p><b>Remove custom webpart CSS :</b>Enable this toggle will remove space outside of
+                                    Webpart. </p>
+                                <p><b>Hide webpart title in sharepoint page :</b>Enable this toggle will remove the
+                                    Webpart title.</p>
+                                <p><b>Hide side navigation panel in sharepoint page :</b> Enable this toggle will hide
+                                    side navigation Panel.</p>
+                                <p><b>Hide top command bar on sharepoint page :</b>Enable this toggle will hide the
+                                    command bar on sharepoint page.</p>
+                                <p><b>Hide top site header :</b>Enable this toggle will hide top site header where app
+                                    is running.</p>
+                                <p><b>Hide comments wrapper :</b>Enable this toggle will hide comments wrapper in
+                                    sharepoint page where app is running.</p>
+                                <br>
+                                <img src="5.png" onclick="openModal('5.png')" alt="brand logo" width="100%">
                                 <br><br>
                                 <li>
                                     <h6>Brand Logo</h6>Admin may upload logo.
@@ -263,6 +274,170 @@
                                     width="100%">
                                 <br><br>
                             </ol>
+                        </div>
+                        <div class="bg-light p-4 common-scroll" id="organization">
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Advance
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <br><img src="6.png" onclick="openModal('6.png')" alt="Office Location" width="100%"><br>
+                            <br>
+                            <ol>
+                                <li>
+                                    <h6>Calculate leaves include weekends / holidays</h6>In case you want to include
+                                    weekends as leaves when first and last day of the leave include weekend / holiday
+                                    i.e. Someone apply leave from Friday to Monday, if the toggle switch is on, it will
+                                    calculate four leaves and two leaves in case toggle is in off state.
+                                </li>
+                                <img src="7.png" onclick="openModal('7.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li>
+                                    <h6>HR approvers</h6>
+                                </li>
+                                <img src="8.png" onclick="openModal('8.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li>
+                                    <h6>Additional approvers</h6>Give applicants the option to choose another
+                                    approver(s) in case their first-line manager is unavailable.
+                                </li>
+                                <img src="9.png" onclick="openModal('9.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li>
+                                    <h6>Reminder notifications to approvers</h6>You can disable daily reminder
+                                    notifications to approvers.
+                                </li>
+                                <img src="10.png" onclick="openModal('10.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li>
+                                    <h6>Allow backdate leaves </h6>User can be allowed to submit back date leaves by X
+                                    days
+                                </li>
+                                <img src="11.png" onclick="openModal('11.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li>
+                                    <h6>Leave accrual</h6>By enabling this option, users will have their leaves accrued
+                                    every month rather than allotted on the first day of the year.
+                                </li>
+                                <img src="12.png" onclick="openModal('12.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <h6>Select the leave type to carry forward</h6>At the end of the year, one of the leave
+                                types can be carried forward to the next year.
+                                </li>
+                                <img src="13.png" onclick="openModal('13.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <br>
+                                <li>
+                                    <h6>Add Comp off (off in lieu) policy (in days)</h6>Comp (Compensatory) Off leave
+                                    (also called compensatory off, comp off, or off-In-Lieu) allows team members to take
+                                    time off in lieu of overtime pay if they've worked under irregular circumstances,
+                                    such as: when business is closed, holidays, overtime hours, etc. Users are allowed
+                                    to consume their comp off with X days from the day they worked under irregular
+                                    circumstances.
+                                </li>
+                                <img src="14.png" onclick="openModal('14.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li>
+                                    <h6>Avail Comp off (off in lieu) policy (in days)</h6>Comp (Compensatory) Off leave (also called compensatory off, comp off, or off-In-Lieu) allows team members to take time off in lieu of overtime pay if they've worked under irregular circumstances, such as: when business is closed, holidays, overtime hours, etc. Users are allowed to consume their comp off with X days from the day they worked under irregular circumstances.
+                                </li>
+                                <img src="15.png" onclick="openModal('15.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li>
+                                    <h6>Enable external users</h6>You can allow external users to use this Time-off Manager app i.e. You can add them as guest / external user which is added in your office 365 tenant
+                                </li>
+                                <img src="16.png" onclick="openModal('16.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li>
+                                    <h6>Leaves Based On</h6> Leaves are based on 3 categories. This could be enabled by
+                                    selecting the check box and click on <b>Save</b> button.
+                                    <br><br>
+                                    <ol>
+                                        <li>
+                                            <b>Regular</b>: Total number of leaves could be entered. This leave
+                                            allocates for all users based on date of joining and accrued (optional). If
+                                            you want change leave for particular user, it can we done from user page.
+                                            <br><br>
+                                            <img src="regular.png" onclick="openModal('regular.png')" alt="Regular"
+                                                width="100%">
+                                            <br><br>
+                                        </li>
+                                        <br>
+                                        <li>
+                                            <b>Level Based Leaves</b>: Level-based leaves and grades options would be
+                                            displayed under systems settings, here first define the grades for different
+                                            job title, finally add the leaves numbers for such grades from leave based
+                                            option.
+                                            <br><br>
+                                            <img src="level_base.png" onclick="openModal('level_base.png')"
+                                                alt="Leave based" width="100%">
+                                            <br><br>
+                                            <img src="grade_level.png" onclick="openModal('grade_level.png')"
+                                                alt="grade level" width="100%">
+                                            <br>
+                                        </li>
+                                        <br>
+
+                                        <li>
+                                            Tenure Based Leaves: Second-level approval for leave cancellation would be
+                                            available by enabling the tab. HR is the second-level approver for leave
+                                            cancellation (On default setting).
+                                            <br><br>
+                                            <img src="tenure_added.png" onclick="openModal('tenure_added.png')"
+                                                alt="Tenure based" width="100%">
+                                            <br><br>
+                                            <img src="tenure_based.png" onclick="openModal('tenure_based.png')"
+                                                alt="Tenure added" width="100%">
+                                            <br><br>
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <h6>Leave as Per</h6>
+                                </li>
+                                <img src="18.png" onclick="openModal('18.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <br>
+                                <li>
+                                    <h6>Show Time off requests in Microsoft outlook calender.</h6>When we apply leave, Outlook Calendar is blocked.
+                                </li>
+                                <img src="19.png" onclick="openModal('19.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                
+                                <li>
+                                    <h6>Auto Approvals.</h6>leaves can approve automattically without permission.
+                                </li>
+                                <img src="20.png" onclick="openModal('20.png')" alt="Office Location" width="100%"><br><br>
+                                <img src="21.png" onclick="openModal('21.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li>
+                                    <h6>Second level approval for leave cancellation.</h6>HR is Second level approver for Leave Cancellation.
+                                </li>
+                                <img src="22.png" onclick="openModal('22.png')" alt="Office Location" width="100%"><br><br>
+                               
+                                <br>
+                                <li>
+                                    <h6>Display Title.</h6> You can Hide/Show title field while applying leave.
+                                </li>
+                                <img src="23.png" onclick="openModal('23.png')" alt="Office Location" width="100%"><br><br>
+                                <li>
+                                    <h6>Enable recurrence of leaves .</h6> If enabled, you can find control of recurrence on the top right corner after clicking on 'new request' on home page of the application
+                                </li>
+                                <img src="24.png" onclick="openModal('24.png')" alt="Office Location" width="100%"><br><br>
+                                <li>
+                                    <h6>Language selection as browser default language.</h6> Select browser Default Language.
+                                </li>
+                                <img src="25.png" onclick="openModal('25.png')" alt="Office Location" width="100%"><br><br>
+                                <br>
+                                <li>
+                                    <h6>Language selection in case browser default language is not detected.</h6> 
+                                </li>
+                                <img src="26.png" onclick="openModal('26.png')" alt="Office Location" width="100%"><br><br>
+                                <li>
+                                    <h6>Email Template</h6> Here you can configure email notification body and add more placeholders.
+                                </li>
+                                <img src="27.png" onclick="openModal('27.png')" alt="Office Location" width="100%"><br><br>
+                                <img src="28.png" onclick="openModal('28.png')" alt="Office Location" width="100%"><br><br>
+                               
+                            </ol>
+
                         </div>
                         <div class="bg-light p-4 common-scroll" id="organization">
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Organizations
@@ -351,7 +526,8 @@
                                     width="100%">
                                 <br><br>
                                 <li>Firstly choose the file to click <b>Choose File</b> button then Click on
-                                    <b>Upload</b> button to upload the the file </li>
+                                    <b>Upload</b> button to upload the the file
+                                </li>
                                 <br>
                                 <img src="BulkImpoetUpload.png" onclick="openModal('BulkImpoetUpload.png')"
                                     alt="Import leave" width="100%">
@@ -361,260 +537,7 @@
 
 
                         </div>
-                        <div class="bg-light p-4 common-scroll remove-padding" id="advance-settings">
-                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Advance Settings
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                            </h2>
-                            <p>Approvers could be added, send notifications to approvers, allow negative leaves, change
-                                date format, theme color, company or brand logo and icon, Graph API Integration and Auto
-                                approvals etc.</p>
-
-
-                            <ol>
-                                <li>
-                                    <h6>Calculate leaves include weekends / holidays</h6> If there is a need to include
-                                    weekends as leaves, you may enable the toggle switch. Users are allowed to apply for
-                                    leaves for the weekend.
-                                </li>
-                                <br>
-                                <img src="claculate_leave_advance.png" onclick="openModal('claculate_leave_advance.png')" alt="claculate leaves"
-                                    width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>HR Approvers</h6> HRs for approvers could be added by entering their names or
-                                    email IDs and clicking on the save icon.
-                                </li>
-                                <br>
-                                <img src="hr.png" onclick="openModal('hr.png')" alt="HR approvers" width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Additional Approvers </h6> If there is a need for the leaves to be approved by
-                                    additional approvers, you may enable them.
-                                </li>
-                                <br>
-                                <img src="addition.png" onclick="openModal('addition.png')" alt="Additional Approvers"
-                                    width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Reminder notifications to approvers </h6> Upon enabling reminder notification,
-                                    just in case, If any approver forgets to approve the leave, a reminder email
-                                    notification will be sent.
-                                </li>
-                                <br>
-                                <img src="reminder.png" onclick="openModal('reminder.png')" alt="Reminder" width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Allow Negative Leaves </h6> Upon enabling allow negative leaves tab, users would
-                                    be allowed to request the leaves even though leaves are not available in their
-                                    bucket.
-                                </li>
-                                <br>
-                                <img src="negative.png" onclick="openModal('negative.png')" alt="Negative leaves"
-                                    width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Allow Backdate leaves</h6> Upon enabling allow backdate leaves tab, users are
-                                    allowed to submit back date leaves by X days.
-                                </li>
-                                <br>
-                                <img src="backdate.png" onclick="openModal('backdate.png')" alt="Allow backdate"
-                                    width="100%">
-                                <br><br>
-
-                                <li>
-                                    <h6>Leave Accrual</h6> It is the amount of vacation time that an employee has earned
-                                    as per a company's employee benefits policy, this could be enabled as per the
-                                    organization policies.
-                                </li>
-                                <br>
-                                <img src="leav_accrual.png" onclick="openModal('leav_accrual.png')" alt="Leave accural"
-                                    width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Allow External Domains</h6> You can add External, or guest user's domains
-                                    separated by comma, e.g.: xyz.com, abc.com. You can allow guest user to request the
-                                    leaves.
-                                </li>
-                                <br>
-                                <img src="external_users.png" onclick="openModal('external_users.png')"
-                                    alt="External domains" width="100%">
-                                <br><br>
-
-                                <!-- <br>
-                                <img src="calculate.png" onclick="openModal('calculate.png')" alt="Leave calculate"
-                                    width="100%">
-                                <br><br> -->
-
-                                <li>
-                                    <h6> Select The Leave Type To Carry Forward</h6> You may select the leave type and
-                                    enter the number of leaves, which would be carried forward.
-                                </li>
-                                <br>
-                                <img src="carry_forward.png" onclick="openModal('carry_forward.png')"
-                                    alt="Carry forward" width="100%">
-                                <br><br>
-                                <li>
-                                    <h6> Maximum Allowed Leaves To Carry Forward </h6> Maximum number of leaves that can
-                                    be carried forwarded could be entered.
-                                </li>
-                                <br>
-                                <img src="max_allowed.png" onclick="openModal('max_allowed.png')"
-                                    alt="Maximum allowed leaves" width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Add Comp off (off in lieu) Policy (in Days) </h6> Here a number can be entered
-                                    in days that a user is allowed to send an add comp request for the specific days
-                                    worked in the past.
-                                </li>
-                                <br>
-                                <img src="add_comp_off.png" onclick="openModal('add_comp_off.png')" alt="Off in lieu"
-                                    width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Avail Comp off (off in lieu) Policy (in Days)</h6> Here number can be entered in
-                                    days so that users are allowed to take the comp off leave within specified time
-                                    else, comp leave will be cancelled.
-                                </li>
-                                <br>
-                                <img src="avail_comp_off.png" onclick="openModal('avail_comp_off.png')"
-                                    alt="Avail comp off policy" width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Enable External Users</h6> You may enable external users, if the organization
-                                    want to allow external users.
-                                </li>
-                                <br>
-                                <img src="external_users.png" onclick="openModal('external_users.png')"
-                                    alt="Enable external users" width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Leaves Based On</h6> Leaves are based on 3 categories. This could be enabled by
-                                    selecting the check box and click on <b>Save</b> button.
-                                    <br><br>
-                                    <ol>
-                                        <li>
-                                            <b>Regular</b>: Total number of leaves could be entered. This leave
-                                            allocates for all users based on date of joining and accrued (optional). If
-                                            you want change leave for particular user, it can we done from user page.
-                                            <br><br>
-                                            <img src="regular.png" onclick="openModal('regular.png')" alt="Regular"
-                                                width="100%">
-                                            <br><br>
-                                        </li>
-                                        <br>
-                                        <li>
-                                            <b>Level Based Leaves</b>: Level-based leaves and grades options would be
-                                            displayed under systems settings, here first define the grades for different
-                                            job title, finally add the leaves numbers for such grades from leave based
-                                            option.
-                                            <br><br>
-                                            <img src="level_base.png" onclick="openModal('level_base.png')"
-                                                alt="Leave based" width="100%">
-                                            <br><br>
-                                            <img src="grade_level.png" onclick="openModal('grade_level.png')"
-                                                alt="grade level" width="100%">
-                                            <br>
-                                        </li>
-                                            <br>
-
-                                        <li>
-                                            Tenure Based Leaves: Second-level approval for leave cancellation would be
-                                            available by enabling the tab. HR is the second-level approver for leave
-                                            cancellation (On default setting).
-                                            <br><br>
-                                            <img src="tenure_added.png" onclick="openModal('tenure_added.png')"
-                                                alt="Tenure based" width="100%">
-                                            <br><br>
-                                            <img src="tenure_based.png" onclick="openModal('tenure_based.png')"
-                                                alt="Tenure added" width="100%">
-                                            <br><br>
-                                        </li>
-                                    </ol>
-                                </li>
-                                <br>
-
-
-                                <li>
-                                    <h6>Auto approval of first approvers</h6> You may enter the leave type and/or job
-                                    title of users for first approvers.
-                                </li>
-                                <br> <img src="auto_apprvals.png" onclick="openModal('auto_apprvals.png')"
-                                    alt="Auto approval exception" width="100%">
-                                <br><br>
-                                <br> <img src="approver.png" onclick="openModal('approver.png')"
-                                    alt="Auto approval exception" width="100%">
-                                <br><br>
-
-                                <li>
-                                    <h6>Auto approval of secondary approvers</h6> You may enter the leave type and/or
-                                    job title of users for secondary approvers.
-                                </li>
-                                <br>
-
-                                <li>
-                                    <h6>Auto approval of tertiary approvers</h6> You may enter the leave type and/or job
-                                    title of users for tertiary approvers.
-                                </li>
-                                <br>
-
-                                <li>
-                                    <h6>Auto approval exception</h6> You could mention leave types, if you don’t want to
-                                    auto approval from auto approvers.
-                                </li>
-                                <br>
-
-
-                                <li>
-                                    <h6>Second level approval for leave cancellation</h6> If there is a need for
-                                    second-level approval for leave cancellation, enabling this would fulfil the
-                                    requiremnt.
-                                </li>
-                                <br>
-                                <img src="approval.png" onclick="openModal('approval.png')" alt="Second level approval"
-                                    width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Display title</h6>You can hide/show title field while aplying leave.
-                                </li>
-                                <br>
-                                <img src="title.png" onclick="openModal('title.png')" alt="Display title" width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Enable recurrence of Time Off</h6> Enabling recurrence of time off, you could
-                                    find control of recurrence on the top right corner once clicked on "new request" on
-                                    home page of the application.
-                                </li>
-                                <br>
-                                <img src="recurrence.png" onclick="openModal('recurrence.png')"
-                                    alt="Enable recurrence time off" width="100%">
-                                <br><br>
-
-                                <li>
-                                    <h6>Select Language</h6> Select <b>browser</b> default language when click on the
-                                    the toggle button <br>Also, You can select the language by clicking on dropdown.
-                                </li>
-                                <br>
-                                <img src="language1.png" onclick="openModal('language1.png')" alt="Enable to select "
-                                    width="100%">
-                                <br><br>
-
-                                <li>
-                                    <h6>Email templates </h6> Email notification body could be configured and more
-                                    placeholders could be added.
-                                </li>
-                                <br>
-                                <img src="configure.png" onclick="openModal('configure.png')" alt="Configure"
-                                    width="100%">
-                                <br><br>
-                                <img src="email_template.png" onclick="openModal('email_template.png')"
-                                    alt="Email templates" width="100%">
-                                <br><br>
-
-
-
-                            </ol>
-
-                        </div>
+                    
 
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">
