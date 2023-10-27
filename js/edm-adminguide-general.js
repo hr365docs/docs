@@ -57,6 +57,9 @@ $(document).ready(function () {
 "</li>"+
 "<li  data-nav-id='../advanced/' title='Custom link ' class='sidelist'>"+
 "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#Homepagecustomurl'>Home page custom url</a>"+
+"</li>"+
+"<li  data-nav-id='../advanced/' title='Custom link ' class='sidelist'>"+
+"<a href='/sharepoint-employee-directory/modern/admin/settings/general/#orgChart'>Organization chart type</a>"+
 "</li>"
 
 
