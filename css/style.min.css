@@ -679,13 +679,15 @@ li.sidelist li a {
 }
 
 .page-list li a {
-    display: none
+    display: block
 }
 
 .page-list li ul a {
     display: block
 }
-
+#qwe a {
+    display:  block !important;
+}
 .sidelist li a {
     color: var(--text-color-dark);
     display: block;

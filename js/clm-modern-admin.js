@@ -75,9 +75,9 @@ $(document).ready(function () {
     "</ul>"+
 "</ul>"+
 "</li>"+
-"<li class='dropdownicon sidelist' title=Administartion>"+
+"<li class='dropdownicon sidelist' title=Administration>"+
     "<a  class='qwe' href='/contract-management/modern/admin/administration/'>"+
-       " Administartion"+
+       " Administration"+
     " </a>"+
     " <img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
 "</li>"+
