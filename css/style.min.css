@@ -685,9 +685,12 @@ li.sidelist li a {
 .page-list li ul a {
     display: block
 }
-#qwe a {
+/* #qwe a {
     display:  block !important;
-}
+} */
+/* #qwe{
+    display: flex !important;
+} */
 .sidelist li a {
     color: var(--text-color-dark);
     display: block;
@@ -1499,7 +1502,9 @@ section .container{
     width: 15px;
     background-color: var(--primary-color) !important;
   }
-
+  .R_flex{
+    display: flex !important;
+  }
 
 
 
