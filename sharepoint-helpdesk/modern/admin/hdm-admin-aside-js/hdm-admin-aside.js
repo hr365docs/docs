@@ -84,6 +84,10 @@ $(document).ready(function () {
         "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#GCC-Tenant'>GCC-Tenant</a>"+
         "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Create'>Create tickets on behalf of Non-M365 User</a>"+
+        "</li>"+
+        
         "</li><li data-nav-id='./Column-Setting/' title='Language selection as browser default language' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#language'>Language </a>"+
         "</li>"+
