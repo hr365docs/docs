@@ -107,13 +107,15 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container px-2 px-md-0">
         <a class="navbar-brand px-2" href="https://kb.hr365.us/">
-          <img style="margin-top:5px ;"  class=img-fluid src="../images/HRlogo.png" alt=HR365>
+          <img style="margin-top:5px ;" class=img-fluid src="../images/HRlogo.png" alt=HR365>
         </a>
         <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
           aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
-           <span class=navbar-toggler-icon></span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x" viewBox="0 0 16 16">
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          <span class=navbar-toggler-icon></span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x"
+            viewBox="0 0 16 16">
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
           </svg>
         </button>
         <div class="collapse navbar-collapse text-center common-header" id="navigation">
@@ -134,11 +136,7 @@
           <div class="position-relative">
             <form class="banner_form" action="">
 
-              <input
-                id="search"
-                class="form-control"
-                placeholder="Have a question? Just ask here or enter terms"
-              />
+              <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms" />
               <i class="ti-search search-icon"></i>
             </form>
 
@@ -215,7 +213,7 @@
                     label: "<p>Views (Classic-User)</p>",
                     url: "https://kb.hr365.us/sharepoint-employee-directory/classic/user/user-interface/#user-view-page"
                   },
-                  
+
                   {
                     value: "Admin Guide (Classic)",
                     label: "<p>Admin Guide (Classic)</p>",
@@ -562,44 +560,44 @@
                   },
 
                 ];
-                $( "#search" ).autocomplete({
-          	source: projects
-          })
-          .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-            
+                $("#search").autocomplete({
+                  source: projects
+                })
+                  .data("ui-autocomplete")._renderItem = function (ul, item) {
 
-            
-          var input = document.querySelector('.banner_form input');
 
-            input.onkeyup = function(e) {
-            input_val = this.value; 
-            
-            let autocompleteitems= document.querySelectorAll(".autocomplete_items a");
-            for(let i=0; i<autocompleteitems.length; i++){
-                if(input_val==autocompleteitems[i].innerText){
-                  let geturl=document.querySelector('.banner_form');
-                  geturl.action=autocompleteitems[i].href
-                  document.querySelector('#search').click();
-                }
-            }
-          }
-           
-            
-            
-                      // variables
-        
-        
-        // events
-      
-        
-            return $( "<li class='autocomplete_items'>" )
-              .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
-              .appendTo( ul );
-            };
-            
-          });
-          
-        </script>
+
+                    var input = document.querySelector('.banner_form input');
+
+                    input.onkeyup = function (e) {
+                      input_val = this.value;
+
+                      let autocompleteitems = document.querySelectorAll(".autocomplete_items a");
+                      for (let i = 0; i < autocompleteitems.length; i++) {
+                        if (input_val == autocompleteitems[i].innerText) {
+                          let geturl = document.querySelector('.banner_form');
+                          geturl.action = autocompleteitems[i].href
+                          document.querySelector('#search').click();
+                        }
+                      }
+                    }
+
+
+
+                    // variables
+
+
+                    // events
+
+
+                    return $("<li class='autocomplete_items'>")
+                      .append("<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label)
+                      .appendTo(ul);
+                  };
+
+              });
+
+            </script>
           </div>
         </div>
       </div>
@@ -617,7 +615,7 @@
         <div class="col-12 text-center edpmodernlogo">
           <div class="logoIcon"><img src="./EDM_log.png" width="126%" height="auto" /></div>
           <div>
-          <h2 class="logotitle  mobfontsize">Employee Directory 365</h2>
+            <h2 class="logotitle  mobfontsize">Employee Directory 365</h2>
           </div>
         </div>
 
@@ -669,7 +667,7 @@
         <div class="col-12 text-center edpclassiclogo">
           <div class="logoIcon"><img src="./Employee-Directory-menu-logo-.png" width="115%" height="auto" /></div>
           <div>
-          <h2 class="logotitle  mobfontsize">HR365 Employee Directory Classic </h2>
+            <h2 class="logotitle  mobfontsize">HR365 Employee Directory Classic </h2>
           </div>
         </div>
 
@@ -725,78 +723,87 @@
       <div class="home-recent">
         <div class="home-blog-latest">
           <h2>Latest Posts</h2>
-<h4 class="hd">From Our Technical Blog</h4>
+          <h4 class="hd">From Our Technical Blog</h4>
 
-<div class="blog_wrap">
- 
+          <div class="blog_wrap">
 
-  <h3><a href="./blog/user/" class="highlight">How to configure SharePoint API?</a></h3>
 
-  <div class="paragraph">
-<p></p>
-</div>
-  
-  <p>
-    <a class="more highlight" href="./blog/user/">Read More &gt;</a>
-  </p>
-  
- 
+            <h3><a href="./blog/user/" class="highlight">How to configure SharePoint API?</a></h3>
 
-  <h3><a href="./blog/teams/" class="highlight">How to add Employee Directory into teams applications?</a></h3>
+            <div class="paragraph">
+              <p></p>
+            </div>
 
-   <div class="paragraph">
- <p></p>
- </div>
-  
-  <p>
-    <a class="more highlight" href="./blog/teams/">Read More &gt;</a>
-  </p>
-  <h3><a href="./classic/getting-started/upgrading/" class="highlight">How to update Employee Directory applications?</a></h3>
+            <p>
+              <a class="more highlight" href="./blog/user/">Read More &gt;</a>
+            </p>
 
 
 
-  <p class="author">
-    By pgorod | September 5, 2018
-  </p>
-   <div class="paragraph">
- <p></p>
- </div>
-  
-  <p>
-    <a class="more highlight" href="./classic/getting-started/upgrading/">Read More &gt;</a>
-  </p>
- 
+            <h3><a href="./blog/teams/" class="highlight">How to add Employee Directory into teams applications?</a>
+            </h3>
 
-  <h3><a href="../power-automate/" class="highlight">How to connect SharePoint list to power automate & fetch data in JSON format?</a></h3>
+            <div class="paragraph">
+              <p></p>
+            </div>
 
-  <div class="paragraph">
-<p></p>
-</div>
-  
-  <p>
-    <a class="more highlight" href="../power-automate/">Read More &gt;</a>
-  </p>
-  <h3><a href="/pin-employee-directory-365-to-microsoft-teams-users/" class="highlight">How to pin Employee Directory 365 to all Microsoft Teams users?</a></h3>
-  <div class="paragraph">
-    <p></p>
-    </div>
-      
-      <p>
-        <a class="more highlight" href="/pin-employee-directory-365-to-microsoft-teams-users/">Read More &gt;</a>
-      </p>
-      <h3><a href="/custom-user-profile-property-searchable/" class="highlight">How to create SharePoint custom property
+            <p>
+              <a class="more highlight" href="./blog/teams/">Read More &gt;</a>
+            </p>
+            <h3><a href="./classic/getting-started/upgrading/" class="highlight">How to update Employee Directory
+                applications?</a></h3>
 
-        ?</a></h3>
-  <div class="paragraph">
-    <p></p>
-    </div>
-      
-      <p>
-        <a class="more highlight" href="/custom-user-profile-property-searchable/">Read More &gt;</a>
-      </p>
-</div>
 
-     </div>
+
+            <p class="author">
+              By pgorod | September 5, 2018
+            </p>
+            <div class="paragraph">
+              <p></p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="./classic/getting-started/upgrading/">Read More &gt;</a>
+            </p>
+
+
+            <h3><a href="../power-automate/" class="highlight">How to connect SharePoint list to power automate & fetch
+                data in JSON format?</a></h3>
+
+            <div class="paragraph">
+              <p></p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="../power-automate/">Read More &gt;</a>
+            </p>
+            <h3><a href="/pin-employee-directory-365-to-microsoft-teams-users/" class="highlight">How to pin Employee
+                Directory 365 to all Microsoft Teams users?</a></h3>
+            <div class="paragraph">
+              <p></p>
+            </div>
+            <p>
+              <a class="more highlight" href="/pin-employee-directory-365-to-microsoft-teams-users/">Read More &gt;</a>
+            </p>
+            <h3><a href="/custom-user-profile-property-searchable/" class="highlight">How to create SharePoint custom
+                property ?</a></h3>
+            <div class="paragraph">
+              <p></p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="/custom-user-profile-property-searchable/">Read More &gt;</a>
+            </p>
+            <h3><a href="/GuestuserED/" class="highlight">How to Add Guest Users in Microsoft 365 and Grant Access to the Application</a></h3>
+            <div class="paragraph">
+              <p></p>
+              </div>
+                <p>
+                  <a class="more highlight" href="/GuestuserED/">Read More &gt;</a>
+                </p>
+          </div>
+
+        </div>
         <div class="home-recently-edited">
           <h2>Recently Edited</h2>
           <h4 class="hd">Documentation Pages</h4>
@@ -806,7 +813,8 @@
             <ul>
               <li>
                 <h4 class="">
-                  <a href="../sharepoint-employee-directory/modern/admin/settings/advanced/#employee-info-page" class="highlight">Employee info page</a>
+                  <a href="../sharepoint-employee-directory/modern/admin/settings/advanced/#employee-info-page"
+                    class="highlight">Employee info page</a>
                   <a href="" target="_blank" title="File History" class="highlight"><i
                       class="far fa-sm fa-clock"></i></a>
                 </h4>
@@ -818,7 +826,8 @@
               </li>
               <li>
                 <h4 class="">
-                  <a href="../sharepoint-employee-directory/modern/admin/settings/advanced/#extend-mobile-number" class="highlight">Extend mobile number and phone number search capability</a>
+                  <a href="../sharepoint-employee-directory/modern/admin/settings/advanced/#extend-mobile-number"
+                    class="highlight">Extend mobile number and phone number search capability</a>
                   <a href="" target="_blank" title="File History" class="highlight"><i
                       class="far fa-sm fa-clock"></i></a>
                 </h4>
@@ -830,7 +839,8 @@
               </li>
               <li>
                 <h4 class="">
-                  <a href="../sharepoint-employee-directory/modern/admin/settings/advanced/#custom-fields" class="highlight">Add  Custom Fields</a>
+                  <a href="../sharepoint-employee-directory/modern/admin/settings/advanced/#custom-fields"
+                    class="highlight">Add Custom Fields</a>
                   <a href="" target="_blank" title="File History" class="highlight"><i
                       class="far fa-sm fa-clock"></i></a>
                 </h4>
@@ -842,7 +852,8 @@
               </li>
               <li>
                 <h4 class="">
-                  <a href="/sharepoint-employee-directory/modern/admin/settings/advanced/#image-profile-tag" class="highlight">Image Profile Tag</a>
+                  <a href="/sharepoint-employee-directory/modern/admin/settings/advanced/#image-profile-tag"
+                    class="highlight">Image Profile Tag</a>
                   <a href="" target="_blank" title="File History" class="highlight"><i
                       class="far fa-sm fa-clock"></i></a>
                 </h4>
@@ -854,7 +865,8 @@
               </li>
               <li>
                 <h4 class="">
-                  <a href="/sharepoint-employee-directory/modern/admin/profile-card/" class="highlight">Add Schools and education </a>
+                  <a href="/sharepoint-employee-directory/modern/admin/profile-card/" class="highlight">Add Schools and
+                    education </a>
                   <a href="" target="_blank" title="File History" class="highlight"><i
                       class="far fa-sm fa-clock"></i></a>
                 </h4>
@@ -871,7 +883,7 @@
                       class="far fa-sm fa-clock"></i></a>
                 </h4>
                 <p class="">
-                  Edited on the 30 July in commit <b>"Add Projects Property  in the profile card".</b>
+                  Edited on the 30 July in commit <b>"Add Projects Property in the profile card".</b>
                   <a href="" target="_blank" title="Commit Diff" class="highlight"><i
                       class="fas fa-sm fa-indent"></i></a>
                 </p>
@@ -920,7 +932,8 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-8 text-md-left text-center">
-          <p class="mb-md-0 mb-4">© 2023-<a href="https://www.hr365.us/">HR365.</a> <a href="https://www.hr365.us/sla/">SLA.</a> <a
+          <p class="mb-md-0 mb-4">© 2023-<a href="https://www.hr365.us/">HR365.</a> <a
+              href="https://www.hr365.us/sla/">SLA.</a> <a
               href="https://www.hr365.us/terms-and-conditions/">T&amp;C.</a> <a
               href="https://www.hr365.us/end-user-license-agreement-eula/">EULA.</a> <a
               href="https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy/">Privacy
@@ -956,7 +969,7 @@
 
   <script src="../js/script.min.js"></script>
   <script src="../js/header-footer.js"></script>
-  
+
   <!-- <script src='../js/Headernavbar.js'></script> -->
   <!-- <script type="text/javascript">
     
