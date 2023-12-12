@@ -32,6 +32,9 @@ $(document).ready(function () {
         "<a href='/sharepoint-helpdesk/modern/admin/dashboard/'>Dashboard</a>"+
         "</li>"+
         "<li data-nav-id='./Settings/' title=Reports class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/incident/'>Incident</a>"+
+        "</li>"+
+        "<li data-nav-id='./Settings/' title=Reports class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/reports/'>Reports</a>"+
         "</li>"+
         "<li data-nav-id='./Settings/' title=Comment Page class='sidelist'>"+
