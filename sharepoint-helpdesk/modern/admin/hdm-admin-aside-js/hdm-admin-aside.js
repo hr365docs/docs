@@ -339,38 +339,95 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
 
-
-
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Configure-different-mailboxes-for-different-team'>Configure different mailboxes for different team</a>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Knowledgebase'>Knowledgebase</a>"+
         "</li>"+
         "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
 
-
-
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Service-Entitlement'>Service Entitlement</a>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#HD365Migration'>HD365 Migration</a>"+
         "</li>"+
-        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
-        "<ul class='sidenavSub-topics '>"+
-        "</ul>"+
-
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Enable-Archival-of-ticket'>Enable Archival of ticket</a>"+
-        "</li>"+
-        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
-        "<ul class='sidenavSub-topics '>"+
-        "</ul>"+
 
 
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#time-tracking'>Time Tracking</a>"+
-        "</li>"+
-        "</li>"+
         "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
 
 
         "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Show-sample-data-in-dashboard'>Show sample data in dashboard</a>"+
+        "</li>"+
+
+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Incident Module'>Incident Module</a>"+
+        "</li>"+
+
+
+       
+
+
+        
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Configure-different-mailboxes-for-different-team'>Configure different mailboxes for different team</a>"+
+        "</li>"+
+
+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Service-Entitlement'>Service Entitlement</a>"+
+        "</li>"+
+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#EnableMSTeamslivechatintegeration'>Enable MS Teams live chat integration</a>"+
+        "</li>"+
+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Enable-Archival-of-ticket'>Enable Archival of ticket</a>"+
+        "</li>"+
+
+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#ArchiveTicketsafte'>Archive Tickets after days</a>"+
+        "</li>"+
+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#RetaindatainHelpdesk365till'>Retain data in Helpdesk 365 till days</a>"+
+        "</li>"+
+
+
+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#time-tracking'>Time Tracking</a>"+
+        "</li>"+
+        "</li>"+
+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Enablecommentsintheticketreplthread'>Enable comments in the ticket reply thread</a>"+
+        "</li>"+
+        "</li>"+
+
+        "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#show'>Show favicon of Helpdesk365</a>"+
+        "</li>"+
         "</li>"+
        
         "</ul>"+
