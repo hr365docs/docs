@@ -21,20 +21,26 @@ $(document).ready(function () {
   "</a>"+
 
 "</li>"+
-"<li data-nav-id='./Settings/' title='Dashboard' class=sidelist>"+
+// "<li data-nav-id='./Settings/' title='Dashboard' class=sidelist>"+
 
-    "<a href='/contract-management/modern/admin/dashboard/'>"+
-        "Dashboard"+
-  "</a>"+
+//     "<a href='/contract-management/modern/admin/dashboard/'>"+
+//         "Dashboard"+
+//   "</a>"+
 
-"</li>"+
-"</li>"+
-"<li data-nav-id='./Settings/' title='Contracts' class=sidelist>"+
+// "</li>"+
+// "</li>"+
+// "<li data-nav-id='./Settings/' title='Contracts' class=sidelist>"+
 
-    "<a href='/contract-management/modern/admin/contracts/'>"+
-        "Contracts"+
-  "</a>"+
+//     "<a href='/contract-management/modern/admin/contracts/'>"+
+//         "Contracts"+
+//   "</a>"+
 
+// "</li>"+
+"<li data-nav-id='./Settings/' title=Reports class=sidelist>"+
+
+"<a href='/contract-management/modern/admin/reports/'>"+
+" Reports"+
+    "</a>"+
 "</li>"+
 
 "<li class='dropdownicon sidelist' title='Roles'>"+
@@ -208,12 +214,7 @@ $(document).ready(function () {
 
 "</li>"+
 
-"<li data-nav-id='./Settings/' title=Reports class=sidelist>"+
 
-"<a href='/contract-management/modern/admin/reports/'>"+
-" Reports"+
-    "</a>"+
-"</li>"+
 
 "<li data-nav-id='./Settings/' title=Help class=sidelist>"+
 
