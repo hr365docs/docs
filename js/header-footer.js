@@ -34,9 +34,6 @@ $(document).ready(function() {
 });
 
 
-
-
-    // Header Active  js code
     window.addEventListener("load", () => {
         let headerItems = document.querySelectorAll(".navbar-nav .nav-item a")
         for (let i = 0; i < headerItems.length; i++) {
