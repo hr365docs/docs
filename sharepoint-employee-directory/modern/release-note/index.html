@@ -1,1341 +1,1913 @@
-<!doctype html><html lang=en-us>
+<!doctype html>
+<html lang=en-us>
+
 <head>
-<meta charset=utf-8>
-<title>Employee Directory 365 | Release-Note</title>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=generator content="Hugo 0.92.2">
-<meta name=description content="Employee Directory - HR365 ">
-<link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
-<link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
-<link rel=icon href=# type=image/x-icon>
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel=stylesheet>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
-<style>:root{--primary-color:#5637da;--body-color:#f9f9f9;--text-color:#636363;--text-color-dark:#242738;--white-color:#ffffff;--light-color:#f8f9fa;--font-family:Lato}</style>
-<link href=https://hr365docs.github.io/docs/css/style.min.css rel=stylesheet media=screen>
-<script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js></script>
-<script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js></script>
-<script src=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js></script>
-<script src=https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js></script>
-<meta property="og:image" content="https://hr365docs.github.io/docs/images/logo.png">
-<meta name=twitter:image content="https://hr365docs.github.io/docs/images/logo.png">
-<meta name=twitter:card content="summary_large_image">
-<meta property="og:image:width" content="2881">
-<meta property="og:image:height" content="681">
-<meta property="og:image:type" content="image/png">
-<meta name=twitter:title content="Employee Directory 365">
-<meta name=twitter:description content="Employee directory 365">
-<meta property="og:title" content="Employee Directory 365">
-<meta property="og:description" content="Employee directory 365">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-employee-directory/">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Employee Directory 365">
-<meta name=twitter:description content="Employee directory 365">
+    <meta charset=utf-8>
+    <title>Employee Directory 365 | Release-Note</title>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta name=generator content="Hugo 0.92.2">
+    <meta name=description content="Employee Directory - HR365 ">
+    <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
+    <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
+    <link rel=icon href=# type=image/x-icon>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel=stylesheet>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
+    <style>
+        :root {
+            --primary-color: #5637da;
+            --body-color: #f9f9f9;
+            --text-color: #636363;
+            --text-color-dark: #242738;
+            --white-color: #ffffff;
+            --light-color: #f8f9fa;
+            --font-family: Lato
+        }
+    </style>
+    <link href=https://hr365docs.github.io/docs/css/style.min.css rel=stylesheet media=screen>
+    <script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js></script>
+    <script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js></script>
+    <script src=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js></script>
+    <script src=https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js></script>
+    <meta property="og:image" content="https://hr365docs.github.io/docs/images/logo.png">
+    <meta name=twitter:image content="https://hr365docs.github.io/docs/images/logo.png">
+    <meta name=twitter:card content="summary_large_image">
+    <meta property="og:image:width" content="2881">
+    <meta property="og:image:height" content="681">
+    <meta property="og:image:type" content="image/png">
+    <meta name=twitter:title content="Employee Directory 365">
+    <meta name=twitter:description content="Employee directory 365">
+    <meta property="og:title" content="Employee Directory 365">
+    <meta property="og:description" content="Employee directory 365">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-employee-directory/">
+    <meta name=twitter:card content="summary">
+    <meta name=twitter:title content="Employee Directory 365">
+    <meta name=twitter:description content="Employee directory 365">
 </head>
+
 <body>
-<header class="shadow-bottom sticky-top bg-white">
-<nav class="navbar navbar-expand-lg navbar-light">
-<div class="container px-2 px-md-0">
-<a class="navbar-brand px-2" href="https://kb.hr365.us/">
-<img class=img-fluid src="../../../images/logo_.png" alt=HR365>
-</a>
-<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
- <span class=navbar-toggler-icon></span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x" viewBox="0 0 16 16">
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-</button>
-<div class="collapse navbar-collapse text-center common-header" id=navigation>
-
-</div>
-</div>
-</nav>
-</header>
-
-<section class="single section-sm pb-0">
-    <div class="container container-padding">
-<div class=row>
-<div class=col-lg-3>
-<div class=sidebar>
-    <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../sharepoint-employee-directory/">Employee Directory 365 </a></h5>
-    <a class=back-btn href="../../../../sharepoint-employee-directory/" aria-label=back></a>
-    
-    <ul class=list-styled>
-    <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title= Release-Notes class="sidelist">
-        <a style="font-size:17px ;" href="../release-note/">
-            Release Notes
-        </a>
-    <ul> 
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=  23.1122.1600.0000      class="sidelist versiononclick">
-            <a   href="#releasenot29">
-                Version  23.1122.1600.0000       
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=  23.1206.1215.0000       class="sidelist versiononclick">
-            <a   href="#releasenot28">
-                Version  23.1206.1215.0000       
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title= 23.1103.1400.0000      class="sidelist versiononclick">
-            <a   href="#releasenot27">
-                Version 23.1103.1400.0000      
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title= 23.1102.1400.0000     class="sidelist versiononclick">
-            <a   href="#releasenot26">
-                Version 23.1102.1400.0000     
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title= 23.1031.1930.0000  class="sidelist versiononclick">
-            <a   href="#releasenot25">
-                Version 23.1031.1930.0000 
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title= 12.23.1004.1606   class="sidelist versiononclick">
-            <a   href="#releasenot24">
-                Version 12.23.1004.1606 
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title= 12.23.927.1130   class="sidelist versiononclick">
-            <a   href="#releasenot23">
-                Version 12.23.927.1130 
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title= 12.23.920.1700  class="sidelist versiononclick">
-            <a   href="#releasenot22">
-                Version  12.23.920.1700
-            </a>
-         </li>
-           
-
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title= 12.23.831.1512  class="sidelist versiononclick">
-            <a   href="#releasenot21">
-                Version  12.23.831.1512 
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.826.1006  class="sidelist versiononclick">
-            <a   href="#releasenot20">
-                Version 12.23.826.1006 
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.0823.2010 class="sidelist versiononclick">
-            <a   href="#releasenote19">
-                Version 12.23.0823.2010
-            </a>
-         </li>
-
-
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.0815.1440 class="sidelist versiononclick">
-            <a   href="#releasenote18">
-                Version 12.23.0815.1440
-            </a>
-         </li>
-
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.801.2045 class="sidelist versiononclick">
-            <a   href="#releasenote17">
-                Version 12.23.801.2045
-            </a>
-         </li>
-
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.710.1146 class="sidelist versiononclick">
-            <a   href="#releasenote16">
-                Version 12.23.710.1146
-            </a>
-         </li>
-
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.0623.0145 class="sidelist versiononclick">
-            <a   href="#releasenote15">
-                Version 12.23.0623.0145
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.0613.2115 class="sidelist versiononclick">
-            <a   href="#releasenote14">
-                Version 12.23.0613.2115
-            </a>
-         </li>
-
-         <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.606.1312 class="sidelist versiononclick">
-            <a   href="#releasenote13">
-                Version 12.23.606.1312
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.0508.1840 class="sidelist versiononclick">
-            <a   href="#releasenote12">
-                Version 12.23.0508.1840
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.426.1350 class="sidelist versiononclick">
-            <a   href="#releasenote11">
-                Version 12.23.426.1350
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.306.1840 class="sidelist versiononclick">
-            <a   href="#releasenote10">
-                Version 12.23.306.1840
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.23.210.1230 class="sidelist versiononclick">
-            <a   href="#releasenote9">
-                Version 12.23.210.1230
-            </a>
-         </li>
-           <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.22.1221.1251 class="sidelist versiononclick">
-        <a   href="#releasenote8">
-            Version 12.22.1221.1251
-        </a>
-     </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.22.1129.1130 class="sidelist versiononclick">
-            <a   href="#releasenote7">
-                Version 12.22.1129.1130
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.22.1017.1637 class="sidelist versiononclick">
-            <a   href="#releasenote6">
-                Version 12.22.1017.1637
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.22.1008.1221 class="sidelist versiononclick">
-            <a   href="#releasenote5">
-                Version 12.22.1008.1221
-            </a>
-         </li>
-
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.22.0906.1748 class="sidelist versiononclick">
-            <a   href="#releasenote4">
-                Version 12.22.0906.1748
-            </a>
-         </li>
-
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.22.808.1730 class="sidelist versiononclick">
-            <a   href="#releasenote1">
-                Version 12.22.808.1730
-            </a>
-         </li>
-        <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.22.0729.1900  class="sidelist versiononclick">
-            <a   href="#releasenote2">
-                Version 12.22.0729.1900
-            </a>
-         </li>
-    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html  title=12.22.721.1810  class="sidelist versiononclick">
-    <a   href="#releasenote3">
-        Version 12.22.721.1810
-    </a>
- </li>
-    
-
-
-            
-    </ul>
-    </li>
-    </ul>
-</div>
-</div>
-<div class= "mar-0px-auto col-lg-9" style="margin: 0px auto">
-<div class="p-lg-4 p-4 remove-padding bg-white" id=content>
- 
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote29">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version  23.1122.1600.0000    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 22-Nov-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-      <ol>
-        <b>New + Improvements: </b>
-        <li>Added the capability to export org charts to SVG format.</li>
-        <li>Integrated dashboard data to display upcoming birthdays and anniversaries.
-
-
-
-        </li>
-        </ol>
-    
-  
-     
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote28">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version  23.1206.1215.0000    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 07-Dec-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-      <ol>
-        <b>New + Improvements: </b>
-        <li>The settings have undergone a complete revamp and now occupy a full page, inclusive of a search box for easier navigation.</li>
-        <li>The issue on upcoming birthdays and anniversaries has been resolved.</li>
-        <li>Additionally, upcoming birthdays and anniversaries can now be retrieved directly from the SharePoint list.</li>
-      </ol>     
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    <ol>
-        <li>The icons in the settings panel were missing.</li>
-    </ol>
-    
-  
-     
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote27">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 23.1103.1400.0000   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 03-Nov-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-      <ol>
-        <b>New + Improvements: </b>
-        <li>The user who is logged in can choose his preferred language from the help panel.</li>
-      </ol>     
-    
-    
-  
-     
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote26">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 23.1102.1400.0000    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 02-Nov-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-        <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-        <ol>
-            <li>
-                 Issue with the exclusion of domains.
-            </li>
-        </ol>      
-    
-    
-  
-     
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote25">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 23.1031.1930.0000  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 31-Oct-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-      <ol>
-        <b>New + Improvements: </b>
-        <li>Language selection based on custom attribute</li>
-      </ol>     
-    
-    
-  
-     
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote24">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.1004.1606   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 04-Oct-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-    
-      <ol>
-  
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-      <li>Resolved border design issue with images.</li> 
-      <li>Option to hide collaborations.</li>      
-      <li>Introduced org chart for Non-Microsoft 365 users.</li>
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote23">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.927.1130    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 27-Sep-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-    
-      <ol>
-  
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-      <li>Image in upcoming birthdays and anniversaries panel can now be changed.</li> 
-      <li>In the grid view, the work phone was not appearing.</li>      
-      <li>Auto-load for non-M365 users has been resolved.</li>
-      <li>For Non-M365 users, the work phone in the profile card is now visible.</li>
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote22">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.920.1700   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 20-Sep-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-        <ol>
-            <ul> <li><b>New + Improvements:</b></li></ul>
-            <li>
-                Employee name alignment options (Left/Right/Center)
-            </li>
-           <li> Mobile and phone number search for non-M365 users</li>
-           <li>CSV import for non-M365 users with custom fields</li>
-           
-           
-          </ol>
-          <br>
-
-
-      
-      <ol>
-  
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        PDF header list view issue
-       </li>
-       <li> Page layout width adjustment</li>       
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-
-
-
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote21">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.831.1512   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 31-Aug-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-  
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        Profile images for the managers in the organization chart were not displaying
-       </li>
-      
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote20">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.826.1006   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 28-Aug-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-  
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        Following the app upgrade, the QR Code and Profile image are automatically chosen as defaults in the profile card.
-       </li>
-       <li>
-        If graph API is chosen, sorting by display name was not working
-       </li>
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>  
-
-         <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote19">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.0823.2010  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 23-Aug-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New Features + Improvements:</b></li></ul>
-        <li>
-            Added "Show Member Of" option in advanced settings.
-        </li>
-       
-      
-        
-             
-      </ol>
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        Resolution of the dashboard sync issue. 
-       </li>
-      
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote18">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-     <p> Version 12.23.0815.1440 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 16-Aug-2023</p>
-        
-    
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New Features + Improvements:</b></li></ul>
-        <li>
-            Report incorrect toggle in view settings: Can hide or show report incorrect information feature on the profile card. 
-        </li>
-        <li>
-            Departments' job titles and locations are arranged in alphabetical order on Update Department, Update Job titles, and Update locations pages respectively in General settings.
-        </li>
-        <li>
-            Added home icon in Full Org chart page: Click on the home icon will land on the employee directory home page.
-        </li>
-        
-      
-        
-             
-      </ol>
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        Exclude user whose name contains special characters by excludes by username in exclude settings causing the issue has been fixed. 
-       </li>
-       <li>
-        The headcount number not showing up in the dashboard has been fixed.
-       </li>
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote18">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.0815.1440  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 16-Aug-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New Features + Improvements:</b></li></ul>
-        <li>
-            Report incorrect toggle in view settings: Can hide or show report incorrect information feature on the profile card. 
-        </li>
-        <li>
-            Departments' job titles and locations are arranged in alphabetical order on Update Department, Update Job titles, and Update locations pages respectively in General settings.
-        </li>
-        <li>
-            Added home icon in Full Org chart page: Click on the home icon will land on the employee directory home page.
-        </li>
-        
-      
-        
-             
-      </ol>
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        Exclude user whose name contains special characters by excludes by username in exclude settings causing the issue has been fixed. 
-       </li>
-       <li>
-        The headcount number not showing up in the dashboard has been fixed.
-       </li>
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote17">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.801.2045  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 02-Aug-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New Features + Improvements:</b></li></ul>
-        <li>
-            Can sync user information from both M365 and Non M365.
-        </li>
-        <li>
-            Filter upcoming birthdays and work anniversaries.
-        </li>
-        <li>
-            Show upcoming birthdays and work anniversaries.
-        </li>
-        <li>
-            It can now be mapped to the external list and records can be pulled from the list.
-        </li>
-        <li>
-            Added pronouns and also can bulk Import them.
-        </li>
-      
-        
-             
-      </ol>
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        Special characters under free search. 
-       </li>
-       <li>
-        User properties in grid view.
-       </li>
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote16">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.710.1146  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 10-July-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New Features + Improvements:</b></li></ul>
-        <li>
-            Multiple custom fields could not be deleted.
-        </li>
-        <li>
-            Fixed special character issues with images in the organization chart, profile card, and in the upcoming web part.
-        </li>
-      
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote15">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.0623.0145  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 23-June-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New Features + Improvements:</b></li></ul>
-        <li>
-            Multiple custom filters were not working.
-        </li>
-        <li>
-            Added toggle to hide/show the dashboard.
-        </li>
-        <li>
-            Upcoming birthdays and anniversaries were not coming.
-        </li>
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote14">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.0613.2115  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 13-June-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New Features + Improvements:</b></li></ul>
-        <li>
-            Dashboards - (Can enable dashboard view for all users or selected users from the views settings)
-        </li>
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote13">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.606.1312  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 06-June-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New Features + Improvements:</b></li></ul>
-        <li>
-            Can reorder Search filters from the general settings.
-        </li>
-        
-      <li>Can reorder grid view fields from the view settings.</li>
-      <li>Can add a date of birth filter from the search filters.</li>
-      <li>Can view the profile card by hovering a cursor on the image profile.</li>
-      <li>Can copy email, work phone, and mobile phone of profile card by clicking on the copy icon.</li>
-             
-      </ol>
-      <br>
-      
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote12">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.0508.1840  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 09-May-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New Features + Improvements:</b></li></ul>
-        <li>
-            Group filter - Users can be filtered with M365 groups.
-        </li>
-       <li>Additional Manager - Can show employee's additional manager in their profile card's org cart from the advanced settings.</li>
-       <li>Can exclude users by their UPN from the exclude setting.</li>
-              
-       
-      </ol>
-      <br>
-      
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        Mobile number is not hiding in user profile card by "Hide mobile number" settings is fixed.
-       </li>
-             
-      </ol>
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote11">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.426.1350  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 26-Apr-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        <ul> <li><b>New + Improvements:</b></li></ul>
-        <li>
-            Hide the manager on the profile card of specific users from the view settings.
-        </li>
-       <li>Can add topbar filter tabs and can set the default filter view from the advanced settings.</li>
-       <li>Resize grid width from the view settings.</li>
-       <li>Can update the Employee info page icon of the profile card</li>
-       
-       
-      </ol>
-      <br>
-      
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        Removed extra characters coming with Azure EmployeeHiredate custom field values.
-       </li>
-       <li>
-        In Grid views QR code is clickable.
-       </li>
-      
-      </ol>
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote10">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version 12.23.306.1840  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 7-Mar-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-     
-        <li>
-            Full org chart.
-        </li>
-       <li>Text/dropdown for AD custom fields.</li>
-       
-       
-      </ol>
-      <br>
-      
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-      <ol>
-       <li>
-        Now more than 100 departments, job titles and locations are visible in the update section.
-       </li>
-       <li>
-        Load more after applying the filter was visible.
-       </li>
-      
-      </ol>
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote9">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version  12.23.210.1230  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 10-Feb-2023</p>
-                
-                
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-     
-        
-        
-        <ul> <li><b>New + Improvements:</b></li></ul>
-      
-        <li>
-            Employee info page - Can add an info page link (Spotlight) on the user's profile card from the advanced settings.
-        </li>
-       <li>Free/Busy Information" toggle button in advance setting: Show/hide the free/busy information of the profile card from this.</li>
-       <li>The sort users by last name checkbox option is hidden or not available for Graph API .</li>
-       <li>Organization name label text box in general setting: Enter company name.</li>
-      </ol>
-      <br>
-      
-     
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-    <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote8">
-        <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-            <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                    style="font-size:12px; color:lightgray;"></i></a> </h3>
-                  <p> Version  12.22.1221.1251  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 27-Dec-2022</p>
-         
-        <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-         
-      
-      <ol>
-        
-    
-        <ul> <li><b>New + Improvements:</b></li></ul>
-      
-        <li>
-            Employee info page - Can add an info page link (Spotlight) on the user's profile card from the advanced settings.
-        </li>
-       
-      </ol>
-      <br>
-      <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-    
-     <ol>
-      <li>
-        Exclude users based on job title issues.
-      </li>
-      <li>
-        Hide the Custom field property name on the grid view.
-      </li>
-     
-     </ol>
-      
-     
-    </ul>
-    
-    
-    </ul>
-    </li>
-    </ul>
-    </div>
-<div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote7">
-    <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                style="font-size:12px; color:lightgray;"></i></a> </h3>
-              <p> Version  12.22.1129.1130  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 29-Nov-2022</p>
-            
-    <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-     
-  
-  <ol>
-    
-
-    <ul> <li><b>New + Improvements:</b></li></ul>
-  
-    <li>
-        Employees count(For Graph API selected).
-    </li>
-    <li>
-        Print pdf improvement.
-    </li>
-    <li>
-        Get a free schedule status on the user profile card.
-    </li>
-    <li>
-        Can free search with hobbies, about me, skills, school, and education.
-    </li>
-  
-  </ol>
-  <br>
-  <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-
- <ol>
-  <li>
-    Font color for image tag fixed.
-  </li>
-  <li>
-    Location filter is not working for SharePoint API selected is fixed.
-  </li>
- 
- </ol>
-  
- 
-</ul>
-
-
-</ul>
-</li>
-</ul>
-</div>
-<div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote6">
-    <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                style="font-size:12px; color:lightgray;"></i></a> </h3>
-              <p> Version  12.22.1017.1637  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 17-Oct-2022</p>
-            
-    <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-     
-  
-  <ol>
-    <ul> <li><b>New + Improvements:</b></li></ul>
-  
-    <li>
-        Show/hide property name of custom fields in grid view.
-    </li>
-  
-  </ol>
-</ul>
-
-
-</ul>
-</li>
-</ul>
-</div>
-<div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote5">
-    <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                style="font-size:12px; color:lightgray;"></i></a> </h3>
-              <p> Version  12.22.1008.1221  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 08-Oct-2022</p>
-            
-    <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-    
-    
-  
-  <ol>
-    <ul> <li><b>New + Improvements:</b></li></ul>
-  
-    <li>
-        Enable free search capability for mobile number and phone number search from the advanced setting.
-    </li>
-    <li>
-        Enable free search capability for AD properties custom field values search from the advanced setting.
-    </li>
-    <li>
-        Exclude users based on containing null or empty custom field values through the custom function from the advanced setting.
-    </li>
-  </ol>
-
-</ul>
-
-
-</ul>
-</li>
-</ul>
-</div>
-<div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote4">
-    <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                style="font-size:12px; color:lightgray;"></i></a> </h3>
-              <p>Version 12.22.0906.1748  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 06-Sep-2022</p>
-            
-    <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-    
-    
-  
-  <ol>
-    <li>
-        New features/Improvements:- Image Tag profile.
-    </li>
-  </ol>
-   
-    <br>
-    <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-
-   <ol>
-    <li>
-        Hide blocked sign-in users in the org chart.
-    </li>
-    <li>
-        Hide unlicensed users in the org chart.
-    </li>
-    <li>
-        Show manager email ids in the manager column of CSV exports.
-    </li>
-   </ol>
-    
-   
-
-</ul>
-
-
-</ul>
-</li>
-</ul>
-</div>
-
-<div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote1">
-    <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                style="font-size:12px; color:lightgray;"></i></a> </h3>
-              <p>Version 12.22.808.1730 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 09-Aug-2022</p>
-            
-    <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-    
-    
-  
-  <ol>
-    <li>
-        Added school property in the profile card.
-    </li>
-    <li>
-        Hide/show school property in the profile card from <b>view</b> settings.
-    </li>
-    <li>
-        Custom fields filter improvement.
-    </li>
-  </ol>
-  
-    <br>
-    <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-  
-   <ol>
-    <li>
-        Clear filter issue with custom field filter.
-    </li>
-    <li>
-        The profile card does not get opened of the users if their name contains characters.
-    </li>
-    <li>
-        Webpart title loading issue.
-    </li>
-   </ol>
-    
-   
-
-</ul>
-
-
-</ul>
-</li>
-</ul>
-</div>
-
-<div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote2">
-    <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note' class="sidelist">
-        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                style="font-size:12px; color:lightgray;"></i></a> </h3>
-              <p>Version 12.22.0729.1900 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 30-July-2022</p>
-            
-    <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-    
-    
-  
-  <ol>
-    <li>
-        Show/hide the <b>Organization chart</b> from the advanced settings.
-    </li>
-    <li>
-        Sync external or guest users from the advanced settings.
-    </li>
-    <li>
-        Included Project property in the profile card.
-    </li>
-    <li>
-        Show/hide project property in the profile card from the view settings.
-    </li>
-    <li>
-        Outlook image URL Setting  in advanced settings.
-    </li>
-  </ol>
-   
-  
-    <br>
-    <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
- 
-   <ol>
-    <li>
-        Update profile image icon shows only to ED.
-    </li>
-    <li>
-        The executive did not show if the assistant is not there.
-    </li>
-   </ol>
-</ul>
-</ul>
-</li>
-</ul>
-</div>
-
-<div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote3">
-    <li data-nav-id=.../Getting-started/installation/using-app-file title=Release-Note class="sidelist">
-        <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i class="fas fa-link"
-                style="font-size:12px; color:lightgray;"></i></a> </h3>
-              <p>Version 12.22.721.1810 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Released 21-July-2022</p>
-            
-    <div><div contenteditable="false" class="sc-gzcbmu bbnSRJ"><div class="sc-gkCoMD enpFfZ"><div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span></div></div></div><h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span data-offset-key="8:0">🚀 What's New </span></span></h3></div>
-    
-    
-  
-  <ol>
-    <li>
-        Executive Assistant relationship.
-    </li>
-    <li>
-        EDM multiple pages installation in the same site.
-    </li>
-    <li>
-        Employee Directory icon in MS teams is Monochromatic color.
-    </li>
-  </ol>
-   
-  
-    <br>
-    <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
-   
-   <ol>
-    <li>
-        Not displaying edit icon on user profile card is fixed.
-    </li>
-   </ol>
-    
-   
-
-</ul>
-
-
-</ul>
-</li>
-</ul>
-</div>
-
-
-<p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-   
-    </div>
-    </div>
-    </div>
-    </div>
+    <header class="shadow-bottom sticky-top bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container px-2 px-md-0">
+                <a class="navbar-brand px-2" href="https://kb.hr365.us/">
+                    <img class=img-fluid src="../../../images/logo_.png" alt=HR365>
+                </a>
+                <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
+                    aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
+                    <span class=navbar-toggler-icon></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse text-center common-header" id=navigation>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="single section-sm pb-0">
+        <div class="container container-padding">
+            <div class=row>
+                <div class=col-lg-3>
+                    <div class=sidebar>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a
+                                href="../../../sharepoint-employee-directory/">Employee Directory 365 </a></h5>
+                        <a class=back-btn href="../../../../sharepoint-employee-directory/" aria-label=back></a>
+
+                        <ul class=list-styled>
+                            <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
+                                title=Release-Notes class="sidelist">
+                                <a style="font-size:17px ;" href="../release-note/">
+                                    Release Notes
+                                </a>
+                                <ul>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=24.0108.1950.0000 class="sidelist versiononclick">
+                                        <a href="#releasenot30">
+                                            Version 24.0108.1950.0000
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=23.1122.1600.0000 class="sidelist versiononclick">
+                                        <a href="#releasenot29">
+                                            Version 23.1122.1600.0000
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=23.1206.1215.0000 class="sidelist versiononclick">
+                                        <a href="#releasenot28">
+                                            Version 23.1206.1215.0000
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=23.1103.1400.0000 class="sidelist versiononclick">
+                                        <a href="#releasenot27">
+                                            Version 23.1103.1400.0000
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=23.1102.1400.0000 class="sidelist versiononclick">
+                                        <a href="#releasenot26">
+                                            Version 23.1102.1400.0000
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=23.1031.1930.0000 class="sidelist versiononclick">
+                                        <a href="#releasenot25">
+                                            Version 23.1031.1930.0000
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.1004.1606 class="sidelist versiononclick">
+                                        <a href="#releasenot24">
+                                            Version 12.23.1004.1606
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.927.1130 class="sidelist versiononclick">
+                                        <a href="#releasenot23">
+                                            Version 12.23.927.1130
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.920.1700 class="sidelist versiononclick">
+                                        <a href="#releasenot22">
+                                            Version 12.23.920.1700
+                                        </a>
+                                    </li>
+
+
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.831.1512 class="sidelist versiononclick">
+                                        <a href="#releasenot21">
+                                            Version 12.23.831.1512
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.826.1006 class="sidelist versiononclick">
+                                        <a href="#releasenot20">
+                                            Version 12.23.826.1006
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.0823.2010 class="sidelist versiononclick">
+                                        <a href="#releasenote19">
+                                            Version 12.23.0823.2010
+                                        </a>
+                                    </li>
+
+
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.0815.1440 class="sidelist versiononclick">
+                                        <a href="#releasenote18">
+                                            Version 12.23.0815.1440
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.801.2045 class="sidelist versiononclick">
+                                        <a href="#releasenote17">
+                                            Version 12.23.801.2045
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.710.1146 class="sidelist versiononclick">
+                                        <a href="#releasenote16">
+                                            Version 12.23.710.1146
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.0623.0145 class="sidelist versiononclick">
+                                        <a href="#releasenote15">
+                                            Version 12.23.0623.0145
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.0613.2115 class="sidelist versiononclick">
+                                        <a href="#releasenote14">
+                                            Version 12.23.0613.2115
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.606.1312 class="sidelist versiononclick">
+                                        <a href="#releasenote13">
+                                            Version 12.23.606.1312
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.0508.1840 class="sidelist versiononclick">
+                                        <a href="#releasenote12">
+                                            Version 12.23.0508.1840
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.426.1350 class="sidelist versiononclick">
+                                        <a href="#releasenote11">
+                                            Version 12.23.426.1350
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.306.1840 class="sidelist versiononclick">
+                                        <a href="#releasenote10">
+                                            Version 12.23.306.1840
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.23.210.1230 class="sidelist versiononclick">
+                                        <a href="#releasenote9">
+                                            Version 12.23.210.1230
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.22.1221.1251 class="sidelist versiononclick">
+                                        <a href="#releasenote8">
+                                            Version 12.22.1221.1251
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.22.1129.1130 class="sidelist versiononclick">
+                                        <a href="#releasenote7">
+                                            Version 12.22.1129.1130
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.22.1017.1637 class="sidelist versiononclick">
+                                        <a href="#releasenote6">
+                                            Version 12.22.1017.1637
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.22.1008.1221 class="sidelist versiononclick">
+                                        <a href="#releasenote5">
+                                            Version 12.22.1008.1221
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.22.0906.1748 class="sidelist versiononclick">
+                                        <a href="#releasenote4">
+                                            Version 12.22.0906.1748
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.22.808.1730 class="sidelist versiononclick">
+                                        <a href="#releasenote1">
+                                            Version 12.22.808.1730
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.22.0729.1900 class="sidelist versiononclick">
+                                        <a href="#releasenote2">
+                                            Version 12.22.0729.1900
+                                        </a>
+                                    </li>
+                                    <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
+                                        title=12.22.721.1810 class="sidelist versiononclick">
+                                        <a href="#releasenote3">
+                                            Version 12.22.721.1810
+                                        </a>
+                                    </li>
+
+
+
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mar-0px-auto col-lg-9" style="margin: 0px auto">
+                    <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
+
+
+                        
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote30">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 24.0108.1950.0000   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 01-Jan-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+                                <ol>
+                                    <b>New + Improvements: </b>
+                                    <li> Added a feature for live chat integration in MS Teams.</li>
+                                   <li> Created a favicon icon displayed at the top of the website</li>
+                                   <li> Enabled the ability to show or hide columns in the list view</li>
+                                </ol>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                    data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+                       <ol>
+                        <li>Fixed the problem with organization chart images.</li>
+                        <li>Resolved the extra space issue on the right side in the grid view</li>
+                        <li>Added a tooltip for loading more results</li>
+                        <li>Implemented validation for custom fields in Non-M365 users</li>
+                        <li> Fixed an issue related to upcoming anniversaries</li>
+                       </ol>
+
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote29">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 23.1122.1600.0000 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 22-Nov-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+                                <ol>
+                                    <b>New + Improvements: </b>
+                                    <li>Added the capability to export org charts to SVG format.</li>
+                                    <li>Integrated dashboard data to display upcoming birthdays and anniversaries.
+
+
+
+                                    </li>
+                                </ol>
+
+
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote28">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 23.1206.1215.0000 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 07-Dec-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+                                <ol>
+                                    <b>New + Improvements: </b>
+                                    <li>The settings have undergone a complete revamp and now occupy a full page,
+                                        inclusive of a search box for easier navigation.</li>
+                                    <li>The issue on upcoming birthdays and anniversaries has been resolved.</li>
+                                    <li>Additionally, upcoming birthdays and anniversaries can now be retrieved directly
+                                        from the SharePoint list.</li>
+                                </ol>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+                                <ol>
+                                    <li>The icons in the settings panel were missing.</li>
+                                </ol>
+
+
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote27">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 23.1103.1400.0000 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 03-Nov-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+                                <ol>
+                                    <b>New + Improvements: </b>
+                                    <li>The user who is logged in can choose his preferred language from the help panel.
+                                    </li>
+                                </ol>
+
+
+
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote26">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 23.1102.1400.0000 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 02-Nov-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+                                <ol>
+                                    <li>
+                                        Issue with the exclusion of domains.
+                                    </li>
+                                </ol>
+
+
+
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote25">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 23.1031.1930.0000 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 31-Oct-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+                                <ol>
+                                    <b>New + Improvements: </b>
+                                    <li>Language selection based on custom attribute</li>
+                                </ol>
+
+
+
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote24">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.1004.1606 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 04-Oct-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+
+                                    <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                                data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                    <ol>
+                                        <li>Resolved border design issue with images.</li>
+                                        <li>Option to hide collaborations.</li>
+                                        <li>Introduced org chart for Non-Microsoft 365 users.</li>
+                                    </ol>
+                                    <br>
+
+                                    </ul>
+
+
+                                    </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote23">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.927.1130 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 27-Sep-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+
+                                    <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                                data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                    <ol>
+                                        <li>Image in upcoming birthdays and anniversaries panel can now be changed.</li>
+                                        <li>In the grid view, the work phone was not appearing.</li>
+                                        <li>Auto-load for non-M365 users has been resolved.</li>
+                                        <li>For Non-M365 users, the work phone in the profile card is now visible.</li>
+                                    </ol>
+                                    <br>
+
+                                    </ul>
+
+
+                                    </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote22">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.920.1700 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 20-Sep-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Employee name alignment options (Left/Right/Center)
+                                    </li>
+                                    <li> Mobile and phone number search for non-M365 users</li>
+                                    <li>CSV import for non-M365 users with custom fields</li>
+
+
+                                </ol>
+                                <br>
+
+
+
+                                <ol>
+
+                                    <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                                data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                    <ol>
+                                        <li>
+                                            PDF header list view issue
+                                        </li>
+                                        <li> Page layout width adjustment</li>
+                                    </ol>
+                                    <br>
+
+                                    </ul>
+
+
+                                    </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+
+
+
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote21">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.831.1512 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 31-Aug-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+
+                                    <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                                data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                    <ol>
+                                        <li>
+                                            Profile images for the managers in the organization chart were not
+                                            displaying
+                                        </li>
+
+
+                                    </ol>
+                                    <br>
+
+                                    </ul>
+
+
+                                    </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote20">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.826.1006 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 28-Aug-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+
+                                    <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                                data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                    <ol>
+                                        <li>
+                                            Following the app upgrade, the QR Code and Profile image are automatically
+                                            chosen as defaults in the profile card.
+                                        </li>
+                                        <li>
+                                            If graph API is chosen, sorting by display name was not working
+                                        </li>
+
+                                    </ol>
+                                    <br>
+
+                                    </ul>
+
+
+                                    </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote19">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.0823.2010 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 23-Aug-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New Features + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Added "Show Member Of" option in advanced settings.
+                                    </li>
+
+
+
+
+                                </ol>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Resolution of the dashboard sync issue.
+                                    </li>
+
+
+                                </ol>
+                                <br>
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                   
+
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote18">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.0815.1440 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 16-Aug-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New Features + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Report incorrect toggle in view settings: Can hide or show report incorrect
+                                        information feature on the profile card.
+                                    </li>
+                                    <li>
+                                        Departments' job titles and locations are arranged in alphabetical order on
+                                        Update Department, Update Job titles, and Update locations pages respectively in
+                                        General settings.
+                                    </li>
+                                    <li>
+                                        Added home icon in Full Org chart page: Click on the home icon will land on the
+                                        employee directory home page.
+                                    </li>
+
+
+
+
+                                </ol>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Exclude user whose name contains special characters by excludes by username in
+                                        exclude settings causing the issue has been fixed.
+                                    </li>
+                                    <li>
+                                        The headcount number not showing up in the dashboard has been fixed.
+                                    </li>
+
+                                </ol>
+                                <br>
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote17">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.801.2045 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 02-Aug-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New Features + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Can sync user information from both M365 and Non M365.
+                                    </li>
+                                    <li>
+                                        Filter upcoming birthdays and work anniversaries.
+                                    </li>
+                                    <li>
+                                        Show upcoming birthdays and work anniversaries.
+                                    </li>
+                                    <li>
+                                        It can now be mapped to the external list and records can be pulled from the
+                                        list.
+                                    </li>
+                                    <li>
+                                        Added pronouns and also can bulk Import them.
+                                    </li>
+
+
+
+                                </ol>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Special characters under free search.
+                                    </li>
+                                    <li>
+                                        User properties in grid view.
+                                    </li>
+
+                                </ol>
+                                <br>
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote16">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.710.1146 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 10-July-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New Features + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Multiple custom fields could not be deleted.
+                                    </li>
+                                    <li>
+                                        Fixed special character issues with images in the organization chart, profile
+                                        card, and in the upcoming web part.
+                                    </li>
+
+
+                                </ol>
+                                <br>
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote15">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.0623.0145 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 23-June-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New Features + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Multiple custom filters were not working.
+                                    </li>
+                                    <li>
+                                        Added toggle to hide/show the dashboard.
+                                    </li>
+                                    <li>
+                                        Upcoming birthdays and anniversaries were not coming.
+                                    </li>
+
+                                </ol>
+                                <br>
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote14">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.0613.2115 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 13-June-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New Features + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Dashboards - (Can enable dashboard view for all users or selected users from the
+                                        views settings)
+                                    </li>
+
+                                </ol>
+                                <br>
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote13">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.606.1312 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 06-June-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New Features + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Can reorder Search filters from the general settings.
+                                    </li>
+
+                                    <li>Can reorder grid view fields from the view settings.</li>
+                                    <li>Can add a date of birth filter from the search filters.</li>
+                                    <li>Can view the profile card by hovering a cursor on the image profile.</li>
+                                    <li>Can copy email, work phone, and mobile phone of profile card by clicking on the
+                                        copy icon.</li>
+
+                                </ol>
+                                <br>
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote12">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.0508.1840 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 09-May-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New Features + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Group filter - Users can be filtered with M365 groups.
+                                    </li>
+                                    <li>Additional Manager - Can show employee's additional manager in their profile
+                                        card's org cart from the advanced settings.</li>
+                                    <li>Can exclude users by their UPN from the exclude setting.</li>
+
+
+                                </ol>
+                                <br>
+
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Mobile number is not hiding in user profile card by "Hide mobile number"
+                                        settings is fixed.
+                                    </li>
+
+                                </ol>
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote11">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.426.1350 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 26-Apr-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New + Improvements:</b></li>
+                                    </ul>
+                                    <li>
+                                        Hide the manager on the profile card of specific users from the view settings.
+                                    </li>
+                                    <li>Can add topbar filter tabs and can set the default filter view from the advanced
+                                        settings.</li>
+                                    <li>Resize grid width from the view settings.</li>
+                                    <li>Can update the Employee info page icon of the profile card</li>
+
+
+                                </ol>
+                                <br>
+
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Removed extra characters coming with Azure EmployeeHiredate custom field values.
+                                    </li>
+                                    <li>
+                                        In Grid views QR code is clickable.
+                                    </li>
+
+                                </ol>
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote10">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.306.1840 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 7-Mar-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+
+                                    <li>
+                                        Full org chart.
+                                    </li>
+                                    <li>Text/dropdown for AD custom fields.</li>
+
+
+                                </ol>
+                                <br>
+
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Now more than 100 departments, job titles and locations are visible in the
+                                        update section.
+                                    </li>
+                                    <li>
+                                        Load more after applying the filter was visible.
+                                    </li>
+
+                                </ol>
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote9">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.23.210.1230 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 10-Feb-2023</p>
+
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+
+
+
+                                    <ul>
+                                        <li><b>New + Improvements:</b></li>
+                                    </ul>
+
+                                    <li>
+                                        Employee info page - Can add an info page link (Spotlight) on the user's profile
+                                        card from the advanced settings.
+                                    </li>
+                                    <li>Free/Busy Information" toggle button in advance setting: Show/hide the free/busy
+                                        information of the profile card from this.</li>
+                                    <li>The sort users by last name checkbox option is hidden or not available for Graph
+                                        API .</li>
+                                    <li>Organization name label text box in general setting: Enter company name.</li>
+                                </ol>
+                                <br>
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote8">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.22.1221.1251 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 27-Dec-2022</p>
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+
+
+                                    <ul>
+                                        <li><b>New + Improvements:</b></li>
+                                    </ul>
+
+                                    <li>
+                                        Employee info page - Can add an info page link (Spotlight) on the user's profile
+                                        card from the advanced settings.
+                                    </li>
+
+                                </ol>
+                                <br>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Exclude users based on job title issues.
+                                    </li>
+                                    <li>
+                                        Hide the Custom field property name on the grid view.
+                                    </li>
+
+                                </ol>
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote7">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.22.1129.1130 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 29-Nov-2022</p>
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+
+
+                                    <ul>
+                                        <li><b>New + Improvements:</b></li>
+                                    </ul>
+
+                                    <li>
+                                        Employees count(For Graph API selected).
+                                    </li>
+                                    <li>
+                                        Print pdf improvement.
+                                    </li>
+                                    <li>
+                                        Get a free schedule status on the user profile card.
+                                    </li>
+                                    <li>
+                                        Can free search with hobbies, about me, skills, school, and education.
+                                    </li>
+
+                                </ol>
+                                <br>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Font color for image tag fixed.
+                                    </li>
+                                    <li>
+                                        Location filter is not working for SharePoint API selected is fixed.
+                                    </li>
+
+                                </ol>
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote6">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.22.1017.1637 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 17-Oct-2022</p>
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New + Improvements:</b></li>
+                                    </ul>
+
+                                    <li>
+                                        Show/hide property name of custom fields in grid view.
+                                    </li>
+
+                                </ol>
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote5">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p> Version 12.22.1008.1221 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 08-Oct-2022</p>
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+
+                                <ol>
+                                    <ul>
+                                        <li><b>New + Improvements:</b></li>
+                                    </ul>
+
+                                    <li>
+                                        Enable free search capability for mobile number and phone number search from the
+                                        advanced setting.
+                                    </li>
+                                    <li>
+                                        Enable free search capability for AD properties custom field values search from
+                                        the advanced setting.
+                                    </li>
+                                    <li>
+                                        Exclude users based on containing null or empty custom field values through the
+                                        custom function from the advanced setting.
+                                    </li>
+                                </ol>
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote4">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p>Version 12.22.0906.1748 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 06-Sep-2022</p>
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+
+                                <ol>
+                                    <li>
+                                        New features/Improvements:- Image Tag profile.
+                                    </li>
+                                </ol>
+
+                                <br>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Hide blocked sign-in users in the org chart.
+                                    </li>
+                                    <li>
+                                        Hide unlicensed users in the org chart.
+                                    </li>
+                                    <li>
+                                        Show manager email ids in the manager column of CSV exports.
+                                    </li>
+                                </ol>
+
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote3">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title=Release-Note
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p>Version 12.22.721.1810 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 21-July-2022</p>
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+
+                                <ol>
+                                    <li>
+                                        Executive Assistant relationship.
+                                    </li>
+                                    <li>
+                                        EDM multiple pages installation in the same site.
+                                    </li>
+                                    <li>
+                                        Employee Directory icon in MS teams is Monochromatic color.
+                                    </li>
+                                </ol>
+
+
+                                <br>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Not displaying edit icon on user profile card is fixed.
+                                    </li>
+                                </ol>
+
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote2">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p>Version 12.22.0729.1900 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 30-July-2022</p>
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+
+                                <ol>
+                                    <li>
+                                        Show/hide the <b>Organization chart</b> from the advanced settings.
+                                    </li>
+                                    <li>
+                                        Sync external or guest users from the advanced settings.
+                                    </li>
+                                    <li>
+                                        Included Project property in the profile card.
+                                    </li>
+                                    <li>
+                                        Show/hide project property in the profile card from the view settings.
+                                    </li>
+                                    <li>
+                                        Outlook image URL Setting in advanced settings.
+                                    </li>
+                                </ol>
+
+
+                                <br>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Update profile image icon shows only to ED.
+                                    </li>
+                                    <li>
+                                        The executive did not show if the assistant is not there.
+                                    </li>
+                                </ol>
+                                </ul>
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding releasenotepadding" id="releasenote1">
+                            <li data-nav-id=.../Getting-started/installation/using-app-file title='Release Note'
+                                class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Release Note<i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p>Version 12.22.808.1730 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Released 09-Aug-2022</p>
+
+                                <div>
+                                    <div contenteditable="false" class="sc-gzcbmu bbnSRJ">
+                                        <div class="sc-gkCoMD enpFfZ">
+                                            <div class="sc-flUlpA dOsSOW"><span class="sc-iwajpm kydRHc"><span
+                                                        class="sc-cxNHIi fHUQtx" style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--link--xiwyJfW7"></span></span></span><span
+                                                    class="sc-iwajpm kydRHc"><span class="sc-cxNHIi fHUQtx"
+                                                        style="display: inline-flex;"><span
+                                                            class="sc-ksluID iQRQtT sc-fWWYYk MyLsF Icon--kipico--DOaJIfpG Icon--copy--s6HZTBER"></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 id="49409fa4" class="sc-jtiXyc YVppW"><span data-key="8"><span
+                                                data-offset-key="8:0">🚀 What's New </span></span></h3>
+                                </div>
+
+
+
+                                <ol>
+                                    <li>
+                                        Added school property in the profile card.
+                                    </li>
+                                    <li>
+                                        Hide/show school property in the profile card from <b>view</b> settings.
+                                    </li>
+                                    <li>
+                                        Custom fields filter improvement.
+                                    </li>
+                                </ol>
+
+                                <br>
+                                <h3 id="0e8056ca" class="sc-jtiXyc YVppW"><span data-key="30"><span
+                                            data-offset-key="30:0">🔧 Bug Fixes </span></span></h3>
+
+                                <ol>
+                                    <li>
+                                        Clear filter issue with custom field filter.
+                                    </li>
+                                    <li>
+                                        The profile card does not get opened of the users if their name contains
+                                        characters.
+                                    </li>
+                                    <li>
+                                        Webpart title loading issue.
+                                    </li>
+                                </ol>
+
+
+
+                                </ul>
+
+
+                                </ul>
+                            </li>
+                            </ul>
+                        </div>
+
+                    
+
+
+
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <div id="myModal" class="modal">
-        
+
         <div class="modal-content">
             <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
             <div class="mySlides">
@@ -1349,12 +1921,13 @@
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2023-<a href=https://www.hr365.us />HR365.</a><a href="https://www.hr365.us/sla/">SLA.</a>
-                    <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                        href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                        href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                    Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                </p>
+                    <p class="mb-md-0 mb-4">© 2023-<a href=https://www.hr365.us />HR365.</a><a
+                            href="https://www.hr365.us/sla/">SLA.</a>
+                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
+                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
+                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                        Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
+                    </p>
                 </div>
                 <div class="col-md-4 text-md-right text-center">
                     <ul class=list-inline>
@@ -1364,7 +1937,7 @@
                         <li class=list-inline-item><a class="text-color d-inline-block p-2"
                                 href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
                                     class=ti-twitter-alt></i></a></li>
-                       
+
                         <li class=list-inline-item><a class="text-color d-inline-block p-2"
                                 href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
                                 aria-label=Linkedin><i class=ti-linkedin></i></a></li>
@@ -1378,20 +1951,20 @@
     <script src="../../../js/releasenote.js"></script>
     <script src="../../../js/showhidefunction.js"></script>
     <script>
-           function openModal(src) {
-  
-  document.getElementById("imageId").src= src;
-  document.getElementById("myModal").style.display = "block";
-}
+        function openModal(src) {
 
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-  
-}                       
-                              
+            document.getElementById("imageId").src = src;
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+
+        }
+
         date = new Date().toLocaleDateString();
-        document.getElementById("date").innerHTML=date;
-       </script>
+        document.getElementById("date").innerHTML = date;
+    </script>
 </body>
 
-</html> 
+</html>
