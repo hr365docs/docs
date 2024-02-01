@@ -55,9 +55,11 @@
         </a>
         <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
           aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
-           <span class=navbar-toggler-icon></span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x" viewBox="0 0 16 16">
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          <span class=navbar-toggler-icon></span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x"
+            viewBox="0 0 16 16">
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
           </svg>
         </button>
         <div class="collapse navbar-collapse text-center common-header" id=navigation>
@@ -67,11 +69,12 @@
     </nav>
   </header>
   <section class="single section-sm pb-0">
-   <div class="container container-padding">
+    <div class="container container-padding">
       <div class=row>
         <div class=col-lg-3>
           <div class=sidebar>
-            <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../sharepoint-employee-directory/">Employee Directory 365</a></h5>
+            <h5 class="mbHeading" style="color:SlateBlue"> <a
+                href="../../../../../sharepoint-employee-directory/">Employee Directory 365</a></h5>
             <a class=back-btn href="../../../../../sharepoint-employee-directory/" aria-label=back></a>
             <ul class=list-styled>
               <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title=Admin-Guide class="sidelist
@@ -97,7 +100,7 @@
                 From here you can <b>Configure SharePoint API permissions</b>,<b>Sync unlicensed users</b>, <b>Show
                   external users</b> etc.
 
-                <div><img src="edmadvance.png" onclick="openModal('edmadvance.png')" alt="Advanced" width="100%" height="auto">
+                <div><img src="1.png" onclick="openModal('1.png')" alt="Advanced" width="100%" height="auto">
                 </div>
                 <br>
 
@@ -110,1013 +113,75 @@
               </ul>
             </div>
 
-            <div class="bg-light p-4 remove-padding common-scroll" id="configure-permission">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Configure SharePoint API permissions
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>
-                  SharePoint admin can configure API permissions. This configuration helps in excluding block sign-in
-                  users, excluding hidden users in GAL,
-                  excluding shared mailbox users of O365, syncing mobile numbers from azure AD.
-                  <br>
-
-                <p>To confiure <b>SharePoint API permission</b> follow the below steps:</p>
-                <ol>
-                  <li>
-                    <p>
-                      Click on <b>Click Here</b> link in settings, which redirect to <b>SharePoint admin centre</b>
-                      access API page.
-                      <br>
-                    <div><img src="advan.png" onclick="openModal('advan.png')" alt="Configure sharepoint" width="100%" height="auto"></div>
-                    </p>
-                  </li>
-                  <br>
-                  <li>
-                    <p>
-                      There you will find three Microsoft graph under organization-wide. Select and click on
-                      <b>Approve</b> one
-                      by
-                      one for all three Microsoft graph.
-                      <br>
-
-                    <div><img src="approve_.png" onclick="openModal('approve_.png')" alt="Approve" width="100%" height="auto">
-                    </div>
-                    </p>
-                  </li>
-
-                </ol>
-                </p>
-                </li>
-
-            </div>
-
-
-            
-            <div class="bg-light p-4 remove-padding common-scroll" id="filter-group-by">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Filter Group by
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>
-                  <li>In SharePoint we have groups - Microsoft 365, distribution list and security.  </li>
-                  <br>
-                  <li>Based on selected options you will find groups in dropdown next to search filters.</li>
-                  <br>
-                <div><img src="group_filter.png" onclick="openModal('group_filter.png')" alt="Sync" width="100%" height="auto"></div>
-
-
-            </div>
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="sync-unlicensed-users">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Sync unlicensed users
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>
-                  <li><b>Sync unlicensed users:</b> Technically users who does not contain work email Id in SharePoint
-                    profile is considered as unlicensed user, you can sync those users by enabling toggle switch. </li>
-                  <br>
-                <div><img src="sync_.png" onclick="openModal('sync_.png')" alt="Sync" width="100%" height="auto"></div>
-
-
-            </div>
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="show-external-users">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Show external users
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                If you enable this feature, you can able to view external users. Orange Circle around the image icon
-                indicates it’s a guest user or external users in <b> Employee Directory 365</b>.
-
-                <div class="notices note">
-                  <div class="paragraph">
-                    <p> If you added newly guest users in your O365 it takes 8 to 24 hours to get sync in the Employee
-                      Directory.</p>
-                  </div>
-                </div>
-                <p>
-
-                </p>
-
-                <div><img src="external.png" onclick="openModal('external.png')" alt="External users" width="100%" height="auto">
-                </div>
-                <br>
-                <div><img src="orange.png" onclick="openModal('orange.png')" alt="External user shown" width="100%" height="auto"></div>
-
-
-
-
-
-
-            </div>
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="organizational-chart">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Organizational Chart
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-
-                <li>
-                  <p><b>Organizational Chart:</b> If you enable this feature, the organizational chart icon will display
-                    on the home page.</p>
-
-                </li>
-
-                <div><img src="org.png" onclick="openModal('org.png')" alt="Organizational Chart" width="100%" height="auto"></div>
-                <br>
-                <p>
-                  In the organization chart, the signed-in user can view their reporting or relationship hierarchy in
-                  the organization.
-
-                </p>
-                <div><img src="Organizational_Chart_.png" onclick="openModal('Organizational_Chart_.png')" alt="Organizational Charts"
-                    width="100%" height="auto"></div>
-                <br>
-                <p>
-                  You also download the organization chart by clicking on the print icon.
-                </p>
-                <div><img src="chart___.png" onclick="openModal('chart___.png')" alt="Chart" width="100%" height="auto">
-                </div>
-                <br>
-                <u><b>Organizational Chart in Profile Card</b></u>
-                <p>
-                  It is the individual organization chart of the user. It displays the hierarchy of the users, to whom
-                  the user reports, and who reports to the user.
-                </p>
-
-                <div><img src="chart__.png" onclick="openModal('chart__.png')" alt="Chart" width="100%" height="auto"></div>
-                <br>
-                <p>
-                  You can also download the <b>organization chart</b> by clicking on the print icon.
-                </p>
-                <div><img src="organization.png" onclick="openModal('organization.png')" alt="organization" width="100%"
-                    height="auto"></div>
-                <br>
-
-
-
-
-            </div>
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="sync-profile-image">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Sync employee profile images
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>
-                <p> Here we have 3 option to sync the images namely <b>SPO</b>, <b>outlook</b> and <b>ED</b>. </p>
-
-                <p>
-                  In case if you select outlook or ED options, if image is not available for outlook or ED, image from
-                  SharePoint user profile if exist.
-                </p>
-                <p>
-                  ED: Change the source of profile images, you can use custom images by placing images in image library.
-                </p>
-                <p>
-                  Click on click here, redirect to image library upload the images. Format of image is
-                  -username@domain.com.jpg
-                </p>
-
-
-                <div><img src="profile_.png" onclick="openModal('profile_.png')" alt="profile image" width="100%" height="auto">
-                </div>
-
-
-
-
-
-
-            </div>
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="sync-mobile-number">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Sync and display mobile number from
-                    azure
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-
-                <p>
-                  <b>Sync employee profile images from:</b> This works, if SharePoint <a
-                    href="/sharepoint-employee-directory/blog/user/">API</a> is enabled.
-                  <br>
-                  It syncs mobile numbers from azure. If the mobile number is not available in azure, it displays the
-                  mobile number if exists in the SharePoint user profile.
-
-
-                <div><img src="mobile.png" onclick="openModal('mobile.png')" alt="mobile" width="100%" height="auto"></div>
-
-
-
-
-
-
-            </div>
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="user-presence">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>User presence
-
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-
-                This setting will work if SharePoint <a href="/sharepoint-employee-directory/blog/user/">API</a> is
-                enabled, it shows MS teams status on profiles in home page.
-
-                <br><br>
-                <div><img src="user_presence.png" onclick="openModal('user_presence.png')" alt="user presence" width="100%"
-                    height="auto"></div>
-                <br>
-                <div><img src="presence.png" onclick="openModal('presence.png')" alt="presence" width="100%" height="auto">
-                </div>
-
-
-
-
-
-
-
-            </div>
-
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="auto-load">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Auto load instead load more button
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>If you enable this, users can load more records automatically on scroll or on click of load more
-                  button.</p>
-
-                <div><img src="auto_load.png" onclick="openModal('auto_load.png')" alt="auto load" width="100%" height="auto">
-                </div>
-
-
-
-
-
-
-            </div>
-
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="hide-navigation-panel">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide side navigation panel in
-                    SharePoint page
-
-
-
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-
-                <p>
-                  If you enable this, the side navigation panel of the SharePoint page will hide.
-                </p>
-
-                <div><img src="hide_sharepoint.png" onclick="openModal('hide_sharepoint.png')" alt="hide sharepoint" width="100%"
-                    height="auto"></div>
-                <br>
-                <div><img src="sharepoint.png" onclick="openModal('sharepoint.png')" alt="Sharepoint" width="100%" height="auto">
-                </div>
-                <br>
-                <div><img src="side__.png" onclick="openModal('side__.png')" alt="Hide side" width="100%" height="auto"></div>
-
-
-
-
-
-
-            </div>
-
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="hide-webpart-title">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide webpart title in SharePoint page
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>
-                  If you enable this, the webpart title of the SharePoint page will hide.
-                </p>
-
-                <div><img src="hide_web.png" onclick="openModal('hide_web.png')" alt="hide web" width="100%" height="auto">
-                </div>
-                <br>
-                <div><img src="web.png" onclick="openModal('web.png')" alt="web" width="100%" height="auto"></div>
-                <br>
-                <div><img src="web_.png" onclick="openModal('web_.png')" alt="web1" width="100%" height="auto"></div>
-
-
-
-
-
-
-
-            </div>
-
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="custom-css">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Custom css for webpart to remove
-                    spaces
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>
-                  If you enable this, extra space on the screen will hide and displays more profiles on the screen.
-                </p>
-
-                <div><img src="custom_css.png" onclick="openModal('custom_css.png')" alt="custom css" width="100%" height="auto">
-                </div>
-                <br>
-                <div><img src="side.png" onclick="openModal('side.png')" alt="css for webpart" width="100%" height="auto"></div>
-                <br>
-                <div><img src="side_.png" onclick="openModal('side_.png')" alt="webpart" width="100%" height="auto"></div>
-
-
-
-
-
-
-            </div>
-
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="records">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Record to load
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>Load number of profiles on refresh or first-time page load, you can select 25 or 50 or 100. Higher
-                  numbers come with additional page load time, please select wisely.</p>
-
-                <div><img src="records.png" onclick="openModal('records.png')" alt="records" width="100%" height="auto"></div>
-                <br><br>
-                <div><img src="load.png" onclick="openModal('load.png')" alt="load" width="100%" height="auto"></div>
-
-
-
-
-
-
-            </div>
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="birthday-template">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Birthday and anniversary templates<i
-                      class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>On the birthday and anniversary of the user, the user will get notifications. This works on the Power
-                  Automate setup. Here you can customize the email template, which will get notified to the users on
-                  their birthday or anniversary.</p>
-
-                <div><img src="templates.png" onclick="openModal('templates.png')" alt="templates" width="100%" height="auto">
-                </div>
-                <br>
-                <p>
-                  Here you can change template body format for <b>Birthday template</b> and <b>Anniversary template</b>
-                <div><img src="temp.png" onclick="openModal('temp.png')" alt="birthday template" width="100%" height="auto"></div>
-                <br>
-
-                </p>
-                <ol>
-                  <li>
-                    <p>
-                      Select the template (Birthday or Anniversary template) for which you want to edit as per the
-                      requirement.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      As per requirement, edit the message, add placeholders and upload the image.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Finally, Click on the <b>Save</b> button.
-                    </p>
-                  </li>
-                </ol>
-
-
-
-
-
-            </div>
-            
-            <div class="bg-light p-4 remove-padding common-scroll" id="make-birth-date-and-hire-date-searchable">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>How to make birth date and hire date property searchable in SharePoint People Search<i
-                      class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>The below configuration is for the “upcoming birthday and work anniversaries” feature that could be made searchable within SharePoint.</p>
-                <p><b>https://YourTenantName-admin.sharepoint.com</b></p>
-
-              <p>Before we begin, there are some basic prerequisites.</p>
-              <p><b>(a)</b>	This is applicable to Office 365 environments.</p>
-              <p><b>(b)</b>	Login user should be a SharePoint Admin to access the SharePoint admin center.</p><br>
-              <p><b>A.	How to make a birth date property searchable?</b></p>
-              <p>Go to the admin center with the below URL.</p>
-              <p><b>https://YourTenantName-admin.sharepoint.com</b></p>
-              <p>YourTenanatName – Replace your tenant’s name from the above URL.</p>
-              <p>Click on More features from the side navigation panel and search as mentioned in the below image.</p>
-                <br>
-                <p>
-                
-                <div><img src="search.png" onclick="openModal('search.png')" alt="Search" width="100%" height="auto"></div>
-                <br>
-
-                </p>
-                <p>Select the Manage search Scheme.</p>
-                <p>
-                
-                  <div><img src="search_scheme.png" onclick="openModal('search_scheme.png')" alt="search scheme" width="100%" height="auto"></div>
-                  <br>
-  
-                  </p>
-               <p>Search word “refi” in managed property search, all refinable date properties would be displayed, finally click on <b>RefinableDate00</b></p>
-               <p>
-                
-                <div><img src="refinable.png" onclick="openModal('refinable.png')" alt="refinable" width="100%" height="auto"></div>
-                <br>
-
-                </p>
-                <p>
-                
-                  <div><img src="new.png" onclick="openModal('refinable.png')" alt="refinable" width="100%" height="auto"></div>
-                  <br>
-  
-                  </p>
-                <p>Scroll the page to bottom and search for Add a Mapping option, click on the same, finally you would be directed to crawl property selection.</p>
-                <p>
-                
-                  <div><img src="add_mapping.png" onclick="openModal('add_mapping.png')" alt="add mapping" width="100%" height="auto"></div>
-                  <br>
-  
-                  </p>
-                  <p>Now search for birthday as shown below:</p>
-                  <p>
-                
-                    <div><img src="find.png" onclick="openModal('find.png')" alt="find" width="100%" height="auto"></div>
-                    <br>
-    
-                    </p>
-                    <p>Select the <b>PeopleSPS Birthday</b> and click on <b>OK</b> button.</p>
-                    <p>
-                
-                      <div><img src="people_sp.png" onclick="openModal('people_sp.png')" alt="people sp" width="100%" height="auto"></div>
-                      <br>
-                      <div><img src="OK.png" onclick="openModal('OK.png')" alt="OK" width="100%" height="auto"></div>
-                      <br>
-                      </p>
-                      <p>Once the <b>PeoplesPS Birthday</b> mapped, finally click on <b>OK</b> button</p>
-                      <p>
-                        <div><img src="click_OK.png" onclick="openModal('click_OK.png')" alt="click OK" width="100%" height="auto"></div>
-                        <br>
-                        <div><img src="new2.png" onclick="openModal('click_OK.png')" alt="click OK" width="100%" height="auto"></div>
-                        <br>
-        </p>
-        <p>Search word “refi” in managed property search, this will list refinabledate properties then click on <b>RefinableDate01</b></p>
-        <p>
-          <div><img src="refi2.png" onclick="openModal('refi2.png')" alt="refi2" width="100%" height="auto"></div>
-          <br>
-</p>
-<p>
-  <div><img src="new.png" onclick="openModal('refi2.png')" alt="refi2" width="100%" height="auto"></div>
-  <br>
-</p>
-<p>Scroll the page to bottom and search for Add a Mapping option, click on the same, finally you would be directed to crawl property selection</p>
-<p>
-  <div><img src="add_mapping.png" onclick="openModal('add_mapping.png')" alt="add mapping" width="100%" height="auto"></div>
-  <br>
-</p>
-<p><b><u>Search for Hire</u></b></p>
-<p>
-  <div><img src="Hire.png" onclick="openModal('Hire.png')" alt="Hire" width="100%" height="auto"></div>
-  <br>
-</p>
-<p>Select the <b>PeopleSPS-HireDate</b> and click on OK button.</p>
-<p>
-  <div><img src="hired.png" onclick="openModal('hired.png')" alt="hired" width="100%" height="auto"></div>
-  <br>
-</p>
-<p>Once the <b>PeopleSPS-HireDate</b> mapped, finally click on the OK button.</p>
-<p>
-  <div><img src="hired_ok.png" onclick="openModal('hired_ok.png')" alt="hired ok" width="100%" height="auto"></div>
-  <br>
-</p>
-<p>Once the birthday and hire date are mapped, please wait for 8 to 24 hours and You should be able to check the upcoming anniversaries feature in Employee Directory.</p>
-<p>
-  <div><img src="anniversary_birthday.png" onclick="openModal('anniversary_birthday.png')" alt="birthday anniversary" width="100%" height="auto"></div>
-  <br>
-</p>
-
-
-            </div>
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="custom-fields">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Custom fields
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>
-                  From this setting you can create custom column in Employee Directory 365. You can add custom fields
-                  and sync details from Azure AD and SPO location.
-                </p>
-
-                <div><img src="custom_field.png" onclick="openModal('custom_field.png')" alt="custom field" width="100%"
-                    height="auto"></div>
-                <br>
-                <u><b>AD Properties</b>:</u>
-
-                <ol>
-                  <li>
-                    <p>Go to custom fields and click on <b>Action</b> button, select <b>AD Properties</b>, enter <b>Property Name</b>, select the
-                      <b>Filterable</b> checkbox. You can display a custom property as a textbox or a dropdown. You can also select the <b>Display in Grid View</b> if you want to show  these properties on the profile card in grid view. By selecting the <b>Hide</b> checkbox, you may also hide custom property. </p></p>
-                    <div><img src="AD_properties.png" onclick="openModal('AD_properties.png')" alt="AD property" width="100%"
-                        height="auto"></div>
-                    <br>
-                    <div><img src="submit.png" onclick="openModal('submit.png')" alt="Submit" width="100%" height="auto">
-                    </div>
-                  </li>
-                  </li>
-                  <br>
-                  <li>
-                    <p>
-                      The added custom field will be displayed on the <b>Home Page</b>. The custom field property also will dispaly on the <b>Profile Card.</b>
-                    </p>
-                    <!-- <div><img src="field.png" onclick="openModal('field.png')" alt="added field" width="100%" height="auto"></div> -->
-                    <br>
-                    <div><img src="select_email.png" onclick="openModal('select_email.png')" alt="select email" width="100%"
-                        height="auto"></div>
-                  </li>
-
-                </ol>
-                <br>
-                <u><b>SPO Properties</b>:</u>
-
-                <ol>
-                  <li>
-                    <p>Go to Add tab, select <b>SPO Properties</b> and enter <b>Property Name</b>.</p>
-                    <div><img src="spo_prop.png" onclick="openModal('spo_prop.png')" alt="SPO property" width="100%" height="auto">
-                    </div>
-                    <br>
-                    <div><img src="spo_submit_prop.png" onclick="openModal('spo_submit_prop.png')" alt="Submit property" width="100%"
-                        height="auto"></div>
-                  </li>
-
-
-                  <li>
-                    <p>
-                      The added cutom field will be displayed on the <b>profile card</b>.
-                    </p>
-
-                    <div><img src="spo_profile.png" onclick="openModal('spo_profile.png')" alt="SPO profile" width="100%"
-                        height="auto"></div>
-                  </li>
-
-                </ol>
-
-                <br>
-                <p><u>Edit:</u> From here, you can edit the custom field. Click on the edit icon under action. Update
-                  the AD and SPO properties and property names as per requirements. Finally, click on the <b>Update</b>
-                  button.
-                <div><img src="edit_.png" onclick="openModal('edit_.png')" alt="Edit SPO property" width="100%" height="auto"></div>
-                </p>
-                <br>
-                <p><u>Delete:</u> From here, you can delete the custom field. Go to the delete tab, and select the
-                  checkbox under action. Finally click on the delete button.
-                <div><img src="delete_.png" onclick="openModal('delete_.png')" alt="Delete custom field" width="100%" height="auto"></div>
-                </p>
-
-                <br>
-
-            </div>
-            <div class="bg-light p-4 remove-padding common-scroll" id="extend-custom-field">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Extend custom fields search capability
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-<p>   
-  <div><img src="advance_mobile.png" onclick="openModal('advance_mobile.png')" alt="Extend custom fields" width="100%" height="auto"></div><br>
-</p>
-<p>Enable the <b>Extend custom fields search capability</b> toogle from the <b>Advanced Settings.</b> </p>
-                <p>
-
-                  Please enable this feature incase you wish to search by 'starts with', 'ends with' or 'contains' and only incase employees are under 3000 count.
-
-
-                <div><img src="extend_custom.png" onclick="openModal('extend_custom.png')" alt="Extend custom" width="100%" height="auto"></div><br>
-                <div><img src="last_name.png" onclick="openModal('last_name.png')" alt="Last name" width="100%" height="auto"></div>
-
-
-            </div>
-            <div class="bg-light p-4 remove-padding common-scroll" id="extend-mobile-number">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Extend mobile number and phone number search capability
-
-
-
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-<p>   
-  <div><img src="advance_mobile.png" onclick="openModal('advance_mobile.png')" alt="Extend mobile number" width="100%" height="auto"></div><br>
-</p>
-<p>Enable the <b>Extend mobile number and phone number search capability</b> toogle from the <b>Advanced Settings.</b> </p>
-                <p>
-
-                  Please enable this feature incase you wish to search by 'starts with', 'ends with' or 'contains' and only incase employees are under 3000 count.
-
-
-                <div><img src="number_search.png" onclick="openModal('number_search.png')" alt="Number search" width="100%" height="auto"></div><br>
-                <div><img src="phone_searched.png" onclick="openModal('phone_searched.png')" alt="Phone searched" width="100%" height="auto"></div>
-
-
-
-
-
-
-            </div>
-            <div class="bg-light p-4 remove-padding common-scroll" id="image-profile-tag">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Image Profile Tag
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>You can follow these steps to add image profile tag on the user profile:</p>
-                <ol>
-                  <li>
-                <p>
-                  Firstly go to sharepoint and then click on <b>Admin</b>.
-
-                <div><img src="share_admin.png" onclick="openModal('share_admin.png')" alt="Share admin" width="100%"
-                    height="auto"></div>
-                </p>
+            <ol>
+              <li><b>
+                  Additional manager</b>
               </li>
-                <br>
-                <li>
-                  <p>
-                    Go to the Exchange admin center, click on recipients from the left navigation panel.
-                  <div><img src="exchange.png" onclick="openModal('exchange.png')" alt="exchange" width="100%" height="auto">
-                  </div>
-                  <br>
-                  <div><img src="recipients.png" onclick="openModal('recipients.png')" alt="recipients" width="100%"
-                      height="auto"></div>
-                  </p>
-                </li>
-                <br>
-                <li>
-                  <p>
-                    All users are viewable under mailboxes. Select more options by double-clicking the user's display name.
-                  <div><img src="select_user.png" onclick="openModal('select_user.png')" alt="Select user" width="100%" height="auto"></div>
-                  <br>
-                  <div><img src="more_option.png" onclick="openModal('more_option.png')" alt="more option" width="100%" height="auto"></div>
-                  </p>
-                </li>
-                <br>
-  <li>
-                <p>Now click on <b>edit</b> icon
-                <div><img src="edit_tag.png" onclick="openModal('edit_tag.png')" alt="Edit tag" width="100%" height="auto">
-                </div>
-                </p></li>
-                <br>
-                <li>
-                <p>Once the <b>Custom Attribute</b> form has opened, enter the attribute in the attribute box and choose OK.
-                <div><img src="custom_attribute.png" onclick="openModal('custom_attribute.png')" alt="custom attribute" width="100%"
-                    height="auto"></div>
-                </p>
+              <div><img src="2.png" onclick="openModal('2.png')" alt="Advanced" width="100%" height="auto">
+              </div>
+              <br>
+              <li><b>
+                  Auto load instead load more button</b>: <br>
+                Automatically load additional records either by scrolling or by clicking the "Load More" button.
               </li>
-                <br>
-                <li>
-                <p>Now click on <b>Save</b> button.
-                  <div><img src="save_attribute.png" onclick="openModal('save_attribute.png')" alt="save attribute" width="100%" height="auto">
-                  </div>
-                  </p>
-                </li>
-                  <br>
-                  <li>
-                <p>
-                  In <b>Employee Directory 365</b>, you may generate image profile tags from the <b>Advanced Settings</b>. Navigate to Image Profile Tag and select configure.
-                </p>
+              <div><img src="3.png" onclick="openModal('3.png')" alt="Advanced" width="100%" height="auto">
+              </div>
+              <br>
+              <li><b>
+                  Sync job title, location and department</b>: <br>
+
+                This feature can automatically retrieve job titles, locations, and departments from Office 365.
               </li>
-                <div><img src="profile_tag.png" onclick="openModal('profile_tag.png')" alt="profile tag" width="100%"
-                    height="auto"></div>
-                <br>
-                <li>
-                <p>It will then display the picture profile tag panel.
-                <div><img src="profile_save.png" onclick="openModal('profile_save.png')" alt="profile save" width="100%"
-                    height="auto"></div>
-                <br>
-                </p></li>
-                <br>
-                <li>
-                <p>The image profile tag will appear on the user's profile card.
-                <div><img src="tag_shown.png" onclick="openModal('tag_shown.png')" alt="tag shown" width="100%"
-                    height="auto"></div>
-                <br>
-                </p></li>
-                </ol>
-               <br>
-
-
-
-
-
-            </div>
-            <div class="bg-light p-4 remove-padding common-scroll" id="custom-function">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Custom Function
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>First click on the Advanced setting from the settings panle.</p>
-                
-                <div><img src="advanced_settings.png" onclick="openModal('advanced_settings.png')" alt="advanced settings" width="100%"
-                  height="auto"></div><br>
-                <ol>
-                  <li>
-                <p>
-                  Now click on the <b>AD attributes filter</b>.
-
-                  <div><img src="custom_fun.png" onclick="openModal('custom_fun.png')" alt="AD attributes" width="100%"
-                    height="auto"></div>
-                </p>
+              <div><img src="4.png" onclick="openModal('4.png')" alt="Advanced" width="100%" height="auto">
+              </div><br>
+              <li><b>Configure SharePoint API permissions</b>: <br>
+                For instructions on how to enable SharePoint API permissions, please visit this link.</li>
+              <div><img src="5.png" onclick="openModal('5.png')" alt="Advanced" width="100%" height="auto">
+              </div>
+              <br>
+              <li><b>Custom fields</b></li>
+              <div><img src="6.png" onclick="openModal('6.png')" alt="Advanced" width="100%" height="auto">
+              </div>
+              <br>
+              <li><b>Custom function</b>: <br>
+                In this feature, you can add or delete custom functions by entering the details provided below.</li>
+              <div><img src="7.png" onclick="openModal('7.png')" alt="Advanced" width="100%" height="auto">
+              </div>
+              <br>
+              <li><b>Default view of topbar filters</b></li> 
+              <div><img src="8.png" onclick="openModal('8.png')" alt="Advanced" width="100%" height="auto">
+              </div>
+              <br>
+              <li><b>Executive Assistant relationship:</b> <br>
+                To establish the association between executives and their assistants, a custom column can be utilized to
+                include the assistant's email ID. After defining the custom column, access each executive's mailbox via
+                <a href=" https://admin.exchange.microsoft.com/#/mailboxes">
+                  https://admin.exchange.microsoft.com/#/mailboxes</a> and employ the same custom column to input the
+                assistant's email ID.
               </li>
-                <br>
-                <li>
-                  <p>
-                  You can add <b>Custom Function</b> from the custom function panel. Click on the <b>Add</b> tab , now select property from the <b>Add properties</b> dropdown also add value in the <b>
-                    Fetch text value</b> field.
-                  <div><img src="add_custom_fun.png" onclick="openModal('add_custom_fun.png')" alt="Custom function" width="100%" height="auto">
-                  </div>
-                
-                  </p>
-                </li>
-                <br>
-                <li>
-                  <p>
-                    Now click on the <b>Submit</b> button and a <b>Custom Function</b> will be added.
-                  <div><img src="submit_custom_fun.png" onclick="openModal('submit_custom_fun.png')" alt="Submit custom function" width="100%" height="auto"></div>
-                  <br>
-                 
-                  </p>
-                </li>
-                <br>
-  <li>
-                <p>By defining value in AD extension attributes , app will display only those records which matches the filter.
-                  <div><img src="custom_fun_result_.png" onclick="openModal('custom_fun_result_.png')" alt="Custom function result" width="100%" height="auto"></div>
-                </p></li>
-                </ol>
-               <br>
-
-
-
-
-
-            </div>
-
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="Select-topbar-filters">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Select topbar filters
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>Now Select the checkboxes and click the <b>Save</b> button</p>
-                
-                <div><img src="topbar_filter.png" onclick="openModal('topbar_filter.png')" alt="topbar filter" width="100%"
-                  height="auto"></div><br>
-                <ol>
-                  <li>
-                <p>
-                 From here, Also slect the default topbar
-
-                  <div><img src="topbar_default.png" onclick="openModal('topbar_default.png')" alt="default view of topbar filter" width="100%"
-                    height="auto"></div>
-                </p>
+              <div><img src="9.png" onclick="openModal('9.png')" alt="Advanced" width="100%" height="auto">
+              </div><br>
+              <li><b>Extend custom fields search capability:</b> <br>If you want to utilize the 'starts with', 'ends with', or 'contains' search functionalities, please enable this feature. Additionally, limit its use to cases where the number of employees is under 3000.</li>
+              <div><img src="10.png" onclick="openModal('10.png')" alt="Advanced" width="100%" height="auto">
+              </div><br>
+              <li><b>Filter upcoming birthdays & work anniversaries</b>: <br> This feature allows you to filter upcoming birthdays and work anniversaries by the current day, current week, or current month.
               </li>
-                <br>
-                              
-
-
-
-
-
-            </div>
-            
-
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="executive-assistant">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Executive Assistant relationship <i
-                      class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-
-                <p><b>Executive Assistant relationship:</b>From here, you can show the assistant on the user’s profile
-                  card and executives on the assistant’s profile card.
-                  <br>
-                <div class="notices note">
-                  <div class="paragraph">
-                    <p> This feature works with SharePoint API <a
-                        href="/sharepoint-employee-directory/blog/user/">SharePoint API</a>, please configure it.</p>
-                  </div>
-                </div>
-
-
-                <u>
-                  <p><b>Step1</b></p>
-                </u>
-                <p>First, add username address in extension attribute.
-                <div><img src="Executive1.png" onclick="openModal('Executive1.png')" alt="Executive1" width="100%" height="auto">
-                </div>
-                <br>
-                To add follow the below steps:
-                <ol>
-                  <li>
-                    <p>
-                      Go to the Exchange admin center, click on recipients from the left navigation panel.
-                    <div><img src="exchange.png" onclick="openModal('exchange.png')" alt="exchane admin center" width="100%" height="auto">
-                    </div>
-                    <br>
-                    <div><img src="recipients.png" onclick="openModal('recipients.png')" alt="click recipient" width="100%"
-                        height="auto"></div>
-                    </p>
-                  </li>
-                  <br>
-                  <li>
-                    <p>
-                      Under mailboxes, all users are visible. Double-click the user’s display name and then more
-                      options.
-                    <div><img src="user.png" onclick="openModal('user.png')" alt="user" width="100%" height="auto"></div>
-                    <br>
-                    <div><img src="more.png" onclick="openModal('more.png')" alt="more" width="100%" height="auto"></div>
-                    </p>
-                  </li>
-                  <br>
-                  <li>
-                    <p>
-                      Add the assistant username address in the custom attributes(3) and click on the <b>OK</b> button.
-                      <br>
-                      In the same way, you can add to other users.
-                    <div><img src="johnt_.png" onclick="openModal('johnt_.png')" alt="custom attribute" width="100%" height="auto">
-                    </div>
-                    </p>
-                  </li>
-                </ol>
-
-                <br>
-                <u>
-                  <p><b>Step2</b></p>
-                </u>
-                <ol>
-                  <li>
-                    <p>
-                      Go to the <b>Settings</b>> <b>Advance settings</b>> click on the <b>Action</b> button of
-                      <b>Executive Assistant relationship</b>.
-                    <div><img src="Executive3.png" onclick="openModal('Executive3.png')" alt="Executive Assistant" width="100%"
-                        height="auto"></div>
-                    </p>
-                  </li>
-                  <br>
-                  <li>
-                    <p>
-                      Under <b>Add</b> tab, select the <b>AD Properties</b> and give the <b>Property Name</b>. Then,
-                      click on the <b>Submit</b> button.
-                      <br>
-                      Here, we selected <b>extension Attribute 3</b>. Because in the Exchange admin center, the assistant
-                      username address is added in the custom attribute 3. And given the <b>Property Name</b> as
-                      Assistant which is meaningful.
-                    <div><img src="Executive4.png" onclick="openModal('Executive4.png')" alt="Property Name" width="100%"
-                        height="auto"></div>
-                    </p>
-                  </li>
-                  <br>
-                  <li>
-                    <p>
-                      Now go to the views in the settings and update the Executive label. Here, updated as Executives.
-
-                    <div><img src="Executive5.png" onclick="openModal('Executive5.png')" alt="Executive label" width="100%"
-                        height="auto"></div>
-                    </p>
-                  </li>
-                </ol>
-
-                <br>
-                <u>
-                  <p><b>Result:</b></p>
-                </u>
-
-                <p>For users, their <b>Assistant</b> name shows in the profiles card.</p>
-
-                <div><img src="Executive6.png" onclick="openModal('Executive6.png')" alt="Executive6" width="100%" height="auto">
-                </div>
-                <br>
-                <p>The users are <b>Executives</b> shown in the profile card of the assistant as shown in below.</p>
-
-                <div><img src="Executive7.png" onclick="openModal('Executive7.png')" alt="Executive7" width="100%" height="auto">
-                </div>
-                </p>
-
-
-
-
-
-            </div>
-            <div class="bg-light p-4 remove-padding common-scroll" id="employee-info-page">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Employee info page <i
-                      class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-
-                <p><b>Employee info page:</b> When you select the action button in advance settings, a panel with <b>Employee info page</b> will open.  </p>
-                  <br>
-                  <div><img src="employee_info.png" onclick="openModal('employee_info.png')" alt="Employee info" width="100%" height="auto"></div><br>
-                  <p>You can define specific url in Azure AD extension attribute column, this setting will enable employee info page.Please refer here on how to setup up extension attributes.</p>
-                  <div><img src="extension_attr.png" onclick="openModal('extension_attr.png')" alt="extension attribute" width="100%" height="auto"></div><br>
-                  <p>From "Admin", go to the "Exchange admin center", Select the recipients by clicking. Click on the mailboxes now.</p>
-                  <div><img src="recipients_admin.png" onclick="openModal('recipients_admin.png')" alt="Recipients Mailboxes" width="100%" height="auto"></div><br>
-                  <p>A pop-up will show when you click on the employee's name. Here, you may modify custom attributes and see personnel information.</p>
-                  <div><img src="employee_attribute.png" onclick="openModal('employee_attribute.png')" alt="Employee attribute" width="100%" height="auto"></div><br>
-                  <p>You can change the icon of profile card custom url, click the <b>click here</b> url  to visit office fabric UI icon page to select the required icon and copy the  name of the icon by right clicking on your desired icon. After copying the icon friendly name, please paste here  Default icon has name 'FavoriteStar' similarly you can select any icon and change the name here.  </p>
-                  <div><img src="profile_urlIcon.png" onclick="openModal('profile_urlIcon.png')" alt="Spotlight" width="100%" height="auto"></div><br>
-                  
-                  <p>On the employee's profile card, a spotlight will be added. The star sign will link you to a specific URL when you click on it. </p>
-                  <div><img src="spotlight.png" onclick="openModal('spotlight.png')" alt="Spotlight" width="100%" height="auto"></div><br>
-            </div>
- 
-            <!-- <div class="bg-light p-4 remove-padding common-scroll" id="employee-info-page">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Employee info page <i
-                      class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-
-                <p><b>Employee info page:</b> When you select the action button in advance settings, a panel with <b>Employee info page</b> will open.  </p>
-                  <br>
-                  <div><img src="employee_info.png" onclick="openModal('employee_info.png')" alt="Employee info" width="100%" height="auto"></div><br>
-                  <p>You can define specific url in Azure AD extension attribute column, this setting will enable employee info page.Please refer here on how to setup up extension attributes.</p>
-                  <div><img src="extension_attr.png" onclick="openModal('extension_attr.png')" alt="extension attribute" width="100%" height="auto"></div><br>
-                  <p>From "Admin", go to the "Exchange admin center", Select the recipients by clicking. Click on the mailboxes now.</p>
-                  <div><img src="recipients_admin.png" onclick="openModal('recipients_admin.png')" alt="Recipients Mailboxes" width="100%" height="auto"></div><br>
-                  <p>A pop-up will show when you click on the employee's name. Here, you may modify custom attributes and see personnel information.</p>
-                  <div><img src="employee_attribute.png" onclick="openModal('employee_attribute.png')" alt="Employee attribute" width="100%" height="auto"></div><br>
-                  <p>On the employee's profile card, a spotlight will be added. The star sign will link you to a specific URL when you click on it. </p>
-                  <div><img src="spotlight.png" onclick="openModal('spotlight.png')" alt="Spotlight" width="100%" height="auto"></div><br>
-            </div> -->
-
-            <div class="bg-light p-4 remove-padding common-scroll" id="import-non-M365-users">
-              <ul class=page-list>
-                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Import non M365 users
-                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                </h2>
-                <p>From here, you can import non-M365 users. Added users will be displayed when you click on the non365
-                  user's icon on the home page.
-                </p>
-
-                <div><img src="import.png" onclick="openModal('import.png')" alt="import" width="100%" height="auto"></div>
-                <br>
-                <div><img src="nonM365.png" onclick="openModal('nonM365.png')" alt="nonM365" width="100%" height="auto"></div>
-                <br>
-                <p>To import non-M365 users, follow below steps:</p>
-
-                <ol>
-
-                  <li>
-                    <p>
-                      Click on <b>Import</b> button, this displays <b>Add users using csv file.</b> 
-                    </p>
-                    <div><img src="import.png" onclick="openModal('import.png')" alt="import CSV" width="100%" height="auto">
-                    </div>
-                  </li>
-                  <br>
-                  <li>
-                    <p>Choose the data loaded CSV file from system and upload the file. </p>
-                    <div><img src="download.png" onclick="openModal('download.png')" alt="Download" width="100%" height="auto">
-                    </div>
-                  </li>
-                  <br>
-                  <li>
-                    <p>
-                      Finally click on <b>Save</b> button.
-                    </p>
-                  </li>
-
-
-                </ol>
-
-
-
-
-
-            </div>
-
-
-
+              <div><img src="11.png" onclick="openModal('11.png')" alt="Advanced" width="100%" height="auto">
+              </div><br>
+              <li><b>Import non M365 users</b>: <br> 
+                This feature allows you to import non-Microsoft 365 users. 
+                Before importing non-Office 365 users, please ensure to read the instructions provided below.
+              </li>
+              <div><img src="12.png" onclick="openModal('12.png')" alt="Advanced" width="100%" height="auto">
+              </div><br>
+              <li><b>Extend Mobile Number and Phone number search capability</b>: <br>
+                Please activate this feature if you want to search by 'starts with', 'ends with', or 'contains', but only if the number of employees is under 3000.</li> 
+                <div><img src="13.png" onclick="openModal('13.png')" alt="Advanced" width="100%" height="auto">
+                </div><br>
+                <li><b>Select topbar filters</b>: <br></li>
+                <div><img src="14.png" onclick="openModal('14.png')" alt="Advanced" width="100%" height="auto">
+                </div><br>
+            </ol>
             <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
             <nav class="pagination mt-3">
               <a class="nav nav-prev" href="../views/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
@@ -1144,7 +209,8 @@
     <div class=container>
       <div class="row align-items-center">
         <div class="col-md-8 text-md-left text-center">
-          <p class="mb-md-0 mb-4">© 2023-<a href=https://www.hr365.us />HR365.</a> <a href="https://www.hr365.us/sla/">SLA.</a>
+          <p class="mb-md-0 mb-4">© 2023-<a href=https://www.hr365.us />HR365.</a> <a
+              href="https://www.hr365.us/sla/">SLA.</a>
             <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
               href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
               href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
@@ -1157,7 +223,7 @@
                 href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i class=ti-facebook></i></a></li>
             <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://twitter.com/HR365_HRMS"
                 aria-label=Twitter><i class=ti-twitter-alt></i></a></li>
-        
+
             <li class=list-inline-item><a class="text-color d-inline-block p-2"
                 href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd" aria-label=Linkedin><i
                   class=ti-linkedin></i></a></li>
