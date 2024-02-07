@@ -57,17 +57,17 @@ $(document).ready(function () {
        " </li>"+
 
        " <li data-nav-id='./User/' title='HR Executive' class='sidelist'>"+
-       "<a href='/employee-performance-management/modern/admin/roles/#hr-executive-dashboard'>HR Executive-Dashboard</a>"+
+       "<a href='/employee-performance-management/modern/admin/roles/#hr-executive-dashboard'>HR Executive</a>"+
         "</li>"+
 
        "<li data-nav-id='./General-Settings/' title='HR Manager' class='sidelist'>"+
-            "<a href='/employee-performance-management/modern/admin/roles/#hr-manager-dashboard'>HR Manager-Dashboard </a>"+
+            "<a href='/employee-performance-management/modern/admin/roles/#hr-manager-dashboard'>HR Manager </a>"+
         "</li>"+
         "<li data-nav-id='./General-Settings/' title='HR Head' class='sidelist'>"+
-        "<a href='/employee-performance-management/modern/admin/roles/#hr-head-dashboard'>HR Head-Dashboard </a>"+
+        "<a href='/employee-performance-management/modern/admin/roles/#hr-head-dashboard'>HR Head </a>"+
    " </li>"+
     "<li data-nav-id='./General-Settings/' title='HR Manager Admin' class='sidelist'>"+
-    "<a href='/employee-performance-management/modern/admin/roles/#hr-manager-admin-dashboard'>HR Manager Admin-Dashboard </a>"+
+    "<a href='/employee-performance-management/modern/admin/roles/#hr-manager-admin-dashboard'>HR Manager Admin </a>"+
 "</li>"+
 "<li data-nav-id='./General-Settings/' title='HR Head Admin' class='sidelist'>"+
 "<a href='/employee-performance-management/modern/admin/roles/#hr-head-admin'>HR Head–Admin </a>"+
