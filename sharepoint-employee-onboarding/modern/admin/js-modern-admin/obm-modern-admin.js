@@ -124,8 +124,8 @@ $(document).ready(function () {
         "</li>" +
 
         "</ul>" +
-
-
+       
+       
 
         //HEADING START
 
@@ -214,17 +214,10 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title=Users class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#teams'> Add/Edit Teams </a>" +
         "</li>" +
-
-
-
         "</li>" +
 
         "</ul>" +
         // OPTION END540 
-
-
-
-
          //HEADING START
 
          "<li class='dropdownicon sidelist'>" +
@@ -272,15 +265,10 @@ $(document).ready(function () {
           "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
           "</li>" +
           //HEADING END
-  
-  
+
           // OPTIONS START
           "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
           "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-  
-  
-  
-  
   
           "<li data-nav-id='../General' title=Users class=sidelist>" +
           "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Custom-Columns'> Custom Columns </a>" +
@@ -293,7 +281,6 @@ $(document).ready(function () {
           "<li data-nav-id='../General' title=Users class=sidelist>" +
           "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Create-User-in-M365'> Create User in M365 </a>" +
           "</li>" +
-  
           "<li data-nav-id='../General' title=Users class=sidelist>" +
           "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Domain'> Domain </a>" +
           "</li>" +
@@ -314,7 +301,9 @@ $(document).ready(function () {
           // OPTION END
 
           
-
+        //   "<li class='dropdownicon sidelist'>" +
+        //   "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/Assesment'> Assessment </a>" +
+        //   "</li>" +
 
            //HEADING START
 
@@ -450,6 +439,5 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title=Help class='sidelist'>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/help/'>Help</a>" +
         "</li>" +
-        "</li>")
+      "</li>" )
 })
-

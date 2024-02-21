@@ -7,8 +7,6 @@ $(document).ready(function () {
         "Introduction"+
         "</a>"+
         "</li>"+
-       
-    
         "<li data-nav-id='../Home-page' title=Home-page class=sidelist>"+
             "<a href='/employee-vacation-tracker-time-off-manager/classic/admin/home-page/'>"+
                 "Home Page"+
