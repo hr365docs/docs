@@ -230,11 +230,20 @@ $(document).ready(function () {
 
 
 
-"<li data-nav-id='./Settings/' title=Help class=sidelist>"+
+"<li class='dropdownicon sidelist' title='Help'>" +
+"<a href='/contract-management/modern/admin/help/'>" +
+"Help" +
+"</a>" +
+"<img src='../../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+"</li>" +
 
-    "<a href='/contract-management/modern/admin/help/'>"+
-       " Help"+
-    "</a>"+
-"</li>")
+"<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
+
+
+
+"<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
+"<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
+"<a href='/contract-management/modern/admin/help/#product-activation'>Product Activation</a>" +
+"</li>" )
                                            
 });
