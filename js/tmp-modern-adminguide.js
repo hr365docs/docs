@@ -86,7 +86,7 @@ $(document).ready(function () {
         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/help/'>" +
         "Help" +
         "</a>" +
-        "<img src='../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        "<img src='./down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>" +
 
         "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +

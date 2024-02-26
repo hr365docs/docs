@@ -91,7 +91,7 @@ $(document).ready(function () {
         "<a href='/online-timesheet-software/modern/admin/help/'>" +
         "Help" +
         "</a>" +
-        "<img src='../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        "<img src='down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>" +
 
         "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
