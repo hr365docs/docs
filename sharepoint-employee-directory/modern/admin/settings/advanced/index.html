@@ -107,8 +107,11 @@
             </div>
             <ol>
               <li>
-                Additional manager</b>
+                <b> Additional manager</b>
               </li>
+              <p>
+                This feature enables users to add or remove additional managers, as well as assign additional properties
+                based on the manager's preferences.</p> 
               <div><img src="2.png" onclick="openModal('2.png')" alt="Advanced" width="100%" height="auto">
               </div>
               <br>
@@ -131,15 +134,26 @@
               </div>
               <br>
               <li><b>Custom fields</b></li>
+              <p>When selecting properties such as 'EmployeeHireDate' and saving their values in attributes, individuals
+                associated with those values will have them displayed on their profile cards, in list views, and
+                elsewhere</p>
               <div><img src="6.png" onclick="openModal('6.png')" alt="Advanced" width="100%" height="auto">
               </div>
               <br>
               <li><b>Custom function</b>: <br>
-                In this feature, you can add or delete custom functions by entering the details provided below.</li>
+                You can develop a custom function enabling users to select specific Active Directory (AD) properties and
+                retrieve their respective values. For instance, if a user selects "DateOfJoining" as the property and
+                inputs the value "2022-03-12", the function will showcase users whose DateOfJoining corresponds to
+                "2022-03-12" within the application.</li>
               <div><img src="7.png" onclick="openModal('7.png')" alt="Advanced" width="100%" height="auto">
               </div>
               <br>
-              <li><b>Default view of topbar filters</b></li>
+              <li><b>Default view of topbar filters</b>
+              </li>
+              <p>
+                This setting allows users to select which property values they want to display as filters on the
+                homepage. The department and location are the only two properties available for this purpose.
+              </p>
               <div><img src="8.png" onclick="openModal('8.png')" alt="Advanced" width="100%" height="auto">
               </div>
               <br>
@@ -187,16 +201,41 @@
               </li>
               <div><img src="17.png" onclick="openModal('17.png')" alt="Advanced" width="100%" height="auto">
               </div><br>
-              <li><b>Sync employee profile information from</b> :</li><br>
+              <li><b>Sync employee profile information from</b> :
+              </li> <ol>
+              <p>
+                <li><b>Graph API :</b> 
+                The recommended configuration for the Employee Directory app is to utilize the Microsoft 365 Graph API as the primary data source to fetch all information. It is advisable to use Microsoft 365 as the data source for the majority of attributes.                
+              </li>
+            <li>
+              <b>Sharepoint Online and Graph API</b>: 
+              The Employee Directory app utilizes SharePoint Online and the Microsoft 365 Graph API as data sources to retrieve all information. It is recommended to enable this setting only if advised by the support or consulting team, particularly if there is a specific need such as sorting results by last name or other requirements that cannot be fulfilled using the Graph data source alone.              
+            </li></p>
+          </ol>
+              
+              <br>
               <div><img src="18.png" onclick="openModal('18.png')" alt="Advanced" width="100%" height="auto">
               </div><br>
               <li><b>Sync unlicensed users</b></li>
+              <p>In this functionality, you have the capability to fetch users from Azure Active Directory who are
+                currently without an assigned license.</p> <br>
               <div><img src="19.png" onclick="openModal('19.png')" alt="Advanced" width="100%" height="auto">
               </div><br>
               <li><b>Sync user information from</b></li>
+              <p>
+
+                In this feature, users have the option to synchronize user information from two different sources: M365
+                and non-M365. Alternatively, they can choose to synchronize only user information from non-M365
+                accounts.
+              </p> <br>
               <div><img src="20.png" onclick="openModal('20.png')" alt="Advanced" width="100%" height="auto">
               </div><br>
               <li><b>Upcoming birthdays & work anniversaries</b></li>
+              <p>
+                In this feature, there are two options available: one for M365 users and another for non-M365 users.
+                Depending on the selection made, we retrieve upcoming dates of birth (DOB) and date of joining (DOJ) for
+                the respective users.
+              </p><br>
               <div><img src="011.png" onclick="openModal('011.png')" alt="Advanced" width="100%" height="auto">
               </div><br>
               <li><b>Validate work email with SharePoint account name</b>

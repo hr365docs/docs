@@ -108,7 +108,7 @@
                                 <li>
                                     <a href="../settings/#general">General</a>
                                 </li>
-                                
+
                                 <li>
                                     <a href="../settings/#advance-settings">Advance Settings</a>
                                 </li>
@@ -148,6 +148,15 @@
                                 <br>
                                 <img src="calculate_partial.png" onclick="openModal('calculate_partial.png')"
                                     alt="Calculate partial leave" width="100%">
+                                <br><br>
+                                <li>
+                                    <h6>Calculate leaves based on</h6>
+                                    Here, you can calculate leaves on a daily and hourly basis. You have the option to
+                                    set the default hours for each day.
+                                </li>
+                                <br>
+                                <img src="based.png" onclick="openModal('based.png')" alt="Calculate partial leave"
+                                    width="100%">
                                 <br><br>
                                 <li>
                                     <h6>Annual Leave Start Date and Annual Leave End Date</h6>You could mention the
@@ -191,14 +200,8 @@
                                     width="100%">
                                 <br><br>
                                 <li>
-                                    <h6>Total Hours In Work Week</h6>Here, you could add total working hours in a week.
-                                </li>
-                                <br>
-                                <img src="total_hours.png" onclick="openModal('total_hours.png')" alt="Total hours"
-                                    width="100%">
-                                <br><br>
-                                <li>
-                                    <h6> Work Week</h6>In this table add 0 in the cell for weekend. Leave calculation
+                                    <h6> Define Work Week</h6>In this table add 0 in the cell for weekend. Leave
+                                    calculation
                                     would be done based on working days.
                                 </li>
                                 <br>
@@ -222,6 +225,7 @@
                                 <br>
                                 <img src="1.png" onclick="openModal('1.png')" alt="allow user" width="100%">
                                 <br><br>
+                               
                                 <li>
                                     <h6>Allow all microsoft 365 users in this tenant</h6>Microsoft 365 users would not
                                     get the access of application until users are added in users list of the
@@ -233,7 +237,7 @@
                                     width="100%">
                                 <br><br>
                                 <li>
-                                    <h6>Show Sample data in Dashboard</h6>
+                                    <h6>Show Sample data in Dashboard</h6> To display sample data on the dashboard, simply activate the toggle button.
                                 </li>
                                 <br>
                                 <img src="leaves_reordering.png" onclick="openModal('leaves_reordering.png')"
@@ -264,15 +268,7 @@
                                 <p><b>Hide comments wrapper :</b>Enable this toggle will hide comments wrapper in
                                     sharepoint page where app is running.</p>
                                 <br>
-                                <img src="5.png" onclick="openModal('5.png')" alt="brand logo" width="100%">
-                                <br><br>
-                                <li>
-                                    <h6>Brand Logo</h6>Admin may upload logo.
-                                </li>
-                                <br>
-                                <img src="brand_logo.png" onclick="openModal('brand_logo.png')" alt="brand logo"
-                                    width="100%">
-                                <br><br>
+                               
                             </ol>
                         </div>
                         <div class="bg-light p-4 common-scroll" id="organization">
@@ -336,12 +332,19 @@
                                 <img src="14.png" onclick="openModal('14.png')" alt="Office Location" width="100%"><br>
                                 <br>
                                 <li>
-                                    <h6>Avail Comp off (off in lieu) policy (in days)</h6>Comp (Compensatory) Off leave (also called compensatory off, comp off, or off-In-Lieu) allows team members to take time off in lieu of overtime pay if they've worked under irregular circumstances, such as: when business is closed, holidays, overtime hours, etc. Users are allowed to consume their comp off with X days from the day they worked under irregular circumstances.
+                                    <h6>Avail Comp off (off in lieu) policy (in days)</h6>Comp (Compensatory) Off leave
+                                    (also called compensatory off, comp off, or off-In-Lieu) allows team members to take
+                                    time off in lieu of overtime pay if they've worked under irregular circumstances,
+                                    such as: when business is closed, holidays, overtime hours, etc. Users are allowed
+                                    to consume their comp off with X days from the day they worked under irregular
+                                    circumstances.
                                 </li>
                                 <img src="15.png" onclick="openModal('15.png')" alt="Office Location" width="100%"><br>
                                 <br>
                                 <li>
-                                    <h6>Enable external users</h6>You can allow external users to use this Time-off Manager app i.e. You can add them as guest / external user which is added in your office 365 tenant
+                                    <h6>Enable external users</h6>You can allow external users to use this Time-off
+                                    Manager app i.e. You can add them as guest / external user which is added in your
+                                    office 365 tenant
                                 </li>
                                 <img src="16.png" onclick="openModal('16.png')" alt="Office Location" width="100%"><br>
                                 <br>
@@ -396,46 +399,60 @@
                                 <br>
                                 <br>
                                 <li>
-                                    <h6>Show Time off requests in Microsoft outlook calender.</h6>When we apply leave, Outlook Calendar is blocked.
+                                    <h6>Show Time off requests in Microsoft outlook calender.</h6>When we apply leave,
+                                    Outlook Calendar is blocked.
                                 </li>
                                 <img src="19.png" onclick="openModal('19.png')" alt="Office Location" width="100%"><br>
                                 <br>
-                                
+
                                 <li>
                                     <h6>Auto Approvals.</h6>leaves can approve automattically without permission.
                                 </li>
-                                <img src="20.png" onclick="openModal('20.png')" alt="Office Location" width="100%"><br><br>
+                                <img src="20.png" onclick="openModal('20.png')" alt="Office Location"
+                                    width="100%"><br><br>
                                 <img src="21.png" onclick="openModal('21.png')" alt="Office Location" width="100%"><br>
                                 <br>
                                 <li>
-                                    <h6>Second level approval for leave cancellation.</h6>HR is Second level approver for Leave Cancellation.
+                                    <h6>Second level approval for leave cancellation.</h6>HR is Second level approver
+                                    for Leave Cancellation.
                                 </li>
-                                <img src="22.png" onclick="openModal('22.png')" alt="Office Location" width="100%"><br><br>
-                               
+                                <img src="22.png" onclick="openModal('22.png')" alt="Office Location"
+                                    width="100%"><br><br>
+
                                 <br>
                                 <li>
                                     <h6>Display Title.</h6> You can Hide/Show title field while applying leave.
                                 </li>
-                                <img src="23.png" onclick="openModal('23.png')" alt="Office Location" width="100%"><br><br>
+                                <img src="23.png" onclick="openModal('23.png')" alt="Office Location"
+                                    width="100%"><br><br>
                                 <li>
-                                    <h6>Enable recurrence of leaves .</h6> If enabled, you can find control of recurrence on the top right corner after clicking on 'new request' on home page of the application
+                                    <h6>Enable recurrence of leaves .</h6> If enabled, you can find control of
+                                    recurrence on the top right corner after clicking on 'new request' on home page of
+                                    the application
                                 </li>
-                                <img src="24.png" onclick="openModal('24.png')" alt="Office Location" width="100%"><br><br>
+                                <img src="24.png" onclick="openModal('24.png')" alt="Office Location"
+                                    width="100%"><br><br>
                                 <li>
-                                    <h6>Language selection as browser default language.</h6> Select browser Default Language.
+                                    <h6>Language selection as browser default language.</h6> Select browser Default
+                                    Language.
                                 </li>
-                                <img src="25.png" onclick="openModal('25.png')" alt="Office Location" width="100%"><br><br>
+                                <img src="25.png" onclick="openModal('25.png')" alt="Office Location"
+                                    width="100%"><br><br>
                                 <br>
                                 <li>
-                                    <h6>Language selection in case browser default language is not detected.</h6> 
+                                    <h6>Language selection in case browser default language is not detected.</h6>
                                 </li>
-                                <img src="26.png" onclick="openModal('26.png')" alt="Office Location" width="100%"><br><br>
+                                <img src="26.png" onclick="openModal('26.png')" alt="Office Location"
+                                    width="100%"><br><br>
                                 <li>
-                                    <h6>Email Template</h6> Here you can configure email notification body and add more placeholders.
+                                    <h6>Email Template</h6> Here you can configure email notification body and add more
+                                    placeholders.
                                 </li>
-                                <img src="27.png" onclick="openModal('27.png')" alt="Office Location" width="100%"><br><br>
-                                <img src="28.png" onclick="openModal('28.png')" alt="Office Location" width="100%"><br><br>
-                               
+                                <img src="27.png" onclick="openModal('27.png')" alt="Office Location"
+                                    width="100%"><br><br>
+                                <img src="28.png" onclick="openModal('28.png')" alt="Office Location"
+                                    width="100%"><br><br>
+
                             </ol>
 
                         </div>
@@ -537,7 +554,7 @@
 
 
                         </div>
-                    
+
 
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">

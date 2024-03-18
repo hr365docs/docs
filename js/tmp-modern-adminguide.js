@@ -64,6 +64,11 @@ $(document).ready(function () {
                             "General"+
                             "</a>"+
                             "</li>"+
+                            "<li data-nav-id='../user' title=Advance Setting class='sidelist'>"+
+                            "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#advance-settings'>"+
+                            "Advance Settings"+
+                            "</a>"+
+                            "</li>"+
                                 "<li data-nav-id='../user' title=Organization class='sidelist'>"+
                                     "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#organization'>"+
                                     "Organizations"+
@@ -74,11 +79,7 @@ $(document).ready(function () {
                                         "Leave Settings"+
                                         "</a>"+
                                         "</li>"+
-                                        "<li data-nav-id='../user' title=Advance Setting class='sidelist'>"+
-                                            "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#advance-settings'>"+
-                                            "Advance Settings"+
-                                            "</a>"+
-                                            "</li>"+
+                                       
                             "</ul>"+
                             "</li >"+
     
