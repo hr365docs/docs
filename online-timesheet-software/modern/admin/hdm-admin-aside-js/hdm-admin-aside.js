@@ -56,10 +56,10 @@ $(document).ready(function () {
         "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/integration/'>Integration</a>"+
         
         "</li>"+
-        "<li>"+
-        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/general-setting/'>Advance Setting</a>"+
+        // "<li>"+
+        // "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/general-setting/'>Advance Setting</a>"+
         
-        "</li>"+
+        // "</li>"+
 
 
 
@@ -87,7 +87,7 @@ $(document).ready(function () {
         "<a href='/online-timesheet-software/modern/admin/help/'>" +
         "Help" +
         "</a>" +
-        "<img src='../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        "<img src='down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>" +
 
         "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
