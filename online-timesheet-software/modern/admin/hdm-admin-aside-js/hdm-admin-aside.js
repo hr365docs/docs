@@ -11,9 +11,6 @@ $(document).ready(function () {
         "<li data-nav-id='./installation/requirments/' title='Home Page' class='sidelist'>"+
         "<a href='/online-timesheet-software/modern/admin/home-page/'>Home Page</a>"+
         "</li>"+
-        
-
-       
         "<li data-nav-id='./Settings/' title=Reports class='sidelist'>"+
         "<a href='/online-timesheet-software/modern/admin/reports/'>Reports</a>"+
         "</li>"+
@@ -21,9 +18,8 @@ $(document).ready(function () {
         "<li data-nav-id='./Adminstration' title=Introduction class='sidelist'>"+
         "<a href='/online-timesheet-software/modern/admin/administration/'>Administration</a>"+
         "</li>"+
-        
 
-        
+
         "<li class='dropdownicon sidelist'>"+
         "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/'>Settings</a>"+
         "<img class='helpdesk-img aside_dropdown_icon_setting' src='/online-timesheet-software/modern/admin/hdm-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
@@ -91,7 +87,7 @@ $(document).ready(function () {
         "<a href='/online-timesheet-software/modern/admin/help/'>" +
         "Help" +
         "</a>" +
-        "<img src='down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        "<img src='../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>" +
 
         "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
