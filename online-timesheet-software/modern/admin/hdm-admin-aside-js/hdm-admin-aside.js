@@ -27,6 +27,10 @@ $(document).ready(function () {
 
        "<li data-nav-id='./Settings/' title='Settings'  class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>"+
+        "<li>"+
+        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/general/'>General</a>"+
+        
+        "</li>"+
 
         "<li>"+
         "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/role/'>Users</a>"+
@@ -38,10 +42,7 @@ $(document).ready(function () {
         
         "</li>"+
 
-        "<li>"+
-        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/general/'>General</a>"+
         
-        "</li>"+
 
         "<li>"+
         "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/notification/'>Notification</a>"+
