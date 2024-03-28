@@ -444,7 +444,7 @@ $(document).ready(function () {
         "<a href='/sharepoint-helpdesk/modern/admin/help/'>" +
         "Help" +
         "</a>" +
-        "<img src='down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        "<img src='/sharepoint-helpdesk/modern/admin/hdm-admin-aside-js/down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>" +
 
         "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
