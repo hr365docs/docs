@@ -955,7 +955,7 @@ b.min-wd200 {
 .banner a.nav-link.text-dark:hover {
     color: #fff !important;
 }
-.nav-item .dropdown :active{
+.nav-item :active{
     border-bottom: 2px solid #fff;
 }
 
