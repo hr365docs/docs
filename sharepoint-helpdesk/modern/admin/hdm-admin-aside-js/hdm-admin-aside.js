@@ -62,6 +62,9 @@ $(document).ready(function () {
         "<li data-nav-id='./General-Settings/' title='Date Format' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#date-format'>Date Format</a>"+
         "</li>"+
+        "<li data-nav-id='./General-Settings/' title='Date Format' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#timeformat'>Time Format</a>"+
+        "</li>"+
         "<li data-nav-id='./Email-Notification/' title=Theme class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#theme'>Theme</a>"+
         // "<li data-nav-id='./Email-Notification/' title='Teams Option' class='sidelist'>"+
@@ -85,10 +88,16 @@ $(document).ready(function () {
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Show-resolved-ticket-in-resolved-tab-only'>Show resolved ticket in resolved tab only</a>"+
         "</li>"+
         "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Show-resolved-ticket-in-selected-tabs'>Show resolved ticket in selected tabs</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#GCC-Tenant'>GCC-Tenant</a>"+
         "</li>"+
         "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Create'>Create tickets on behalf of Non-M365 User</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Show-favicon-of-Helpdesk-365'>Show Favicon of Helpdesk 365</a>"+
         "</li>"+
         
         "</li><li data-nav-id='./Column-Setting/' title='Language selection as browser default language' class='sidelist'>"+
