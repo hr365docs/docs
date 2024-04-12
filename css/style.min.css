@@ -948,15 +948,12 @@ b.min-wd200 {
     display: inline-block;
 }
 
-/* a.nav-link.text-dark.active {
+a.nav-link.text-dark.active {
     border-bottom: 2px solid #fff;
-} */
+}
 
 .banner a.nav-link.text-dark:hover {
     color: #fff !important;
-}
-.nav-item .dropdown :active{
-    border-bottom: 2px solid #fff;
 }
 
 a.nav-link.text-dark.active-dark {

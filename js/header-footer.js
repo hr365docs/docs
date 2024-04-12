@@ -65,4 +65,22 @@ window.addEventListener("load", () => {
         }
     }
 });
+// window.addEventListener("load", () => {
+//     let headerItems = document.querySelectorAll(".navbar-nav .nav-item a");
+//     let currentPath = window.location.pathname.split('/')[1]; // Get the first segment of the current URL path
+
+//     for (let i = 0; i < headerItems.length; i++) {
+//         let itemPath = headerItems[i].pathname.split('/')[1]; // Get the first segment of the link's URL path
+//         if (currentPath === itemPath) {
+//             if (document.querySelector("header.shadow-bottom.sticky-top.bg-white")) {
+//                 headerItems[i].classList.add("active-dark");
+//             } else {
+//                 headerItems[i].classList.add("active");
+//             }
+//             // Break the loop after finding the current item to improve performance
+//             break;
+//         }
+//     }
+// });
+
 
