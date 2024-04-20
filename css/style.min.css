@@ -268,7 +268,6 @@ pre {
 .text-color {
     color: var(--text-color) !important
 }
-
 .text-dark {
     color: var(--text-color-dark) !important
 }
@@ -321,8 +320,6 @@ pre {
     transform: translateY(20px);
     background: var(--white-color)
 }
-
-
 .navbar .dropdown-menu.view {
     visibility: visible !important;
     opacity: 1;
@@ -331,7 +328,6 @@ pre {
     -webkit-transform-origin: top;
     transform-origin: top
 }
-
 .navbar .dropdown-menu.show {
     visibility: hidden
 }
@@ -351,7 +347,6 @@ pre {
     background: #7c5ede;
     color: #fff;
 }
-
 .lang-list {
     background: var(--primary-color);
     color: var(--white-color)

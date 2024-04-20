@@ -12,6 +12,7 @@ $(document).ready(function () {
   "<li  data-nav-id='../advanced/' title='Language selection' class='sidelist'>"+
     "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#language-selection-as-browser'>Language selection as browser default language</a>"+
   "</li>"+
+  
 
   "<li  data-nav-id='../advanced/' title='Language selection' class='sidelist '>"+
     "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#language-selection'>Language selection in case browser default language is not detected</a>"+

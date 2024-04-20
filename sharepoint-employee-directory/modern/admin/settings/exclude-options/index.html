@@ -100,14 +100,13 @@
                 </h2>
 
 
-
-
                 <p>Here you can exclude individual users based on selection or group of users. You can also customize
                   the exclude option field from the advanced setting. Refer <a href="../advanced/">Advance Settings</a>.
                 </p>
 
                 <div><img src="01.png" onclick="openModal('01.png')" alt="Exclude" width="100%" height="auto">
                 </div>
+
                 <br>
 
                 <ul class="ul_li_styles">
@@ -139,29 +138,37 @@
               <br>
               </p>
               <br>
+             
+              <div id="ExcludeO365sign-inblockedusers">
+                   <h6>Exclude O365 sign-in blocked users</h6>
+                  To enable this setting, please visit this <a
+                  href="https://bitzap-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/webApiPermissionManagement">Link</a>
+                to learn how to activate the SharePoint API.
+                </p>
+                <br><br>
+                <div><img src="04.png" onclick="openModal('04.png')" alt="excluded user by UPN" width="100%"
+                    height="auto"></div>
+
+              </div>
+
+            </div>
+            <div id="Excludeuserbydepartment">
+              <br>
               <p>
-              <h6>Exclude O365 sign-in blocked users</h6>
-              To enable this setting, please visit this <a
-                href="https://bitzap-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/webApiPermissionManagement">Link</a>
-              to learn how to activate the SharePoint API.
+              <h6>Exclude user by department</h6>
+
+              You can exclude users by department by selecting the department from the dropdown menu.
               </p>
               <br><br>
-              <div><img src="04.png" onclick="openModal('04.png')" alt="excluded user by UPN" width="100%"
-                  height="auto"></div>
-            </div>
-
-            <br>
-            <p>
-            <h6>Exclude user by department</h6>
-
-            You can exclude users by department by selecting the department from the dropdown menu.
-            </p>
-            <br><br>
-            <div><img src="05.png" onclick="openModal('05.png')" alt="excluded user by UPN" width="100%" height="auto">
+              <div><img src="05.png" onclick="openModal('05.png')" alt="excluded user by UPN" width="100%"
+                  height="auto">
+              </div>
             </div>
           </div>
 
           <br>
+
+<div id="Excludeusersbyjobtitle">
           <p>
           <h6>Exclude users by job title</h6>
           You can exclude users by Job title by selecting the job title from the dropdown menu.
@@ -170,6 +177,10 @@
           <div><img src="06.png" onclick="openModal('06.png')" alt="excluded user by UPN" width="100%" height="auto">
           </div>
           <br>
+        </div>
+
+
+<div id="ExcludeusersbyName">
           <p>
           <h6>Exclude users by Name</h6>
           To maintain the query length restriction imposed by Microsoft for excluding users by username, limit the user
@@ -180,6 +191,9 @@
           <div><img src="07.png" onclick="openModal('07.png')" alt="excluded user by UPN" width="100%" height="auto">
           </div>
 
+ </div>
+
+ <div id="Excludeuserbyofficelocation">
           <br>
           <p>
           <h6>Exclude user by office location</h6>
@@ -188,7 +202,9 @@
           <br><br>
           <div><img src="06.png" onclick="openModal('06.png')" alt="excluded user by UPN" width="100%" height="auto">
           </div>
+</div>
 
+<div id="Excludeuserbyusingcsvfile">
           <br>
           <p>
           <h6>Exclude user by using csv file</h6>
@@ -199,6 +215,9 @@
           <div><img src="07.png" onclick="openModal('07.png')" alt="excluded user by UPN" width="100%" height="auto">
           </div>
 
+</div>         
+
+<div id="ExcludeUsersByUPN">
           <br>
           <p>
           <h6>Exclude Users By UPN</h6> Users can be exclude with the UPN (User Principal Name) to exclude only
@@ -208,6 +227,10 @@
           <div><img src="03.png" onclick="openModal('03.png')" alt="excluded user by UPN" width="100%" height="auto">
           </div>
 
+</div>  
+
+<div id="Excludeuserbycontain">
+
           <br>
           <p>
           <h6>Exclude user by contain</h6>
@@ -216,7 +239,10 @@
           <br><br>
           <div><img src="08.png" onclick="openModal('08.png')" alt="excluded user by UPN" width="100%" height="auto">
           </div>
+</div>
 
+
+<div id="Excludeusershiddeninaddresslist">
           <br>
           <p>
           <h6>Exclude users hidden in address list</h6>
@@ -230,12 +256,17 @@
           <div><img src="09.png" onclick="openModal('09.png')" alt="excluded user by UPN" width="100%" height="auto">
           </div>
 
+</div>         
+
+
+<div id="Removesharedmailboxes">
           <br>
           <p>
           <h6>Remove shared mailboxes</h6>
 
 
-          Click this <a href="https://employeedirectory.hr365online.com/">Link</a> to access Cubic Logics's tool for removing shared mailbox users.
+          Click this <a href="https://employeedirectory.hr365online.com/">Link</a> to access Cubic Logics's tool for
+          removing shared mailbox users.
           </p>
           <br><br>
           <div><img src="10.png" onclick="openModal('10.png')" alt="excluded user by UPN" width="100%" height="auto">
@@ -244,8 +275,8 @@
 
         </div>
 
-      </div>
-   
+ </div>     
+
 
 
       <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
