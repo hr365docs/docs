@@ -41,6 +41,7 @@ $(document).ready(function () {
         "</li>" +
         
         "</ul>" +
+        
        
         
 
@@ -249,7 +250,7 @@ $(document).ready(function () {
         "</li>" +
 
         "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-        "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbydepartment'>Exclude user by department/a>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbydepartment'>Exclude user by department</a>" +
         "</li>" +
         "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeusersbyjobtitle'>Exclude users by job title</a>" +
@@ -308,6 +309,78 @@ $(document).ready(function () {
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/'>" +
         "Advanced" +
         "</a>" +
+        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "</li>" +
+        "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
+
+  
+
+        "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmoderngeneral'>" +
+
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Additionalmanager'>Additional manager</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Autoloadinsteadloadmorebutton'>Auto load instead load more button</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Autofetchoffice365jobtitlelocationanddepartment'>Auto fetch office 365 job title, location and department</a>" +
+        "</li>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#ConfigureSharePointAPIpermissions'>Configure SharePoint API permissions</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Customfields'>Custom fields</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Customfunction'>Custom function</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Defaultviewoftopbarfilters'>Default view of topbar filters</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#ExecutiveAssistantrelationship'>Executive Assistant relationship</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Extendcustomfieldssearchcapability'>Extend custom fields search capability</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Filterupcomingbirthdaysworkanniversaries'>Filter upcoming birthdays & work anniversaries</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#ImportnonM365users'>Import non M365 users</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#ExtendMobileNumberandPhonenumbersearchcapability'>Extend Mobile Number and Phone number search capability</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Selecttopbarfilters'>Select topbar filters</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#ShowGroups'>Show Groups</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#ShoworHideModule'>Show or Hide Module</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Syncanddisplaymobilenumberfromazure'>Sync and display mobile number from azure</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Syncemployeeprofileinformationfrom '>Sync employee profile information from </a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Syncunlicensedusers '>Sync unlicensed users </a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Syncuserinformationfrom '>Sync user information from </a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Upcoming'>Upcoming birthdays & work anniversaries</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#workemail'>Validate work email with SharePoint account name</a>" +
+        "</li>" +
         
         "</li>" +
         "</li>" +
@@ -317,6 +390,18 @@ $(document).ready(function () {
         "</a>" +
         "</ul>" +
         // setting end 
+      
+
+
+
+
+
+
+
+
+
+        "</ul>" +
+        "</ul>" +
         "<li class='dropdownicon sidelist' title='Help'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/help/'>" +
         "Help" +
@@ -332,21 +417,12 @@ $(document).ready(function () {
         "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>Product Activation</a>" +
         "</li>" +
-
-
-
-
-
-
-
-
-
-        "</ul>" +
         // "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Help' class=sidelist>" +
         // "<a href='/sharepoint-employee-directory/modern/admin/help/'>" +
         // "Help" +
         // "</a>" +
         // "</li>" +
+      
 
 
 
