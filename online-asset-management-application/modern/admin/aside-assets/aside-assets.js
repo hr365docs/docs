@@ -277,6 +277,11 @@ $(document).ready(function() {
                     "<li data-nav-id='./Add Assets/ ' title='System Generated Barcode' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#Configure-Barcode-Field(s)>'>Configure-Barcode-Field(s)></a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='System Generated Barcode' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/features/#system-generated-barcode'>System Generated Barcode</a>"+
                     "</li>"+
                     "<li data-nav-id='./Add Assets/ ' title='External User'class='sidelist '>"+
@@ -304,6 +309,21 @@ $(document).ready(function() {
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/features/#advance-booking-of-assets'>Advance Booking of Assets</a>"+
                     "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Software' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#software'>Software</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Software' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#Hide-the-Assign-and-Return-Assets-in-Home-Page'>Hide the Assign and Return Assets in Home Page</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Software' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#Hide/Show-Thumbnail'>Hide/Show Thumbnail</a>"+
+                    "</li>"+
                     "<li data-nav-id='./Add Assets/ ' title='Quick Action' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
@@ -314,11 +334,7 @@ $(document).ready(function() {
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/features/#GCC-Tenant'>GCC Tenant</a>"+
                     "</li>"+
-                    "<li data-nav-id='./Add Assets/ ' title='Software' class='sidelist '>"+
-                    "<ul class='sidenavSub-topics '>"+
-                    "</ul>"+
-                    "<a href='/online-asset-management-application/modern/admin/settings/features/#software'>Software</a>"+
-                    "</li>"+
+                    
                     "<li data-nav-id='./Add Assets/ ' title='Asset's Location' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
