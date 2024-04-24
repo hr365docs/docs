@@ -123,6 +123,9 @@ $(document).ready(function() {
                     "<li data-nav-id='./Dashboard-Settings/' title='Email Notifications' class='sidelist'>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/general/#email-notifications'>Email Notifications</a>"+
                     "</li>"+
+                    "<li data-nav-id='./Dashboard-Settings/' title='Email Notifications' class='sidelist'>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/general/#Naming-Conventions'>Naming Conventions</a>"+
+                    "</li>"+
                    
                     "</li>"+
                     "</li>"+
@@ -209,6 +212,9 @@ $(document).ready(function() {
                     "<li data-nav-id='./Assign-Assets/ ' title='User to Select Approver to Book Assets' class='sidelist '>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/role/#allow-user-to-select-approver'>Allow User to Select Approver</a>"+
                     "</li>"+
+                    "<li data-nav-id='./Assign-Assets/ ' title='User to Select Approver to Book Assets' class='sidelist '>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/role/#Allow-Users-to-Return-Assets'>Allow Users to Return Assets</a>"+
+                    "</li>"+
                     "</ul>"+
                     "</li>"+
             
@@ -226,6 +232,16 @@ $(document).ready(function() {
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/integration/#ms-intune'>MS Intune Filter</a>"+
                     "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='MS Intune Filter' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/integration/#Customized-Platform-Title'>Customized Platform Title</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='SCCM Integration' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/integration/#SCCM-integration'>SCCM Integration</a>"+
+                    "</li>"+
                     "<li data-nav-id='./Add Assets/ ' title='Alloc8 Integration' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
@@ -237,11 +253,7 @@ $(document).ready(function() {
                     "<a href='/online-asset-management-application/modern/admin/settings/integration/#kace-integration'>Kace Integration</a>"+
                     "</li>"+
                     "</li>"+
-                    "<li data-nav-id='./Add Assets/ ' title='SCCM Integration' class='sidelist '>"+
-                    "<ul class='sidenavSub-topics '>"+
-                    "</ul>"+
-                    "<a href='/online-asset-management-application/modern/admin/settings/integration/#SCCM-integration'>SCCM Integration</a>"+
-                    "</li>"+
+                    
                   
                     // "<li data-nav-id='./Add Assets/ ' title='Integrate with HR365 Asset Management' class='sidelist '>"+
                     // "<ul class='sidenavSub-topics '>"+
