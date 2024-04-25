@@ -344,41 +344,7 @@ $(document).ready(function () {
 
 
 
-        // "<li class='dropdownicon sidelist'>" +
-        // "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/'> Administration </a>" +
-        // "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title=Administration class='sidelist dropdown_romove_dot'>" +
-        // "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-        // "<li data-nav-id='../General' title=Categories class=sidelist>" +
-        // "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#categories'> Categories </a>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title=Departments class=sidelist>" +
-        // " <a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#departments'> Departments </a>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title=' Activity Type' class=sidelist>" +
-        // "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#activity-type'> Activity Type </a>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title=' Standard Task' class=sidelist>" +
-        // "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#standard-task'> Standard Task </a>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title='Task Template' class=sidelist>" +
-        // "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#task-template'> Task Template </a>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title='Positions' class=sidelist>" +
-        // "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#positions'> Positions </a>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title='Employee Types' class=sidelist>" +
-        // "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#employee-types'> Employee Types </a>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title=Location class=sidelist>" +
-        // "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#location'> Location </a>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title='Reason For Offboard' class=sidelist>" +
-        // "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#reason-for-offboard'> Reason For Offboard </a>" +
-        // "</li>" +
-        // "<li data-nav-id='../General' title='Notice Period' class=sidelist>" +
-        // "<a href='/sharepoint-employee-onboarding/modern/admin/set-up-of-application/administration/#notice-period'> Notice Period </a>" +
+    
         "</li>" +
         "</ul>" +
         "</li>" +

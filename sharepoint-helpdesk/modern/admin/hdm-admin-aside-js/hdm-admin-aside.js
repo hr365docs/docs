@@ -11,22 +11,7 @@ $(document).ready(function () {
         "<li data-nav-id='./installation/requirments/' title='Home Page' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/home-page/'>Home Page</a>"+
         "</li>"+
-        // "<li class='dropdownicon sidelist'>"+
-        // "<a class='qwe' href='/sharepoint-helpdesk/modern/admin/home-page/'>Home Page</a>"+
-        // "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/modern/admin/hdm-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
-        // "</li>"+
-
-        // "<li data-nav-id='./Settings/' title='Home Page'  class='sidelist dropdown_romove_dot'>"+
-        // "<ul class='sidenavSub-topics aside_dropdown_list'>"+
-        // "<li data-nav-id='./Settings/' title='Kanban' class='sidelist'>"+
-        // " <a href='/sharepoint-helpdesk/modern/admin/home-page/#kanban-view'>Kanban</a>"+
-        // " </li>"+
-        // "<li data-nav-id='./Settings/' title=Table class='sidelist'>"+
-        // " <a href='/sharepoint-helpdesk/modern/admin/home-page/#table-view'>Table</a>"+
-        // " </li>"+
-        // "</ul>"+
-
-        // "</li>"+
+       
 
         "<li data-nav-id='./Settings/' title=Dashboard class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/dashboard/'>Dashboard</a>"+
@@ -66,13 +51,7 @@ $(document).ready(function () {
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#timeformat'>Time Format</a>"+
         "</li>"+
         "<li data-nav-id='./Email-Notification/' title=Theme class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#theme'>Theme</a>"+
-        // "<li data-nav-id='./Email-Notification/' title='Teams Option' class='sidelist'>"+
-        // "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#teams-option'>Teams Option on New Ticket Form</a>"+
-        //                                                             "</li>"+
-        //                                                             "<li data-nav-id='./Email-Notification/' title='Home Page Table Sorting' class='sidelist'>"+
-        //                                                             "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#home-page-table-sorting'>Home Page Table Sorting</a>"+
-        //                                                                                                                         "</li>"+
+        
         "</li><li data-nav-id='./Column-Setting/' title='Display Resolved Tab On Homepage' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#display-resolved'>Display Resolved Tab on Home Page</a>"+
         "</li>"+

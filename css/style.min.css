@@ -1267,6 +1267,7 @@ html {
     display: flex !important;
     gap: 10px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .aside_dropdown_icon,
