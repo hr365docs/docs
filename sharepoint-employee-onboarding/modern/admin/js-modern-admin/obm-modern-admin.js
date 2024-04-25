@@ -175,12 +175,6 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
-
         "</li>" +
 
         "</ul>" +
