@@ -160,6 +160,9 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title=Users class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#GCC-Tenant'> GCC Tenant </a>" +
         "</li>" +
+        "<li data-nav-id='../General' title=Users class=sidelist>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Show-FavIcon'> Show Fav Icon </a>" +
+        "</li>" +
 
         "<li data-nav-id='../General' title=Users class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Language'> Language </a>" +
