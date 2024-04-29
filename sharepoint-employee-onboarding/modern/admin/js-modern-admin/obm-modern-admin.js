@@ -53,11 +53,20 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title='Quick Share Links' class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Software'> Software </a>" +
         "</li>" +
+        "<li data-nav-id='../General' title='Quick Share Links' class=sidelist>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Office'> Office </a>" +
+        "</li>" +
         "<li data-nav-id='../General' title=' Custom Fields' class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Devices'> Devices </a>" +
         "</li>" +
         "<li data-nav-id='../General' title=' Custom Fields' class=sidelist>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Status'> Status </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title=' Custom Fields' class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Employee-Type'> Employee Type </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title=' Custom Fields' class=sidelist>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#AdditionalFields'> Additional Fields </a>" +
         "</li>" +
         "<li data-nav-id='../General' title=' Custom Fields' class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Reason-for-Offboard'> Reason for Offboard </a>" +
@@ -71,6 +80,13 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title=' Custom Fields' class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Audit-Logs'> Audit Logs </a>" +
         "</li>" +
+        "<li data-nav-id='../General' title=' Custom Fields' class=sidelist>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Groups'> Groups </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title=' Custom Fields' class=sidelist>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#CustomForms'> Custom Forms </a>" +
+        "</li>" +
+        
 
 
 
@@ -211,6 +227,9 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title=Users class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#teams'> Add/Edit Teams </a>" +
         "</li>" +
+        "<li data-nav-id='../General' title=Users class=sidelist>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#Permissions'>Permissions</a>" +
+        "</li>" +
         "</li>" +
 
         "</ul>" +
@@ -333,6 +352,44 @@ $(document).ready(function () {
 
         "</ul>" +
         // OPTION END
+        "<li class='dropdownicon sidelist'>" +
+         "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/'> EO365 Assessments </a>" +
+         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+         "</li>" +
+
+         "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+         "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+ 
+ 
+ 
+ 
+ 
+         "<li data-nav-id='../General' title=Users class=sidelist>" +
+         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Questions'> Question </a>" +
+         "</li>" +
+
+         
+         "<li data-nav-id='../General' title=Users class=sidelist>" +
+         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Sections'> Sections </a>" +
+         "</li>" +
+
+         
+         "<li data-nav-id='../General' title=Users class=sidelist>" +
+         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Assessments'> Assessments </a>" +
+         "</li>" +
+
+         
+         "<li data-nav-id='../General' title=Users class=sidelist>" +
+         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Company-Details'> Company Details </a>" +
+         "</li>" +
+ 
+        
+ 
+ 
+ 
+         "</li>" +
+ 
+         "</ul>" +
 
 
 
