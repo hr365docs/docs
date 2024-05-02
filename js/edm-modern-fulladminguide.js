@@ -2,25 +2,25 @@ $(document).ready(function () {
     $("#edmfullyadminguide").html("");
 
     $("#edmfullyadminguide").append("<ul>" +
-        // ritika dasboard
+//       intro 
         "<li data-nav-id='./installation/requirments/' title=Introduction class=sidelist>" +
         "<a href='/sharepoint-employee-directory/modern/admin/introduction/'>" +
         "Introduction" +
         "</a>" +
         "</li>" +
-
+// AD 
         "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Profile Card' class=sidelist>" +
         "<a href='/sharepoint-employee-directory/modern/admin/ArchitectureDiagram/'>" +
         "Architecture Diagram" +
         "</a>" +
         "</li>" +
-
+// profil card  
         "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Profile Card' class=sidelist>" +
         "<a href='/sharepoint-employee-directory/modern/admin/profile-card/'>" +
         "Profile Card" +
         "</a>" +
         "</li>" +
-
+// dashboard 
         "<li class='dropdownicon sidelist' title='dashboard'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/dashboard/'>" +
         "Dashboard" +
@@ -41,7 +41,17 @@ $(document).ready(function () {
         "</li>" +
         
         "</ul>" +
+
+        // help 
+
+
+       
+     
+        // help end 
+
         
+        
+      
        
         
 
@@ -386,6 +396,7 @@ $(document).ready(function () {
         "</li>" +
 
         "</ul>" +
+        
 
         "</a>" +
         "</ul>" +
@@ -401,7 +412,23 @@ $(document).ready(function () {
 
 
         "</ul>" +
+        
+       
         "</ul>" +
+        
+
+     
+      
+
+
+
+        "</ul>" +
+        "</ul>"+
+// help start 
+
+         
+        "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
+
         "<li class='dropdownicon sidelist' title='Help'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/help/'>" +
         "Help" +
@@ -409,24 +436,14 @@ $(document).ready(function () {
         "<img src='../../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>" +
 
-        "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
-
-
-
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
         "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>Product Activation</a>" +
         "</li>" +
-        // "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Help' class=sidelist>" +
-        // "<a href='/sharepoint-employee-directory/modern/admin/help/'>" +
-        // "Help" +
-        // "</a>" +
-        // "</li>" +
-      
+        "</ul>"
+// help end 
 
-
-
-        "</ul>")
+)
 
 
 
