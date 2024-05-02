@@ -70,13 +70,18 @@ $(document).ready(function () {
                             "</a>"+
                             "</li>"+
                                 "<li data-nav-id='../user' title=Organization class='sidelist'>"+
-                                    "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#organization'>"+
-                                    "Organizations"+
+                                    "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#Notifications'>"+
+                                    "Notifications"+
                                     "</a>"+
                                     "</li>"+
                                     "<li data-nav-id='../user' title=Leave Settings class='sidelist'>"+
                                         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#leave-type-settings'>"+
                                         "Leave Settings"+
+                                        "</a>"+
+                                        "</li>"+
+                                        "<li data-nav-id='../user' title=Leave Settings class='sidelist'>"+
+                                        "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#Reports'>"+
+                                        "Reports"+
                                         "</a>"+
                                         "</li>"+
                                        

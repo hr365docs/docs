@@ -77,194 +77,75 @@
     </div>
     <div class=col-lg-9>
         <div class="p-lg-4 p-4 bg-white remove-padding" id=content>
-        <!-- <h2 class=mb-5 id=title> Home Page</h2> -->
+       
         <div class="bg-light p-4 remove-padding">
             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#> Home Page
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-        </h2>
+        </h2> <br>
 
-        <p><b>Apply Leave:</b> Click on + Apply Leave, it would open an apply leave from, users could request the leave.</p>
-        <br>
-        <div><img src="ApplyLeaveAdd.png" onclick="openModal('ApplyLeaveAdd.png')" alt="Home page" width="100%" height="auto"></div>
-        <br>
-        <p>Fill in the information as needed.</p>
+        <div><img src="homepage.png" onclick="openModal('homepage.png')" alt="help icon"
+            width="100%" height="auto"></div> <br>
+        
+            <p><b>Apply Leave:</b> Click on + Apply Leave, it would open an apply leave from, users could request the leave.</p>
+            <br>
+            <div><img src="ApplyLeaveAdd.png" onclick="openModal('ApplyLeaveAdd.png')" alt="Home page" width="100%" height="auto"></div>
+            <br>
+            <p>Fill in the information as needed.</p>
         <div><img src="1.png" onclick="openModal('1.png')" alt="Home page" width="100%" height="auto"></div>
         <br>
         <p>Click on <b>Submit</b> button for apply to leave.</p>
      
         <div><img src="SubmitLeave.png" onclick="openModal('SubmitLeave.png')" alt="Home page" width="100%" height="auto"></div>
         <br>
-
-        <p><h5>My leaves</h5>
-              
-        <div><img src="home_page.png" onclick="openModal('home_page.png')" alt="Home page" width="100%" height="auto"></div>
-        <br>
-        
-        
-           <ul>
-               
-               <li><b>Leave Status:</b> Leave status show remaining leaves. Admin or HR can enable leave status for leaves from Leave settings through navigation panel.</li>
-               <br>
-               <li><b>All:</b> Status of all leaves are displayed.</li>
-               <br>
-               <li><b>Draft:</b> Saved leaves would be displayed; users could edit and submit in future.</li>
-               <br>
-               <li><b>Pending:</b> Users pending leaves are displayed.</li>
-               <br>
-               <li><b>Rejected:</b> User would be able to see their rejected leaves.</li>
-               <br>
-               <li><b>Approved:</b> User can view their approved leaves.</li>
-               <br>
-               <li><b>Cancelled:</b> User can view their cancelled leaves.</li>
-               <br>
-               
-           </ul>
-           <br>
-
-     <p><h5>Approval</h5>
-     
-        <p>This section is visible only for admins , managers and user (who had Pending Leaves for Approve or Reject), from where leave can be approved or rejected.</p>
-        <div><img src="home.png" onclick="openModal('home.png')" alt="Manager actions" width="100%" height="auto"></div>
-              <br>
-              <ul>
-                <li><b>Leave Status: </b> On top, you could see the number of leaves that are remaining.</li>    
-                <br>
-                <li><b>Approve leave: </b> Approve leave shows in manager action section from where manager can reject or approve leave requests (one at go).</li>    
-                <br>
-               <li><b>Bulk Approval:</b> Bulk approval shows in manager action section, manager may reject or approve multiple leave requests at a time. </li>
-               <br>
-               <li><b>Cancellation: </b> Managers would be able to see all the cancelled leave requests of their employees and could approve or reject them.</li>
-                <br>
-                <li><b>Comp off(off in lieu): </b> Managers would be able to see all add comp off requests of their employees and could either approve or reject them.</li>
-                <br>
-
-               
-              </ul>
-              <p><h5>Bulk approval page</h5></p>
-              
-      <p> Click on the <b>Bulk Approval</b> tab, it will show all the leaves applied by users. Select the multiple checkboxes and click on <b>Approve</b> or <b>Reject</b> button.</p>
-    <div><img src="arrow.png" onclick="openModal('arrow.png')" alt="Bulk approval" width="100%" height="auto"></div>
-    <br>
-    <h5>Leave Request:</h5><p> All the leaves that are pending would be displayed here until they are approve. Manager could also take action for multiple types of leaves.
-        
-        <br>
-       
-        </p>
-        <br>
-        <div><img src="leave_request.png" onclick="openModal('leave_request.png')" alt="Leave request" width="100%" height="auto"></div>
-        <br><br>
-       <h5>Comp Off Request:</h5> <p> In this section, all add comp off leave requests made by the user are displayed to the manager and manager could bulk approve or reject them.</p>
-      
-        <div class="notices note">
-            <div class="paragraph">
-                <p>Once add comp leave request is approved, user would gain the comp off in lieu and they can utilise them for future. Add comp off leave is only one level approval.</p>
-            </div>
-        </div>
-        
-    </p>
-    <div><img src="comp_off.png" onclick="openModal('comp_off.png')" alt="Comp off" width="100%" height="auto"></div>
-    <br><br>
-    <h5>Leave cancellation:</h5><p>Manager could view leave cancellation requests of their employees and may approve or reject them. The employee can request the leave cancellation for approved leave dates that are passed.
-        <br>
-        
-    </p>
-    <div><img src="leave_cancellation.png" onclick="openModal('leave_cancellation.png')" alt="Leave cancellation" width="100%" height="auto"></div>
-    <br>
-    <!-- <h5>New Request:</h5><p> One can apply for a leave by clicking on new request button.</p>
-   
-   <h5>Calendar:</h5>  <p>In this calendar, leaves are displayed. Weekends in green color, public holidays in orange color, and your and other users of your department leaves(applied and approved leaves) in blue color.</p>
-    
-    <div><img src="new_request.png" onclick="openModal('new_request.png')" alt="New request" width="100%" height="auto"></div>
-    <br>
-    <ol>
-        <li><b>Leave tabs:</b>  Select the leave type and enter the required details like title for the leave, start date, end date, and notes to the approver.
-        </li>
-        <li>You can also view information like total leaves this year, leave entitlement, leaves used, leaves remaining, and the number of days you are applying for leave.</li>
-        <li><b>Additional Approvers:</b> This would display only when the admin has enabled (from advance settings). User could add additional approver (in additional approvers dropdown all managers roles persons show).
-            </li> -->
-<br>
-    </ol>
-    <h5>Comp Off Leave:</h5>
-    <p>
-        The user can enable and disable the Compoff  from the home page in accordance with his needs.
-        <br> </p>
-        <p>Go to settings</p>
-        <div><img src="2.png" onclick="openModal('2.png')" alt="Leave Recurrence" width="100%" height="auto"></div><br>
-        <p>Click on <b>Leaves</b></p>
-        <div><img src="3.png" onclick="openModal('3.png')" alt="Leave Recurrence" width="100%" height="auto"></div><br>
-        <p>Click on Edit or pencil icon</p>
-        <div><img src="4.png" onclick="openModal('4.png')" alt="Leave Recurrence" width="100%" height="auto"></div><br>
-        <p>Here you can Enable or disable Compoff from the home page in accordance with his needs. </p>
-        <div><img src="5.png" onclick="openModal('5.png')" alt="Leave Recurrence" width="100%" height="auto"></div><br>
-        <!-- <p>
-            <div><img src="comp_off_calender.png" onclick="openModal('comp_off_calender.png')" alt="Comp off calender" width="100%" height="auto"></div>
-            <br> 
-        </p> -->
-      
-    <h5>Leave Recurrence:</h5>
-    <p><b>Leave Recurrence</b> icon will appear in the right corner of the Apply Leaves panel . Now click on that icon.
-     
-    <div><img src="recurr_leave.png" onclick="openModal('recurr_leave.png')" alt="Leave Recurrence" width="100%" height="auto"></div>
-    <br>
-    <ol>
-        <!-- <li>
-         <p>There will be two choices displayed: <b>Recurrence</b> and <b>One Time</b> . Choose <b>Recurrence</b> from the available options .</p>
-         <div><img src="select_recurr.png" onclick="openModal('select_recurr.png')" alt="Select recurrence" width="100%" height="auto"></div>
-         </li> -->
-         <br>
-        <li>There are two types of recurrence leave you could apply for when you click on the <b>Recurrence</b>  choice under Recurrence option : 
-            <ol type="I"><br> <li><b>Weekly</b> recurrence leave.</li>
-                <li><b>Monthly</b> recurrence leave.</li></ol><br>
-                <div><img src="recurr_type.png" onclick="openModal('recurr_type.png')" alt="Recurrence type" width="100%" height="auto"></div>     
-           </li>
-<br>
-        <li><u><b>Weekly</b></u>: The user can take a leave every week on the day he picks from the checked options.<br>
+        <p><h5>My leaves</h5>   
+            <div><img src="home_page.png" onclick="openModal('home_page.png')" alt="Home page" width="100%" height="auto"></div>
             <br>
-            <div><img src="weekly_recurr.png" onclick="openModal('weekly_recurr.png')" alt="Weekly recurrence" width="100%" height="auto"></div> <br>
-            <p></p>  
+            <ul>
+                <li><b>All:</b> Status of all leaves are displayed.</li>
+                <br>
+                <div><img src="2.png" onclick="openModal('2.png')" alt="2" width="100%" height="auto"></div>
+                <br>
+                <li><b>Draft:</b> Saved leaves would be displayed; users could edit and submit in future.</li>
+                <br>
+                <div><img src="3.png" onclick="openModal('3.png')" alt="3" width="100%" height="auto"></div>
+                <br>
+                <li><b>Pending:</b> Users pending leaves are displayed.</li>
+                <br>
+                <div><img src="4.png" onclick="openModal('4.png')" alt="4" width="100%" height="auto"></div>
+                <br>
+                <li><b>Rejected:</b> User would be able to see their rejected leaves.</li>
+                <br>
+                <div><img src="5.png" onclick="openModal('5.png')" alt="4" width="100%" height="auto"></div>
+                <br>
+                <li><b>Approved:</b> User can view their approved leaves.</li>
+                <br>
+                <div><img src="6.png" onclick="openModal('6.png')" alt="4" width="100%" height="auto"></div>
+                <br>
+                <li><b>Cancelled:</b> User can view their cancelled leaves.</li>
+                <br> 
+                <div><img src="7.png" onclick="openModal('7.png')" alt="4" width="100%" height="auto"></div>
+                <br>
+            </ul>
+            <br>
+            <p><h5>Approval</h5>
+     
+                <p>This section is visible only for admins , managers and user (who had Pending Leaves for Approve or Reject), from where leave can be approved or rejected.</p>
+                <div><img src="home.png" onclick="openModal('home.png')" alt="Manager actions" width="100%" height="auto"></div>
+                      <br>
+                      <ul>
            
-            Click the Submit button after choosing the <b>Start Date</b> and <b>End Date .</b><br><br>
-                 
-                <p></p>  
-            </li>
-            <br>
-            <li><u><b>Monthly</b></u> : The user is allowed to take a vacation every month on whatever day they want throughout a calendar year.<br>
-                <br>
-                <p>
-                    As illustrated below, there are two types of day selection:
-                    <div><img src="monthly_type.png" onclick="openModal('monthly_type.png')" alt="Monthly recurrence" width="100%" height="auto"></div> 
-                </p>
+                        <li><b>Approve leave: </b> Approve leave shows in manager action section from where manager can reject or approve leave requests (one at go).</li>    
+                        <br>
+                       <li><b>Bulk Approval:</b> Bulk approval shows in manager action section, manager may reject or approve multiple leave requests at a time. </li>
+                       <br>
+                       <li><b>Cancellation: </b> Managers would be able to see all the cancelled leave requests of their employees and could approve or reject them.</li>
+                        <br>
+                        <li><b>Comp off(off in lieu): </b> Managers would be able to see all add comp off requests of their employees and could either approve or reject them.</li>
+                        <br>
+        
+                       
+                      </ul>
 
-            <br>
-               <ol type="I">
-                <li>               
-                     <p>Select the first alternative from those listed below:
-                    <div><img src="monthly.png" onclick="openModal('monthly.png')" alt="Monthly" width="100%" height="auto"></div> <br></p>  
-               
-                Click the Submit button after choosing the <b>Start Date</b> and <b>End Date .</b><br><br>
-                    <div><img src="save_monthlhy.png" onclick="openModal('save_monthlhy.png')" alt="Click submit" width="100%" height="auto"></div> 
-                    <p></p>  
-                </li>
-                <br>
-                    <li>                <p>Select the second alternative from those listed below:
-                        <div><img src="monthly_second.png" onclick="openModal('monthly_second.png')" alt="Monthly second" width="100%" height="auto"></div> <br></p>  
-                        <br>
-                        <p>Choose an option from the dropdown menu below, such as <b>First</b>, <b>Second</b>, <b>Third</b>  etc.
-                            <div><img src="day_dropdown.png" onclick="openModal('day_dropdown.png')" alt="Day dropdown" width="100%" height="auto"></div> <br></p> 
-                        </p>
-                        <br>
-                        <p>Choose an option from the dropdown menu below, such as <b>Mon</b>, <b>Tue</b>, <b>Wed</b>  etc.
-                            <div><img src="drop_select_day.png" onclick="openModal('drop_select_day.png')" alt="Drop select day" width="100%" height="auto"></div> <br></p> 
-                        </p>
-                   
-                    Click the Submit button after choosing the <b>Start Date</b> and <b>End Date .</b><br><br>
-                        <div><img src="submit_month.png" onclick="openModal('submit_month.png')" alt="Submit monthly" width="100%" height="auto"></div> 
-                        <p></p>  
-                    </li>
-    
-                    </ol>
-                </li>
-                <br>
     </ol>
 </div>
 <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
