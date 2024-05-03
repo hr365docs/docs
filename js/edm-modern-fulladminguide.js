@@ -403,14 +403,6 @@ $(document).ready(function () {
         // setting end 
       
 
-
-
-
-
-
-
-
-
         "</ul>" +
         
        
