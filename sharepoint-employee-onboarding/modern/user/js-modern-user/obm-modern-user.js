@@ -10,6 +10,11 @@ $(document).ready(function() {
          "<li data-nav-id='./installation/requirments/' title=Home Page class=sidelist>"+
          "<a href='/sharepoint-employee-onboarding/modern/user/home-page/'> Home Page </a>"+
          "</li>"+
+
+         "<li data-nav-id='./installation/requirments/' title=Home Page class=sidelist>"+
+         "<a href='/sharepoint-employee-onboarding/modern/user/Ess-Portal/'> Ess Portal </a>"+
+         "</li>"+
+         
          
      
          "<li class='dropdownicon sidelist'  title='User Interface'>"+
