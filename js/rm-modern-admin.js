@@ -3,20 +3,20 @@ $(document).ready(function () {
 
     $("#rmmmodernadmin").append("<li data-nav-id='./Settings/' title=Introduction class=sidelist>"+
 
-    "<a href='/rm365/modern/admin/introduction/'>"+
+    "<a href='/RM365/modern/admin/introduction/'>"+
        " Introduction"+
    " </a>"+
 "</li>"+
 "<li data-nav-id='./Settings/' title='Architecture Diagram' class=sidelist>"+
 
-    "<a href='/rm365/modern/admin/architecture-diagram/'>"+
+    "<a href='/RM365/modern/admin/architecture-diagram/'>"+
         "Architecture Diagram"+
   "</a>"+
 
 "</li>"+
 "<li data-nav-id='./Settings/' title='Home Page' class=sidelist>"+
 
-    "<a href='/rm365/modern/admin/home-page/'>"+
+    "<a href='/RM365/modern/admin/home-page/'>"+
         "Home Page"+
   "</a>"+
 
@@ -29,7 +29,7 @@ $(document).ready(function () {
 
 "<li data-nav-id='./Settings/' title=inactive-items class=sidelist>"+
 
-"<a href='/rm365/modern/admin/inactiveitem/'>"+
+"<a href='/RM365/modern/admin/inactiveitem/'>"+
 " Inactive Items"+
     "</a>"+
 "</li>"+
@@ -38,7 +38,7 @@ $(document).ready(function () {
 
 "<li data-nav-id='./Settings/' title=Administration class=sidelist>"+
 
-"<a href='/rm365/modern/admin/administration/'>"+
+"<a href='/RM365/modern/admin/administration/'>"+
 " Administration"+
     "</a>"+
 "</li>"+
@@ -46,60 +46,60 @@ $(document).ready(function () {
 
 
    
-"<li class='dropdownicon sidelist' title=Settings>"+
-    "<a  class='qwe' href='/rm365/modern/admin/settings/'>"+
-        "Settings"+
-    "</a>"+
-    "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+"<li class='dropdownicon sidelist' title='settings'>" +
+"<a href='/RM365/modern/admin/settings/'>" +
+"Settings" +
+"</a>" +
+    "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIconadvanced aside_dropdown_icon' >"+
 "</li>"+
 
 "<li data-nav-id='./Settings/'  class='sidelist dropdown_romove_dot'>"+
-    "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
+    "<ul class='sidenavSub-topics aside_dropdown_list active' id='modernsettingedm'>"+
         
-       " <ul>"+
+  
            
            " <li data-nav-id='./General-Settings/' title='Users, Roles and Permissions' class='sidelist'>"+
-            "<a href='/rm365/modern/admin/settings/users-departments'>"+
+            "<a href='/RM365/modern/admin/settings/users-departments'>"+
            " Users and Departments"+
             "</a>"+
             "</li>"+
           
            " <li data-nav-id='./Custom-Emails/' title=Integrations class='sidelist'>"+
-                "<a href='/rm365/modern/admin/settings/Job-Posting'>"+
+                "<a href='/RM365/modern/admin/settings/Job-Posting'>"+
                 "Job Posting"+
                " </a>"+
             "</li>"+
 
             "<li data-nav-id='./Column-Setting/' title=Contract Fields class='sidelist'>"+
-           "<a href='/rm365/modern/admin/settings/Email-Configration'>"+
+           "<a href='/RM365/modern/admin/settings/Email-Configration'>"+
            " Email Configuration"+
            "</a>"+
            "</li>"+
 
            " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
-                "<a href='/rm365/modern/admin/settings/general-setting'>"+
+                "<a href='/RM365/modern/admin/settings/general-setting'>"+
                 "General Setting"+
                " </a>"+
             "</li>"+
        
         " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
-        "<a href='/rm365/modern/admin/settings/permissions'>"+
+        "<a href='/RM365/modern/admin/settings/permissions'>"+
         "Permission"+
        " </a>"+
     "</li>"+
         
     " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
-    "<a href='/rm365/modern/admin/settings/hiring-process'>"+
+    "<a href='/RM365/modern/admin/settings/hiring-process'>"+
     "Hiring Process"+
    " </a>"+
 "</li>"+
 " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
-"<a href='/rm365/modern/admin/settings/Requisition-Templates'>"+
+"<a href='/RM365/modern/admin/settings/Requisition-Templates'>"+
 "Requisition Templates"+
 " </a>"+
 "</li>"+
 " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
-"<a href='/rm365/modern/admin/settings/Portal-Configration'>"+
+"<a href='/RM365/modern/admin/settings/Portal-Configration'>"+
 "Portal Configuration"+
 " </a>"+
 "</li>"+
@@ -112,10 +112,10 @@ $(document).ready(function () {
 
 
 "<li class='dropdownicon sidelist' title='Help'>" +
-"<a href='/rm365/modern/admin/help/'>" +
+"<a href='/RM365/modern/admin/help/'>" +
 "Help" +
 "</a>" +
-"<img src='../../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+"<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIconadvanced aside_dropdown_icon' '>" +
 "</li>" +
 
 "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
@@ -124,7 +124,7 @@ $(document).ready(function () {
 
 "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
 "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
-"<a href='/rm365/modern/admin/help/#product-activation'>Product Activation</a>" +
+"<a href='/RM365/modern/admin/help/#product-activation'>Product Activation</a>" +
 "</li>" )
                                            
 });
