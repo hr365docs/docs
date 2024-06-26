@@ -71,7 +71,7 @@ $(document).ready(function () {
             "</li>"+
 
             "<li data-nav-id='./Column-Setting/' title=Contract Fields class='sidelist'>"+
-           "<a href='/RM365/modern/admin/settings/Email-Configration'>"+
+           "<a href='/RM365/modern/admin/settings/Email-configration'>"+
            " Email Configuration"+
            "</a>"+
            "</li>"+
@@ -99,7 +99,7 @@ $(document).ready(function () {
 " </a>"+
 "</li>"+
 " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>"+
-"<a href='/RM365/modern/admin/settings/Portal-Configration'>"+
+"<a href='/RM365/modern/admin/settings/portal-configration'>"+
 "Portal Configuration"+
 " </a>"+
 "</li>"+
