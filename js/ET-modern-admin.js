@@ -21,32 +21,19 @@ $(document).ready(function () {
   "</a>"+
 
 "</li>"+
-"<li class='dropdownicon sidelist' title='Help'>" +
-"<a href='/Expense-tracker/modern/admin/dashboard/'>" +
-"Dashboard" +
-"</a>" +
-"<img src='../../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
 
 
+"<li data-nav-id='./Settings/' title='report' class=sidelist>"+
 
-"<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
-"<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
-"<a href='/Expense-tracker/modern/admin/dashboard/#Contract'>Contract</a>" +
+    "<a href='/Expense-tracker/modern/admin/reports/'>"+
+        "Report"+
+  "</a>"+
+
 "</li>"+
-"<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
-"<a href='/Expense-tracker/modern/admin/dashboard/#Request'>Request</a>" +
-"</li>"+
-"</ul>"+
 
-"<li data-nav-id='./Settings/' title=Reports class=sidelist>"+
 
-"<a href='/Expense-tracker/modern/admin/reports/'>"+
-" Reports"+
-    "</a>"+
-"</li>"+
+
+
 
 
 
