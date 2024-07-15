@@ -16,6 +16,8 @@ $(document).ready(function() {
                 `<a class='dropdown-item performancelink' href='/employee-performance-management/'>Performance Management 365</a>` +
 
                 `<a class='dropdown-item performancelink' href='/employee-vacation-tracker-time-off-manager/'>Time Off Manager 365</a>` +
+
+                `<a class='dropdown-item performancelink' href='/RM365/'>Recruitment Management 365</a>` +
  
                 `</div>` +
 
