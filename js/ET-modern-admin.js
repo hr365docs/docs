@@ -66,7 +66,7 @@ $(document).ready(function () {
         "</li>" +
 
         " <li data-nav-id='./Custom-Emails/' title=Integrations class='sidelist'>" +
-        "<a href='/Expense-tracker/modern/admin/settings/#UserRolePermission'>" +
+        "<a href='/Expense-tracker/modern/admin/settings/#UserPermissions'>" +
         "User Roles and Permissions" +
         " </a>" +
         "</li>" +
