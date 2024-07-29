@@ -228,7 +228,7 @@ $(document).ready(function () {
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#teams'> Add/Edit Teams </a>" +
         "</li>" +
         "<li data-nav-id='../General' title=Users class=sidelist>" +
-        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#Permissions'>Permissions</a>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#Permissions'> Teams Permissions</a>" +
         "</li>" +
         "</li>" +
 
