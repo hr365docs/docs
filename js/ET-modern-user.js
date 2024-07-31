@@ -19,6 +19,13 @@ $(document).ready(function () {
         "</li>" +
         "<li data-nav-id='./Settings/' title='Home Page' class=sidelist>" +
 
+        "<a href='/Expense-tracker/modern/user/Report'>" +
+        "Report" +
+        "</a>" +
+
+        "</li>" +
+        "<li data-nav-id='./Settings/' title='Home Page' class=sidelist>" +
+
         "<a href='/Expense-tracker/modern/user/Help/'>" +
         "Help" +
         "</a>" +
