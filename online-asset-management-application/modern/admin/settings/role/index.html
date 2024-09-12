@@ -209,7 +209,7 @@
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    Enabling this would allow manager to add Assets. </p>
+                                    Enabling the toggle allows the manager to add assets. If the toggle is turned off, the manager will be restricted from adding assets. </p>
 
                                 <div><img src="allow_manager_add.png" onclick="openModal('allow_manager_add.png')"
                                         alt="allow manager add assets" width="100%" height="auto"></div>
@@ -223,10 +223,36 @@
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    Enabling this would allow manager to delete Assets.
+                                    Enabling the toggle permits the manager to delete assets. When the toggle is off, the manager will be restricted from performing deletions.
                                 </p>
                                 <div><img src="manager_dlt_asset.png" onclick="openModal('manager_dlt_asset.png')"
                                         alt="allow manager delete asset" width="100%" height="auto"></div>
+
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding common-scroll" id="asset-location-manager-to-add-assets">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Allow Asset Location Manager to Add Assets
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    Enabling the toggle allows the asset location manager to add assets. When the toggle is off, the asset location manager will be restricted from adding assets.
+                                </p>
+                                <div><img src="asset_loc_mng_add.png" onclick="openModal('asset_loc_mng_add.png')"
+                                        alt="allow asset location manager to add asset" width="100%" height="auto"></div>
+
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding common-scroll" id="asset-location-manager-to-delete-assets">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Allow Asset Location Manager to Delete Assets
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    Enabling the toggle allows the asset location manager to delete assets. When the toggle is off, the asset location manager will be restricted from deleting assets.
+                                </p>
+                                <div><img src="asset_loc_mng_del.png" onclick="openModal('asset_loc_mng_del.png')"
+                                        alt="allow asset location manager to delete asset" width="100%" height="auto"></div>
 
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="user-to-book-assets">
@@ -237,7 +263,7 @@
 
 
                                 <p>
-                                    If this is enabled, Power Users can Book Assets.
+                                    Enabling the toggle allows power users to book assets. When the toggle is off, power users will be restricted from booking assets.
                                 </p>
 
                                 <div><img src="user_book_asset.png" onclick="openModal('user_book_asset.png')"
@@ -248,12 +274,11 @@
 
                         <div class="bg-light p-4 remove-padding common-scroll" id="allow-user-to-select-approver">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Allow Power User to Select
-                                        Approver to Book Assets
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Allow Users to Select Approver to Book Assets
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    If this is enabled, Power Users can select approver.
+                                    Allow users to select approvers from the approvers list in order to book assets.
                                 </p>
 
                                 <div><img src="select_approver (1).png" onclick="openModal('select_approver (1).png')"
@@ -268,7 +293,7 @@
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    If this is enabled, Power Users can return asset.
+                                    Enabling the toggle allows the user to return assets. When the toggle is off, the user will be restricted from returning assets.
                                 </p>
 
                                 <div><img src="Return_asset.png" onclick="openModal('Return_asset.png')"
