@@ -27,33 +27,33 @@ $(document).ready(function () {
 
        "<li data-nav-id='./Settings/' title='Settings'  class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>"+
-        "<li>"+
-        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/general/'>General</a>"+
-        
-        "</li>"+
-
-        "<li>"+
+        "<li class='sidelist'>"+
         "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/role/'>Users</a>"+
         
         "</li>"+
-
-        "<li>"+
+        
+        "<li class='sidelist'>"+
         "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/features/'>Features</a>"+
         
         "</li>"+
+        "<li class='sidelist'>"+
+        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/general/'>General</a>"+
+        "</li>"+
+
+
 
         
-
-        "<li>"+
+        "<li class='sidelist'>"+
+        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/email-template/'>Email Template</a>"+
+        
+        "</li>"+
+        "<li class='sidelist'>"+
         "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/notification/'>Notification</a>"+
         
         "</li>"+
         
-        "<li>"+
-        "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/email-template/'>Email Template</a>"+
-        
-        "</li>"+
-        "<li>"+
+     
+        "<li class='sidelist'>"+
         "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/integration/'>Integration</a>"+
         
         "</li>"+
@@ -88,7 +88,7 @@ $(document).ready(function () {
         "<a href='/online-timesheet-software/modern/admin/help/'>" +
         "Help" +
         "</a>" +
-        "<img src='/online-timesheet-software/modern/admin/hdm-admin-aside-js/down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        "<img src='/online-timesheet-software/modern/admin/hdm-admin-aside-js/down-arrow-svgrepo-com.svg' class='aside_dropdown_icon' '>" +
         "</li>" +
 
         "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
@@ -96,6 +96,9 @@ $(document).ready(function () {
 
 
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
+        "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
+        "<a href='/online-timesheet-software/modern/admin/help/#feedback'> Feedback</a>" +
+        "</li>" +
         "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
         "<a href='/online-timesheet-software/modern/admin/help/#product-activation'>Product Activation</a>" +
         "</li>"  )
