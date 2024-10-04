@@ -141,13 +141,15 @@
                                 <img src="theme.png" onclick="openModal('theme.png')" alt="theme" width="100%">
                                 <br> <br>
                                 <li>
-                                    <h6>Annual Leave Start Date and Annual Leave End Date</h6>You could mention the
-                                    annual leave start date and end date here. If accrued leaves are enabled, leaves
+                                    <h6>Annual Leave Start Date and Annual Leave End Date</h6>You can specify the annual
+                                    leave start and end dates here, or alternatively, set them based on the joining
+                                    date, depending on your requirements for leave calculation. If accrued leaves are
+                                    enabled, leaves
                                     would be calculated and allocated to users based on these date and date of joining
                                     of the candidate.
                                     <br><br> <br>
-                                    <img src="annualLJD.png" onclick="openModal('annualLJD.png')"
-                                        alt="Leave calculate" width="100%">
+                                    <img src="annualLJD.png" onclick="openModal('annualLJD.png')" alt="Leave calculate"
+                                        width="100%">
                                     <br><br>
                                     <b>Example</b>
                                     <div class="example">
@@ -219,7 +221,7 @@
                                     <h6>Display organization calendar
 
                                     </h6>
-                                    The organization role is visible only to specific roles that have been selected.
+                                    The organization calendar is visible only to specific roles that have been selected.
                                 </li>
                                 <br>
                                 <img src="organization.png" onclick="openModal('organization.png')" alt="organization"
@@ -278,6 +280,8 @@
                                     is running.</p>
                                 <p><b>Hide comments wrapper :</b>Enable this toggle will hide comments wrapper in
                                     sharepoint page where app is running.</p>
+                                <p><b>Hide Left Navigation Bar On Collapse For Teams :</b>Enable this toggle will hide
+                                    left navigation bar on collapse for teams where app is running.</p>
                                 <br>
 
                                 <li><b>Display Title :</b>
@@ -464,6 +468,10 @@
                             <img src="clenderleave.png" onclick="openModal('clenderleave.png')" alt="Leave setting"
                                 width="100%">
                             <br><br>
+                            <p>Click the Add User button to manually add a new user to the TM365 application.</p>
+                            <img src="addbtn.png" onclick="openModal('addbtn.png')" alt="Add Leave"
+                                width="100%">
+                            <br> <br>
                             <img src="addnewleave.png" onclick="openModal('addnewleave.png')" alt="Add Leave"
                                 width="100%">
                             <br> <br>
@@ -495,30 +503,29 @@
                                     leave form from the leave settings.</li>
                                 <br>
 
-                               <b>Secondary Approver:</b>&ensp;You can select HR or manager of manager or any user
-                                    as seconder approver. Select HR or MoM check box and enable switch. You can type
-                                    person in people picker box, click on save button and enable switch. If Fist
-                                    approver (i.e., Manager of user) approve the leave request, request goes to second
-                                    approver.
+                                <b>Secondary Approver:</b>&ensp;You can select HR or manager of manager or any user
+                                as seconder approver. Select HR or MoM check box and enable switch. You can type
+                                person in people picker box, click on save button and enable switch. If Fist
+                                approver (i.e., Manager of user) approve the leave request, request goes to second
+                                approver.
 
 
 
                             </ol>
-                           <ol>
+                            <ol>
                                 </li>
                                 <li> <b>Tertiary approver:</b> &ensp;You can select HR or manager of manager or any
                                     selected email id as tertiary approver.</li>
-                                <li><b>Import leaves:</b>&ensp;You may import leaves from the <b>Leave tab</b> (add
-                                    balance leaves of last year through the bulk import).</li>
+                                <li><b>Import leaves:</b>&ensp;Click the Bulk Add button to import multiple users at once using a bulk upload method.</li>
                                 <br>
-                                <img src="ImportLeaves.png" onclick="openModal('ImportLeaves.png')" alt="Import leave"
+                                <img src="importbtn.png" onclick="openModal('importbtn.png')" alt="Import leave"
                                     width="100%">
                                 <br><br>
                                 <p>Firstly choose the file to click <b>Choose File</b> button then Click on
                                     <b>Upload</b> button to upload the the file
                                 </p>
                                 <br>
-                                <img src="BulkImpoetUpload.png" onclick="openModal('BulkImpoetUpload.png')"
+                                <img src="uploadbtn.png" onclick="openModal('uploadbtn.png')"
                                     alt="Import leave" width="100%">
                                 <br><br>
 
@@ -580,7 +587,7 @@
                                         <img src="level_base.png" onclick="openModal('level_base.png')"
                                             alt="Leave based" width="100%">
                                         <br><br>
-                                    
+
                                     </li>
                                     <br>
                                 </ol>
@@ -592,7 +599,7 @@
                                     <img src="tenure_added.png" onclick="openModal('tenure_added.png')"
                                         alt="Tenure based" width="100%">
                                     <br><br>
-                                   
+
                                 </li>
                         </div>
 
@@ -600,20 +607,20 @@
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Reports
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br><img src="Reports.png" onclick="openModal('Reports.png')"
-                                alt="Report" width="100%"><br>
+                            <br><img src="Reports.png" onclick="openModal('Reports.png')" alt="Report" width="100%"><br>
                             <br>
                             <ol>
                                 <li>
-                                    <h6>Work report</h6> You can generate work reports based on both daily or hourly activities here.
+                                    <h6>Work report</h6> You can generate work reports based on both daily or hourly
+                                    activities here.
                                 </li>
-                                <img src="33.png" onclick="openModal('27.png')" alt="Report"
-                                    width="100%"><br><br>
-                               
+                                <img src="33.png" onclick="openModal('27.png')" alt="Report" width="100%"><br><br>
+
                                 <li>
-                                    <h6>Include time-off types</h6>You can choose the type of leaves to include in the work report here.
-                                <img src="34.png" onclick="openModal('34.png')" alt="Report" width="100%"><br>
-                                <br>
+                                    <h6>Include time-off types</h6>You can choose the type of leaves to include in the
+                                    work report here.
+                                    <img src="34.png" onclick="openModal('34.png')" alt="Report" width="100%"><br>
+                                    <br>
 
                             </ol>
 

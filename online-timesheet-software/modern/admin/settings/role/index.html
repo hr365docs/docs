@@ -14,7 +14,7 @@
     <script src=https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
     <style>
-         :root {
+        :root {
             --primary-color: #5637da;
             --body-color: #f9f9f9;
             --text-color: #636363;
@@ -53,33 +53,39 @@
                 <a class="navbar-brand px-2" href="https://kb.hr365.us/">
                     <img class=img-fluid src="../../../../../images/logo_.png" alt=HR365>
                 </a>
-                <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
-                     <span class=navbar-toggler-icon></span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x" viewBox="0 0 16 16">
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
+                <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
+                    aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
+                    <span class=navbar-toggler-icon></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
                 </button>
                 <div class="collapse navbar-collapse text-center common-header" id=navigation>
-            
+
                 </div>
             </div>
         </nav>
     </header>
     <section class="single section-sm pb-0">
-          <div class="container container-padding">
+        <div class="container container-padding">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../online-timesheet-software/">Timesheet 365</a></h5>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a
+                                href="../../../../../online-timesheet-software/">Timesheet 365</a></h5>
                         <a class=back-btn href="../../../admin/" aria-label=back></a>
                         <ul class=list-styled>
-                            <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title="Admin Guide"class="sidelist
+                            <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
+                                title="Admin Guide" class="sidelist
     active">
                                 <a href="../../../admin/">
                                     Admin-Guide
                                 </a>
                                 <ul id="hdm-admin-aside" class="sidenavbarscrollstyle">
-                                </ul></li>
+                                </ul>
+                            </li>
                     </div>
                 </div>
                 <div class=col-lg-9>
@@ -90,12 +96,54 @@
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Users <i
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                                 <p>
-                                    The page now includes Active Users and Inactive Users tabs, allowing admins to easily toggle between and manage users based on their activity status within the system.Admin can add users over here with various roles like the user, project manager, program manager, project observer, and coordinator. Use Add button to add a single user and use the Add Bulk button to add multiple users. Updated user details (Title, department, and manager name) in M365 can be updated same in the user page by clicking on Sync from M365 button.
+                                    The page now includes Active Users and Inactive Users tabs, allowing admins to
+                                    easily toggle between and manage users based on their activity status within the
+                                    system.Admin can add users over here with various roles like the user, project
+                                    manager, program manager, project observer, and coordinator. Use Add button to add a
+                                    single user and use the Add Bulk button to add multiple users. Updated user details
+                                    (Title, department, and manager name) in M365 can be updated same in the user page
+                                    by clicking on Sync from M365 button.
                                 </p>
 
-                                <div><img src="user1.png" onclick="openModal('user1.png')" alt="User role" width="100%" height="auto"></div>
+                                <div><img src="user1.png" onclick="openModal('user1.png')" alt="User role" width="100%"
+                                        height="auto"></div>
 
-                                <br> Importance of Roles and permissions:
+                                <br>
+                                <p>
+                                    Click the Add User button to manually add a new user to the TS365 application.
+                                </p>
+
+                                <div><img src="adduser.png" onclick="openModal('adduser.png')" alt="User role"
+                                        width="100%" height="auto"></div>
+
+                                <br>
+                                <p>
+                                    To add a new user, input the employee's details such as Employee ID, Name, Role, and
+                                    Department. Ensure the mandatory fields like Name and Manager Email are filled out
+                                    before saving.
+                                </p>
+
+                                <div><img src="1.png" onclick="openModal('1.png')" alt="User role" width="100%"
+                                        height="auto"></div>
+
+                                <br>
+                                <p>
+                                    Click the Bulk Add button to import multiple users at once using a bulk upload
+                                    method.
+                                </p>
+
+                                <div><img src="bulkadd.png" onclick="openModal('bulkadd.png')" alt="User role"
+                                        width="100%" height="auto"></div>
+
+                                <br>
+                                <p>To bulk add users, upload a properly formatted file containing user details and click
+                                    the "Upload" button. Ensure all mandatory fields like Name, Role, and Manager Email
+                                    are included.</p>
+                                <div><img src="upload.png" onclick="openModal('upload.png')" alt="User role"
+                                        width="100%" height="auto"></div>
+
+                                <br>
+                                Importance of Roles and permissions:
                                 <br><br>
                                 <b>Admin:</b>
                                 <ul class="ul_li_styles">
@@ -109,13 +157,15 @@
                                         Admin can edit or delete the approved timesheet.
                                     </li>
                                     <li>
-                                        Admin can approve the timesheet for all projects if approval settings are enabled.
+                                        Admin can approve the timesheet for all projects if approval settings are
+                                        enabled.
                                     </li>
                                     <li>
                                         Can submit the timesheet on behalf of their project team members.
                                     </li>
                                     <li>
-                                        Can view the pending timesheet for the week of the user and send the reminder notification.
+                                        Can view the pending timesheet for the week of the user and send the reminder
+                                        notification.
                                     </li>
 
                                 </ul>
@@ -132,7 +182,7 @@
                                     </li>
                                     <li>
                                         Can view and download the timesheet report of their projects.
-                                    
+
                                 </ul>
                                 <br><br>
                                 <b>Project Manager:</b>
@@ -148,7 +198,7 @@
                                         Can submit the timesheet on behalf of their project team members.
                                     </li>
                                     <li>
-                                        Can view and download the timesheet reports of their projects. 
+                                        Can view and download the timesheet reports of their projects.
                                     </li>
                                 </ul>
                                 <br><br>
@@ -161,7 +211,7 @@
                                     <li>
                                         Can view and download the timesheet report of their projects.
                                     </li>
-                                  
+
                                 </ul>
                                 <br><br>
                                 <b>Project Coordinator:</b>
@@ -173,7 +223,7 @@
                                     <li>
                                         Can view and download the timesheet report of all projects.
                                     </li>
-                                  
+
                                 </ul>
                                 <br><br>
                                 <b>Users:</b>
@@ -190,7 +240,7 @@
                                         Can’t access the application.
                                     </li>
                                 </ul>
-                             
+
 
                         </div>
                         <!-- <div class="bg-light p-4 remove-padding common-scroll" id="users">
@@ -407,8 +457,8 @@
                                     From here you can raise the tickets through mail with the help of power automate.
                                 </p>
                                 <div><img src="enable.png" onclick="openModal('enable.png')" alt="Enable" width="100%" height="auto"></div> -->
-                                <br>
-                                <!-- <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Ticket Properties 
+                        <br>
+                        <!-- <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Ticket Properties 
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
@@ -420,15 +470,18 @@
                                 <div><img src="ticket_pro.png" onclick="openModal('ticket_pro.png')" alt="ticket property" width="100%" height="auto"></div>
 
 
-                        </div> --> 
+                        </div> -->
                         </ul>
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                        <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="/online-timesheet-software/modern/admin/settings/general/" aria-label="Previous page"><i
-                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">General</span></a>
-                            <a class="nav nav-next" href="/online-timesheet-software/modern/admin/settings/features/" aria-label="Previous page"> <span class="d-none d-md-block">Features</span><i class="ti-arrow-right ml-2"></i></a>
-                        </nav>
+                    <nav class="pagination mt-3">
+                        <a class="nav nav-prev" href="/online-timesheet-software/modern/admin/settings/general/"
+                            aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
+                                class="d-none d-md-block">General</span></a>
+                        <a class="nav nav-next" href="/online-timesheet-software/modern/admin/settings/features/"
+                            aria-label="Previous page"> <span class="d-none d-md-block">Features</span><i
+                                class="ti-arrow-right ml-2"></i></a>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -449,20 +502,27 @@
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2024-<a href=https://www.hr365.us />HR365.</a> <a href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy
-                        />Privacy Policy.
+                    <p class="mb-md-0 mb-4">© 2024-<a href=https://www.hr365.us />HR365.</a> <a
+                            href="https://www.hr365.us/sla/">SLA.</a>
+                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
+                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
+                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                        Policy.
                         </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
                 </div>
                 <div class="col-md-4 text-md-right text-center">
                     <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
+                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
+                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
                                     class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
+                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
+                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
                                     class=ti-twitter-alt></i></a></li>
-                    
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd" aria-label=Linkedin><i class=ti-linkedin></i></a></li>
+
+                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
+                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
+                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -489,4 +549,5 @@
 <script src="../../../../../js/header-footer.js"></script>
 <script src="../../hdm-admin-aside-js/hdm-admin-aside.js"></script>
 <script src="../../../../../js/showhidefunction.js"></script>
+
 </html>
