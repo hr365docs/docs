@@ -51,47 +51,71 @@ $(document).ready(function () {
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#timeformat'>Time Format</a>"+
         "</li>"+
         "<li data-nav-id='./Email-Notification/' title=Theme class='sidelist'>"+
-        
-        "</li><li data-nav-id='./Column-Setting/' title='Display Resolved Tab On Homepage' class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#display-resolved'>Display Resolved Tab on Home Page</a>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#theme_id'>Theme</a>"+
         "</li>"+
         
-        "<li data-nav-id='./Dashboard-Settings/' title='Display Help Page' Help Page class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#display-help'> Display Help Page</a>"+
-        "</li>"+
+        // "<li data-nav-id='./Dashboard-Settings/' title='Display Help Page' Help Page class='sidelist'>"+
+        // "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#display-help'> Display Help Page</a>"+
+        // "</li>"+
         "</li><li data-nav-id='./Column-Setting/' title='Display Select Teams and priority as dropdown in new ticket page' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Select-Teams-and-priority-as-dropdown-in-new-ticket-page'>Select Teams and priority as dropdown in new ticket page</a>"+
         "</li>"+
-       
-         "</li><li data-nav-id='./Column-Setting/' title='Display Select Teams and priority as dropdown in new ticket page' class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Show-resolved-ticket-in-resolved-tab-only'>Show resolved ticket in resolved tab only</a>"+
+        
+        "<li data-nav-id='./Column-Setting/' title='Show Resolved Tab On Homepage' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#display-resolved'>Show Resolved Tab on Home Page</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Show-resolved-ticket-in-selected-tabs'>Show resolved ticket in selected tabs</a>"+
-        "</li>"+
+        //  "</li><li data-nav-id='./Column-Setting/' title='Display Select Teams and priority as dropdown in new ticket page' class='sidelist'>"+
+        // "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Show-resolved-ticket-in-resolved-tab-only'>Show resolved ticket in resolved tab only</a>"+
+        // "</li>"+
+        
         "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#GCC-Tenant'>GCC-Tenant</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Create'>Create tickets on behalf of Non-M365 User</a>"+
+        "<li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#DisplayHelpPage'>Display Help Page</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='GCC Tenat' class='sidelist'>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#singleLine'>Single line ticket form</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#resolvetabs'>Show resolve tab in user home</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#emailcss'>Disable email notifications to all CC users</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#SharepointURL'>Use Sharepoint URL for MS Teams installed application</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Show Favicon of Helpdesk 365' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Show-favicon-of-Helpdesk-365'>Show Favicon of Helpdesk 365</a>"+
         "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Show Favicon of Helpdesk 365' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#customizeFavicon'>Customize the favicon</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Show Favicon of Helpdesk 365' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#languagebrowserdefaultlanguage'>Language selection as browser default language</a>"+
+        "</li>"+
         
-        "</li><li data-nav-id='./Column-Setting/' title='Language selection as browser default language' class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#language'>Language </a>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Language selection in case browser default language is not detected' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#languageisNotdetected'>Language selection in case browser default language is not detected </a>"+
         "</li>"+
-      
-        "</li>"+
-        "<li data-nav-id='./Custom-Emails/' title=Naming Convention class='sidelist'>"+
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#naming-convention'>Naming Convention</a>"+
+        "</li><li data-nav-id='./Column-Setting/' title='>Language Update' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#languageUpdate'>Language Update </a>"+
         "</li>"+
         "<li data-nav-id='./Custom-Emails/' title=Naming Convention class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Hide-Sharepoint-Pages-Default-Components'>Hide Sharepoint Page's Default Components</a>"+
         "</li>"+
+        "<li data-nav-id='./Custom-Emails/' title=Naming Convention class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#naming-convention'>Naming Convention</a>"+
+        "</li>"+
         "<li data-nav-id='./Assign-Assets/' title='Recycle Bin' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#recycle-bin'>Recycle Bin</a>"+
+        "</li>"+
+        "<li data-nav-id='./Assign-Assets/' title='Enable logs collection' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#enable-logs'>Enable logs collection</a>"+
+        "</li>"+
+        "<li data-nav-id='./Assign-Assets/' title='Default Date Range of Tickets on homepage' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#default-date-range'>Default Date Range of Tickets on homepage</a>"+
         "</li>"+
         "<li data-nav-id='./Dashboard-Settings/' title=Brand Logo class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#brand-logo'>Brand Logo</a>"+
