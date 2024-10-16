@@ -146,6 +146,11 @@ $(document).ready(function () {
         "Users" +
         " </a>" +
         "</li>" +
+        " <li data-nav-id='./Custom-Emails/' title=Advance Settings class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#AdvanceSettings'>" +
+        "Advance Settings" +
+        " </a>" +
+        "</li>" +
 
         "<li data-nav-id='./Column-Setting/' title=Notification class='sidelist'>" +
         "<a href='/employee-performance-management/modern/admin/settings/#notification'>" +
