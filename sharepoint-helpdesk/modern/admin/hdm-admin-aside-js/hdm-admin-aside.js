@@ -150,6 +150,9 @@ $(document).ready(function () {
         "<li data-nav-id='./Assign-Assets/' title=Custom Forms class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/ticket-customization/#custom-form'>Custom Forms</a>"+
         "</li>"+
+        "<li data-nav-id='./Assign-Assets/' title=Tickets Comments page class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/ticket-customization/#Tickets-comments-page'>Tickets Comments page</a>"+
+        "</li>"+
         "<li data-nav-id='./Add Assets/ ' title='Merge Tickets' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
@@ -164,6 +167,11 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/ticket-customization/#review-tickets'>Review Tickets</a>"+
+        "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='Enable ticket closed justification' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/ticket-customization/#Enable-ticket-closed-justification'>Enable ticket closed justification</a>"+
         "</li>"+
         "<li data-nav-id='./Add Assets/ ' title='Escalate Tickets' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"
