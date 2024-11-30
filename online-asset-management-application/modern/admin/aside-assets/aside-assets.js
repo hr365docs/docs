@@ -399,7 +399,7 @@ $(document).ready(function() {
                          "<a href='/online-asset-management-application/modern/admin/administration/#add-catagory'>Add Category</a>"+ 
                          "</li>"+
                          "<li data-nav-id='./Dashboard-Settings/' title='Add Sub Category' class='sidelist'>"+
-                         "<a href='/online-asset-management-application/modern/admin/administration/#add-subcatagory'>Add Sub Cateogry</a>"+ 
+                         "<a href='/online-asset-management-application/modern/admin/administration/#add-sub-catagory'>Add Sub Cateogry</a>"+ 
                          "</li>"+
                         "<li data-nav-id='./Dashboard-Settings/' title='Add Location' class='sidelist'>"+
                          "<a href='/online-asset-management-application/modern/admin/administration/#add-location'>Add Location</a>"+
