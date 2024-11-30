@@ -404,6 +404,9 @@ $(document).ready(function() {
                         "<li data-nav-id='./Dashboard-Settings/' title='Add Location' class='sidelist'>"+
                          "<a href='/online-asset-management-application/modern/admin/administration/#add-location'>Add Location</a>"+
                           "</li>"+
+                        "<li data-nav-id='./Dashboard-Settings/' title='Add Sub Location' class='sidelist'>"+
+                         "<a href='/online-asset-management-application/modern/admin/administration/#add-sub-location'>Add Sub Location</a>"+
+                          "</li>"+
                           "<li data-nav-id='./Dashboard-Settings/' title='Add_Pickup_Location' class='sidelist'>"+
                           "<a href='/online-asset-management-application/modern/admin/administration/#add-pickup-location'>Add Pickup Location</a>"+
                            "</li>"+
