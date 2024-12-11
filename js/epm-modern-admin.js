@@ -36,6 +36,13 @@ $(document).ready(function () {
         "</a>" +
 
         "</li>" +
+        "<li data-nav-id='./Settings/' title='Document' class=sidelist>" +
+
+        "<a href='/employee-performance-management/modern/admin/Document/'>" +
+        "Document" +
+        "</a>" +
+
+        "</li>" +
 
         "<li class='dropdownicon sidelist' title='Roles'>" +
         "<a  class='qwe' href='/employee-performance-management/modern/admin/roles/'>" +
@@ -95,6 +102,21 @@ $(document).ready(function () {
         "</a>" +
         "</li>" +
 
+        "<li data-nav-id='./Custom-Emails/' title=Department class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/administration/#Department'>" +
+        "Department" +
+        "</a>" +
+        "</li>" +
+        "<li data-nav-id='./Custom-Emails/' title=Location class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/administration/#Location'>" +
+        "Location" +
+        "</a>" +
+        "</li>" +
+        "<li data-nav-id='./Custom-Emails/' title=Job Title class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/administration/#job-title'>" +
+        "Job title" +
+        "</a>" +
+        "</li>" +
         "<li data-nav-id='./Custom-Emails/' title=Categories class='sidelist'>" +
         "<a href='/employee-performance-management/modern/admin/administration/#categories'>" +
         "Categories" +
@@ -106,15 +128,30 @@ $(document).ready(function () {
         "KRA(Key Result Area)" +
         "</a>" +
         " </li>" +
+        "<li data-nav-id='./User/' title=Goals class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/administration/#Goals'>" +
+        "Goals" +
+        "</a>" +
+        " </li>" +
+        "<li data-nav-id='./User/' title=Competency & Skills class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/administration/#Competency&Skills'>" +
+        "Competency & Skills" +
+        "</a>" +
+        " </li>" +
 
         "<li data-nav-id='./General-Settings/' title='Role Template' class='sidelist'>" +
         "<a href='/employee-performance-management/modern/admin/administration/#role-template'>" +
-        " Role Template" +
+        "Template(s)" +
         " </a>" +
         " </li>" +
         "<li data-nav-id='./General-Settings/' title='1:1 Template' class='sidelist'>" +
         "<a href='/employee-performance-management/modern/admin/administration/#1:1-template'>" +
         " 1:1 Template" +
+        " </a>" +
+        " </li>" +
+        "<li data-nav-id='./General-Settings/' title='Feedback Template' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/administration/#FeedbackTemplate'>" +
+        "Feedback template" +
         " </a>" +
         " </li>" +
         "</ul>" +
