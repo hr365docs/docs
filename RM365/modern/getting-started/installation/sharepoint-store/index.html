@@ -138,24 +138,34 @@
                     <div class="p-lg-4 p-4 bg-white remove-padding" id=content>
                         <h2 class=mb-5 id=title> </h2>
 
-                        <div class="bg-light p-4 remove-padding">
                             <div class="bg-light p-4 remove-padding">
                                 <li data-nav-id=../Getting-started/installation/using-app-file title=Installation
                                     class="sidelist">
                                     <h3 id="_dashboards"><a class="header-icon-link highlight" href="#">Installation of
                                             applications from SharePoint Store<i class="fas fa-link"
                                                 style="font-size:12px; color:lightgray;"></i></a> </h3>
-
+                                                <h4 id="_dashboards"><a class="header-icon-link highlight" href="#">Prerequisites:<i class="fas fa-link"
+                                                    style="font-size:12px; color:lightgray;"></i></a> </h4> 
+                                                    <ol>  
+                                        
+                                                  <li>The application can only be installed by a Global Admin or SharePoint Admin by following the steps outlined below.</li>
+                                                    <li>The application’s features rely on APIs, which can be enabled by a Global Admin with the necessary permissions.</li>
+                                                    </ol>
+                                                    </li>
+                            </div>
+               
                                     <ol>
+                                        <br>
                                         <li>
-                                            Go to the apps catalog page from the below URL format and click on classic
-                                            experience options.
-                                            <b>
-                                                <div>
-                                                    <b
-                                                        style="font-size:13px ; word-break: break-all;">https://yourtenantname.sharepoint.com/sites/appcatalog/_layouts/15/tenantAppCatalog.aspx/manageApps</b>
-                                                </div>
-                                            </b>
+                                            Navigate to the app catalog page using the following URL format:
+                                            <br>
+                                             <b><div>
+                                                <b style="word-break: break-all;">https://yourtenantname.sharepoint.com/sites/appcatalog/_layouts/15/tenantAppCatalog.aspx/manageApps</b>
+                                            </div></b>
+                                            <br>
+                                            <p>Replace <em><b>yourtenantname.sharepoint.com</b></em> with your actual tenant name, for example: <em><b>cubiclogics.sharepoint.com</b></em>.
+                                                <br>
+                                            Once you are on the page, click on the "Classic Experience" options.</p>
                                             <br>
                                             <div><img src="classic_.png" onclick="openModal('classic_.png')"
                                                     alt="Manage apps" width="100%" height="auto"></div>
@@ -203,22 +213,26 @@
                                 <li>Select the checkbox (Enable this app and add it to all sites ) and click on
                                     <b>Add</b> button.
 
-                                    <div class="notices note">
-                                        <div class="paragraph">
-                                            <p> Now you can make this solution or application available for all sites in
-                                                the
-                                                organization, once the application is installed, later you can remove
-                                                the app from all sites.
-                                            </p>
-                                        </div>
-                                    </div>
+                                 
 
                                 </li>
 
-
+<br>
 
                                 <div><img src="enable.png" onclick="openModal('enable.png')" alt="Enable" width="100%"
                                         height="auto"></div>
+                                        <div class="notices note">
+                                            <div class="paragraph">
+                                                <p> Now you can make this solution or application package available for all
+                                                    sites in the
+                                                    organization, once the application is installed, later you can
+                                                    remove the app from all sites.
+                                                    <br>
+                                                    <br>
+                                                    By performing these actions, the selected application package will be downloaded from the Microsoft SharePoint Store into your tenant.
+                                                </p>
+                                            </div>
+                                        </div>
                                 <br>
 
                                 <li>
@@ -278,8 +292,7 @@
                                 <br>
                                 <div><img src="publish.png" onclick="openModal('publish.png')" alt="Publish button"
                                         width="100%" height="auto"></div>
-                                <br>all
-
+                                <br>
                                 <li>
                                     Finally, refresh the page.
                                 </li>

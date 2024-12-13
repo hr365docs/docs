@@ -29,8 +29,8 @@
     <script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js></script>
     <script src=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js></script>
     <script src=https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js></script>
-           <!-- Google Tag Manager -->
-           <script>(function (w, d, s, l, i) {
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
                     new Date().getTime(), event: 'gtm.js'
@@ -57,13 +57,13 @@
 </head>
 
 <body>
-                <!-- Google Tag Manager (noscript) -->
-                <noscript>
-                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
-                        style="display:none;visibility:hidden">
-                    </iframe>
-                </noscript>
-                <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="shadow-bottom sticky-top bg-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container px-2 px-md-0">
@@ -103,7 +103,7 @@
                                     Installation
                                 </a>
                                 <ul>
-                                   
+
                                     <li data-nav-id=../../../Getting-started/installation/using-app-file/install.html
                                         title="SharePoint Store" class="sidelist">
                                         <a
@@ -112,13 +112,13 @@
                                         </a>
                                     </li>
                                     <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
-                                    title="Using App File" class="sidelist active">
-                                    <a
-                                        href="/online-timesheet-software/modern/getting-started/installation/using-app-file/">
-                                        Installation of Timesheet Management 365 from app catalog
-                                    </a>
+                                        title="Using App File" class="sidelist active">
+                                        <a
+                                            href="/online-timesheet-software/modern/getting-started/installation/using-app-file/">
+                                            Installation of Timesheet Management 365 from app catalog
+                                        </a>
 
-                                </li>
+                                    </li>
                                     <li data-nav-id="https://hr365docs.github.io/docs/helpdesk/getting-started/installation/Sharepoint_store/"
                                         title="Microsoft Teams" class="sidelist">
                                         <a
@@ -145,165 +145,200 @@
                                             style="font-size:12px; color:lightgray;"></i></a> </h3>
 
                                 <ul class=page-list>
+                                    <h4 id="_dashboards"><a class="header-icon-link highlight"
+                                        href="#">Prerequisites:<i class="fas fa-link"
+                                        style="font-size:12px; color:lightgray;"></i></a> </h4>
                                     <li data-nav-id=../Getting-started/installation/using-app-file title=Installation
                                         class="sidelist">
-                                        <!-- <div class="notices note">
-                                        <div class="paragraph">
-                                            <p>Only SharePoint Administrator can install the appliications.
-                                                Administrator can make a member an admin. </p>
-                                        </div> -->
-                                        <ol>
-                                            <h4 id="_dashboards"><a class="header-icon-link highlight"
-                                                    href="#">Prerequisites:<i class="fas fa-link"
-                                                        style="font-size:12px; color:lightgray;"></i></a> </h4>
+                                       
+                                            <li data-nav-id=../Getting-started/installation/using-app-file
+                                                title=Installation class="sidelist">
+                                                <!-- <div class="notices note">
+                                                <div class="paragraph">
+                                                    <p>Only SharePoint Administrator can install the appliications.
+                                                        Administrator can make a member an admin. </p>
+                                                </div> -->
+                                                
+                                                <ol>
 
-                                            <li>A global admin or SharePoint admin is capable of installing the
-                                                application.</li>
-                                            <li>The application's features function through APIs, and global admins have
-                                                the
-                                                authority to enable these APIs.</li>
-                                        </ol>
-                                        <ol>
-                                            <li>
-                                                Go to the apps catalog page from the below URL format and click on
-                                                classic experience options.
-                                                <b>
-                                                    <div>
-                                                        <b
-                                                            style="font-size:13px ;word-break: break-all;">https://yourtenantname.sharepoint.com/sites/appcatalog/_layouts/15/tenantAppCatalog.aspx/manageApps</b>
-                                                    </div>
-                                                </b>
-                                                <br>
-                                                <div><img src="classic_.png" onclick="openModal('classic_.png')"
-                                                        alt="App catalog" width="100%" height="auto"></div>
+                                                    <li>The application can only be installed by a Global Admin or
+                                                        SharePoint Admin by following the steps outlined below.</li>
+                                                    <li>The application’s features rely on APIs, which can be enabled by
+                                                        a Global Admin with the necessary permissions.</li>
+                                                    <li>Typically, the link provided will be a OneDrive or similar
+                                                        file-sharing link with a specific expiration date. Please make
+                                                        sure to download the installation package. which is usually a
+                                                        zip or cab file. Once the installation package is downloaded,
+                                                        follow the instructions in the knowledge base to upload the app
+                                                        to the app catalog.
+                                                    </li>
+                                                </ol>
                                             </li>
 
-                                            <br>
-                                            <li>Click on <b>App for SharePoint</b> as shown in below.</li>
-                                            <br>
-                                            <div><img src="share.png" onclick="openModal('share.png')"
-                                                    alt="SharePoint store" width="100%" height="auto"></div>
+
+
+
                                     </li>
+                        </div>
+                        <br>
+                        <ol>
+                            <li>
+                                Navigate to the app catalog page using the following URL format:
+                                <br>
+                                <b>
+                                    <div>
+                                        <b
+                                            style="word-break: break-all;">https://yourtenantname.sharepoint.com/sites/appcatalog/_layouts/15/tenantAppCatalog.aspx/manageApps</b>
+                                    </div>
+                                </b>
+                                <br>
+                                <p>Replace <em><b>yourtenantname.sharepoint.com</b></em> with your actual tenant name,
+                                    for example: <em><b>cubiclogics.sharepoint.com</b></em>.
                                     <br>
-                                    <li>This displays the <b>Apps for SharePoint</b> page.</li>
-                                    <br>
-                                    <li> Click on upload.</li>
-                                    <br>
-                                    <div><img src="upload.png" onclick="openModal('upload.png')" alt="Upload"
-                                            width="100%" height="auto"></div>
-                                    <br>
-                                    <li>Choose and upload the file.</li>
-                                    <br>
-                                    <div><img src="file.png" onclick="openModal('file.png')" alt="Choose file"
-                                            width="100%" height="auto"></div>
-                                    <br>
+                                    Once you are on the page, click on the "Classic Experience" options.
+                                </p>
+                                <br>
+                                <div><img src="classic_.png" onclick="openModal('classic_.png')" alt="App catalog"
+                                        width="100%" height="auto"></div>
+                            </li>
+
+                            <br>
+                            <li>Click on <b>App for SharePoint</b> as shown in below.</li>
+                            <br>
+                            <div><img src="share.png" onclick="openModal('share.png')" alt="SharePoint store"
+                                    width="100%" height="auto"></div>
+                            </li>
+                            <br>
+                            <li>This displays the <b>Apps for SharePoint</b> page.</li>
+                            <br>
+                            <li> Click on upload.</li>
+                            <br>
+                            <div><img src="upload.png" onclick="openModal('upload.png')" alt="Upload" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <li>Choose and upload the file.</li>
+                            <br>
+                            <div><img src="file.png" onclick="openModal('file.png')" alt="Choose file" width="100%"
+                                    height="auto"></div>
+                            <br>
 
 
 
-                                    <li> Once file got uploaded, select check box and click <b>deploy</b>. </li>
+                            <li> Once file got uploaded, select check box and click <b>deploy</b>. </li>
 
-                                    <br>
-                                    <div><img src="deploy.png" onclick="openModal('deploy.png')" alt="Deploy"
-                                            width="100%" height="auto"></div>
-                                    <br>
-                                    <div><img src="deployed.png" onclick="openModal('deployed.png')" alt="deployed"
-                                            width="100%" height="auto"></div>
-                                    <br>
-
-                                    <li>Open your site collection where you need to install your application.</li>
-
+                            <br>
+                            <div><img src="deploy.png" onclick="openModal('deploy.png')" alt="Deploy" width="100%"
+                                    height="auto"></div>
                                     <div class="notices note">
                                         <div class="paragraph">
-                                            <p>We have to add Timesheet Management 365 as web part in the page. </p>
+                                            <p> Now you can make this solution or application package available for all
+                                                sites in the
+                                                organization, once the application is installed, later you can
+                                                remove the app from all sites.
+                                                <br>
+                                                <br>
+                                                By performing these actions, the selected application package will be downloaded from the Microsoft SharePoint Store into your tenant.
+                                            </p>
                                         </div>
-                                        <br>
-                                        <li>Click on <b>New</b> and select <b>Page</b>.</li>
-                                        <br>
+                                    </div>
+                            <div><img src="deployed.png" onclick="openModal('deployed.png')" alt="deployed" width="100%"
+                                    height="auto"></div>
+                            <br>
 
-                                        <div><img src="new.png" onclick="openModal('new.png')" alt="select page"
-                                                width="100%" height="auto"></div>
-                                        <br>
-                                        <br>
-                                        <!-- <li>Click on <b>Create page</b>.</li>
+                            <li>Open your site collection where you need to install your application.</li>
+
+                            <div class="notices note">
+                                <div class="paragraph">
+                                    <p>We have to add Timesheet Management 365 as web part in the page. </p>
+                                </div>
+                                <br>
+                                <li>Click on <b>New</b> and select <b>Page</b>.</li>
+                                <br>
+
+                                <div><img src="new.png" onclick="openModal('new.png')" alt="select page" width="100%"
+                                        height="auto"></div>
+                                <br>
+                                <br>
+                                <!-- <li>Click on <b>Create page</b>.</li>
                                     <br>
 
                                     <div><img src="create.png" onclick="openModal('create.png')" alt="Create page" width="100%"
                                             height="auto"></div>
                                     <br> -->
-                                        <br>
-
-                                        <li>Now click on <b>+ icon</b> and then select the Timesheet Management 365 as
-                                            shown in below.</li>
-                                        <br>
-                                        <div><img src="plus.png" onclick="openModal('plus.png')" alt="plus icon"
-                                                width="100%" height="auto"></div>
-                                        <br>
-                                        <div><img src="HDM_.png" onclick="openModal('HDM_.png')" alt="HDM" width="100%"
-                                                height="auto"></div>
-                                        <br>
-                                        <li>You can also change the title areas as plain by clicking on edit icon and
-                                            selecting Plain for better look as shown in below.</li>
-                                        <br>
-
-                                        <div><img src="edit_title.png" onclick="openModal('edit_title.png')"
-                                                alt="Edit title" width="100%" height="auto"></div>
-
-                                        <br>
-
-                                        <li>Finally click on <b>Publish</b> button.</li>
-                                        <br>
-                                        <div><img src="publish.png" onclick="openModal('publish.png')" alt="publish"
-                                                width="100%" height="auto"></div>
-                                        <br>
-
-                                        <li>
-                                            Finally, refresh the page.
-                                            <br>
-                                            <div><img src="app_published.png" onclick="openModal('app_published.png')"
-                                                    alt="app published" width="100%" height="auto"></div>
-                                            <br>
-                                        </li>
-
-                            </li>
-                            </ol>
-                            <div class="notices note">
-                                <div class="paragraph">
-                                    <p>There are two types of installations:
-                                        <br>
-                                        <br>
-                                       1. Installation via package upload in the app catalog site.
-                                       <br>
-                                       2. Installation from the SharePoint store (AppSource).
-                                       <br>
-                                       <br>
-                                        If you delete the package installation and reinstall the app from
-                                        the SharePoint store, or vice versa, it will not impact or result in
-                                        data loss. This is because the application's data is stored safely
-                                        in SharePoint lists, which remain unaffected by the installation
-                                        method.</p>
-                                </div>
                                 <br>
+
+                                <li>Now click on <b>+ icon</b> and then select the Timesheet Management 365 as
+                                    shown in below.</li>
+                                <br>
+                                <div><img src="plus.png" onclick="openModal('plus.png')" alt="plus icon" width="100%"
+                                        height="auto"></div>
+                                <br>
+                                <div><img src="HDM_.png" onclick="openModal('HDM_.png')" alt="HDM" width="100%"
+                                        height="auto"></div>
+                                <br>
+                                <li>You can also change the title areas as plain by clicking on edit icon and
+                                    selecting Plain for better look as shown in below.</li>
+                                <br>
+
+                                <div><img src="edit_title.png" onclick="openModal('edit_title.png')" alt="Edit title"
+                                        width="100%" height="auto"></div>
+
+                                <br>
+
+                                <li>Finally click on <b>Publish</b> button.</li>
+                                <br>
+                                <div><img src="publish.png" onclick="openModal('publish.png')" alt="publish"
+                                        width="100%" height="auto"></div>
+                                <br>
+
+                                <li>
+                                    Finally, refresh the page.
+                                    <br>
+                                    <div><img src="app_published.png" onclick="openModal('app_published.png')"
+                                            alt="app published" width="100%" height="auto"></div>
+                                    <br>
+                                </li>
+
+                                </li>
+                        </ol>
+                        <div class="notices note">
+                            <div class="paragraph">
+                                <p>There are two types of installations:
+                                    <br>
+                                    <br>
+                                    1. Installation via package upload in the app catalog site.
+                                    <br>
+                                    2. Installation from the SharePoint store (AppSource).
+                                    <br>
+                                    <br>
+                                    If you delete the package installation and reinstall the app from
+                                    the SharePoint store, or vice versa, it will not impact or result in
+                                    data loss. This is because the application's data is stored safely
+                                    in SharePoint lists, which remain unaffected by the installation
+                                    method.
+                                </p>
                             </div>
-                            </ul>
-
-
-                            </ul>
-                            </li>
-                            </ul>
+                            <br>
                         </div>
-                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                        <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../../installation/" aria-label="Previous page"><i
-                                    class="ti-arrow-left mr-2"></i>
-                                <span class="d-none d-md-block">Installation</span></a>
-                            <a class="nav nav-next" href="../../installation/sharepoint-store/"
-                                aria-label="Previous page">
-                                <span class="d-none d-md-block">Sharepoint store</span><i
-                                    class="ti-arrow-right ml-2"></i></a>
-                        </nav>
+                        </ul>
+
+
+                        </ul>
+                        </li>
+                        </ul>
                     </div>
+                    <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                    <nav class="pagination mt-3">
+                        <a class="nav nav-prev" href="../../installation/" aria-label="Previous page"><i
+                                class="ti-arrow-left mr-2"></i>
+                            <span class="d-none d-md-block">Installation</span></a>
+                        <a class="nav nav-next" href="../../installation/sharepoint-store/" aria-label="Previous page">
+                            <span class="d-none d-md-block">Sharepoint store</span><i
+                                class="ti-arrow-right ml-2"></i></a>
+                    </nav>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <div id="myModal" class="modal">
