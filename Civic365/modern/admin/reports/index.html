@@ -3,10 +3,11 @@
 
 <head>
     <meta charset=utf-8>
-    <title>Civic 365 | Admin | Reports</title>
+    <title>Civic 365 | Admin Guide | Reports</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
-    <meta name=description content="HR365 Civic">
+    <meta name=description
+        content="Report Module Admin Guide for Civic 365, detailing how to generate, manage, and customize reports for efficient system monitoring.">
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
     <link rel=icon href=# type=image/x-icon>
@@ -44,20 +45,23 @@
     <meta name=twitter:card content="summary">
     <meta name=twitter:title content="HR365 Civic">
     <meta name=twitter:description content="HR365 Civic">
-      <!-- Google Tag Manager --> 
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], 
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
-    })(window,document,'script','dataLayer','GTM-TX9SKDMB');</script> 
-    <!-- End Google Tag Manager --> 
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
-     <!-- Google Tag Manager (noscript) --> 
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" 
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
-    <!-- End Google Tag Manager (noscript) --> 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="shadow-bottom sticky-top bg-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container px-2 px-md-0">
@@ -66,10 +70,12 @@
                 </a>
                 <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
                     aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
-                     <span class=navbar-toggler-icon></span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x" viewBox="0 0 16 16">
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
+                    <span class=navbar-toggler-icon></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
                 </button>
                 <div class="collapse navbar-collapse text-center common-header" id=navigation>
 
@@ -79,7 +85,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-          <div class="container container-padding">
+        <div class="container container-padding">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -87,8 +93,8 @@
                         </h5>
                         <a class=back-btn href="../../admin/" aria-label=back></a>
                         <ul class=list-styled>
-                            <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title="Admin Guide"
-                                class="sidelist
+                            <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
+                                title="Admin Guide" class="sidelist
     active">
                                 <a href="../../admin/">
                                     Admin Guide
@@ -103,34 +109,43 @@
                         <!-- <h2 class=mb-5 id=title></h2> -->
                         <div class="bg-light p-4 remove-padding">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href="" title="Reports">Reports
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=""
+                                        title="Reports">Reports
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
                                 <ul>
 
-                                    <p>Admin, and Supervisor can view and generate reports. First, filter the ticket information for selected dates, assigned to, teams (department or group), status, priority, request type and services as per your requirement and finally you could download the reports via export to excel.</b>.
+                                    <p>Admin, and Supervisor can view and generate reports. First, filter the ticket
+                                        information for selected dates, assigned to, teams (department or group),
+                                        status, priority, request type and services as per your requirement and finally
+                                        you could download the reports via export to excel.</b>.
 
-                                    <div><img src="report_.png" onclick="openModal('report_.png')" alt="Report" width="100%"
-                                            height="auto"></div>
+                                    <div><img src="report_.png" onclick="openModal('report_.png')" alt="Report"
+                                            width="100%" height="auto"></div>
                                     <br>
                                     <b>
                                         <h4>Agent Report</h4>
                                     </b>
-                                    <p>Admins and supervisors could access the report of the number of tickets that were assigned to the agents based on the ticket status and tracked time.</p>
+                                    <p>Admins and supervisors could access the report of the number of tickets that were
+                                        assigned to the agents based on the ticket status and tracked time.</p>
                                     <p>
-                                        Admin gets the ticket information of all the team’s agents whereas a supervisor would get only his/her team's agents.
+                                        Admin gets the ticket information of all the team’s agents whereas a supervisor
+                                        would get only his/her team's agents.
                                     </p>
                                     <p>
-                                        To fetch information based on the date range. First, select the date range and then teams from the filter dropdown as per your requirement, and click on the filter icon.
+                                        To fetch information based on the date range. First, select the date range and
+                                        then teams from the filter dropdown as per your requirement, and click on the
+                                        filter icon.
                                     </p>
                                     <p>
-                                        Click on the Export to Excel button to get the fetched information into an excel file.
+                                        Click on the Export to Excel button to get the fetched information into an excel
+                                        file.
                                     </p>
 
 
-                                    <div><img src="agent_report.png" onclick="openModal('agent_report.png')" alt="Agent report"
-                                            width="100%" height="auto"></div>
+                                    <div><img src="agent_report.png" onclick="openModal('agent_report.png')"
+                                            alt="Agent report" width="100%" height="auto"></div>
 
 
 
@@ -168,7 +183,8 @@
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2024-<a href=https://www.hr365.us />HR365.</a><a href="https://www.hr365.us/sla/">SLA.</a>
+                    <p class="mb-md-0 mb-4">© 2024-<a href=https://www.hr365.us />HR365.</a><a
+                            href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
                             href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
@@ -184,7 +200,7 @@
                         <li class=list-inline-item><a class="text-color d-inline-block p-2"
                                 href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
                                     class=ti-twitter-alt></i></a></li>
-                    
+
                         <li class=list-inline-item><a class="text-color d-inline-block p-2"
                                 href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
                                 aria-label=Linkedin><i class=ti-linkedin></i></a></li>
