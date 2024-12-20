@@ -2,18 +2,19 @@
 <html lang=en-us>
 
 <head>
-    <meta charset=utf-8>
+    <meta charset="utf-8">
     <title>Configuring Power Automate to Send Birthday and Work Anniversary Emails</title>
-    <meta name=viewport content="width=device-width,initial-scale=1">
-    <meta name=generator content="Hugo 0.92.2">
-    <meta name=description content="Configure-power-automate">
-    <meta name='robots' content='noindex'>
-    <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
-    <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
-    <link rel=icon href=# type=image/x-icon>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel=stylesheet>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="Hugo 0.92.2">
+    <meta name="description"
+        content="Learn how to configure Power Automate to automatically send birthday and work anniversary emails to employees within your organization.">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
     <style>
         :root {
             --primary-color: #5637da;
@@ -22,49 +23,50 @@
             --text-color-dark: #242738;
             --white-color: #ffffff;
             --light-color: #f8f9fa;
-            --font-family: Lato
+            --font-family: Lato;
         }
     </style>
-    <link href=https://hr365docs.github.io/docs/css/style.min.css rel=stylesheet media=screen>
-    <script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js></script>
-    <script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js></script>
-    <script src=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js></script>
-    <script src=https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js></script>
-               <!-- Google Tag Manager -->
-               <script>(function (w, d, s, l, i) {
-                w[l] = w[l] || []; w[l].push({
-                    'gtm.start':
-                        new Date().getTime(), event: 'gtm.js'
-                }); var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');</script>
-        <!-- End Google Tag Manager -->
+    <link href="https://hr365docs.github.io/docs/css/style.min.css" rel="stylesheet" media="screen">
+    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start': new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Open Graph Meta Tags -->
     <meta property="og:image" content="https://hr365docs.github.io/docs/images/logo.png">
-    <meta name=twitter:image content="https://hr365docs.github.io/docs/images/logo.png">
-    <meta name=twitter:card content="summary_large_image">
-    <meta property="og:image:width" content="Configure-power-automate">
-    <meta property="og:image:height" content="Configure-power-automate">
+    <meta name="twitter:image" content="https://hr365docs.github.io/docs/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image:width" content="2881">
+    <meta property="og:image:height" content="681">
     <meta property="og:image:type" content="image/png">
-    <meta name=twitter:title content="Employee Directory 365">
-    <meta name=twitter:description content="Employee Directory 365">
-    <meta property="og:title" content="Employee Directory 365">
-    <meta property="og:description" content="Employee Directory 365">
-    <meta property="og:type" content="Configure-power-automate">
+    <meta property="og:title" content="Configuring Power Automate to Send Birthday and Work Anniversary Emails">
+    <meta property="og:description"
+        content="Learn how to automate the process of sending birthday and work anniversary emails using Power Automate in your organization.">
+    <meta property="og:type" content="website">
     <meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-employee-directory/">
-    <meta name=twitter:card content="Configure-power-automate">
-    <meta name=twitter:title content="Employee Directory 365">
-    <meta name=twitter:description content="Employee Directory 365">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Configuring Power Automate to Send Birthday and Work Anniversary Emails">
+    <meta name="twitter:description"
+        content="Learn how to automate the process of sending birthday and work anniversary emails using Power Automate in your organization.">
 </head>
 
+
 <body>
-                    <!-- Google Tag Manager (noscript) -->
-                    <noscript>
-                        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
-                            style="display:none;visibility:hidden">
-                        </iframe>
-                    </noscript>
-                    <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="shadow-bottom sticky-top bg-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container px-2 px-md-0">
@@ -133,13 +135,13 @@
                                     Note: Do not unzip the solution file
                                 </li><br>
                                 <div><img src="4.png" onclick="openModal( '4.png') " alt="ED365" width="100% "
-                                    height="auto "></div><br>
-                                    <li>Click the upload button to select and import the downloaded file.</li> <br>
-                                    <div><img src="5.png" onclick="openModal( '5.png') " alt="ED365" width="100% "
                                         height="auto "></div><br>
-                                        <li>
-                                            Choose "Create as New" in the setup dropdown.
-                                        </li> <br>
+                                <li>Click the upload button to select and import the downloaded file.</li> <br>
+                                <div><img src="5.png" onclick="openModal( '5.png') " alt="ED365" width="100% "
+                                        height="auto "></div><br>
+                                <li>
+                                    Choose "Create as New" in the setup dropdown.
+                                </li> <br>
 
 
 
