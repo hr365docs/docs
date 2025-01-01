@@ -1,97 +1,73 @@
 <!doctype html>
 <html lang=en-us>
-    <head>
-        <meta charset="utf-8">
-        <title>Helpdesk 365 | Blog | Power-automate</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="generator" content="Hugo 0.92.2">
-        <meta name="description" content="Learn how to configure Power Automate to streamline workflows and improve productivity within your organization using Helpdesk 365 and HR365.">
-    
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css">
-        <link rel="icon" href="#" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-    
-        <!-- Scripts for PDF and HTML to PDF conversion -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
-    
-        <style>
-            :root {
-                --primary-color: #5637da;
-                --body-color: #f9f9f9;
-                --text-color: #636363;
-                --text-color-dark: #242738;
-                --white-color: #ffffff;
-                --light-color: #f8f9fa;
-                --font-family: Lato;
-            }
-        </style>
-    
-        <!-- Main CSS -->
-        <link href="https://hr365docs.github.io/docs/css/style.min.css" rel="stylesheet" media="screen">
-    
-        <!-- jQuery and Bootstrap Scripts -->
-        <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js"></script>
-        <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js"></script>
-        <script src="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js"></script>
-        <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
-    
-        <!-- Google Tag Manager -->
-        <script>
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');
-        </script>
-        <!-- End Google Tag Manager -->
-    
-        <!-- Open Graph and Twitter Meta Tags for Social Sharing -->
-        <meta property="og:image" content="https://hr365docs.github.io/docs/images/logo.png">
-        <meta name="twitter:image" content="https://hr365docs.github.io/docs/images/logo.png">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="og:image:width" content="2881">
-        <meta property="og:image:height" content="681">
-        <meta property="og:image:type" content="image/png">
-        <meta name="twitter:title" content="HR365 Helpdesk">
-        <meta name="twitter:description" content="HR365 Helpdesk">
-        <meta property="og:title" content="HR365 Helpdesk">
-        <meta property="og:description" content="HR365 Helpdesk">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-employee-directory/">
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="HR365 Helpdesk">
-        <meta name="twitter:description" content="HR365 Helpdesk">
-    
-        <!-- Specific Blog Page Meta Data -->
-        <meta name="title" content="Helpdesk 365 | Power Automate Blog">
-        <meta name="description" content="This blog covers how to use Power Automate within the Helpdesk 365 system, offering insights and tips on automating processes to improve HR management and service delivery.">
-    
-        <!-- Additional Social Sharing Meta Tags -->
-        <meta property="og:title" content="Helpdesk 365 | Power Automate Blog">
-        <meta property="og:description" content="Explore how Power Automate can enhance the performance and efficiency of your Helpdesk 365 setup.">
-        <meta property="og:image" content="https://hr365docs.github.io/docs/images/logo.png">
-        <meta name="twitter:image" content="https://hr365docs.github.io/docs/images/logo.png">
-    </head>
-    
+
+<head>
+    <meta charset="utf-8">
+    <title>Helpdesk 365 | Blog | Power-automate</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="Hugo 0.92.2">
+    <meta name="description"
+        content="Learn how to configure Power Automate to streamline workflows and improve productivity within your organization using Helpdesk 365 and HR365.">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- Scripts for PDF and HTML to PDF conversion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #5637da;
+            --body-color: #f9f9f9;
+            --text-color: #636363;
+            --text-color-dark: #242738;
+            --white-color: #ffffff;
+            --light-color: #f8f9fa;
+            --font-family: Lato;
+        }
+    </style>
+
+    <!-- Main CSS -->
+    <link href="https://hr365docs.github.io/docs/css/style.min.css" rel="stylesheet" media="screen">
+
+    <!-- jQuery and Bootstrap Scripts -->
+    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');
+    </script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
 <body>
-                    <!-- Google Tag Manager (noscript) -->
-                    <noscript>
-                        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
-                            style="display:none;visibility:hidden">
-                        </iframe>
-                    </noscript>
-                    <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="shadow-bottom sticky-top bg-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container px-2 px-md-0">
@@ -140,7 +116,7 @@
                                 </li>
                                 <li>The logged-in user must have 'send as delegate' permissions to the shared mailbox.
                                 </li>
-                               
+
                             </ol>
                             <ol>
                                 <p>
@@ -170,10 +146,11 @@
                                 </li><br>
                                 <div><img src="6.png" onclick="openModal('6.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                        <li>Move on to the ticket customization section and activate the toggle for automatic ticket creation.</li><br>
-                                        <div><img src="24.png" onclick="openModal('24.png')" alt="My flows" width="100%"
-                                                height="auto"></div><br>
-                                <p>To download the Power Automate solution,  <a
+                                <li>Move on to the ticket customization section and activate the toggle for automatic
+                                    ticket creation.</li><br>
+                                <div><img src="24.png" onclick="openModal('24.png')" alt="My flows" width="100%"
+                                        height="auto"></div><br>
+                                <p>To download the Power Automate solution, <a
                                         href="HR365HelpdeskModern_13_24_1128_1904.zip">click here</a>.
                                     Then, go to the left panel and choose 'Solutions.' Import the solution at the top by
                                     uploading the downloaded file and clicking <br>
@@ -196,24 +173,33 @@
                                 <li>Select the imported solution named 'HR365 Helpdesk Solution.'</li><br>
                                 <div><img src="11.png" onclick="openModal('11.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Navigate to the left-hand side navigation panel, select 'Environment variables,' and then click on the 'Site URL' variable. Replace the default value with your application's site URL.</li>
+                                <li>Navigate to the left-hand side navigation panel, select 'Environment variables,' and
+                                    then click on the 'Site URL' variable. Replace the default value with your
+                                    application's site URL.</li>
                                 <br>
                                 <div><img src="12.png" onclick="openModal('12.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Copy the application site URL up to 'sitename' and paste it into the default value field.
+                                <li>Copy the application site URL up to 'sitename' and paste it into the default value
+                                    field.
                                 </li><br>
-                                <div><img src="13.png" onclick="openModal('13.png')"    alt="My flows" width="100%"
+                                <div><img src="13.png" onclick="openModal('13.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Next, select 'SupportMailBoxID' under the display name, replace the default value with the ID of your shared mailbox (created in step 4), and then click 'Save'.</li><br>
+                                <li>Next, select 'SupportMailBoxID' under the display name, replace the default value
+                                    with the ID of your shared mailbox (created in step 4), and then click 'Save'.</li>
+                                <br>
                                 <div><img src="14.png" onclick="openModal('14.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li> Under the display name, choose 'SitePageTitle' and replace the default value with your site page title.</li><br>
+                                <li> Under the display name, choose 'SitePageTitle' and replace the default value with
+                                    your site page title.</li><br>
                                 <div><img src="15.png" onclick="openModal('15.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Click <b>Cloud Flows</b> to manage automated workflows. To edit the flow (HR365 - HD SharedMailbox), click on the vertical ellipsis icon, and then select 'Edit'.</li><br>
+                                <li>Click <b>Cloud Flows</b> to manage automated workflows. To edit the flow (HR365 - HD
+                                    SharedMailbox), click on the vertical ellipsis icon, and then select 'Edit'.</li>
+                                <br>
                                 <div><img src="16.png" onclick="openModal('16.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <p>Select the first row (When a new email arrives), and then click on the folder icon. Choose the inbox folder.</p>
+                                <p>Select the first row (When a new email arrives), and then click on the folder icon.
+                                    Choose the inbox folder.</p>
                                 <div><img src="17.png" onclick="openModal('17.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
                                 <!-- <p>After selecting the inbox folder, save the flow by clicking on the save icon.</p>
@@ -235,23 +221,29 @@
                                 <!-- <li>In the left navigation panel, navigate to 'Cloud flows.' Enable the flow for 'SharedMailbox' and 'ExternalUserEmail,' as illustrated in the image.</li><br>
                                 <div><img src="21.png" onclick="openModal('16.png')" alt="My flows" width="100%"
                                         height="auto"></div><br> -->
-                                <li>After selecting the inbox folder, save the flow by clicking on the save icon.</li><br>
-                                <div><img src="SaveText.png" onclick="openModal('SaveText.png')" alt="My flows" width="100%"
-                                        height="auto"></div><br>
-                                <li>Now, click on the <b>Test</b> option on the right side, then select the <b>Manually</b> option to proceed with testing the flow.</li><br>
-                                <div><img src="TestBtn.png" onclick="openModal('TestBtn.png')" alt="My flows" width="100%"
-                                        height="auto"></div><br>
-                                
-                                <div><img src="TestFlow.png" onclick="openModal('TestFlow.png')" alt="My flows" width="100%"
-                                        height="auto"></div><br>
-                                <li>To test the flow, send an email to the mailbox you specified as the <b>SupportMailboxID</b> in the environment variables during the initial configuration steps.</li><br>
-                                <div><img src="afterClickTestFlow.png" onclick="openModal('afterClickTestFlow.png')" alt="My flows" width="100%"
-                                        height="auto"></div><br>
+                                <li>After selecting the inbox folder, save the flow by clicking on the save icon.</li>
+                                <br>
+                                <div><img src="SaveText.png" onclick="openModal('SaveText.png')" alt="My flows"
+                                        width="100%" height="auto"></div><br>
+                                <li>Now, click on the <b>Test</b> option on the right side, then select the
+                                    <b>Manually</b> option to proceed with testing the flow.</li><br>
+                                <div><img src="TestBtn.png" onclick="openModal('TestBtn.png')" alt="My flows"
+                                        width="100%" height="auto"></div><br>
 
-                                <li>After activating the flows, visit the Helpdesk application, navigate to settings, and then access 'Helpdesk mailbox.</li><br>
+                                <div><img src="TestFlow.png" onclick="openModal('TestFlow.png')" alt="My flows"
+                                        width="100%" height="auto"></div><br>
+                                <li>To test the flow, send an email to the mailbox you specified as the
+                                    <b>SupportMailboxID</b> in the environment variables during the initial
+                                    configuration steps.</li><br>
+                                <div><img src="afterClickTestFlow.png" onclick="openModal('afterClickTestFlow.png')"
+                                        alt="My flows" width="100%" height="auto"></div><br>
+
+                                <li>After activating the flows, visit the Helpdesk application, navigate to settings,
+                                    and then access 'Helpdesk mailbox.</li><br>
                                 <div><img src="TurnON.png" onclick="openModal('TurnON.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
-                                <li>Now, toggle the switch to enable sending all emails from the Helpdesk mailbox.</li><br>
+                                <li>Now, toggle the switch to enable sending all emails from the Helpdesk mailbox.</li>
+                                <br>
                                 <div><img src="23.png" onclick="openModal('23.png')" alt="My flows" width="100%"
                                         height="auto"></div><br>
 
