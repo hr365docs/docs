@@ -4,9 +4,9 @@ $(document).ready(function() {
     "<li data-nav-id='./Introduction/' title=Introduction class='sidelist'>"+
     "<a href='/online-timesheet-software/modern/user/introduction/'>Introduction</a>"+
     "</li>"+
-    "<li data-nav-id='../getting-started/' title='Getting Started' class='sidelist'>"+
-    "<a href='/online-timesheet-software/modern/user/getting-started/'>Getting Started</a>"+
-    "</li>"+
+    // "<li data-nav-id='../getting-started/' title='Getting Started' class='sidelist'>"+
+    // "<a href='/online-timesheet-software/modern/user/getting-started/'>Getting Started</a>"+
+    // "</li>"+
     "<li data-nav-id='./Home-Page/' title='Home Page'  class='sidelist'>"+
     "<a href='/online-timesheet-software/modern/user/home-page/'>Home Page</a>"+
     "</li>"+
