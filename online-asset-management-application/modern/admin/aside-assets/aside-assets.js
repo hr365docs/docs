@@ -348,11 +348,22 @@ $(document).ready(function() {
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/features/#consumable-module'>Inventory Module</a>"+
                     "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Enable logs collection' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#Enable_Logs'>Enable logs collection</a>"+
+                    "</li>"+
+                    "<li data-nav-id='./Add Assets/ ' title=Logs Types' class='sidelist '>"+
+                    "<ul class='sidenavSub-topics '>"+
+                    "</ul>"+
+                    "<a href='/online-asset-management-application/modern/admin/settings/features/#Logs_Type'>Logs Types</a>"+
+                    "</li>"+
                     "<li data-nav-id='./Add Assets/ ' title='Maintenance Module' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/features/#maintenance-module'>Maintenance Module</a>"+
                     "</li>"+
+                   
                     "<li data-nav-id='./Add Assets/ ' title='Asset Acknowledgement' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
