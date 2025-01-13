@@ -7,11 +7,11 @@ $(document).ready(function () {
         "Introduction"+
         "</a>"+
         "</li>"+
-        "<li data-nav-id='../Introduction' title=Getting-Started class='sidelist'>"+
-            "<a href='/employee-vacation-tracker-time-off-manager/modern/user/getting-started/'>"+
-                "Getting Started"+
-            "</a>"+
-            "</li>"+
+        // "<li data-nav-id='../Introduction' title=Getting-Started class='sidelist'>"+
+        //     "<a href='/employee-vacation-tracker-time-off-manager/modern/user/getting-started/'>"+
+        //         "Getting Started"+
+        //     "</a>"+
+        //     "</li>"+
     
         "<li data-nav-id='../Home-page' title=Home-page class=sidelist>"+
             "<a href='/employee-vacation-tracker-time-off-manager/modern/user/home-page/'>"+

@@ -37,7 +37,7 @@ $(document).ready(function () {
                   "</li>"+
                   "<li data-nav-id='../General' title='Summary and Plan'  class=sidelist>"+
                   "<a href='/contract-management/modern/user/self-review/#task-report'>"+
-                      "Take Report"+
+                      "Task Report"+
                     "</a>"+
                     "</li>"+
 

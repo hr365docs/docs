@@ -4,9 +4,9 @@ $(document).ready(function() {
         "<ul> <li data-nav-id='./installation/requirments/' title='Introduction' class='sidelist'>"+
         "<a href='/online-asset-management-application/modern/user/introduction/'> Introduction </a>"+
         "</li>"+
-        "<li data-nav-id='./Home-page' title='Getting Started' class='sidelist'>"+
-        "<a href='/online-asset-management-application/modern/user/getting-started/'> Getting Started </a>"+
-        "</li>"+
+        // "<li data-nav-id='./Home-page' title='Getting Started' class='sidelist'>"+
+        // "<a href='/online-asset-management-application/modern/user/getting-started/'> Getting Started </a>"+
+        // "</li>"+
         "<li data-nav-id='./Home-page' title='Home Page' class='sidelist'>"+
         "<a href='/online-asset-management-application/modern/user/home-page/'> Home Page </a>"+
         "</li>"+
