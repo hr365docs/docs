@@ -34,7 +34,7 @@ $(document).ready(function() {
 
                 `<a class='dropdown-item assetmanagementlink' href='/online-asset-management-application/'>Asset Management 365</a>` +
 
-                `<a class='dropdown-item contractlink' href='/contract-management/'>Contract Management 365</a>` +
+                `<a class='dropdown-item contractlink' href='/contract-management/'>CLM 365</a>` +
 
 
                 `<a class='dropdown-item timesheetlink' href='/online-timesheet-software/'>Timesheet 365</a>` +
