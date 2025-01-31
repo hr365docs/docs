@@ -159,52 +159,114 @@ $(document).ready(function () {
         "</li>" +
 
 
-
-        "<li class='dropdownicon sidelist' title=Settings>" +
-        "<a  class='qwe' href='/employee-performance-management/modern/admin/settings/'>" +
+        "<li class='dropdownicon sidelist'>" +
+        "<a class='qwe' href='/Expense-tracker/modern/admin/settings/'>" +
         "Settings" +
         "</a>" +
-        "<img src='../../down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>" +
+        "<img src='../../down-arrow-svgrepo-com.svg'  class='helpdesk-img aside_dropdown_icon_setting'>" +
         "</li>" +
 
-        "<li data-nav-id='./Settings/'  class='sidelist dropdown_romove_dot'>" +
-        "<ul class='sidenavSub-topics aside_dropdown_list active'>" +
 
-        " <ul>" +
-
-        " <li data-nav-id='./General-Settings/' title='General Settings' class='sidelist'>" +
-        "<a href='/employee-performance-management/modern/admin/settings/#general-setting'>" +
-        " General Settings" +
+        "<li data-nav-id='../system-settings' title=system-settings class='sidelist dropdown_romove_dot'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list_setting'>" +
+        "<li data-nav-id='../user' title=General class='dropdownicon sidelist'>" +
+        "<a class='qwe' href='/employee-performance-management/modern/admin/settings/#general-setting'>General Settings </a>" +
+        "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
         "</a>" +
         "</li>" +
+        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+        "<li data-nav-id='../General' title='API Configuration' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#API-Configuration'>API Configuration</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Date format' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#Dateformat'> Date format </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Sharepoint Page Configuration:' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#SharepointPageConfiguration'> Sharepoint Page Configuration </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Theme' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#Theme'> Theme </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='GCC tenant' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#GCC-tenant'> GCC tenant </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Overall Rating Method' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#Overall-Rating-Method'> Overall Rating Method </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Acknowledgement' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#Acknowledgement'> Acknowledgement </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#Brand-Logo'> Brand Logo </a>" +
+        "</li>" +
+     
 
-        " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>" +
-        "<a href='/employee-performance-management/modern/admin/settings/#users'>" +
-        "Users" +
-        " </a>" +
+        "</ul>" +
+        "<li data-nav-id='../General' title='Users' class='sidelist'>" +
+        "<a class='qwe' href='/employee-performance-management/modern/admin/settings/#users'> Users</a>" +
         "</li>" +
         " <li data-nav-id='./Custom-Emails/' title=Advance Settings class='sidelist'>" +
         "<a href='/employee-performance-management/modern/admin/settings/#AdvanceSettings'>" +
         "Advance Settings" +
         " </a>" +
         "</li>" +
-
-        "<li data-nav-id='./Column-Setting/' title=Notification class='sidelist'>" +
-        "<a href='/employee-performance-management/modern/admin/settings/#notification'>" +
-        " Notification" +
+        "<li data-nav-id='../user' title=Feature class='dropdownicon sidelist'>" +
+        "<a class='qwe' href='/employee-performance-management/modern/admin/settings/#notification'>Notification</a>" +
+        "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
         "</a>" +
         "</li>" +
-
-        " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>" +
-        "<a href='/employee-performance-management/modern/admin/settings/#features'>" +
-        "Features" +
-        " </a>" +
+        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+        "<li data-nav-id='../General' title='Self-Review' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#Self-Review'> Self-Review</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Appraisal’s-Review' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#Appraisals-Review'>Appraisal’s-Review</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='HR-Review' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#HR-Review'>HR-Review</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='360 Degree' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#360Degree'>360 Degree</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='1:1' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#OnetoOne'>1:1</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='KPI' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#KPI'>KPI</a>" +
         "</li>" +
 
-
+        "</ul>" +
+        "<li data-nav-id='../user' title=Feature class='dropdownicon sidelist'>" +
+        "<a class='qwe' href='/employee-performance-management/modern/admin/settings/#features'>Features</a>" +
+        "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+        "</a>" +
+        "</li>" +
+        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+        "<li data-nav-id='../General' title='Ratings' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#Ratings'> Ratings</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='360 Feedback' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#360Feedback'>360 Feedback</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Rating Verbatim' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#Rating-Verbatim'>Rating Verbatim</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Appraisal Cycle' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#AppraisalCycle'>Appraisal Cycle</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='1:1' class='sidelist'>" +
+        "<a href='/employee-performance-management/modern/admin/settings/#KPICycle'>KPI Cycle</a>" +
+        "</li>" +
 
         "</ul>" +
         "</ul>" +
+        "</li >" +
+
+
+              "</ul>" +
 
         "</li>" +
 

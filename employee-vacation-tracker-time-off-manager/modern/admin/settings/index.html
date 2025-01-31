@@ -150,16 +150,16 @@
                             <img src="general.png" onclick="openModal('general.png')" alt="general" width="100%">
                             <br><br>
 
-                            <ol>
+                            <ol id="themes">
                                 <li>
-                                    <h6>Theme
+                                    <h6 >Theme
 
                                     </h6>Here, you can change the theme color light, dark and site theme.
                                 </li>
                                 <br>
                                 <img src="theme.png" onclick="openModal('theme.png')" alt="theme" width="100%">
                                 <br> <br>
-                                <li>
+                                <li id="Annualleave">
                                     <h6>Annual Leave Start Date and Annual Leave End Date</h6>You can specify the annual
                                     leave start and end dates here, or alternatively, set them based on the joining
                                     date, depending on your requirements for leave calculation. If accrued leaves are
@@ -195,7 +195,7 @@
                                         <!-- <p>Allocated leaves </p> -->
                                 </li>
                                 <br>
-                                <li>
+                                <li id="Dateformat">
                                     <h6>Date Format</h6>If you change the date format, it will update in entire
                                     application.
                                 </li>
@@ -203,7 +203,7 @@
                                 <img src="date_format.png" onclick="openModal('date_format.png')" alt="Date formate"
                                     width="100%">
                                 <br><br>
-                                <li>
+                                <li id="DefineWorkWeek">
                                     <h6> Define Work Week</h6>In this table add 0 in the cell for weekend. Leave
                                     calculation
                                     would be done based on working days.
@@ -219,7 +219,7 @@
 
 
 
-                                <li>
+                                <li id="ColorCode">
                                     <h6>Color code in calendar by</h6>Here, you could define color in calendar bases on
                                     leave status and leave type. This could be enabled, by selecting the check box and
                                     click on save icon.
@@ -227,7 +227,7 @@
                                 <br>
                                 <img src="color_c.png" onclick="openModal('color_c.png')" alt="Color code" width="100%">
                                 <br><br>
-                                <li>
+                                <li id="Timeoffcalendar">
                                     <h6>Display team's time off on calendar
 
                                     </h6>You can, if enabled, view the calendar of leaves taken by Team members in the
@@ -236,7 +236,7 @@
                                 <br>
                                 <img src="1.png" onclick="openModal('1.png')" alt="allow user" width="100%">
                                 <br><br>
-                                <li>
+                                <li id="DisplayOrganization">
                                     <h6>Display organization calendar
 
                                     </h6>
@@ -247,7 +247,7 @@
                                     width="100%">
                                 <br><br>
 
-                                <li>
+                                <li id="microsoftUsers">
                                     <h6>Allow all microsoft 365 users in this tenant</h6>Microsoft 365 users would not
                                     get the access of application until users are added in users list of the
                                     application. If enabled, all the tenant users could use the application from the
@@ -256,15 +256,15 @@
                                 <br>
                                 <img src="allow_users.png" onclick="openModal('allow_users.png')" alt="allow user"
                                     width="100%">
-                                <br><br>
-                                <li>
+                                <br><br id="SampleDataDashboard">
+                                <li >
                                     <h6>Show Sample data in Dashboard</h6> To display sample data on the dashboard,
                                     simply activate the toggle button.
                                 </li>
                                 <br>
                                 <img src="leaves_reordering.png" onclick="openModal('leaves_reordering.png')"
                                     alt="leave reordering" width="100%">
-                                <br><br>
+                                <br id="ShowFavoriteicon"><br>
 
                                 <li>
                                     <h6>Show Favorite icon</h6>
@@ -274,13 +274,13 @@
                                 <br>
                                 <img src="Favoriteicon.png" onclick="openModal('Favoriteicon.png')"
                                     alt="leave reordering" width="100%">
-                                <br><br>
+                                <br id="LeavesReordering"><br>
                                 <li>
                                     <h6>Leaves reordering</h6>Here You Can reorder the Leaves.
                                 </li>
                                 <br>
                                 <img src="2.png" onclick="openModal('2.png')" alt="brand logo" width="100%">
-                                <br><br>
+                                <br id="HideSharePoint"><br>
                                 <li>
                                     <h6>Hide SharePoint page's default components.</h6>Select Configure to Process
                                     Continue.
@@ -301,7 +301,7 @@
                                     sharepoint page where app is running.</p>
                                 <p><b>Hide Left Navigation Bar On Collapse For Teams :</b>Enable this toggle will hide
                                     left navigation bar on collapse for teams where app is running.</p>
-                                <br>
+                                <br id="Display-Title">
 
                                 <li><b>Display Title :</b>
 
@@ -311,7 +311,7 @@
                                 <br><img src="Displaytile.png" onclick="openModal('Displaytile.png')"
                                     alt="Office Location" width="100%"><br>
                                 <br>
-                                <li>
+                                <li id="Language">
                                     <h6>Language selection as browser default language.</h6> Select browser Default
                                     Language.
                                 </li> <br>
@@ -340,7 +340,7 @@
                             </h2>
                             <br><img src="6.png" onclick="openModal('6.png')" alt="Office Location" width="100%"><br>
                             <br>
-                            <ol>
+                            <ol id="Organization">
                                 <li><b>Organization:</b> You can input your organization's location here.
                                 </li> <br>
                                 <img src="30.png" onclick="openModal('30.png')" alt="Office Location" width="100%"><br>
@@ -351,26 +351,26 @@
                                 <p>Enter the details and then save by clicking on the "Save" button.</p><br>
                                 <img src="32.png" onclick="openModal('32.png')" alt="Office Location" width="100%"><br>
                                 <br>
-                                <li>
+                                <li id="Leaveaccrual">
                                     <h6>Leave accrual</h6>By enabling this option, users will have their leaves accrued
                                     every month rather than allotted on the first day of the year.
                                 </li> <br>
                                 <img src="12.png" onclick="openModal('12.png')" alt="Office Location" width="100%"><br>
                                 <br>
-                                <li>
+                                <li id="HRapprovers">
                                     <h6>HR approvers</h6>
                                     You can add an HR Approver here.
                                 </li> <br>
                                 <img src="8.png" onclick="openModal('8.png')" alt="Office Location" width="100%"><br>
                                 <br>
 
-                                <li>
+                                <li id="AdditionalApprovers">
                                     <h6>Additional approvers</h6>Give applicants the option to choose another
                                     approver(s) in case their first-line manager is unavailable.
                                 </li> <br>
                                 <img src="9.png" onclick="openModal('9.png')" alt="Office Location" width="100%"><br>
                                 <br>
-                                <li>
+                                <li id="AutoApprovals">
                                     <h6>Auto Approvals.</h6>leaves can approve automattically without permission.
                                 </li> <br>
                                 <img src="20.png" onclick="openModal('20.png')" alt="Office Location"
@@ -384,7 +384,7 @@
                                 <p><b>Auto approval exception:</b>Please specify the name of the leave type(s) that you
                                     do not want to be automatically approved.</p>
 
-                                <li>
+                                <li id="Secondlevelapproval">
                                     <h6>Second level approval for leave cancellation.</h6>HR is Second level approver
                                     for Leave Cancellation.
                                 </li> <br>
@@ -392,7 +392,7 @@
                                     width="100%"><br><br>
 
                                 <br>
-                                <li>
+                                <li id="Carryforward">
                                     <h6>Select the leave type to carry forward</h6>At the end of the year, one of the
                                     leave
                                     types can be carried forward to the next year.
@@ -400,7 +400,7 @@
                                 <img src="13.png" onclick="openModal('13.png')" alt="Office Location" width="100%"><br>
                                 <br>
                                 <br>
-                                <li>
+                                <li id="AddCompoff">
                                     <h6>Add Comp off (off in lieu) policy (in days)</h6>Comp (Compensatory) Off leave
                                     (also called compensatory off, comp off, or off-In-Lieu) allows team members to take
                                     time off in lieu of overtime pay if they've worked under irregular circumstances,
@@ -410,7 +410,7 @@
                                 </li> <br>
                                 <img src="14.png" onclick="openModal('14.png')" alt="Office Location" width="100%"><br>
                                 <br>
-                                <li>
+                                <li id="Avail Comp off">
                                     <h6>Avail Comp off (off in lieu) policy (in days)</h6>Comp (Compensatory) Off leave
                                     (also called compensatory off, comp off, or off-In-Lieu) allows team members to take
                                     time off in lieu of overtime pay if they've worked under irregular circumstances,
@@ -420,20 +420,20 @@
                                 </li> <br>
                                 <img src="15.png" onclick="openModal('15.png')" alt="Office Location" width="100%"><br>
                                 <br>
-                                <li>
+                                <li id="EnableExternalUsers">
                                     <h6>Enable external users</h6>You can allow external users to use this Time-off
                                     Manager app i.e. You can add them as guest / external user which is added in your
                                     office 365 tenant
                                 </li> <br>
                                 <img src="16.png" onclick="openModal('16.png')" alt="Office Location" width="100%"><br>
                                 <br>
-                                <li>
+                                <li id="MicrosoftoutlookCalender">
                                     <h6>Show Time off requests in Microsoft outlook calender.</h6>When we apply leave,
                                     Outlook Calendar is blocked.
                                 </li> <br>
                                 <img src="19.png" onclick="openModal('19.png')" alt="Office Location" width="100%"><br>
                                 <br>
-                                <li>
+                                <li id="EnableRecurrenceOfleaves">
                                     <h6>Enable recurrence of leaves .</h6> If enabled, you can find control of
                                     recurrence on the top right corner after clicking on 'new request' on home page of
                                     the application
@@ -454,7 +454,7 @@
                                 alt="Notifications" width="100%"><br>
                             <br>
                             <ol>
-                                <li>
+                                <li id="EmailTemplate">
                                     <h6>Email Template</h6> Here you can configure email notification body and add more
                                     placeholders.
                                 </li>
@@ -462,7 +462,7 @@
                                     width="100%"><br><br>
                                 <img src="28.png" onclick="openModal('28.png')" alt="Office Location"
                                     width="100%"><br><br>
-                                <li>
+                                <li id="Remindernotificationstoapprovers">
                                     <h6>Reminder notifications to approvers</h6>You can disable daily reminder
                                     notifications to approvers.
                                 </li> <br>
@@ -549,7 +549,7 @@
                                 <br><br>
 
 
-                                <li>
+                                <li id="Calculateweekends/holidays">
                                     <h6><b>Calculate leaves include weekends/holidays</b></h6>In case you want to
                                     include
                                     weekends as leaves when first and last day of the leave include weekend / holiday
@@ -559,7 +559,7 @@
                                 <img src="7.png" onclick="openModal('7.png')" alt="Office Location" width="100%"><br>
                                 <br>
 
-                                <li>
+                                <li id="Calculatepartialleave">
                                     <h6>Calculate partial leave</h6>Here, you can calculate partial leave (Can select
                                     the partial day on either an hourly basis or half/quarter-day from the advanced
                                     setting).
@@ -568,7 +568,7 @@
                                 <img src="calculate_partial.png" onclick="openModal('calculate_partial.png')"
                                     alt="Calculate partial leave" width="100%">
                                 <br><br>
-                                <li>
+                                <li id="Calculateleaves">
                                     <h6>Calculate leaves based on</h6>
                                     Here, you can calculate leaves on a daily and hourly basis. You have the option to
                                     set the default hours for each day.
@@ -577,7 +577,7 @@
                                 <img src="based.png" onclick="openModal('based.png')" alt="Calculate partial leave"
                                     width="100%">
                                 <br><br>
-                                <li>
+                                <li id="Allowbackdateleaves">
                                     <h6>Allow backdate leaves </h6>User can be allowed to submit back date leaves by X
                                     days
                                 </li>
@@ -597,7 +597,7 @@
                                         <br><br>
                                     </li>
                                     <br>
-                                    <li>
+                                    <li id="LeavesBasedOn">
                                         <b>Level Based Leaves</b>: Level-based leaves and grades options would be
                                         displayed under systems settings, here first define the grades for different
                                         job title, finally add the leaves numbers for such grades from leave based
@@ -610,7 +610,7 @@
                                     </li>
                                     <br>
                                 </ol>
-                                <li> <b>Tenure Based Leaves:</b>
+                                <li id="TenureBasedLeaves"> <b>Tenure Based Leaves:</b>
                                     Second-level approval for leave cancellation would be
                                     available by enabling the tab. HR is the second-level approver for leave
                                     cancellation (On default setting).
@@ -629,13 +629,13 @@
                             <br><img src="Reports.png" onclick="openModal('Reports.png')" alt="Report" width="100%"><br>
                             <br>
                             <ol>
-                                <li>
+                                <li id="Workreport">
                                     <h6>Work report</h6> You can generate work reports based on both daily or hourly
                                     activities here.
                                 </li>
                                 <img src="33.png" onclick="openModal('27.png')" alt="Report" width="100%"><br><br>
 
-                                <li>
+                                <li id="Includetime-offtypes">
                                     <h6>Include time-off types</h6>You can choose the type of leaves to include in the
                                     work report here.
                                     <img src="34.png" onclick="openModal('34.png')" alt="Report" width="100%"><br>
