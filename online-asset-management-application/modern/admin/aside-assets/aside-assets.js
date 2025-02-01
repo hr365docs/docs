@@ -23,7 +23,7 @@ $(document).ready(function() {
        "<li data-nav-id='./Email-Notification/' title='Add Assets' class='sidelist'>"+
        "<a href='/online-asset-management-application/modern/admin/assets/#add-assets'>Add Asset</a>"+
         "</li>"+
-        "<li data-nav-id='./Custom-Emails/' title='Bulk Assets' class='sidelist'> "+
+        "<li data-nav-id='./Custom-Emails/' title='Multiple Assets' class='sidelist'> "+
         "<a href='/online-asset-management-application/modern/admin/assets/#Multiple-assets'>Multiple Assets</a>"+
         " </li>"+
         "<li data-nav-id='./Custom-Emails/' title='Bulk Assets' class='sidelist'> "+
@@ -38,7 +38,7 @@ $(document).ready(function() {
          " <li data-nav-id='./General-Settings/' title='Return Assets' class='sidelist'>"+
           "<a href='/online-asset-management-application/modern/admin/assets/#return-assets'>Return Assets </a>"+
           " </li>"+
-          " <li data-nav-id='./General-Settings/' title='Return Assets' class='sidelist'>"+
+          " <li data-nav-id='./General-Settings/' title='Book Assets' class='sidelist'>"+
           "<a href='/online-asset-management-application/modern/admin/assets/#book-assets'>Book Assets </a>"+
           " </li>"+
            "<li data-nav-id='./Dashboard-Settings/' title='Booking Details' class='sidelist'>"+
@@ -50,29 +50,29 @@ $(document).ready(function() {
               "</ul>"+
               "</li>"+
            
-              "<li class='dropdownicon sidelist' title='Consumable'>"+
+              "<li class='dropdownicon sidelist' title='Inventory'>"+
                "<a  href='/online-asset-management-application/modern/admin/consumable/'> Inventory </a>"+
                "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                "</li>"+
 
                "<li data-nav-id='./Settings/'   class='sidelist dropdown_romove_dot'>"+
                "<ul class='sidenavSub-topics aside_dropdown_list'>"+
-                "<li data-nav-id='./Dashboard-Settings/' title='Add Consumable Item' class='sidelist'>"+
+                "<li data-nav-id='./Dashboard-Settings/' title='Add Inventory Item' class='sidelist'>"+
                 "<a href='/online-asset-management-application/modern/admin/consumable/#add-consumable-item'>Add Inventory Item</a>"+
                  "</li>"+
                  "<li data-nav-id='./Column-Setting/' title='Bulk Consumable' class='sidelist'>"+
                  "<a href='/online-asset-management-application/modern/admin/consumable/#bulk-consumable'>Bulk Inventory</a>"+
                  "</li>"+
-                 "<li data-nav-id='./Dashboard-Settings/' title='Consumable Items' class='sidelist'>"+
+                 "<li data-nav-id='./Dashboard-Settings/' title='Assign Inventory' class='sidelist'>"+
                  "<a href='/online-asset-management-application/modern/admin/consumable/#consumable-items'> Assign Inventory</a>"+
                   "</li>"+
-                  "<li data-nav-id='./Dashboard-Settings/' title='Consumable Items' class='sidelist'>"+
+                  "<li data-nav-id='./Dashboard-Settings/' title='Assigned' class='sidelist'>"+
                  "<a href='/online-asset-management-application/modern/admin/consumable/#Assigned'>Assigned</a>"+
                   "</li>"+
-                 "<li data-nav-id='./Dashboard-Settings/' title='Request Consumable Items' class='sidelist'>"+
+                 "<li data-nav-id='./Dashboard-Settings/' title='Bulk Assign Inventory' class='sidelist'>"+
                  "<a href='/online-asset-management-application/modern/admin/consumable/#request-consumable'> Bulk Assign Inventory</a>"+
                   "</li>"+
-                  "<li data-nav-id='./Dashboard-Settings/' title='Approve/Reject Consumable' class='sidelist'>"+
+                  "<li data-nav-id='./Dashboard-Settings/' title='Approve/Reject Inventory' class='sidelist'>"+
                   "<a href='/online-asset-management-application/modern/admin/consumable/#approve-reject-consumable'> Approve/Reject Inventory </a>"+
                   "</li>"+
                   "</ul>"+
@@ -123,7 +123,7 @@ $(document).ready(function() {
                     "<li data-nav-id='./Dashboard-Settings/' title='Email Notifications' class='sidelist'>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/general/#email-notifications'>Email Notifications</a>"+
                     "</li>"+
-                    "<li data-nav-id='./Dashboard-Settings/' title='Email Notifications' class='sidelist'>"+
+                    "<li data-nav-id='./Dashboard-Settings/' title='Naming Conventions' class='sidelist'>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/general/#Naming-Conventions'>Naming Conventions</a>"+
                     "</li>"+
                    
@@ -151,10 +151,10 @@ $(document).ready(function() {
                     // "<li data-nav-id='./Assign-Assets/' title=WebPart Title class='sidelist'>"+
                     // "<a href='/online-asset-management-application/modern/admin/settings/views/#webpart-title'>WebPart Title </a>"+
                     // "</li>"+
-                    "<li data-nav-id='./Assign-Assets/' title='Custom Webpart CSS' class='sidelist'>"+
+                    "<li data-nav-id='./Assign-Assets/' title='Hide Asset ID Prefix' class='sidelist'>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/views/#Hide-Asset-ID-Prefix'>Hide Asset ID Prefix </a>"+
                     "</li>"+
-                    "<li data-nav-id='./Assign-Assets/' title='Custom Webpart CSS' class='sidelist'>"+
+                    "<li data-nav-id='./Assign-Assets/' title='Language' class='sidelist'>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/views/#Language'>Language </a>"+
                     "</li>"+
                     "<li data-nav-id='./Add Assets/ ' title='Assign Assets and Return Assets Options' class='sidelist '>"+
@@ -162,7 +162,7 @@ $(document).ready(function() {
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/views/#assign-assets-and-return-assets-options'>Assign Assets and Return Assets Options</a>"+
                     "</li>"+
-                    "<li data-nav-id='./Add Assets/ ' title='Column Views' class='sidelist '>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Sample Data In Dashboard' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/views/#Sample'>Sample Data In Dashboard</a>"+
@@ -171,7 +171,7 @@ $(document).ready(function() {
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/views/#column-views'>Column Views</a>"+
                     "</li>"+
-                    "<li data-nav-id='./Add Assets/ ' title='Column Views' class='sidelist '>"+
+                    "<li data-nav-id='./Add Assets/ ' title='Sharepoint Page Views' class='sidelist '>"+
                     "<ul class='sidenavSub-topics '>"+
                     "</ul>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/views/#Sharepoint-Page-Views'>Sharepoint Page Views</a>"+

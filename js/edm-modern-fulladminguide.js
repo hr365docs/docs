@@ -9,7 +9,7 @@ $(document).ready(function () {
         "</a>" +
         "</li>" +
 // AD 
-        "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Profile Card' class=sidelist>" +
+        "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Architecture Diagram' class=sidelist>" +
         "<a href='/sharepoint-employee-directory/modern/admin/ArchitectureDiagram/'>" +
         "Architecture Diagram" +
         "</a>" +
@@ -33,10 +33,10 @@ $(document).ready(function () {
 
 
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
-        "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='General' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/dashboard/general'>General</a>" +
         "</li>" +
-        "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='Advance' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/dashboard/advance'>Advance</a>" +
         "</li>" +
         
@@ -89,11 +89,11 @@ $(document).ready(function () {
         "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#allow-user-export-directory'>Allow users to export directory</a>" +
         "</li>" +
 
-        "<li  data-nav-id='../advanced/' title='Language selection' class='sidelist'>" +
+        "<li  data-nav-id='../advanced/' title='Language selection as browser default language' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#language-selection-as-browser'>Language selection as browser default language</a>" +
         "</li>" +
 
-        "<li  data-nav-id='../advanced/' title='Language selection' class='sidelist '>" +
+        "<li  data-nav-id='../advanced/' title='Language Language selection in case browser default language is not detected' class='sidelist '>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/general/#language-selection'>Language selection in case browser default language is not detected</a>" +
         "</li>" +
 
