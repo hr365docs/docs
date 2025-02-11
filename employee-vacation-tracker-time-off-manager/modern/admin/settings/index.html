@@ -6,7 +6,8 @@
     <title>Time-Off Manager 365 | Admin Guide | Settings</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.92.2">
-    <meta name="description" content="Time-Off Manager 365 - Configure and customize settings for the time-off management system.">
+    <meta name="description"
+        content="Time-Off Manager 365 - Configure and customize settings for the time-off management system.">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
@@ -59,13 +60,13 @@
 
 
 <body>
-            <!-- Google Tag Manager (noscript) -->
-            <noscript>
-                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
-                    style="display:none;visibility:hidden">
-                </iframe>
-            </noscript>
-            <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="shadow-bottom sticky-top bg-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container px-2 px-md-0">
@@ -152,7 +153,7 @@
 
                             <ol id="themes">
                                 <li>
-                                    <h6 >Theme
+                                    <h6>Theme
 
                                     </h6>Here, you can change the theme color light, dark and site theme.
                                 </li>
@@ -257,7 +258,7 @@
                                 <img src="allow_users.png" onclick="openModal('allow_users.png')" alt="allow user"
                                     width="100%">
                                 <br><br id="SampleDataDashboard">
-                                <li >
+                                <li>
                                     <h6>Show Sample data in Dashboard</h6> To display sample data on the dashboard,
                                     simply activate the toggle button.
                                 </li>
@@ -330,7 +331,65 @@
                                     <img src="29.png" onclick="openModal('29.png')" alt="Office Location"
                                         width="100%"><br><br>
                                 </li>
-
+                                <li id="LogSettings">
+                                    <h6>Log Settings</h6>
+                                    <p>The user has the option to enable log collection. If you want to collect logs,
+                                        please turn on the toggle. These logs are used for troubleshooting any issues
+                                        occurring in your application.</p>
+                                    <img src="EnableLogsCollection.png" onclick="openModal('EnableLogsCollection.png')"
+                                        alt="Office Location" width="100%"><br>
+                                    <br>
+                                    <h6>Log Types</h6>
+                                    <p>After enabling log collection, the user will see an option for 'Log Types'
+                                        below."</p>
+                                    <img src="LogsType.png" onclick="openModal('LogsType.png')" alt="Office Location"
+                                        width="100%"><br><br>
+                                    <ul style="list-style-type: bullet;">
+                                        <li><b>Debug Logs:</b> Captures detailed system activity for in-depth
+                                            troubleshooting. It generates extensive logs and requires significant
+                                            storage
+                                            space. Ideal for resolving specific issues. </li>
+                                        <br>
+                                        <li><b>Information Logs:</b>Records all application actions, providing a
+                                            complete
+                                            activity trail. Useful for analyzing suspected issues but consumes moderate
+                                            storage. </li>
+                                        <br>
+                                        <li><b>Warning Logs:</b>Logs errors and potential risks that might not
+                                            immediately
+                                            disrupt functionality. Focused on early issue detection with minimal storage
+                                            impact. </li>
+                                        <br>
+                                        <li><b>Error Logs:</b>Logs critical errors affecting application functionality.
+                                            Provides essential details for immediate troubleshooting with minimal
+                                            storage
+                                            usage.</li>
+                                        <br>
+                                        <img src="ThreeOption.png" onclick="openModal('ThreeOption.png')"
+                                            alt="Office Location" width="100%"><br><br>
+                                        <p>If the user selects 'Debug' from the log types and saves it.</p>
+                                        <img src="DebugAndSave.png" onclick="openModal('DebugAndSave.png')"
+                                            alt="Office Location" width="100%"><br><br>
+                                        <p>Then, the user will see an option to 'Download Logs' after going to the help
+                                            page.</p>
+                                        <img src="HelpDownload.png" onclick="openModal('HelpDownload.png')"
+                                            alt="Office Location" width="100%"><br><br>
+                                        <p>In the field, the current user's name must be entered, and then by clicking
+                                            on 'View,' the user can access and view the debug logs.</p>
+                                        <img src="UserAndView.png" onclick="openModal('UserAndView.png')"
+                                            alt="Office Location" width="100%"><br><br>
+                                        <img src="logsView.png" onclick="openModal('logsView.png')"
+                                            alt="Office Location" width="100%"><br><br>
+                                        <p>The user can click on the 'Share' icon to share the logs. Encrypted logs will
+                                            be shared with Cubic for further troubleshooting and to provide a more
+                                            efficient resolution.</p>
+                                        <img src="Share.png" onclick="openModal('Share.png')"
+                                            alt="Office Location" width="100%"><br><br>
+                                        <p>For downloading, the user can click on the 'Download' option to retrieve the logs.</p>
+                                        <img src="DownloadLogs.png" onclick="openModal('DownloadLogs.png')"
+                                            alt="Office Location" width="100%"><br><br>
+                                    </ul>
+                                </li> <br>
 
                             </ol>
                         </div>
@@ -488,8 +547,7 @@
                                 width="100%">
                             <br><br>
                             <p>Click the Add User button to manually add a new user to the TM365 application.</p>
-                            <img src="addbtn.png" onclick="openModal('addbtn.png')" alt="Add Leave"
-                                width="100%">
+                            <img src="addbtn.png" onclick="openModal('addbtn.png')" alt="Add Leave" width="100%">
                             <br> <br>
                             <img src="addnewleave.png" onclick="openModal('addnewleave.png')" alt="Add Leave"
                                 width="100%">
@@ -535,7 +593,8 @@
                                 </li>
                                 <li> <b>Tertiary approver:</b> &ensp;You can select HR or manager of manager or any
                                     selected email id as tertiary approver.</li>
-                                <li><b>Import leaves:</b>&ensp;Click the Bulk Add button to import multiple users at once using a bulk upload method.</li>
+                                <li><b>Import leaves:</b>&ensp;Click the Bulk Add button to import multiple users at
+                                    once using a bulk upload method.</li>
                                 <br>
                                 <img src="importbtn.png" onclick="openModal('importbtn.png')" alt="Import leave"
                                     width="100%">
@@ -544,8 +603,8 @@
                                     <b>Upload</b> button to upload the the file
                                 </p>
                                 <br>
-                                <img src="uploadbtn.png" onclick="openModal('uploadbtn.png')"
-                                    alt="Import leave" width="100%">
+                                <img src="uploadbtn.png" onclick="openModal('uploadbtn.png')" alt="Import leave"
+                                    width="100%">
                                 <br><br>
 
 
@@ -642,22 +701,54 @@
                                     <br>
 
                             </ol>
-
-
+                            <div class="bg-light p-4 common-scroll" id="Audit-Logs">
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Audit Logs
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>The Audit Logs feature in the application provides a detailed record of all user
+                                    activities and system changes within the Settings module. It helps administrators
+                                    track
+                                    modifications, identify unauthorized actions, and ensure compliance with
+                                    organizational
+                                    policies. </p>
+                                <p>Click on this icon button.</p>
+                                <img src="Aduitlogo.png" onclick="openModal('Aduitlogo.png')" alt="Report"
+                                    width="100%"><br>
+                                <br>
+                                <p>After clicking, a panel will be shown where you can check the history of any setting.
+                                </p>
+                                <img src="AduitlogoPanel.png" onclick="openModal('AduitlogoPanel.png')" alt="Report"
+                                    width="100%"><br>
+                                <br>
+                                <p>If the user wants to view the previous history of the Date Format, they should click
+                                    on the Date Format option. Both the previous and current history will be displayed,
+                                    showing what it was before and what changes have been made.</p>
+                                <img src="Dateformat.png" onclick="openModal('Dateformat.png')" alt="Report"
+                                    width="100%"><br>
+                                <br>
+                                <p>Then, the Audit Logs panel will be displayed. The user should click on the Date
+                                    Format option.</p>
+                                <img src="DateformatAduit.png" onclick="openModal('DateformatAduit.png')" alt="Report"
+                                    width="100%"><br>
+                                <br>
+                                <p>Then, the user will get all the details of the Audit Logs.</p>
+                                <img src="auditlogDetails.png" onclick="openModal('auditlogDetails.png')" alt="Report"
+                                    width="100%"><br>
+                                <br>
+                            </div>
                         </div>
+
+
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                        <nav class="pagination mt-3">
+                            <a class="nav nav-prev" href="../reports/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Reports</span></a>
+                            <a class="nav nav-next" href="../help/" aria-label="Previous page"> <span
+                                    class="d-none d-md-block">Help</span><i class="ti-arrow-right ml-2"></i></a>
+                        </nav>
                     </div>
-
-
-                    <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                    <nav class="pagination mt-3">
-                        <a class="nav nav-prev" href="../reports/" aria-label="Previous page"><i
-                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Reports</span></a>
-                        <a class="nav nav-next" href="../help/" aria-label="Previous page"> <span
-                                class="d-none d-md-block">Help</span><i class="ti-arrow-right ml-2"></i></a>
-                    </nav>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <div id="myModal" class="modal">

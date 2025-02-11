@@ -108,6 +108,9 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title='Language' class='sidelist'>" +
         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#Language'> Language </a>" +
         "</li>" +       
+        "<li data-nav-id='../General' title='Log settings' class='sidelist'>" +
+        "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/#LogSettings'>Log settings</a>" +
+        "</li>" +       
         "</ul>" +
         "</li>"+
 

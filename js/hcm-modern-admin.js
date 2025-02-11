@@ -52,18 +52,27 @@ $(document).ready(function () {
                 "<li  data-nav-id='../advanced/' title='Date Format' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/settings/general/#DateFormat'>Date Format</a>" +
                 "</li>" +
+                "<li  data-nav-id='../advanced/' title='Default Currency' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/general/#DefaultCurrency'>Default Currency</a>" +
+                "</li>" +
 
                 "<li  data-nav-id='../advanced/' title='Show favorite icon' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/settings/general/#ShowFavIcon'>Show favorite icon</a>" +
                 "</li>" +
-
+                "<li  data-nav-id='../advanced/' title='Langauge' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/general/#Langauge'>Langauge</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Brand Logo' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/general/#Brand-logo'>Brand Logo</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Shared Mail Box' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/general/#Brand-logo'>Shared Mail Box</a>" +
+                "</li>" +
                 "<li  data-nav-id='../advanced/' title='Sharepoint page components' class='sidelist '>" +
                 "<a href='/HCM365/modern/admin/settings/general/#Sharepoint-page'>Sharepoint page components</a>" +
                 "</li>" +
 
-                "<li  data-nav-id='../advanced/' title='Brand Logo' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/settings/general/#Brand-logo'>Brand Logo</a>" +
-                "</li>" +
+              
                 "</ul>" +
 
                 "</li>" +
