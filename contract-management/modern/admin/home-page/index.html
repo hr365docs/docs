@@ -40,7 +40,7 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');</script>
     <!-- End Google Tag Manager -->
-  
+
 </head>
 
 <body>
@@ -76,8 +76,8 @@
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a
-                                href="../../../../contract-management/">CLM 365</a></h5>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../contract-management/">CLM
+                                365</a></h5>
                         <a class=back-btn href="../../../../contract-management/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=../Time-off-manager/index.html title="User Guide" class="sidelist active">
@@ -111,17 +111,145 @@
                             <li><b>Terminated</b>: Displays contracts that have been terminated.</li>
                             <li><b>My Task</b>: Shows tasks that are pending approval by the task owner.</li>
                             </p>
-                            <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                            <nav class="pagination mt-3">
-                                <a class="nav nav-prev" href="../architecture-diagram/" aria-label="Previous page"><i
-                                        class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Architecture
-                                        Diagram</span></a>
-                                <a class="nav nav-next" href="../dashboard/" aria-label="Previous page"> <span
-                                        class="d-none d-md-block">Dashboard</span><i
-                                        class="ti-arrow-right ml-2"></i></a>
-                            </nav>
+                        </div>
+                        <div class="bg-light p-4 remove-padding" id="AI Summary ">
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href="">AI Summary
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <p>The "AI Summary" section is intended to provide an automatically generated summary of the
+                                document. However, in this case, the system was unable to generate a summary because the
+                                document did not contain any text to analyze. If a different document with text is
+                                provided, the AI can generate a relevant summary based on its contents.
+                                <br>
+                                If the content is more than 100 to 200 pages, the AI Summary will focus on key aspects
+                                such as an overview, major sections, important terms, risk and compliance factors,
+                                actionable insights, and key takeaways to provide a concise yet comprehensive
+                                understanding of the document.
+                            </p>
+                            <div><img src="ContractTitle.png" onclick="openModal('ContractTitle.png')" alt="CLM"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+                            <div><img src="AIsummary.png" onclick="openModal('AIsummary.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+
+                        </div>
+                        <div class="bg-light p-4 remove-padding" id="Deviation">
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Deviation
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <p>In general, a deviation refers to any change or an exception made to the standard terms,
+                                clauses, or policies predefined in a contract template. These deviations can arise
+                                during the drafting, negotiation, or approval stages of a contract and often require
+                                careful review to ensure there are any unnecessary risks. For example, a deviation could
+                                involve modifying payment terms, such as changing the schedule or amounts.
+                                <br>
+                                In our application, we have this feature called the Deviation Task, which is
+                                specifically designed to manage these exceptions efficiently. A Deviation Task can be
+                                created directly from the timeline whenever a request is in the legal review stage.
+                                While approving the legal review, a deviation Task can also be created from the
+                                timeline. Once a deviation Task is created, it facilitates communication between the
+                                task creator and the assigned approver, allowing them to respond to each other for
+                                further clarifications or updates.
+                                <br>
+                                The approver has the authority to either approve or reject the task after reviewing its
+                                details. Additionally, all deviation tasks associated with a specific request can be
+                                easily viewed, ensuring transparency as demonstrated in the figures below.
+                                <br>To create a deviation task, click on Create Deviation from timeline as shown below.
+                            </p>
+                            <div><img src="Devi.png" onclick="openModal('Devi.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <p>Once Create Deviation is clicked below dialog will open where user needs to fill
+                                deviation name, assigned to and dew date with necessary description.</p>
+                            <div><img src="CreateDev.png" onclick="openModal('CreateDev.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <p>Once a task is created it will be available in my tasks tab in the application. Below
+                                image shows how a deviation task needs to be approved or rejected. Here, approver can
+                                reply to the one who created this task.</p>
+                            <div><img src="Approve.png" onclick="openModal('Approve.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+
+                            <div><img src="Reply.png" onclick="openModal('Reply.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <p>Once deviation task is approved, task status can be seen below in deviation tab of a
+                                particular request.</p>
+                            <div><img src="Approved.png" onclick="openModal('Approved.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <p>If multiple deviations are created for same request, all deviations can be seen in recent
+                                deviation with its status.</p>
+                            <div><img src="multiple.png" onclick="openModal('multiple.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+
+                        </div>
+                        <div class="bg-light p-4 remove-padding" id="Deviation">
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Review
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <p> The Review Contract section provides detailed information on the contract review process
+                                within the system. This feature allows users to review, track, and manage contract
+                                documents effectively. It ensures that contracts go through a structured review and
+                                approval process before finalization.</p>
+                            <div><img src="Review.png" onclick="openModal('Review.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <p>The New Request form allows users to submit a contract for review by selecting a
+                                recipient responsible for the review, setting the urgency level (e.g., High), attaching
+                                supporting documents, and finalizing the request by clicking the Submit button for
+                                processing.</p>
+                            <div><img src="ReviewRequest.png" onclick="openModal('ReviewRequest.png')" alt="CLM"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+
+                        </div>
+                        <div class="bg-light p-4 remove-padding" id="Consult">
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Consult
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <p>The Consult Contract section provides detailed information on the contract consultation
+                                process within the system. This feature allows users to review, discuss, and seek expert
+                                opinions on contract documents before finalization. It ensures that contracts undergo a
+                                structured consultation process, allowing stakeholders to collaborate, provide insights,
+                                and make informed decisions.</p>
+                            <div><img src="consult.png" onclick="openModal('consult.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <p>The New Request form for Consultation allows users to submit a contract for expert advice
+                                by selecting a recipient, defining the priority level (e.g., High), attaching relevant
+                                documents, and finalizing the request by clicking the Submit button for processing.</p>
+                            <div><img src="ConsultRequest.png" onclick="openModal('ConsultRequest.png')" alt="CLM"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+
                         </div>
                     </div>
+
+                    <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                    <nav class="pagination mt-3">
+                        <a class="nav nav-prev" href="../architecture-diagram/" aria-label="Previous page"><i
+                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Architecture
+                                Diagram</span></a>
+                        <a class="nav nav-next" href="../dashboard/" aria-label="Previous page"> <span
+                                class="d-none d-md-block">Dashboard</span><i class="ti-arrow-right ml-2"></i></a>
+                    </nav>
+
                 </div>
             </div>
     </section>

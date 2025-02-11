@@ -175,10 +175,11 @@
                                 <li>In the second line of the script, replace your tenant's name in the URL and your
                                     email address.</li>
                                 <li>Install-Module -Name Microsoft.Online.SharePoint.PowerShell -RequiredVersion
-                                    16.0.8029.0 <br>
+                                    16.0.8029.0
                                     Connect-SPOService <b>https://YourTenantName-admin.sharepoint.com/ </b>-credential
-                                    User@contoso.com
-                                    Set-SPOTenant -ShowAllUsersClaim $true.
+                                    User@bright.onmicrosoft.com
+                                    <br>
+                                    Set-SPOTenant -ShowAllUsersClaim $true
                                 </li><br>
                                 <p>For example, if your tenant's name is 'Bright' and your email address is
                                     john_Taylor@bright.onmicrosoft.com, the line should be <br>
@@ -207,6 +208,10 @@
                                     Run the script only once.
 
                                 </p>
+                                <br>
+                                <p>Additional API's: <b>Directory.Read.All</b>,<b>User.Read.All</b>,<b>Presence.Read.All</b></p>
+                                <div><img src="image.png" onclick="openModal( 'image.png') " alt="Helpdesk" width="100% "
+                                    height="auto "></div><br>
                             </ol>
                         </li>
 
