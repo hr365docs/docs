@@ -262,6 +262,11 @@ $(document).ready(function () {
         "</ul>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#integrateMicrosoft'>Integrate Microsoft Form with Helpdesk</a>"+
         "</li>"+
+        "<li data-nav-id='./Add Assets/ ' title='DevOps Integrations' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#DevOps-Integrations'>DevOps Integrations</a>"+
+        "</li>"+
         "</ul>"+
         "</li>"+
 
