@@ -178,13 +178,12 @@
                                     Connect-SPOService https://Bright-admin.sharepoint.com/ -credential
                                     john_Taylor@bright.onmicrosoft.com
                                 </p><br>
-                                <p><b>The script:
+                                <p><b>The  script:
                                     </b><br>
                                     Install-Module -Name Microsoft.Online.SharePoint.PowerShell -RequiredVersion
                                     16.0.8029.0 
                                     Connect-SPOService https://Bright-admin.sharepoint.com/ -credential
-                                    john_Taylor@bright.onmicrosoft.com
-                                    <br>
+                                    john_Taylor@bright.onmicrosoft.com<br>
                                     Set-SPOTenant -ShowAllUsersClaim $true.
                                 </p>
                                 <li>Copy and paste the script into PowerShell, press Enter, and a credential box will
@@ -202,9 +201,12 @@
 
                                 </p>
                                 <br>
-                                <!-- <p>Additional API's: <b>Directory.Read.All</b>,<b>User.Read.All</b>,<b>Presence.Read.All</b></p>
-                                <div><img src="image.png" onclick="openModal( 'image.png') " alt="Helpdesk" width="100% "
-                                    height="auto "></div><br> -->
+                                <p>First, the user should go to <b>portal.azure.com</b>, then on the homepage, type External Identities in the search box and search for it.</p>
+                                <div><img src="External.png" onclick="openModal( 'image.png') " alt="Helpdesk" width="100% "
+                                    height="auto "></div><br>
+                                    <p>Next, navigate to <b>External Collaboration Settings</b>. Under <b>Guest User Access</b>, select the first option and click <b>Save</b>.</p>
+                                <div><img src="Collaboration.png" onclick="openModal( 'Collaboration.png') " alt="Helpdesk" width="100% "
+                                    height="auto "></div><br>
                             </ol>
                         </li>
 
