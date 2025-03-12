@@ -6,7 +6,8 @@
     <title>Helpdesk 365 | Admin Guide | Reports</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="Hugo 0.92.2">
-    <meta name="description" content="The HR365 Helpdesk Admin Guide provides a detailed overview of the Reports feature, allowing users to manage and generate various reports for tracking helpdesk activities.">
+    <meta name="description"
+        content="The HR365 Helpdesk Admin Guide provides a detailed overview of the Reports feature, allowing users to manage and generate various reports for tracking helpdesk activities.">
     <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css">
     <link rel="icon" href="#" type="image/x-icon">
@@ -32,7 +33,7 @@
 
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start': new Date().getTime(), event: 'gtm.js'
             });
@@ -112,10 +113,21 @@
                                     <p>Admin, and Supervisor can view and generate reports. First, filter the ticket
                                         information for selected dates, assigned to, teams (department or group),
                                         status, priority, request type and services as per your requirement and finally
-                                        you could download the reports via export to excel.</b>.
+                                        you could download the reports via export to excel.</b>
 
                                     <div><img src="report_.png" onclick="openModal('report_.png')" alt="Report"
                                             width="100%" height="auto"></div>
+                                    <br>
+                                    <p>When a user applies the global filter, such as "Current Month," "Last Month," or
+                                        other predefined date ranges, the system filters data based on the selected
+                                        timeframe. However, once the global filter is applied, other filters such as
+                                        agent, team, priority, and status do not function. This ensures that the data
+                                        strictly adheres to the global filter criteria, preventing conflicts with
+                                        additional filtering options. To apply different filters, the user must first
+                                        reset or remove the global filter.</b>
+
+                                    <div><img src="SearchFilter.png" onclick="openModal('SearchFilter.png')"
+                                            alt="Report" width="100%" height="auto"></div>
                                     <br>
                                     <h4><b>Teams Reports</b></h4>
 

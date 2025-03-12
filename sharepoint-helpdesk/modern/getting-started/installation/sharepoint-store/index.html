@@ -32,7 +32,7 @@
 
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start': new Date().getTime(), event: 'gtm.js'
             });
@@ -47,13 +47,13 @@
 
 
 <body>
-                    <!-- Google Tag Manager (noscript) -->
-                    <noscript>
-                        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
-                            style="display:none;visibility:hidden">
-                        </iframe>
-                    </noscript>
-                    <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="shadow-bottom sticky-top bg-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container px-2 px-md-0">
@@ -132,214 +132,362 @@
                             <h3 id="_dashboards"><a class="header-icon-link highlight" href="">Installation of
                                     Helpdesk 365 from SharePoint Store <i class="fas fa-link"
                                         style="font-size:12px; color:lightgray;"></i></a> </h3>
-                          
-                            <h4 id="_dashboards"><a class="header-icon-link highlight" href="#">Prerequisites:<i class="fas fa-link"
-                                style="font-size:12px; color:lightgray;"></i></a> </h4> 
-<ol>
-                          <li>The application can only be installed by a Global Admin or SharePoint Admin by following the steps outlined below.</li>
-                            <li>The application’s features rely on APIs, which can be enabled by a Global Admin with the necessary permissions.</li></ol>
-                            </div>
+
+                            <h4 id="_dashboards"><a class="header-icon-link highlight" href="#">Prerequisites:<i
+                                        class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h4>
                             <ol>
+                                <li>The application can only be installed by a Global Admin or SharePoint Admin by
+                                    following the steps outlined below.</li>
+                                <li>The application’s features rely on APIs, which can be enabled by a Global Admin with
+                                    the necessary permissions.</li>
+                            </ol>
+                        </div>
+                        <ol>
+                            <br>
+                            <li>
+                                Navigate to the app catalog page using the following URL format:
                                 <br>
-                                <li>
-                                    Navigate to the app catalog page using the following URL format:
-                                    <br>
-                                     <b><div>
-                                        <b style="word-break: break-all;">https://yourtenantname.sharepoint.com/sites/appcatalog/_layouts/15/tenantAppCatalog.aspx/manageApps</b>
-                                    </div></b>
-                                    <br>
-                                    <p>Replace <em><b>yourtenantname.sharepoint.com</b></em> with your actual tenant name, for example: <em><b>cubiclogics.sharepoint.com</b></em>.
-                                        <br>
-                                    Once you are on the page, click on the "Classic Experience" options.</p>
-                                    <br>
-                                    <div><img src="classic_new.png" onclick="openModal('classic_new.png')" alt="Classic"
-                                            width="100%" height="auto"></div>
-                                </li>
-
-                                <br>
-
-                                <li>Click on <b>setting gear icon</b> and select on <b>Add an app</b>.
-                                    <br><br>
-                                    <div><img src="gear_icon.png" onclick="openModal('gear_icon.png')" alt="Gear icon"
-                                            width="100%" height="auto"></div>
-                                    <br>
-                                    <div><img src="add_an_app.png" onclick="openModal('add_an_app.png')"
-                                            alt="Add an app" width="100%" height="auto"></div>
-                                </li>
-                                <br>
-
-                                <li>Click on <b>SharePoint Store</b> and type <b>Apps365</b> in search box.
-                                    All applications from Apps365
-                                    will sort.</li>
-                                <br>
-                                <div><img src="apps365SharePointStore.png" onclick="openModal('apps365SharePointStore.png')" alt="Sahrepoint store"
-                                        width="100%" height="auto"></div>
-                                <br>
-                                <br>
-
-                                <li>Click on <b>Helpdesk 365</b> application.</li>
-                                <br>
-
-                                <div><img src="mod.png" onclick="openModal('mod.png')" alt="Click OBM 365" width="100%"
-                                        height="auto"></div>
-
-
-
-                                <br>
-                                <li>Click on <b>Add to Apps site</b>.</li>
-                                <br>
-                                <div><img src="add_catalog.png" onclick="openModal('add_catalog.png')"
-                                        alt="Add to app catalog" width="100%" height="auto"></div>
-                                <br>
-                                <li>Select the checkbox (Enable this app and add it to all sites ) and click on
-                                    <b>Add</b> button.
-
-                                  
-
-                                </li>
-<br>
-
-
-                                <div><img src="enable.png" onclick="openModal('enable.png')" alt="Enable" width="100%"
-                                        height="auto"></div>
-                                        <div class="notices note">
-                                            <div class="paragraph">
-                                                <p>Now you can make this solution or application package available for all sites in the organization, once the application is installed, later you can remove the app from all sites.
-    <br>
-    <br>
-                                                    By performing these actions, the selected application package will be downloaded from the Microsoft SharePoint Store into your tenant.
-                                                </p>
-                                            </div>
-                                        </div>
-                                <br>
-
-                                <li>Click on <b>OK</b> button.</li>
-
-                                <div> <br><img src="AppPermission.png" onclick="openModal('AppPermission.png')"
-                                        alt="API Access" width="100%" height="auto"></div>
-                                <br>
-                                <li>
-                                    <p> On SharePoint admin center page,From left panel under advanced click on API
-                                        access option under pending request, there are requests
-                                        ( Microsoft Graph, Presence.Read.All, User.Read.All, MailboxSettings.Read,
-                                        Calendars.Read, Group.Read.All, Chat.ReadWrite, Chat.Create,
-                                        Mail.Read.Shared) select and click on approve one by one for all the 
-                                        requests.</p>
-                                </li>
-                                <div> <br><img src="ApiAccess.png" onclick="openModal('ApiAccess.png')" alt="API Access"
-                                        width="100%" height="auto"></div>
-                                <br>
-                                <li>
-                                    The user can select and approve individual permissions, then proceed further.
-                                </li>
-                                <div> <br><img src="PendingRequest.png" onclick="openModal('PendingRequest.png')"
-                                        alt="API Access" width="100%" height="auto"></div>
-                                <br>
-                                <div> <br><img src="Approve.png" onclick="openModal('Approve.png')" alt="API Access"
-                                    width="100%" height="auto"></div>
-                               
-                                          <br>
-                               
-
-                                <li>Go to Location (i.e., Site collection or subsite) where you want to install the
-                                    <b>Helpdesk 365</b> application.
-                                </li>
-
-                                <div class="notices note">
-                                    <div class="paragraph">
-                                        <p> We have to add Helpdesk 365 as the web part on the page.
-
-                                        </p>
+                                <b>
+                                    <div>
+                                        <b
+                                            style="word-break: break-all;">https://yourtenantname.sharepoint.com/sites/appcatalog/_layouts/15/tenantAppCatalog.aspx/manageApps</b>
                                     </div>
+                                </b>
+                                <br>
+                                <p>Replace <em><b>yourtenantname.sharepoint.com</b></em> with your actual tenant name,
+                                    for example: <em><b>cubiclogics.sharepoint.com</b></em>.
+                                    <br>
+                                    Once you are on the page, click on the "Classic Experience" options.
+                                </p>
+                                <br>
+                                <div><img src="classic_new.png" onclick="openModal('classic_new.png')" alt="Classic"
+                                        width="100%" height="auto"></div>
+                            </li>
+
+                            <br>
+
+                            <li>Click on <b>setting gear icon</b> and select on <b>Add an app</b>.
+                                <br><br>
+                                <div><img src="gear_icon.png" onclick="openModal('gear_icon.png')" alt="Gear icon"
+                                        width="100%" height="auto"></div>
+                                <br>
+                                <div><img src="add_an_app.png" onclick="openModal('add_an_app.png')" alt="Add an app"
+                                        width="100%" height="auto"></div>
+                            </li>
+                            <br>
+
+                            <li>Click on <b>SharePoint Store</b> and type <b>Apps365</b> in search box.
+                                All applications from Apps365
+                                will sort.</li>
+                            <br>
+                            <div><img src="apps365SharePointStore.png" onclick="openModal('apps365SharePointStore.png')"
+                                    alt="Sahrepoint store" width="100%" height="auto"></div>
+                            <br>
+                            <br>
+
+                            <li>Click on <b>Helpdesk 365</b> application.</li>
+                            <br>
+
+                            <div><img src="mod.png" onclick="openModal('mod.png')" alt="Click OBM 365" width="100%"
+                                    height="auto"></div>
+
+
+
+                            <br>
+                            <li>Click on <b>Add to Apps site</b>.</li>
+                            <br>
+                            <div><img src="add_catalog.png" onclick="openModal('add_catalog.png')"
+                                    alt="Add to app catalog" width="100%" height="auto"></div>
+                            <br>
+                            <li>Select the checkbox (Enable this app and add it to all sites ) and click on
+                                <b>Add</b> button.
+
+
+
+                            </li>
+                            <br>
+
+
+                            <div><img src="enable.png" onclick="openModal('enable.png')" alt="Enable" width="100%"
+                                    height="auto"></div>
+                            <div class="notices note">
+                                <div class="paragraph">
+                                    <p>Now you can make this solution or application package available for all sites in
+                                        the organization, once the application is installed, later you can remove the
+                                        app from all sites.
+                                        <br>
+                                        <br>
+                                        By performing these actions, the selected application package will be downloaded
+                                        from the Microsoft SharePoint Store into your tenant.
+                                    </p>
                                 </div>
-
-
-                                <br>
-
-                                <li>Now click on <b>+ icon</b> and then select the Helpdesk
-                                    365 as shown in below.</li>
-                                <br>
-                                <div><img src="plus.png" onclick="openModal('plus.png')" alt="Plus icon" width="100%"
-                                        height="auto"></div>
-                                <br>
-                                <div><img src="select_helpdesk.png" onclick="openModal('select_helpdesk.png')"
-                                        alt="Select helpdesk" width="100%" height="auto"></div>
-                                <br>
-                                <li>You can also change the title areas as plain by clicking on
-                                    <b>Edit</b> icon and selecting Plain for better look as shown in
-                                    below.
-                                </li>
-                                <br>
-
-
-                                <div><img src="edit_title.png" onclick="openModal('edit_title.png')" alt="Edit title"
-                                        width="100%" height="auto"></div>
-                                <br>
-
-                                <li>Finally click on <b>Publish</b> button.</li>
-                                <br>
-                                <div><img src="publish.png" onclick="openModal('publish.png')" alt="Publish button"
-                                        width="100%" height="auto"></div>
-                                <br>
-
-                                <li>
-                                    Finally, refresh the page.
-                                </li>
-                            </ol>
-                            <br>
-                            <h4>How to remove this solution available to all sites in the organization</h4>
-                            <br>
-                            <ol>
-                                <li>
-                                    Now select the Helpdesk 365, click on files and then the deploy icon.
-                                    <br><br>
-                                    <div><img src="remove.png" onclick="openModal('remove.png')" alt="Remove"
-                                            width="100%" height="auto"></div>
-                                </li>
-                                <br>
-                                <li>
-                                    Now unselect the check box and finally click on deploy button.
-
-                                    <br><br>
-                                    <div><img src="deploy_.png" onclick="openModal('deploy_.png')" alt="Deploy"
-                                            width="100%" height="auto"></div>
-                                </li>
-                            </ol>
-                        </div>
-                        <div class="notices note">
-                            <div class="paragraph">
-                                <p>There are two types of installations:
-                                    <br>
-                                    <br>
-                                   1. Installation via package upload in the app catalog site.
-                                   <br>
-                                   2. Installation from the SharePoint store (AppSource).
-                                   <br>
-                                   <br>
-                                    If you delete the package installation and reinstall the app from
-                                    the SharePoint store, or vice versa, it will not impact or result in
-                                    data loss. This is because the application's data is stored safely
-                                    in SharePoint lists, which remain unaffected by the installation
-                                    method.</p>
                             </div>
                             <br>
-                        </div>
 
-                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                        <nav class="pagination mt-3">
-                            <a class="nav nav-prev"
-                                href="../../../../../sharepoint-helpdesk/modern/getting-started/installation/"
-                                aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
-                                <span class="d-none d-md-block">Installation</span></a>
-                            <a class="nav nav-next"
-                                href="../../../../../sharepoint-helpdesk/modern/getting-started/installation/using-app-file/"
-                                aria-label="Previous page">
-                                <span class="d-none d-md-block">App Catalog</span><i
-                                    class="ti-arrow-right ml-2"></i></a>
-                        </nav>
+                            <li>Click on <b>OK</b> button.</li>
+
+                            <div> <br><img src="AppPermission.png" onclick="openModal('AppPermission.png')"
+                                    alt="API Access" width="100%" height="auto"></div>
+                            <br>
+                            <li>
+                                <p> On SharePoint admin center page,From left panel under advanced click on API
+                                    access option under pending request, there are requests
+                                    ( Microsoft Graph, Presence.Read.All, User.Read.All, MailboxSettings.Read,
+                                    Calendars.Read, Group.Read.All, Chat.ReadWrite, Chat.Create,
+                                    Mail.Read.Shared) select and click on approve one by one for all the
+                                    requests.</p>
+                            </li>
+                            <div> <br><img src="ApiAccess.png" onclick="openModal('ApiAccess.png')" alt="API Access"
+                                    width="100%" height="auto"></div>
+                            <br>
+                            <li>
+                                The user can select and approve individual permissions, then proceed further.
+                            </li>
+                            <div> <br><img src="PendingRequest.png" onclick="openModal('PendingRequest.png')"
+                                    alt="API Access" width="100%" height="auto"></div>
+                            <br>
+                            <div> <br><img src="Approve.png" onclick="openModal('Approve.png')" alt="API Access"
+                                    width="100%" height="auto"></div>
+
+                            <br>
+
+
+                            <li>Go to Location (i.e., Site collection or subsite) where you want to install the
+                                <b>Helpdesk 365</b> application.
+                            </li>
+
+                            <div class="notices note">
+                                <div class="paragraph">
+                                    <p> We have to add Helpdesk 365 as the web part on the page.
+
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <br>
+
+                            <li>Now click on <b>+ icon</b> and then select the Helpdesk
+                                365 as shown in below.</li>
+                            <br>
+                            <div><img src="plus.png" onclick="openModal('plus.png')" alt="Plus icon" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <div><img src="select_helpdesk.png" onclick="openModal('select_helpdesk.png')"
+                                    alt="Select helpdesk" width="100%" height="auto"></div>
+                            <br>
+                            <li>You can also change the title areas as plain by clicking on
+                                <b>Edit</b> icon and selecting Plain for better look as shown in
+                                below.
+                            </li>
+                            <br>
+
+
+
+                            <div><img src="edit_title.png" onclick="openModal('edit_title.png')" alt="Edit title"
+                                    width="100%" height="auto"></div>
+                            <br>
+
+
+                            <li>Finally click on <b>Publish</b> button.</li>
+                            <br>
+                            <div><img src="publish.png" onclick="openModal('publish.png')" alt="Publish button"
+                                    width="100%" height="auto"></div>
+                            <br>
+
+                            <li>The Quick Setup in Helpdesk 365 allows users to configure their helpdesk efficiently.
+                                The setup includes the following key steps:
+                            </li>
+                            <br>
+
+
+
+                            <div><img src="GetStarted.png" onclick="openModal('GetStarted.png')" alt="Edit title"
+                                    width="100%" height="auto"></div>
+                            <br>
+                            <p>Add team members to Helpdesk 365 to enhance collaboration and streamline tasks.</p>
+                            <br>
+                            <div>
+                                <img src="Teams.png" onclick="openModal('Teams.png')" alt="Edit title" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <div>
+                                <img src="AddTeams.png" onclick="openModal('AddTeams.png')" alt="Edit title"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+
+                            <p>When a team is successfully added in Helpdesk 365, the status changes to "Completed",
+                                indicating that the task is finished.</p>
+                            <br>
+                            <div>
+                                <img src="TeamsCompleted.png" onclick="openModal('TeamsCompleted.png')" alt="Edit title"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+                            <p>Define services to categorize issues and route them correctly.</p>
+                            <br>
+                            <div>
+                                <img src="Services.png" onclick="openModal('Services.png')" alt="Edit title"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+                            <div>
+                                <img src="AddService.png" onclick="openModal('AddService.png')" alt="Edit title"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+
+                            <p>When a service is successfully added in Helpdesk 365, the status changes to "Completed",
+                                indicating that the task is finished.</p>
+                            <br>
+                            <div>
+                                <img src="ServiceCompleted.png" onclick="openModal('ServiceCompleted.png')"
+                                    alt="Edit title" width="100%" height="auto">
+                            </div>
+                            <br>
+                            <p>Add users for seamless task management and teamwork.</p>
+                            <br>
+                            <div>
+                                <img src="Users.png" onclick="openModal('Users.png')" alt="Edit title" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <div>
+                                <img src="UserAdd.png" onclick="openModal('UserAdd.png')" alt="Edit title" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <p>When a user is successfully added in Helpdesk 365, the status changes to "Completed",
+                                indicating that the task is finished.</p>
+                            <br>
+                            <div>
+                                <img src="UserCompleted.png" onclick="openModal('UserCompleted.png')" alt="Edit title"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+                            <p>Set up an automated approval workflow for a smooth approval process.</p>
+                            <br>
+                            <div>
+                                <img src="Approval.png" onclick="openModal('Approval.png')" alt="Edit title"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+                            <div>
+                                <img src="ApprovalAdd.png" onclick="openModal('ApprovalAdd.png')" alt="Edit title"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+                            <p>When an approval is successfully added in Helpdesk 365, the status changes to
+                                "Completed", indicating that the task is finished.</p>
+                            <br>
+                            <div>
+                                <img src="ApprovalAdded.png" onclick="openModal('ApprovalAdded.png')" alt="Edit title"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+                            <p>Create custom forms to improve collaboration and department-specific clarity.</p>
+                            <br>
+                            <div>
+                                <img src="CustomForm.png" onclick="openModal('CustomForm.png')" alt="Edit title"
+                                    width="100%" height="auto">
+                            </div>
+                            <br>
+                            <div>
+                                <img src="CustomFormAdded.png" onclick="openModal('CustomFormAdded.png')"
+                                    alt="Edit title" width="100%" height="auto">
+                            </div>
+                            <br>
+                            <p>When an custom forms is successfully added in Helpdesk 365, the status changes to
+                                "Completed", indicating that the task is finished.</p>
+                            <br>
+                            <div>
+                                <img src="CustomFormCompleted.png" onclick="openModal('CustomFormCompleted.png')"
+                                    alt="Edit title" width="100%" height="auto">
+                            </div>
+                            <br>
+                            <p>Configure general settings for customization and additional features.</p>
+                            <br>
+                            <div>
+                                <img src="gerenalSettings.png" onclick="openModal('gerenalSettings.png')"
+                                    alt="Edit title" width="100%" height="auto">
+                            </div>
+                            <br>
+
+                            <div>
+                                <img src="GeneralSettingsAdded.png" onclick="openModal('GeneralSettingsAdded.png')"
+                                    alt="Edit title" width="100%" height="auto">
+                            </div>
+                            <br>
+
+                            <p>Once all steps are completed (100%), the "Proceed" button is enabled, allowing users to
+                                enter the Helpdesk 365 application.</p>
+                            <br>
+                            <div>
+                                <img src="Proceed.png" onclick="openModal('Proceed.png')" alt="Edit title" width="100%"
+                                    height="auto">
+                            </div>
+                            <br>
+                            <li>
+                                Finally, refresh the page.
+                            </li>
+
+                        </ol>
+                        <br>
+                        <h4>How to remove this solution available to all sites in the organization</h4>
+                        <br>
+                        <ol>
+                            <li>
+                                Now select the Helpdesk 365, click on files and then the deploy icon.
+                                <br><br>
+                                <div><img src="remove.png" onclick="openModal('remove.png')" alt="Remove" width="100%"
+                                        height="auto"></div>
+                            </li>
+                            <br>
+                            <li>
+                                Now unselect the check box and finally click on deploy button.
+
+                                <br><br>
+                                <div><img src="deploy_.png" onclick="openModal('deploy_.png')" alt="Deploy" width="100%"
+                                        height="auto"></div>
+                            </li>
+                        </ol>
                     </div>
+                    <div class="notices note">
+                        <div class="paragraph">
+                            <p>There are two types of installations:
+                                <br>
+                                <br>
+                                1. Installation via package upload in the app catalog site.
+                                <br>
+                                2. Installation from the SharePoint store (AppSource).
+                                <br>
+                                <br>
+                                If you delete the package installation and reinstall the app from
+                                the SharePoint store, or vice versa, it will not impact or result in
+                                data loss. This is because the application's data is stored safely
+                                in SharePoint lists, which remain unaffected by the installation
+                                method.
+                            </p>
+                        </div>
+                        <br>
+                    </div>
+
+                    <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                    <nav class="pagination mt-3">
+                        <a class="nav nav-prev"
+                            href="../../../../../sharepoint-helpdesk/modern/getting-started/installation/"
+                            aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
+                            <span class="d-none d-md-block">Installation</span></a>
+                        <a class="nav nav-next"
+                            href="../../../../../sharepoint-helpdesk/modern/getting-started/installation/using-app-file/"
+                            aria-label="Previous page">
+                            <span class="d-none d-md-block">App Catalog</span><i class="ti-arrow-right ml-2"></i></a>
+                    </nav>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <div id="myModal" class="modal">
