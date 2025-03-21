@@ -182,12 +182,16 @@
                                     </b><br>
                                     Install-Module -Name Microsoft.Online.SharePoint.PowerShell -RequiredVersion
                                     16.0.8029.0 
+                                    <br>
                                     Connect-SPOService https://Bright-admin.sharepoint.com/ -credential
                                     john_Taylor@bright.onmicrosoft.com<br>
-                                    Set-SPOTenant -ShowAllUsersClaim $true.
+                                    Set-SPOTenant -ShowAllUsersClaim $true
                                 </p>
                                 <li>Copy and paste the script into PowerShell, press Enter, and a credential box will
                                     pop up. Enter your password and click 'OK.'</li>
+                                    <br>
+                                   <b> Note</b>: Please make sure to disable MFA before running the PowerShell command.
+
                                 <br>
                                 <div><img src="Screenshot_20.png" onclick="openModal( 'Screenshot_20.png') " alt="Helpdesk" width="100% "
                                         height="auto "></div><br>
