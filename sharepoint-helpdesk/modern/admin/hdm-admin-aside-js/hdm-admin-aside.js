@@ -74,25 +74,31 @@ $(document).ready(function () {
         "<li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#DisplayHelpPage'>Display Help Page</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
+        "<li data-nav-id='./Column-Setting/' title='Disable New ticket Popup Notification' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Popup-Notification'>Disable New ticket Popup Notification</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Single line ticket form' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#singleLine'>Single line ticket form</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Show resolve tab in user home' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#resolvetabs'>Show resolve tab in user home</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Disable email notifications to all CC users' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#emailcss'>Disable email notifications to all CC users</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='Display help page' class='sidelist'>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Disable New ticket option for Users' class='sidelist'>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#New-Ticket-Option'>Disable New ticket option for Users</a>"+
+        "</li>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Use Sharepoint URL for MS Teams installed application' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#SharepointURL'>Use Sharepoint URL for MS Teams installed application</a>"+
         "</li>"+
         "</li><li data-nav-id='./Column-Setting/' title='Show Favicon of Helpdesk 365' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Show-favicon-of-Helpdesk-365'>Show Favicon of Helpdesk 365</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='Show Favicon of Helpdesk 365' class='sidelist'>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Customize the favicon' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#customizeFavicon'>Customize the favicon</a>"+
         "</li>"+
-        "</li><li data-nav-id='./Column-Setting/' title='Show Favicon of Helpdesk 365' class='sidelist'>"+
+        "</li><li data-nav-id='./Column-Setting/' title='Language selection as browser default language' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#languagebrowserdefaultlanguage'>Language selection as browser default language</a>"+
         "</li>"+
         
@@ -222,6 +228,12 @@ $(document).ready(function () {
         "<li data-nav-id='./Assign-Assets/ ' title='Teams' class='sidelist '>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/role/#teams'>Add/Edit Teams</a>"+
         "</li>"+
+        "<li data-nav-id='./Assign-Assets/ ' title='Escalation Teams' class='sidelist '>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/role/#Escalation-Teams'>Escalation Teams</a>"+
+        "</li>"+
+        "<li data-nav-id='./Assign-Assets/ ' title='Add Lite Users' class='sidelist '>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/role/#Add-Lite-Users'>Add Lite Users</a>"+
+        "</li>"+
         "<li data-nav-id='./Assign-Assets/' title=Service class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/role/#service'>Service</a>"+
         "</li>"+
@@ -257,6 +269,13 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+
         "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#integrateMicrosoft'>Integrate with HR365 Asset Management</a>"+
+        "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<li data-nav-id='./Add Assets/ ' title='Copilot Integeration' class='sidelist '>"+
+        "<ul class='sidenavSub-topics '>"+
+        "</ul>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#Copilot-Integeration'>Copilot Integeration</a>"+
         "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>"+
         "<ul class='sidenavSub-topics '>"+
         "</ul>"+

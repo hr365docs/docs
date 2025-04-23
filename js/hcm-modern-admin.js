@@ -75,7 +75,7 @@ $(document).ready(function () {
                 "<a href='/HCM365/modern/admin/settings/general/#Sharepoint-page'>Sharepoint page components</a>" +
                 "</li>" +
 
-              
+
                 "</ul>" +
 
                 "</li>" +
@@ -104,37 +104,29 @@ $(document).ready(function () {
 
 
                 "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmoderngeneral'>" +
-                "<li  data-nav-id='../advanced/' title='Theme' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/settings/general/#Theme'>Theme</a>" +
+                "<li  data-nav-id='../advanced/' title='Department' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/Administration/#Department'>Department</a>" +
                 "</li>" +
 
-                "<li  data-nav-id='../advanced/' title='Date Format' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/settings/general/#DateFormat'>Date Format</a>" +
+                "<li  data-nav-id='../advanced/' title='Organization' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/Administration/#Organization'>Organization</a>" +
                 "</li>" +
-                "<li  data-nav-id='../advanced/' title='Default Currency' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/settings/general/#DefaultCurrency'>Default Currency</a>" +
+                "<li  data-nav-id='../advanced/' title='Badges' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/Administration/#Badges'>Badges</a>" +
                 "</li>" +
-                "<li  data-nav-id='../advanced/' title='GCC Tenant' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/settings/general/#GCC-Tenant'>GCC Tenant</a>" +
-                "</li>" +
-
-                "<li  data-nav-id='../advanced/' title='Show favorite icon' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/settings/general/#ShowFavIcon'>Show favorite icon</a>" +
-                "</li>" +
-                "<li  data-nav-id='../advanced/' title='Langauge' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/settings/general/#Langauge'>Langauge</a>" +
-                "</li>" +
-                "<li  data-nav-id='../advanced/' title='Brand Logo' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/settings/general/#Brand-logo'>Brand Logo</a>" +
-                "</li>" +
-                "<li  data-nav-id='../advanced/' title='Shared Mail Box' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/settings/general/#Brand-logo'>Shared Mail Box</a>" +
-                "</li>" +
-                "<li  data-nav-id='../advanced/' title='Sharepoint page components' class='sidelist '>" +
-                "<a href='/HCM365/modern/admin/settings/general/#Sharepoint-page'>Sharepoint page components</a>" +
+                "<li  data-nav-id='../advanced/' title='Grade' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/Administration/#Grade'>Grade</a>" +
                 "</li>" +
 
-              
+                "<li  data-nav-id='../advanced/' title='Location' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/Administration/#Location'>Location</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Position' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/settings/Administration/#Position'>Position</a>" +
+                "</li>" +
+
+
+
                 "</ul>" +
 
                 "</li>" +
@@ -156,7 +148,7 @@ $(document).ready(function () {
                 "<li class='dropdownicon sidelist' title='view'>" +
                 "<a  class='qwe' href='/HCM365/modern/admin/settings/UserRole/index.html'>" +
                 "User's Role Permissions" +
-              
+
                 "</a>" +
                 "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
                 "</li>" +
@@ -173,7 +165,7 @@ $(document).ready(function () {
                 // "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#Birthday'>Birthdays and work anniversaries images</a>" +
                 // "</li>" +
 
-               
+
                 "</ul>" +
 
                 "</li>" +
