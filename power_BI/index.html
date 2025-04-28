@@ -3,10 +3,10 @@
 
 <head>
     <meta charset=utf-8>
-    <title>Employee Directory</title>
+    <title>Power BI Desktop</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
-    <meta name=description content="Employee Directory - HR365 ">
+    <meta name=description content="Power BI Desktop">
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
     <link rel=icon href=# type=image/x-icon>
@@ -39,14 +39,14 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');</script>
     <!-- End Google Tag Manager -->
-    
-    
-    
+
+
+
     <meta name=twitter:title content="Power BI">
     <meta name=twitter:description content="Power BI">
     <meta property="og:title" content="Power BI">
     <meta property="og:description" content="Power BI">
-    
+
     <meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-employee-directory/">
     <meta name=twitter:card content="summary">
     <meta name=twitter:title content="Power BI">
@@ -64,7 +64,7 @@
     <header class="shadow-bottom sticky-top bg-white">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container px-2 px-md-0">
-                <a class="navbar-brand px-2" href="https://kb..hr365.us/">
+                <a class="navbar-brand px-2" href="https://kb.hr365.us/">
                     <img class=img-fluid src="../../../images/logo_.png" alt=HR365>
                 </a>
                 <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
@@ -101,67 +101,71 @@
 
 
                             <ol>
-                                <li>Firstly, Download and install Power BI Desktop.
+                                <li>First, download and install Power BI Desktop.
                                     <br>
-                                <li>Open Power BI Desktop and in the Home tab of the ribbon, select Get data</li>
+                                <li>Open Power BI Desktop, and on the Home tab of the ribbon, select Get Data.</li>
                                 <br>
-                                <div><img src="Picture11.jpg" onclick="openModal('Picture11.jpg')" alt="" width="100%"
+                                <div><img src="getData.png" onclick="openModal('getData.jpg')" alt="" width="100%"
                                         height="auto"></div>
                         </li>
                         <br>
-                        <li>After clicking on Get data, click on More.
+                        <li>After clicking Get Data, select More.
                             <br>
                             <br>
-                            <div><img src="Picture12.jpg" onclick="openModal('Picture12.jpg')" alt="" width="100%"
-                                    height="auto"></div>
+                            <div><img src="more.png" onclick="openModal('more.jpg')" alt="" width="100%" height="auto">
+                            </div>
                         </li>
                         <br>
 
 
-                        <li>Select Online Services, then select SharePoint Online List.</li>
+                        <li>Under Other, select SharePoint List.</li>
                         <br>
-                        <div><img src="Picture13.jpg" onclick="openModal('Picture13.jpg')" alt="" width="100%"
+                        <div><img src="others.png" onclick="openModal('others.png')" alt="" width="100%" height="auto">
+                        </div>
+                        <br>
+                        <li>Locate the address (URL) of your SharePoint Online site that contains the list.</li>
+                        <br>
+                        <li>In Power BI Desktop, paste the address into the Site URL field in the dialog box and click
+                            OK.</li>
+                        <br>
+                        <div><img src="ListOK.png" onclick="openModal('ListOK.png')" alt="" width="100%" height="auto">
+                        </div>
+                        <br>
+                        <li>You may or may not already be connected to your Microsoft account. To connect, select
+                            Microsoft Account on the left side of the page.</li>
+                        <br>
+                        <div><img src="MicrosoftAcc.png" onclick="openModal('MicrosoftAcc.png')" alt="" width="100%"
                                 height="auto"></div>
                         <br>
-                        <li>Find the address (also known as a URL) of your SharePoint Online site that contains your
-                            list.</li>
-                        <br>
-                        <li>In Power BI Desktop, paste the address into the Site URL field in the open dialog box and
-                            click OK.</li>
-                        <br>
-                        <div><img src="Picture14.jpg" onclick="openModal('Picture14.jpg')" alt="" width="100%"
-                                height="auto"></div>
-                        <br>
-                        <li>You may or may not be connected to Microsoft account. To connect your Microsoft account,
-                            Select Microsoft account on the left side of the page.</li>
-                        <br>
-                        <div><img src="Picture15.jpg" onclick="openModal('Picture15.jpg')" alt="" width="100%"
-                                height="auto"></div>
-                        <br>
-                        <li>Select Sign In and enter the user name and password you use to sign in to Microsoft 365.
+                        <li>Click Sign In and enter the username and password you use for Microsoft 365.
                         </li>
                         <br>
-                        <div><img src="Picture16.jpg" onclick="openModal('Picture16.jpg')" alt="" width="100%"
-                                height="auto"></div>
+                        <div><img src="signin.png" onclick="openModal('signin.jpg')" alt="" width="100%" height="auto">
+                        </div>
                         <br>
-                        <li>When you finish signing in, select Connect.</li>
+                        <li>Once signed in, select Connect.</li>
                         <br>
-                        <div><img src="Picture17.jpg" onclick="openModal('Picture17.jpg')" alt="" width="100%"
-                                height="auto"></div>
+                        <div><img src="load.png" onclick="openModal('load.jpg')" alt="" width="100%" height="auto">
+                        </div>
                         <br>
                         </li>
-                        <li>Select Load. Power BI loads your list data into a new report.</li>
-                        <br>
-                        <li>On the left side, select the Data icon to see that your SharePoint list data was loaded.
+                        <li>Click Load. Power BI will load your SharePoint list data into a new report.
+
                         </li>
                         <br>
-                        <div><img src="Picture18.jpg" onclick="openModal('Picture18.jpg')" alt="" width="100%"
-                                height="auto"></div>
+                        <li>On the left side, select the Data icon to verify that your SharePoint list data has been
+                            loaded.
+                        </li>
                         <br>
-                        <li>Select the report icon and start visualizing your report</li>
+                        <div><img src="Data.png" onclick="openModal('Data.png')" alt="" width="100%" height="auto">
+                        </div>
                         <br>
-                        <li>Select columns you want to visualize by selecting the checkbox beside them in the Fields
-                            pane on the right.</li>
+                        <li>Select the Report icon to start creating your visualization.
+
+                        </li>
+                        <br>
+                        <li>Choose the columns you want to visualize by selecting the checkboxes beside them in the
+                            Fields pane on the right.</li>
                         <br>
                         <div><img src="Picture19.jpg" onclick="openModal('Picture19.jpg')" alt="" width="100%"
                                 height="auto"></div>
@@ -178,13 +182,13 @@
                         </ul>
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                    <nav class="pagination mt-3">
+                        <!-- <nav class="pagination mt-3">
                         <a class="nav nav-prev" href="../../../../sharepoint-employee-directory/"
                             aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
                             <span class="d-none d-md-block">Employee Directory</span></a>
                         <a class="nav nav-next" href="../installation/using-app-file/" aria-label="Previous page">
                             <span class="d-none d-md-block">App catalog</span><i class="ti-arrow-right ml-2"></i></a>
-                    </nav>
+                    </nav> -->
                 </div>
             </div>
         </div>
