@@ -265,7 +265,7 @@ $(document).ready(function () {
                 "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
 
                 "<li class='dropdownicon sidelist' title='Help'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/help/'>" +
+                "<a href='#'>" +
                 "Apps" +
                 "</a>" +
                 "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
@@ -273,7 +273,7 @@ $(document).ready(function () {
                 "<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
                 "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
                 "<li  data-nav-id='../advanced/' title='ED365' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/help/#Feedback'>ED365</a>" +
+                "<a href='#'>ED365</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='ED365' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/ED365/introduction/index.html'>Introduction</a>" +
@@ -283,6 +283,15 @@ $(document).ready(function () {
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='ED365' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/ED365/dashboard/index.html'>Dashboard</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='ED365-Settings' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/ED365/settings/index.html'>Settings</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='ED365 - Gerenal Settings' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/ED365/settings/general/'>Gerenal Settings</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='ED365 - Settings - Views' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/ED365/settings/views/'>View</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='TM365' class='sidelist'>" +
                 "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>TM365</a>" +
