@@ -210,6 +210,12 @@ $(document).ready(function () {
         "<li  data-nav-id='../advanced/' title='Allow users to export directory' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#ShoworHidemodules'>Show or Hide modules</a>" +
         "</li>" +
+        "<li  data-nav-id='../advanced/' title='Praise' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#Praise'>Praise</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='Show text to speech' class='sidelist'>"+
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#Show-text-to-speech'>Show text to speech</a>"+
+      "</li>"+
 
         "<li  data-nav-id='../advanced/' title='Allow users to export directory' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#Sortby'>Sort by</a>" +
@@ -235,6 +241,9 @@ $(document).ready(function () {
       
         "<li  data-nav-id='../advanced/' title='Allow users to export directory' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#UserpropertiesinProfileCard'>User properties in Profile Card</a>" +
+        "</li>" +
+        "<li  data-nav-id='../advanced/' title='User-Properties-in-Hover-Card class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#User-Properties-in-Hover-Card'>User properties in hover card</a>" +
         "</li>" +
       
         "</ul>" +
