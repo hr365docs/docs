@@ -344,6 +344,9 @@ $(document).ready(function () {
         "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Additionalmanager'>Additional manager</a>" +
         "</li>" +
+        "<li  data-nav-id='../advanced/' title='Analytics Report' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Analytics-Report'>Analytics Report</a>" +
+        "</li>" +
         "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Autoloadinsteadloadmorebutton'>Auto load instead load more button</a>" +
         "</li>" +
