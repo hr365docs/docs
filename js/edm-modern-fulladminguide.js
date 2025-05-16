@@ -375,6 +375,9 @@ $(document).ready(function () {
         "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Extendcustomfieldssearchcapability'>Extend custom fields search capability</a>" +
         "</li>" +
+        "<li  data-nav-id='../advanced/' title='Export data permission' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#Export-data-permission'>Export data permission</a>" +
+        "</li>" +
         "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/settings/advanced/#ImportnonM365users'>Import non M365 users</a>" +
         "</li>" +
