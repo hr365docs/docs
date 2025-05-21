@@ -299,9 +299,31 @@ $(document).ready(function () {
                 "<li  data-nav-id='../advanced/' title='EO365' class='sidelist'>" +
                 "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>EO365</a>" +
                 "</li>" +
-                "<li  data-nav-id='../advanced/' title='TS365' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>TS365</a>" +
+                "<a href='#'>TS365</a>" +
                 "</li>" +
+                "<li  data-nav-id='../advanced/' title='Home page' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/TS365/home-page'>Home page</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Reports' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/TS365/reports'>Reports</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Administration' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/TS365/administration'>Administration</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Settings' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/TS365/Settings'>Settings</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Features' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/TS365/features'>Features</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Gerenal' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/TS365/Gerenal'>Gerenal</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Email Template' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/TS365/email-template'>Email Template</a>" +
+                "</li>" +
+                
+
                 "<li  data-nav-id='../advanced/' title='ET365' class='sidelist'>" +
                 "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>ET365</a>" +
                 "</li>" +
