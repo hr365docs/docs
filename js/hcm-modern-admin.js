@@ -293,9 +293,24 @@ $(document).ready(function () {
                 "<li  data-nav-id='../advanced/' title='ED365 - Settings - Views' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/ED365/settings/views/'>View</a>" +
                 "</li>" +
-                "<li  data-nav-id='../advanced/' title='TM365' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>TM365</a>" +
-                "</li>" +
+                "<a href='#'>TMP365</a>" +
+"</li>" +
+"<li  data-nav-id='../advanced/' title='TMP365 - Home page' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/TMP365/home-page/'>Home page</a>" +
+"</li>" +
+"<li  data-nav-id='../advanced/' title='TMP365 - Profile Card' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/TMP365/hr-actions/'>HR actions</a>" +
+"</li>" +
+"<li  data-nav-id='../advanced/' title='TMP365 - Dashboard' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/TMP365/holidays/'>Public Holidays</a>" +
+"</li>" +
+
+"<li  data-nav-id='../advanced/' title='TMP365 - General Settings' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/TMP365/reports/'>Reports</a>" +
+"</li>" +"<li  data-nav-id='../advanced/' title='TMP365 - General Settings' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/TMP365/settings/'>System Setting</a>" +
+"</li>"+
+ +
                 "<li  data-nav-id='../advanced/' title='EO365' class='sidelist'>" +
                 "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>EO365</a>" +
                 "</li>" +
