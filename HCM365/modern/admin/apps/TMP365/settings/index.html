@@ -261,7 +261,7 @@
                                     alt="leave reordering" width="100%">
                                 <br id="ShowFavoriteicon"><br>
 
-                                <li>
+                                <!-- <li>
                                     <h6>Show Favorite icon</h6>
                                     Activate the toggle to display the favicon on the left side of the browser tab,
                                     facilitating easy identification of the website for users.
@@ -270,14 +270,14 @@
                                 <img src="Favoriteicon.png" onclick="openModal('Favoriteicon.png')"
                                     alt="leave reordering" width="100%">
                                 <br id="LeavesReordering"><br>
-                                <li>
+                                <li> -->
                                     <h6>Leaves reordering</h6>Here You Can reorder the Leaves.
                                 </li>
                                 <br>
                                 <img src="2.png" onclick="openModal('2.png')" alt="brand logo" width="100%">
                                 <br id="HideSharePoint"><br>
-                                <li>
-                                    <h6>Hide SharePoint page's default components.</h6>Select Configure to Process
+                                <!-- <li> -->
+                                    <!-- <h6>Hide SharePoint page's default components.</h6>Select Configure to Process
                                     Continue.
                                 </li><br>
                                 <img src="4.png" onclick="openModal('4.png')" alt="brand logo" width="100%">
@@ -296,7 +296,7 @@
                                     sharepoint page where app is running.</p>
                                 <p><b>Hide Left Navigation Bar On Collapse For Teams :</b>Enable this toggle will hide
                                     left navigation bar on collapse for teams where app is running.</p>
-                                <br id="Display-Title">
+                                <br id="Display-Title"> -->
 
                                 <li><b>Display Title :</b>
 
@@ -306,7 +306,14 @@
                                 <br><img src="Displaytile.png" onclick="openModal('Displaytile.png')"
                                     alt="Office Location" width="100%"><br>
                                 <br>
-                                <li id="Language">
+                                <li><b>Brand Logo :</b>
+
+                                    
+                                </li>
+                                <br><img src="25.png" onclick="openModal('25.png')"
+                                    alt="Office Location" width="100%"><br>
+                                <br>
+                                <!-- <li id="Language">
                                     <h6>Language selection as browser default language.</h6> Select browser Default
                                     Language.
                                 </li> <br>
@@ -383,7 +390,7 @@
                                         <img src="DownloadLogs.png" onclick="openModal('DownloadLogs.png')"
                                             alt="Office Location" width="100%"><br><br>
                                     </ul>
-                                </li> <br>
+                                </li> <br> -->
 
                             </ol>
                         </div>
@@ -391,19 +398,19 @@
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Advance
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <br><img src="6.png" onclick="openModal('6.png')" alt="Office Location" width="100%"><br>
+                            <br><img src="30.png" onclick="openModal('30.png')" alt="Office Location" width="100%"><br>
                             <br>
                             <ol id="Organization">
-                                <li><b>Organization:</b> You can input your organization's location here.
+                                <!--<li><b>Organization:</b> You can input your organization's location here.
                                 </li> <br>
                                 <img src="30.png" onclick="openModal('30.png')" alt="Office Location" width="100%"><br>
-                                <br>
-                                <p>To include a location, click on the <b>+Add</b> button.</p> <br>
+                                <br> -->
+                                <!-- <p>To include a location, click on the <b>+Add</b> button.</p> <br>
                                 <img src="31.png" onclick="openModal('31.png')" alt="Office Location" width="100%"><br>
-                                <br>
-                                <p>Enter the details and then save by clicking on the "Save" button.</p><br>
+                                <br></li>
+                               <li> <p>Enter the details and then save by clicking on the "Save" button.</p><br><
                                 <img src="32.png" onclick="openModal('32.png')" alt="Office Location" width="100%"><br>
-                                <br>
+                                <br> -->
                                 <li id="Leaveaccrual">
                                     <h6>Leave accrual</h6>By enabling this option, users will have their leaves accrued
                                     every month rather than allotted on the first day of the year.
@@ -532,7 +539,8 @@
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Leaves
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                            <p><b>Leaves</b></p>
+                            <img src="leaves.png" onclick="openModal('leaves.pagination')" alt="Leave setting"
+                                width="100%"><br>
                             <p>New leave type could be added, by clicking on add button and entering all the details.
                                 New leave types, status, accrual, show leave types in home page, partial day, leave
                                 notice in advance, secondary approver, tertiary approver etc could be added.</p>
@@ -631,6 +639,11 @@
                                     width="100%">
                                 <br><br>
                                 <li id="Allowbackdateleaves">
+                                    <h6>Allow Negative leaves </h6>
+                                </li>
+                                <img src="negative1.png" onclick="openModal('11.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li id="Allowbackdateleaves">
                                     <h6>Allow backdate leaves </h6>User can be allowed to submit back date leaves by X
                                     days
                                 </li>
@@ -673,6 +686,14 @@
                                     <br><br>
 
                                 </li>
+                                <li id="Employee Type Based"> <b>Employee Type Based Leaves:</b>
+                                   
+                                    <br><br>
+                                    <img src="Emp_based.png" onclick="openModal('Emp_based.png')"
+                                        alt="Tenure based" width="100%">
+                                    <br><br>
+
+                                </li>
                         </div>
 
                         <div class="bg-light p-4 common-scroll" id="Reports">
@@ -695,7 +716,7 @@
                                     <br>
 
                             </ol>
-                            <div class="bg-light p-4 common-scroll" id="Audit-Logs">
+                            <!-- <div class="bg-light p-4 common-scroll" id="Audit-Logs">
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Audit Logs
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
@@ -730,7 +751,7 @@
                                     width="100%"><br>
                                 <br>
                             </div>
-                        </div>
+                        </div> -->
 
 
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
