@@ -378,12 +378,51 @@ $(document).ready(function () {
                 "<a href='/HCM365/modern/admin/apps/ET365/settings/'>Settings</a>" +
                 "</li>"
                 +
-                "<li  data-nav-id='../advanced/' title='RM365' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/help/#product-activation'>RM365</a>" +
+                
+                "</li>" +
+               
+                
+                "<a href='#'>RM365</a>" +
                 "</li>" +
 
+                "<li data-nav-id='../advanced/' title='RM365 - Home Page' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/RM365/home-page/'>Home Page</a>" +
                 "</li>" +
+                "<li data-nav-id='../advanced/' title='RM365 - Draft' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/RM365/draft/'>Draft</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='RM365 - Inactive Items' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/RM365/inactiveitem/'>Inactive Items</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/RM365/settings/'>Settings</a>" +
+                "</li>"
+                 +
 
+                "</li>" +
+"<a href='#'>PM365</a>" +
+"</li>" +
+
+"<li data-nav-id='../advanced/' title='PM365 - Home Page' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/home-page/'>Home Page</a>" +
+"</li>" +
+
+"<li data-nav-id='../advanced/' title='PM365 - Appraisal Cycle' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/appraisal-cycle/'>Appraisal Cycle</a>" +
+"</li>" +
+
+"<li data-nav-id='../advanced/' title='PM365 - Roles' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/roles/'>Roles</a>" +
+"</li>" +
+
+"<li data-nav-id='../advanced/' title='PM365 - Settings' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/settings/'>Settings</a>" +
+"</li>" +
+
+"<li data-nav-id='../advanced/' title='PM365 - Reports' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/reports/'>Reports</a>" +
+"</li>"
++
                 "</ul>" +
 
                 "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
