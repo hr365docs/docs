@@ -315,6 +315,9 @@ $(document).ready(function () {
                 "<li data-nav-id='../advanced/' title='EO365 - Home Page' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/home/'>Home Page</a>" +
                 "</li>" +
+                 "<li data-nav-id='../advanced/' title='EO365 - Home Page' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/EO365/dashboard/'>Dashboard</a>" +
+                "</li>" +
                 "<li data-nav-id='../advanced/' title='EO365 - Access Requirements' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/access-requirements/'>Access Requirements</a>" +
                 "</li>" +
@@ -322,7 +325,7 @@ $(document).ready(function () {
                 "<a href='/HCM365/modern/admin/apps/EO365/setting/'>Settings</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='EO365 - Report' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/apps/EO365/reports/'>Report</a>" +
+                "<a href='/HCM365/modern/admin/apps/EO365/report/'>Report</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='EO365 - ShareEss Url' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/share-ess-url/'>ShareEss Url</a>" +
