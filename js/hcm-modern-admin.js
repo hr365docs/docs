@@ -486,6 +486,13 @@ $(document).ready(function () {
 "<li data-nav-id='../advanced/' title='PM365 - Home Page' class='sidelist'>" +
 "<a href='/HCM365/modern/admin/apps/PM365/home-page/'>Home Page</a>" +
 "</li>" +
+"<li data-nav-id='../advanced/' title='PM365 - Dashboard' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/dashboard/'>Dashboard</a>" +
+"</li>" +
+"<li data-nav-id='../advanced/' title='PM365 - Document' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/Document/'>Document</a>" +
+"</li>" +
+
 
 "<li data-nav-id='../advanced/' title='PM365 - Appraisal Cycle' class='sidelist'>" +
 "<a href='/HCM365/modern/admin/apps/PM365/appraisal-cycle/'>Appraisal Cycle</a>" +
@@ -494,9 +501,27 @@ $(document).ready(function () {
 "<li data-nav-id='../advanced/' title='PM365 - Roles' class='sidelist'>" +
 "<a href='/HCM365/modern/admin/apps/PM365/roles/'>Roles</a>" +
 "</li>" +
+"<li data-nav-id='../advanced/' title='PM365 - Administration' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/administration/'>Administration</a>" +
+"</li>" +
 
 "<li data-nav-id='../advanced/' title='PM365 - Settings' class='sidelist'>" +
 "<a href='/HCM365/modern/admin/apps/PM365/settings/'>Settings</a>" +
+"</li>" +
+"<li data-nav-id='../advanced/' title='PM365 - General-Settings' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/settings/#general-setting/'>General Settings</a>" +
+"</li>" +
+"<li data-nav-id='../advanced/' title='PM365 - Users' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/settings/#users/'>Users</a>" +
+"</li>" +
+"<li data-nav-id='../advanced/' title='PM365 - Advance Settings' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/settings/#Advance settings/'>Advance Settings</a>" +
+"</li>" +
+"<li data-nav-id='../advanced/' title='PM365 - Notification' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/settings/#notification/'>Notification</a>" +
+"</li>" +
+"<li data-nav-id='../advanced/' title='PM365 - Features' class='sidelist'>" +
+"<a href='/HCM365/modern/admin/apps/PM365/settings/#features/'>Features</a>" +
 "</li>" +
 
 "<li data-nav-id='../advanced/' title='PM365 - Reports' class='sidelist'>" +
