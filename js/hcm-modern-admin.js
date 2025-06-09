@@ -172,89 +172,89 @@ $(document).ready(function () {
 
 
 
-                //  exclude option 
+                // //  exclude option 
 
 
 
-                "<ul id='modernadminmainsetting'>" +
-                "<li class='dropdownicon sidelist' title='Exclude Options'>" +
-                "<a  class='qwe' href='/HCM365/modern/admin/settings/exclude-options/'>" +
-                "Exclude Options" +
-                "</a>" +
-                "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
-                "</li>" +
-                "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
-
-
-
-                "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmoderngeneral'>" +
-
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#ExcludeO365sign-inblockedusers'>Exclude 365 sign-in blocked users</a>" +
-                "</li>" +
-
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbydepartment'>Exclude user by department</a>" +
-                "</li>" +
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeusersbyjobtitle'>Exclude users by job title</a>" +
-                "</li>" +
-
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#ExcludeusersbyName'>Exclude users by Name</a>" +
-                "</li>" +
-
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbyofficelocation'>Exclude user by Office Location</a>" +
-                "</li>" +
-
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbyusingcsvfile'>Exclude user by using csv file</a>" +
-                "</li>" +
-
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#ExcludeUsersByUPN'>Exclude Users By UPN</a>" +
-                "</li>" +
-
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbycontain'>Exclude user by contain</a>" +
-                "</li>" +
-
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeusershiddeninaddresslist'>Exclude users hidden in address list</a>" +
-                "</li>" +
-
-
-                "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
-                "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Removesharedmailboxes'>Remove shared mailboxes</a>" +
-                "</li>" +
-
-
-
-
-
-
-                // "<li data-nav-id='../views/' title='Make user sortabel' class='sidelist'>" +
-                // "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#make-user-sortable'>" +
-                // "Make user sortable" +
+                // "<ul id='modernadminmainsetting'>" +
+                // "<li class='dropdownicon sidelist' title='Exclude Options'>" +
+                // "<a  class='qwe' href='/HCM365/modern/admin/settings/exclude-options/'>" +
+                // "Exclude Options" +
                 // "</a>" +
+                // "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+                // "</li>" +
+                // "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
+
+
+
+                // "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmoderngeneral'>" +
+
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#ExcludeO365sign-inblockedusers'>Exclude 365 sign-in blocked users</a>" +
+                // "</li>" +
+
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbydepartment'>Exclude user by department</a>" +
+                // "</li>" +
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeusersbyjobtitle'>Exclude users by job title</a>" +
+                // "</li>" +
+
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#ExcludeusersbyName'>Exclude users by Name</a>" +
+                // "</li>" +
+
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbyofficelocation'>Exclude user by Office Location</a>" +
+                // "</li>" +
+
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbyusingcsvfile'>Exclude user by using csv file</a>" +
+                // "</li>" +
+
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#ExcludeUsersByUPN'>Exclude Users By UPN</a>" +
+                // "</li>" +
+
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeuserbycontain'>Exclude user by contain</a>" +
+                // "</li>" +
+
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Excludeusershiddeninaddresslist'>Exclude users hidden in address list</a>" +
                 // "</li>" +
 
 
-                "<li data-nav-id='../advanced/' title=Advanced class='sidelist dropdown_romove_dot'>" +
+                // "<li  data-nav-id='../advanced/' title='Search filters' class='sidelist'>" +
+                // "<a href='/sharepoint-employee-directory/modern/admin/settings/exclude-options/#Removesharedmailboxes'>Remove shared mailboxes</a>" +
+                // "</li>" +
 
 
 
 
 
-                "</ul>" +
+
+                // // "<li data-nav-id='../views/' title='Make user sortabel' class='sidelist'>" +
+                // // "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#make-user-sortable'>" +
+                // // "Make user sortable" +
+                // // "</a>" +
+                // // "</li>" +
 
 
-                "</ul>" +
+                // "<li data-nav-id='../advanced/' title=Advanced class='sidelist dropdown_romove_dot'>" +
 
 
-                "</a>" +
-                "</ul>" +
+
+
+
+                // "</ul>" +
+
+
+                // "</ul>" +
+
+
+                // "</a>" +
+                // "</ul>" +
                 // setting end 
 
 
@@ -293,6 +293,12 @@ $(document).ready(function () {
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='ED365 - Views' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/ED365/settings/views/'>View</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='ED365 - exclude options' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/ED365/settings/exclude-options/'>Exclude-Option</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='ED365 - Views' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/ED365/settings/advanced/'>Advanced</a>" +
                 "</li>" +
                 "<a href='#' title='TMP365'>TMP365</a>" +
                 "</li>" +
