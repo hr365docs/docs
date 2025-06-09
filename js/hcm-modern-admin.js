@@ -324,7 +324,7 @@ $(document).ready(function () {
                 "<li data-nav-id='../advanced/' title='EO365 - Home Page' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/home/'>Home Page</a>" +
                 "</li>" +
-                 "<li data-nav-id='../advanced/' title='EO365 - Home Page' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='EO365 - Dashboard' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/dashboard/'>Dashboard</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='EO365 - Access Requirements' class='sidelist'>" +
@@ -333,25 +333,25 @@ $(document).ready(function () {
                 "<li data-nav-id='../advanced/' title='EO365 - Settings' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/setting/'>Settings</a>" +
                 "</li>" +
-                 "<li data-nav-id='../advanced/' title='EO365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='EO365 - General Administration' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/setting/general-administation/'>General Administration</a>" +
                 "</li>" +
-                 "<li data-nav-id='../advanced/' title='EO365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='EO365 - Task Administraion' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/setting/task-administation'>Task Administration</a>" +
                 "</li>" +
-                 "<li data-nav-id='../advanced/' title='EO365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='EO365 - General-Settings' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/setting/general-setting'>General Settings</a>" +
                 "</li>" +
                  "<li data-nav-id='../advanced/' title='EO365 - Settings' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions'>Users,Roles and Permissions</a>" +
                 "</li>" +
-                 "<li data-nav-id='../advanced/' title='EO365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='EO365 - Integration' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/setting/Integration'>Integration</a>" +
                 "</li>" +
-                 "<li data-nav-id='../advanced/' title='EO365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='EO365 - Features' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/setting/Features'>Features</a>" +
                 "</li>" +
-                 "<li data-nav-id='../advanced/' title='EO365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='EO365 - NOtification' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/EO365/setting/Notification'>Notifications</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='EO365 - Report' class='sidelist'>" +
@@ -378,7 +378,7 @@ $(document).ready(function () {
                 "<li  data-nav-id='../advanced/' title='Settings' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/TS365/Settings'>Settings</a>" +
                 "</li>" +
-                "<li  data-nav-id='../advanced/' title='Features' class='sidelist'>" +
+                "<li  data-nav-id='../advanced/' title='Notification' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/TS365/Settings/notification'>Nofication</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Features' class='sidelist'>" +
@@ -407,7 +407,7 @@ $(document).ready(function () {
                 "<li data-nav-id='../advanced/' title='ET365 - Reports' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/ET365/reports/'>Reports</a>" +
                 "</li>" +
-                "<li data-nav-id='../advanced/' title='ET365 - Reports' class='sidelist'>" +
+                "<li data-nav-id='../advanced/' title='ET365 - Administraion' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/ET365/administration'>Administration</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='ET365 - Settings' class='sidelist'>" +
@@ -430,7 +430,7 @@ $(document).ready(function () {
                 "<li data-nav-id='../advanced/' title='RM365 - Inactive Items' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/RM365/inactiveitem/'>Inactive Items</a>" +
                 "</li>" +
-                "<li data-nav-id='../advanced/' title='RM365 - Inactive Items' class='sidelist'>" +
+                "<li data-nav-id='../advanced/' title='RM365 - Administration' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/RM365/administration/'>Administration</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
@@ -438,86 +438,82 @@ $(document).ready(function () {
                 
                 "</li>"
                  +
-                 "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='RM365 - Job Posting' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/RM365/settings/Job-Posting/'>Job Posting</a>" +
                 
                 "</li>"
                  +
-                 "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='RM365 - Email Configuration' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/RM365/settings/Email-Configration/'>Email Configuration</a>" +
                 
                 "</li>"
                  +
-                 "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='RM365 - SGeneral-ettings' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/RM365/settings/general-setting/'>General Settings</a>" +
                 
                 "</li>"
                  +
-                 "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='RM365 - Permission' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/RM365/settings/permissions/'>Permission</a>" +
                 
                 "</li>"
                  +
-                 "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='RM365 - Hiring-Process' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/RM365/settings/hiring-process/'>Hiring Process</a>" +
                 
                 "</li>"
                  +
-                 "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='RM365 - Requisition Templates' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/RM365/settings/Requisition-Templates/'>Requisition Templates</a>" +
                 
                 "</li>"
                  +
-                 "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
+                 "<li data-nav-id='../advanced/' title='RM365 - Portal Configuration' class='sidelist'>" +
                 "<a href='/HCM365/modern/admin/apps/RM365/settings/portal-configration'>Portal Configuration</a>" +
                 
                 "</li>"
                  +
-                 "<li data-nav-id='../advanced/' title='RM365 - Settings' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/apps/RM365/settings/'>Settings</a>" +
-                
-                "</li>"
-                 +
+                 
 
                 "</li>" +
-"<a href='#'>PM365</a>" +
-"</li>" +
+                "<a href='#'>PM365</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='PM365 - Home Page' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/home-page/'>Home Page</a>" +
-"</li>" +
-"<li data-nav-id='../advanced/' title='PM365 - Dashboard' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/dashboard/'>Dashboard</a>" +
-"</li>" +
-"<li data-nav-id='../advanced/' title='PM365 - Document' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/Document/'>Document</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Home Page' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/home-page/'>Home Page</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Dashboard' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/dashboard/'>Dashboard</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Document' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/Document/'>Document</a>" +
+                "</li>" +
 
 
-"<li data-nav-id='../advanced/' title='PM365 - Appraisal Cycle' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/appraisal-cycle/'>Appraisal Cycle</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Appraisal Cycle' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/appraisal-cycle/'>Appraisal Cycle</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='PM365 - Roles' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/roles/'>Roles</a>" +
-"</li>" +
-"<li data-nav-id='../advanced/' title='PM365 - Administration' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/administration/'>Administration</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Roles' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/roles/'>Roles</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Administration' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/administration/'>Administration</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='PM365 - Settings' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/settings/'>Settings</a>" +
-"</li>" +
-"<li data-nav-id='../advanced/' title='PM365 - General-Settings' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/settings/#general-setting/'>General Settings</a>" +
-"</li>" +
-"<li data-nav-id='../advanced/' title='PM365 - Users' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/settings/#users/'>Users</a>" +
-"</li>" +
-"<li data-nav-id='../advanced/' title='PM365 - Advance Settings' class='sidelist'>" +
-"<a href='/HCM365/modern/admin/apps/PM365/settings/#Advance settings/'>Advance Settings</a>" +
-"</li>" +
-"<li data-nav-id='../advanced/' title='PM365 - Notification' class='sidelist'>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Settings' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/settings/'>Settings</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - General-Settings' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/settings/#general-setting/'>General Settings</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Users' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/settings/#users/'>Users</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Advance Settings' class='sidelist'>" +
+                "<a href='/HCM365/modern/admin/apps/PM365/settings/#Advance settings/'>Advance Settings</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='PM365 - Notification' class='sidelist'>" +
 "<a href='/HCM365/modern/admin/apps/PM365/settings/#notification/'>Notification</a>" +
 "</li>" +
 "<li data-nav-id='../advanced/' title='PM365 - Features' class='sidelist'>" +
