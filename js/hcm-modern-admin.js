@@ -537,10 +537,11 @@ $(document).ready(function () {
 
 
                 "</ul>" +
+                "</ul>"+
 
                 // help start 
 
-                "<li class='dropdownicon sidelist' title='Help'>" +
+               "<li class='dropdownicon sidelist' title='Help'>" +
                 "<a href='/HCM365/modern/admin/help/'>" +
                 "Help" +
                 "</a>" +
