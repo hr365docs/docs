@@ -14,8 +14,29 @@ $(document).ready(function () {
         "<a href='/Revenue365/modern/admin/homepage/'>Home Page</a>" +
         "</li>" +
 
+         "<li data-nav-id='./Settings/' title='Buyers' class='sidelist'>" +
+        "<a href='/Revenue365/modern/admin/buyers/'>Buyers</a>" +
+        "</li>" +
+
+         "<li data-nav-id='./Settings/' title='Dashboard' class='sidelist'>" +
+        "<a href='/Revenue365/modern/admin/dashboard/'>Dashboard</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Reports' class='sidelist'>" +
+        "<a href='/Revenue365/modern/admin/reports/'>Reports</a>" +
+        "</li>" +
+
+
         "<li data-nav-id='./Settings/' title='Administration' class='sidelist'>" +
         "<a href='/Revenue365/modern/admin/administration/'>Administration</a>" +
+        "</li>" +
+
+         "<li data-nav-id='./Settings/' title='Catalog' class='sidelist'>" +
+        "<a href='/Revenue365/modern/admin/catalog/'>Catalog</a>" +
+        "</li>" +
+
+         "<li data-nav-id='./Settings/' title='Costomer ' class='sidelist'>" +
+        "<a href='/Revenue365/modern/admin/costomerjourney/'>Costomer Journey</a>" +
         "</li>" +
 
         // Settings with arrow
