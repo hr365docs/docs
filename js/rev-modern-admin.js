@@ -11,7 +11,7 @@ $(document).ready(function () {
         "</li>" +
 
         "<li data-nav-id='./Settings/' title='Home Page' class='sidelist'>" +
-        "<a href='/Revenue365/modern/admin/home-page/'>Home Page</a>" +
+        "<a href='/Revenue365/modern/admin/homepage/'>Home Page</a>" +
         "</li>" +
 
         "<li data-nav-id='./Settings/' title='Administration' class='sidelist'>" +
