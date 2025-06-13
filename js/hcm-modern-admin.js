@@ -450,7 +450,7 @@ $(document).ready(function () {
                 "</li>"
                  +
                  "<li data-nav-id='../advanced/' title='RM365 - Email Configuration' class='sidelist'>" +
-                "<a href='/HCM365/modern/admin/apps/RM365/settings/Email-Configration/'>Email Configuration</a>" +
+                "<a href='/HCM365/modern/admin/apps/RM365/settings/Email-configration/'>Email Configuration</a>" +
                 
                 "</li>"
                  +
