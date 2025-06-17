@@ -344,22 +344,22 @@ $(document).ready(function () {
                 "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/general-administation/'>General Administration</a>" +
                 "</li>" +
                  "<li data-nav-id='../advanced/' title='EO365 - Task Administraion' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/task-administation'>Task Administration</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/task-administation/'>Task Administration</a>" +
                 "</li>" +
                  "<li data-nav-id='../advanced/' title='EO365 - General-Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/general-setting'>General Settings</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/general-setting/'>General Settings</a>" +
                 "</li>" +
-                 "<li data-nav-id='../advanced/' title='EO365 - Users,Roles and Permissions' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions'>Users,Roles and Permissions</a>" +
+                 "<li data-nav-id='../advanced/' title='EO365 - Users Roles and Permissions' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions/'>Users,Roles and Permissions</a>" +
                 "</li>" +
                  "<li data-nav-id='../advanced/' title='EO365 - Integration' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Integration'>Integration</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Integration/'>Integration</a>" +
                 "</li>" +
                  "<li data-nav-id='../advanced/' title='EO365 - Features' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Features'>Features</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Features/'>Features</a>" +
                 "</li>" +
                  "<li data-nav-id='../advanced/' title='EO365 - Notification' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Notification'>Notifications</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Notification/'>Notifications</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='EO365 - Report' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/EO365/report/'>Report</a>" +
@@ -374,34 +374,34 @@ $(document).ready(function () {
                 "<a href='#' title='TS365'>TS365</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Home page' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/home-page'>Home page</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/home-page/'>Home page</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Reports' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/reports'>Reports</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/reports/'>Reports</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Administration' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/administration'>Administration</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/administration/'>Administration</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings'>Settings</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/'>Settings</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Notification' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/notification'>Nofication</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/notification/'>Nofication</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Features' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/features'>Features</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/features/'>Features</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='General Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/general'>General Settings</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/general/'>General Settings</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Email Template' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/email-template'>Email Template</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/email-template/'>Email Template</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Advance Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/advance'>Advance Settings</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/advance/'>Advance Settings</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Integration' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/integration'>Integration</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/integration/'>Integration</a>" +
                 "</li>" +
 
 
@@ -415,7 +415,7 @@ $(document).ready(function () {
                 "<a href='/HRMS-HR365/modern/admin/apps/ET365/reports/'>Reports</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='ET365 - Administraion' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/ET365/administration'>Administration</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/ET365/administration/'>Administration</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='ET365 - Settings' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/'>Settings</a>" +
@@ -476,7 +476,7 @@ $(document).ready(function () {
                 "</li>"
                  +
                  "<li data-nav-id='../advanced/' title='RM365 - Portal Configuration' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/RM365/settings/portal-configration'>Portal Configuration</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/RM365/settings/portal-configration/'>Portal Configuration</a>" +
                 
                 "</li>"
                  +
