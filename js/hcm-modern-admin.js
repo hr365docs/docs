@@ -4,7 +4,7 @@ $(document).ready(function () {
         $("#hcm-admin-guide").append("<ul>" +
                 //       intro 
                 "<li data-nav-id='./installation/requirments/' title=Introduction class=sidelist>" +
-                "<a href='/HRMS-HR365/modern/admin/introduction/index.html'>" +
+                "<a href='/HRMS-HR365/modern/admin/introduction/'>" +
                 "Introduction" +
                 "</a>" +
                 "</li>" +
@@ -16,7 +16,7 @@ $(document).ready(function () {
                 "</li>" +
                 // profil card  
                 "<li data-nav-id='https://github.com/hr365docs/My-project.git/installation/requirments/' title='Home Page' class=sidelist>" +
-                "<a href='/HRMS-HR365/modern/admin/home-page/index.html'>" +
+                "<a href='/HRMS-HR365/modern/admin/home-page/'>" +
                 "Home Page" +
                 "</a>" +
                 "</li>" +
@@ -146,7 +146,7 @@ $(document).ready(function () {
 
                 "<ul id='modernadminmainsetting'>" +
                 "<li class='dropdownicon sidelist' title='User's Role Permissions'>" +
-                "<a  class='qwe' href='/HRMS-HR365/modern/admin/settings/UserRole/index.html'>" +
+                "<a  class='qwe' href='/HRMS-HR365/modern/admin/settings/UserRole/'>" +
                 "User's Role Permissions" +
 
                 "</a>" +
@@ -274,19 +274,20 @@ $(document).ready(function () {
                 "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
 
                 "</li>" +
-                "<a href='#' title='ED365' >ED365</a>" +
+               
+                "<a href='/HRMS-HR365/modern/admin/apps/ED365/introduction/' title='ED365' >ED365</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='ED365-Introduction' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/ED365/introduction/index.html'>Introduction</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/ED365/introduction/'>Introduction</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='ED365-Profile Card' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/ED365/profile-card/index.html'>Profile Card</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/ED365/profile-card/'>Profile Card</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='ED365-Dashboard' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/ED365/dashboard/index.html'>Dashboard</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/ED365/dashboard/'>Dashboard</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='ED365-Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/index.html'>Settings</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/'>Settings</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='ED365 - General Settings' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/'>General Settings</a>" +
@@ -301,7 +302,7 @@ $(document).ready(function () {
                 "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/'>Advanced</a>" +
                 "</li>" +
                
-                "<a href='#' title='TMP365'>TMP365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/home-page/' title='TMP365'>TMP365</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='TMP365 - Home page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/TMP365/home-page/'>Home page</a>" +
@@ -318,15 +319,17 @@ $(document).ready(function () {
                  "</li>" + "<li  data-nav-id='../advanced/' title='TMP365 - System Setting' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/'>System Setting</a>" +
                 "</li>" + "<li  data-nav-id='../advanced/' title='TMP365 - General Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#general/'>General Setting</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#general'>General Setting</a>" +
                 "</li>" + "<li  data-nav-id='../advanced/' title='TMP365 - Advance Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#advance-setting/'>Advance Settings</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#advance-settings'>Advance Settings</a>" +
                 "</li>" + "<li  data-nav-id='../advanced/' title='TMP365 - Organization' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#organization/'>Organization</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#Notifications'>Notifications</a>" +
                
                 "</li>" + "<li  data-nav-id='../advanced/' title='TMP365 - Leave Type Setting' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#leave-type-setting/'>Leave Type Setting</a>" +
-                "</li>" + "<a href='#' title='EO365'>EO365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#leave-type-settings'>Leave Type Setting</a>" +
+                "</li>" + 
+                
+                "<a href='/HRMS-HR365/modern/admin/apps/EO365/home/' title='EO365'>EO365</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='EO365 - Home Page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/EO365/home/'>Home Page</a>" +
@@ -371,7 +374,7 @@ $(document).ready(function () {
                 "<a href='/HRMS-HR365/modern/admin/apps/EO365/process/'>Process</a>" +
                 "</li>" +
 
-                "<a href='#' title='TS365'>TS365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/home-page/' title='TS365'>TS365</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Home page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/TS365/home-page/'>Home page</a>" +
@@ -405,7 +408,7 @@ $(document).ready(function () {
                 "</li>" +
 
 
-                "<a href='#' title='ET365'>ET365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/ET365/home-page/' title='ET365'>ET365</a>" +
                 "</li>" +
 
                 "<li data-nav-id='../advanced/' title='ET365 - Home Page' class='sidelist'>" +
@@ -425,7 +428,7 @@ $(document).ready(function () {
                 "</li>" +
                
                 
-                "<a href='#' title='RM365'>RM365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/RM365/home-page/' title='RM365'>RM365</a>" +
                 "</li>" +
 
                 "<li data-nav-id='../advanced/' title='RM365 - Home Page' class='sidelist'>" +
@@ -483,7 +486,7 @@ $(document).ready(function () {
                  
 
                 "</li>" +
-                "<a href='#' title='PM365'>PM365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/PM365/home-page/' title='PM365'>PM365</a>" +
                 "</li>" +
 
                 "<li data-nav-id='../advanced/' title='PM365 - Home Page' class='sidelist'>" +
