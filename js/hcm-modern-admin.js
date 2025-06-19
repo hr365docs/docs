@@ -515,19 +515,15 @@ $(document).ready(function () {
                 "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/'>Settings</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='PM365 - General-Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#general-setting/'>General Settings</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#general-settings/'>General Settings</a>" +
                 "</li>" +
-                "<li data-nav-id='../advanced/' title='PM365 - Users' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#users/'>Users</a>" +
-                "</li>" +
-                "<li data-nav-id='../advanced/' title='PM365 - Advance Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Advance settings/'>Advance Settings</a>" +
-                "</li>" +
+                
+                
                 "<li data-nav-id='../advanced/' title='PM365 - Notification' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#notification/'>Notification</a>" +
+"<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#notification'>Notification</a>" +
 "</li>" +
 "<li data-nav-id='../advanced/' title='PM365 - Features' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#features/'>Features</a>" +
+"<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#features'>Features</a>" +
 "</li>" +
 
 "<li data-nav-id='../advanced/' title='PM365 - Reports' class='sidelist'>" +
