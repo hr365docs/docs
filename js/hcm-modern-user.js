@@ -25,14 +25,38 @@ $(document).ready(function () {
                 "<ul class='sidenavSub-topics aside_dropdown_list' id='modernuserapps'>" +
                 // ED365
                 "<a href='/HRMS-HR365/modern/user/apps/ED365/introduction/'>ED365</a>" +
-            
-                "<li data-nav-id='../apps/ED365/' title='ED365 - Introduction' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/ED365/introduction/'>Introduction</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/ED365/' title='ED365 - Profile Card' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/ED365/profile-card/'>Profile Card</a>" +
-                "</li>" +
-               
+
+"<li data-nav-id='../apps/ED365/' title='ED365 - Introduction' class='sidelist'>" +
+  "<a href='/HRMS-HR365/modern/user/apps/ED365/introduction/'>Introduction</a>" +
+"</li>" +
+
+"<li data-nav-id='../apps/ED365/' title='ED365 - Managing User Profile' class='sidelist'>" +
+  "<a href='/HRMS-HR365/modern/user/apps/ED365/profile-card/'>Managing User Profile</a>" +
+"</li>" +
+
+"<li data-nav-id='../apps/ED365/' title='User Interface'>" +
+  "<a class='qwe' href='/HRMS-HR365/modern/user/apps/ED365/user-interface'>User Interface</a>" +
+  
+"</li>" +
+
+
+  "<ul class='ml-15 sidenavSub-topics'>" +
+    "<li data-nav-id='../apps/ED365/' title='Home' class='sidelist'>" +
+      "<a href='/HRMS-HR365/modern/user/apps/ED365/user-interface/#home-page'>Home Page</a>" +
+    "</li>" +
+    "<li data-nav-id='../apps/ED365/' title='Search' class='sidelist'>" +
+      "<a href='/HRMS-HR365/modern/user/apps/ED365/user-interface/#search'>Search</a>" +
+    "</li>" +
+    "<li data-nav-id='../apps/ED365/' title='Views' class='sidelist'>" +
+      "<a href='/HRMS-HR365/modern/user/apps/ED365/user-interface/#views'>Views</a>" +
+    "</li>" +
+  "</ul>" +
+"</li>"+
+
+"</li>"+
+
+
+
                 
                 // TMP365
                
