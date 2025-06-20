@@ -3,7 +3,7 @@
 
 <head>
     <meta charset=utf-8>
-    <title>CLM 365 | Upgrading</title>
+    <title>HRMS-HR365 | Upgrading</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
     <meta name=description content="Performance Management  365">
@@ -73,8 +73,8 @@
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../contract-management/">CLM 365</a></h5>
-                        <a class=back-btn href="../../../../contract-management/" aria-label=back></a>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../HRMS-HR365/">HRMS-HR365</a></h5>
+                        <a class=back-btn href="../../../../HRMS-HR365/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/Upgrading/ title=Upgrading
                                 class="sidelist
@@ -82,6 +82,18 @@ active">
                                 <a href="../upgrading/">
                                     Upgrading
                                 </a>
+                                 <ul>
+                    <li data-nav-id=... class="sidelist">
+                        <a href="../../../../HRMS-HR365/modern/getting-started/upgrading/sharepointstore/">
+                            Upgrading of HRMS-HR365 from SharePoint Store
+                        </a>
+                    </li>
+                    <li data-nav-id=... class="sidelist">
+                        <a href="../../../../HRMS-HR365/modern/getting-started/upgrading/catalog/">
+                            Upgrading of HRMS-HR365 from App Catalog
+                        </a>
+                    </li>
+                </ul>
 
 
                             </li>
@@ -90,93 +102,62 @@ active">
                         </ul>
                     </div>
                 </div>
-                <div class=col-lg-9>
-                    <div class="p-lg-4 p-4 bg-white remove-padding" id=content>
-                      <!-- <h2 class=mb-5 id=title>Upgrading</h2> -->
-                      <div class="bg-light p-4 remove-padding">
-                        <ul class=page-list>
-                          <h3 id="_dashboards"><a class="header-icon-link highlight upgradingfont" href="#">Perform Update<i class="fas fa-link"
-                            style="font-size:12px; color:lightgray;"></i></a> </h3>
-                       
-                         
-                          To update the application, you can follow the below steps:
-                          <br>
-                          <div class="notices note">
-                            <div class="paragraph">
-                                <p>Only SharePoint admin can upgrade the application. </p>
-                            </div>
-                          <br>
-                          <ol>
-                            <li>
-                                Open the appcatalog page with the below URL.
+              <div class=col-lg-9>
+                    <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
+                        <!-- <h2 class=mb-5 id=title>Installation Guide</h2> -->
+                        <div class="bg-light p-4 remove-padding">
+                            <li data-nav-id=../Getting-started/installation/using-app-file title=Installation class="sidelist">
+                                <h3 id="_dashboards"><a class="header-icon-link highlight installguidefont" href="">Upgrading<i class="fas fa-link"
+                                    style="font-size:12px; color:lightgray;"></i></a> </h3>
+                   
+                            <ul class=page-list>
+                                <li data-nav-id=../Getting-started/installation/using-app-file title=Installation
+                                    class="sidelist">
+                                   
+                                    You can Upgrade the HR365 applications in two ways:
 
-                              <br><br>
-                             <b>https://yourtenantname.sharepoint.com/sites/appcatalog/_layouts/15/tenantAppCatalog.aspx/manageApps</b>
-                            <br><br>
-                            <p>YourTenantName – Replace your tenant’s name from the above URL.</p>
-                            <br>
-                            <div><img src="App.png" onclick="openModal('App.png')" alt="Apps" width="100%" height="auto"></div>
-                            <br>
-                              <br>
-                            <li>Click on <b>classic experience</b> as shown below.</li>
-                            <br>
-                            <div><img src="share.png" onclick="openModal('share.png')" alt="App for sharepoint" width="100%" height="auto"></div>
-                            <br>
-          
+                                    <ol>
+                                        <li data-nav-id="../../Getting-started/installation/install/" title=installation
+                                            class="sidelist">
+                                            <a href="../../../../HRMS-HR365/modern/getting-started/upgrading/sharepointstore/">
+                                                Using SharePoint Store
+                                            </a>
+                                        </li>
+                                        <li data-nav-id="../../Getting-started/installation/using-app-file/"
+                                            title=installation class=sidelist>
+                                            <a href="../../../../HRMS-HR365/modern/getting-started/upgrading/catalog/">
+                                                Using App catalog
+                                            </a>
+                                        </li>
+                                        <!-- <li data-nav-id="../../Getting-started/installation/install/" title=installation
+                                        class="sidelist">
+                                        <a href="../../../../sharepoint-employee-directory/modern/getting-started/installation/microsoft-teams/">
+                                          Update with the manual file.
+                                        </a>
+                                    </li> -->
+                                </li>
+                                </ol>
+                            </ul>
+
+
+                            </ul>
                             </li>
-                            <li> Select the <b>CLM 365</b>, click on <b>Files</b> and then <b>Upgrade Store App</b>.</li>
-                            <br>
-                            
-                            <div><img src="upgrade.png" onclick="openModal('upgrade.png')" alt="Upgrade" width="100%" height="auto">
-                            </div>
-                            <br>
-          
-                            <br>
-                            <li>Once you click on the <b>Upgrade Store App</b> button, this will redirect you to the below page then click on the <b>Deploy</b> button.</li>
-                            <br>
-                            <div><img src="deploy.png" onclick="openModal('deploy.png')" alt="Deploy" width="100%"
-                                height="auto"></div>
-                            </li>
-                            <br>
-                            <div class="notices note">
-                              <div class="paragraph">
-                                  <p>If you want to make this application available for all sites, you can select the <b>check box</b> and then click on the <b>Deploy</b> button.</p>
-                              </div>
-                              <li>You can verify the application version in the <b>App Catalog</b> and Employee Directory 365. In both, the application version must be the same.</li>
-          <br>
-                                      
-                              <h4>How to remove this solution available to all sites in the organization</h4>
-                              <br>
-                              <ol>
-                                  <li>
-                                      Now select the CLM 365, click on files and then the deploy icon. 
-                                      <br><br>    <div><img src="deploy__.png" onclick="openModal('deploy__.png')" alt="Deploy"
-                                          width="100%" height="auto"></div>
-                                     
-                                  </li>
-                                  <br>
-                                  <li>
-                                      Now unselect the check box and finally click on deploy button.
- 
-                                      <br><br>
-                                      <div><img src="remove.png" onclick="openModal('remove.png')" alt="Remove"
-                                          width="100%" height="auto"></div><br>
-                                         
-                                  </li>
-                            </li>
-                        </ul>
-                        </li>
-                        </ul>
-                      </div>
-                      <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                      <nav class="pagination mt-3">
-                        <a class="nav nav-prev" href="../installation/" aria-label="Previous page"><i
-                            class="ti-arrow-left mr-2"></i>
-                          <span class="d-none d-md-block">Installation</span></a>
-                        <!-- <a class="nav nav-next" href=https://github.com/hr365docs/My-project.git/Upgrading/requirments/ aria-label="Previous page"> <span class="d-none d-md-block">Requirments</span><i class="ti-arrow-right ml-2"></i></a> -->
-                      </nav>
+                            </ul>
+                        </div>
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+
+
+                        <nav class="pagination mt-3">
+                            <a class="nav nav-prev" href="../../../../sharepoint-employee-directory/modern/getting-started/installation/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i>
+                                <span class="d-none d-md-block">Installation</span></a>
+                            <a class="nav nav-next" href="../../../../sharepoint-employee-directory/modern/getting-started/upgrading/sharepointstore/" aria-label="Previous page">
+                                <span class="d-none d-md-block">sharepoint</span><i
+                                    class="ti-arrow-right ml-2"></i></a>
+                        </nav>
+                        </nav>
                     </div>
-                  </div>
+                </div>
             </div>
     </section>
     <div id="myModal" class="modal">
