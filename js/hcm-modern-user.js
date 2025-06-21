@@ -65,14 +65,12 @@ $(document).ready(function () {
                 "<li data-nav-id='../apps/TMP365/' title='TMP365 - Home Page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/user/apps/TMP365/home-page/'>Home Page</a>" +
                 "</li>" +
+                "<li data-nav-id='../apps/TMP365/' title='TMP365 - User Interface' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/TMP365/userinterface/'>User Interface</a>" +
+                "</li>" +
 
                
-                "<li data-nav-id='../apps/TMP365/' title='TMP365 - Public Holidays' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/TMP365/holidays/'>Public Holidays</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/TMP365/' title='TMP365 - Reports' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/TMP365/reports/'>Reports</a>" +
-                "</li>" +
+            
                 
                 // EO365
                
@@ -87,11 +85,11 @@ $(document).ready(function () {
                 "<li data-nav-id='../apps/EO365/' title='EO365 - Report' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/user/apps/EO365/report/'>Report</a>" +
                 "</li>" +
-                "<li data-nav-id='../apps/EO365/' title='EO365 - ShareEss Url' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/EO365/share-ess-url/'>ShareEss Url</a>" +
+                "<li data-nav-id='../apps/EO365/' title='EO365 - Ess Portal' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/EO365/share-ess-url/'>Ess Portal</a>" +
                 "</li>" +
-                "<li data-nav-id='../apps/EO365/' title='EO365 - Process' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/EO365/process/'>Process</a>" +
+                "<li data-nav-id='../apps/EO365/' title='EO365 - User Interface' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/EO365/userinterface111/'>User Interface111</a>" +
                 "</li>" +
                 // TS365
              
