@@ -89,7 +89,7 @@ $(document).ready(function () {
                 "<a href='/HRMS-HR365/modern/user/apps/EO365/share-ess-url/'>Ess Portal</a>" +
                 "</li>" +
                 "<li data-nav-id='../apps/EO365/' title='EO365 - User Interface' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/EO365/userinterface111/'>User Interface111</a>" +
+                "<a href='/HRMS-HR365/modern/user/apps/EO365/userinterface111/'>User Interface</a>" +
                 "</li>" +
                 // TS365
              
@@ -142,6 +142,12 @@ $(document).ready(function () {
                
                 "<li data-nav-id='../apps/PM365/' title='PM365 - Reports' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/user/apps/PM365/reports/'>Reports</a>" +
+                "</li>" +
+                 "<li data-nav-id='../apps/PM365/' title='PM365 - Reports' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/PM365/self-review/'>Self Review</a>" +
+                "</li>" +
+                 "<li data-nav-id='../apps/PM365/' title='PM365 - Reports' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/PM365/feedback/'>Feedback</a>" +
                 "</li>" +
                 "</ul>" +
                 "</li>" +
