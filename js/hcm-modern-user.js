@@ -35,12 +35,12 @@ $(document).ready(function () {
 "</li>" +
 
 "<li data-nav-id='../apps/ED365/' title='User Interface'>" +
-  "<a class='qwe' href='/HRMS-HR365/modern/user/apps/ED365/user-interface/'>User Interface</a>" +
+  "<a class='qwe' href='/HRMS-HR365/modern/user/apps/ED365/user-interface'>User Interface</a>" +
   
 "</li>" +
 
 
-
+  "<ul class='ml-15 sidenavSub-topics'>" +
     "<li data-nav-id='../apps/ED365/' title='Home' class='sidelist'>" +
       "<a href='/HRMS-HR365/modern/user/apps/ED365/user-interface/#home-page'>Home Page</a>" +
     "</li>" +
@@ -50,7 +50,10 @@ $(document).ready(function () {
     "<li data-nav-id='../apps/ED365/' title='Views' class='sidelist'>" +
       "<a href='/HRMS-HR365/modern/user/apps/ED365/user-interface/#views'>Views</a>" +
     "</li>" +
- 
+  "</ul>" +
+"</li>"+
+
+"</li>"+
 
 
 
@@ -62,14 +65,12 @@ $(document).ready(function () {
                 "<li data-nav-id='../apps/TMP365/' title='TMP365 - Home Page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/user/apps/TMP365/home-page/'>Home Page</a>" +
                 "</li>" +
+                "<li data-nav-id='../apps/TMP365/' title='TMP365 - User Interface' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/TMP365/userinterface/'>User Interface</a>" +
+                "</li>" +
 
                
-                "<li data-nav-id='../apps/TMP365/' title='TMP365 - Public Holidays' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/TMP365/user-interface/'>User Interface </a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/TMP365/' title='TMP365 - Reports' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/TMP365/reports/'>Reports</a>" +
-                "</li>" +
+            
                 
                 // EO365
                
@@ -84,20 +85,11 @@ $(document).ready(function () {
                 "<li data-nav-id='../apps/EO365/' title='EO365 - Report' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/user/apps/EO365/report/'>Report</a>" +
                 "</li>" +
-                "<li data-nav-id='../apps/EO365/' title='EO365 - ShareEss Url' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/EO365/share-ess-url/'>ShareEss Url</a>" +
+                "<li data-nav-id='../apps/EO365/' title='EO365 - Ess Portal' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/EO365/share-ess-url/'>Ess Portal</a>" +
                 "</li>" +
-                "<li data-nav-id='../apps/EO365/' title='EO365 - Process' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/EO365/user-interface/'>User-interface</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/EO365/' title='EO365 - Process' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/EO365/user-interface/#update-profiles'>Update Profile</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/EO365/' title='EO365 - Process' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/EO365/user-interface/#update-details'>Update Details</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/EO365/' title='EO365 - Process' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/EO365/user-interface/#upload-documents'>Upload Documents</a>" +
+                "<li data-nav-id='../apps/EO365/' title='EO365 - User Interface' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/EO365/userinterface111/'>User Interface111</a>" +
                 "</li>" +
                 // TS365
              
@@ -131,9 +123,9 @@ $(document).ready(function () {
                 "<li data-nav-id='../apps/RM365/' title='RM365 - Draft' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/user/apps/RM365/draft/'>Draft</a>" +
                 "</li>" +
-                // "<li data-nav-id='../apps/RM365/' title='RM365 - Inactive Items' class='sidelist'>" +
-                // "<a href='/HRMS-HR365/modern/user/apps/RM365/inactiveitem/'>Inactive Items</a>" +
-                // "</li>" +
+                "<li data-nav-id='../apps/RM365/' title='RM365 - Inactive Items' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/RM365/inactiveitem/'>Inactive Items</a>" +
+                "</li>" +
                 
                 // PM365
               
@@ -150,30 +142,6 @@ $(document).ready(function () {
                
                 "<li data-nav-id='../apps/PM365/' title='PM365 - Reports' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/user/apps/PM365/reports/'>Reports</a>" +
-                "</li>" +
-                                "<li data-nav-id='../apps/PM365/' title='PM365 - self review' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/PM365/self-review/'>Self Review</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/PM365/' title='PM365 - self review' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/PM365/self-review/#review'>Review</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/PM365/' title='PM365 - self review' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/PM365/self-review/#summary-and-plan'>Summary and Plan</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/PM365/' title='PM365 - Reports' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/PM365/feedback/'>360 Feedback</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/PM365/' title='PM365 - Reports' class='sidelist'>" +
-              "<a href='/HRMS-HR365/modern/user/apps/PM365/feedback/#feedback-request'>feedback-Request</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/PM365/' title='PM365 - Reports' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/PM365/feedback/#received'>Recieved</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/PM365/' title='PM365 - Reports' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/PM365/feedback/#given'>Given</a>" +
-                "</li>" +
-                "<li data-nav-id='../apps/PM365/' title='PM365 - Reports' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/PM365/feedback/#action'>action</a>" +
                 "</li>" +
                 "</ul>" +
                 "</li>" +
