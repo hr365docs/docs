@@ -21,6 +21,20 @@ $(document).ready(function () {
         "</a>" +
 
         "</li>" +
+        "<li data-nav-id='./Settings/' title='dashboard' class=sidelist>" +
+
+        "<a href='/RM365/modern/admin/dashboard/'>" +
+        "Dashboard" +
+        "</a>" +
+
+        "</li>" +
+         "<li data-nav-id='./Settings/' title='dashboard' class=sidelist>" +
+
+        "<a href='/RM365/modern/admin/reports/'>" +
+        "Report" +
+        "</a>" +
+
+        "</li>" +
         "<li class='dropdownicon sidelist' title='Draft'>" +
         "<a href='/RM365/modern/admin/draft/'>" +
         "Draft" +
@@ -58,7 +72,7 @@ $(document).ready(function () {
 
 
         "<li data-nav-id='../user' title=Users and Departments class='dropdownicon sidelist'>" +
-        "<a class='qwe' href='/RM365/modern/admin/settings/users-departments/'>Users and Departments</a>" +
+        "<a class='qwe' href='/RM365/modern/admin/settings/users-departments/'>Users and Permissions</a>" +
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
         "</a>" +
         "</li>" +
@@ -68,7 +82,7 @@ $(document).ready(function () {
         "<a href='/RM365/modern/admin/settings/users-departments/#User'>User</a>" +
         "</li>" +
         "<li data-nav-id='../General' title='Departments' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/users-departments/#Department'>Departments</a>" +
+        "<a href='/RM365/modern/admin/settings/users-departments/#Department'>Permissions</a>" +
         "</li>" +
 
         "</ul>" +
@@ -81,6 +95,9 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics aside_dropdown_list'>" +
         "<li data-nav-id='../General' title='Custom Fields' class='sidelist'>" +
         "<a href='/RM365/modern/admin/settings/Job-Posting/#job-location'>Job Location</a>" +
+        "</li>" +
+         "<li data-nav-id='../General' title='Custom Fields' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/Job-Posting/#depart'>Departments</a>" +
         "</li>" +
         "<li data-nav-id='../General' title='Cost Center' class='sidelist'>" +
         "<a href='/RM365/modern/admin/settings/Job-Posting/#job-priority'>Job Priority</a>" +
@@ -138,7 +155,7 @@ $(document).ready(function () {
 
         "</ul>" +
         "<li data-nav-id='../General' title='Sharepoint Page Configuration:' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/permissions/'>Permission</a>" +
+        "<a href='/RM365/modern/admin/settings/Azure Open AI Integration/'>Azure Open AI Integration</a>" +
         "</li>" +
         "<li data-nav-id='../user' title=Feature class='dropdownicon sidelist'>" +
         "<a class='qwe' href='/RM365/modern/admin/settings/hiring-process'>Hiring Process</a>" +
