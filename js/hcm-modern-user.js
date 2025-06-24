@@ -24,11 +24,11 @@ $(document).ready(function () {
                 "<li data-nav-id='./apps/' title='Apps' class='sidelist dropdown_romove_dot'>" +
                 "<ul class='sidenavSub-topics aside_dropdown_list' id='modernuserapps'>" +
                 // ED365
-                "<a href='/HRMS-HR365/modern/user/apps/ED365/introduction/'>ED365</a>" +
+                "<a href='/HRMS-HR365/modern/user/apps/ED365/profile-card/'>ED365</a>" +
 
-"<li data-nav-id='../apps/ED365/' title='ED365 - Introduction' class='sidelist'>" +
-  "<a href='/HRMS-HR365/modern/user/apps/ED365/introduction/'>Introduction</a>" +
-"</li>" +
+// "<li data-nav-id='../apps/ED365/' title='ED365 - Introduction' class='sidelist'>" +
+//   "<a href='/HRMS-HR365/modern/user/apps/ED365/introduction/'>Introduction</a>" +
+// "</li>" +
 
 "<li data-nav-id='../apps/ED365/' title='ED365 - Managing User Profile' class='sidelist'>" +
   "<a href='/HRMS-HR365/modern/user/apps/ED365/profile-card/'>Managing User Profile</a>" +
@@ -89,7 +89,7 @@ $(document).ready(function () {
                 "<a href='/HRMS-HR365/modern/user/apps/EO365/share-ess-url/'>Ess Portal</a>" +
                 "</li>" +
                 "<li data-nav-id='../apps/EO365/' title='EO365 - User Interface' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/EO365/userinterface111/'>User Interface</a>" +
+                "<a href='/HRMS-HR365/modern/user/apps/EO365/user-interface/'>User Interface</a>" +
                 "</li>" +
                 // TS365
              
@@ -123,9 +123,7 @@ $(document).ready(function () {
                 "<li data-nav-id='../apps/RM365/' title='RM365 - Draft' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/user/apps/RM365/draft/'>Draft</a>" +
                 "</li>" +
-                "<li data-nav-id='../apps/RM365/' title='RM365 - Inactive Items' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/RM365/inactiveitem/'>Inactive Items</a>" +
-                "</li>" +
+                
                 
                 // PM365
               
