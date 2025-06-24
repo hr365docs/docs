@@ -18,6 +18,12 @@ $(document).ready(function () {
      "</a>"+ 
   
 "</li>"+
+"<li class='dropdownicon sidelist' title='Report'>"+
+    "<a class='qwe' href='/RM365/modern/user/reports/'>"+
+        "Report"+
+     "</a>"+ 
+  
+"</li>"+
 
 
 "<li class='dropdownicon sidelist' title='Help'>"+
