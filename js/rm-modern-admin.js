@@ -40,6 +40,14 @@ $(document).ready(function () {
         "Draft" +
         "</a>" +
 
+        "<li data-nav-id='./Settings/' title=active-candidate class=sidelist>" +
+
+        "<a href='/RM365/modern/admin/active-items/'>" +
+        " Active Candidates" +
+        "</a>" +
+        "</li>" +
+
+
 
         "<li data-nav-id='./Settings/' title=inactive-items class=sidelist>" +
 
@@ -70,7 +78,43 @@ $(document).ready(function () {
         "<li data-nav-id='../system-settings' title=system-settings class='sidelist dropdown_romove_dot'>" +
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>" +
 
+   "<li data-nav-id='../user' title=Feature class='dropdownicon sidelist'>" +
+        "<a class='qwe' href='/RM365/modern/admin/settings/general-setting'>General Settings</a>" +
+        "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+        "</a>" +
+        "</li>" +
+        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list'>" +
 
+        "<li data-nav-id='../General' title='Date format' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/general-setting/#Date-Format'> Date format </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Theme' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/general-setting/#Theme'>Theme</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Language' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/general-setting/#Languages'> Language </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Enable Favicon' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/general-setting/#Enable-Favicon'> Enable Favicon </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Sharepoint Page Configuration:' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/general-setting/#Hide-Sharepoint-Pages-Default-Components'> Sharepoint Page Configuration </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/general-setting/#Brand-logo'> Brand Logo  </a>" +
+        "</li>" +
+
+
+
+
+
+        "</ul>" +
+        " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/Requisition-Templates'>" +
+        "Requisition Templates" +
+        " </a>" +
+        "</li>" +
         "<li data-nav-id='../user' title=Users and Departments class='dropdownicon sidelist'>" +
         "<a class='qwe' href='/RM365/modern/admin/settings/users-departments/'>Users and Permissions</a>" +
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
@@ -111,6 +155,9 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title='Location' class='sidelist'>" +
         "<a href='/RM365/modern/admin/settings/Job-Posting/#job-type'>Job Type</a>" +
         "</li>" +
+         "<li data-nav-id='../General' title='Location' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/Job-Posting/#job-code'>Job Code</a>" +
+        "</li>" +
         "<li data-nav-id='../General' title='Location' class='sidelist'>" +
         "<a href='/RM365/modern/admin/settings/Job-Posting/#Work-Mode'>Work Mode</a>" +
         "</li>" +
@@ -122,41 +169,8 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title='Location' class='sidelist'>" +
         "<a href='/RM365/modern/admin/settings/Email-configration'>Email Configuration</a>" +
         "</li>" +
-        "<li data-nav-id='../user' title=Feature class='dropdownicon sidelist'>" +
-        "<a class='qwe' href='/RM365/modern/admin/settings/general-setting'>General Settings</a>" +
-        "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
-        "</a>" +
-        "</li>" +
-        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
-        "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-
-        "<li data-nav-id='../General' title='Date format' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/general-setting/#Date-Format'> Date format </a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Theme' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/general-setting/#Theme'>Theme</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Language' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/general-setting/#Languages'> Language </a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Enable Favicon' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/general-setting/#Enable-Favicon'> Enable Favicon </a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Sharepoint Page Configuration:' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/general-setting/#Hide-Sharepoint-Pages-Default-Components'> Sharepoint Page Configuration </a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/general-setting/#Brand-logo'> Brand Logo  </a>" +
-        "</li>" +
-
-
-
-
-
-        "</ul>" +
-        "<li data-nav-id='../General' title='Sharepoint Page Configuration:' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/Azure Open AI Integration/'>Azure Open AI Integration</a>" +
-        "</li>" +
+     
+        
         "<li data-nav-id='../user' title=Feature class='dropdownicon sidelist'>" +
         "<a class='qwe' href='/RM365/modern/admin/settings/hiring-process'>Hiring Process</a>" +
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
@@ -172,15 +186,14 @@ $(document).ready(function () {
         "</li>" +
 
         "</ul>" +
-        " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/Requisition-Templates'>" +
-        "Requisition Templates" +
-        " </a>" +
-        "</li>" +
+        
         " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>" +
         "<a href='/RM365/modern/admin/settings/portal-configration'>" +
         "Portal Configuration" +
         " </a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Sharepoint Page Configuration:' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/Azure Open AI Integration/'>Azure Open AI Integration</a>" +
         "</li>" +
 
         "</ul>" +
