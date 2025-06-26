@@ -434,6 +434,12 @@ $(document).ready(function () {
                 "<li data-nav-id='../advanced/' title='RM365 - Home Page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/RM365/home-page/'>Home Page</a>" +
                 "</li>" +
+                "<li data-nav-id='../advanced/' title='RM365 - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/RM365/dashboard/'>Dashboard</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='RM365 - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/RM365/reports/'>Report</a>" +
+                "</li>" +
                 "<li data-nav-id='../advanced/' title='RM365 - Draft' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/RM365/draft/'>Draft</a>" +
                 "</li>" +

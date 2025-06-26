@@ -34,9 +34,8 @@ $(document).ready(function () {
   "<a href='/HRMS-HR365/modern/user/apps/ED365/profile-card/'>Managing User Profile</a>" +
 "</li>" +
 
-"<li data-nav-id='../apps/ED365/' title='User Interface'>" +
-  "<a class='qwe' href='/HRMS-HR365/modern/user/apps/ED365/user-interface'>User Interface</a>" +
-  
+"<li data-nav-id='../apps/ED365/' title='ED365 - user interface' class='sidelist'>" +
+  "<a href='/HRMS-HR365/modern/user/apps/ED365/user-interface/'>User Interface</a>" +
 "</li>" +
 
 
@@ -120,9 +119,49 @@ $(document).ready(function () {
                 "<li data-nav-id='../apps/RM365/' title='RM365 - Home Page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/user/apps/RM365/home-page/'>Home Page</a>" +
                 "</li>" +
-                "<li data-nav-id='../apps/RM365/' title='RM365 - Draft' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/user/apps/RM365/draft/'>Draft</a>" +
+               //  Roles Parent Item
+"<li data-nav-id='../apps/RM365/' title='RM365 - Roles' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/user/apps/RM365/role/'>Roles</a>" +
                 "</li>" +
+
+
+    "<li data-nav-id='../Approver' title='Approver Role' class='sidelist'>"+
+     " <a href='/HRMS-HR365/modern/user/apps/RM365/role/#Approver'>Approver</a>"+
+    "</li>"+
+   " <li data-nav-id='../Recruiter' title='Recruiter Role' class='sidelist'>"+
+      "<a href='/HRMS-HR365/modern/user/apps/RM365/role/#Recruiter'>Recruiter</a>"+
+    "</li>"+
+     " <li data-nav-id='../Recruiter' title='RecruiterManager' class='sidelist'>"+
+      "<a href='/HRMS-HR365/modern/user/apps/RM365/role/#RecruiterManager'>RecruiterManager</a>"+
+    "</li>"+
+     " <li data-nav-id='../Recruiter' title='Interviewer' class='sidelist'>"+
+      "<a href='/HRMS-HR365/modern/user/apps/RM365/role/#Interviewer'>Interviewer</a>"+
+    "</li>"+
+     " <li data-nav-id='../Recruiter' title='Recruiter Role' class='sidelist'>"+
+      "<a href='/HRMS-HR365/modern/user/apps/RM365/role/#Screener'>Screener</a>"+
+    "</li>"+
+     " <li data-nav-id='../Recruiter' title='Hiring Manager' class='sidelist'>"+
+      "<a href='/HRMS-HR365/modern/user/apps/RM365/role/#HiringManager'>Hiring Manager</a>"+
+    "</li>"+
+ 
+//portal
+"<li class='dropdownicon sidelist' title='Portal'>"+
+  "<a class='qwe' href='/HRMS-HR365/modern/user/apps/RM365/portal/'>Portal</a>"+
+  
+"</li>"+
+
+
+"<li class='dropdownicon sidelist' title='external-portal'>"+
+    "<a class='qwe' href='/HRMS-HR365/modern/user/apps/RM365/portal/#external-portal'>"+
+        "External Portal"+
+     "</a>"+ 
+"<li class='dropdownicon sidelist' title='external-portal'>"+
+    "<a class='qwe' href='/HRMS-HR365/modern/user/apps/RM365/portal/#internal-portal'>"+
+        "Internal Portal"+
+     "</a>"+ 
+  
+"</li>"+
+
                 
                 
                 // PM365
