@@ -193,7 +193,7 @@ $(document).ready(function () {
         " </a>" +
         "</li>" +
         "<li data-nav-id='../General' title='Sharepoint Page Configuration:' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/Azure Open AI Integration/'>Azure Open AI Integration</a>" +
+        "<a href='/RM365/modern/admin/settings/Azure-OpenAI-Integration/'>Azure Open AI Integration</a>" +
         "</li>" +
 
         "</ul>" +
