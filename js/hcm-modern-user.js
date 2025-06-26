@@ -34,9 +34,8 @@ $(document).ready(function () {
   "<a href='/HRMS-HR365/modern/user/apps/ED365/profile-card/'>Managing User Profile</a>" +
 "</li>" +
 
-"<li data-nav-id='../apps/ED365/' title='User Interface'>" +
-  "<a class='qwe' href='/HRMS-HR365/modern/user/apps/ED365/user-interface'>User Interface</a>" +
-  
+"<li data-nav-id='../apps/ED365/' title='ED365 - user interface' class='sidelist'>" +
+  "<a href='/HRMS-HR365/modern/user/apps/ED365/user-interface/'>User Interface</a>" +
 "</li>" +
 
 
@@ -147,7 +146,7 @@ $(document).ready(function () {
  
 //portal
 "<li class='dropdownicon sidelist' title='Portal'>"+
-  "<a class='qwe' href='/HRMS-HR365/modern/user/apps/RM365/Portal/'>Portal</a>"+
+  "<a class='qwe' href='/HRMS-HR365/modern/user/apps/RM365/portal/'>Portal</a>"+
   
 "</li>"+
 
