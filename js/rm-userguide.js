@@ -50,11 +50,11 @@ $(document).ready(function () {
   "<ul class='sidenavSub-topics aside_dropdown_list'>"+
 
 "<li class='dropdownicon sidelist' title='external-portal'>"+
-    "<a class='qwe' href='/RM365/modern/user/portal/#external-portal/'>"+
+    "<a class='qwe' href='/RM365/modern/user/portal/#external-portal'>"+
         "External Portal"+
      "</a>"+ 
 "<li class='dropdownicon sidelist' title='external-portal'>"+
-    "<a class='qwe' href='/RM365/modern/user/portal/#internal-portal/'>"+
+    "<a class='qwe' href='/RM365/modern/user/portal/#internal-portal'>"+
         "Internal Portal"+
      "</a>"+ 
   

@@ -153,11 +153,11 @@ $(document).ready(function () {
 
 
 "<li class='dropdownicon sidelist' title='external-portal'>"+
-    "<a class='qwe' href='/HRMS-HR365/modern/user/apps/RM365/portal/#external-portal/'>"+
+    "<a class='qwe' href='/HRMS-HR365/modern/user/apps/RM365/portal/#external-portal'>"+
         "External Portal"+
      "</a>"+ 
 "<li class='dropdownicon sidelist' title='external-portal'>"+
-    "<a class='qwe' href='/HRMS-HR365/modern/user/apps/RM365/portal/#internal-portal/'>"+
+    "<a class='qwe' href='/HRMS-HR365/modern/user/apps/RM365/portal/#internal-portal'>"+
         "Internal Portal"+
      "</a>"+ 
   
