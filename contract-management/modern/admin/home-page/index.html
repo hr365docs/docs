@@ -154,6 +154,29 @@
                                     height="auto">
                             </div>
                             <br>
+
+                           <h3>Status Representation </h3>
+
+<p><strong>Before Legal Review Completion</strong></p>
+<p>At this stage, the legal review task is not yet finalized. The timeline displays the status as <em>Not Started</em>, and no completion date is shown.</p>
+
+<div>
+  <img src="status.png" onclick="openModal('status.png')" alt="Legal Status Before Completion" width="100%" height="auto">
+</div>
+<br>
+
+<p><strong>After Legal Review Completion</strong></p>
+<p>Upon completion and approval of the legal review task, the status is automatically updated to <em>Completed</em> in the timeline. This update includes:</p>
+<ul>
+  <li>Approver’s name</li>
+  <li>Completion date</li>
+</ul>
+<p>This ensures accurate tracking and maintains a transparent approval trail.</p>
+
+<div>
+  <img src="status1.png" onclick="openModal('status1.png')" alt="Legal Status After Completion" width="100%" height="auto">
+</div>
+
                             <p>Task owners can be able to see their task in my tasks. Then click on the title to open
                                 legal review task.</p>
                             <div><img src="LegalView.png" onclick="openModal('Task.png')" alt="CLM" width="100%"
@@ -315,6 +338,20 @@
                                     <div><img src="Adele.png" onclick="openModal('Adele.png')" alt="CLM" width="100%"
                                             height="auto"></div>
                                     <br>
+                                   <p><strong>Request With Workflow:</strong> Since this request was created using an approval workflow, all workflow stages are now visible in the timeline, each displaying its current status. This view helps users clearly understand progress across all approval phases, including business approval, legal review, and execution.</p>
+
+
+                                    <div><img src="time.png" onclick="openModal('time.png')" alt="CLM" width="100%"
+                                            height="auto"></div><br>
+                                            <div><img src="time1.png" onclick="openModal('time1.png')" alt="CLM" width="100%"
+                                            height="auto"></div><br>
+                                            <div><img src="time2.png" onclick="openModal('time2.png')" alt="CLM" width="100%"
+                                            height="auto"></div><br>
+                                           <p><strong>Note:</strong> If any task in the workflow is <em>rejected</em>, its status will be clearly indicated in the timeline using a distinct visual marker and a red highlight. This ensures that users can easily identify the point of rejection within the approval process.</p>
+
+                                            <div><img src="time3.png" onclick="openModal('time3.png')" alt="CLM" width="100%"
+                                            height="auto"></div>
+
                                 </div>
 
 
@@ -581,8 +618,8 @@
                                     <a class="nav nav-prev" href="../architecture-diagram/"
                                         aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
                                             class="d-none d-md-block">Architecture Diagram</span></a>
-                                    <a class="nav nav-next" href="../dashboard/" aria-label="Next page"> <span
-                                            class="d-none d-md-block">Dashboard</span><i
+                                    <a class="nav nav-next" href="../draft/" aria-label="Next page"> <span
+                                            class="d-none d-md-block">Draft</span><i
                                             class="ti-arrow-right ml-2"></i></a>
                                 </nav>
 

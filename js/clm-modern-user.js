@@ -12,6 +12,11 @@ $(document).ready(function () {
     "Home Page"+
     "</a>"+  
 "</li>"+
+"<li data-nav-id='./installation/requirments/' title= 'Home Page' class=sidelist>"+
+    "<a href='/contract-management/modern/user/home/'>"+
+    "Home Page"+
+    "</a>"+  
+"</li>"+
 
 "<li class='dropdownicon sidelist' title='Self Review'>"+
 "<a class='qwe' href='/contract-management/modern/user/self-review/'>"+

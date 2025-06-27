@@ -21,6 +21,13 @@ $(document).ready(function () {
   "</a>"+
 
 "</li>"+
+"<li data-nav-id='./Settings/' title='draft' class=sidelist>"+
+
+    "<a href='/contract-management/modern/admin/draft/'>"+
+        "Draft"+
+  "</a>"+
+
+"</li>"+
 "<li class='dropdownicon sidelist' title='Help'>" +
 "<a href='/contract-management/modern/admin/dashboard/'>" +
 "Dashboard" +
