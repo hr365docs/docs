@@ -99,7 +99,7 @@
                         <!-- <h2 class=mb-5 id=title>General</h2> -->
                         <div class="bg-light p-4 remove-padding">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>General
+                                <h2 id="_dashboards" ><a class="header-icon-link highlight" href=#>General
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
@@ -522,7 +522,7 @@
                             </ul>
 
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="update-department">
+                        <div class="bg-light p-4 remove-padding common-scroll" id="RoleandPermissions">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Role and Permissions.
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -656,8 +656,17 @@
     <script src="../../../../../../../js/script.min.js"></script>
     <script src="../../../../../../../js/showhidefunction.js"></script>
     <script src="../../../../../../../js/hcm-modern-admin.js"></script>
-
+    <script src="../../../../../../../js/ed365-general-dropdown.js"></script>
     <script src="../../../../../../../js/header-footer.js"></script>
+   <script>
+function toggleCustomMenu() {
+    const menu = document.getElementById('customSettingMenu');
+    menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'block' : 'none';
+}
+</script>
+   
+  
+  
     <script>
         function openModal(src) {
 
@@ -672,6 +681,8 @@
 
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML = date;
+
+      
     </script>
 </body>
 
