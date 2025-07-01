@@ -1304,6 +1304,63 @@ html {
     opacity: 0;
     transition: 0.3s;
 }
+/* Dropdown icon styles */
+.aside_dropdown_icon {
+    max-width: 14px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.aside_dropdown_icon.active {
+    transform: rotate(180deg);
+}
+
+/* Dropdown list styles */
+.aside_dropdown_list {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    padding-left: 15px;
+}
+
+.aside_dropdown_list.active {
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+    padding-top: 5px;
+}
+
+/* Dropdown item styles */
+.sidenavSub-topics .sidelist {
+    padding: 5px 0;
+}
+
+.sidenavSub-topics .sidelist a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 3px 10px;
+    transition: all 0.2s ease;
+}
+
+.sidenavSub-topics .sidelist a:hover {
+    background-color: #f5f5f5;
+    color: #0066cc;
+}
+
+
+.dropdown_romove_dot > ul.aside_dropdown_list {
+  list-style-type: disc !important;
+  padding-left: 20px;
+}
+
+.dropdown_romove_dot > ul.aside_dropdown_list > li {
+  list-style-type: disc !important;
+  display: list-item !important;
+}
 
 
 
