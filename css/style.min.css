@@ -1334,9 +1334,9 @@ html {
 }
 
 /* Dropdown item styles */
-.sidenavSub-topics .sidelist {
+/* .sidenavSub-topics .sidelist {
     padding: 5px 0;
-}
+} */
 
 .sidenavSub-topics .sidelist a {
     color: #333;
@@ -1353,14 +1353,11 @@ html {
 
 
 .dropdown_romove_dot > ul.aside_dropdown_list {
-  list-style-type: disc !important;
+  list-style-type: none !important;      /* This removes bullets from the <ul> */
   padding-left: 20px;
 }
 
-.dropdown_romove_dot > ul.aside_dropdown_list > li {
-  list-style-type: disc !important;
-  display: list-item !important;
-}
+
 
 
 
