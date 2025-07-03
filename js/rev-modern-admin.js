@@ -64,6 +64,10 @@ $(document).ready(function () {
         "<a class='qwe' href='/Revenue365/modern/admin/settings/Notification/'>Notifications</a>" +
         "</li>" +
 
+         "<li data-nav-id='../user' title='Integration' class='sidelist'>" +
+        "<a class='qwe' href='/Revenue365/modern/admin/settings/integration/'>Integration</a>" +
+        "</li>" +
+
         "<li data-nav-id='../user' title='Features' class='sidelist'>" +
         "<a class='qwe' href='/Revenue365/modern/admin/settings/features/'>Features</a>" +
         "</li>" +
