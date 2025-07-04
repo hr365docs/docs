@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     $("#revuser").append(
         "<li data-nav-id='./user/' title='Customer Journey' class='sidelist'>" +
-        "<a href='/Revenue365/modern/user/Introduction/'>Introduction</a>" +
+        "<a href='/Revenue365/modern/user/introduction/'>Introduction</a>" +
         "</li>" +
         "<li data-nav-id='./user/' title='Home Page' class='sidelist'>" +
         "<a href='/Revenue365/modern/user/homepage/'>Home Page</a>" +
