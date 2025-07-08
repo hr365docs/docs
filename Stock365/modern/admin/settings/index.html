@@ -114,6 +114,7 @@
                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
                 </a>
             </h3>
+               <p>This section offers a comprehensive overview of the configurable settings available within the Stock 365 setting panel, enabling tailored system customization.</p>
 
             <div class="sidelist active" data-nav-id="./Settings/" title="Settings">
                 <img src="settings.png" onclick="openModal('settings.png')" alt="Settings Overview" width="100%" height="auto">
@@ -152,14 +153,24 @@
                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
                 </a>
             </h3>
-            <p>Select the default theme to apply across the interface:</p>
-            <ul>
-                <li><strong>Light:</strong> Bright and clean interface (default).</li>
-                <li><strong>Dark:</strong> A dark theme ideal for low-light environments.</li>
-                <li><strong>Site:</strong> Inherits the SharePoint site theme.</li>
-            </ul><br>
-            <img src="theme-setting.png" onclick="openModal('theme-setting.png')" alt="Theme Option Example" width="100%" height="auto">
-        </div>
+          <p>Choose the default theme to be applied across the interface. After selecting your preferred option, click the <strong>Save</strong> button to apply the changes:</p>
+<ul>
+    <li>
+        <strong>Light:</strong> A bright, clean interface. This is the default selection.
+        <br><br>
+        <img src="light.png" onclick="openModal('light.png')" alt="Light Theme Preview" width="100%" height="auto">
+    </li><br>
+    <li><br>
+        <strong>Dark:</strong> A dark theme designed for low-light environments.
+        <br><br>
+        <img src="dark.png" onclick="openModal('dark.png')" alt="Dark Theme Preview" width="100%" height="auto">
+    </li><br>
+    <li>
+        <strong>Site:</strong> Inherits the theme from the associated SharePoint site.
+        <br><br>
+        <img src="site.png" onclick="openModal('site.png')" alt="Site Theme Preview" width="100%" height="auto">
+    </li>
+</ul>
 
         <!-- Interval (valid for 1D Chart) Section -->
         <div class="bg-light p-4 common-scroll remove-padding" id="interval-setting">
@@ -242,9 +253,9 @@
 
         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date"></p>
         <nav class="pagination mt-3">
-            <a class="nav nav-prev" href="../administration/" aria-label="Previous page">
+            <a class="nav nav-prev" href="../homepage/" aria-label="Previous page">
                 <i class="ti-arrow-left mr-2"></i>
-                <span class="d-none d-md-block">Administration</span>
+                <span class="d-none d-md-block">Home Page</span>
             </a>
             <a class="nav nav-next" href="../help/" aria-label="Next page">
                 <span class="d-none d-md-block">Help</span>
