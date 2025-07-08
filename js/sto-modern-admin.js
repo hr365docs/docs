@@ -6,6 +6,9 @@ $(document).ready(function () {
         "<li class='sidelist' data-nav-id='./Settings/' title='Introduction'>" +
             "<a href='/Stock365/modern/admin/introduction/'>Introduction</a>" +
         "</li>" +
+        "<li data-nav-id='./Settings/' title='Architecture Diagram' class='sidelist'>" +
+        "<a href='/Stock365/modern/admin/architecture-diagram/'>Architecture Diagram</a>" +
+        "</li>" +
 
         // ✅ Home Page
         "<li class='sidelist' data-nav-id='./Settings/' title='Home Page'>" +
