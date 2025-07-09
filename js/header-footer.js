@@ -87,6 +87,8 @@ $(document).ready(function() {
 
 
                 `<a class='dropdown-item timesheetlink' href='/online-timesheet-software/'>Timesheet 365</a>` +
+
+                `<a class='dropdown-item revenuelink' href='/Revenue365/'>Revenue 365</a>` +
                
                 `</div>` +
 
