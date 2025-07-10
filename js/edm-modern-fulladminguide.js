@@ -463,6 +463,10 @@ $(document).ready(function () {
          "<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
         "<a href='/sharepoint-employee-directory/modern/admin/help/#validate-filtered-user'>Validate Filtered User(s)</a>" +
         "</li>" +
+
+         "<li  data-nav-id='../advanced/' title='User Profile License Limit Exceeded' class='sidelist'>" +
+        "<a href='/sharepoint-employee-directory/modern/admin/help/#_license_limit'>User Profile License Limit Exceeded</a>" +
+        "</li>" +
         "</ul>"+
         "</li>"
 // help end 

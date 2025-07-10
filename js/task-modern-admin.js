@@ -16,7 +16,7 @@ $(document).ready(function () {
         "</li>" +
         // Home Page
         "<li data-nav-id='./installation/requirments/' title='Home Page' class='sidelist'>" +
-        "<a href='/task-management-365/modern/admin/home-page/'>" +
+        "<a href='/task-management-365/modern/admin/homepage/'>" +
         "Home Page" +
         "</a>" +
         "</li>" +
