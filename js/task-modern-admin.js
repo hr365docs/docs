@@ -25,18 +25,9 @@ $(document).ready(function () {
         "<a href='/task-management-365/modern/admin/dashboard/'>" +
         "Dashboard" +
         "</a>" +
-        "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIconadvanced aside_dropdown_icon'>" +
+       
         "</li>" +
-        "<li data-nav-id='../advanced/' title='Dashboard' class='sidelist dropdown_romove_dot'>" +
-        "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
-        "<li data-nav-id='../advanced/' title='General' class='sidelist'>" +
-        "<a href='/task-management-365/modern/admin/dashboard/general'>General</a>" +
-        "</li>" +
-        "<li data-nav-id='../advanced/' title='Advance' class='sidelist'>" +
-        "<a href='/task-management-365/modern/admin/dashboard/advance'>Advance</a>" +
-        "</li>" +
-        "</ul>" +
-        "</li>" +
+       
         // Report
         "<li data-nav-id='./installation/requirments/' title='Report' class='sidelist'>" +
         "<a href='/task-management-365/modern/admin/reports/'>" +
@@ -216,6 +207,13 @@ $(document).ready(function () {
         "</ul>" +
         "</ul>" +
         "</li>" +
+//theme
+"<li data-nav-id='./installation/requirments/' title='theme' class='sidelist'>" +
+        "<a href='/task-management-365/modern/admin/theme/'>" +
+        "Theme" +
+        "</a>" +
+        "</li>" +
+
         // Help
         "<li class='dropdownicon sidelist' title='Help'>" +
         "<a href='/task-management-365/modern/admin/help/'>" +
@@ -226,14 +224,12 @@ $(document).ready(function () {
         "<li data-nav-id='../advanced/' title='Help' class='sidelist dropdown_romove_dot'>" +
         "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
         "<li data-nav-id='../advanced/' title='Feedback' class='sidelist'>" +
-        "<a href='/task-management-365/modern/admin/help/#Feedback'>Feedback</a>" +
+        "<a href='/task-management-365/modern/admin/help/#feedback'>Feedback</a>" +
         "</li>" +
         "<li data-nav-id='../advanced/' title='Product Activation' class='sidelist'>" +
         "<a href='/task-management-365/modern/admin/help/#product-activation'>Product Activation</a>" +
         "</li>" +
-        "<li data-nav-id='../advanced/' title='Validate Filtered User(s)' class='sidelist'>" +
-        "<a href='/task-management-365/modern/admin/help/#validate-filtered-user'>Validate Filtered User(s)</a>" +
-        "</li>" +
+       
         "</ul>" +
         "</li>" +
         "</ul>"

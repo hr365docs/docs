@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Revenue 365 | Admin Guide | Reports</title>
+    <title>Task Management 365 | Admin Guide | Reports</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="Hugo 0.92.2">
     <meta name="description"
@@ -83,9 +83,9 @@
                 <div class=col-lg-3>
                     <div class=sidebar>
                         <h5 class="mbHeading" style="color:SlateBlue"> <a
-                                href="../../../../Revenue365/">Revenue 365</a>
+                                href="../../../../task-management-365/">Task Management 365</a>
                         </h5>
-                        <a class=back-btn href="../../admin/" aria-label=back></a>
+                        <a class=back-btn href="../../../../task-management-365/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
                                 title="Admin Guide" class="sidelist
@@ -93,7 +93,7 @@
                                 <a href="../../admin/">
                                     Admin Guide
                                 </a>
-                                <ul id="revmodernadmin" class="sidenavbarscrollstyle">
+                                <ul id="taskmodernadmin" class="sidenavbarscrollstyle">
                                 </ul>
                             </li>
                     </div>
@@ -107,58 +107,37 @@
                                         title="Reports">Reports
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2><br>
-
+<p>The <b>Reports</b> section provides a centralized view of all <b>Tasks</b> and <b>Approvals</b> within the system. Users with Admin or Supervisor roles can filter, view, and export detailed information directly from this interface.</p>
                               <div><img src="report.png" onclick="openModal('report.png')" alt="Edit Bundle Page" width="100%" height="auto"></div><br>
 
-  <!-- Section 1: Invoice Status -->
-  <h3>1. Invoice Status</h3>
-   
-  <p>
-    The Invoice Status section displays the current state of all invoices. It includes different views like <strong>All</strong>, <strong>Sent</strong>, <strong>Paid</strong>, and <strong>Overdue</strong>. 
-    This helps track the overall invoice lifecycle efficiently.
-  </p>
-  <p>
-    <strong>All</strong> shows every invoice regardless of status.<br> <strong>Sent</strong> lists those dispatched to clients but not yet paid.<br> <strong>Paid</strong> includes invoices that are settled. <br>
-    <strong>Overdue</strong> flags unpaid invoices past the due date.
-  </p>
-<div><img src="report1.png" onclick="openModal('report1.png')" alt="Edit Bundle Page" width="100%" height="auto"></div><br>
+  
+ <h3>1. Task Report</h3>
 
-  <!-- Section 2: Revenue -->
-  <h3>2. Revenue</h3>
-  
-  <p>
-    The Revenue section provides insight into income streams across various categories. It includes revenue generated from <strong>Services</strong>, <strong>Products</strong>, and <strong>Subscriptions</strong>. 
-    This section helps assess how each business line contributes financially.
-  </p>
-  <p><b>Product revenue</b> comes from goods sold</p> 
- 
-  <div><img src="report2.png" onclick="openModal('report2.png')" alt="Edit Bundle Page" width="100%" height="auto"></div><br>
- 
-  <p>
-   <b>Service revenue</b>  comes from time-based or labor-based engagements. 
-  </p>
- <div><img src="serv.png" onclick="openModal('serv.png')" alt="Edit Bundle Page" width="100%" height="auto"></div><br>
-  <p><b>subscription revenue</b> reflects recurring income from software or services billed periodically.</p>
-  <div><img src="sub.png" onclick="openModal('sub.png')" alt="Edit Bundle Page" width="100%" height="auto"></div><br>
-  
+<p>
+The <b>Task Report</b> provides a complete overview of all tasks within the system. Each task entry is interactive—clicking on a task name opens its detail panel, where you can update progress, assign users, change priority, or add comments.
+</p>
 
-  <!-- Section 3: Subscription Billing Report -->
-  <h3>3. Subscription Billing Report</h3>
-  
-  <p>
-    This section gives a detailed overview of recurring subscription charges. It includes customer-wise breakdowns and billing frequencies. 
-    It’s useful for finance teams to monitor recurring cash flow and customer retention.
-  </p>
-  <div><img src="report3.png" onclick="openModal('report3.png')" alt="Edit Bundle Page" width="100%" height="auto"></div><br>
+<div><img src="report1.png" onclick="openModal('report1.png')" alt="Task Report Overview" width="100%" height="auto"></div><br>
+<div><img src="report2.png" onclick="openModal('report2.png')" alt="Task Report Overview" width="100%" height="auto"></div><br>
 
-  <!-- Section 4: Invoice Age -->
-  <h3>4. Invoice Age</h3>
-  
-  <p>
-    The Invoice Age section categorizes invoices based on how old they are since the issue date. This highlights aging receivables, making it easier to prioritize follow-ups. 
-    Common buckets include 0-7 days, 8-15 days, 16-30 days, and over 30 days.
-  </p>
-   <div><img src="report4.png" onclick="openModal('report4.png')" alt="Edit Bundle Page" width="100%" height="auto"></div><br>
+<p>
+Use advanced filters such as date range, priority, progress status, or custom labels to tailor the report view according to your workflow needs.
+</p>
+
+<div><img src="report3.png" onclick="openModal('report3.png')" alt="Task Report Filters" width="100%" height="auto"></div><br>
+
+<h3>2. Approval Report</h3>
+
+<p>
+The <b>Approval Report</b> lists all approval requests submitted and received across your workspace. This includes pending, approved, rejected, and reassigned approvals, giving complete visibility into the decision pipeline.
+</p>
+
+<div><img src="report4.png" onclick="openModal('report4.png')" alt="Approval Report Overview" width="100%" height="auto"></div><br>
+
+<p>
+Clicking on an approval name opens a detail view, where authorized users can review the context, add comments, and take actions such as <b>Approve</b>, <b>Reject</b>, <b>Hold</b>, or <b>Reassign</b>.
+</p>
+<div><img src="report5.png" onclick="openModal('report5.png')" alt="Approval Report Overview" width="100%" height="auto"></div><br>
 
 
 
@@ -169,8 +148,8 @@
                     <nav class="pagination mt-3">
                         <a class="nav nav-prev" href="../dashboard/" aria-label="Previous page"><i
                                 class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Dashboard</span></a>
-                        <a class="nav nav-next" href="../administration/" aria-label="Previous page"> <span
-                                class="d-none d-md-block">Administration</span><i class="ti-arrow-right ml-2"></i></a>
+                        <a class="nav nav-next" href="../settings/" aria-label="Previous page"> <span
+                                class="d-none d-md-block">Settings</span><i class="ti-arrow-right ml-2"></i></a>
                     </nav>
                 </div>
             </div>
@@ -219,7 +198,7 @@
         </div>
     </footer>
     <script src="../../../../js/script.min.js"></script>
-     <script src="../../../../js/rev-modern-admin.js"></script>
+     <script src="../../../../js/task-modern-admin.js"></script>
     
       <script src="../../../../js/header-footer.js"></script>
     
