@@ -49,7 +49,7 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>" +
 
         "<li data-nav-id='../user' title='General Setting' class='sidelist'>" +
-        "<a class='qwe' href='/Revenue365/modern/admin/settings/generalsetting/'>General Setting</a>" +
+        "<a class='qwe' href='/Revenue365/modern/admin/settings/generalsetting/'>General Settings</a>" +
         "</li>" +
 
         "<li data-nav-id='../user' title='Users' class='sidelist'>" +
