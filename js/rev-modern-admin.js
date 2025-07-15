@@ -36,7 +36,7 @@ $(document).ready(function () {
         "</li>" +
 
          "<li data-nav-id='./Settings/' title='Costomer ' class='sidelist'>" +
-        "<a href='/Revenue365/modern/admin/costomerjourney/'>Costomer Journey</a>" +
+        "<a href='/Revenue365/modern/admin/costomerjourney/'>Customer Journey</a>" +
         "</li>" +
 
         // Settings with arrow
