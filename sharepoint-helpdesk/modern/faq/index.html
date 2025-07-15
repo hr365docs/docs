@@ -954,6 +954,69 @@
                     </div>
                 </div>
             </div>
+            <div class="card mb-4 rounded-0 shadow border-0">
+    <div class="card-header rounded-0 bg-white border p-0 border-0" id="duplicate-notifications-header">
+        <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#duplicate-notifications-body" 
+           aria-expanded="false" 
+           aria-controls="duplicate-notifications-body" 
+           role="button">
+            <span>
+                Why is the "New Ticket Created" notification sent multiple times?
+            </span>
+            <i class="ti-plus text-primary"></i>
+        </a>
+    </div>
+    <div id="duplicate-notifications-body" class="collapse" data-parent="#accordion">
+        <div class="card-body text-secondary pt-0">
+            <p>
+                The "New Ticket Created" notification is sent based on the roles assigned to the user initiating the action. If an administrator also holds agent and supervisor roles, the application processes the ticket creation independently for each role.
+            </p>
+         
+                <li>Notifications are triggered per role-specific flow when a ticket is created.</li>
+                <li>Admins assigned as agent and supervisor will receive the notification multiple times—once for each role.</li>
+                <li>This ensures each role-based function is acknowledged within the ticketing workflow.</li>
+            
+         <br>   <p>
+                To reduce redundancy in such notifications, it is advisable to review role configurations and tailor them to suit organizational needs.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="card mb-4 rounded-0 shadow border-0">
+    <div class="card-header rounded-0 bg-white border p-0 border-0" id="helpdesk-performance-header">
+        <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" 
+           data-bs-toggle="collapse" 
+           href="#helpdesk-performance-body" 
+           aria-expanded="false" 
+           aria-controls="helpdesk-performance-body" 
+           role="button">
+            <span>
+                Why does the Helpdesk application's performance degrade?
+            </span>
+            <i class="ti-plus text-primary"></i>
+        </a>
+    </div>
+    <div id="helpdesk-performance-body" class="collapse" data-parent="#accordion">
+        <div class="card-body text-secondary pt-0">
+            <p>
+                The Helpdesk system's performance may degrade due to extensive error logging enabled by default. Continuous logging activity consumes system resources, resulting in slower response times and reduced efficiency.
+            </p>
+        
+                <li>Error logs can accumulate rapidly, especially in high-traffic environments.</li>
+                <li>Logging operations may interfere with real-time processing and UI responsiveness.</li>
+            
+           <br> <p>
+                To mitigate this issue, it is recommended to disable the error logging toggle available under <strong>General Settings</strong>. Doing so can significantly improve application performance and ensure a smoother user experience.
+            </p>
+              <div><img src="image.png" onclick="openModal('image.png')" alt="Helpdesk 365" width="100%"
+                                height="auto"></div><br>
+        </div>
+    </div>
+</div>
+
+
     </section>
     <footer class="section pb-4">
         <div class=container>
