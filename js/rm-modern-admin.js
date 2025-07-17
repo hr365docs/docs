@@ -79,7 +79,7 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>" +
 
    "<li data-nav-id='../user' title=Feature class='dropdownicon sidelist'>" +
-        "<a class='qwe' href='/RM365/modern/admin/settings/general-setting'>General Settings</a>" +
+        "<a class='qwe' href='/RM365/modern/admin/settings/general-setting/'>General Settings</a>" +
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
         "</a>" +
         "</li>" +
@@ -110,8 +110,9 @@ $(document).ready(function () {
 
 
         "</ul>" +
+        "<li>"+
         " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/Requisition-Templates'>" +
+        "<a href='/RM365/modern/admin/settings/Requisition-Templates/'>" +
         "Requisition Templates" +
         " </a>" +
         "</li>" +
@@ -167,12 +168,30 @@ $(document).ready(function () {
 
         "</ul>" +
         "<li data-nav-id='../General' title='Location' class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/Email-configration'>Email Configuration</a>" +
+        "<a href='/RM365/modern/admin/settings/Email-configration/'>Email Configuration</a>" +
         "</li>" +
+
+
+          "<li data-nav-id='../user' title='custom filed' class='dropdownicon sidelist'>" +
+        "<a class='qwe' href='/RM365/modern/admin/settings/custom-field/'>Custom Fields</a>" +
+        "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+        "</a>" +
+        "</li>" +
+        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+        "<li data-nav-id='../General' title='Complexity Level' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/custom-field/#custom-field'>Custom Fields</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Score Card' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/custom-field/#custom-form'>Custom Forms</a>" +
+        "</li>" +
+
+        "</ul>" +
+
      
         
         "<li data-nav-id='../user' title=Feature class='dropdownicon sidelist'>" +
-        "<a class='qwe' href='/RM365/modern/admin/settings/hiring-process'>Hiring Process</a>" +
+        "<a class='qwe' href='/RM365/modern/admin/settings/hiring-process/'>Hiring Process</a>" +
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
         "</a>" +
         "</li>" +
@@ -188,7 +207,7 @@ $(document).ready(function () {
         "</ul>" +
         
         " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/portal-configration'>" +
+        "<a href='/RM365/modern/admin/settings/portal-configration/'>" +
         "Portal Configuration" +
         " </a>" +
         "</li>" +
