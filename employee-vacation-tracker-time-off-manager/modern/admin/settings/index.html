@@ -388,6 +388,77 @@
                                         <p>For downloading, the user can click on the 'Download' option to retrieve the logs.</p>
                                         <img src="DownloadLogs.png" onclick="openModal('DownloadLogs.png')"
                                             alt="Office Location" width="100%"><br><br>
+
+                                             <h2 id="_notesrequired">
+        <a class="header-icon-link highlight" href=#>
+            Make Notes Required
+            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+        </a>
+    </h2>
+
+    Turn on this setting to make the <b>'Notes to Approver'</b> field mandatory when submitting a leave request. This ensures that employees provide context or details for their request, which helps approvers make informed decisions.
+    <br><br>
+
+    <div>
+        <img src="NotesToggle.png" onclick="openModal('NotesToggle.png')" alt="Toggle Notes Required" width="100%" height="auto">
+    </div>
+    <br>
+
+    <p>Click on the <b>'Make Notes Required'</b> toggle switch to enable it. Once enabled, the leave request form will not allow submission unless the <b>'Notes to Approver'</b> field is filled in.</p>
+
+    <div>
+        <img src="NotesMandatoryField.png" onclick="openModal('NotesMandatoryField.png')" alt="Notes Required Field Highlight" width="100%" height="auto">
+    </div>
+    <div>
+        <img src="NotesMandatoryField1.png" onclick="openModal('NotesMandatoryField1.png')" alt="Notes Required Field Highlight" width="100%" height="auto">
+    </div>
+    <br>
+
+                                               <div class="bg-light p-4 remove-padding common-scroll" id="Brand-logo"><ul class="page-list">
+   
+    
+</ul>
+
+
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
+
+                                        Brand logo
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                Here you can add your company logo, which will be displayed at the top of the navigation
+                                bar. From here, the admin can add or update the company logo. The updated logo will
+                                appear at the top of the navigation bar. The recommended size for the logo is 150 X 60,
+                                with the same aspect ratio, and a transparent or white background is recommended for
+                                better visibility and user experience.
+                                <br>
+                                <br>
+                                <div><img src="BrandLogo1.png" onclick="openModal('BrandLogo1.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br>
+                                <p>Click on the 'Upload Logo' button, then select the logo file. After selecting, the
+                                    user will have the option to crop the logo, allowing them to adjust the image as
+                                    needed.</p>
+                                <div><img src="Crop.png" onclick="openModal('Crop.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>
+                                <p>After cropping, the user can click on the 'Save Logo' button. Once saved, the logo
+                                    will be visible on the top bar.</p>
+
+                                <div><img src="SaveBrand.png" onclick="openModal('SaveBrand.png')"
+                                        alt="Update users role" width="100%" height="auto"></div>
+                                <br>
+                                <div><img src="UploadBrand.png" onclick="openModal('UploadBrand.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br>
+                                <p>If the user wants to remove the logo they added and upload a new one, they can click
+                                    the 'Remove' button. A confirmation prompt will appear asking 'Yes' or 'No.' If the
+                                    user selects 'Yes,' the logo will be removed.
+                                </p>
+                                <div><img src="RemoveBrand.png" onclick="openModal('RemoveBrand.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br>
+                                <br>
+
+                            </ul>
+                        </div>
                                     </ul>
                                 </li> <br>
 
@@ -499,6 +570,13 @@
                                 </li> <br>
                                 <img src="24.png" onclick="openModal('24.png')" alt="Office Location"
                                     width="100%"><br><br>
+                                   <li id="teamapproval">
+                                   <h6>Enable Team Approvals</h6>
+                                   If enabled, the 'Team Approvals' section will be visible on the home page, allowing higher-level managers (managers of managers) to review and act on team requests.
+                                  </li><br>
+
+                                <img src="team.png" onclick="openModal('team.png')" alt="Office Location"
+                                    width="100%"><br><br>
 
 
                             </ol>
@@ -526,6 +604,11 @@
                                     notifications to approvers.
                                 </li> <br>
                                 <img src="10.png" onclick="openModal('10.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <li id="SharedMailbox">
+                                    <h6>Shared Mailbox ID</h6>The shared mailbox ID is automatically validated upon entry to ensure it is valid and accessible.
+                                </li> <br>
+                                <img src="70.png" onclick="openModal('70.png')" alt="Office Location" width="100%"><br>
                                 <br>
 
                             </ol>
@@ -640,7 +723,13 @@
                                     <h6>Allow backdate leaves </h6>User can be allowed to submit back date leaves by X
                                     days
                                 </li>
-                                <img src="11.png" onclick="openModal('11.png')" alt="Office Location" width="100%"><br>
+                                 <img src="0.png" onclick="openModal('0.png')" alt="Calculate partial leave"
+                                    width="100%">
+                                <br><br>
+                                <li id="leaveeligibilitydelay">
+                                    <h6>Enable Leave Eligibility Delay </h6>Enable this option to assign leave only after a defined number of days from an employee’s joining date. When this toggle is turned on, the system will allow you to specify the number of days after which leave becomes eligible.
+                                </li>
+                                <img src="EligibilityDaysInput.png" onclick="openModal('EligibilityDaysInput.png')" alt="Eligibility Days Input" width="100%" height="auto"><br>
                                 <br>
                                 <h6>Leaves Based On</h6> Leaves are based on 3 categories. This could be enabled by
                                 selecting the check box and click on <b>Save</b> button.
