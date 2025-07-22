@@ -211,7 +211,6 @@ $(document).ready(function () {
 
 
 
-
 "<li data-nav-id='../advanced/' title='Sort by' class='sidelist'>" +
 "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#Sortby'>Sort by</a>" +
 "</li>" +
@@ -225,7 +224,7 @@ $(document).ready(function () {
 "</li>" +
 
 "<li data-nav-id='../advanced/' title='view' class='sidelist'>" +
-"<a href='/sharepoint-employee-directory/modern/admin/settings/views/#view'>view</a>" +
+"<a href='/sharepoint-employee-directory/modern/admin/settings/views/#view'>views</a>"+
 "</li>" +
 
 "<li data-nav-id='../advanced/' title='User properties in grid view' class='sidelist'>" +
