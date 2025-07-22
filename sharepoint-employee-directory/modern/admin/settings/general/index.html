@@ -121,24 +121,36 @@
 
                             </ul>
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="AzureStorageConfiguration">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
-                                        Azure Storage Configuration
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                This toggle allows you to retrieve user information from Azure. <br> <br>
-                                <div><img src="azure.png" onclick="openModal('azure.png')" alt="Update users role"
-                                        width="100%" height="auto"></div><br>
-                                <p>When the Sync employee information from Azure Blob Storage toggle is on, it displays
-                                    the respective fields, allowing us to fill them in to retrieve information from
-                                    Azure Blob Storage.</p><br> <br>
-                                <div><img src="azureon.png" onclick="openModal('azureon.png')" alt="Update users role"
-                                        width="100%" height="auto"></div><br>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="AutoLoadConfiguration">
+  <ul class="page-list">
+    <h2 id="_autoload">
+      <a class="header-icon-link highlight" href="#">
+        Auto Load Configuration
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h2>
+    Automatically load additional records either by scrolling or by clicking the "Load More" button.
+    <br><br>
+    <div>
+      <img src="3.png" onclick="openModal('3.png')" alt="Auto Load Preview" width="100%" height="auto">
+    </div>
+    <br>
+    <p>If the 'Auto Load' toggle is turned off, the 'Load More' button will be displayed.</p>
+    <br>
+    <div>
+      <img src="LoadMore.png" onclick="openModal('LoadMore.png')" alt="Load More Button" width="100%" height="auto">
+    </div>
+    <br>
+    <p>If the toggle is on, the 'Load More' button will not be shown, and records will load automatically.</p>
+    <br>
+    <div>
+      <img src="OntoogleAuto.png" onclick="openModal('OntoogleAuto.png')" alt="Auto Load Enabled" width="100%" height="auto">
+    </div>
+    <br><br>
+  </ul>
+</div>
 
-                            </ul>
-
-                        </div>
+                       
                         <div class="bg-light p-4 remove-padding common-scroll" id="Birthdayandanniversarytemplates">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
@@ -262,24 +274,8 @@
                                         alt="Update users role" width="100%" height="auto"></div><br>
                             </ul>
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Employeeinfopage">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
-                                        Employee info page
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                You can define specific url in Azure AD extension attribute column, this setting will
-                                enable employee info page. Please refer here on how to setup up extension attributes
-                                <br> <br>
-                                <div><img src="39.png" onclick="openModal('39.png')" alt="Update users role"
-                                        width="100%" height="auto"></div><br>
-                                <p>In the Employee Info section, first, provide a name for the icon in the field. Then
-                                    select AD Properties, followed by the Property Name, and finally, click Submit.</p>
-                                <div><img src="EmployeeInfoPage.png" onclick="openModal('EmployeeInfoPage.png')"
-                                        alt="Update users role" width="100%" height="auto"></div><br>
-                            </ul>
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="GCCTenant">
+                       
+                          <div class="bg-light p-4 remove-padding common-scroll" id="GCCTenant">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
 
@@ -298,6 +294,43 @@
                             </ul>
 
                         </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="ExtendMobileNumberSearch">
+  <ul class="page-list">
+    <h2 id="_extendmobilenumbersearch">
+      <a class="header-icon-link highlight" href="#">
+        Extend Mobile Number and Phone Number Search Capability
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h2>
+    Please activate this feature if you want to search by 'starts with', 'ends with', or 'contains', 
+    but only if the number of employees is under 3000.
+    <br><br>
+    <div>
+      <img src="13.png" onclick="openModal('13.png')" alt="Extended Search Option" width="100%" height="auto">
+    </div>
+    <br><br>
+  </ul>
+</div>
+<div class="bg-light p-4 remove-padding common-scroll" id="ExtendCustomFieldsSearch">
+  <ul class="page-list">
+    <h2 id="_extendcustomfieldssearch">
+      <a class="header-icon-link highlight" href="#">
+        Extend Custom Fields Search Capability
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h2>
+    If you want to utilize the 'starts with', 'ends with', or 'contains' search functionalities, please enable this feature. 
+    Additionally, limit its use to cases where the number of employees is under 3000.
+    <br><br>
+    <div>
+      <img src="100.png" onclick="openModal('100.png')" alt="Custom Fields Search" width="100%" height="auto">
+    </div>
+    <br><br>
+  </ul>
+</div>
+
+
+                      
                         <div class="bg-light p-4 remove-padding common-scroll" id="Filterattribute">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Filter Attributes
@@ -370,31 +403,7 @@
                             </ul>
                         </div>
 
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Homepagecustomurl">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
-
-
-                                        Home page custom url
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                In the custom URL section of the homepage, you can input the URL of your favorite
-                                website and navigate there with a single click.
-                                <br> <br>
-                                <div><img src="41.png" onclick="openModal('41.png')" alt="Update users role"
-                                        width="100%" height="auto"></div><br>
-                                <p>Here, the user can enter their custom URL, such as https://apps365.com, and also add
-                                    an icon. After that, they can click the Save button."</p>
-                                <div><img src="HomePageURL.png" onclick="openModal('HomePageURL.png')"
-                                        alt="Update users role" width="100%" height="auto"></div><br>
-                                <p>And then, the user will see this icon on their home screen. By clicking on the icon,
-                                    they will be redirected to the site they provided in the custom link.</p>
-                                <div><img src="HomeIcon.png" onclick="openModal('HomeIcon.png')" alt="Update users role"
-                                        width="100%" height="auto"></div><br>
-
-                            </ul>
-
-                        </div>
+                     
                         <div class="bg-light p-4 remove-padding common-scroll" id="language-selection-as-browser">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language selection as
@@ -430,40 +439,8 @@
 
                         </div>
 
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Map-external-list">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Map external list
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2><br>
-
-                                In the "Map External List," there is a toggle. By default, this toggle is switched off,
-                                signifying that the data originates from the internal list of non-Microsoft 365
-                                (M365).<br> <br>
-                                <div><img src="29.png" onclick="openModal('29.png')" alt="Update users role"
-                                        width="100%" height="auto"></div><br>
-
-                                When you activate the toggle, it will request input for two fields:
-
-                                "Enter Site URL": In this field, please input the URL of the external list.
-                                "Enter List Name": In this field, enter the list's name. <br>
-                                <div><img src="20.png" onclick="openModal('20.png')" alt="Update users role"
-                                        width="100%" height="auto"></div><br>
-
-                                <p>Upon entering this information, selecting "Save" will trigger the appearance of a
-                                    "Map Attribute Link (click here)." Clicking on this link will open a panel
-                                    displaying the data sourced from the fields of the external list.</p>
-                                <p>Within this panel, specific fields are designated as mandatory. Only after completing
-                                    these obligatory fields will the data be visible in the non-M365 view. If these
-                                    necessary fields are left blank, please review the "Map Attribute Panel" to ensure
-                                    all essential information is supplied.</p>
-                                <div><img src="42.png" onclick="openModal('42.png')" alt="Update users role"
-                                        width="100%" height="auto"></div><br>
-
-
-                            </ul>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="orgChart">
+                       
+                        <!-- <div class="bg-light p-4 remove-padding common-scroll" id="orgChart">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Organization chart
                                         type
@@ -523,8 +500,8 @@
                                 <div><img src="fitscreenView.png" onclick="openModal('fitscreenView.png')"
                                         alt="Search filters" width="100%" height="auto"></div>
 
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="dateofjoin">
+                        </div> -->
+                        <!-- <div class="bg-light p-4 remove-padding common-scroll" id="dateofjoin">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Date of Joining
                                         type
@@ -538,7 +515,7 @@
 
                                 </p>
 
-                        </div>
+                        </div> -->
                         <div class="bg-light p-4 remove-padding common-scroll" id="Organizationname">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
@@ -624,7 +601,7 @@
                                         alt="Update users role" width="100%" height="auto"></div>
                             </ul>
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="search-filter">
+                        <!-- <div class="bg-light p-4 remove-padding common-scroll" id="search-filter">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Search filters
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -640,8 +617,43 @@
 
                                 </p>
 
-                        </div>
+                        </div> -->
                     </div>
+                    <div class="bg-light p-4 remove-padding common-scroll" id="SyncJobTitleLocationDept">
+  <ul class="page-list">
+    <h2 id="_syncjobtitlelocationdept">
+      <a class="header-icon-link highlight" href="#">
+        Sync Job Title, Location, and Department
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h2>
+    This feature allows automatic synchronization of Job Title, Location, and Department details from the Office 365. 
+    When enabled, it ensures that employee records are updated with the latest organizational structure information.
+    <br><br>
+    <div>
+      <img src="Sync1.png" onclick="openModal('Sync1.png')" alt="Sync Job Title, Location and Department" width="100%" height="auto">
+    </div>
+    <br><br>
+  </ul>
+</div>
+<div class="bg-light p-4 remove-padding common-scroll" id="ValidateWorkEmail">
+  <ul class="page-list">
+    <h2 id="_validateworkemail">
+      <a class="header-icon-link highlight" href="#">
+        Validate Work Email with SharePoint Account Name
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h2>
+    Enable this setting to validate the work email with the SharePoint account name. 
+    Note that enabling this setting may increase the page load time of the application, so use it judiciously.
+    <br><br>
+    <div>
+      <img src="validate.png" onclick="openModal('validate.png')" alt="Validate Work Email" width="100%" height="auto">
+    </div>
+    <br><br>
+  </ul>
+</div>
+
                     <!-- <div class="bg-light p-4 remove-padding common-scroll" id="Syncemployeeprofileimagesfrom">
                         <ul class=page-list>
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>

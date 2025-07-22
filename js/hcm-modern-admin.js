@@ -300,8 +300,7 @@ $(document).ready(function () {
   "</a>" +
   "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
-
-
+"<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
   "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
 
     "<li class='sidelist' title='Azure Storage Configuration'>" +
@@ -389,6 +388,7 @@ $(document).ready(function () {
     "</li>" +
 
   "</ul>" +
+"</li>"+
 "</li>"+
 
 
