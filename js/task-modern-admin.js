@@ -127,7 +127,7 @@ $(document).ready(function () {
         // Notifications
         "<ul id='modernadminmainsetting'>" +
         "<li class='dropdownicon sidelist' title='Notifications'>" +
-        "<a class='qwe' href='/task-management-365/modern/admin/settings/notification/'>" +
+        "<a class='qwe' href='/task-management-365/modern/admin/settings/Notification/'>" +
         "Notifications" +
         "</a>" +
         "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIcongeneral aside_dropdown_icon'>" +
@@ -135,10 +135,10 @@ $(document).ready(function () {
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot'>" +
         "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmoderngeneral'>" +
         "<li data-nav-id='../advanced/' title='Email Templates' class='sidelist'>" +
-        "<a href='/task-management-365/modern/admin/settings/notification/#Email-Templates'>Email Templates</a>" +
+        "<a href='/task-management-365/modern/admin/settings/Notification/#Email-Templates'>Email Templates</a>" +
         "</li>" +
         "<li data-nav-id='../advanced/' title='Notification Settings' class='sidelist'>" +
-        "<a href='/task-management-365/modern/admin/settings/notification/#Notification-Settings'>Notification Settings</a>" +
+        "<a href='/task-management-365/modern/admin/settings/Notification/#Notification-Settings'>Notification Settings</a>" +
         "</li>" +
         "</ul>" +
         "</li>" +
@@ -163,7 +163,7 @@ $(document).ready(function () {
         "<ul id='modernadminmainsetting'>" +
         "<li class='dropdownicon sidelist' title='integration'>" +
         "<a class='qwe' href='/task-management-365/modern/admin/settings/integration/'>" +
-        "integrations" +
+        "Integrations" +
         "</a>" +
         "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIcongeneral aside_dropdown_icon'>" +
         "</li>" +
