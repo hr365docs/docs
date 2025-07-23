@@ -300,7 +300,7 @@ $(document).ready(function () {
   "</a>" +
   "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
-"<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
+// "<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
   "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
 
     "<li class='sidelist' title='Azure Storage Configuration'>" +
@@ -1639,36 +1639,36 @@ $(document).ready(function () {
   "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/PM365/roles/'>" +
     "Roles" +
   "</a>" +
-  "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
+  // "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
- "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
-"<li data-nav-id='./Email-Notification/' title=users class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#user'>User</a>" +
-        "</li>" +
+//  "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
+// "<li data-nav-id='./Email-Notification/' title=users class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#user'>User</a>" +
+//         "</li>" +
 
-        "<li data-nav-id='./Custom-Emails/' title=Manager class='sidelist'>" +
-        " <a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#manager'>Manager(Employee's Manger)</a>" +
-        " </li>" +
+//         "<li data-nav-id='./Custom-Emails/' title=Manager class='sidelist'>" +
+//         " <a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#manager'>Manager(Employee's Manger)</a>" +
+//         " </li>" +
 
-        " <li data-nav-id='./User/' title='HR Executive' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-executive-dashboard'>HR Executive</a>" +
-        "</li>" +
+//         " <li data-nav-id='./User/' title='HR Executive' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-executive-dashboard'>HR Executive</a>" +
+//         "</li>" +
 
-        "<li data-nav-id='./General-Settings/' title='HR Manager' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-manager-dashboard'>HR Manager </a>" +
-        "</li>" +
-        "<li data-nav-id='./General-Settings/' title='HR Head' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-head-dashboard'>HR Head </a>" +
-        " </li>" +
-        "<li data-nav-id='./General-Settings/' title='HR Manager Admin' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-manager-admin-dashboard'>HR Manager Admin </a>" +
-        "</li>" +
-        "<li data-nav-id='./General-Settings/' title='HR Head Admin' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-head-admin'>HR Head–Admin </a>" +
-        "</li>" +
+//         "<li data-nav-id='./General-Settings/' title='HR Manager' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-manager-dashboard'>HR Manager </a>" +
+//         "</li>" +
+//         "<li data-nav-id='./General-Settings/' title='HR Head' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-head-dashboard'>HR Head </a>" +
+//         " </li>" +
+//         "<li data-nav-id='./General-Settings/' title='HR Manager Admin' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-manager-admin-dashboard'>HR Manager Admin </a>" +
+//         "</li>" +
+//         "<li data-nav-id='./General-Settings/' title='HR Head Admin' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/roles/#hr-head-admin'>HR Head–Admin </a>" +
+//         "</li>" +
        
- "</ul>"+
- "</li>"+
+//  "</ul>"+
+//  "</li>"+
                 
 
 
@@ -1677,67 +1677,67 @@ $(document).ready(function () {
   "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/PM365/administration/'>" +
     "Administration" +
   "</a>" +
-  "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
+  // "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
- "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
+//  "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
 
 
-        "<li data-nav-id='./Custom-Emails/' title=Department class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#Department'>" +
-        "Department" +
-        "</a>" +
-        "</li>" +
-        "<li data-nav-id='./Custom-Emails/' title=Location class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#Location'>" +
-        "Location" +
-        "</a>" +
-        "</li>" +
-        "<li data-nav-id='./Custom-Emails/' title=Job Title class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#job-title'>" +
-        "Job title" +
-        "</a>" +
-        "</li>" +
-        "<li data-nav-id='./Custom-Emails/' title=Categories class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#categories'>" +
-        "Categories" +
-        "</a>" +
-        "</li>" +
+//         "<li data-nav-id='./Custom-Emails/' title=Department class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#Department'>" +
+//         "Department" +
+//         "</a>" +
+//         "</li>" +
+//         "<li data-nav-id='./Custom-Emails/' title=Location class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#Location'>" +
+//         "Location" +
+//         "</a>" +
+//         "</li>" +
+//         "<li data-nav-id='./Custom-Emails/' title=Job Title class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#job-title'>" +
+//         "Job title" +
+//         "</a>" +
+//         "</li>" +
+//         "<li data-nav-id='./Custom-Emails/' title=Categories class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#categories'>" +
+//         "Categories" +
+//         "</a>" +
+//         "</li>" +
 
-        "<li data-nav-id='./User/' title=KRA class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#kra'>" +
-        "KRA(Key Result Area)" +
-        "</a>" +
-        " </li>" +
-        "<li data-nav-id='./User/' title=Goals class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#Goals'>" +
-        "Goals" +
-        "</a>" +
-        " </li>" +
-        "<li data-nav-id='./User/' title=Competency & Skills class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#Competency&Skills'>" +
-        "Competency & Skills" +
-        "</a>" +
-        " </li>" +
+//         "<li data-nav-id='./User/' title=KRA class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#kra'>" +
+//         "KRA(Key Result Area)" +
+//         "</a>" +
+//         " </li>" +
+//         "<li data-nav-id='./User/' title=Goals class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#Goals'>" +
+//         "Goals" +
+//         "</a>" +
+//         " </li>" +
+//         "<li data-nav-id='./User/' title=Competency & Skills class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#Competency&Skills'>" +
+//         "Competency & Skills" +
+//         "</a>" +
+//         " </li>" +
 
-        "<li data-nav-id='./General-Settings/' title='Role Template' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#role-template'>" +
-        "Template(s)" +
-        " </a>" +
-        " </li>" +
-        "<li data-nav-id='./General-Settings/' title='1:1 Template' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#1:1-template'>" +
-        " 1:1 Template" +
-        " </a>" +
-        " </li>" +
-        "<li data-nav-id='./General-Settings/' title='Feedback Template' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#FeedbackTemplate'>" +
-        "Feedback template" +
-        " </a>" +
-        " </li>" +
+//         "<li data-nav-id='./General-Settings/' title='Role Template' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#role-template'>" +
+//         "Template(s)" +
+//         " </a>" +
+//         " </li>" +
+//         "<li data-nav-id='./General-Settings/' title='1:1 Template' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#1:1-template'>" +
+//         " 1:1 Template" +
+//         " </a>" +
+//         " </li>" +
+//         "<li data-nav-id='./General-Settings/' title='Feedback Template' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/administration/#FeedbackTemplate'>" +
+//         "Feedback template" +
+//         " </a>" +
+//         " </li>" +
 
 
- "</ul>"+
- "</li>"+
+//  "</ul>"+
+//  "</li>"+
 
                 "<li data-nav-id='../advanced/' title='PM365 - Settings' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/'>Settings</a>" +
@@ -1748,82 +1748,82 @@ $(document).ready(function () {
   "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/PM365/settings/#general-setting'>" +
     "General Setting" +
   "</a>" +
-  "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
+  // "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
- "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
- "<li data-nav-id='../General' title='API Configuration' class='sidelist'>" +
-         "<li data-nav-id='../General' title='API Configuration' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#API-Configuration'>API Configuration</a>" +
-        "</li>" +
+//  "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
+//  "<li data-nav-id='../General' title='API Configuration' class='sidelist'>" +
+//          "<li data-nav-id='../General' title='API Configuration' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#API-Configuration'>API Configuration</a>" +
+//         "</li>" +
        
-        "<li data-nav-id='../General' title='Overall Rating Method' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Overall-Rating-Method'> Overall Rating Method </a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Acknowledgement' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Acknowledgement'> Acknowledgement </a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Brand-Logo'> Brand Logo </a>" +
-        "</li>" +
+//         "<li data-nav-id='../General' title='Overall Rating Method' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Overall-Rating-Method'> Overall Rating Method </a>" +
+//         "</li>" +
+//         "<li data-nav-id='../General' title='Acknowledgement' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Acknowledgement'> Acknowledgement </a>" +
+//         "</li>" +
+//         "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Brand-Logo'> Brand Logo </a>" +
+//         "</li>" +
      
 
- "</ul>"+
- "</li>"+
+//  "</ul>"+
+//  "</li>"+
                  "<li class='dropdownicon sidelist' title='notification'>" +
   "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/PM365/settings/#notification'>" +
     "Notifications" +
   "</a>" +
-  "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
+  // "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
- "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
+//  "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
 
- "<li data-nav-id='../General' title='Self-Review' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Self-Review'> Self-Review</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Appraisal’s-Review' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Appraisals-Review'>Appraisal’s-Review</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='HR-Review' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#HR-Review'>HR-Review</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='360 Degree' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#360Degree'>360 Degree</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='1:1' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#OnetoOne'>1:1</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='KPI' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#KPI'>KPI</a>" +
-        "</li>" +
-
-
+//  "<li data-nav-id='../General' title='Self-Review' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Self-Review'> Self-Review</a>" +
+//         "</li>" +
+//         "<li data-nav-id='../General' title='Appraisal’s-Review' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#Appraisals-Review'>Appraisal’s-Review</a>" +
+//         "</li>" +
+//         "<li data-nav-id='../General' title='HR-Review' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#HR-Review'>HR-Review</a>" +
+//         "</li>" +
+//         "<li data-nav-id='../General' title='360 Degree' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#360Degree'>360 Degree</a>" +
+//         "</li>" +
+//         "<li data-nav-id='../General' title='1:1' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#OnetoOne'>1:1</a>" +
+//         "</li>" +
+//         "<li data-nav-id='../General' title='KPI' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#KPI'>KPI</a>" +
+//         "</li>" +
 
 
- "</ul>"+
- "</li>"+
+
+
+//  "</ul>"+
+//  "</li>"+
 
 
                  "<li class='dropdownicon sidelist' title='Features'>" +
   "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/PM365/settings/#features'>" +
     "Features" +
   "</a>" +
-  "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
+  // "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
- "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
+//  "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
  
-        "<li data-nav-id='../General' title='360 Feedback' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#360Feedback'>360 Feedback</a>" +
-        "</li>" +
+//         "<li data-nav-id='../General' title='360 Feedback' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#360Feedback'>360 Feedback</a>" +
+//         "</li>" +
        
-        "<li data-nav-id='../General' title='Appraisal Cycle' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#AppraisalCycle'>Appraisal Cycle</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='1:1' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#KPICycle'>KPI Cycle</a>" +
-        "</li>" +
+//         "<li data-nav-id='../General' title='Appraisal Cycle' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#AppraisalCycle'>Appraisal Cycle</a>" +
+//         "</li>" +
+//         "<li data-nav-id='../General' title='1:1' class='sidelist'>" +
+//         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#KPICycle'>KPI Cycle</a>" +
+//         "</li>" +
 
-"</ul>"+
-"</li>"+
+// "</ul>"+
+// "</li>"+
 
 
 
