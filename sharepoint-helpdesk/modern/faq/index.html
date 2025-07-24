@@ -1014,7 +1014,65 @@
                                 height="auto"></div><br>
         </div>
     </div>
+    
 </div>
+<div class="card mb-4 rounded-0 shadow border-0">
+  <div class="card-header rounded-0 bg-white border p-0 border-0">
+    <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
+       data-bs-toggle="collapse" href="#sharedmailboxupdate" role="button"
+       aria-expanded="false" aria-controls="sharedmailboxupdate">
+      <span>How to Reconfigure the Shared Mailbox ID in SharePoint Power Automate Workflows</span>
+      <i class="ti ti-plus text-primary text-right"></i>
+    </a>
+  </div>
+  <div id="sharedmailboxupdate" class="collapse" data-parent="#accordion">
+    <div class="card-body font-secondary text-color pt-0">
+      Procedure to Update the Shared Mailbox Identifier in SharePoint Power Automate :<br><br>
+
+      1. Navigate to SharePoint Power Automate.<br><br>
+      <div><img src="step1.png" onclick="openModal('step1.png')" alt="Access Power Automate" width="100%" height="auto"></div><br>
+
+      2. Click on <strong>Power Automate</strong> in the top menu and select <strong>Solutions</strong>.<br><br>
+      <div><img src="step2.png" onclick="openModal('step2.png')" alt="Access Solutions" width="100%" height="auto"></div><br>
+
+      3. Open the <strong>SharePoint Admin Centre</strong>.<br><br>
+      <div><img src="step3.png" onclick="openModal('step3.png')" alt="SharePoint Admin Centre" width="100%" height="auto"></div><br>
+
+      4. In the left navigation, click on <strong>Teams & Groups</strong>, then select <strong>Shared Mailboxes</strong>.<br><br>
+      <div><img src="step4.png" onclick="openModal('step4.png')" alt="Teams and Groups" width="100%" height="auto"></div><br>
+
+      5. Choose the appropriate shared mailbox.<br><br>
+      <div><img src="step5.png" onclick="openModal('step5.png')" alt="Select Shared Mailbox" width="100%" height="auto"></div><br>
+
+      6. Make sure that the shared mailbox has the required permissions assigned: <strong>Read</strong>, <strong>Send As</strong>, and <strong>Full Access</strong>.<br><br>
+      <div><img src="step6.png" onclick="openModal('step6.png')" alt="Mailbox Permissions" width="100%" height="auto"></div><br>
+      <div><img src="step7.png" onclick="openModal('step7.png')" alt="Mailbox Roles" width="100%" height="auto"></div><br>
+
+      7. In Power Automate, under Solutions, select <strong>Help Desk 365</strong>.<br><br>
+      <div><img src="step8.png" onclick="openModal('step8.png')" alt="Help Desk 365" width="100%" height="auto"></div><br>
+
+      8. Click on <strong>Environment Variables</strong>.<br><br>
+      <div><img src="step9.png" onclick="openModal('step9.png')" alt="Environment Variables" width="100%" height="auto"></div><br>
+
+      9. Locate the <strong>Support Mailbox ID</strong> variable and click to open it.<br><br>
+      <div><img src="step10.png" onclick="openModal('step10.png')" alt="Support Mailbox Variable" width="100%" height="auto"></div><br>
+
+      10. Update both the <strong>Default Value</strong> and <strong>Current Value</strong> with the new shared mailbox ID.<br><br>
+      <div><img src="step11.png" onclick="openModal('step11.png')" alt="Update Mailbox ID" width="100%" height="auto"></div><br>
+
+      11. Click on <strong>Cloud Flows</strong> to view your automated flows. Locate <em>HR365-HD Shared Mailbox</em>, click the vertical ellipsis icon, and select <strong>Edit</strong>.<br><br>
+      <div><img src="step12.png" onclick="openModal('step12.png')" alt="Edit Flow" width="100%" height="auto"></div><br>
+
+      12. In the flow editor, click on the trigger <em>When a new email arrives</em>. Then, click the folder icon and choose the appropriate inbox folder.<br><br>
+      <div><img src="13.png" onclick="openModal('13.png')" alt="Inbox Folder" width="100%" height="auto"></div><br>
+
+      13. Once the folder is selected, click the <strong>Save</strong> icon to finalize the update.<br><br>
+      <div><img src="14.png" onclick="openModal('14.png')" alt="Save Flow" width="100%" height="auto"></div><br>
+    </div>
+  </div>
+</div>
+
+
 
 
     </section>

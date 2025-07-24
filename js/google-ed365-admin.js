@@ -61,7 +61,7 @@ $(document).ready(function () {
         "<a href='/Google-ED365/modern/admin/settings/'>" +
         "Settings" +
         "</a>" +
-        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
+        "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
         "</li>" +
 
         "<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
@@ -74,7 +74,7 @@ $(document).ready(function () {
         "<a  class='qwe' href='/Google-ED365/modern/admin/settings/general/'>" +
         "General" +
         "</a>" +
-        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
@@ -143,7 +143,7 @@ $(document).ready(function () {
         "<a  class='qwe' href='/Google-ED365/modern/admin/settings/views/'>" +
         "Views" +
         "</a>" +
-        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
@@ -252,7 +252,7 @@ $(document).ready(function () {
         "<a  class='qwe' href='/Google-ED365/modern/admin/settings/exclude-options/'>" +
         "Exclude Options" +
         "</a>" +
-        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
@@ -324,7 +324,7 @@ $(document).ready(function () {
         "<a href='/Google-ED365/modern/admin/settings/advanced/'>" +
         "Advanced" +
         "</a>" +
-        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 

@@ -264,27 +264,60 @@ When the <b>Auto Load</b> toggle is turned <b>on</b>, additional records will au
 <div><img src="23.png" onclick="openModal('23.png')" alt="AD Custom Attributes View" width="100%" height="auto"></div><br>
 
               <li id="Customfunction"><b>Custom function</b>: <br>
-                You can develop a custom function enabling users to select specific Active Directory (AD) properties and
+                You can develop a custom function enabling users to select specific Google properties and
                 retrieve their respective values.
                 <!-- For instance, if a user selects "DateOfJoining" as the property and
                 inputs the value "2022-03-12", the function will showcase users whose DateOfJoining corresponds to
                 "2022-03-12" within the application. -->
               </li> <br>
-              <div><img src="7.png" onclick="openModal('7.png')" alt="Advanced" width="100%" height="auto">
-              </div>
-              <br>
-              <p>In the custom function, the user can add custom fields, such as selecting the 'Department' field. For
-                example, the user can choose 'IT' as the department.Then click on <b>submit</b> button</p>
+              <div><img src="7.png" onclick="openModal('7.png')" alt="Advanced" width="100%"
+                  height="auto">
+              </div><br>
+             
+              <p>In the custom function, the user can add custom fields, such as selecting the 'Email' field. For
+                example, the user can choose 'annie.v@assetmanager365.com' as the wmail.Then click on <b>submit</b> button</p>
               <div><img src="CustomFun.png" onclick="openModal('CustomFun.png')" alt="Advanced" width="100%"
                   height="auto">
               </div><br>
-              <p>Then, only the user details whose department is 'IT' will be displayed.</p>
+              <p>Then, only the user details whose email is 'annie.v@assetmanager365.com' will be displayed.</p>
               <div><img src="ITusers.png" onclick="openModal('ITusers.png')" alt="Advanced" width="100%" height="auto">
               </div><br>
-              <p>If the user wants to delete a custom function and had added 'IT' as a department, they should select the custom function they wish to delete, and then click the delete button.</p>
+              <p>If the user wants to delete a custom function, they should select the custom function they wish to delete, and then click the delete button.</p>
 
               <div><img src="DeleteDepartment.png" onclick="openModal('DeleteDepartment.png')" alt="Advanced"
                   width="100%" height="auto">
+              </div><br>
+               <li id="topbarfilters"><b>Default view of topbar filters</b></li>
+            
+              </p>
+              <p>
+                This setting allows users to select which property values they want to display as filters on the
+                homepage. The department is the only property available for this purpose.
+              </p>
+              <div><img src="011.png" onclick="openModal('011.png')" alt="Advanced" width="100%" height="auto">
+              </div><br>
+               <li id="ExecutiveAssistantrelationship"><b>Executive Assistant relationship:</b> <br>
+                To establish the association between executives and their assistants, a custom column can be utilized to
+                include the assistant's email ID. After defining the custom column, access each executive's mailbox via
+                <a href=" https://admin.exchange.microsoft.com/#/mailboxes">
+                  https://admin.exchange.microsoft.com/#/mailboxes</a> and employ the same custom column to input the
+                assistant's email ID.
+              </li><br>
+              <div><img src="9.png" onclick="openModal('9.png')" alt="Advanced" width="100%" height="auto">
+              </div><br>
+              <p>The Assistant Manager user can be added from here.</p>
+              <div><img src="Assistant.png" onclick="openModal('Assistant.png')" alt="Advanced" width="100%"
+                  height="auto">
+              </div><br>
+              <p>Then, the Assistant Manager will be displayed in the top-right corner of the manager's card.</p>
+              <div><img src="OncardAssistant.png" onclick="openModal('OncardAssistant.png')" alt="Advanced" width="100%"
+                  height="auto">
+              </div><br>
+              <li id="Extendcustomfieldssearchcapability"><b>Extend custom fields search capability:</b> <br>If you want
+                to utilize the 'starts with', 'ends
+                with', or 'contains' search functionalities, please enable this feature. Additionally, limit its use to
+                cases where the number of employees is under 3000.</li>
+              <div><img src="10.png" onclick="openModal('10.png')" alt="Advanced" width="100%" height="auto">
               </div><br>
 
 
@@ -389,29 +422,7 @@ When the <b>Auto Load</b> toggle is turned <b>on</b>, additional records will au
               <div><img src="8.png" onclick="openModal('8.png')" alt="Advanced" width="100%" height="auto">
               </div> -->
             
-              <li id="ExecutiveAssistantrelationship"><b>Executive Assistant relationship:</b> <br>
-                To establish the association between executives and their assistants, a custom column can be utilized to
-                include the assistant's email ID. After defining the custom column, access each executive's mailbox via
-                <a href=" https://admin.exchange.microsoft.com/#/mailboxes">
-                  https://admin.exchange.microsoft.com/#/mailboxes</a> and employ the same custom column to input the
-                assistant's email ID.
-              </li><br>
-              <div><img src="9.png" onclick="openModal('9.png')" alt="Advanced" width="100%" height="auto">
-              </div><br>
-              <p>The Assistant Manager user can be added from here.</p>
-              <div><img src="Assistant.png" onclick="openModal('Assistant.png')" alt="Advanced" width="100%"
-                  height="auto">
-              </div><br>
-              <p>Then, the Assistant Manager will be displayed in the top-right corner of the manager's card.</p>
-              <div><img src="OncardAssistant.png" onclick="openModal('OncardAssistant.png')" alt="Advanced" width="100%"
-                  height="auto">
-              </div><br>
-              <li id="Extendcustomfieldssearchcapability"><b>Extend custom fields search capability:</b> <br>If you want
-                to utilize the 'starts with', 'ends
-                with', or 'contains' search functionalities, please enable this feature. Additionally, limit its use to
-                cases where the number of employees is under 3000.</li>
-              <div><img src="10.png" onclick="openModal('10.png')" alt="Advanced" width="100%" height="auto">
-              </div><br>
+             
               <!-- <li id="Filterupcomingbirthdaysworkanniversaries"><b>Filter upcoming birthdays & work anniversaries</b>:
                 <br> This feature allows you to filter upcoming
                 birthdays and work anniversaries by the current day, current week, or current month.
@@ -487,16 +498,7 @@ When the <b>Auto Load</b> toggle is turned <b>on</b>, additional records will au
               </p> <br>
               <div><img src="20.png" onclick="openModal('20.png')" alt="Advanced" width="100%" height="auto">
               </div><br>
-              <li id="topbarfilters"><b>Topbar Filter</b></li>
-              <p><b>Select Topbar filter:</b>Users have the option to filter results by choosing either department or
-                location.</p>
-              </p>
-              <p><b>Default view of topbar filters:</b>
-                This setting allows users to select which property values they want to display as filters on the
-                homepage. The department and location are the only two properties available for this purpose.
-              </p>
-              <div><img src="011.png" onclick="openModal('011.png')" alt="Advanced" width="100%" height="auto">
-              </div>
+             
               <!-- <p><b>Filter</b>
                 
               </p>
