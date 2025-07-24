@@ -74,7 +74,7 @@
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../Google-ED365/">Google Employee Directory 365 </a></h5>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../Google-ED365/">Google Workspace Employee Directory 365 </a></h5>
                         <a class=back-btn href="../../admin/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id="../../../../Google-ED365/" title= Admin-Guide class="sidelist
@@ -91,104 +91,84 @@ active">
                     </div>
                 </div>
                 <div class=col-lg-9>
-                    <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title>Introduction</h2> -->
-                        <div class="bg-light p-4 remove-padding">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Dashboard
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                            </h2>
-                                <p>
-                                    The purpose of a dashboard in an employee directory is to provide a centralized and easily accessible interface that offers a visual overview of various important information and functionalities related to employees within an organization. </p><br><br>
-                                <div><img src="../dashboard/01.png" onclick="openModal('01.png')" alt="home page" width="100%"
-                                    height="auto"></div> <br>
-                                    <ul>
-                                        <li>Headcount  of total user (how many user we have).</li>
-                                        <li>We are calculating of EmployeeType from all users. (only Full Time).</li>
-                                        <li>Calculating avg gender Male or Female by Yrs .</li>
-                                        <li>Calculate the avg age of total users by Yrs.</li>
-                                        <li> Calculate avg from DOJ to current time so how many yrs user existing.</li>
-                                    </ul><br><br>
-                         
-                               
+                <div class="p-lg-4 p-4 remove-padding bg-white" id="content">
+    <div class="bg-light p-4 remove-padding">
+        <h2 id="_dashboard">
+            <a class="header-icon-link highlight" href="#">Dashboard
+                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+            </a>
+        </h2>
+        <p>
+            The dashboard provides a centralized and user-friendly interface offering a visual overview of key information and functionalities across the organization.
+        </p>
 
-                                    <p><h5>Number of New Employees by Month:</h5>
-                                        This Graph showcases the monthly count of new employee registrations within the current year.
-                                    </p><br><br>
-                                       
-                                        <div><img src="../dashboard/02.png" onclick="openModal('02.png')" alt="Users Alphabetical Filter" width="100%"
-                                            height="auto"></div>
-                                    <br>
-                                  <p> <h5>Number of Total Employees by Department:</h5> 
-                                    This presentation displays the employee distribution across different departments. If a user is not assigned to any department, they will not be included in the count. </p>
-                                            <br><br>
-                                        <div><img src="../dashboard/03.png" onclick="openModal('03.png')" alt="Organization Chart" width="100%"
-                                            height="auto"></div>
-                                            <br>
+        <!-- SECTION 1: ORGANIZATION -->
+        <h3 id="organization">1. Organization</h3>
+        <p>
+            This section highlights workforce-related metrics and organizational structure, providing insights into employee distribution, tenure, diversity, and more.
+        </p><br>
 
-                                            <p><h5>Number of Employment Type:</h5>In this context, we are tallying the number of users for each employment classification, such as Full Time or Part Time, based on the total user count..
+        <div><img src="01.png" onclick="openModal('01.png')" alt="Home Page" width="100%" height="auto"></div><br>
 
-                                             </p><br><br>
-                                               
-                                                <div><img src="../dashboard/04.png" onclick="openModal('04.png')" alt="Print to PDF" width="100%"
-                                                    height="auto"></div></li>
-                                                    <br>
+        <ul>
+            <li>Total user headcount.</li>
+            <li>Count of Full-Time employees.</li>
+            <li>Average gender distribution by year.</li>
+            <li>Average user age (in years).</li>
+            <li>Average tenure from DOJ to current date.</li>
+        </ul><br>
 
+        <h5>New Employees by Month</h5>
+        <p>This graph showcases monthly new employee registrations within the current year.</p>
+        <div><img src="../dashboard/02.png" onclick="openModal('02.png')" alt="New Employees by Month" width="100%" height="auto"></div><br>
 
-                                                    <p><h5>Average Age(Yrs) by Department:</h5>In this scenario, we are presenting the average age of employees within each department. For instance, if there are 10 users in the IT Department, we calculate their average age and apply the same approach to the other departments.
+        <h5>Total Employees by Department</h5>
+        <p>Displays distribution of employees across departments. Users without a department are excluded.</p>
+        <div><img src="../dashboard/03.png" onclick="openModal('03.png')" alt="Employees by Department" width="100%" height="auto"></div><br>
 
-                                                    </p> <br><br>
-                                                       
-                                                        <div><img src="../dashboard/05.png" onclick="openModal('05.png')" alt="Export to CSV" width="100%"
-                                                            height="auto"></div></li>
-                                                            <br>
-                                                    <p><h5>Average Age(Yrs) by Location:</h5> Similarly, we are displaying the average age of employees categorized by their respective locations. For instance, if there is a group of employees in a specific location, we calculate their average age and extend this methodology to other locations as well
+        <h5>Employment Type</h5>
+        <p>Shows counts of employees by employment classification such as Full Time or Part Time.</p>
+        <div><img src="../dashboard/04.png" onclick="openModal('04.png')" alt="Employment Type" width="100%" height="auto"></div><br>
 
-                                                    </p><br><br>
-                                                       
-                                                        <div><img src="../dashboard/06.png" onclick="openModal('06.png')" alt="Settings" width="100%"
-                                                            height="auto"></div>
-                            
-                                <br>
-                                    
-                             
-                                    <p><h5>Average Tenure by(Yrs) Department:</h5> In this context, we are determining the average tenure of employees within each department. This involves calculating the average duration from the date of joining (DOJ) to the current time..
+        <h5>Average Age by Department</h5>
+        <p>Displays average age of employees in each department.</p>
+        <div><img src="../dashboard/05.png" onclick="openModal('05.png')" alt="Average Age by Department" width="100%" height="auto"></div><br>
 
-                                    </p><br><br>
-                                       
-                                        <div><img src="../dashboard/07.png" onclick="openModal('07.png')" alt="Help" width="100%"
-                                            height="auto"></div>
-                                            <br>
+        <h5>Average Age by Location</h5>
+        <p>Displays average age of employees by their work location.</p>
+        <div><img src="../dashboard/06.png" onclick="openModal('06.png')" alt="Average Age by Location" width="100%" height="auto"></div><br>
 
+        <h5>Average Tenure by Department</h5>
+        <p>Shows average tenure (in years) of employees by department.</p>
+        <div><img src="../dashboard/07.png" onclick="openModal('07.png')" alt="Tenure by Department" width="100%" height="auto"></div><br>
 
-                                 <p><h5>Gender Diversity by Department:</h5>In this analysis, we are obtaining the gender diversity within each department and presenting it as a percentage
+        <h5>Gender Diversity by Department</h5>
+        <p>Presents gender diversity as percentages across different departments.</p>
+        <div><img src="../dashboard/08.png" onclick="openModal('08.png')" alt="Gender Diversity by Department" width="100%" height="auto"></div><br>
 
-                                    </p><br><br>
-                                       
-                                        <div><img src="../dashboard/08.png" onclick="openModal('08.png')" alt="View icon" width="100%"
-                                            height="auto"></div>
+        <h5>Gender Diversity by Location</h5>
+        <p>Presents gender diversity by location, expressed in percentages.</p>
+        <div><img src="../dashboard/09.png" onclick="openModal('09.png')" alt="Gender Diversity by Location" width="100%" height="auto"></div><br>
 
-                                            <br>  
+        <h5>Average Tenure by Location</h5>
+        <p>Shows average employee tenure grouped by location.</p>
+        <div><img src="../dashboard/10.png" onclick="openModal('10.png')" alt="Tenure by Location" width="100%" height="auto"></div><br>
 
-                              <p><h5>Gender Diversity by Location:</h5> We can view gender diversity by location in this table as per percentage.
+      
+       <!-- SECTION 2: ANALYTICS -->
+<h3 id="analytics">2. Analytics</h3>
+<p>This section focuses on platform engagement and user activity analytics across modules.</p>
+  <ul>
+            <li><strong>Module Visits by Users:</strong> Monitors how often each user visits different modules.</li>
+            <li><strong>Average Time Spent per Module (Mins):</strong> Displays how much time users spend on average per module.</li>
+            <li><strong>Top 10 Active Users:</strong> Lists the most engaged users based on activity levels.</li>
+            <li><strong>Module Popularity (%):</strong> Visualizes which modules are used most frequently as a percentage of total usage.</li>
+        </ul><br>
+        <div><img src="analytics.png" onclick="openModal('analytics.png')" alt="Module Visits by Users" width="100%" height="auto"></div><br>
 
-                                            </p><br><br>
-                                               
-                                          <div><img src="../dashboard/09.png" onclick="openModal('09.png')" alt="View icon" width="100%"
-                                               height="auto"></div>
-        
-                                                    <br>  
-                              <p><h5>Average Tenure(Yrs) by Location</h5> In this scenario, we are computing the average tenure of employees based on their location. For instance, if there are 10 users in a specific location, we calculate the duration between their date of joining (DOJ) and the current time to determine their individual tenure. Then, we calculate the average tenure for that location. This process is repeated for other locations as well.
+    </div>
+</div>
 
-                                                    </p><br><br>
-                                                       
-                                                  <div><img src="../dashboard/10.png" onclick="openModal('10.png')" alt="View icon" width="100%"
-                                                       height="auto"></div>
-                
-                                                            <br>  
-                            </ul>
-                        </div>
-                    </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                     <nav class="pagination mt-3">
                         <a class="nav nav-prev" href="../../admin/profile-card/" aria-label="Previous page"><i
