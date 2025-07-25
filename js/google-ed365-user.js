@@ -10,13 +10,13 @@ $(document).ready(function () {
       // "<li class='sidelist' title='Getting started'>"+
       //   "<a href='/Google-ED365/modern/user/getting-started/'>Getting started</a>"+
       // "</li>"+
-      "<li class='sidelist' title='Managing User Profile'>"+
-        "<a href='/Google-ED365/modern/user/managing-user-profile/'>Managing User Profile</a>"+
-      "</li>"+
+      // "<li class='sidelist' title='Managing User Profile'>"+
+      //   "<a href='/Google-ED365/modern/user/managing-user-profile/'>Managing User Profile</a>"+
+      // "</li>"+
 
       "<li class='dropdownicon sidelist' title='User Interface'>"+
       "<a class='qwe' href='/Google-ED365/modern/user/user-interface/'>User Interface</a>"+
-      "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon''>"+
+      "<img src='https://ik.imagekit.io/zn4au2jftpm5/hr365/down-arrow-avgrepo-com_TZAnDIIsES.svg?updatedAt=1717655767081'  class='imageIconmodernuser aside_dropdown_icon''>"+
   "</li>"+
 
       "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/"+
@@ -37,13 +37,14 @@ $(document).ready(function () {
 
           "</li>"+
 
-          "<li  class='sidelist' title=Help>"+
-            "<a href='/Google-ED365/modern/user/user-interface/#help'>Help</a>"+
-
-          "</li>"+
+         
 
         "</ul>"+
       "</li>"+
+       "<li  class='sidelist' title=Help>"+
+            "<a href='/Google-ED365/modern/user/help/'>Help</a>"+
+
+          "</li>"+
 
   "</li>")
                                            
