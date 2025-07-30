@@ -76,7 +76,7 @@ $(document).ready(function() {
 
             `</li>` +
             `<li class='nav-item dropdown'>` +
-                `<a class='nav-link dropdown-toggle text-dark' href='#' id='bizapp365Dropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>BizApp365</a>` +
+                `<a class='nav-link dropdown-toggle text-dark' href='#' id='bizapp365Dropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Business Apps</a>` +
 
                 `<div class='dropdown-menu' aria-labelledby='bizapp365Dropdown'>` +
  
@@ -106,6 +106,13 @@ $(document).ready(function() {
 
                 `</div>` +
             `</li>` +
+             `<li class='nav-item dropdown'>` +
+        `<a class='nav-link dropdown-toggle text-dark' href='#' id='webpartDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Webparts</a>` +
+        `<div class='dropdown-menu' aria-labelledby='webpartDropdown'>` +
+        `<a class='dropdown-item stocklink' href='/Stock365/'>Stock 365</a>` +
+        `</div>` +
+        `</li>` +
+
         `</ul>`
     );
 });
@@ -115,7 +122,7 @@ window.addEventListener("load", () => {
     for (let i = 0; i < headerItems.length; i++) {
         if (window.location.pathname.split('/')[1] == headerItems[i].pathname.split('/')[1]) {
             if(document.querySelector("header.shadow-bottom.sticky-top.bg-white")){
-                headerItems[i].classList.add("active-dark")
+               
             }
             else{
                 headerItems[i].classList.add("active")
@@ -123,6 +130,55 @@ window.addEventListener("load", () => {
         }
     }
 });
+// Mark submenu link as active (purple) based on current path
+window.addEventListener("load", () => {
+    const currentPath = window.location.pathname.split('/')[1];
+    document.querySelectorAll(".dropdown-menu .dropdown-item").forEach(item => {
+        const itemPath = item.getAttribute("href").split('/')[1];
+        if (itemPath === currentPath) {
+            item.classList.add("active-submenu");
+        }
+    });
+});
+
+// Inject required styles
+const style = document.createElement("style");
+style.innerHTML = `
+  /* Prevent blue flash or bold on click */
+  .dropdown-menu .dropdown-item:focus,
+  .dropdown-menu .dropdown-item:active {
+      background-color: transparent !important;
+      color: inherit !important;
+      outline: none !important;
+      box-shadow: none !important;
+  }
+
+  
+      /* Submenu items base style */
+  .dropdown-menu .dropdown-item {
+   background-color: transparent !important;
+     
+      font-weight: 500;
+      padding: 0.5rem 1.25rem;
+      transition: all 0.2s ease;
+      
+  }
+
+  
+  .active-submenu {
+    color: var(--primary-color)!important;
+    font-weight: 500 !important;
+    text-shadow: 0 0 0.2px currentColor; 
+
+     
+    
+}
+
+
+`;
+document.head.appendChild(style);
+
+
 // window.addEventListener("load", () => {
 //     let headerItems = document.querySelectorAll(".navbar-nav .nav-item a");
 //     let currentPath = window.location.pathname.split('/')[1]; // Get the first segment of the current URL path
