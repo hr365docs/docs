@@ -13,6 +13,7 @@ $(document).ready(function () {
     "</a>"+  
 "</li>"+
 
+
 "<li class='dropdownicon sidelist' title='Self Review'>"+
 "<a class='qwe' href='/contract-management/modern/user/self-review/'>"+
     "Reports"+

@@ -472,10 +472,6 @@ textarea.form-control {
     display: block;
     text-align: center
 }
-#content {
-    height: 100vh; /* Full viewport height */
-    overflow-y: auto; /* Enable scrolling */
-}
 
 .content ul {
     padding-left: 0;
@@ -656,8 +652,7 @@ tbody {
     position: sticky;
     top: 50px;
     margin-bottom: 30px;
-    padding: 40px 10px 20px;
-    overflow-y: auto;
+    padding: 40px 10px 20px
 }
 
 .sidelist {
@@ -1956,3 +1951,4 @@ span.msanchortag{
     .civic{
         font-size: 12px;
     }
+    

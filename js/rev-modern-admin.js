@@ -36,7 +36,7 @@ $(document).ready(function () {
         "</li>" +
 
          "<li data-nav-id='./Settings/' title='Costomer ' class='sidelist'>" +
-        "<a href='/Revenue365/modern/admin/costomerjourney/'>Costomer Journey</a>" +
+        "<a href='/Revenue365/modern/admin/costomerjourney/'>Customer Journey</a>" +
         "</li>" +
 
         // Settings with arrow
@@ -49,7 +49,7 @@ $(document).ready(function () {
         "<ul class='sidenavSub-topics aside_dropdown_list_setting'>" +
 
         "<li data-nav-id='../user' title='General Setting' class='sidelist'>" +
-        "<a class='qwe' href='/Revenue365/modern/admin/settings/generalsetting/'>General Setting</a>" +
+        "<a class='qwe' href='/Revenue365/modern/admin/settings/generalsetting/'>General Settings</a>" +
         "</li>" +
 
         "<li data-nav-id='../user' title='Users' class='sidelist'>" +
@@ -62,6 +62,10 @@ $(document).ready(function () {
 
         "<li data-nav-id='../user' title='Notifications' class='sidelist'>" +
         "<a class='qwe' href='/Revenue365/modern/admin/settings/Notification/'>Notifications</a>" +
+        "</li>" +
+
+         "<li data-nav-id='../user' title='Integration' class='sidelist'>" +
+        "<a class='qwe' href='/Revenue365/modern/admin/settings/integration/'>Integration</a>" +
         "</li>" +
 
         "<li data-nav-id='../user' title='Features' class='sidelist'>" +
