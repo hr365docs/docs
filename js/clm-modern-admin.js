@@ -21,14 +21,10 @@ $(document).ready(function () {
   "</a>"+
 
 "</li>"+
-"<li data-nav-id='./Settings/' title='draft' class=sidelist>"+
 
-    "<a href='/contract-management/modern/admin/draft/'>"+
-        "Draft"+
-  "</a>"+
 
 "</li>"+
-"<li class='dropdownicon sidelist' title='Help'>" +
+"<li class='dropdownicon sidelist' title='dashboard'>" +
 "<a href='/contract-management/modern/admin/dashboard/'>" +
 "Dashboard" +
 "</a>" +
@@ -63,9 +59,20 @@ $(document).ready(function () {
 " Administration"+
     "</a>"+
 "</li>"+
+"<li data-nav-id='./Settings/' title=counterparty class=sidelist>"+
+
+"<a href='/contract-management/modern/admin/counterparty/'>"+
+" Counterparty"+
+    "</a>"+
+"</li>"+
 
 
 
+"<li data-nav-id='./Settings/' title='Themes' class=sidelist>"+
+
+    "<a href='/contract-management/modern/admin/Theme/'>"+
+        "Themes"+
+  "</a>"+
    
 "<li class='dropdownicon sidelist' title='Settings'>" +
   "<a class='qwe' href='/contract-management/modern/admin/settings/'>" +
@@ -143,7 +150,10 @@ $(document).ready(function () {
 
 
 "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
-"<li  data-nav-id='../advanced/' title='Configure SharePoint API permissions' class='sidelist'>" +
+"<li  data-nav-id='../advanced/' title='feedback' class='sidelist'>" +
+"<a href='/contract-management/modern/admin/help/#feedback'>Feedback</a>" +
+"</li>"+
+"<li  data-nav-id='../advanced/' title='Product Activation' class='sidelist'>" +
 "<a href='/contract-management/modern/admin/help/#product-activation'>Product Activation</a>" +
 "</li>" )
                                            
