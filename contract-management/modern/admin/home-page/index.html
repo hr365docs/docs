@@ -97,6 +97,7 @@
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Home Page
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
+                            <p>CLM365's Home Page offers a centralized interface for quick access to contracts, requests, tasks, and approvals. It provides real-time insights through dashboards and widgets, streamlining contract lifecycle management from a single view.</p>
                             <p>
                             <div><img src="1.png" onclick="openModal('1.png')" alt="CLM" width="100%" height="auto">
                             </div>
@@ -183,16 +184,13 @@
                                     height="auto">
                                 <br>
                                 <br>
-                                <p>Go to "My task", click on the "Title" of the task to open the task, and upon
-                                    completing click on "Complete " button</p>
-                                <div><img src="Task.png" onclick="openModal('Complete.png')" alt="CLM" width="100%"
+                                <p>Go to "My task", click on the "Title" of the task to open the task.</p>
+                                <div><img src="Task.png" onclick="openModal('Task.png')" alt="CLM" width="100%"
                                         height="auto">
                                     <br>
                                     <br>
-                                    <div><img src="Complete.png" onclick="openModal('LegalView.png')" alt="CLM"
-                                            width="100%" height="auto">
-                                    </div>
-                                    <br>
+                                   
+                               
                                     <p>Enter remarks(optional) and add attachments(optional), draft(optional). Then
                                         click on the
                                         approve button to approve task.</p>
@@ -376,6 +374,22 @@
                                             width="100%" height="auto"></div>
                                     <br>
                                 </div>
+                                <div class="bg-light p-4 remove-padding" id="AIAgent">
+  <h2 id="_dashboards">
+    <a class="header-icon-link highlight" href="#">AI Agent
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h2>
+  <p>
+    The <strong>AI Agent</strong> is a smart assistant designed to help users interactively understand and manage contract data. When activated, it opens a right-side panel that responds to contract-specific queries, such as summaries, clauses, timelines, obligations, and risk elements.
+    <br><br>
+    It does not respond to general or unrelated questions, ensuring focused, accurate, and secure assistance within the context of the selected contract.
+  </p>
+  <div>
+    <img src="a.png" onclick="openModal('a.png')" alt="AI Agent Panel" width="100%" height="auto">
+  </div>
+</div>
+
 
                                 <div class="bg-light p-4 remove-padding" id="Deviation">
                                     <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Deviation
@@ -612,14 +626,42 @@
                                         extraction of essential details.</p>
                                     <div><img src="AI-1.png" onclick="openModal('AI-1.png')" alt="AI Summary"
                                             width="100%" height="auto"></div>
+                                             <div class="bg-light p-4 remove-padding" id="DraftFileComparison">
+      <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Draft
+                          <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                  </h2>
+                        
+
+      <p>The <strong>Draft File Comparison</strong> feature allows users to view the differences between the first uploaded draft and the final draft of a document. This feature is especially useful in tracking revisions in contracts, policy documents, or any collaborative files.</p>
+
+     
+
+      <p>To access this feature:</p>
+      <ol>
+        <li>Navigate to the <strong>Drafts</strong> section of the contract or document.</li>
+        <li>Click on the option <em>"Compare with First Draft"</em>.</li><br>
+        <div><img src="draft.png" onclick="openModal('draft.png')" alt="Compare Draft Button" width="100%" height="auto"></div>
+      <br>
+        <li>A comparison panel will appear, showing the first and final versions along with highlighted changes.</li>
+      </ol>
+
+      
+      <div><img src="draft1.png" onclick="openModal('draft1.png')" alt="Draft Comparison Panel" width="100%" height="auto"></div>
+      <br>
+
+      <p>This feature enhances document control and provides stakeholders with visibility into how content has evolved throughout the drafting process.</p>
+
+     
+    </div>
                                 </div>
+
 
                                 <nav class="pagination mt-3">
                                     <a class="nav nav-prev" href="../architecture-diagram/"
                                         aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
                                             class="d-none d-md-block">Architecture Diagram</span></a>
-                                    <a class="nav nav-next" href="../draft/" aria-label="Next page"> <span
-                                            class="d-none d-md-block">Draft</span><i
+                                    <a class="nav nav-next" href="../dashboard/" aria-label="Next page"> <span
+                                            class="d-none d-md-block">Dashboard</span><i
                                             class="ti-arrow-right ml-2"></i></a>
                                 </nav>
 

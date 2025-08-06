@@ -14,6 +14,10 @@ $(document).ready(function () {
         "<li data-nav-id='./Settings/' title=Reports class='sidelist'>"+
         "<a href='/online-timesheet-software/modern/admin/reports/'>Reports</a>"+
         "</li>"+
+
+        "<li data-nav-id='./Settings/' title=Dashboard class='sidelist'>"+
+        "<a href='/online-timesheet-software/modern/admin/dashboard/'>Dashboard</a>"+
+        "</li>"+
       
         "<li data-nav-id='./Adminstration' title=Introduction class='sidelist'>"+
         "<a href='/online-timesheet-software/modern/admin/administration/'>Administration</a>"+
