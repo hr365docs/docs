@@ -286,6 +286,9 @@ $(document).ready(function () {
         "</ul>" +
         "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#integrateMicrosoft'>Integrate Microsoft Form with Helpdesk</a>" +
         "</li>" +
+                "<li data-nav-id='./Assign-Assets/ ' title='Integrating Mail Tracker with Helpdesk 365' class='sidelist '>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/notification/#email-tracker'>Integrating Mail Tracker with Helpdesk 365</a>" +
+        "</li>" +
         "<li data-nav-id='./Add Assets/ ' title='DevOps Integrations' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
