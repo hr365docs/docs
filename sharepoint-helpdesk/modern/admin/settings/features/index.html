@@ -575,8 +575,7 @@
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
-                                <p>Click on Configure button.
-                                </p>
+                                <p>Click the <b>Configure</b> button to manage approval workflows within Helpdesk 365.</p><br>
                                 <div><img src="02.png" onclick="openModal('02.png')" alt="Rule Automation" width="100%"
                                         height="auto"></div>
                                 <br>
@@ -588,12 +587,32 @@
                                     can be finalized. With the approval workflow, the manager can
                                     be automatically notified of the request and prompted to
                                     review and approve it.</p>
-                                <li>Click on <b>Add</b> Button to create new Workflow .</li>
+                                <p>Click the <b>+ Add</b> button to create a new workflow and define its rules and conditions.</p><br>
                                 <div><img src="03.png" onclick="openModal('03.png')" alt="Rule Automation" width="100%"
                                         height="auto"></div>
                                 <br>
                                 <div><img src="04.png" onclick="openModal('04.png')" alt="Rule Automation" width="100%"
                                         height="auto"></div>
+
+                                        <p><b>Approval Workflow Based on Custom Forms:</b> When a custom form is selected from the dropdown and used to create a ticket, that ticket will automatically follow the defined approval workflow. This ensures that requests submitted via forms are reviewed and approved systematically.</p><br>
+<div><img src="image4.png" onclick="openModal('image4.png')" alt="Workflow Based on Custom Forms" width="100%" height="auto"></div><br>
+
+<p><i>Note:</i> Custom form workflows only trigger during ticket creation using the form. Status updates will not activate these workflows. Once all approvers complete their steps, you can define a final action—such as assigning or closing the ticket.</p><br>
+
+
+<p><b>Approval Workflow Based on Teams and Services:</b> You can configure workflows based on selected teams, request types, services, and sub-services. When a ticket is created that matches these conditions, the approval process is triggered. Additionally, you can decide whether this should occur on ticket creation or status update.</p><br>
+<div><img src="image6.png" onclick="openModal('image6.png')" alt="Team and Service-Based Workflow" width="100%" height="auto"></div><br>
+
+<p><b>Approval Workflow Based on Custom Status:</b> This method applies to already created tickets. If a ticket meets the defined conditions and its status is manually changed to a specific value, the workflow is initiated and proceeds accordingly.</p><br>
+<div><img src="image7.png" onclick="openModal('image7.png')" alt="Custom Status Trigger" width="100%" height="auto"></div><br>
+
+<p>Each approval level allows two selection types: <b>"All"</b> and <b>"Any"</b>. If "All" is selected, every approver in the level must approve before proceeding. If "Any" is selected, only one approval is sufficient to move the workflow forward.</p><br>
+<div><img src="image8.png" onclick="openModal('image8.png')" alt="All vs Any Approvers" width="100%" height="auto"></div><br>
+
+<p>You can also define conditions to dynamically add approvers based on specific criteria, enhancing flexibility and precision in your approval flows.</p><br>
+<div><img src="image9.png" onclick="openModal('image9.png')" alt="Conditional Approvers" width="100%" height="auto"></div><br>
+
+<p><i>Note:</i> The "All", "Any", and conditional options are supported across both form-based and team/service-based workflows.</p><br>
 
                         </div>
 

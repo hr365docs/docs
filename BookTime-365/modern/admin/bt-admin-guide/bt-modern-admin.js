@@ -12,7 +12,7 @@ $(document).ready(function () {
 
 
         "<li data-nav-id='./Settings/' title='Home' class='sidelist'>" +
-        "<a href='/BookTime-365/modern/admin/home/'>Home</a>" +
+        "<a href='/BookTime-365/modern/admin/homepage/'>Home Page</a>" +
         "</li>" +
 
         "<li data-nav-id='./Settings/' title='Reports' class='sidelist'>" +
@@ -20,7 +20,7 @@ $(document).ready(function () {
         "</li>" +
 
         "<li data-nav-id='./Settings/' title='Theme' class='sidelist'>" +
-        "<a href='/BookTime-365/modern/admin/theme/'>Theme</a>" +
+        "<a href='/BookTime-365/modern/admin/theme/'>Themes</a>" +
         "</li>" +
 
         "<li class='dropdownicon sidelist'>" +
@@ -103,13 +103,58 @@ $(document).ready(function () {
         "</ul>"+
         "</li>"+
 
-        "<li data-nav-id='../General' title='Features' class='sidelist'>" +
-        "<a href='/BookTime-365/modern/admin/settings/features'>Features</a>" +
+        "<li data-nav-id='../General' title='Features' class='dropdownicon sidelist'>" +
+        "<a href='/BookTime-365/modern/admin/settings/features/'>Features</a>" +
+         "<img src='../../down-arrow-svgrepo-com.svg' class='helpdesk-img aside_dropdown_icon'>" +
         "</li>" +
+         "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+ "<li data-nav-id='../General' title='custom-columns' class='sidelist'>" +
+"<a href='/BookTime-365/modern/admin/settings/features/#_customcolumn'>Custom Columns</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='select-services' class='sidelist'>" +
+"<a href='/BookTime-365/modern/admin/settings/features/#_services'>Allow Customer to Select Services</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='select-staff' class='sidelist'>" +
+"<a href='/BookTime-365/modern/admin/settings/features/#_staff'>Allow Customer to Select Staff Member</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='fetch-calendar' class='sidelist'>" +
+"<a href='/BookTime-365/modern/admin/settings/features/#staff-calendar'>Fetch Staff Calendar</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='audit-logs' class='sidelist'>" +
+"<a href='/BookTime-365/modern/admin/settings/features/#audit-logs'>Audit Logs</a>" +
+"</li>"
++
 
-        "<li data-nav-id='../General' title='Business Information' class='sidelist'>" +
-        "<a href='/BookTime-365/modern/admin/settings/business-information'>Business Information</a>" +
+
+        
+        "</ul>"+
+        "</li>"+
+
+        "<li data-nav-id='../General' title='Business Information' class='dropdownicon sidelist'>" +
+        "<a href='/BookTime-365/modern/admin/settings/business-information/'>Business Information</a>" +
+         "<img src='../../down-arrow-svgrepo-com.svg' class='helpdesk-img aside_dropdown_icon'>" +
         "</li>" +
+         "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+"<li data-nav-id='../General' title='basic-details' class='sidelist'>" +
+"<a href='/BookTime-365/modern/admin/settings/business-information/#Basic-Details'>Basic Details</a>" +
+"</li>" +
+
+"<li data-nav-id='../General' title='privacy-policy' class='sidelist'>" +
+"<a href='/BookTime-365/modern/admin/settings/business-information/#Privacy-Policy-and-Terms-&-Conditions'>Privacy Policy and Terms & Conditions</a>" +
+"</li>" +
+
+"<li data-nav-id='../General' title='business-hours' class='sidelist'>" +
+"<a href='/BookTime-365/modern/admin/settings/business-information/#Business-Hours'>Business Hours</a>" +
+"</li>" +
+
+"<li data-nav-id='../General' title='brand-logo' class='sidelist'>" +
+"<a href='/BookTime-365/modern/admin/settings/business-information/#Brand-Logo'>Brand Logo</a>" +
+"</li>"
++
+        "</ul>"+
+        "</ul>"+
 
         "</ul>" +
         "</li>" +
@@ -121,6 +166,9 @@ $(document).ready(function () {
 
         "<li data-nav-id='../advanced/' title='Help' class='sidelist dropdown_romove_dot'>" +
         "<ul class='sidenavSub-topics aside_dropdown_list' id='btsettingedm'>" +
+        "<li data-nav-id='../advanced/' title='Feedback' class='sidelist'>" +
+        "<a href='/BookTime-365/modern/admin/help/#feedback'>Feedback</a>" +
+        "</li>" +
         "<li data-nav-id='../advanced/' title='Product Activation' class='sidelist'>" +
         "<a href='/BookTime-365/modern/admin/help/#product-activation'>Product Activation</a>" +
         "</li>" +
