@@ -106,12 +106,12 @@ $(document).ready(function() {
 
                 `</div>` +
             `</li>` +
-        //      `<li class='nav-item dropdown'>` +
-        // `<a class='nav-link dropdown-toggle text-dark' href='#' id='webpartDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Webparts</a>` +
-        // `<div class='dropdown-menu' aria-labelledby='webpartDropdown'>` +
-        // `<a class='dropdown-item stocklink' href='/Stock365/'>Stock 365</a>` +
-        // `</div>` +
-        // `</li>` +
+             `<li class='nav-item dropdown'>` +
+        `<a class='nav-link dropdown-toggle text-dark' href='#' id='webpartDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>SharePoint Add-ins</a>` +
+        `<div class='dropdown-menu' aria-labelledby='webpartDropdown'>` +
+        `<a class='dropdown-item stocklink' href='/Stock365/'>Stock 365</a>` +
+        `</div>` +
+        `</li>` +
 
         `</ul>`
     );
