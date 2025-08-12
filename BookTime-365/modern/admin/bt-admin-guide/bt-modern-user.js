@@ -11,12 +11,9 @@ $(document).ready(function () {
         "<a href='/BookTime-365/modern/user/homepage/'>Home Page</a>" +
         "</li>" +
 
-        "<li data-nav-id='./Settings/' title='Reports' class='sidelist'>" +
-        "<a href='/BookTime-365/modern/user/reports/'>Reports</a>" +
-        "</li>" +
-
+      
         "<li data-nav-id='./Settings/' title='Theme' class='sidelist'>" +
-        "<a href='/BookTime-365/modern/user/theme/'>Themes</a>" +
+        "<a href='/BookTime-365/modern/user/theme/'>Theme</a>" +
         "</li>" +
 
         "<li class='dropdownicon sidelist' title='Help'>" +
