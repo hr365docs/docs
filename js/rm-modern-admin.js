@@ -113,7 +113,7 @@ $(document).ready(function () {
         "<li>"+
         " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>" +
         "<a href='/RM365/modern/admin/settings/Requisition-Templates/'>" +
-        "Requisition Templates" +
+        "Templates" +
         " </a>" +
         "</li>" +
         "<li data-nav-id='../user' title=Users and Departments class='dropdownicon sidelist'>" +
