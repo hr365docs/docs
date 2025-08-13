@@ -20,7 +20,7 @@ $(document).ready(function () {
         "</li>" +
 
         "<li data-nav-id='./Settings/' title='Theme' class='sidelist'>" +
-        "<a href='/BookTime-365/modern/admin/theme/'>Themes</a>" +
+        "<a href='/BookTime-365/modern/admin/theme/'>Theme</a>" +
         "</li>" +
 
         "<li class='dropdownicon sidelist'>" +
