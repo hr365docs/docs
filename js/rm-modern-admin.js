@@ -111,11 +111,24 @@ $(document).ready(function () {
 
         "</ul>" +
         "<li>"+
-        " <li data-nav-id='./Custom-Emails/' title=Users class='sidelist'>" +
-        "<a href='/RM365/modern/admin/settings/Requisition-Templates/'>" +
-        "Templates" +
-        " </a>" +
+        "<li data-nav-id='../user' title=JTemplates class='dropdownicon sidelist'>" +
+        "<a class='qwe' href='/RM365/modern/admin/settings/templates/'>Templates</a>" +
+        "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+        "</a>" +
         "</li>" +
+        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+         "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+          "<li data-nav-id='../General' title='Job Description Template' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/templates/#_job_description_template'>Job Description Template</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Offer Letter Template' class='sidelist'>" +
+        "<a href='/RM365/modern/admin/settings/templates/#_offer_letter_template'>Offer Letter Template</a>" +
+        "</li>" +
+
+
+         "</ul>"+
+         "</li>"+
+
         "<li data-nav-id='../user' title=Users and Departments class='dropdownicon sidelist'>" +
         "<a class='qwe' href='/RM365/modern/admin/settings/users-departments/'>Users and Permissions</a>" +
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
