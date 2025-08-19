@@ -137,6 +137,13 @@
                   height="auto">
               </div>
               <br>
+              <p>
+  The system now supports displaying an additional manager when no primary manager is assigned in Azure AD. This information is reflected on both the profile card and the organization chart.
+</p>
+<div>
+  <img src="NoManagerAdditional.png" onclick="openModal('NoManagerAdditional.png')" alt="Additional Manager Displayed with No Assigned Manager" width="100%" height="auto">
+</div><br>
+
               <br>
               <ul class=page-list id="Analytics-Report">
                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Analytics Report
@@ -574,27 +581,46 @@
 </h2>
 
 <p>
-  To enable the data export functionality, administrators must first grant export permissions to specific users.
-  Once permissions are assigned, the <b>“Export to XLSX”</b> option will be visible on the home screen for those users.
+  Administrators can now manage export permissions using two options:
 </p>
 
+<ul>
+  <li>
+    <b>Allow all users to export directory</b> – Enable this toggle to allow all users to export the directory in <b>CSV</b> format.
+  </li>
+  <li>
+    <b>Restrict Excel export to specific users</b> – Enable this option if you want only selected users to have access to the export feature.
+  </li>
+</ul>
+
 <div>
-  <img src="exl.png" onclick="openModal('exl.png')" alt="Export Option on Home Screen" width="100%" height="auto">
+  <img src="image_new1.png" onclick="openModal('image_new1.png')" alt="Export Settings Toggles" width="100%" height="auto">
 </div><br>
 
 <p>
-  To assign export permissions, navigate to <b>Settings > Export Data Permission</b> and add the users who should have access.
+  When <b>Restrict Excel export to specific users</b> is enabled, follow these steps:
 </p>
 
 <div>
-  <img src="image1.png" onclick="openModal('image1.png')" alt="Export Data Permission Settings" width="100%" height="auto">
-</div><br>
-<div>
-  <img src="image2.png" onclick="openModal('image2.png')" alt="Add Users to Export List" width="100%" height="auto">
+  <img src="image_new2.png" onclick="openModal('image_new2.png')" alt="Export Settings Toggles" width="100%" height="auto">
 </div><br>
 
 <p>
-  After users are granted permission, they will be able to export data from various sections of the application wherever the export functionality is supported.
+  Enter the user’s name and click <b>Add</b>.
+</p>
+<div>
+  <img src="image_new4.png" onclick="openModal('image_new4.png')" alt="Add Users to Export List" width="100%" height="auto">
+</div><br>
+
+<p>
+  To revoke export permissions, go to the <b>Delete</b> section, select the user, and click the <b>Delete</b> button.
+</p>
+<div>
+  <img src="image_new5.png" onclick="openModal('image_new5.png')" alt="Delete Export Permissions" width="100%" height="auto">
+</div><br>
+
+<p>
+  Once users are granted permission, they will be able to export data from supported sections of the application.
 </p>
 
                  <div class="bg-light p-4 remove-padding common-scroll" id="Homepagecustomurl">
