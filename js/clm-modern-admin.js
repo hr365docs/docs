@@ -70,7 +70,7 @@ $(document).ready(function () {
 
 "<li data-nav-id='./Settings/' title='Themes' class=sidelist>"+
 
-    "<a href='/contract-management/modern/admin/Theme/'>"+
+    "<a href='/contract-management/modern/admin/theme/'>"+
         "Themes"+
   "</a>"+
    
