@@ -464,7 +464,7 @@ $(document).ready(function () {
         "</li>" +
         "</ul>" +
          "<li data-nav-id='../General' title=email-tracker class='sidelist'>" +
-        "<a href='/sharepoint-employee-onboarding/modern/admin/email-tracker'> Email Tracker</a>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/email-tracker/'> Email Tracker</a>" +
         "</li>" +
 
 
