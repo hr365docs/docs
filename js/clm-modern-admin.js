@@ -73,6 +73,13 @@ $(document).ready(function () {
     "<a href='/contract-management/modern/admin/theme/'>"+
         "Themes"+
   "</a>"+
+  "<li data-nav-id='./Settings/' title=delegation class=sidelist>"+
+
+"<a href='/contract-management/modern/admin/delegation/'>"+
+" Delegation"+
+    "</a>"+
+"</li>"+
+
    
 "<li class='dropdownicon sidelist' title='Settings'>" +
   "<a class='qwe' href='/contract-management/modern/admin/settings/'>" +
