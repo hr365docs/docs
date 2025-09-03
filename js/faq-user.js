@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#faquser").html("");
 
-    $("#polluser").append(
+    $("#faquser").append(
         // ✅ Introduction
         "<li class='sidelist' data-nav-id='./Introduction/' title='Introduction'>" +
             "<a href='/FAQ-365/modern/user/introduction/'>Introduction</a>" +
