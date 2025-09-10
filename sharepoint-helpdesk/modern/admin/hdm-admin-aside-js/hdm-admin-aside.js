@@ -22,6 +22,9 @@ $(document).ready(function () {
         "<li data-nav-id='./Settings/' title=Reports class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/reports/'>Reports</a>" +
         "</li>" +
+        "<li data-nav-id='./Settings/' title=delegation class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/delegation/'>Delegation</a>" +
+        "</li>" +
         "<li data-nav-id='./Settings/' title=Comment Page class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/comment-page/'>Comment Page</a>" +
         "</li>" +
