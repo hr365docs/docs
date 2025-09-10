@@ -94,7 +94,7 @@ $(document).ready(function () {
     "</a>"+  
 "</li>"+
 "<li data-nav-id='./installation/requirments/' title= '1:1' class=sidelist>"+
-    "<a href='/employee-performance-management/modern/user/oneonone'>"+
+    "<a href='/employee-performance-management/modern/user/oneonone/'>"+
     "1:1"+
     "</a>"+  
 "</li>"
