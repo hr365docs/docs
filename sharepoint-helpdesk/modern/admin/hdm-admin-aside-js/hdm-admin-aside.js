@@ -264,6 +264,9 @@ $(document).ready(function () {
         "<li data-nav-id='./Assign-Assets/ ' title='Phone' class='sidelist '>" +
         "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#phone'>Phone</a>" +
         "<li data-nav-id='./Add Assets/ ' title='Helpdesk Mailbox' class='sidelist '>" +
+        "<li data-nav-id='./Assign-Assets/ ' title='Agentic Ticket' class='sidelist '>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#_agentic-tickets'>Agentic Ticket</a>" +
+        "<li data-nav-id='./Add Assets/ ' title='Helpdesk Mailbox' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
         "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#helpdesk-mailbox'>Helpdesk Mailbox</a>" +
