@@ -379,9 +379,80 @@
 
                                 </p>
 
+
                                 <div><img src="copilot.png" onclick="openModal( 'copilot.png') " alt="Copilot"
                                         width="100% " height="auto"></div>
                                 <br>
+                                 <p>
+            To integrate <strong>Copilot</strong> with <strong>Helpdesk 365</strong>, begin by creating your Copilot agent in 
+            <a href="https://copilotstudio.microsoft.com/" target="_blank">Copilot Studio</a>.
+        </p>
+        <p>Ensure that you have a <strong>Premium Power Automate license</strong> to proceed with the configuration.</p>
+
+        <p>Click on your <strong>Copilot Agent</strong>, then go to <strong>Settings</strong>.</p>
+        <div>
+            <img src="copilot_settings1.png" onclick="openModal('copilot_settings1.png')" 
+                 alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+        </div><br>
+<div>
+            <img src="copilot_settings2.png" onclick="openModal('copilot_settings2.png')" 
+                 alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+        </div><br>
+
+        <p>In the <strong>Knowledge</strong> section, add your Knowledge Base.</p>
+        <div>
+            <img src="copilot_settings3.png" onclick="openModal('copilot_settings3.png')" 
+                 alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+        </div><br>
+        <p>Under <strong>Security</strong>, select <strong>Web Channel Security</strong> and copy the <strong>Secret 1</strong> key.</p>
+        <div>
+            <img src="copilot_settings.png" onclick="openModal('copilot_settings.png')" 
+                 alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+        </div><br>
+        <div>
+             <img src="copilot_settings4.png" onclick="openModal('copilot_settings4.png')" 
+                 alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+        </div><br>
+
+        <p>
+            Next, in <strong>Power Automate</strong>, go to <strong>My Flows</strong> and import the 
+            <strong>Copilot server solution</strong>.
+        </p>
+        <div>
+             <img src="copilot_settings5.png" onclick="openModal('copilot_settings5.png')" 
+                 alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+        </div><br>
+        <p>
+            Open the flow and click <strong>Edit</strong>. 
+        </p>
+        <div>
+            <img src="powerautomate_flows.png" onclick="openModal('powerautomate_flows.png')" 
+                 alt="Power Automate Flow Configuration" width="100%" height="auto">
+        </div><br>
+        <p>Disable the <strong>New Designer</strong> toggle 
+            and paste the previously copied <strong>Secret 1</strong> value into the <strong>Headers</strong> field.</p>
+<div>
+            <img src="powerautomate_flows1.png" onclick="openModal('powerautomate_flows1.png')" 
+                 alt="Power Automate Flow Configuration" width="100%" height="auto">
+        </div><br>
+        <p>
+            Save the flow and copy the <strong>HTTP GET URL</strong> generated under the 
+            <em>When an HTTP request is received</em> trigger.
+        </p>
+        <div>
+            <img src="powerautomate_flows2.png" onclick="openModal('powerautomate_flows2.png')" 
+                 alt="Power Automate Flow Configuration" width="100%" height="auto">
+        </div><br>
+        <p>
+            Return to the application, enable the <strong>Copilot integration</strong> toggle, 
+            and paste this URL into the configuration field.
+        </p>
+        <div>
+            <img src="powerautomate_httpurl.png" onclick="openModal('powerautomate_httpurl.png')" 
+                 alt="Power Automate HTTP GET URL" width="100%" height="auto">
+        </div><br>
+
+        
                                 <p> Once configured, Copilot will appear on the Comment page.</p>
 
                                 <div><img src="commentpage-copilot.png" onclick="openModal( 'commentpage-copilot.png') "
