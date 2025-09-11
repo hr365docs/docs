@@ -283,6 +283,16 @@ $(document).ready(function () {
         "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
+
+        "<li data-nav-id='./Add Assets/ ' title='Azure Open AI Integration' class='sidelist '>" +
+        "<ul class='sidenavSub-topics '>" +
+        "</ul>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#AI-Integration'>Azure Open AI Integration</a>" +
+        "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>" +
+        "<ul class='sidenavSub-topics '>" +
+        "</ul>" +
+
+
         "<li data-nav-id='./Add Assets/ ' title='Copilot Integeration' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
