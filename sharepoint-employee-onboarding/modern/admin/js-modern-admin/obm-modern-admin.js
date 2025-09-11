@@ -266,6 +266,10 @@ $(document).ready(function () {
          "<li data-nav-id='../General' title=Users class=sidelist>" +
          "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Mailbox-Integration'> Mailbox Integration </a>" +
          "</li>" +
+"<li data-nav-id='../General' title=Users class=sidelist>" +
+         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#AI-Integration'> AI Integration </a>" +
+         "</li>" +
+          
  
  
          "</li>" +

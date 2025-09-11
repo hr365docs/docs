@@ -399,6 +399,143 @@
                             <!-- Mailbox-Integration end -->
 
                             <!-- upr -->
+                            <div class="bg-light p-4 remove-padding common-scroll" id="AI-Integration">
+
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
+                                        AI Integration<i class="fas fa-link"
+                                            style="font-size:12px; color:lightgray;"></i></a> </h2>
+                                <br>
+
+      <p>
+        <strong>Azure OpenAI</strong> within EO365 enhances course creation and employee training by 
+        automatically generating introductions, questions, and chapters. This eliminates manual effort, 
+        ensures grammatical accuracy, and accelerates the onboarding process with smart AI assistance.
+    </p><br>
+
+    <p>
+        To enable this functionality, navigate to <strong>General Settings</strong> and open the 
+        <strong>AI API Integration</strong> panel.
+    </p>
+
+    <div>
+        <img src="azure_ai_step1.png" onclick="openModal('azure_ai_step1.png')" 
+             alt="AI API Integration Settings" width="100%" height="auto">
+    </div><br>
+
+    <p>
+        Inside the panel, configure the following options for Azure OpenAI:
+    </p>
+    <ul class="page-list">
+        <li><strong>Enable Azure OpenAI</strong> — Use the toggle to turn AI integration <em>On</em> or <em>Off</em>.</li>
+        <div>
+            <img src="azure_ai_step11.png" onclick="openModal('azure_ai_step11.png')" 
+                 alt="Enable Azure OpenAI Toggle" width="100%" height="auto">
+        </div><br>
+
+        <li><strong>Azure AI Endpoint</strong> — The REST API or service endpoint hosted on Microsoft Azure.</li>
+        <li><strong>Azure AI API Key</strong> — Authentication token required for secure connection with Azure AI services.</li>
+        <li><strong>Azure AI Deployment Name</strong> — Identifier of the deployed AI model in your Azure resource.</li><br>
+          <p>
+        To learn how to generate and retrieve your <em>Endpoint</em>, <em>API Key</em>, and <em>Deployment Name</em> 
+         refer this Guide: 
+        <a href="/Configure-Azure-AI/" target="_blank">Configure Azure AI Documentation</a>.
+    </p>
+        <div>
+            <img src="azure_ai_step12.png" onclick="openModal('azure_ai_step12.png')" 
+                 alt="Azure AI Configuration Example" width="100%" height="auto">
+        </div>
+    </ul>
+
+    <p>
+        After entering the required details, click <strong>Save</strong> to activate the integration. 
+       
+    </p>
+     <div>
+            <img src="azure_ai_step13.png" onclick="openModal('azure_ai_step13.png')" 
+                 alt="Azure AI Configuration Example" width="100%" height="auto">
+        </div><br>
+</div>
+
+
+  
+
+  <!-- Course Creation -->
+<h4>Courses</h4>
+<ul class="page-list">
+    <li><strong>Add Course Details</strong> — Enter the course name and description, then click <em>Next</em> to continue.</li><br>
+    <div>
+        <img src="1.png" onclick="openModal('1.png')" alt="Add Course Details" width="100%" height="auto">
+    </div><br>
+
+    <li><strong>Generate Course Introduction</strong> — Click <em>AI Generate</em> to automatically create a professional introduction for the course.</li><br>
+    <div>
+        <img src="2.png" onclick="openModal('2.png')" alt="AI Generate Introduction" width="100%" height="auto">
+    </div><br>
+
+    <li><strong>Refine & Correct</strong> — Add your own edits, or click <em>AI Generate</em> again to polish and fix grammatical errors.</li><br>
+    <div>
+        <img src="14.png" onclick="openModal('14.png')" alt="Save or Draft Chapters" width="100%" height="auto">
+    </div><br>
+    <div>
+        <img src="4.png" onclick="openModal('4.png')" alt="Refine Course Introduction" width="100%" height="auto">
+    </div>
+</ul>
+<br><br>
+
+<!-- Question Generation -->
+<h4>Questions</h4>
+<ul class="page-list">
+    <li><strong>Generate with AI</strong> — Instead of manual entry, click <em>Generate Questions using AI</em>.</li><br>
+    <div>
+        <img src="5.png" onclick="openModal('5.png')" alt="AI Question Generator" width="100%" height="auto">
+    </div><br>
+
+    <li><strong>Set Parameters</strong> — Define type, section, answer format, difficulty, number of questions, and time limit, then click <em>Generate</em>.</li><br>
+    <div>
+        <img src="6.png" onclick="openModal('6.png')" alt="Provide Question Parameters" width="100%" height="auto">
+    </div><br>
+
+    <li><strong>Review Questions</strong> — AI generates questions with options and correct answers based on your inputs.</li><br>
+    <div>
+        <img src="7.png" onclick="openModal('7.png')" alt="Generated Questions Preview" width="100%" height="auto">
+    </div><br>
+
+    <li><strong>Select & Customize</strong> — Choose required questions, edit as needed, or select all for quick setup.</li><br>
+    <div>
+        <img src="8.png" onclick="openModal('8.png')" alt="Select or Customize Questions" width="100%" height="auto">
+    </div><br>
+
+    <li><strong>Save</strong> — Finalize by clicking <em>Save</em> or <em>Save as Draft</em>.</li><br>
+    <div>
+        <img src="13.png" onclick="openModal('13.png')" alt="Save or Draft Questions" width="100%" height="auto">
+    </div>
+</ul>
+<br><br>
+
+<!-- Chapter Generation -->
+<h4>Chapters</h4>
+<ul class="page-list">
+    <li><strong>Generate with AI</strong> — Click <em>Generate Chapters using AI</em> instead of creating them manually.</li><br>
+    <div>
+        <img src="9.png" onclick="openModal('9.png')" alt="AI Chapter Generator" width="100%" height="auto">
+    </div><br>
+
+    <li><strong>Set Parameters</strong> — Define type, section, difficulty level, number of chapters, and time limit, then click <em>Generate</em>.</li><br>
+    <div>
+        <img src="10.png" onclick="openModal('10.png')" alt="Provide Chapter Parameters" width="100%" height="auto">
+    </div><br>
+
+    <li><strong>Review Chapters</strong> — AI generates structured chapters based on your prompt, which can be refined or customized.</li><br>
+    <div>
+        <img src="11.png" onclick="openModal('11.png')" alt="Generated Chapters Preview" width="100%" height="auto">
+    </div><br>
+
+    <li><strong>Save</strong> — Store your work by clicking <em>Save</em> or <em>Save as Draft</em>.</li><br>
+    <div>
+        <img src="12.png" onclick="openModal('12.png')" alt="Save or Draft Chapters" width="100%" height="auto">
+    </div>
+</ul>
+
 
                         </div>
 
