@@ -221,7 +221,7 @@ $(document).ready(function () {
         "</li>" +
 
 
-        "<li class='helpdesk-dropdown sidelist' >" +
+        "<li class=dropdownicon sidelist' >" +
         "<a class='qwe' href='/sharepoint-helpdesk/modern/admin/settings/role/'>Users, Roles, Permissions</a>" +
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/modern/admin/hdm-admin-aside-js/down-arrow-svgrepo-com.svg'>" +
         "</li>" +

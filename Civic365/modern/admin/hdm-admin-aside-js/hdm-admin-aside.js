@@ -251,6 +251,20 @@ $(document).ready(function () {
         "</ul>"+
         "<a href='/Civic365/modern/admin/settings/integration/#integrateMicrosoft'>Integrate Microsoft Form with Civic</a>"+
         "</li>"+
+
+
+         "<li data-nav-id='./Add Assets/ ' title='Azure Open AI Integration' class='sidelist '>" +
+       
+        "<a href='/Civic365/modern/admin/settings/integration/#AI-Integration'>Azure Open AI Integration</a>" +
+       "</li>"+
+
+        "<li data-nav-id='./Add Assets/ ' title='Copilot Integeration' class='sidelist '>" +
+        "<ul class='sidenavSub-topics '>" +
+        "</ul>" +
+        "<a href='/Civic365/modern/admin/settings/integration/#Copilot-Integeration'>Copilot Integeration</a>" +
+        "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>" +
+        "<ul class='sidenavSub-topics '>" +
+       "</ul>"+
         "</ul>"+
         "</li>"+
 
