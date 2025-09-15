@@ -192,7 +192,7 @@ $(document).ready(function() {
                     "</li>"+
             
                     
-                    "<li class='helpdesk-dropdown sidelist'title='Users/Roles/Permissions' >"+
+                    "<li class='dropdownicon sidelist'title='Users/Roles/Permissions' >"+
                     "<a class='qwe' href='/online-asset-management-application/modern/admin/settings/role/'>Users, Roles, Permissions</a>"+
                     "<img  class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
                     "</li>"+

@@ -1503,6 +1503,9 @@ $(document).ready(function () {
         
   "</ul>" +
 "</li>" +
+ "<li data-nav-id='../General' title='Location' class='sidelist'>" +
+        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#integration'>Integration</a>" +
+        "</li>" +
                
                
                 
