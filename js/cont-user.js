@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $("#contpuser").html("");
+    $("#contuser").html("");
 
-    $("#contpuser").append(
+    $("#contuser").append(
         // ✅ Introduction
         "<li class='sidelist' data-nav-id='./Introduction/' title='Introduction'>" +
             "<a href='/Contracts-365/modern/user/introduction/'>Introduction</a>" +

@@ -114,7 +114,11 @@
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>The <b>Contracts 365 Settings</b> panel allows administrators to configure global options such as themes, banner content, user permissions, dismissal behavior, and SharePoint components. These settings help customize the web part’s appearance and control access effectively.</p>
+   <p>
+    The <b>contract 365 Settings</b> panel allows administrators to configure global options such as 
+    themes, date formats, user permissions, contract types, counterparties, currency, and approver roles. 
+    These settings ensure consistency across all contracts and help manage access effectively.
+  </p>
 
   <div class="sidelist active" data-nav-id="./Settings/" title="Settings">
     <img src="settings.png" onclick="openModal('settings.png')" alt="Settings Overview" width="100%" height="auto">
@@ -127,7 +131,7 @@
         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
       </a>
     </h3>
-    <p>Select a visual theme for Contracts 365:</p>
+    <p>Select a visual theme for contract 365:</p>
     <ul>
       <li><strong>Light:</strong> Applies a bright, clean interface.<br><br>
         <img src="light.png" onclick="openModal('light.png')" alt="Light Theme Preview" width="100%" height="auto">
@@ -141,6 +145,16 @@
     </ul>
   </div>
 
+  <!-- Date Format -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="date-format">
+    <h3 id="_date_format">
+      <a class="header-icon-link highlight" href="#">Date Format
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+    <p>Administrators can define how dates appear across contract 365 (e.g., DD/MM/YYYY or MM/DD/YYYY).</p>
+    <img src="date_format.png" onclick="openModal('date_format.png')" alt="Date Format Example" width="100%" height="auto">
+  </div>
 
   <!-- Users Section -->
   <div class="bg-light p-4 common-scroll remove-padding" id="users">
@@ -149,75 +163,62 @@
         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
       </a>
     </h3>
-
-    <p>The <b>Users</b> section allows administrators to manage permissions in <b>Contracts 365</b>. The user management grid provides the following functionality:</p>
+    <p>The <b>Users</b> section allows administrators to manage permissions in <b>contract 365</b>.</p>
     <div>
       <img src="users-config.png" onclick="openModal('users-config.png')" alt="Users Configuration Panel" width="100%" height="auto">
     </div><br>
     <ul>
       <li><b>User Grid:</b> Displays Name, Email, and Role for each entry.</li><br>
-      <div>
-        <img src="users-grid.png" onclick="openModal('users-grid.png')" alt="Users Grid Example" width="100%" height="auto">
-      </div><br>
-      
-     <li><b>Role Assignment:</b> Administrators can assign or update roles (e.g., Admin, HR, Finance, Finance Head) via the dropdown.</li><br>  <div>
-        <img src="users-role.png" onclick="openModal('users-role.png')" alt="User Role Assignment Example" width="100%" height="auto">
-      </div><br>
-       <li><b>User Removal:</b> Administrators can delete users using the trash icon to revoke access.</li><br>
-    <div>
-    <img src="users-remove.png" onclick="openModal('users-remove.png')" alt="Users Configuration Panel" width="100%" height="auto">
-  </div><br>
-      <li><b>Search & Pagination:</b> Search by Name, Email, or Role, and adjust the number of entries displayed (10, 25, or 50 per page).</li><br>
-      <div>
-        <img src="users-search.png" onclick="openModal('users-search.png')" alt="User Search Example" width="100%" height="auto">
-      </div><br>
-     
+      <li><b>Role Assignment:</b> Assign or update roles via the dropdown (Admin, User, Finance, HR, etc.).</li><br>
+      <li><b>Search & Pagination:</b> Search by Name, Email, or Role, and control number of entries per page.</li><br>
+      <li><b>User Removal:</b> Remove users and revoke access when needed.</li><br>
     </ul>
+    <img src="users.png" onclick="openModal('users.png')" alt="Users Example" width="100%" height="auto">
   </div>
 
-
- 
- <!-- Expense Type Configure -->
-<div class="bg-light p-4 common-scroll remove-padding" id="expense-type-configure">
-  <h3 id="_expense_type">
-    <a class="header-icon-link highlight" href="#">Expense Type Configure
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h3>
-
-  <p>The <b>Expense Type Configure</b> section allows administrators to define and manage expense types. Each expense type is automatically assigned a unique code for better tracking.</p><br>
-
-  <p><b>Add New Expense Type:</b> Enter the expense type name and click on <b>Add</b> to save it.</p>
-  <img src="expense_type_add.png" onclick="openModal('expense_type_add.png')" alt="Add Expense Type" width="100%" height="auto"><br><br>
-
-  <p><b>View Expense Types:</b> Toggle ON <b>Show Expense Types</b> to display all configured types. The <b>Type Code</b> will be generated automatically.</p>
-  <img src="expense_type_list.png" onclick="openModal('expense_type_list.png')" alt="View Expense Types" width="100%" height="auto"><br><br>
-
-  <p><b>Actions:</b> For each expense type, administrators can <b>Edit</b> or <b>Delete</b> using the action icons available.</p>
-  <img src="expense_type_actions.png" onclick="openModal('expense_type_actions.png')" alt="Edit or Delete Expense Type" width="100%" height="auto"><br><br>
-</div>
-
-  <!-- Approver Roles Configure -->
-    <div class="bg-light p-4 common-scroll remove-padding" id="Approver Roles Configure">
-    <h3 id="_approver_roles">
-      <a class="header-icon-link highlight" href="#">Approver Roles Configure
+  <!-- Contract Type -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="contract-type">
+    <h3 id="_contract_type">
+      <a class="header-icon-link highlight" href="#">Contract Type
         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
       </a>
     </h3>
+    <p>Define and manage available contract types for contracts to maintain consistency.</p>
+    <img src="contract_type.png" onclick="openModal('contract_type.png')" alt="Contract Type Example" width="100%" height="auto">
+  </div>
 
-  <p>Administrators can assign multiple approver roles for expense workflows. Available roles include:</p>
-  <ul>
-    <li><b>Admin</b></li>
-    <li><b>HR</b></li>
-    <li><b>Finance</b></li>
-    <li><b>Finance Head</b></li>
-     <img src="1.png" onclick="openModal('1.png')" alt="Approver Roles Configure" width="100%" height="auto"><br><br>
+  <!-- Counterparty -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="counterparty">
+    <h3 id="_counterparty">
+      <a class="header-icon-link highlight" href="#">Counterparty
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+    <p>Add and manage counterparties with their details (e.g., organization, contact email).</p>
+    <img src="counterparty.png" onclick="openModal('counterparty.png')" alt="Counterparty Example" width="100%" height="auto">
+  </div>
 
-  </ul>
-  <p>Select one or more roles and click <b>Add Role</b> to include them in the approval process.</p>
-  <img src="approver_roles.png" onclick="openModal('approver_roles.png')" alt="Approver Roles Configure" width="100%" height="auto"><br><br>
-</div>
-</div>
+  <!-- Currency -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="currency">
+    <h3 id="_currency">
+      <a class="header-icon-link highlight" href="#">Currency
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+    <p>Set a default currency for contracts. Number separators (comma, period) can also be configured.</p>
+    <img src="currency.png" onclick="openModal('currency.png')" alt="Currency Example" width="100%" height="auto">
+  </div>
+
+  <!-- Approver Roles -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="approver-roles">
+    <h3 id="_approver_roles">
+      <a class="header-icon-link highlight" href="#">Approver 
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+    <p><b>Approvers :</b> By default approver will be user manager if you want others click on others to add other approver.</p>
+    <img src="approver_roles.png" onclick="openModal('approver_roles.png')" alt="Approver Roles Example" width="100%" height="auto">
+  </div>
 
 </div>
 
