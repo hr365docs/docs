@@ -112,33 +112,32 @@
                                         </li>
                     </div>
                 </div>
-                <div class=col-lg-9>
-                    <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title>General Settings</h2> -->
-                        <div class="bg-light p-4 remove-padding">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Features <i
-                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
+                <div class="col-lg-9">
+    <div class="p-lg-4 p-4 remove-padding bg-white" id="content">
+        <div class="bg-light p-4 remove-padding">
+            <ul class="page-list">
 
+                <h2 id="_dashboards">
+                    <a class="header-icon-link highlight" href="#">Features 
+                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                    </a> 
+                </h2>
 
-        <p> Enable or configure key modules to tailor CLM365 functionality according to organizational requirements.</p>
-        <div><img src="FeatureList.png" onclick="openModal('FeatureList.png')" alt="Feature Settings" width="100%" height="auto"></div>
-        <br>
+                <p>Enable or configure key modules to tailor CLM365 functionality according to organizational requirements.</p>
+                <div><img src="FeatureList.png" onclick="openModal('FeatureList.png')" alt="Feature Settings" width="100%" height="auto"></div>
+                <br>
 
-       <p><b>Business Unit:</b> Business Units categorize different segments or divisions within an organization. They are used to organize contracts and manage permissions or access levels for users based on their roles within specific business units.
+                <p id="business-unit"><b>Business Unit:</b> Business Units categorize different segments or divisions within an organization. They are used to organize contracts and manage permissions or access levels for users based on their roles within specific business units.</p>
+                <img src="BusinessUnit.png" onclick="openModal('BusinessUnit.png')" alt="Business Unit" width="100%" height="auto">
+                <br><br>
 
-</p>
-<img src="BusinessUnit.png" onclick="openModal('BusinessUnit.png')" alt="Business Unit" width="100%" height="auto">
-<br><br>
-        <p><b>Request, Contract Settings:</b> Configure request types, draft types, and contract types for structured contract initiation.</p>
-<img src="RequestContractSettings.png" onclick="openModal('RequestContractSettings.png')" alt="Request Contract Settings" width="100%" height="auto">
-<br><br>
- <div class="bg-light p-4 remove-padding" id="LinkedContractsGuide">
+                <p id="request-contract-settings"><b>Request, Contract Settings:</b> Configure request types, draft types, and contract types for structured contract initiation.</p>
+                <img src="RequestContractSettings.png" onclick="openModal('RequestContractSettings.png')" alt="Request Contract Settings" width="100%" height="auto">
+                <br><br>
 
-  
-  <p><b>Link Contracts :</b>The Link Contracts feature allows users to associate a newly created request with an existing active contract. This is useful for tracking dependencies between related agreements in a structured and visible way.</p>
-
-  <p><strong>Only active contracts</strong> can be linked. Draft, inactive, or completed contracts will not be shown in the dropdown.</p>
+                <div class="bg-light p-4 remove-padding" id="LinkedContractsGuide">
+                    <p><b>Link Contracts:</b> The Link Contracts feature allows users to associate a newly created request with an existing active contract...</p>
+                    <p><strong>Only active contracts</strong> can be linked. Draft, inactive, or completed contracts will not be shown in the dropdown.</p>
 
   <!-- Step 1: Enable Linked Contracts -->
   <p><strong>Step 1: Enable the Linked Contracts Feature</strong></p>
@@ -185,39 +184,43 @@
 
 
                         </div><br>
-        <p><b>Deviation:</b> Enable task-based communication during the legal review stage to track deviations and responses.</p>
-<img src="Deviation.png" onclick="openModal('Deviation.png')" alt="Deviation" width="100%" height="auto"><br><br>
-<img src="Deviation1.png" onclick="openModal('Deviation1.png')" alt="Deviation" width="100%" height="auto"><br><br>
-
-       <p><b>Risk:</b> Display risk details within the request panel to assess and manage contract risk factors.</p>
-<img src="Risk.png" onclick="openModal('Risk.png')" alt="Risk" width="100%" height="auto"><br><br>
-<img src="Risk1.png" onclick="openModal('Risk1.png')" alt="Risk" width="100%" height="auto"><br><br>
-
-       <p><b>Word Add-In:</b> Enable enhanced Word functionality for working with contract templates and drafts directly in Word.</p>
-<img src="WordAddIn.png" onclick="openModal('WordAddIn.png')" alt="Word Add-In" width="100%" height="auto"><br><br>
-
-        <p><b>Review Consult Settings:</b> Toggle contract types to be applicable for review or consultation workflows.</p>
-<img src="ReviewConsultSettings.png" onclick="openModal('ReviewConsultSettings.png')" alt="Review Consult Settings" width="100%" height="auto"><br><br>
- 
-<p><b>SharePoint Page Configuration:</b> Customize the appearance and integration of SharePoint web parts within CLM365.</p>
-<img src="SharepointPageConfiguration.png" onclick="openModal('SharepointPageConfiguration.png')" alt="SharePoint Page Configuration" width="100%" height="auto"><br><br>
-
-<!-- Custom Fields -->
-<p><b>Custom Fields:</b> Create and manage custom fields to capture organization-specific data in contracts or workflows.</p>
-<img src="CustomFields.png" onclick="openModal('CustomFields.png')" alt="Custom Fields" width="100%" height="auto"><br><br>
-      <p>Click on <b>+ Add Field</b> to create and configure a new custom field for your contracts or workflows.To display the field in the General section, enable the toggle then click <b>Save</b> button.</p>                        
-             <img src="CustomFields1.png" onclick="openModal('CustomFields1.png')" alt="Custom Fields" width="100%" height="auto"><br><br>
-    
-    </ul>
-                    </div>
-                    <p class="post-meta border-bottom pb-3 mb-0 mt-3 " id="date">
-                        <nav class="pagination mt-3">
-                            <a class="nav nav-prev " href="../notification/" aria-label="Previous page"><i
-                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Notifications</span></a>
-                            <a class="nav nav-next " href="../../help/" aria-label="Previous page"> <span class="d-none d-md-block">Help</span><i class="ti-arrow-right ml-2"></i></a>
-                        </nav>
                 </div>
-            </div>
+                <br>
+
+                <p id="deviation"><b>Deviation:</b> Enable task-based communication during the legal review stage to track deviations and responses.</p>
+                <img src="Deviation.png" onclick="openModal('Deviation.png')" alt="Deviation" width="100%" height="auto"><br><br>
+                <img src="Deviation1.png" onclick="openModal('Deviation1.png')" alt="Deviation" width="100%" height="auto"><br><br>
+
+                <p id="risk"><b>Risk:</b> Display risk details within the request panel to assess and manage contract risk factors.</p>
+                <img src="Risk.png" onclick="openModal('Risk.png')" alt="Risk" width="100%" height="auto"><br><br>
+                <img src="Risk1.png" onclick="openModal('Risk1.png')" alt="Risk" width="100%" height="auto"><br><br>
+
+                <p id="word-addin"><b>Word Add-In:</b> Enable enhanced Word functionality for working with contract templates and drafts directly in Word.</p>
+                <img src="WordAddIn.png" onclick="openModal('WordAddIn.png')" alt="Word Add-In" width="100%" height="auto"><br><br>
+
+                <p id="review-consult-settings"><b>Review Consult Settings:</b> Toggle contract types to be applicable for review or consultation workflows.</p>
+                <img src="ReviewConsultSettings.png" onclick="openModal('ReviewConsultSettings.png')" alt="Review Consult Settings" width="100%" height="auto"><br><br>
+
+                <p id="sharepoint-page-configuration"><b>SharePoint Page Configuration:</b> Customize the appearance and integration of SharePoint web parts within CLM365.</p>
+                <img src="SharepointPageConfiguration.png" onclick="openModal('SharepointPageConfiguration.png')" alt="SharePoint Page Configuration" width="100%" height="auto"><br><br>
+
+                <p id="custom-fields"><b>Custom Fields:</b> Create and manage custom fields to capture organization-specific data in contracts or workflows.</p>
+                <img src="CustomFields.png" onclick="openModal('CustomFields.png')" alt="Custom Fields" width="100%" height="auto"><br><br>
+                <p>Click on <b>+ Add Field</b> to create and configure a new custom field...</p>
+                <img src="CustomFields1.png" onclick="openModal('CustomFields1.png')" alt="Custom Fields" width="100%" height="auto"><br><br>
+
+            </ul>
+        </div>
+
+        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+            <nav class="pagination mt-3">
+                <a class="nav nav-prev" href="../notification/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Notifications</span></a>
+                <a class="nav nav-next" href="../../help/" aria-label="Previous page"><span class="d-none d-md-block">Help</span><i class="ti-arrow-right ml-2"></i></a>
+            </nav>
+        </p>
+    </div>
+</div>
+
         </div>
         </div>
     </section>
