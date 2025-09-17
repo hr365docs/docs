@@ -120,21 +120,23 @@
 
                                     <ul>
                                         <li data-nav-id="./User/ " title="Clients" class="sidelist"><a
-                                                href="../administration/#clients">Clients</a></li>
+                                                href="../administration/#Clients">Clients</a></li>
 
                                         <li data-nav-id="./Email-Notification/ " title="Projects" class="sidelist"><a
-                                                href="../administration/#projects">
+                                                href="../administration/#Projects">
                                                 Projects </a>
                                         </li>
                                         <li data-nav-id="./Custom-Emails/ " title="Tasks" class="sidelist"><a
-                                                href="../administration/#tasks">Tasks</a></li>
+                                                href="../administration/#Tasks">Tasks</a></li>
                                         <li data-nav-id="./Custom-Emails/ " title="Activities" class="sidelist"><a
                                                 href="../administration/#activities">Activities</a></li>
                                         <li data-nav-id="./Custom-Emails/ " title="Approval Workflow" class="sidelist">
-                                            <a href="../administration/#approvalworkflow">Approval Workflow</a>
+                                            <a href="../administration/#Approval-Workflow">Approval Workflow</a>
                                         </li>
-                                        <!-- <li data-nav-id="./Column-Setting/ " title="Activities" class="sidelist"><a href="../administration/#activities">Activities</a></li> -->
-                                    </ul>
+                                        <li data-nav-id="./Custom-Emails/ " title="Approval Workflow" class="sidelist">
+                                            <a href="../administration/#delegation">Delegation</a>
+                                        </li>
+                                             </ul>
 
                             </ul>
                             </li>
@@ -437,7 +439,7 @@
                                     <br>
 
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Tasks">
+                        <div class="bg-light p-4 remove-padding common-scroll" id="activities">
                             <li data-nav-id=../Getting-started/installation/using-app-file class="sidelist">
                                 <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Activities<i
                                             class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -503,7 +505,7 @@
                                 </ul>
                             </li>
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Tasks">
+                        <div class="bg-light p-4 remove-padding common-scroll" id="Approval-Workflow">
     <li data-nav-id=../Getting-started/installation/using-app-file class="sidelist">
         <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Approval Workflow<i
                     class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h3>
@@ -564,7 +566,77 @@
     </li>
 </div>
 
-                    </div>
+
+    <div class="bg-light p-4 remove-padding common-scroll" id="delegation">
+    <li data-nav-id=../Getting-started/installation/using-app-file class="sidelist">
+        <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Delegation<i
+                    class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h3>
+        <ul class=page-list>
+  
+
+  <!-- Intro -->
+  <p>
+    The <strong>Delegation</strong> feature in Timesheet 365 allows administrators, managers, and users to assign their timesheet responsibilities to another user when they are unavailable.
+  </p>
+  <div>
+    <img src="delegation_intro.png" onclick="openModal('delegation_intro.png')" alt="Delegation Overview" width="100%" height="auto">
+  </div>
+  <br>
+
+  <!-- Delegation Panel -->
+  <p>
+    The delegation panel is available in the <strong>Administration</strong> section.  
+    It includes details such as: <em>Delegation title, Delegator, Delegatee, Start date, End date, Delegation type, and Status</em>.
+  </p>
+  <div>
+    <img src="delegation_panel.png" onclick="openModal('delegation_panel.png')" alt="Delegation Panel" width="100%" height="auto">
+  </div>
+  <br>
+
+  <!-- Create Delegation -->
+  <p>
+    A delegation can be created by <strong>Admin, User Manager, Project Manager, or Users</strong>.  
+    While creating a delegation, you must enter:
+  </p>
+  <ul>
+    <li>Delegation Title</li>
+    <li>Delegator</li>
+    <li>Delegatee</li>
+    <li>Start Date and End Date</li>
+    <li>Delegation Type</li>
+    <li>Reason for Delegation</li>
+  </ul>
+  <div>
+    <img src="delegation_create.png" onclick="openModal('delegation_create.png')" alt="Create Delegation" width="100%" height="auto">
+  </div>
+  <br>
+
+  <!-- Delegation Status -->
+  <p>
+    The delegation type can be set to <strong>Active</strong> or <strong>Hold</strong>.  
+    If the status is expired, the details cannot be viewed.  
+    Use the status toggle to activate or deactivate the delegation.
+  </p>
+  <div>
+    <img src="delegation_status.png" onclick="openModal('delegation_status.png')" alt="Delegation Status" width="100%" height="auto">
+  </div>
+  <br>
+
+  <!-- Access Rules -->
+  <p>
+    <strong>Administrators</strong> can create delegations for any user.  
+    Delegation means if the delegator is not available, or wants to allow someone else to approve/reject timesheets for a defined period, they can assign a delegate.  
+    Once the delegation is created, the <strong>Delegatee</strong> has permission to access and manage the delegator’s timesheets during the specified period.
+  </p>
+  <div>
+    <img src="delegation_access.png" onclick="openModal('delegation_access.png')" alt="Delegation Access Rules" width="100%" height="auto">
+  </div>
+  <br>
+        </ul>
+</div>
+
+
+             
                     <!-- <div class="bg-light p-4 remove-padding common-scroll" id="Activities">
                             <li data-nav-id=../Getting-started/installation/using-app-file class="sidelist">
                                 <h3 id="_dashboards"><a class="header-icon-link highlight " href=# >Activities<i
