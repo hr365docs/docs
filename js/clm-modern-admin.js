@@ -21,6 +21,13 @@ $(document).ready(function () {
   "</a>"+
 
 "</li>"+
+"<li data-nav-id='./Settings/' title='Negotiation' class=sidelist>"+
+
+    "<a href='/contract-management/modern/admin/negotiation/'>"+
+        "Negotiation"+
+  "</a>"+
+
+"</li>"+
 
 
 "</li>"+
@@ -141,8 +148,17 @@ $(document).ready(function () {
       "<a class='qwe' href='/contract-management/modern/admin/settings/integrations/#AISummary'>AI Summary</a>" +
     "</li>" +
 
-    "<li data-nav-id='../Integration' title='AI Agent' class='sidelist'>" +
+    "<li data-nav-id='../Integration' title='AI Obligation' class='sidelist'>" +
       "<a class='qwe' href='/contract-management/modern/admin/settings/integrations/#AIAgent'>AI Agent</a>" +
+    "</li>" +
+    "<li data-nav-id='../Integration' title='AI Agent' class='sidelist'>" +
+      "<a class='qwe' href='/contract-management/modern/admin/settings/integrations/#_ai_obligation'>AI Obligation</a>" +
+    "</li>" +
+    "<li data-nav-id='../Integration' title='AI Clause' class='sidelist'>" +
+      "<a class='qwe' href='/contract-management/modern/admin/settings/integrations/#_ai_clause'>AI Clause</a>" +
+    "</li>" +
+    "<li data-nav-id='../Integration' title='AI Risk' class='sidelist'>" +
+      "<a class='qwe' href='/contract-management/modern/admin/settings/integrations/#_ai_risk'>AI Risk</a>" +
     "</li>" +
         "</ul>"+
         "</li>"+
