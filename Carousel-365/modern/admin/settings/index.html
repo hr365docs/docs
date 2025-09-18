@@ -114,62 +114,11 @@
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>The <b>Carousel 365 Settings</b> panel allows administrators to configure global options such as themes and user permissions. These settings help customize the web part’s appearance and control access effectively.</p>
+ <p>The <b>Carousel 365 Settings</b> panel allows administrators to configure layout, content order, and global options such as indicators and autoplay. These settings control the overall look, behavior, and navigation of the carousel on the site.</p>
 
-<div class="sidelist active" data-nav-id="./Settings/" title="Settings">
-  <img src="settings.png" onclick="openModal('settings.png')" alt="Settings Overview" width="100%" height="auto">
+<div class="sidelist active" data-nav-id="./Carousel-Settings/" title="Carousel Settings">
+  <img src="carousel_settings.png" onclick="openModal('carousel_settings.png')" alt="Carousel 365 Settings Overview" width="100%" height="auto">
 </div>
-
-<!-- Theme Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="theme-option">
-  <h3 id="_theme_option">
-    <a class="header-icon-link highlight" href="#">Theme
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h3>
-  <p>Select a visual theme for Carousel 365:</p>
-  <ul>
-    <li><strong>Light:</strong> Applies a bright, clean interface.<br><br>
-      <img src="light.png" onclick="openModal('light.png')" alt="Light Theme Preview" width="100%" height="auto">
-    </li><br>
-    <li><strong>Dark:</strong> Optimized for low-light environments.<br><br>
-      <img src="dark.png" onclick="openModal('dark.png')" alt="Dark Theme Preview" width="100%" height="auto">
-    </li><br>
-    <li><strong>Site:</strong> Inherits the theme of the SharePoint site.<br><br>
-      <img src="site.png" onclick="openModal('site.png')" alt="Site Theme Preview" width="100%" height="auto">
-    </li>
-  </ul>
-</div>
-
-<!-- Users Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="users">
-  <h3 id="_users">
-    <a class="header-icon-link highlight" href="#">Users
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h3>
-
-  <p>The <b>Users</b> section allows administrators to manage permissions in <b>Carousel 365</b>. The user management grid provides the following functionality:</p>
-  <div>
-    <img src="users-config.png" onclick="openModal('users-config.png')" alt="Users Configuration Panel" width="100%" height="auto">
-  </div><br>
-  <ul>
-    <li><b>User Grid:</b> Displays Name, Email, and Role (Admin/User) for each entry.</li><br>
-    <div>
-      <img src="users-grid.png" onclick="openModal('users-grid.png')" alt="Users Grid Example" width="100%" height="auto">
-    </div><br>
-    <li><b>Role Assignment:</b> Administrators can assign or update roles (Admin/User) via the dropdown.</li><br>
-    <div>
-      <img src="users-role.png" onclick="openModal('users-role.png')" alt="User Role Assignment Example" width="100%" height="auto">
-    </div><br>
-    <li><b>Search & Pagination:</b> Search by Name, Email and adjust the number of entries displayed (10, 25, or 50 per page).</li><br>
-    <div>
-      <img src="users-search.png" onclick="openModal('users-search.png')" alt="User Search Example" width="100%" height="auto">
-    </div><br>
-    
-  </ul>
-</div>
-
 <!-- Hide SharePoint Settings Section -->
 <div class="bg-light p-4 common-scroll remove-padding" id="hide-sharepoint-settings">
   <h3 id="_hide_sharepoint_settings">
@@ -186,6 +135,99 @@
   </div><br>
 </div>
 </div>
+  <!-- Users Section -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="users">
+    <h3 id="_users">
+      <a class="header-icon-link highlight" href="#">Users
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+
+    <p>The <b>Users</b> section allows administrators to manage permissions in <b>Expense 365</b>. The user management grid provides the following functionality:</p>
+    <div>
+      <img src="users-config.png" onclick="openModal('users-config.png')" alt="Users Configuration Panel" width="100%" height="auto">
+    </div><br>
+    <ul>
+      <li><b>User Grid:</b> Displays Name, Email, and Role for each entry.</li><br>
+      <div>
+        <img src="users-grid.png" onclick="openModal('users-grid.png')" alt="Users Grid Example" width="100%" height="auto">
+      </div><br>
+      
+     <li><b>Role Assignment:</b> Administrators can assign or update roles (e.g., Admin, HR, Finance, Finance Head) via the dropdown.</li><br>  <div>
+        <img src="users-role.png" onclick="openModal('users-role.png')" alt="User Role Assignment Example" width="100%" height="auto">
+      </div><br>
+       <li><b>Add User : </b>Click on <b>+ add</b> to add new user. <li><br>
+    <div>
+    <img src="users-remove.png" onclick="openModal('users-remove.png')" alt="Users Configuration Panel" width="100%" height="auto">
+  </div><br>
+      <li><b>Search & Pagination:</b> Search by Name, Email, or Role, and adjust the number of entries displayed (10, 25, or 50 per page).</li><br>
+      <div>
+        <img src="users-search.png" onclick="openModal('users-search.png')" alt="User Search Example" width="100%" height="auto">
+      </div><br>
+     
+    </ul>
+  </div>
+<!-- Layout Section -->
+<div class="bg-light p-4 common-scroll remove-padding" id="layout">
+  <h3 id="_layout">
+    <a class="header-icon-link highlight" href="#">Layout
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+  <p>Select the preferred display style for the carousel:</p>
+  <ul>
+    <li><strong>Banner:</strong> Displays slides in a wide banner format.<br><br>
+      <img src="layout_banner.png" onclick="openModal('layout_banner.png')" alt="Banner Layout Preview" width="100%" height="auto">
+    </li><br>
+    <li><strong>Standard:</strong> Displays slides in the default standard format.<br><br>
+      <img src="layout_standard.png" onclick="openModal('layout_standard.png')" alt="Standard Layout Preview" width="100%" height="auto">
+    </li>
+  </ul>
+</div>
+
+<!-- Content Section -->
+<div class="bg-light p-4 common-scroll remove-padding" id="content">
+  <h3 id="_content">
+    <a class="header-icon-link highlight" href="#">Content
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+  <p>The <b>Content</b> section allows administrators to manage slide order.</p>
+  <ul>
+    <!-- Edit or Delete Slide -->
+<p><b>Edit or Delete Slide:</b> From here, you can choose to <b>Edit</b> a slide to update its details or <b>Delete</b> it permanently if it is no longer needed.</p><br>
+<div>
+  <img src="carousel_11.png" onclick="openModal('carousel_11.png')" alt="Edit or Delete Slide Example" width="100%" height="auto">
+</div><br>
+
+    <li><b>Slide Order:</b> Use <b>+ New item</b> to add and reorder slides according to preference.<br><br>
+      <img src="content_slide_order.png" onclick="openModal('content_slide_order.png')" alt="Slide Order Example" width="100%" height="auto">
+    </li>
+  </ul>
+</div>
+
+<!-- Options Section -->
+<div class="bg-light p-4 common-scroll remove-padding" id="options">
+  <h3 id="_options">
+    <a class="header-icon-link highlight" href="#">Options
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+  <p>The <b>Options</b> section provides controls for slide navigation and playback:</p>
+  <ul>
+    <li><b>Display Indicators:</b> Toggle <b>Yes</b> to show navigation dots under the carousel.<br><br>
+      <img src="options_indicators.png" onclick="openModal('options_indicators.png')" alt="Display Indicators Example" width="100%" height="auto">
+    </li><br>
+   <li><b>Autoplay Slides:</b> Toggle <b>Yes</b> to automatically cycle through slides without user interaction.  
+Additionally, use the <b>Timing</b> option to set the duration (in seconds) for how long each slide remains visible before switching to the next one.<br><br>
+  <img src="1.png" onclick="openModal('1.png')" alt="Autoplay Slides Example" width="100%" height="auto">
+</li>
+
+  </ul>
+</div>
+
+
+
 
 
     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date"></p>
