@@ -1214,6 +1214,14 @@ $(document).ready(function () {
       "</a>" +
     "</li>" +
 
+      "<li data-nav-id='../General' title='Shared Mailbox ID' class='sidelist'>" +
+        "<a href='/HRMS-HR365/modern/admin/apps/TS365/settings/notification/#shared-mailbox-id'>Shared Mailbox ID</a>" +
+        "</li>" +
+
+         "<li data-nav-id='../General' title='Local Shared Mailbox ID' class='sidelist'>" +
+        "<a href='/HRMS-HR365/modern/admin/apps/TS365/settings/notification/#local-shared-mailbox-id'>Local Shared Mailbox ID</a>" +
+        "</li>" +
+
   "</ul>" +
 "</li>" +
 
