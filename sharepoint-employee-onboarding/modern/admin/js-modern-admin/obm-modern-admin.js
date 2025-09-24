@@ -183,6 +183,9 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title=Users class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Language'> Language </a>" +
         "</li>" +
+         "<li data-nav-id='../General' title='Use Sharepoint URL for MS Teams installed application' class='sidelist'>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#SharepointURL'>Use Sharepoint URL for MS Teams installed application</a>" +
+        "</li>" +
 
         "<li data-nav-id='../General' title=Users class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#hide'> Hide Sharepoint Page's Default Components </a>" +

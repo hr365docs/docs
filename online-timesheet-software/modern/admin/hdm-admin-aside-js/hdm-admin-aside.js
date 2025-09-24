@@ -97,6 +97,9 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title='Language' class='sidelist'>" +
         "<a href='/online-timesheet-software/modern/admin/settings/general/#language'>Language</a>" +
         "</li>" +
+        "<li data-nav-id='../General' title='Use Sharepoint URL for MS Teams installed application' class='sidelist'>" +
+        "<a href='/online-timesheet-software/modern/admin/settings/general/#SharepointURL'>Use Sharepoint URL for MS Teams installed application</a>" +
+        "</li>" +
         "<li data-nav-id='../General' title='Hide Sharepoint Page's Default Components' class='sidelist'>" +
         "<a href='/online-timesheet-software/modern/admin/settings/general/#hide-webpart-title'>Hide Sharepoint Page's Default Components</a>" +
         "</li>" +
@@ -112,6 +115,7 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
         "<a href='/online-timesheet-software/modern/admin/settings/general/#brand-logo'>Brand Logo</a>" +
         "</li>" +
+        
        
 
         
