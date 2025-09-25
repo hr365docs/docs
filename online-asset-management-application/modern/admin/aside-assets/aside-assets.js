@@ -101,6 +101,9 @@ $(document).ready(function() {
                     "<li data-nav-id='./General-Settings/' title='API Permissions' class='sidelist'>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/general/#api-permissions'>API Permissions</a>"+
                     "</li>"+
+                            "<li data-nav-id='../General' title='Use Sharepoint URL for MS Teams installed application' class='sidelist'>" +
+        "<a href='/online-asset-management-application/modern/admin/settings/general/#SharepointURL'>Use Sharepoint URL for MS Teams installed application</a>" +
+        "</li>" +
                     "<li data-nav-id='./Email-Notification/' title='Currency' class='sidelist'>"+
                     "<a href='/online-asset-management-application/modern/admin/settings/general/#currency'>Currency</a>"+
                
