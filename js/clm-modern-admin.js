@@ -216,6 +216,9 @@ $(document).ready(function () {
     "<li data-nav-id='../General' title='Sample Dashboard Data' class='sidelist'>" +
       "<a class='qwe' href='/contract-management/modern/admin/settings/general/#Sample-Dashboard-Data'>Sample Dashboard Data</a>" +
     "</li>" +
+    "<li data-nav-id='../General' title='currency separator' class='sidelist'>" +
+      "<a class='qwe' href='/contract-management/modern/admin/settings/general/#currency-separator'>Currency Separator</a>" +
+    "</li>" +
 
     "<li data-nav-id='../General' title='Sample Contract/Request Data' class='sidelist'>" +
       "<a class='qwe' href='/contract-management/modern/admin/settings/general/#Sample-Contract-Data'>Sample Contract/Request Data</a>" +
