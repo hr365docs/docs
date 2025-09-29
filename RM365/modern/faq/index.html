@@ -287,8 +287,7 @@
 
                     </div>
                 </div>
-            </div> 
-             <div class="card mb-4 rounded-0 shadow border-0">
+            </div>  <div class="card mb-4 rounded-0 shadow border-0">
                 <div class="card-header rounded-0 bg-white border p-0 border-0">
                     <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-bs-toggle=collapse href=#Power-Automate aria-expanded="false" aria-controls="Power-Automate" role="button">
                         <span>Can I connect the Recruitment Management 365 application to Power BI & Power Automate?
@@ -306,49 +305,60 @@
                     </div>
                 </div>
             </div>
-             <div class="card mb-4 rounded-0 shadow border-0">
-                <div class="card-header rounded-0 bg-white border p-0 border-0">
-                    <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-bs-toggle=collapse href=#Different-publish-status aria-expanded="false" aria-controls="Different-publish-status" role="button">
-                        <span>What are the different publish status options available, and what does each one mean?
-
-
-                        </span> <i class="ti-plus text-primary text-right"></i>
-                    </a>
-                </div>
-                <div id="Different-publish-status" class=collapse data-parent=#accordion>
-                    <div class="card-body font-secondary text-color pt-0"> <div>
-                        <img style="width: 50%;" src="FAQ-for-RM.png" onclick="openModal('FAQ-for-RM.png')" alt="Finalize Deployment" width="100%" height="auto"></div><br>
-                        </b>
-                    </div>
-                        </b>
-                    </div>
-                </div>
-            </div>
 
           
-            <!-- <div class="card mb-4 rounded-0 shadow border-0">
+         
+<div class="card mb-4 rounded-0 shadow border-0">
   <div class="card-header rounded-0 bg-white border p-0 border-0">
     <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
-       data-bs-toggle=collapse href=#publishstatus>
-       <span>What are the different job Publish Status options?</span> 
+       data-bs-toggle="collapse" href="#publishstatus">
+       <span>What are the different publish status options available, and what does each one mean?</span> 
        <i class="ti-plus text-primary text-right"></i>
     </a>
   </div>
-  <div id=publishstatus class=collapse data-parent=#accordion>
+  <div id="publishstatus" class="collapse" data-parent="#accordion">
     <div class="card-body font-secondary text-color pt-0">
-      <p>You can choose from the following publish statuses when creating a job:</p>
+      <p>You can choose from the following publish statuses when creating a job. Each status controls how and where the job will be visible:</p>
+
       <ul>
         <li><b>Internal</b> – Published on the internal job portal, visible to all employees.</li>
         <li><b>Confidential Internal</b> – Shared only with selected employees via a private URL, not listed on the portal.</li>
         <li><b>External</b> – Published on the public external portal (RM365 Online Job Portal).</li>
         <li><b>Confidential External</b> – Shared only via a private link to selected external candidates, not publicly listed.</li>
-      </ul><br>
+      </ul>
+      <br>
          <div><img src="publish.png" onclick="openModal('publish.png')" alt="AppCatalog Navigation" width="100%" height="auto"></div><br>
 
-  
+
+      <!-- Internal -->
+      <p><b>Internal:</b> When selected, the job will appear on the internal employee portal and is visible to everyone in the organization.</p>
+      <div><img src="publish_internal.png" onclick="openModal('publish_internal.png')" 
+           alt="Internal Publish Status" width="100%" height="auto"></div><br>
+
+      <!-- Confidential Internal -->
+      <p><b>Confidential Internal:</b> The job is restricted to specific employees. It will not appear on the internal portal; only those with the private link can access it.</p>
+      <div><img src="publish_conf_internal.png" onclick="openModal('publish_conf_internal.png')" 
+           alt="Confidential Internal Publish Status" width="100%" height="auto"></div><br>
+           <div><img src="publish_conf_internal1.png" onclick="openModal('publish_conf_internal1.png')" 
+           alt="Confidential Internal Publish Status" width="100%" height="auto"></div><br>
+
+
+      <!-- External -->
+      <p><b>External:</b> The job is published on the external public-facing RM365 Online Job Portal. Anyone outside the organization can view and apply.</p>
+      <div><img src="publish_external.png" onclick="openModal('publish_external.png')" 
+           alt="External Publish Status" width="100%" height="auto"></div><br>
+           <div><img src="publish_external1.png" onclick="openModal('publish_external1.png')" 
+           alt="External Publish Status" width="100%" height="auto"></div><br>
+
+      <!-- Confidential External -->
+      <p><b>Confidential External:</b> This option hides the job from the public portal. Only candidates who receive a private link will be able to view or apply.</p>
+      <div><img src="publish_conf_external.png" onclick="openModal('publish_conf_external.png')" 
+           alt="Confidential External Publish Status" width="100%" height="auto"></div><br>
+
     </div>
   </div>
-</div> -->
+</div>
+
   <div class="card mb-4 rounded-0 shadow border-0">
               <div class="card-header rounded-0 bg-white border p-0 border-0">
                   <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
