@@ -121,6 +121,9 @@ $(document).ready(function () {
         "<li data-nav-id='../advanced/' title='Projects' class='sidelist'>" +
         "<a href='/task-management-365/modern/admin/settings/general-administration/#Projects'>Projects</a>" +
         "</li>" +
+        "<li data-nav-id='../advanced/' title='Delegation' class='sidelist'>" +
+        "<a href='/task-management-365/modern/admin/settings/general-administration/#delegation'>Delegation</a>" +
+        "</li>" +
         "</ul>" +
         "</li>" +
         "</ul>" +

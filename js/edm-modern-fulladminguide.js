@@ -21,56 +21,53 @@ $(document).ready(function () {
         "</a>" +
         "</li>" +
 // dashboard 
-      "<li class='dropdownicon sidelist' title='Dashboard'>" +
-    "<a href='/sharepoint-employee-directory/modern/admin/dashboard/'>" +
-        "Dashboard" +
-    "</a>" +
- "<img src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'  class='helpdesk-img aside_dropdown_icon_setting'>" +
-    "</li>" +
-
-"<li data-nav-id='./Dashboard/' title='Dashboard' class='sidelist dropdown_romove_dot'>" +
-    "<ul class='sidenavSub-topics aside_dropdown_list_setting' value='dashboard'>" +
-
        
-
-            // Organization
-            "<li class='dropdownicon sidelist' title='Organization'>" +
-                "<a class='qwe' href='/sharepoint-employee-directory/modern/admin/dashboard/organization/'>" +
-                    "Organization" +
-                "</a>" +
-                "<img src='/down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon'>" +
-            "</li>" +
-
-            "<li data-nav-id='../organization/' class='sidelist dropdown_romove_dot'>" +
-                "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmodernorganization'>" +
-
-                    "<li data-nav-id='../organization/general/' title='General' class='sidelist'>" +
-                        "<a href='/sharepoint-employee-directory/modern/admin/dashboard/organization/general/'>General</a>" +
-                    "</li>" +
-
-                    "<li data-nav-id='../organization/advanced/' title='Advanced' class='sidelist'>" +
-                        "<a href='/sharepoint-employee-directory/modern/admin/dashboard/organization/advance/'>Advanced</a>" +
-                    "</li>" +
-
-                "</ul>" +
-            "</li>" +
-
-            // Analytics
-            "<li class='dropdownicon sidelist' title='Analytics'>" +
-                "<a class='qwe' href='/sharepoint-employee-directory/modern/admin/dashboard/analytics/'>" +
-                    "Analytics" +
-                "</a>" +
-        //         "<img src='/down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon'>" +
-        //   
-          "</li>" +
-
-        "</ul>" +
-
-"</li>" +
-
 
         // help 
 
+// Dashboard
+"<li class='dropdownicon sidelist' title='Dashboard'>" +
+    "<a href='/sharepoint-employee-directory/modern/admin/dashboard/'>" +
+        "Dashboard" +
+    "</a>" +
+    "<img src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg' class='imageIcondashboard aside_dropdown_icon'>" +
+"</li>" +
+
+"<li data-nav-id='../dashboard/' class='sidelist dropdown_romove_dot'>" +
+    "<ul class='sidenavSub-topics aside_dropdown_list' id='moderndashboard'>" +
+
+        // Organization
+        "<li class='dropdownicon sidelist' title='Organization'>" +
+            "<a href='/sharepoint-employee-directory/modern/admin/dashboard/organization/'>" +
+                "Organization" +
+            "</a>" +
+            "<img src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg' class='imageIconorganization aside_dropdown_icon'>" +
+        "</li>" +
+
+        "<li data-nav-id='../dashboard/organization/' class='sidelist dropdown_romove_dot'>" +
+            "<ul class='sidenavSub-topics aside_dropdown_list' id='moderndashboardorganization'>" +
+
+                "<li data-nav-id='../dashboard/organization/general/' title='General' class='sidelist'>" +
+                    "<a href='/sharepoint-employee-directory/modern/admin/dashboard/organization/general/'>General</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../dashboard/organization/advanced/' title='Advanced' class='sidelist'>" +
+                    "<a href='/sharepoint-employee-directory/modern/admin/dashboard/organization/advance/'>Advanced</a>" +
+                "</li>" +
+
+            "</ul>" +
+        "</li>" +
+
+        // Analytics
+        "<li class='dropdownicon sidelist' title='Analytics'>" +
+            "<a href='/sharepoint-employee-directory/modern/admin/dashboard/analytics/'>" +
+                "Analytics" +
+            "</a>" +
+            "<img src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg' class='imageIconanalytics aside_dropdown_icon'>" +
+        "</li>" +
+
+    "</ul>" +
+"</li>" +
 
        
      
@@ -88,8 +85,8 @@ $(document).ready(function () {
         "<a href='/sharepoint-employee-directory/modern/admin/settings/'>" +
         "Settings" +
         "</a>" +
-       "<img src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'  class='helpdesk-img aside_dropdown_icon_setting'>" +
-       "</li>" +
+        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIconmainsetting aside_dropdown_icon_setting''>" +
+        "</li>" +
 
         "<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
       
@@ -101,8 +98,8 @@ $(document).ready(function () {
         "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/general/'>" +
         "General" +
         "</a>" +
-        "<img src='../../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon' '>"+
-   "</li>" +
+        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
   
@@ -189,7 +186,7 @@ $(document).ready(function () {
         "<a  class='qwe' href='/sharepoint-employee-directory/modern/admin/settings/views/'>" +
         "Views" +
         "</a>" +
-        "<img src='/down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
@@ -285,7 +282,7 @@ $(document).ready(function () {
        "<a href='/sharepoint-employee-directory/modern/admin/settings/integration/'>Integrations</a>"
       
        +
-        "<img src='/down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
@@ -333,7 +330,7 @@ $(document).ready(function () {
         "<a href='/sharepoint-employee-directory/modern/admin/settings/feature/'>Features</a>" +
 
 
-        "<img src='/down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
+        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
         "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 
@@ -426,7 +423,7 @@ $(document).ready(function () {
         "<a href='/sharepoint-employee-directory/modern/admin/help/'>" +
         "Help" +
         "</a>" +
-        "<img src='/down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
+        "<img src='../../down-arrow-svgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' '>" +
         "</li>" +
         "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
 

@@ -300,6 +300,12 @@ $(document).ready(function () {
           "<li data-nav-id='../General' title=Users class=sidelist>" +
           "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Quick-Share-Links'> Quick Share Links </a>" +
           "</li>" +
+           "<li data-nav-id='../General' title=Users class=sidelist>" +
+          "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Approval-Workflow'> Approval Workflow</a>" +
+          "</li>" +
+           "<li data-nav-id='../General' title=Delegation class=sidelist>" +
+          "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#delegation'> Delegation</a>" +
+          "</li>" +
  
           "<li data-nav-id='../General' title=Users class=sidelist>" +
           "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Create-User-in-M365'> Create User in M365 </a>" +
@@ -319,6 +325,7 @@ $(document).ready(function () {
           "<li data-nav-id='../General' title=Users class=sidelist>" +
           "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Preonboarding'> Preonboarding </a>" +
           "</li>" +
+          
   
   
   

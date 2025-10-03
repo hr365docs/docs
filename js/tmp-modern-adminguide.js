@@ -41,6 +41,12 @@ $(document).ready(function () {
         "</a>" +
         "</li>" +
 
+        "<li data-nav-id='../user' title=Delegation class='sidelist'>" +
+        "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/delegation/'>" +
+        "Delegation" +
+        "</a>" +
+        "</li>" +
+
         "<li data-nav-id='../user' title=user class='sidelist'>" +
         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/reports/'>" +
         "Reports" +
