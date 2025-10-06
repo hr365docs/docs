@@ -114,77 +114,119 @@
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>The <b>Count Down Calendar 365 Settings</b> panel allows administrators to configure global options such as themes and user permissions. These settings help customize the web part’s appearance and control access effectively.</p>
+  <p>The <b>Count Down Calendar 365 Settings</b> panel enables administrators to configure calendar behavior, appearance, and interaction options. 
+These settings allow full customization of countdown structure, door style, and display preferences to align with organizational themes.</p>
 
 <div class="sidelist active" data-nav-id="./Settings/" title="Settings">
-  <img src="settings.png" onclick="openModal('settings.png')" alt="Settings Overview" width="100%" height="auto">
+  <img src="settings_overview.png" onclick="openModal('settings_overview.png')" alt="Settings Overview" width="100%" height="auto">
 </div>
 
 <!-- Theme Section -->
 <div class="bg-light p-4 common-scroll remove-padding" id="theme-option">
-  <h3 id="_theme_option">
+  <h3 id="theme">
     <a class="header-icon-link highlight" href="#">Theme
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
   <p>Select a visual theme for Count Down Calendar 365:</p>
   <ul>
-    <li><strong>Light:</strong> Applies a bright, clean interface.<br><br>
+    <li><strong>Light:</strong> Displays doors on a bright, clean background.<br><br>
       <img src="light.png" onclick="openModal('light.png')" alt="Light Theme Preview" width="100%" height="auto">
     </li><br>
-    <li><strong>Dark:</strong> Optimized for low-light environments.<br><br>
+    <li><strong>Dark:</strong> Perfect for low-light displays, highlighting door contrast.<br><br>
       <img src="dark.png" onclick="openModal('dark.png')" alt="Dark Theme Preview" width="100%" height="auto">
     </li><br>
-    <li><strong>Site:</strong> Inherits the theme of the SharePoint site.<br><br>
+    <li><strong>Site:</strong> Adopts the current SharePoint site theme for seamless integration.<br><br>
       <img src="site.png" onclick="openModal('site.png')" alt="Site Theme Preview" width="100%" height="auto">
     </li>
   </ul>
 </div>
 
-<!-- Users Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="users">
-  <h3 id="_users">
+<!-- Calendar Configuration -->
+<div class="bg-light p-4 common-scroll remove-padding" id="calendar-config">
+  <h3 id="_calendar_config">
+    <a class="header-icon-link highlight" href="#">Calendar Configuration
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+  <p>Customize how your countdown calendar appears and functions:</p>
+  <ul>
+    <li><b>Start Date:</b> Select when the countdown begins.</li><br>
+     <div>
+    <img src="1.png" onclick="openModal('1.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Number of Doors:</b> Define total number of countdown doors (e.g., 5, 10, 25, 31).</li><br>
+     <div>
+    <img src="2.png" onclick="openModal('2.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Rows & Columns:</b> Arrange doors in grid format to suit your display preferences.</li><br>
+     <div>
+    <img src="3.png" onclick="openModal('3.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Skip Weekends:</b> Enable or disable automatic skipping of weekends.</li><br>
+     <div>
+    <img src="4.png" onclick="openModal('4.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Custom Skip Dates:</b> Manually enter holidays or non-working days to exclude.</li><br>
+  </ul>
+  <div>
+    <img src="5.png" onclick="openModal('5.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+</div>
+
+<!-- Door Customization -->
+<div class="bg-light p-4 common-scroll remove-padding" id="door-customization">
+  <h3 id="_door_customization">
+    <a class="header-icon-link highlight" href="#">Door Customization
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+  <p>Modify door appearance, color, and numbering:</p>
+  <ul>
+    <li><b>Door Shape:</b> Choose between Square or Circle designs.</li><br>
+    <div>
+    <img src="6.png" onclick="openModal('6.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Door Background Type:</b> Set to Color or Image.</li><br>
+    <div>
+    <img src="7.png" onclick="openModal('7.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Door Background Color:</b> Pick a custom background color.</li><br>
+    <div>
+    <img src="8.png" onclick="openModal('8.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Door Outline Color:</b> Customize the border color.</li><br>
+    <div>
+    <img src="9.png" onclick="openModal('9.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Door Number Color and Size:</b> Adjust visibility of door numbers.</li><br>
+    <div>
+    <img src="10.png" onclick="openModal('10.png')" alt="Calendar Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Show Door Numbers:</b> Toggle visibility of numbering on each door.</li><br>
+  </ul>
+  <div>
+    <img src="11.png" onclick="openModal('11.png')" alt="Door Customization Example" width="100%" height="auto">
+  </div><br>
+</div>
+
+<!-- User Access and Control -->
+<div class="bg-light p-4 common-scroll remove-padding" id="user-access">
+  <h3 id="_user_access">
     <a class="header-icon-link highlight" href="#">Users
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-
-  <p>The <b>Users</b> section allows administrators to manage permissions in <b>Count Down Calendar 365</b>. The user management grid provides the following functionality:</p>
-  <div>
-    <img src="users-config.png" onclick="openModal('users-config.png')" alt="Users Configuration Panel" width="100%" height="auto">
-  </div><br>
+  <p>Administrators can configure who can view or interact with the countdown:</p>
   <ul>
-    <li><b>User Grid:</b> Displays Name, Email, and Role (Admin/User) for each entry.</li><br>
-    <div>
-      <img src="users-grid.png" onclick="openModal('users-grid.png')" alt="Users Grid Example" width="100%" height="auto">
-    </div><br>
-    <li><b>Role Assignment:</b> Administrators can assign or update roles (Admin/User) via the dropdown.</li><br>
-    <div>
-      <img src="users-role.png" onclick="openModal('users-role.png')" alt="User Role Assignment Example" width="100%" height="auto">
-    </div><br>
-    <li><b>Search & Pagination:</b> Search by Name, Email and adjust the number of entries displayed (10, 25, or 50 per page).</li><br>
-    <div>
-      <img src="users-search.png" onclick="openModal('users-search.png')" alt="User Search Example" width="100%" height="auto">
-    </div><br>
-    
+    <li><b>Show for All Users:</b> Display the calendar to every site member.</li><br>
+    <li><b>Assign Access:</b> Restrict visibility to selected groups or individuals.</li><br>
   </ul>
+  <div>
+    <img src="user_access.png" onclick="openModal('user_access.png')" alt="User Access Example" width="100%" height="auto">
+  </div><br>
 </div>
 
-<!-- Hide SharePoint Settings Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="hide-sharepoint-settings">
-  <h3 id="_hide_sharepoint_settings">
-    <a class="header-icon-link highlight" href="#">Hide SharePoint Settings
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h3>
-  <p>The <b>Hide SharePoint Settings</b> option allows administrators to disable the default SharePoint settings menu within the Count Down Calendar 365 web part. This helps prevent unauthorized modifications and keeps the interface focused only on poll-related configurations.</p>
-  <div>
-    <img src="4.png" onclick="openModal('4.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
-  </div><br>
-  <div>
-    <img src="hide-settings.png" onclick="openModal('hide-settings.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
-  </div><br>
-</div>
 </div>
 
 

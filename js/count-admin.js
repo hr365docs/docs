@@ -20,14 +20,20 @@ $(document).ready(function () {
         "<li class='sidelist dropdown_romove_dot'>" +
             "<ul class='sidenavSub-topics aside_dropdown_list'>" +
                 "<li class='sidelist' title='Theme'>" +
-                    "<a href='/Count-Down-Calendar-365/modern/admin/settings/#_theme_option'>Theme</a>" +
+                    "<a href='/Count-Down-Calendar-365/modern/admin/settings/#theme'>Theme</a>" +
+                "</li>" +
+                 "<li class='sidelist' title='Theme'>" +
+                    "<a href='/Count-Down-Calendar-365/modern/admin/settings/#_calendar_config'>Calendar Configuration</a>" +
+                "</li>" +
+                 "<li class='sidelist' title='Theme'>" +
+                    "<a href='/Count-Down-Calendar-365/modern/admin/settings/#_door_customization'>Door Customization</a>" +
                 "</li>" +
                 "<li class='sidelist' title='Users'>" +
-                    "<a href='/Count-Down-Calendar-365/modern/admin/settings/#_users'>Users</a>" +
+                    "<a href='/Count-Down-Calendar-365/modern/admin/settings/#_user_access'>Users</a>" +
                 "</li>" +
-                "<li class='sidelist' title='Hide SharePoint Settings'>" +
-                    "<a href='/Count-Down-Calendar-365/modern/admin/settings/#_hide_sharepoint_settings'>Hide SharePoint Settings</a>" +
-                "</li>" +
+                // "<li class='sidelist' title='Hide SharePoint Settings'>" +
+                //     "<a href='/Count-Down-Calendar-365/modern/admin/settings/#_hide_sharepoint_settings'>Hide SharePoint Settings</a>" +
+                // "</li>" +
             "</ul>" +
         "</li>" +
 
