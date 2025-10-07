@@ -1516,6 +1516,17 @@ section .container{
     display: flex !important;
   }
 
+  .card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 200px; /* adjust as needed */
+  box-sizing: border-box;
+}
+
+
 
 
   
