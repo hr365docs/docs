@@ -129,88 +129,72 @@
                         <!-- <h2 class=mb-5 id=title>General Settings</h2> -->
                         <div class="bg-light p-4 remove-padding">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Email Template <i
+                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Advance settings <i
                                             class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h2>
                                 <br>
-                                <p>Here you can configure email notification body and add more placeholders.</p>
-                                <div><img src="01.png " onclick="openModal( '01.png') "
-                                        alt="Notifications" width="100% " height="auto"></div>
 
+                                <div class="bg-light p-4 remove-padding common-scroll" id="Advance-Settings-Timesheet">
+   <p>
+    <strong>Advance Settings</strong> in the Timesheet allow customization of time tracking days, project name rules, and visibility of finance information in user reports.
+</p>
 
-                        
-                        <div class="p-lg-4 p-4 remove-padding common-scroll" id=reminder-on-last-working-day>
-                            <!-- <h2 class=mb-5 id=title>General Settings</h2> -->
+<div>
+            <img src="timesheet_sumdays1.png" onclick="openModal('timesheet_sumdays1.png')"
+                 alt="Time Tracking Days Selection" width="100%" height="auto">
+        </div>
+        <br>
 
-                            <ul class=page-list id="User">
-                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#> User
-                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h2>
-                             <li>
-                                In the "Template Type" dropdown, you can choose the template type.</li>
-                                <li>In the "Email Subject" field, you can either change the subject or use the default text.</li>
-                                <li>In the "Email Body" field, you can either change the Body or use the default body.</li> <br>
-                                <div><img src="user.png" onclick="openModal( 'user.png') "
-                                    alt="Notifications" width="100% " height="auto"></div><br>
-
-                                    
-
-        <h5>Using Placeholders</h5>
-        <ul>
-            <li>Click on the <strong>Placeholder</strong> option to view fourteen types of placeholders.</li><br>
-            <div>
-            <img src="1.png" onclick="openModal('1.png')" 
-                 alt="Template Types" width="100%" height="auto">
-        </div><br>
+        <!-- Time Tracking Days -->
+         <div id="time-tracking-days">
+        <p><strong>Time Tracking Days</strong><br>
+        Select the days for time tracking by checking the boxes for <b>Sunday to Saturday</b> and click <b>Save</b>.</p>
         <div>
-            <img src="placeholders.png" onclick="openModal('placeholders.png')" 
-                 alt="Placeholders" width="100%" height="auto">
-        </div><br><br>
-            <li>Placeholders can be inserted wherever necessary within the email template.</li>
-            <li>Once added, the placeholder values will be dynamically populated and displayed directly in the email.</li>
-        </ul><br>
-      
+            <img src="timesheet_sumdays.png" onclick="openModal('timesheet_sumdays.png')"
+                 alt="Time Tracking Days Selection" width="100%" height="auto">
+        </div>
+        <br>
+        </div>
         
-         <div>
-            <img src="03.png" onclick="openModal('03.png')" 
-                 alt="Template Types" width="100%" height="auto">
+        <!-- Allow Same Project Names -->
+         <div id="same-project">
+        <p><strong>Allow Same Project Names for Different Clients</strong><br>
+        Toggle this option to allow multiple clients to have projects with the same name.</p>
+       
+                                            <div>
+            <img src="timesheet_sameproject_toggle.png" onclick="openModal('timesheet_sameproject_toggle.png')"
+                 alt="Allow Same Project Names Toggle" width="100%" height="auto">
         </div><br>
-          <p>
-            This flexibility ensures that email communication remains accurate, 
-            consistent, and tailored to each scenario.
-        </p>
-                            </ul> <br>
-                            <ul class=page-list id="Manager">
-                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#> Manager
-                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h2>
-                             <li>
-                                In the "Template Type" dropdown, Manager can choose the template type.</li>
-                                <li>In the "Email Subject" field, Manager can either change the subject or use the default text.</li>
-                                <li>In the "Email Body" field, Manager can either change the Body or use the default body.</li> <br>
-                                <div><img src="04.png " onclick="openModal( '04.png') "
-                                    alt="Notifications" width="100% " height="auto"></div>
-                            </ul>
-                            <br>
-                            <ul class=page-list id="System">
-                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#> System
-                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h2>
-                                        <li>In the "System View," you can find additional placeholders.</li> 
-                             <li>
-                                In the "Template Type" dropdown, you can choose the template type.</li>
-                                <li>In the "Email Subject" field, you can either change the subject or use the default text.</li>
-                                <li>In the "Email Body" field, you can either change the Body or use the default body.</li>
-                               <br>
-                                <div><img src="05.png " onclick="openModal( '05.png') "
-                                    alt="Notifications" width="100% " height="auto"></div>
-                            </ul>
-                        </div>
-                        
-                    </div>
+                                        <div><img src="sameproject2.png" onclick="openModal('sameproject2.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>
+
+                                        <p>When the toggle is disabled, attempting to assign the same project name to another client will trigger a dialog box with the message: <strong>"Project with the same name already exists."</strong></p>
+                                        <div><img src="sameproject.png" onclick="openModal('sameproject.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>
+                                        <div><img src="error.png" onclick="openModal('error.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>
+                                        </div>
+
+        <!-- Exclude Finance Info -->
+         <div id="exclude-finance">
+        <p><strong> Exclude Finance Info from User's Reports</strong><br>
+        Toggle this option to hide finance-related information from user reports.</p>
+        <div>
+            <img src="timesheet_excludefinance_toggle.png" onclick="openModal('timesheet_excludefinance_toggle.png')"
+                 alt="Exclude Finance Info Toggle" width="100%" height="auto">
+        </div>
+        <br>
+        </div>
+    
+
+                               
+                    </div></ul></div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3 " id="date">
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev " href="/online-timesheet-software/modern/admin/settings/notification/ "
+                            <a class="nav nav-prev " href="../general/ "
                                 aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                                    class="d-none d-md-block">Notification</span></a>
-                            <a class="nav nav-next " href="/online-timesheet-software/modern/admin/settings/features/"
-                                aria-label="Previous page"> <span class="d-none d-md-block">Features</span><i
+                                    class="d-none d-md-block">General Settings</span></a>
+                            <a class="nav nav-next " href="../role/"
+                                aria-label="Previous page"> <span class="d-none d-md-block">Users</span><i
                                     class="ti-arrow-right ml-2"></i></a>
                         </nav>
                         </p>
