@@ -114,14 +114,48 @@
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>The <b>Anniversary 365 Settings</b> panel allows administrators to configure global options such as themes and user permissions. These settings help customize the web part’s appearance and control access effectively.</p>
+  <p>
+  The <b>Anniversary 365 Settings</b> panel allows administrators to configure global options such as data synchronization, display preferences, themes, and administrator management. These settings ensure a tailored experience for each organization while maintaining control over how work anniversaries are displayed and managed.
+</p>
 
 <div class="sidelist active" data-nav-id="./Settings/" title="Settings">
-  <img src="settings.png" onclick="openModal('settings.png')" alt="Settings Overview" width="100%" height="auto">
+  <img src="anniversary-settings.png" onclick="openModal('anniversary-settings.png')" alt="Anniversary 365 Settings Overview" width="100%" height="auto">
+</div>
+
+<!-- Sync Date of Joining Section -->
+<div class="1" id="sync-date">
+  <h3 id="_sync_date">
+    <a class="header-icon-link highlight" href="#">Sync Date of Joining
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+  <p>The <b>Sync Date of Joining</b> option allows administrators to fetch employee joining details from connected directories such as <b>Azure AD</b> or <b>SharePoint Online (SPO)</b>. This ensures that work anniversary data stays accurate and up to date.</p>
+  <div>
+    <img src="a-sync.png" onclick="openModal('a-sync.png')" alt="Sync Date of Joining Example" width="100%" height="auto">
+  </div><br>
+</div>
+
+<!-- Display Work Anniversaries Section -->
+<div class="1" id="display-anniversaries">
+  <h3 id="_display_anniversaries">
+    <a class="header-icon-link highlight" href="#">Display Work Anniversaries Based On
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+  <p>The <b>Display Work Anniversaries Based On</b> setting allows administrators to select the period for which anniversaries should be displayed. This makes it easier to highlight upcoming milestones.</p>
+  <ul>
+    <li><strong>Current Day:</strong> Shows anniversaries occurring today only.</li><br>
+    <li><strong>Current Week:</strong> Displays all anniversaries within the current week.</li><br>
+    <li><strong>Current Month:</strong> Lists anniversaries for the current calendar month.</li><br>
+    <li><strong>Upcoming Month:</strong> Displays anniversaries for the upcoming month for proactive celebration planning.</li><br>
+  </ul>
+  <div>
+    <img src="a-display.png" onclick="openModal('a-display.png')" alt="Display Work Anniversaries Options Example" width="100%" height="auto">
+  </div><br>
 </div>
 
 <!-- Theme Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="theme-option">
+<div class="1" id="theme-option">
   <h3 id="_theme_option">
     <a class="header-icon-link highlight" href="#">Theme
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
@@ -129,62 +163,66 @@
   </h3>
   <p>Select a visual theme for Anniversary 365:</p>
   <ul>
-    <li><strong>Light:</strong> Applies a bright, clean interface.<br><br>
-      <img src="light.png" onclick="openModal('light.png')" alt="Light Theme Preview" width="100%" height="auto">
+    <li><strong>Light Mode:</strong> Applies a clean, bright interface suitable for well-lit environments.<br><br>
+      <img src="a-light.png" onclick="openModal('a-light.png')" alt="Light Mode Preview" width="100%" height="auto">
     </li><br>
-    <li><strong>Dark:</strong> Optimized for low-light environments.<br><br>
-      <img src="dark.png" onclick="openModal('dark.png')" alt="Dark Theme Preview" width="100%" height="auto">
+    <li><strong>Dark Mode:</strong> Optimized for low-light conditions, providing a comfortable viewing experience.<br><br>
+      <img src="a-dark.png" onclick="openModal('a-dark.png')" alt="Dark Mode Preview" width="100%" height="auto">
     </li><br>
-    <li><strong>Site:</strong> Inherits the theme of the SharePoint site.<br><br>
-      <img src="site.png" onclick="openModal('site.png')" alt="Site Theme Preview" width="100%" height="auto">
-    </li>
-  </ul>
-</div>
-
-<!-- Users Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="users">
-  <h3 id="_users">
-    <a class="header-icon-link highlight" href="#">Users
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h3>
-
-  <p>The <b>Users</b> section allows administrators to manage permissions in <b>Anniversary 365</b>. The user management grid provides the following functionality:</p>
-  <div>
-    <img src="users-config.png" onclick="openModal('users-config.png')" alt="Users Configuration Panel" width="100%" height="auto">
-  </div><br>
-  <ul>
-    <li><b>User Grid:</b> Displays Name, Email, and Role (Admin/User) for each entry.</li><br>
-    <div>
-      <img src="users-grid.png" onclick="openModal('users-grid.png')" alt="Users Grid Example" width="100%" height="auto">
-    </div><br>
-    <li><b>Role Assignment:</b> Administrators can assign or update roles (Admin/User) via the dropdown.</li><br>
-    <div>
-      <img src="users-role.png" onclick="openModal('users-role.png')" alt="User Role Assignment Example" width="100%" height="auto">
-    </div><br>
-    <li><b>Search & Pagination:</b> Search by Name, Email and adjust the number of entries displayed (10, 25, or 50 per page).</li><br>
-    <div>
-      <img src="users-search.png" onclick="openModal('users-search.png')" alt="User Search Example" width="100%" height="auto">
-    </div><br>
+    <li><strong>Site Mode:</strong> Inherits the current SharePoint site theme for a consistent look and feel.<br><br>
+      <img src="a-site.png" onclick="openModal('a-site.png')" alt="Site Mode Preview" width="100%" height="auto">
+    </li><br>
     
   </ul>
 </div>
 
 <!-- Hide SharePoint Settings Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="hide-sharepoint-settings">
+<div class="1" id="hide-sharepoint-settings">
   <h3 id="_hide_sharepoint_settings">
     <a class="header-icon-link highlight" href="#">Hide SharePoint Settings
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>The <b>Hide SharePoint Settings</b> option allows administrators to disable the default SharePoint settings menu within the Anniversary 365 web part. This helps prevent unauthorized modifications and keeps the interface focused only on poll-related configurations.</p>
+  <p>The <b>Hide SharePoint Settings</b> option lets administrators hide the default SharePoint configuration menu inside the Anniversary 365 web part. This keeps users focused on anniversary-specific options and prevents accidental modifications.</p>
   <div>
-    <img src="4.png" onclick="openModal('4.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
+    <img src="1.png" onclick="openModal('1.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
   </div><br>
-  <div>
-    <img src="hide-settings.png" onclick="openModal('hide-settings.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
+   <div>
+    <img src="a-hide-settings.png" onclick="openModal('a-hide-settings.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
   </div><br>
 </div>
+
+<!-- Add Additional Admins Section -->
+<div class="1" id="additional-admins">
+  <h3 id="_additional_admins">
+    <a class="header-icon-link highlight" href="#">Add Additional Admins
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+  <p>The <b>Add Additional Admins</b> feature enables organizations to assign and manage extra administrators for <b>Anniversary 365</b>. Admins can grant roles, manage access, and control who can edit configuration settings.</p>
+  <div>
+    <img src="a-admins.png" onclick="openModal('a-admins.png')" alt="Admins Configuration Example" width="100%" height="auto">
+  </div><br>
+  <ul>
+    <li><b>User Grid:</b> Displays user information such as Name, Email, and Role (Admin/User).</li><br>
+    <div>
+    <img src="a-admins1.png" onclick="openModal('a-admins11.png')" alt="Admins Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Role Assignment:</b> Admins can promote or demote users by selecting roles from a dropdown list.</li><br>
+    <div>
+    <img src="a-admins2.png" onclick="openModal('a-admins2.png')" alt="Admins Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>Search & Pagination:</b> Quickly search for users and adjust the number of entries shown (10, 25, 50 per page).</li><br>
+    <div>
+    <img src="a-admins3.png" onclick="openModal('a-admins3.png')" alt="Admins Configuration Example" width="100%" height="auto">
+  </div><br>
+    <li><b>User Removal:</b> Delete users and revoke their admin privileges using the trash icon.</li><br>
+    <div>
+    <img src="a-admins4.png" onclick="openModal('a-admins4.png')" alt="Admins Configuration Example" width="100%" height="auto">
+  </div><br>
+  </ul>
+</div>
+
 </div>
 
 
