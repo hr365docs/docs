@@ -323,10 +323,11 @@ $(document).ready(function () {
   "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/'>" +
     "General" +
   "</a>" +
-  "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
+ "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
-// "<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
-  "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
+// "<li data-nav-id='./General/' title='General' class='sidelist dropdown_romove_dot'>" +
+  "<ul class='sidenavSub-topics aside_dropdown_list' aria-labelledby='generalDropdown'>" +
+
 
     "<li class='sidelist' title='Azure Storage Configuration'>" +
       "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#AzureStorageConfiguration'>" +
@@ -1482,25 +1483,66 @@ $(document).ready(function () {
   "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
 
         "<li data-nav-id='../General' title='Currency Seperator' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#CurrencySeperator'> Currency Seperator </a>" +
+        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Currency'>Currency</a>" +
         "</li>" +
-      
-        "<li data-nav-id='../General' title='Custom Column' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#CustomColumn'> Custom Column </a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Expense Future Days' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#ExpenseFutureDays'> Expense Future Days </a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Display Project Name' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#DisplayProjectName'>Display Project Name</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Expense Tracking ID' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#ExpenseTrackingID'>Expense Tracking ID</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#brandlogo'>Brand Logo</a>" +
-        "</li>" +
+        "<li data-nav-id='../General' title='Display Project' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#DisplayProject'>Display Project</a>" +
+                "</li>" +
 
+                "<li data-nav-id='../General' title='Display Location' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#DisplayLocation'>Display Location</a>" +
+                "</li>" +
+                 "<li data-nav-id='../General' title='Expense Tracking Number' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#ExpenseTrackingID'>Expense Tracking Number</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='Reimbursable' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Reimbursable'>Reimbursable</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='Sample Dashboard Data' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#SampleDashboardData'>Sample Dashboard Data</a>" +
+                "</li>" +
+                "<li data-nav-id='../General' title='Paid Expenses' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#PaidExpenses'>Paid Expenses</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='Expense Attachments' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#ExpenseAttachments'>Expense Attachments</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='Expense Type Code' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#ExpenseTypeCode'>Expense Type Code</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='Multiple Cost Center' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#MultipleCostCenter'>Multiple Cost Center</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='Draft Expense ID' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#DraftExpenseID'>Draft Expense ID</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='Self-Declaration' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#SelfDeclaration'>Self-Declaration</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='Expense Time' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#ExpenseTime'>Expense Time</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='Clone Multiple Expense' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#CloneMultipleExpense'>Clone Multiple Expense</a>" +
+                "</li>" +
+
+                "<li data-nav-id='../General' title='SharePoint Page Configuration' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#SharepointPageConfiguration'>SharePoint Page Configuration</a>" +
+                "</li>" +
+
+                
+      
+       
+       
    
     
 
@@ -1527,12 +1569,54 @@ $(document).ready(function () {
         "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Cost-Center'>Cost Center</a>" +
         "</li>" +
        
-        "<li data-nav-id='../General' title='Job Title' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Job-title'>Job Title</a>" +
-        "</li>" +
-        "<li data-nav-id='../General' title='Location' class='sidelist'>" +
-        "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Location'>Location</a>" +
-        "</li>" +
+    //     "<li data-nav-id='../General' title='Departments' class='sidelist'>" +
+    // "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Department'>Departments</a>" +
+    // "</li>" +
+
+   
+
+    "<li data-nav-id='../General' title='Budget Limit' class='sidelist'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Approver-Budget-Limit'>Budget Limit</a>" +
+    "</li>" +
+      "<li data-nav-id='../General' title='Distance' class='sidelist'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Distance'>Distance</a>" +
+    "</li>" +
+      "<li data-nav-id='../General' title='Time' class='sidelist'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Time'>Time</a>" +
+    "</li>" +
+
+
+  
+
+    "<li data-nav-id='../General' title='Manage Expenses' class='sidelist'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Manage-Expenses'>Manage Expenses</a>" +
+    "</li>" +
+
+    "<li data-nav-id='../General' title='Custom Forex Rate' class='sidelist'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Custom-Forex-Rate'>Custom Forex Rate</a>" +
+    "</li>" +
+    
+    "<li data-nav-id='../General' title=' Mileage' class='sidelist'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Mileage'> Mileage</a>" +
+    "</li>" +
+
+    "<li data-nav-id='../General' title='Employee Grades' class='sidelist'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Employee-Grades'>Employee Grades</a>" +
+    "</li>" +
+
+    "<li data-nav-id='../General' title='Delete Expense' class='sidelist'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Delete-Expense'>Delete Expense</a>" +
+    "</li>" +
+
+ 
+
+    "<li data-nav-id='../General' title='Expense Future Days' class='sidelist'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/ET365/settings/#Expense-Future-Days'>Expense Future Days</a>" +
+    "</li>" +
+
+   
+
+
         
   "</ul>" +
 "</li>" +

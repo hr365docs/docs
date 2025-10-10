@@ -110,6 +110,10 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title='Leaves reordering' class='sidelist'>" +
         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/general-setting/#LeavesReordering'> Leaves reordering </a>" +
         "</li>" +
+        
+                                        "<li data-nav-id='../General' title='Use Sharepoint URL for MS Teams installed application' class='sidelist'>" +
+        "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/general-setting/#SharepointURL'> Use Sharepoint URL for MS Teams installed application </a>" +
+        "</li>" +
         "<li data-nav-id='../General' title='Hide SharePoint page's' class='sidelist'>" +
         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/general-setting/#HideSharePoint'> Hide SharePoint page's </a>" +
         "</li>" +
