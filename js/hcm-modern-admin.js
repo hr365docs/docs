@@ -325,7 +325,7 @@ $(document).ready(function () {
   "</a>" +
  "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
-// "<li data-nav-id='./General/' title='General' class='sidelist dropdown_romove_dot'>" +
+
   "<ul class='sidenavSub-topics aside_dropdown_list' aria-labelledby='generalDropdown'>" +
 
 
@@ -862,11 +862,7 @@ $(document).ready(function () {
 
   "<ul class='aside_dropdown_list' aria-labelledby='generalSettingsDropdown'>" +
 
-    "<li class='sidelist' title='Date Format'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/general-setting/#SideNavigation'>" +
-        "Side Navigation User Permission" +
-      "</a>" +
-    "</li>" +
+   
 
     "<li class='sidelist' title='log-collection'>" +
       "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/general-setting/#GCC-Tenant'>" +
@@ -911,17 +907,36 @@ $(document).ready(function () {
   "<ul class='aside_dropdown_list' aria-labelledby='usersRolesDropdown'>" +
 
    
-    "<li class='sidelist' title='Add/Edit Teams'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions/#teams'>" +
-        "Add/Edit Teams" +
-      "</a>" +
-    "</li>" +
+   "<li class='sidelist' title='Onboarded Users'>" +
+  "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions/#users'>" +
+    "Onboarded Users" +
+  "</a>" +
+"</li>" +
 
-    "<li class='sidelist' title='Teams Permissions'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions/#Permissions'>" +
-        "Teams Permissions" +
-      "</a>" +
-    "</li>" +
+"<li class='sidelist' title='Add/Edit Teams'>" +
+  "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions/#teams'>" +
+    "Add/Edit Teams" +
+  "</a>" +
+"</li>" +
+
+"<li class='sidelist' title='Teams Permissions'>" +
+  "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions/#Permissions'>" +
+    "Teams Permissions" +
+  "</a>" +
+"</li>" +
+
+"<li class='sidelist' title='Side Navigation User Permissions'>" +
+  "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions/#SideNavigation'>" +
+    "Side Navigation User Permissions" +
+  "</a>" +
+"</li>" +
+
+"<li class='sidelist' title='Enable My Profile Access for ESS'>" +
+  "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Users-Roles-and-Permissions/#ESS'>" +
+    "Enable My Profile Access for ESS" +
+  "</a>" +
+"</li>"+
+
 
   "</ul>" +
 "</li>" +
@@ -937,7 +952,12 @@ $(document).ready(function () {
 
   "<ul class='aside_dropdown_list' aria-labelledby='integrationsDropdown'>" +
 
-    "<li class='sidelist' title='Configure SharePoint API Permission'>" +
+    "<li class='sidelist' title='API Integration'>" +
+      "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Integration/#API-Integration'>" +
+        "API Integration" +
+      "</a>" +
+    "</li>" +
+     "<li class='sidelist' title='Configure SharePoint API Permission'>" +
       "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Integration/#configure-api'>" +
         "Configure SharePoint API Permission" +
       "</a>" +
@@ -1036,46 +1056,64 @@ $(document).ready(function () {
       "</a>" +
     "</li>" +
 
+        "<li class='sidelist' title='Enable Task Notification with Power Automate Flow'>" +
+      "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/Notification/#Enable Task Notification with Power Automate Flow'>" +
+        "Enable Task Notification with Power Automate Flow" +
+      "</a>" +
+    "</li>" +
+
   "</ul>" +
 "</li>" +
 
 // <!-- EO365 Assessments Menu -->
-"<li class='dropdownicon sidelist' title='EO365 Assessments'>" +
+"<li class='dropdownicon sidelist' title='Courses'>" +
   "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/'>" +
-    "EO365 Assessments" +
+    "Courses" +
   "</a>" +
   "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
 
+"<ul class='aside_dropdown_list' aria-labelledby='coursesDropdown'>" +
 
-  "<ul class='aside_dropdown_list' aria-labelledby='assessmentsDropdown'>" +
+  "<li class='sidelist' title='Sections'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Sections'>" +
+      "Sections" +
+    "</a>" +
+  "</li>" +
 
-    "<li class='sidelist' title='Question'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Questions'>" +
-        "Question" +
-      "</a>" +
-    "</li>" +
+  "<li class='sidelist' title='Chapters'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Chapters'>" +
+      "Chapters" +
+    "</a>" +
+  "</li>" +
 
-    "<li class='sidelist' title='Sections'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Sections'>" +
-        "Sections" +
-      "</a>" +
-    "</li>" +
+  "<li class='sidelist' title='Survey'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Survey'>" +
+      "Survey" +
+    "</a>" +
+  "</li>" +
 
-    "<li class='sidelist' title='Assessments'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Assessments'>" +
-        "Assessments" +
-      "</a>" +
-    "</li>" +
+  "<li class='sidelist' title='Courses'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Courses'>" +
+      "Courses" +
+    "</a>" +
+  "</li>" +
 
-    "<li class='sidelist' title='Company Details'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Company-Details'>" +
-        "Company Details" +
-      "</a>" +
-    "</li>" +
+  "<li class='sidelist' title='Certificate Template'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Certificate-Template'>" +
+      "Certificate Template" +
+    "</a>" +
+  "</li>" +
 
-  "</ul>" +
+  "<li class='sidelist' title='Roles'>" +
+    "<a href='/HRMS-HR365/modern/admin/apps/EO365/setting/EO365-Assesment/#Roles'>" +
+      "Roles" +
+    "</a>" +
+  "</li>" +
+
+"</ul>" +
 "</li>"+
+
                 "<li data-nav-id='../advanced/' title='EO365 - Report' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/EO365/report/'>Report</a>" +
                 "</li>" +
