@@ -19,14 +19,14 @@ $(document).ready(function () {
         "</li>" +
         "<li class='sidelist dropdown_romove_dot'>" +
             "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-                "<li class='sidelist' title='Theme'>" +
-                    "<a href='/PIP-365/modern/admin/settings/#_theme_option'>Theme</a>" +
+                "<li class='sidelist' title='General Settings'>" +
+                    "<a href='/PIP-365/modern/admin/settings/#general-settings'>General</a>" +
                 "</li>" +
-                "<li class='sidelist' title='Users'>" +
-                    "<a href='/PIP-365/modern/admin/settings/#_users'>Users</a>" +
+                "<li class='sidelist' title='Notifications'>" +
+                    "<a href='/PIP-365/modern/admin/settings/#notifications'>Notifications</a>" +
                 "</li>" +
-                "<li class='sidelist' title='Hide SharePoint Settings'>" +
-                    "<a href='/PIP-365/modern/admin/settings/#_hide_sharepoint_settings'>Hide SharePoint Settings</a>" +
+                "<li class='sidelist' title='User's'>" +
+                    "<a href='/PIP-365/modern/admin/settings/#users'>User's</a>" +
                 "</li>" +
             "</ul>" +
         "</li>" +

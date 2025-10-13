@@ -106,125 +106,138 @@
       </a>
     </h3>
   </li>
-<!-- Homepage Main Image -->
-<ul class="page-list">
- <p>The <b>PIP 365 Home Page</b> provides a clean and intuitive interface for creating and managing polls within SharePoint. It allows users to collect feedback, run quick surveys, and view responses in real time.</p>
-<div>
-  <img src="poll_home.png" onclick="openModal('poll_home.png')" alt="PIP 365 Home Page" width="100%" height="auto">
-</div><br>
-
-<p>Key features include:</p>
-
-
-<!-- Create Poll -->
-<p><b>Create Poll:</b> Click the <b>+ New Poll</b> button to start creating a poll by adding a question, multiple choice options, and selecting an expiration date.</p><br>
-<div>
-  <img src="poll_create.png" onclick="openModal('poll_create.png')" alt="Create Poll Example" width="100%" height="auto">
-</div><br>
-
-<p><b>Configure Poll Settings:</b> After entering the poll details, configure additional settings using the toggles:</p><br>
-<ul>
-  <li><b>Allow multiple answers:</b> Lets participants select more than one option when voting.</li><br>
-  <div>
-    <img src="poll_multiple.png" onclick="openModal('poll_multiple.png')" alt="Allow Multiple Answers Example" width="100%" height="auto">
-  </div><br>
-  <div>
-    <img src="poll_multiple1.png" onclick="openModal('poll_multiple1.png')" alt="Allow Multiple Answers Example" width="100%" height="auto">
-  </div><br>
-
-  <li><b>Allow to see results before vote:</b> Enables users to preview poll results before casting their vote.</li><br>
-  <div>
-    <img src="poll_results_before.png" onclick="openModal('poll_results_before.png')" alt="See Results Before Voting Example" width="100%" height="auto">
-  </div><br>
-   <div>
-    <img src="poll_results_before1.png" onclick="openModal('poll_results_before1.png')" alt="See Results Before Voting Example" width="100%" height="auto">
-  </div><br>
-
-  <li><b>Allow to change vote:</b> Allows participants to update or modify their response after submission.</li><br>
-  <div>
-    <img src="poll_change.png" onclick="openModal('poll_change.png')" alt="Change Vote Example" width="100%" height="auto">
-  </div><br>
-  <div>
-    <img src="poll_change1.png" onclick="openModal('poll_change1.png')" alt="Change Vote Example" width="100%" height="auto">
-  </div><br>
-
-
-  <li><b>Enable For All Users:</b> Makes the poll available to every user within the site.</li><br>
-  <div>
-    <img src="poll_enable.png" onclick="openModal('poll_enable.png')" alt="Enable For All Users Example" width="100%" height="auto">
-  </div><br>
-   <div>
+ <p>
+        The <strong>Performance Improvement Plan (PIP)</strong> feature in the system enables managers to create, track, and complete structured performance plans for team members. 
+        This ensures accountability, measurable outcomes, and timely progress monitoring.
+    </p>
+    <div>
+        <img src="home.png" onclick="openModal('home.png')" alt="PIP Overview" width="100%" height="auto">
+    </div>
    
+
+    <!-- In-Progress Section -->
+    <h3 id="pip-inprogress"> In-Progress</h3>
+    <p>
+        Managers can initiate a new PIP and configure key details while the plan is active.
+    </p>
+    <ol type="a">
+        <li>
+            Click on the <strong>+ Add</strong> button to start creating a new PIP.
+            <div>
+                <img src="add.png" onclick="openModal('add.png')" alt="Add New PIP" width="100%" height="auto">
+            </div>
+        </li>
+        <li>
+            Select the <strong>team member</strong> to be placed under the PIP, specify the <strong>reason</strong>, and define the <strong>start and end dates</strong>. Add planned activities to guide the improvement process.
+            <div>
+                <img src="pip_member.png" onclick="openModal('pip_member.png')" alt="Select Team Member and Define PIP Details" width="100%" height="auto">
+            </div>
+        </li>
+        <li>
+            Assign specific <strong>tasks</strong> with start and end dates to measure performance improvements.
+            <div>
+                <img src="pip_task.png" onclick="openModal('pip_task.png')" alt="Add Tasks in PIP" width="100%" height="auto">
+            </div>
+        </li>
+        <li>
+            Use the <strong>+ icon</strong> to add additional tasks as needed.
+            <div>
+                <img src="pip_add_task.png" onclick="openModal('pip_add_task.png')" alt="Add More Tasks in PIP" width="100%" height="auto">
+            </div>
+        </li>
+        <li>
+            Once all details are entered, click the <strong>Save</strong> button to finalize the PIP.
+            <div>
+                <img src="pip_save.png" onclick="openModal('pip_save.png')" alt="Save PIP" width="100%" height="auto">
+            </div>
+        </li>
+        <!-- Manager Options -->
+<p>
+    Once a PIP is created, the manager can access the <strong>3-dot menu</strong> for additional actions. From here, the manager can:
+</p>
+<ul>
+    <li>Edit </li>
+    <li>Make decision </li>
+    <li>View tasks</li>
+</ul>
+<div>
+    <img src="3.png" onclick="openModal('3.png')" alt="Manager 3-dot Menu Options" width="100%" height="auto">
+</div>
+<br>
+
+<!-- Make a Decision -->
+<p>
+    When the manager clicks on <strong>Make  Decision</strong>, the system will display the decision options as shown below:
+</p>
+<div>
+    <img src="4.png" onclick="openModal('4.png')" alt="Make a Decision Options" width="100%" height="auto">
+</div>
+<p>
+    Available actions include:
+</p>
+<ol>
+    <li><b>End PIP and retain Employee</b></li>
+    <li><b>Extend PIP</b> until a specified date</li>
+    <li><b>Notify HR</b> of unsuccessful PIP for the employee</li>
+</ol>
+<br>
+
+<!-- Employee Response -->
+<p>
+    Once a PIP is made, the employee under PIP will be notified.  
+    The employee must review the decision, provide their <strong>response</strong>, and <strong>sign</strong> the acknowledgement.  
+    Their signed response will be displayed under the <b>Employee Response</b> section.
+</p>
+<div>
+    <img src="5.png" onclick="openModal('5.png')" alt="Employee Response in PIP" width="100%" height="auto">
+</div>
+<br>
+
+<!-- Manager Response -->
+<p>
+    In addition, the manager can provide a <strong>detailed description</strong> of the decision in the <b>Manager Response</b> section.  
+    The manager must also sign the decision and click <strong>Update</strong> to finalize and update the PIP record.
+</p>
+<div>
+    <img src="6.png" onclick="openModal('6.png')" alt="Manager Response in PIP" width="100%" height="auto">
+</div>
+<br>
+
+    </ol>
+
+    <!-- Completed Section -->
+    <h3 id="pip-completed">Completed</h3>
+    <p>
+        After the PIP duration ends, managers can review the progress and outcomes. A PIP marked as <strong>Completed</strong> provides a summary of tasks achieved, areas improved, and overall performance results.
+    </p>
+<div>
+    <img src="8.png" onclick="openModal('8.png')" alt="Manager Response in PIP" width="100%" height="auto">
+</div><br>
+<p>
+    The manager can view the complete <strong>PIP details</strong> as well as the individual <strong>tasks</strong> assigned within the plan.  
+    By clicking on the <strong>3-dot menu</strong>, the following options are available:
+</p>
+<div><div>
+    <img src="9.png" onclick="openModal('9.png')" alt="Manager Response in PIP" width="100%" height="auto">
+</div><br>
+<ul>
+    <li><b>View</b> – Opens the complete PIP record with all associated information.</li>
+    <div><div>
+    <img src="11.png" onclick="openModal('11.png')" alt="Manager Response in PIP" width="100%" height="auto">
+</div><br>
+    <li><b>View Tasks</b> – Displays the list of tasks defined within the PIP, including their status and due dates.</li>
+    <div><div>
+    <img src="10.png" onclick="openModal('10.png')" alt="Manager Response in PIP" width="100%" height="auto">
+</div><br>
 </ul>
 
-
-<p>Once all settings are configured, click the <b>Save</b> button to add the new poll.</p><br>
-<img src="poll_toggles1.png" onclick="openModal('poll_toggles1.png')" alt="Poll Settings Toggle Example" width="100%" height="auto"><br><br>
-
-<!-- Manage Polls -->
-<p><b>Manage Polls:</b> View all existing polls with details such as title, creation date, and end date. You can also perform actions like editing, deleting, or copying polls.</p><br>
+    <!-- PIP Section -->
+    <h3 id="pip-overview"> PIP</h3>
+  <p> If the manager places the user under a Performance Improvement Plan, the user will be notified, and the PIP details will appear here.  </p>
 <div>
-  <img src="poll_manage.png" onclick="openModal('poll_manage.png')" alt="Manage Polls Example" width="100%" height="auto">
+    <img src="12.png" onclick="openModal('12.png')" alt="Manager Response in PIP" width="100%" height="auto">
 </div><br>
 
-<!-- Copy Poll Link -->
-<p><b>Copy Poll Link:</b> Generate and copy a unique link to share the poll within the organization. Anyone with access to the link (and who is part of the organization) can vote on the poll.</p><br>
-<div>
-  <img src="poll_copy.png" onclick="openModal('poll_copy.png')" alt="Copy Poll Link Example" width="100%" height="auto">
-</div><br>
-<div>
-  <img src="poll_copy1.png" onclick="openModal('poll_copy1.png')" alt="Copy Poll Link Example" width="100%" height="auto">
-</div><br>
-
-<!-- Edit Poll -->
-<p><b>Edit Poll:</b> Update the poll title, question, answer options, or expiration date when modifications are required.</p><br>
-<div>
-  <img src="poll_edit.png" onclick="openModal('poll_edit.png')" alt="Edit Poll Example" width="100%" height="auto">
-</div><br>
-<div>
-  <img src="poll_edit1.png" onclick="openModal('poll_edit1.png')" alt="Edit Poll Example" width="100%" height="auto">
-</div><br>
-
-<!-- Delete Poll -->
-<p><b>Delete Poll:</b> Remove a poll permanently when it is no longer needed.</p><br>
-<div>
-  <img src="poll_delete.png" onclick="openModal('poll_delete.png')" alt="Delete Poll Example" width="100%" height="auto">
-</div><br>
-
-<!-- View Poll -->
-<p><b>View Poll:</b> Click the <b>eye icon</b> to open and review the poll before voting.</p><br>
-<div>
-  <img src="poll_view.png" onclick="openModal('poll_view.png')" alt="View Poll Example" width="100%" height="auto">
-</div><br>
-
-<!-- Submit Response -->
-<p><b>Submit Response:</b> After reviewing the question, select your preferred option(s) and click <b>Vote</b> to submit your response.</p><br>
-<div>
-  <img src="poll_vote1.png" onclick="openModal('poll_vote1.png')" alt="Submit Vote Example" width="100%" height="auto">
-</div><br>
-<div>
-  <img src="poll_vote.png" onclick="openModal('poll_vote.png')" alt="Submit Vote Example" width="100%" height="auto">
-</div><br>
-<p>You can also perform actions like copying, editing or deleting polls.</p>
-
-<div>
-  <img src="1.png" onclick="openModal('1.png')" alt="Submit Vote Example" width="100%" height="auto">
-</div><br>
-
-
-
-
-<!-- Settings -->
-<p><b>Settings:</b> Administrators can configure options such as theme (Light, Dark, Site), response visibility (anonymous or public), and permissions for who can create or vote in polls.</p>
-<div>
-  <img src="2.png" onclick="openModal('2.png')" alt="PIP 365 Settings" width="100%" height="auto">
-</div><br>
-
-<!-- Help -->
-<p><b>Help:</b> The Help panel provides license details, version information, subscription validity, and quick links to Support, Privacy Policy, FAQ, Release Notes, Product Activation, and License Validation.</p>
-<div>
-  <img src="3.png" onclick="openModal('3.png')" alt="PIP 365 Help Section" width="100%" height="auto">
-</div><br>
 
 
 

@@ -114,78 +114,167 @@
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>The <b>PIP 365 Settings</b> panel allows administrators to configure global options such as themes and user permissions. These settings help customize the web part’s appearance and control access effectively.</p>
+  <p>
+    The <b>PIP 365 Settings</b> panel allows administrators to configure key system options such as 
+    SharePoint page setup, appearance, notifications, and user access. These settings ensure a consistent 
+    experience across the organization.
+  </p>
 
-<div class="sidelist active" data-nav-id="./Settings/" title="Settings">
-  <img src="settings.png" onclick="openModal('settings.png')" alt="Settings Overview" width="100%" height="auto">
-</div>
+  <div>
+    <img src="settings.png" onclick="openModal('settings.png')" alt="PIP 365 Settings Overview" width="100%" height="auto">
+  </div><br>
 
-<!-- Theme Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="theme-option">
-  <h3 id="_theme_option">
-    <a class="header-icon-link highlight" href="#">Theme
+  <!-- General Section -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="general-settings">
+    <h3 id="_general_settings">
+      <a class="header-icon-link highlight" href="#">General
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+    <p>
+      The <b>General</b> settings section includes SharePoint page configuration, theme selection, 
+      and favicon setup.
+    </p>
+
+    <ul>
+      <li><b>SharePoint Page Configuration:</b> Define or modify the page settings for displaying the PIP 365 web part.</li><br>
+      <div>
+        <img src="sharepoint-config.png" onclick="openModal('sharepoint-config.png')" alt="SharePoint Page Configuration" width="100%" height="auto">
+      </div><br>
+
+      <li><b>Theme:</b> Choose between <b>Light</b>, <b>Dark</b>, or <b>Site</b> (inherits SharePoint site theme).<br><br>
+        <img src="light.png" onclick="openModal('light.png')" alt="Light Theme Preview" width="100%" height="auto"><br><br>
+        <img src="dark.png" onclick="openModal('dark.png')" alt="Dark Theme Preview" width="100%" height="auto"><br><br>
+        <img src="site.png" onclick="openModal('site.png')" alt="Site Theme Preview" width="100%" height="auto">
+      </li><br>
+
+      <li><b>Favicon:</b> Upload a favicon (site icon) to display in browser tabs for easier identification of PIP 365 pages.</li><br>
+      <div>
+        <img src="favicon.png" onclick="openModal('favicon.png')" alt="Favicon Example" width="100%" height="auto">
+      </div><br>
+    </ul>
+  </div>
+
+  <!-- Notifications Section -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="notifications">
+    <h3 id="_notifications">
+      <a class="header-icon-link highlight" href="#">Notifications
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+    <p>
+      The <b>Notifications</b> section allows administrators to configure and customize automated 
+      email templates used in the PIP process.
+    </p>
+    <div>
+      <img src="notifications.png" onclick="openModal('notifications.png')" alt="Notifications Configuration" width="100%" height="auto">
+    </div><br>
+     <img src="unsuccessful-pip.png" onclick="openModal('unsuccessful-pip.png')" alt="Unsuccessful PIP Notification Template" width="100%" height="auto"><br>
+<br>
+
+    <p>When you click on <b>PIP</b> and select <b>Configure</b>, two default templates are available:</p><br>
+    <img src="unsuccessful-pip1.png" onclick="openModal('unsuccessful-pip1.png')" alt="Unsuccessful PIP Notification Template" width="100%" height="auto"><br>
+<br>
+    <ul>
+      <li>
+        <b>Performance Improvement Plan (PIP) Notification:</b>  
+        Email sent to employees when a manager creates a new PIP.  
+        <br><br>
+          </li>
+          <img src="1.png" onclick="openModal('1.png')" alt="Unsuccessful PIP Notification Template" width="100%" height="auto"><br>
+<br>
+
+      <li>
+        <b>Update on Unsuccessful PIP Outcomes:</b>  
+        Email notification sent to HR when a PIP outcome is marked as unsuccessful.  
+        <br><br>
+              </li>
+    </ul>
+   
+    <p>
+      Both templates can be edited directly within the configuration panel to update content or adjust formatting.
+    </p><br>
+    <img src="unsuccessful-pip3.png" onclick="openModal('unsuccessful-pip3.png')" alt="Unsuccessful PIP Notification Template" width="100%" height="auto"><br>
+<br>
+<img src="unsuccessful-pip2.png" onclick="openModal('unsuccessful-pip2.png')" alt="Unsuccessful PIP Notification Template" width="100%" height="auto"><br>
+<br>
+  </div>
+
+  <!-- Users Section -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="users">
+  <h3 id="_users">
+    <a class="header-icon-link highlight" href="#">User's
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>Select a visual theme for PIP 365:</p>
-  <ul>
-    <li><strong>Light:</strong> Applies a bright, clean interface.<br><br>
-      <img src="light.png" onclick="openModal('light.png')" alt="Light Theme Preview" width="100%" height="auto">
-    </li><br>
-    <li><strong>Dark:</strong> Optimized for low-light environments.<br><br>
-      <img src="dark.png" onclick="openModal('dark.png')" alt="Dark Theme Preview" width="100%" height="auto">
-    </li><br>
-    <li><strong>Site:</strong> Inherits the theme of the SharePoint site.<br><br>
-      <img src="site.png" onclick="openModal('site.png')" alt="Site Theme Preview" width="100%" height="auto">
+  <p>
+    The <b>Users</b> section allows administrators to manage employee information and synchronize 
+    user data from Microsoft 365. This ensures that all employee records are up to date within <b>PIP 365</b>.
+  </p>
+
+  <ul class="page-list">
+    <p>The <b>Users</b> component allows you to add and manage information about employees.</p>
+    <br>
+    <div>
+      <img src="16.png" onclick="openModal('16.png')" alt="Users Administration Overview" width="100%" height="auto">
+    </div>
+    <br>
+
+    <li>
+      <p>Click on the <b>+ Add</b> button to add new users.</p>
+      <br>
+      <div>
+        <img src="17.png" onclick="openModal('17.png')" alt="Add User Example" width="100%" height="auto">
+      </div>
+      <br>
+      <p>Fill out the user details accurately, then click the <b>Save</b> button to add the record.</p>
+      <br>
+      <div>
+        <img src="18.png" onclick="openModal('18.png')" alt="Save User Details" width="100%" height="auto">
+      </div>
+      <br>
+    </li>
+
+    <li>
+      <p>Click on <b>Full Sync from M365</b> to update all user details from Microsoft 365.</p>
+      <br>
+      <div>
+        <img src="21.png" onclick="openModal('21.png')" alt="Full Sync from M365" width="100%" height="auto">
+      </div>
+      <br>
+      <p>A confirmation message will appear to confirm synchronization.</p>
+      <br>
+      <div>
+        <img src="19.png" onclick="openModal('19.png')" alt="Sync Confirmation" width="100%" height="auto">
+      </div>
+      <br>
+    </li>
+
+    <li>
+      <p>
+        Click on <b>Delta Sync from M365</b> to fetch recently updated user information 
+        and newly added users from the last seven days.
+      </p>
+      <br>
+      <div>
+        <img src="22.png" onclick="openModal('22.png')" alt="Delta Sync from M365" width="100%" height="auto">
+      </div>
+      <br>
+    </li>
+
+    <li>
+      <p>Click on <b>Action</b> to delete multiple users at once.</p>
+      <br>
+      <div>
+        <img src="20.png" onclick="openModal('20.png')" alt="Delete Multiple Users" width="100%" height="auto">
+      </div>
+      <br>
     </li>
   </ul>
 </div>
 
-<!-- Users Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="users">
-  <h3 id="_users">
-    <a class="header-icon-link highlight" href="#">Users
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h3>
-
-  <p>The <b>Users</b> section allows administrators to manage permissions in <b>PIP 365</b>. The user management grid provides the following functionality:</p>
-  <div>
-    <img src="users-config.png" onclick="openModal('users-config.png')" alt="Users Configuration Panel" width="100%" height="auto">
-  </div><br>
-  <ul>
-    <li><b>User Grid:</b> Displays Name, Email, and Role (Admin/User) for each entry.</li><br>
-    <div>
-      <img src="users-grid.png" onclick="openModal('users-grid.png')" alt="Users Grid Example" width="100%" height="auto">
-    </div><br>
-    <li><b>Role Assignment:</b> Administrators can assign or update roles (Admin/User) via the dropdown.</li><br>
-    <div>
-      <img src="users-role.png" onclick="openModal('users-role.png')" alt="User Role Assignment Example" width="100%" height="auto">
-    </div><br>
-    <li><b>Search & Pagination:</b> Search by Name, Email and adjust the number of entries displayed (10, 25, or 50 per page).</li><br>
-    <div>
-      <img src="users-search.png" onclick="openModal('users-search.png')" alt="User Search Example" width="100%" height="auto">
-    </div><br>
-    
-  </ul>
 </div>
 
-<!-- Hide SharePoint Settings Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="hide-sharepoint-settings">
-  <h3 id="_hide_sharepoint_settings">
-    <a class="header-icon-link highlight" href="#">Hide SharePoint Settings
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h3>
-  <p>The <b>Hide SharePoint Settings</b> option allows administrators to disable the default SharePoint settings menu within the PIP 365 web part. This helps prevent unauthorized modifications and keeps the interface focused only on poll-related configurations.</p>
-  <div>
-    <img src="4.png" onclick="openModal('4.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
-  </div><br>
-  <div>
-    <img src="hide-settings.png" onclick="openModal('hide-settings.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
-  </div><br>
-</div>
-</div>
 
 
     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date"></p>
