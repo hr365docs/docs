@@ -10,9 +10,12 @@ $(document).ready(function () {
         // ✅ Home Page
         "<li class='sidelist' data-nav-id='./Home/' title='Home Page'>" +
             "<a href='/Idea-365/modern/user/homepage/'>Home Page</a>" +
-        "</li>" 
+        "</li>" +
 
         // ✅ Help
+         "<li class='sidelist' data-nav-id='./Help' title='Home Page'>" +
+            "<a href='/Idea-365/modern/user/help/'>Help</a>" +
+        "</li>" 
        
     );
 });

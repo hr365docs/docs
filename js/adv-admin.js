@@ -22,12 +22,16 @@ $(document).ready(function () {
                 "<li class='sidelist' title='Theme'>" +
                     "<a href='/AdventCalendar-365/modern/admin/settings/#_theme_option'>Theme</a>" +
                 "</li>" +
-                "<li class='sidelist' title='Users'>" +
-                    "<a href='/AdventCalendar-365/modern/admin/settings/#_users'>Users</a>" +
-                "</li>" +
                 "<li class='sidelist' title='Hide SharePoint Settings'>" +
                     "<a href='/AdventCalendar-365/modern/admin/settings/#_hide_sharepoint_settings'>Hide SharePoint Settings</a>" +
                 "</li>" +
+                "<li class='sidelist' title='Advent Caledar Settings'>" +
+                    "<a href='/AdventCalendar-365/modern/admin/settings/#_advent_calendar_settings'>Advent Caledar Settings</a>" +
+                "</li>" +
+                "<li class='sidelist' title='Add Additional Admins'>" +
+                    "<a href='/AdventCalendar-365/modern/admin/settings/#add-additional-admins'>Add Additional Admins</a>" +
+                "</li>" +
+                
             "</ul>" +
         "</li>" +
 
