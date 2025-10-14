@@ -142,6 +142,55 @@ These settings allow full customization of countdown structure, door style, and 
   </ul>
 </div>
 
+ <!-- Hide SharePoint Component Section -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="hide-sharepoint-settings">
+    <h3 id="_hide_sharepoint_settings">
+      <a class="header-icon-link highlight" href="#">Hide SharePoint Settings
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+    <p>The <b>Hide SharePoint Component</b> option allows administrators to remove default SharePoint web part controls, providing a cleaner experience focused on Spotlight content.</p>
+    <div>
+      <img src="hide_sp_component.png" onclick="openModal('hide_sp_component.png')" alt="Hide SharePoint Component Example" width="100%" height="auto">
+    </div><br>
+    <div>
+      <img src="hide_sp_component1.png" onclick="openModal('hide_sp_component1.png')" alt="Hide SharePoint Component Example" width="100%" height="auto">
+    </div><br>
+  </div>
+
+  <!-- Users Section -->
+  <div class="bg-light p-4 common-scroll remove-padding" id="users">
+    <h3 id="_users">
+      <a class="header-icon-link highlight" href="#">Users
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+
+    <p>The <b>Users</b> section allows administrators to manage permissions in <b>Count Down Calendar 365 365</b>. The user management grid provides the following functionality:</p>
+    <div>
+      <img src="users-config.png" onclick="openModal('users-config.png')" alt="Users Configuration Panel" width="100%" height="auto">
+    </div><br>
+    <ul>
+      <li><b>User Grid:</b> Displays Name, Email, and Role (Admin/User) for each entry.</li><br>
+      <div>
+        <img src="users-grid.png" onclick="openModal('users-grid.png')" alt="Users Grid Example" width="100%" height="auto">
+      </div><br>
+       <li>Click on <b>+ Add</b> to add new user.</li>
+        <div>
+          <img src="a.png" onclick="openModal('a.png')" alt="User Role Assignment Example" width="100%" height="auto">
+        </div><br>
+      <li><b>Role Assignment:</b> Administrators can assign or update roles (Admin/User) via the dropdown.</li><br>
+      <div>
+        <img src="users-role.png" onclick="openModal('users-role.png')" alt="User Role Assignment Example" width="100%" height="auto">
+      </div><br>
+      <li><b>Search & Pagination:</b> Search by Name, Email, or Role, and adjust the number of entries displayed (10, 25, or 50 per page).</li><br>
+      <div>
+        <img src="users-search.png" onclick="openModal('users-search.png')" alt="User Search Example" width="100%" height="auto">
+      </div><br>
+     
+    </ul>
+  </div>
+
 <!-- Calendar Configuration -->
 <div class="bg-light p-4 common-scroll remove-padding" id="calendar-config">
   <h3 id="_calendar_config">
@@ -163,10 +212,10 @@ These settings allow full customization of countdown structure, door style, and 
      <div>
     <img src="3.png" onclick="openModal('3.png')" alt="Calendar Configuration Example" width="100%" height="auto">
   </div><br>
-    <li><b>Skip Weekends:</b> Enable or disable automatic skipping of weekends.</li><br>
+    <!-- <li><b>Skip Weekends:</b> Enable or disable automatic skipping of weekends.</li><br>
      <div>
     <img src="4.png" onclick="openModal('4.png')" alt="Calendar Configuration Example" width="100%" height="auto">
-  </div><br>
+  </div><br> -->
     <li><b>Custom Skip Dates:</b> Manually enter holidays or non-working days to exclude.</li><br>
   </ul>
   <div>
@@ -208,24 +257,23 @@ These settings allow full customization of countdown structure, door style, and 
   <div>
     <img src="11.png" onclick="openModal('11.png')" alt="Door Customization Example" width="100%" height="auto">
   </div><br>
+   <!-- New Section: Door Content Configuration -->
+  <p><b>Door Content Configuration:</b> Click on any specific door number to add personalized content such as an image, video, or a combination of both. </p>
+  
+  <div>
+    <img src="12.png" onclick="openModal('12.png')" alt="Door Content Configuration Example" width="100%" height="auto">
+  </div><br>
+  <p>Simply enter the <i>Image URL</i> or <i>Video URL</i> in the provided fields, and the system will automatically display the assigned open date. You can also override this date if needed. Once configured, click the <b>Close</b> button to save and preview your customized door setup.</p>
+   <div>
+    <img src="13.png" onclick="openModal('13.png')" alt="Door Content Configuration Example" width="100%" height="auto">
+  </div><br>
+   <div>
+    <img src="14.png" onclick="openModal('14.png')" alt="Door Content Configuration Example" width="100%" height="auto">
+  </div><br>
 </div>
 
 <!-- User Access and Control -->
-<div class="bg-light p-4 common-scroll remove-padding" id="user-access">
-  <h3 id="_user_access">
-    <a class="header-icon-link highlight" href="#">Users
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h3>
-  <p>Administrators can configure who can view or interact with the countdown:</p>
-  <ul>
-    <li><b>Show for All Users:</b> Display the calendar to every site member.</li><br>
-    <li><b>Assign Access:</b> Restrict visibility to selected groups or individuals.</li><br>
-  </ul>
-  <div>
-    <img src="user_access.png" onclick="openModal('user_access.png')" alt="User Access Example" width="100%" height="auto">
-  </div><br>
-</div>
+
 
 </div>
 
