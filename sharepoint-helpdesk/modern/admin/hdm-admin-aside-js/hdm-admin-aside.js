@@ -383,6 +383,11 @@ $(document).ready(function () {
         "</ul>" +
         "<a href='/sharepoint-helpdesk/modern/admin/settings/notification/#admin'>Admin</a>" +
         "</li>" +
+         "<li data-nav-id='./Add Assets/ ' title='Approver' class='sidelist '>" +
+        "<ul class='sidenavSub-topics '>" +
+        "</ul>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/notification/#approver'>Approver</a>" +
+        "</li>" +
         "</ul>" +
         "</li>" +
 
