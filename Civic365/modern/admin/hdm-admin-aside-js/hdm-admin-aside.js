@@ -129,7 +129,7 @@ $(document).ready(function () {
         "<img  class='helpdesk-img aside_dropdown_icon' src='/Civic365/modern/admin/hdm-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
         "</li>"+
 
-        "<li data-nav-id='../Admin-Guide/Administration/' title='Ticket Customization' class='sidelist dropdown_romove_dot'>"+
+        "<li data-nav-id='../admin Guide/Administration/' title='Ticket Customization' class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Assign-Assets/' title='Priority Type' class='sidelist'>"+
         "<a href='/Civic365/modern/admin/settings/ticket-customization/#priority-type'>Priority Type</a>"+

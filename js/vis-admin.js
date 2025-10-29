@@ -22,11 +22,11 @@ $(document).ready(function () {
                 "<li class='sidelist' title='Theme'>" +
                     "<a href='/VisitorsLog-365/modern/admin/settings/#_theme_option'>Theme</a>" +
                 "</li>" +
-                "<li class='sidelist' title='Users'>" +
-                    "<a href='/VisitorsLog-365/modern/admin/settings/#_users'>Users</a>" +
-                "</li>" +
                 "<li class='sidelist' title='Hide SharePoint Settings'>" +
                     "<a href='/VisitorsLog-365/modern/admin/settings/#_hide_sharepoint_settings'>Hide SharePoint Settings</a>" +
+                "</li>" +
+                "<li class='sidelist' title='Users'>" +
+                    "<a href='/VisitorsLog-365/modern/admin/settings/#_users'>Users</a>" +
                 "</li>" +
             "</ul>" +
         "</li>" +

@@ -147,6 +147,10 @@ $(document).ready(function () {
                     "<a href='/Expense-tracker/modern/admin/settings/general-setting/#CloneMultipleExpense'>Clone Multiple Expense</a>" +
                 "</li>" +
 
+                 "<li data-nav-id='../General' title='Use Sharepoint URL for MS Teams installed application' class='sidelist'>" +
+      "<a class='qwe' href='/Expense-tracker/modern/admin/settings/general-setting/#SharepointURL'>Use Sharepoint URL for MS Teams installed application</a>" +
+    "</li>" +
+
                 "<li data-nav-id='../General' title='SharePoint Page Configuration' class='sidelist'>" +
                     "<a href='/Expense-tracker/modern/admin/settings/general-setting/#SharepointPageConfiguration'>SharePoint Page Configuration</a>" +
                 "</li>" +

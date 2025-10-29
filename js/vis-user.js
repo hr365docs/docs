@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#polluser").html("");
 
-    $("#PIPuser").append(
+    $("#polluser").append(
         // ✅ Introduction
         "<li class='sidelist' data-nav-id='./Introduction/' title='Introduction'>" +
             "<a href='/VisitorsLog-365/modern/user/introduction/'>Introduction</a>" +
