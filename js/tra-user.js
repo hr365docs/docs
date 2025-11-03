@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     $("#ETuseradmin").append("<li data-nav-id='./Settings/' title=Introduction class=sidelist>" +
 
-        "<a href='/Expense-tracker/modern/user/introduction/'>" +
+        "<a href='/MailTracker-365/modern/user/introduction/'>" +
         " Introduction" +
         " </a>" +
         "</li>" +
@@ -12,21 +12,21 @@ $(document).ready(function () {
         "</li>" +
         "<li data-nav-id='./Settings/' title='Home Page' class=sidelist>" +
 
-        "<a href='/Expense-tracker/modern/user/home/'>" +
+        "<a href='/MailTracker-365/modern/user/home/'>" +
         "Home Page" +
         "</a>" +
 
         "</li>" +
-        "<li data-nav-id='./Settings/' title='Report' class=sidelist>" +
+        // "<li data-nav-id='./Settings/' title='Report' class=sidelist>" +
 
-        "<a href='/Expense-tracker/modern/user/Report/'>" +
-        "Report" +
-        "</a>" +
+        // "<a href='/MailTracker-365/modern/user/Report/'>" +
+        // "Report" +
+        // "</a>" +
 
-        "</li>" +
+        // "</li>" +
         "<li data-nav-id='./Settings/' title='Help' class=sidelist>" +
 
-        "<a href='/Expense-tracker/modern/user/Help/'>" +
+        "<a href='/MailTracker-365/modern/user/Help/'>" +
         "Help" +
         "</a>" +
 

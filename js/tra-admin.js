@@ -136,18 +136,18 @@ $(document).ready(function () {
     // ✅ Users, Roles, and Permissions
     "<li data-nav-id='../users' title='Users, Roles and Permissions' class='dropdownicon sidelist'>" +
       "<a class='qwe' href='/MailTracker-365/modern/admin/settings/user-role/'>Users, Roles and Permissions</a>" +
-      "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+      // "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
     "</li>" +
-    "<li class='sidelist dropdown_romove_dot'>" +
-      "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-        "<li class='sidelist' title='Users'>" +
-          "<a href='/MailTracker-365/modern/admin/settings/user-role/#Users'>Users</a>" +
-        "</li>" +
-        "<li class='sidelist' title='Exclude Domains'>" +
-          "<a href='/MailTracker-365/modern/admin/settings/user-role/#ExcludeDomains'>Exclude Domains</a>" +
-        "</li>" +
-      "</ul>" +
-    "</li>" +
+    // "<li class='sidelist dropdown_romove_dot'>" +
+    //   "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+    //     "<li class='sidelist' title='Users'>" +
+    //       "<a href='/MailTracker-365/modern/admin/settings/user-role/#Users'>Users</a>" +
+    //     "</li>" +
+    //     "<li class='sidelist' title='Exclude Domains'>" +
+    //       "<a href='/MailTracker-365/modern/admin/settings/user-role/#ExcludeDomains'>Exclude Domains</a>" +
+    //     "</li>" +
+    //   "</ul>" +
+    // "</li>" +
 
   "</ul>" +
 "</li>"
