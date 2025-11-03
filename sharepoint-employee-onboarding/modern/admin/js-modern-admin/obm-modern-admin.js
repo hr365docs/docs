@@ -37,11 +37,11 @@ $(document).ready(function () {
         "</li>" +
         "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
             "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-                "<li data-nav-id='../General' title='Onboarded Users' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Onboarded-Users'>Onboarded Users</a>" +
-                "</li>" +
+                // "<li data-nav-id='../General' title='Onboarded Users' class='sidelist'>" +
+                //     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Onboarded-Users'>Onboarded Users</a>" +
+                // "</li>" +
                 "<li data-nav-id='../General' title='Position' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Position'>Position</a>" +
+                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Position'>Positions</a>" +
                 "</li>" +
                 "<li data-nav-id='../General' title='Department' class='sidelist'>" +
                     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Department'>Department</a>" +
@@ -52,9 +52,9 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='Software' class='sidelist'>" +
                     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Software'>Software</a>" +
                 "</li>" +
-                "<li data-nav-id='../General' title='Office' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Office'>Office</a>" +
-                "</li>" +
+                // "<li data-nav-id='../General' title='Office' class='sidelist'>" +
+                //     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Office'>Office</a>" +
+                // "</li>" +
                 "<li data-nav-id='../General' title='Devices' class='sidelist'>" +
                     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/#Devices'>Devices</a>" +
                 "</li>" +
@@ -97,9 +97,9 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='Task Categories' class='sidelist'>" +
                     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/task-administation/#Task-Categories'>Task Categories</a>" +
                 "</li>" +
-                "<li data-nav-id='../General' title='Activity Type' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/task-administation/#Activity-Type'>Activity Type</a>" +
-                "</li>" +
+                // "<li data-nav-id='../General' title='Activity Type' class='sidelist'>" +
+                //     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/task-administation/#Activity-Type'>Activity Type</a>" +
+                // "</li>" +
                 "<li data-nav-id='../General' title='Task' class='sidelist'>" +
                     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/task-administation/#Task'>Task</a>" +
                 "</li>" +
@@ -115,77 +115,100 @@ $(document).ready(function () {
         "</li>" +
         "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
             "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-                "<li data-nav-id='../General' title='Date Format' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Date-Format'>Date Format</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Theme' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Theme'>Theme</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Naming Convention' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Naming-Convention'>Naming Convention</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='GCC Tenant' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#GCC-Tenant'>GCC Tenant</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Show Fav Icon' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Show-FavIcon'>Show Fav Icon</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Language' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Language'>Language</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Use Sharepoint URL for MS Teams installed application' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#SharepointURL'>Use Sharepoint URL for MS Teams installed application</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Hide Sharepoint Page&apos;s Default Components' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#hide'>Hide Sharepoint Page&apos;s Default Components</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Brand-Logo'>Brand Logo</a>" +
-                "</li>" +
+               "<li data-nav-id='../General' title='Date Format' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Date-Format'>Date Format</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Side Navigation Theme' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Theme'>Side Navigation Theme</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='GCC Tenant' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#GCC-Tenant'>GCC Tenant</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Show Fav Icon' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Show-FavIcon'>Show Fav Icon</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Default Language' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Language'>Default Language</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Use SharePoint URL for MS Teams installed application' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#SharepointURL'>Use SharePoint URL for MS Teams installed application</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Hide SharePoint Page&apos;s Default Components' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#hide'>Hide SharePoint Page&apos;s Default Components</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Log Collection' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Log-Collection'>Log Collection</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Naming Convention' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Naming-Convention'>Naming Convention</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Company Details' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Company-Details'>Company Details</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/#Brand-Logo'>Brand Logo</a>" +
+"</li>"+
+
             "</ul>" +
         "</li>" +
 
         "<li class='dropdownicon sidelist' title='Users, Roles and Permissions'>" +
-            "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/'>Users, Roles and Permissions</a>" +
-            "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+    "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/'>Users, Roles and Permissions</a>" +
+    "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+"</li>" +
+"<li data-nav-id='./Setting/' title='Users, Roles and Permissions' class='sidelist dropdown_romove_dot'>" +
+    "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+        "<li data-nav-id='../General' title='App Users' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#users'>App Users</a>" +
         "</li>" +
-        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
-            "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-                "<li data-nav-id='../General' title='App Users' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#users'>App Users</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Add/Edit Teams' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#teams'>Add/Edit Teams</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Teams Permissions' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#Permissions'>Teams Permissions</a>" +
-                "</li>" +
-            "</ul>" +
+        "<li data-nav-id='../General' title='Onboarded Users' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#onboarded'>Onboarded Users</a>" +
         "</li>" +
+        "<li data-nav-id='../General' title='Add/Edit Teams' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#teams'>Add/Edit Teams</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Side Navigation User Permission' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#permissions'>Side Navigation User Permission</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Enable My Profile Access for ESS' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Users-Roles-and-Permissions/#profileaccess'>Enable My Profile Access for ESS</a>" +
+        "</li>" +
+    "</ul>" +
+"</li>" +
 
-        "<li class='dropdownicon sidelist' title='Integrations'>" +
-            "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/'>Integrations</a>" +
-            "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+"<li class='dropdownicon sidelist' title='Integrations'>" +
+    "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/'>Integrations</a>" +
+    "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+"</li>" +
+"<li data-nav-id='./Setting/' title='Integrations' class='sidelist dropdown_romove_dot'>" +
+    "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+        "<li data-nav-id='../General' title='Configure SharePoint API Permission' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#configure-api'>Configure SharePoint API Permission</a>" +
         "</li>" +
-        "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
-            "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-                "<li data-nav-id='../General' title='Configure Sharepoint API Permission' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#configure-api'>Configure Sharepoint API Permission</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='E-Sign' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#E-Sign'>E-Sign</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='MS Form' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#MS-Form'>MS Form</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Mailbox Integration' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Mailbox-Integration'>Mailbox Integration</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='AI Integration' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#AI-Integration'>AI Integration</a>" +
-                "</li>" +
-            "</ul>" +
+        "<li data-nav-id='../General' title='E-Sign Integration' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#E-Sign'>E-Sign Integration</a>" +
         "</li>" +
+        "<li data-nav-id='../General' title='MS Form' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#MS-Form'>MS Form</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Webhook' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Webhook'>Webhook</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Sharepointhook' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Sharepointhook'>Sharepointhook</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Mailbox Integration' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Mailbox-Integration'>Mailbox Integration</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='AI Integration' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#AI-Integration'>AI Integration</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Copilot Integration' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Copilot-Integeration'>Copilot Integration</a>" +
+        "</li>" +
+    "</ul>" +
+"</li>" +
+
 
         "<li class='dropdownicon sidelist' title='Features'>" +
             "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/Features/'>Features</a>" +
@@ -211,6 +234,15 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='Guest Users' class='sidelist'>" +
                     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#GUsers'>Guest Users</a>" +
                 "</li>" +
+                "<li data-nav-id='../General' title='Assessments' class='sidelist'>" +
+                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Assessments'>Assessments</a>" +
+                "</li>" +
+                "<li data-nav-id='../General' title='Course' class='sidelist'>" +
+                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Course'>Course</a>" +
+                "</li>" +
+                "<li data-nav-id='../General' title='Training' class='sidelist'>" +
+                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#Training'>Training</a>" +
+                "</li>" +
                 "<li data-nav-id='../General' title='Show Home Sample Data' class='sidelist'>" +
                     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Features/#ShowHomeSampleData'>Show Home Sample Data</a>" +
                 "</li>" +
@@ -226,17 +258,26 @@ $(document).ready(function () {
         "</li>" +
         "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
             "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-                "<li data-nav-id='../General' title='Email' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Notification/#Email'>Email</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Reminder Notifications' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Notification/#Reminder-Notifications'>Reminder Notifications</a>" +
-                "</li>" +
-                "<li data-nav-id='../General' title='Enable Task Notification with Power Automate Flow' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Notification/#_enable_task_notification'>Enable Task Notification with Power Automate Flow</a>" +
-                "</li>" +
+                "<li data-nav-id='../General' title='Email Templates' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Notification/#Email-Templates'>Email Templates</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Reminder Notifications' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Notification/#Reminder-Notifications'>Reminder Notifications</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Enable Task Notification with Power Automate Flow' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Notification/#Enable-Task-Notification'>Enable Task Notification with Power Automate Flow</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Define Onboarding Attachments Recipient' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Notification/#Define-Onboarding-Attachments-Recipient'>Define Onboarding Attachments Recipient</a>" +
+"</li>" +
+"<li data-nav-id='../General' title='Shared Mail Box ID' class='sidelist'>" +
+    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Notification/#Shared-Mail-Box-ID'>Shared Mail Box ID</a>" +
+"</li>"+
+
             "</ul>" +
         "</li>" +
+
+        
 
         "<li class='dropdownicon sidelist' title='EO365 Assessments'>" +
             "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/'>EO365 Assessments</a>" +
@@ -258,6 +299,36 @@ $(document).ready(function () {
                 "</li>" +
             "</ul>" +
         "</li>" +
+
+        "<li class='dropdownicon sidelist' title='Courses'>" +
+    "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/'>Courses</a>" +
+    "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
+"</li>" +
+"<li data-nav-id='./Setting/' title='Courses Settings' class='sidelist dropdown_romove_dot'>" +
+    "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+        "<li data-nav-id='../Courses' title='Sections' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Sections'>Sections</a>" +
+        "</li>" +
+        "<li data-nav-id='../Courses' title='Chapters' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Chapters'>Chapters</a>" +
+        "</li>" +
+        "<li data-nav-id='../Courses' title='Survey' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Survey'>Survey</a>" +
+        "</li>" +
+        "<li data-nav-id='../Courses' title='Courses' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Courses'>Courses</a>" +
+        "</li>" +
+        "<li data-nav-id='../Courses' title='Certificate Templates' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Certificate-Templates'>Certificate Templates</a>" +
+        "</li>" +
+        "<li data-nav-id='../Courses' title='Roles' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Roles'>Roles</a>" +
+        "</li>" +
+    "</ul>" +
+"</li>" +
+"</ul>" +
+"</li>"
++
 
     "</ul>" +
 "</li>"+
