@@ -114,10 +114,13 @@
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>The <b>Recognition wall 365 Settings</b> panel allows administrators to configure global options such as themes and user permissions. These settings help customize the web part’s appearance and control access effectively.</p>
+ <p>
+  The <b>Recognition Wall 365 Settings</b> panel allows administrators to configure key global settings such as theme preferences, user permissions, and recognition categories. 
+  These options help personalize the appearance of the web part, manage access levels, and define recognition types for a more engaging experience.
+</p>
 
 <div class="sidelist active" data-nav-id="./Settings/" title="Settings">
-  <img src="settings.png" onclick="openModal('settings.png')" alt="Settings Overview" width="100%" height="auto">
+  <img src="1.png" onclick="openModal('1.png')" alt="Recognition Wall 365 Settings Overview" width="100%" height="auto">
 </div>
 
 <!-- Theme Section -->
@@ -127,18 +130,40 @@
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>Select a visual theme for Recognition wall 365:</p>
+  <p>
+    Choose a preferred visual theme for <b>Recognition Wall 365</b> to match your SharePoint environment or organizational branding. 
+    The available options allow users to toggle between light, dark, or site-based themes for better visual consistency.
+  </p>
   <ul>
-    <li><strong>Light:</strong> Applies a bright, clean interface.<br><br>
-      <img src="light.png" onclick="openModal('light.png')" alt="Light Theme Preview" width="100%" height="auto">
+    <li><strong>Light:</strong> Provides a clean and bright interface that complements modern layouts.<br><br>
+      <img src="2.png" onclick="openModal('2.png')" alt="Light Theme Preview" width="100%" height="auto">
     </li><br>
-    <li><strong>Dark:</strong> Optimized for low-light environments.<br><br>
-      <img src="dark.png" onclick="openModal('dark.png')" alt="Dark Theme Preview" width="100%" height="auto">
+    <li><strong>Dark:</strong> Designed for low-light environments, offering an elegant dark background for improved readability.<br><br>
+      <img src="3.png" onclick="openModal('3.png')" alt="Dark Theme Preview" width="100%" height="auto">
     </li><br>
-    <li><strong>Site:</strong> Inherits the theme of the SharePoint site.<br><br>
-      <img src="site.png" onclick="openModal('site.png')" alt="Site Theme Preview" width="100%" height="auto">
+    <li><strong>Site:</strong> Automatically inherits the current SharePoint site theme to ensure a unified appearance.<br><br>
+      <img src="4.png" onclick="openModal('4.png')" alt="Site Theme Preview" width="100%" height="auto">
     </li>
   </ul>
+</div>
+<!-- Hide SharePoint Settings Section -->
+<div class="bg-light p-4 common-scroll remove-padding" id="hide-sharepoint-settings">
+  <h3 id="_hide_sharepoint_settings">
+    <a class="header-icon-link highlight" href="#">Hide SharePoint Settings
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+  <p>
+    The <b>Hide SharePoint Settings</b> feature allows administrators to disable the default SharePoint settings menu inside <b>Recognition Wall 365</b>. 
+    This helps maintain a clean interface and prevents unauthorized users from changing SharePoint-related options.
+  </p>
+
+  <div>
+    <img src="10.png" onclick="openModal('10.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
+  </div><br>
+   <div>
+      <img src="10a.png" onclick="openModal('10a.png')" alt="Edit and Delete Category Example" width="100%" height="auto">
+    </div><br>
 </div>
 
 <!-- Users Section -->
@@ -149,42 +174,66 @@
     </a>
   </h3>
 
-  <p>The <b>Users</b> section allows administrators to manage permissions in <b>Recognition wall 365</b>. The user management grid provides the following functionality:</p>
+  <p>
+    The <b>Users</b> section allows administrators to manage access levels within <b>Recognition Wall 365</b>. 
+    Administrators can add, edit, or remove users and assign specific roles to maintain control over web part permissions.
+  </p>
+
   <div>
-    <img src="users-config.png" onclick="openModal('users-config.png')" alt="Users Configuration Panel" width="100%" height="auto">
+    <img src="5.png" onclick="openModal('5.png')" alt="User Management Overview" width="100%" height="auto">
   </div><br>
+
   <ul>
-    <li><b>User Grid:</b> Displays Name, Email, and Role (Admin/User) for each entry.</li><br>
+    <li><b>Add New User:</b> Click the <b>+Add</b> button to open the user form. Enter the user’s details, select a role (<b>Admin</b> or <b>User</b>), and click <b>Save</b> to complete the process.</li><br>
     <div>
-      <img src="users-grid.png" onclick="openModal('users-grid.png')" alt="Users Grid Example" width="100%" height="auto">
+      <img src="6.png" onclick="openModal('6.png')" alt="Add New User Example" width="100%" height="auto">
     </div><br>
-    <li><b>Role Assignment:</b> Administrators can assign or update roles (Admin/User) via the dropdown.</li><br>
+
+    <li><b>Actions:</b> Administrators can modify or remove users using the <b>Edit</b> and <b>Delete</b> icons under the Actions column.</li><br>
     <div>
-      <img src="users-role.png" onclick="openModal('users-role.png')" alt="User Role Assignment Example" width="100%" height="auto">
+      <img src="7.png" onclick="openModal('7.png')" alt="User Actions Example" width="100%" height="auto">
     </div><br>
-    <li><b>Search & Pagination:</b> Search by Name, Email and adjust the number of entries displayed (10, 25, or 50 per page).</li><br>
-    <div>
-      <img src="users-search.png" onclick="openModal('users-search.png')" alt="User Search Example" width="100%" height="auto">
+
+    <li><b>Search & Pagination:</b> Quickly find users by typing their name or email in the search bar. You can also adjust how many entries are visible per page (10, 25, or 50).</li><br>
+     <div>
+      <img src="7a.png" onclick="openModal('7a.png')" alt="User Actions Example" width="100%" height="auto">
     </div><br>
-    
   </ul>
 </div>
 
-<!-- Hide SharePoint Settings Section -->
-<div class="bg-light p-4 common-scroll remove-padding" id="hide-sharepoint-settings">
-  <h3 id="_hide_sharepoint_settings">
-    <a class="header-icon-link highlight" href="#">Hide SharePoint Settings
+<!-- Add Category Section -->
+<div class="bg-light p-4 common-scroll remove-padding" id="category">
+  <h3 id="_category">
+    <a class="header-icon-link highlight" href="#">Add Category
       <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
     </a>
   </h3>
-  <p>The <b>Hide SharePoint Settings</b> option allows administrators to disable the default SharePoint settings menu within the Recognition wall 365 web part. This helps prevent unauthorized modifications and keeps the interface focused only on poll-related configurations.</p>
-  <div>
-    <img src="4.png" onclick="openModal('4.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
+  <p>
+    The <b>Add Category</b> option allows administrators to define recognition categories, such as “Employee of the Month” or “Best Innovator.” 
+    Categories help organize recognitions and make them easier to browse on the recognition wall.
+  </p>
+
+
+
+  <ul>
+    <li>Click <b>Configure</b> under <b>Add Category</b> in the settings panel to open the category configuration section.</li><br>
+      <div>
+    <img src="8.png" onclick="openModal('8.png')" alt="Add Category Configuration" width="100%" height="auto">
   </div><br>
-  <div>
-    <img src="hide-settings.png" onclick="openModal('hide-settings.png')" alt="Hide SharePoint Settings Example" width="100%" height="auto">
+    <li>Click <b>+Add</b> to create a new category. Enter the <b>Category Name</b> and optionally upload an image representing the category. Click <b>Save</b> to apply the changes.</li><br>
+      <div>
+    <img src="8b.png" onclick="openModal('8b.png')" alt="Add Category Configuration" width="100%" height="auto">
   </div><br>
+    <li>Administrators can also edit or delete existing categories using the respective icons.</li><br>
+    <div>
+      <img src="8c.png" onclick="openModal('8c.png')" alt="Edit and Delete Category Example" width="100%" height="auto">
+    </div><br>
+   
+  </ul>
 </div>
+
+
+
 </div>
 
 
