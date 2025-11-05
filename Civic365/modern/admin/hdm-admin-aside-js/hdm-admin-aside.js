@@ -251,6 +251,9 @@ $(document).ready(function () {
                 "<li data-nav-id='./Add Assets/ ' title='Admin' class='sidelist'>" +
                     "<a href='/Civic365/modern/admin/settings/notification/#admin'>Admin</a>" +
                 "</li>" +
+                  "<li data-nav-id='./Add Assets/ ' title='Approver' class='sidelist '>" +       
+                "<a href='/Civic365/modern/admin/settings/notification/#approver'>Approver</a>" +
+                "</li>" +
             "</ul>" +
         "</li>" +
 
@@ -263,6 +266,10 @@ $(document).ready(function () {
                 "<li data-nav-id='./Assign-Assets/ ' title='Canned Responses' class='sidelist'>" +
                     "<a href='/Civic365/modern/admin/settings/features/#canned-responses'>Canned Responses</a>" +
                 "</li>" +
+                
+         "<li data-nav-id='./Add Assets/ ' title='Column Indexing' class='sidelist '>" +
+        "<a href='/Civic365/modern/admin/settings/features/#Column_Indexing'>Column Indexing</a>" +
+        "</li>" +
                 "<li data-nav-id='./Add Assets/ ' title='Customer Satisfaction' class='sidelist'>" +
                     "<a href='/Civic365/modern/admin/settings/features/#customer-satisfaction'>Customer Satisfaction</a>" +
                 "</li>" +
