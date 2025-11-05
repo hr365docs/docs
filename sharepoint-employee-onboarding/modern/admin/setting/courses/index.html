@@ -175,62 +175,138 @@
                             </div>
 
                             <!-- Courses -->
-                            <div class="bg-light p-4 remove-padding common-scroll" id="Courses">
-                                <h2 id="_courses"><a class="header-icon-link highlight" href="#">Courses
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a></h2>
-                                <ul class="page-list">
-                                    <p>
-                                        The Courses area is where you assemble a full learning program by linking sections, chapters and surveys, assigning roles, and adding visual assets (thumbnail and cover images). <br>
-                                    </p>
-                                    <li>Click <strong>+ Add Course</strong> to start creating a course. The course creation is a multi-step wizard: Step 1: Basic details, Step 2: Content & Chapters, Step 3: Settings & Publish. <br></li><br>
-                                    <div><img src="add_course_step1.png" onclick="openModal('add_course_step1.png')" alt="Add course step 1" width="100%" height="auto"></div><br>
+                   <div class="bg-light p-4 remove-padding common-scroll" id="Courses">
+  <h2 id="_courses">
+    <a class="header-icon-link highlight" href="#">Courses
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h2>
 
-                                    <li>Step-by-step course creation:</li>
-                                    <ol>
-                                        <li><strong>Step 1 — Basics</strong>: Enter Course Title, Course Description, choose Activity Type, select Roles who can access, upload Thumbnail and Cover Image. <br></li><br>
-                                        <li><strong>Step 2 — Content</strong>: Attach sections/chapters to the course, reorder chapters, define required/optional chapters, and set passing criteria if applicable. <br></li><br>
-                                        <li><strong>Step 3 — Settings & Publish</strong>: Configure availability dates, enrollment options (manual/auto), completion certificates, and enable/disable the course. Save and publish to make it visible in ESS. <br></li>
-                                    </ol>
-                                    <div><img src="add_course_steps.png" onclick="openModal('add_course_steps.png')" alt="Course creation steps" width="100%" height="auto"></div><br>
+  <ul class="page-list">
+    <p>
+      The <strong>Courses</strong> module allows administrators and instructors to create, manage, and publish structured learning programs. 
+      Use the guided wizard to define course details, add content, and configure publishing options.
+    </p>
 
-                                    <li>After publishing, the course appears in the Courses catalog and is visible to learners with assigned roles. </li>
-                                </ul>
-                            </div>
+    <li>
+      Click <strong>+ Add Course</strong> to start creating a new course. 
+      The setup includes three simple steps: <em>Step 1 – Basic Details</em>, <em>Step 2 – Content & Chapters</em>, and <em>Step 3 – Settings & Publish</em>.
+    </li><br>
+
+    <div><img src="1a.png" onclick="openModal('1b')" alt="Add Course Step 1" width="100%" height="auto"></div><br>
+
+    <li><strong>Step-by-Step Course Creation</strong></li>
+    <ol>
+      <li>
+        <strong>Step 1 – Basic Details</strong>:  
+        Enter key information such as course title, description, activity type, roles, and thumbnail.  
+        Click <strong>Next</strong> to continue.
+      </li><br>
+      <div><img src="1.png" onclick="openModal('1.png')" alt="Course Step 1" width="100%" height="auto"></div><br>
+
+      <li>
+        <strong>Step 2 – Content & Chapters</strong>:  
+        Add course chapters, set timing, and include assessments or surveys as needed.  
+        Click <strong>Next</strong> to proceed.
+      </li><br>
+      <div><img src="2.png" onclick="openModal('2.png')" alt="Course Step 2" width="100%" height="auto"></div><br>
+
+      <li>
+        <strong>Step 3 – Settings & Publish</strong>:  
+        Review and configure course settings such as skills, tags, enrollment, approvals, and ratings.  
+        Once finalized, click <strong>Create</strong> to publish the course.
+      </li>
+    </ol><br>
+
+    <div><img src="3.png" onclick="openModal('3.png')" alt="Course Step 3" width="100%" height="auto"></div><br>
+
+    <li>
+      After publishing, the course appears in the <strong>Courses Catalog</strong> and is accessible to assigned user roles.
+    </li><br>
+
+    <p>
+      The <strong>Enrollment</strong> option allows administrators to add team members or learners to a course. 
+      It provides tools to manage participation and monitor individual progress through different learning stages.
+    </p>
+
+    <li>
+      To begin, click the <strong>Enrollment</strong> icon to access the course enrollment panel.
+    </li><br>
+    <div><img src="4.png" onclick="openModal('4.png')" alt="Enrollment Icon" width="100%" height="auto"></div><br>
+
+    <li>
+      Click <strong>+ User</strong> to add new members to the course.  
+     
+    </li><br>
+    <div><img src="5.png" onclick="openModal('5.png')" alt="Add User Step 1" width="100%" height="auto"></div><br>
+    <div><img src="6.png" onclick="openModal('6.png')" alt="Add User Step 2" width="100%" height="auto"></div><br>
+
+    <li>
+      After enrollment, you can view user progress categorized under  
+      <strong>Not Started</strong>, <strong>In Progress</strong>, and <strong>Completed</strong> statuses for easy tracking.
+    </li><br>
+    <div><img src="7.png" onclick="openModal('7.png')" alt="Enrollment Status Overview" width="100%" height="auto"></div><br>
+  </ul>
+</div>
+
 
                             <!-- Certificate Templates -->
-                            <div class="bg-light p-4 remove-padding common-scroll" id="Certificate-Templates">
-                                <h2 id="_certificates"><a class="header-icon-link highlight" href="#">Certificate Templates
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a></h2>
-                                <ul class="page-list">
-                                    <p>
-                                        Create certificate templates that are automatically issued when learners complete a course. Certificates can include placeholders (Learner Name, Course, Completion Date). <br>
-                                    </p>
-                                    <li>Click <strong>+ Add Template</strong> to design a new certificate. Upload background images, add text placeholders, and preview the result. <br></li><br>
-                                    <div><img src="certificate_template.png" onclick="openModal('certificate_template.png')" alt="Certificate template" width="100%" height="auto"></div><br>
-                                    <li>Assign a template to a course in the course settings so learners receive the certificate automatically upon successful completion. </li>
-                                </ul>
-                            </div>
+                         <div class="bg-light p-4 remove-padding common-scroll" id="Certificate-Templates">
+  <h2 id="_certificates">
+    <a class="header-icon-link highlight" href="#">Certificate Templates
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h2>
+
+  <ul class="page-list">
+    <p>
+      The <strong>Certificate Templates</strong> feature allows administrators to select a predefined certificate design 
+      that will be automatically issued to learners upon course completion.  
+      Each template includes dynamic fields such as <strong>Learner Name</strong>, <strong>Course Title</strong>, and <strong>Completion Date</strong>.
+    </p><br>
+  <div><img src="8.png" onclick="openModal('8.png')" alt="Roles panel" width="100%" height="auto"></div><br>
+                                 
+    
+  </ul>
+</div>
+
 
                             <!-- Roles -->
-                            <div class="bg-light p-4 remove-padding common-scroll" id="Roles">
-                                <h2 id="_roles"><a class="header-icon-link highlight" href="#">Roles
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a></h2>
-                                <ul class="page-list">
-                                    <p>
-                                        Roles determine who can create courses, manage content, and who can view or complete courses. Typical roles include Admin, Instructor, and Learner. <br>
-                                    </p>
-                                    <li>Click <strong>+ Role</strong> to create or modify roles and set permissions for course access and editing. <br></li><br>
-                                    <div><img src="roles-panel.png" onclick="openModal('roles-panel.png')" alt="Roles panel" width="100%" height="auto"></div><br>
-                                    <li>Assign roles to courses during course creation to control visibility in the Employee Self-Service portal. </li>
-                                </ul>
-                            </div>
+                         <div class="bg-light p-4 remove-padding common-scroll" id="Roles">
+  <h2 id="_roles">
+    <a class="header-icon-link highlight" href="#">Roles
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h2>
+
+  <ul class="page-list">
+    <p>
+      The <strong>Roles</strong> section defines user permissions within the Courses module — determining who can create, manage, or access course content.  
+      Common roles include <strong>Teacher</strong> and <strong>Learner</strong>.
+    </p><br>
+
+    <div><img src="roles-panel.png" onclick="openModal('roles-panel.png')" alt="Roles Panel" width="100%" height="auto"></div><br>
+
+    <li>
+      Roles can be configured and assigned directly while creating a course.  
+      In the course creation panel, you will see a <strong>Role</strong> option where you can specify which users can view, edit, or enroll in the course.
+    </li><br>
+
+    <div><img src="roles-panel1.png" onclick="openModal('roles-panel1.png')" alt="Assign Roles in Course Creation" width="100%" height="auto"></div><br>
+
+    <li>
+      Assigning appropriate roles ensures that only authorized users have access to manage or complete courses within the Employee Self-Service portal.
+    </li>
+  </ul>
+</div>
+
 
                         </div>
 
                         <!-- navigation -->
                         <nav class="pagination mt-3">
                             <a class="nav nav-prev" href="../Notification/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Notification</span></a>
-                            <a class="nav nav-next" href="../Integrations/" aria-label="Next page"> <span class="d-none d-md-block">Integrations </span><i class="ti-arrow-right ml-2"></i></a>
+                            <a class="nav nav-next" href="../../share-ess-url/" aria-label="Next page"> <span class="d-none d-md-block">Share ESS URL</span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
                 </div>

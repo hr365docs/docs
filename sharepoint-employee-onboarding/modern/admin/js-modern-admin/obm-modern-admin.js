@@ -21,7 +21,12 @@ $(document).ready(function () {
         // "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title='Settings' class='sidelist'>" +
         // "<a href='/sharepoint-employee-onboarding/modern/admin/settings/'> Settings </a>" +
         // "</li>" +
-
+         "<li data-nav-id='../General' title=Report class=sidelist>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/report/'> Report </a>" +
+        "</li>" +
+ "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title='theme' class='sidelist'>" +
+        "<a href='/sharepoint-employee-onboarding/modern/admin/theme/'>Theme</a>" +
+        "</li>" +
       
 "<li class='dropdownicon sidelist' title='Settings'>" +
     "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/'>Settings</a>" +
@@ -285,44 +290,45 @@ $(document).ready(function () {
         "</li>" +
         "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
             "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+             "<li data-nav-id='../General' title='Sections' class='sidelist'>" +
+                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Sections'>Sections</a>" +
+                "</li>" +
                 "<li data-nav-id='../General' title='Question' class='sidelist'>" +
                     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Questions'>Question</a>" +
                 "</li>" +
-                "<li data-nav-id='../General' title='Sections' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Sections'>Sections</a>" +
-                "</li>" +
+               
                 "<li data-nav-id='../General' title='Assessments' class='sidelist'>" +
                     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Assessments'>Assessments</a>" +
                 "</li>" +
-                "<li data-nav-id='../General' title='Company Details' class='sidelist'>" +
-                    "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Company-Details'>Company Details</a>" +
-                "</li>" +
+                // "<li data-nav-id='../General' title='Company Details' class='sidelist'>" +
+                //     "<a href='/sharepoint-employee-onboarding/modern/admin/setting/EO365-Assesment/#Company-Details'>Company Details</a>" +
+                // "</li>" +
             "</ul>" +
         "</li>" +
 
-        "<li class='dropdownicon sidelist' title='Courses'>" +
-    "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/'>Courses</a>" +
+        "<li class='dropdownicon sidelist' title='courses'>" +
+    "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/courses/'>Courses</a>" +
     "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
 "</li>" +
-"<li data-nav-id='./Setting/' title='Courses Settings' class='sidelist dropdown_romove_dot'>" +
+"<li data-nav-id='./Setting/' title='courses Settings' class='sidelist dropdown_romove_dot'>" +
     "<ul class='sidenavSub-topics aside_dropdown_list'>" +
-        "<li data-nav-id='../Courses' title='Sections' class='sidelist'>" +
-            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Sections'>Sections</a>" +
+        "<li data-nav-id='../courses' title='Sections' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/courses/#Sections'>Sections</a>" +
         "</li>" +
-        "<li data-nav-id='../Courses' title='Chapters' class='sidelist'>" +
-            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Chapters'>Chapters</a>" +
+        "<li data-nav-id='../courses' title='Chapters' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/courses/#Chapters'>Chapters</a>" +
         "</li>" +
-        "<li data-nav-id='../Courses' title='Survey' class='sidelist'>" +
-            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Survey'>Survey</a>" +
+        "<li data-nav-id='../courses' title='Survey' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/courses/#Survey'>Survey</a>" +
         "</li>" +
-        "<li data-nav-id='../Courses' title='Courses' class='sidelist'>" +
-            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Courses'>Courses</a>" +
+        "<li data-nav-id='../courses' title='courses' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/courses/#courses'>Courses</a>" +
         "</li>" +
-        "<li data-nav-id='../Courses' title='Certificate Templates' class='sidelist'>" +
-            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Certificate-Templates'>Certificate Templates</a>" +
+        "<li data-nav-id='../courses' title='Certificate Templates' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/courses/#Certificate-Templates'>Certificate Templates</a>" +
         "</li>" +
-        "<li data-nav-id='../Courses' title='Roles' class='sidelist'>" +
-            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Courses/#Roles'>Roles</a>" +
+        "<li data-nav-id='../courses' title='Roles' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/courses/#Roles'>Roles</a>" +
         "</li>" +
     "</ul>" +
 "</li>" +
@@ -334,9 +340,7 @@ $(document).ready(function () {
 "</li>"+
         "<li data-nav-id='../General' class=sidelist>" +
         "</li>" +
-        "<li data-nav-id='../General' title=Report class=sidelist>" +
-        "<a href='/sharepoint-employee-onboarding/modern/admin/report/'> Report </a>" +
-        "</li>" +
+       
         "<li data-nav-id='../views/' title='Share Ess Url' class=sidelist>" +
         "<a href='/sharepoint-employee-onboarding/modern/admin/share-ess-url/'> Share Ess Url </a>" +
         "</li>" +
