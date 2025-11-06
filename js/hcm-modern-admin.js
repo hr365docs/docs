@@ -325,93 +325,68 @@ $(document).ready(function () {
   "</a>" +
  "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
+ "<li data-nav-id='./Setting/' title='Settings' class='sidelist dropdown_romove_dot'>" +
+                "<ul class='sidenavSub-topics aside_dropdown_list' id='modernsettingedm'>" +
 
-  "<ul class='sidenavSub-topics aside_dropdown_list' aria-labelledby='generalDropdown'>" +
+"<li data-nav-id='../advanced/' title='Auto Load Configuration' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#AutoLoadConfiguration'>Auto Load Configuration</a>" +
+                "</li>" +
 
+    "<li data-nav-id='../advanced/' title='Birthday and anniversary templates' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Birthdayandanniversarytemplates'>Birthday and anniversary templates</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Azure Storage Configuration'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#AzureStorageConfiguration'>" +
-        "Azure Storage Configuration" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Brand logo' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Brandlogo'>Brand logo</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Birthday and anniversary templates'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Birthdayandanniversarytemplates'>" +
-        "Birthday and Anniversary Templates" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Collaboration' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Collaboration'>Collaboration</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Brand logo'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Brandlogo'>" +
-        "Brand Logo" +
-      "</a>" +
-    "</li>" +
+                // "<li data-nav-id='../advanced/' title='GCC Tenant' class='sidelist'>" +
+                //     "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#GCCTenant'>GCC Tenant</a>" +
+                // "</li>" +
 
-    "<li class='sidelist' title='Collaboration'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Collaboration'>" +
-        "Collaboration" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Extend Mobile Number Search Capability' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#ExtendMobileNumberSearch'>Extend Mobile Number Search Capability</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Employee info page'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Employeeinfopage'>" +
-        "Employee Info Page" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Extend Custom Fields Search Capability' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#ExtendCustomFieldsSearch'>Extend Custom Fields Search Capability</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Filter Attributes'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Filterattribute'>" +
-        "Filter Attributes" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Filter Attributes' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Filterattribute'>Filter Attributes</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Home page custom url'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Homepagecustomurl'>" +
-        "Home Page Custom URL" +
-      "</a>" +
-    "</li>" +
+                // "<li data-nav-id='../advanced/' title='Language selection as browser default language' class='sidelist'>" +
+                //     "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#language-selection-as-browser'>Language selection as browser default language</a>" +
+                // "</li>" +
 
-    "<li class='sidelist' title='Map external list'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Map-external-list'>" +
-        "Map External List" +
-      "</a>" +
-    "</li>" +
+                // "<li data-nav-id='../advanced/' title='Language selection' class='sidelist'>" +
+                //     "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#language-selection'>Language selection</a>" +
+                // "</li>" +
 
-    "<li class='sidelist' title='Organization chart type'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#orgChart'>" +
-        "Organization Chart Type" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Organization name' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Organizationname'>Organization name</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Date of Joining'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#dateofjoin'>" +
-        "Date of Joining" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Records to load' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Recordstoload'>Records to load</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Organization name'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Organizationname'>" +
-        "Organization Name" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Role and Permissions' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#update-department'>Role and Permissions</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Records to load'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#Recordstoload'>" +
-        "Records to Load" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Sync Job Title, Location and Department' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#SyncJobTitleLocationDept'>Sync Job Title, Location and Department</a>" +
+                "</li>" +
 
-    "<li class='sidelist' title='Role and Permissions'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#RoleandPermissions'>" +
-        "Role and Permissions" +
-      "</a>" +
-    "</li>" +
-
-    "<li class='sidelist' title='Search filters'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#search-filter'>" +
-        "Search Filters" +
-      "</a>" +
-    "</li>" +
+                "<li data-nav-id='../advanced/' title='Validate Work Email with SharePoint Account Name' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/general/#ValidateWorkEmail'>Validate Work Email with SharePoint Account Name</a>" +
+                "</li>" +
 
   "</ul>" +
 "</li>"+
@@ -429,132 +404,119 @@ $(document).ready(function () {
 
 
   "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
-"<li data-nav-id='../advanced/' title='Align employee basic information' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Alignemployeebasicinformation'>Align employee basic information</a>" +
-"</li>" +
+ "<li data-nav-id='../advanced/' title='Align employee basic information' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Alignemployeebasicinformation'>Align employee basic information</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Clear alphabet selection' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Clearalpha'>Clear alphabet selection with reset filter</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='Clear alphabet selection with reset filter' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Clearalpha'>Clear alphabet selection with reset filter</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Dashboard feature' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Dashboardfeature'>Dashboard feature</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='Dashboard feature' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Dashboardfeature'>Dashboard feature</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Grid Width' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#GridWidth'>Grid Width</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='Grid Width' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#GridWidth'>Grid Width</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Hide manager of specific user' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Hidemanagerofspecificuser'>Hide manager of specific user</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='Hide manager of specific user' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Hidemanagerofspecificuser'>Hide manager of specific user</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Hide mobile number of specific user' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Hidemobilenumberofspecificuser'>Hide mobile number of specific user</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='Hide mobile number of specific user' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Hidemobilenumberofspecificuser'>Hide mobile number of specific user</a>" +
+                "</li>" +
 
+                // "<li data-nav-id='../advanced/' title='Sharepoint page configuration' class='sidelist'>" +
+                //     "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#SharepointConfiguration'>Sharepoint page configuration</a>" +
+                // "</li>" +
 
+                "<li data-nav-id='../advanced/' title='Profile Image Width' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#ProfileImageWidth'>Profile Image Width</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Image profile tag' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Imageprofiletag'>Image profile tag</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='Labels' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Labels'>Labels</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Labels' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Labels'>Labels</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='Show or Hide modules' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#ShoworHidemodules'>Show or Hide modules</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Show or Hide modules' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#ShoworHidemodules'>Show or Hide modules</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='Sort by' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Sortby'>Sort by</a>" +
+                "</li>" +
 
-// "<li data-nav-id='../advanced/' title='Praise' class='sidelist'>" +
-// "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Praise'>Praise</a>" +
-// "</li>" +
+                // "<li data-nav-id='../advanced/' title='Theme' class='sidelist'>" +
+                //     "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#theme'>Theme</a>" +
+                // "</li>" +
 
-// "<li data-nav-id='../advanced/' title='Text to speech' class='sidelist'>" +
-// "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Show-text-to-speech'>Show text to speech</a>" +
-// "</li>" +
+                "<li data-nav-id='../advanced/' title='Work email ID/UPN ID' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Useworkemailidinsteadaccountloginid'>Work email ID/UPN ID</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Sort by' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Sortby'>Sort by</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='views' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#view'>views</a>" +
+                "</li>" +
 
+                "<li data-nav-id='../advanced/' title='User properties in grid view' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Userpropertiesingridview'>User properties in grid view</a>" +
+                "</li>" +
 
+                "<li data-nav-id='../advanced/' title='User properties in list view' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Userpropertiesinlistview'>User properties in list view</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='Work email ID/UPN ID' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Useworkemailidinsteadaccountloginid'>Work email ID/UPN ID</a>" +
-"</li>" +
+                "<li data-nav-id='../advanced/' title='User properties in Profile Card' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#UserpropertiesinProfileCard'>User properties in Profile Card</a>" +
+                "</li>" +
 
-"<li data-nav-id='../advanced/' title='View' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#view'>view</a>" +
-"</li>" +
-
-// "<li data-nav-id='../advanced/' title='Grid view properties' class='sidelist'>" +
-// "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Userpropertiesingridview'>User properties in grid view</a>" +
-// "</li>" +
-
-// "<li data-nav-id='../advanced/' title='List view properties' class='sidelist'>" +
-// "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#Userpropertiesinlistview'>User properties in list view</a>" +
-// "</li>" +
-
-// "<li data-nav-id='../advanced/' title='Profile Card properties' class='sidelist'>" +
-// "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#UserpropertiesinProfileCard'>User properties in Profile Card</a>" +
-// "</li>" +
-
-// "<li data-nav-id='../advanced/' title='Hover Card properties' class='sidelist'>" +
-// "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#User-Properties-in-Hover-Card'>User properties in hover card</a>" +
-// "</li>" +
+                "<li data-nav-id='../advanced/' title='User properties in hover card' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/views/#User-Properties-in-Hover-Card'>User properties in hover card</a>" +
+                "</li>" +
 "</ul>" +
 "</li>"+
 //____________________________________________________________________________________________________________
-          "<li class='dropdownicon sidelist' title='Exclude Options'>" +
-  "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/'>" +
-    "Exclude Options" +
+          "<li class='dropdownicon sidelist' title='Integrations'>" +
+  "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/'>" +
+    "Integrations" +
   "</a>" +
   "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
 
 "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
 
-  "<li data-nav-id='../advanced/' title='Exclude 365 sign-in blocked users' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#ExcludeO365sign-inblockedusers'>Exclude 365 sign-in blocked users</a>" +
-  "</li>" +
-
-  "<li data-nav-id='../advanced/' title='Exclude by department' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#Excludeuserbydepartment'>Exclude by department</a>" +
-  "</li>" +
-
-  "<li data-nav-id='../advanced/' title='Exclude by job title' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#Excludeusersbyjobtitle'>Exclude by job title</a>" +
-  "</li>" +
-
-  "<li data-nav-id='../advanced/' title='Exclude by name' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#ExcludeusersbyName'>Exclude by name</a>" +
-  "</li>" +
-
-  "<li data-nav-id='../advanced/' title='Exclude by office location' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#Excludeuserbyofficelocation'>Exclude by office location</a>" +
-  "</li>" +
-
-  "<li data-nav-id='../advanced/' title='Exclude using CSV file' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#Excludeuserbyusingcsvfile'>Exclude using CSV file</a>" +
-  "</li>" +
-
-  "<li data-nav-id='../advanced/' title='Exclude by UPN' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#ExcludeUsersByUPN'>Exclude by UPN</a>" +
-  "</li>" +
-
-  "<li data-nav-id='../advanced/' title='Exclude by contain' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#Excludeuserbycontain'>Exclude by contain</a>" +
-  "</li>" +
-
-  "<li data-nav-id='../advanced/' title='Exclude hidden in address list' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#Excludeusershiddeninaddresslist'>Exclude hidden in address list</a>" +
-  "</li>" +
-
-  "<li data-nav-id='../advanced/' title='Remove shared mailboxes' class='sidelist'>" +
-    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/exclude-options/#Removesharedmailboxes'>Remove shared mailboxes</a>" +
-  "</li>" +
+  "<li data-nav-id='../../azure-storage-configuration/' title='Azure Storage Configuration' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#AzureStorageConfiguration'>Azure Storage Configuration</a>" +
+                "</li>" +
+                "<li data-nav-id='../../configure-sharepoint-api/' title='Configure SharePoint API Permissions' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#ConfigureSharePointAPI'>Configure SharePoint API Permissions</a>" +
+                "</li>" +
+                "<li data-nav-id='../../map-external-list/' title='Map external list' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#Map-external-list'>Map external list</a>" +
+                "</li>" +
+                // "<li data-nav-id='../../shared-mailbox-id/' title='Shared Mailbox ID' class='sidelist'>" +
+                //     "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#SharedMailboxID'>Shared Mailbox ID</a>" +
+                // "</li>" +
+                "<li data-nav-id='../../slack/' title='Slack' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#SlackIntegration'>Slack</a>" +
+                "</li>" +
+                "<li data-nav-id='../../sync-mobile-number-azure/' title='Sync and Display Mobile Number from Azure' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#SyncMobileNumberAzure'>Sync and Display Mobile Number from Azure</a>" +
+                "</li>" +
+                "<li data-nav-id='../../sync-employee-profile-images/' title='Sync Employee Profile Images From' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#SyncEmployeeProfileImages'>Sync Employee Profile Images From</a>" +
+                "</li>" +
+                "<li data-nav-id='../../sync-employee-profile-information/' title='Sync Employee Profile Information From' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#SyncEmployeeProfileSource'>Sync Employee Profile Information From</a>" +
+                "</li>" +
+                "<li data-nav-id='../../sync-user-information/' title='Sync User Information From' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#SyncUserInformation'>Sync User Information From</a>" +
+                "</li>" +
+                "<li data-nav-id='../../time-off-manager/' title='Time Off Manager' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/integration/#TimeOffManager'>Time Off Manager</a>" +
+                "</li>" +
 
 "</ul>" +
 "</li>"
@@ -569,9 +531,9 @@ $(document).ready(function () {
 // "</li>" +
 // "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot'>" +
 
- "<li class='dropdownicon sidelist' title='Advanced'>" +
-  "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/'>" +
-    "Advanced" +
+ "<li class='dropdownicon sidelist' title='Features'>" +
+  "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/'>" +
+    "Features" +
   "</a>" +
   "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
@@ -579,81 +541,57 @@ $(document).ready(function () {
   "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
 
 
-"<li data-nav-id='../advanced/' title='Additional manager' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Additionalmanager'>Additional manager</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Analytics Report' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Analytics-Report'>Analytics Report</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Auto load instead load more button' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Autoloadinsteadloadmorebutton'>Auto load instead load more button</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Auto fetch office 365 job title, location and department' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Autofetchoffice365jobtitlelocationanddepartment'>Auto fetch office 365 job title, location and department</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Filter upcoming birthdays & work anniversaries' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Filterupcomingbirthdaysworkanniversaries'>Filter upcoming birthdays & work anniversaries</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Configure SharePoint API permissions class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#ConfigureSharePointAPIpermissions'>Configure SharePoint API permissions</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Custom fields' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Customfields'>Custom fields</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Custom function' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Customfunction'>Custom function</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Executive Assistant relationship' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#ExecutiveAssistantrelationship'>Executive Assistant relationship</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Extend custom fields search capability' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Extendcustomfieldssearchcapability'>Extend custom fields search capability</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Export data permission' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Export-data-permission'>Export data permission</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Import non M365 users' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#ImportnonM365users'>Import non M365 users</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Extend Mobile Number and Phone number search capability' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#ExtendMobileNumberandPhonenumbersearchcapability'>Extend Mobile Number and Phone number search capability</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Restricted Access List' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#RestrictedAccess'>Restricted Access List</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Sync and display mobile number from azure' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Syncanddisplaymobilenumberfromazure'>Sync and display mobile number from azure</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Sync employee profile information' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Syncemployeeprofileinformationfrom'>Sync employee profile information</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Sync user information' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#Syncuserinformationfrom'>Sync user information</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Topbar filters' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#topbarfilters'>Topbar filters</a>" +
-"</li>" +
-
-"<li data-nav-id='../advanced/' title='Validate work email with SharePoint account name' class='sidelist'>" +
-"<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/advanced/#workemail'>Validate work email with SharePoint account name</a>" +
-"</li>" +
+ "<li data-nav-id='../../additional-manager/' title='Additional manager' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#Additionalmanager'>Additional manager</a>" +
+                "</li>" +
+                "<li data-nav-id='../../analytics-report/' title='Analytics Report' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#Analytics-Report'>Analytics Report</a>" +
+                "</li>" +
+                "<li data-nav-id='../../upcoming-birthdays-work-anniversaries/' title='Upcoming Birthdays & Work Anniversaries' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#UpcomingEvents'>Upcoming Birthdays & Work Anniversaries</a>" +
+                "</li>" +
+                "<li data-nav-id='../../custom-fields/' title='Custom fields' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#Customfields'>Custom fields</a>" +
+                "</li>" +
+                "<li data-nav-id='../../custom-function/' title='Custom Function' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#CustomFunction'>Custom Function</a>" +
+                "</li>" +
+                "<li data-nav-id='../../employee-info-page/' title='Employee info page' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#Employeeinfopage'>Employee info page</a>" +
+                "</li>" +
+                "<li data-nav-id='../../exclude-options/' title='Exclude Options' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#ExcludeOptions'>Exclude Options</a>" +
+                "</li>" +
+                "<li data-nav-id='../../executive-assistant-relationship/' title='Executive Assistant Relationship' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#ExecutiveAssistantrelationship'>Executive Assistant Relationship</a>" +
+                "</li>" +
+                "<li data-nav-id='../../export-data-permission/' title='Export Data Permission' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#Export-data-permission'>Export Data Permission</a>" +
+                "</li>" +
+                "<li data-nav-id='../../home-page-custom-url/' title='Home page custom url' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#Homepagecustomurl'>Home page custom url</a>" +
+                "</li>" +
+                "<li data-nav-id='../../image-profile-tag/' title='Image Profile Tag' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#ImageProfileTag'>Image Profile Tag</a>" +
+                "</li>" +
+                "<li data-nav-id='../../import-m365-users-pronouns/' title='Import M365 Users Pronouns' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#ImportPronouns'>Import M365 Users Pronouns</a>" +
+                "</li>" +
+                "<li data-nav-id='../../import-non-m365-users/' title='Import non-M365 Users' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#ImportNonM365Users'>Import non-M365 Users</a>" +
+                "</li>" +
+                "<li data-nav-id='../../organization-chart-type/' title='Organization chart type' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#orgChart'>Organization chart type</a>" +
+                "</li>" +
+                "<li data-nav-id='../../restricted-access-list/' title='Restricted Access List' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#RestrictedAccess'>Restricted Access List</a>" +
+                "</li>" +
+                "<li data-nav-id='../../search-filters/' title='Search Filters' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#SearchFilters'>Search Filters</a>" +
+                "</li>" +
+                "<li data-nav-id='../../topbar-filter/' title='Topbar Filter' class='sidelist'>" +
+                    "<a href='/HRMS-HR365/modern/admin/apps/ED365/settings/feature/#TopbarFilter'>Topbar Filter</a>" +
+                "</li>" +
 "</ul>" +
 "</li>"+ 
                

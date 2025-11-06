@@ -25,6 +25,9 @@ $(document).ready(function () {
         "<li class='sidelist' title='Users'>" +
             "<a href='/Expense-365/modern/admin/settings/#_users'>Users</a>" +
         "</li>" +
+        "<li class='sidelist' title='Hide SharePoint Settings'>" +
+            "<a href='/Expense-365/modern/admin/settings/#hide-sharepoint-settings'>Hide SharePoint Settings</a>" +
+        "</li>" +
         "<li class='sidelist' title='Expense Type Configure'>" +
             "<a href='/Expense-365/modern/admin/settings/#_expense_type'>Expense Type Configure</a>" +
         "</li>" +
