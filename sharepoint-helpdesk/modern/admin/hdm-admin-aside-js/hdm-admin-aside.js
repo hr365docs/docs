@@ -414,6 +414,16 @@ $(document).ready(function () {
         "</ul>" +
         "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#custom-column'>Custom Columns</a>" +
         "</li>" +
+
+        "<li data-nav-id='./Add Assets/ ' title='Analytics Report'class='sidelist '>" +
+        "<ul class='sidenavSub-topics '>" +
+        "</ul>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#analytics-report'>Analytics Report</a>" +
+        "</li>" +
+
+
+
+
         "<li data-nav-id='./Add Assets/ ' title='Business Hours' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
