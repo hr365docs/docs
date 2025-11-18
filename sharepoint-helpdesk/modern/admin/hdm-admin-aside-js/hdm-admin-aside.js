@@ -8,10 +8,38 @@ $(document).ready(function () {
         "<li data-nav-id='./installation/requirments/' title='Architecture Diagram' class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/architecture-diagram/'>Architecture Diagram</a>" +
         "</li>" +
-        "<li data-nav-id='./installation/requirments/' title='Home Page' class='sidelist'>" +
+
+
+        "<li class='dropdownicon sidelist'  title=Home Page>" +
+        
         "<a href='/sharepoint-helpdesk/modern/admin/home-page/'>Home Page</a>" +
+        "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
+     "</li>"+
+       "<li data-nav-id='./Settings/'   class='sidelist dropdown_romove_dot'>"+
+     "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+
+ "<li data-nav-id='./homepage/' title='Ticket Navigation Tabs' class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/home-page/#top-tabs'>Ticket Navigation Tabs</a>" +
+        "</li>" +
+         "<li data-nav-id='./homepage/' title='Custom Views' class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/home-page/#custom-views'>Custom Views</a>" +
+        "</li>" +
+         "<li data-nav-id='./homepage/' title='Ticket Creation' class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/home-page/#ticket-creation'>Ticket Creation</a>" +
+        "</li>" +
+        "<li data-nav-id='./homepage/' title='Search  and Filters' class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/home-page/#search-filter'>Search  and Filters</a>" +
+        "</li>" +
+         "<li data-nav-id='./homepage/' title='View Modes and Filters' class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/home-page/#view-modes'>View Modes</a>" +
+        "</li>" +
+         "<li data-nav-id='./homepage/' title='Assign and Update Tickets' class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/home-page/#assign-tickets'>Assign and Update Tickets</a>" +
         "</li>" +
 
+
+        "</ul>"+
+        "</li>"+
 
         "<li data-nav-id='./Settings/' title=Dashboard class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/dashboard/'>Dashboard</a>" +
@@ -337,7 +365,7 @@ $(document).ready(function () {
         "<li data-nav-id='./Add Assets/ ' title='Copilot Integeration' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#Copilot-Integeration'>Copilot Integeration</a>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#Copilot-Integration'>Copilot Integration</a>" +
         "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
