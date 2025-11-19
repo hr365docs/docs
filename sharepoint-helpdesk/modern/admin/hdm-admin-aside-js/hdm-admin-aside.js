@@ -34,6 +34,9 @@ $(document).ready(function () {
         "<a href='/sharepoint-helpdesk/modern/admin/home-page/#view-modes'>View Modes</a>" +
         "</li>" +
          "<li data-nav-id='./homepage/' title='Assign and Update Tickets' class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/home-page/#Notification'>Notification</a>" +
+        "</li>" +
+         "<li data-nav-id='./homepage/' title='Assign and Update Tickets' class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/home-page/#assign-tickets'>Assign and Update Tickets</a>" +
         "</li>" +
 

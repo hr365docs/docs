@@ -28,6 +28,9 @@ $(document).ready(function () {
                 "<li class='sidelist' title='Hide SharePoint Settings'>" +
                     "<a href='/Policy-Acknowledgement-365/modern/admin/settings/#_hide_sharepoint_settings'>Hide SharePoint Settings</a>" +
                 "</li>" +
+                 "<li class='sidelist' title='Policy Icon Setting'>" +
+                    "<a href='/Policy-Acknowledgement-365/modern/admin/settings/#_policy_icon_setting'>Policy Icon Setting</a>" +
+                "</li>" +
             "</ul>" +
         "</li>" +
 
