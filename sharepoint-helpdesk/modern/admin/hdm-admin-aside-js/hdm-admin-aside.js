@@ -50,9 +50,43 @@ $(document).ready(function () {
         "<li data-nav-id='./Settings/' title=Incident class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/incident/'>Incident</a>" +
         "</li>" +
-        "<li data-nav-id='./Settings/' title=Reports class='sidelist'>" +
+
+//  <li><a href="#teams-reports">Teams Report</a></li>
+//     <li><a href="#agent-report">Agent Report</a></li>
+//     <li><a href="#Requester-report">Requester Report</a></li>
+//     <li><a href="#csat-report">CSAT Report</a></li>
+//     <li><a href="#fcr-report">First Contact Resolution (FCR)</a></li>
+//     <li><a href="#global-filter">Global Filter Behavior</a></li>
+        "<li class='dropdownicon sidelist'  title=Home Page>" +
         "<a href='/sharepoint-helpdesk/modern/admin/reports/'>Reports</a>" +
+         "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
+     "</li>"+
+       "<li data-nav-id='./Settings/'   class='sidelist dropdown_romove_dot'>"+
+     "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+      "<li data-nav-id='./Settings/' title=Teams Report class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/reports/#teams-reports'>Teams Report</a>" +
         "</li>" +
+         "<li data-nav-id='./Settings/' title=Agent Report class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/reports/#agent-report'>Agent Report</a>" +
+        "</li>" +
+         "<li data-nav-id='./Settings/' title=Requester Report class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/reports/#Requester-report'>Requester Report</a>" +
+        "</li>" +
+         "<li data-nav-id='./Settings/' title=CSAT Report class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/reports/#csat-report'>CSAT Report</a>" +
+        "</li>" +
+         "<li data-nav-id='./Settings/' title=CSAT Report class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/reports/#fcr-report'>First Contact Resolution (FCR)</a>" +
+        "</li>" +
+        "<li data-nav-id='./Settings/' title='Global Filter Behavior' class='sidelist'>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/reports/#global-filter'>Global Filter Behavior</a>" +
+        "</li>" +
+
+
+
+
+     "</ul>"+
+     "</li>"+
         "<li data-nav-id='./Settings/' title=delegation class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/delegation/'>Delegation</a>" +
         "</li>" +

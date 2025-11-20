@@ -118,13 +118,23 @@ Once the desired filters are applied, the data can be exported to Excel for furt
 <div><img src="report_.png" onclick="openModal('report_.png')" alt="Report Overview" width="100%" height="auto"></div>
 <br>
 
+<ol type="I">
+    <li><a href="#teams-reports">Teams Report</a></li>
+    <li><a href="#agent-report">Agent Report</a></li>
+    <li><a href="#Requester-report">Requester Report</a></li>
+    <li><a href="#csat-report">CSAT Report</a></li>
+    <li><a href="#fcr-report">First Contact Resolution (FCR)</a></li>
+    <li><a href="#global-filter">Global Filter Behavior</a></li>
+</ol>
+<br>
+
 
 
 
 
 
 <!-- ----------------------------------------------------- -->
-<h3><b>Teams Reports</b></h3>
+<h3 id="teams-reports"><b>Teams Reports</b></h3>
 
 <p>
 The Teams Report provides ticket information grouped by departments/teams.  
@@ -141,7 +151,7 @@ This page includes two tabs: <b>Agent Reports</b> and <b>Requester Reports</b>.<
 <br>
 
 <!-- ----------------------------------------------------- -->
-<h3><b>Agent Report</b></h3>
+<h3 id="agent-report"><b>Agent Report</b></h3>
 
 <p>
 The Agent Report provides detailed insights into tickets handled by individual agents.  
@@ -160,12 +170,41 @@ This helps supervisors verify ticket workload, resolution progress, response eff
 
 
 
+<!-- ----------------------------------------------------- -->
+<h3 id="Requester-report"><b>Requester Report</b></h3>
+
+<p>
+The Requester Report provides a detailed breakdown of tickets raised by each requester.  
+Admins can view all requesters across all teams, while supervisors only see requesters belonging to their assigned teams.  
+This report helps in understanding requester trends, issue frequency, and overall service demand.
+</p>
+
+<div>
+    <img src="1b.png" onclick="openModal('1b.png')" alt="Requester Report" width="100%" height="auto">
+</div>
+<br>
+
+<p>
+When the user clicks on a requester name, the system opens the <b>Requester Tickets</b> page.  
+This page displays every ticket created by that requester, including ticket ID, title, number of calls, request type,  
+status, priority, services, department, and sub-services.
+</p>
+
+<div>
+    <img src="1a.png" onclick="openModal('1a.png')" alt="Requester Tickets" width="100%" height="auto">
+</div><br>
+<div>
+    <img src="1c.png" onclick="openModal('1c.png')" alt="Requester Tickets" width="100%" height="auto">
+</div><br>
+<br>
+
+
 
 
 
 
 <!-- ----------------------------------------------------- -->
-<h3><b>CSAT Report (Customer Satisfaction)</b></h3>
+<h3 id="csat-report"><b>CSAT Report (Customer Satisfaction)</b></h3>
 
 <p>
 The CSAT Report displays customer satisfaction feedback based on survey responses.  
@@ -183,7 +222,7 @@ Survey feedback shows three rating categories: <b>Positive</b>, <b>Neutral</b>, 
 
 
 <!-- ----------------------------------------------------- -->
-<h3><b>First Contact Resolution (FCR)</b></h3>
+<h3 id="fcr-report"><b>First Contact Resolution (FCR)</b></h3>
 
 <p>
 The First Contact Resolution (FCR) report tracks how effectively tickets are resolved during the first interaction.  
@@ -232,7 +271,7 @@ the system automatically marks the ticket as <b>FCR = No</b>.
 This ensures the FCR metric reflects true one-interaction resolutions.
 </p>
 <br>
-<h4><b>Global Filter Behavior</b></h4>
+<h4 id="global-filter"><b>Global Filter Behavior</b></h4>
 <p>
 When the user applies a Global Filter such as <b>Current Month</b>, <b>Last Month</b>, or other predefined ranges,  
 the system restricts the data strictly to that selected timeframe.  
