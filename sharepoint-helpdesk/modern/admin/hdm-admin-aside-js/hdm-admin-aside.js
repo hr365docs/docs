@@ -57,25 +57,25 @@ $(document).ready(function () {
 //     <li><a href="#csat-report">CSAT Report</a></li>
 //     <li><a href="#fcr-report">First Contact Resolution (FCR)</a></li>
 //     <li><a href="#global-filter">Global Filter Behavior</a></li>
-        "<li class='dropdownicon sidelist'  title=Home Page>" +
+        "<li class='dropdownicon sidelist'  title=Reports>" +
         "<a href='/sharepoint-helpdesk/modern/admin/reports/'>Reports</a>" +
          "<img   class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>"+
      "</li>"+
        "<li data-nav-id='./Settings/'   class='sidelist dropdown_romove_dot'>"+
      "<ul class='sidenavSub-topics aside_dropdown_list'>"+
-      "<li data-nav-id='./Settings/' title=Teams Report class='sidelist'>" +
+      "<li data-nav-id='./Settings/' title='Teams Report' class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/reports/#teams-reports'>Teams Report</a>" +
         "</li>" +
-         "<li data-nav-id='./Settings/' title=Agent Report class='sidelist'>" +
+         "<li data-nav-id='./Settings/' title='Agent Report' class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/reports/#agent-report'>Agent Report</a>" +
         "</li>" +
-         "<li data-nav-id='./Settings/' title=Requester Report class='sidelist'>" +
+         "<li data-nav-id='./Settings/' title='Requester Report' class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/reports/#Requester-report'>Requester Report</a>" +
         "</li>" +
-         "<li data-nav-id='./Settings/' title=CSAT Report class='sidelist'>" +
+         "<li data-nav-id='./Settings/' title='CSAT Report' class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/reports/#csat-report'>CSAT Report</a>" +
         "</li>" +
-         "<li data-nav-id='./Settings/' title=CSAT Report class='sidelist'>" +
+         "<li data-nav-id='./Settings/' title='First Contact Resolution (FCR)' class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/reports/#fcr-report'>First Contact Resolution (FCR)</a>" +
         "</li>" +
         "<li data-nav-id='./Settings/' title='Global Filter Behavior' class='sidelist'>" +
@@ -90,9 +90,66 @@ $(document).ready(function () {
         "<li data-nav-id='./Settings/' title=delegation class='sidelist'>" +
         "<a href='/sharepoint-helpdesk/modern/admin/delegation/'>Delegation</a>" +
         "</li>" +
-        "<li data-nav-id='./Settings/' title=Comment Page class='sidelist'>" +
-        "<a href='/sharepoint-helpdesk/modern/admin/comment-page/'>Comment Page</a>" +
+   "<li class='dropdownicon sidelist' title='Comment Page'>" +
+    "<a href='/sharepoint-helpdesk/modern/admin/comment-page/'>Comment Page</a>" +
+    "<img class='helpdesk-img aside_dropdown_icon' src='/online-asset-management-application/modern/user/amm-user-assets/down-arrow-svgrepo-com.svg'>" +
+"</li>" +
+"<li data-nav-id='./Settings/' class='sidelist dropdown_romove_dot'>" +
+    "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+
+        // Already added by you
+        "<li data-nav-id='./Settings/' title='Replay' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#Replay'>Reply</a>" +
         "</li>" +
+
+        // Added Below
+        "<li data-nav-id='./Settings/' title='Private Notes' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#Notes'>Private Notes</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Consult' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#Consult'>Consult</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Transfer' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#Transfer'>Transfer</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Merge Tickets' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#merge-tickets'>Merge Tickets</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Split Tickets' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#split-tickets'>Split Tickets</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Escalate Tickets' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#escalate-tickets'>Escalate Tickets</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Review Tickets' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#review-tickets'>Review Tickets</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Sub Tickets' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#sub-tickets'>Sub Tickets</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Requester Details' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#requster-details'>Requester Detail</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Scheduled Reply' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#scheduled-reply'>Scheduled Reply</a>" +
+        "</li>" +
+
+        "<li data-nav-id='./Settings/' title='Edit & Download' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#edit-download'>Edit and Download</a>" +
+        "</li>" +
+
+    "</ul>" +
+"</li>"
++
 
 
 
