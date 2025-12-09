@@ -136,29 +136,125 @@
                                 </p>
                                 <div> <img src="3.png" onclick="openModal( '3.png') " alt="Settings" width="100% "
                                         height="auto"></div><br>
-<h3 id="_esignature"><a class="header-icon-link highlight" href="#">E-Signature 
-    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+
+                                        <div>
+<h3 id="_esignature">
+    <a class="header-icon-link highlight" href="#">
+        E-Signature 
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
 </h3>
-<br>
-<p><b>E-Signature:</b> CLM365 offers integration with leading e-signature platforms, allowing users to digitally sign contracts with ease. 
+
+<p><b>E-Signature:</b> CLM365 provides seamless integration with leading e-signature platforms, enabling users to digitally sign contracts with ease. 
 Toggle between available services to configure your preferred e-signature provider.</p>
-<div> 
+
+<div>
     <img src="4.png" onclick="openModal('4.png')" alt="E-Signature Integration" width="100%" height="auto">
 </div>
+
 <br>
+
 <ul class="page-list">
-    <li><b>DocuSign:</b> Enable the DocuSign toggle to integrate with DocuSign, allowing users to electronically sign contracts directly within CLM365. 
-    This integration streamlines the signing process, enhances efficiency, and eliminates the need for manual signatures.</li><br>
-    <div> 
-    <img src="5.png" onclick="openModal('5.png')" alt="E-Signature Integration" width="100%" height="auto">
-</div>
+
+    <!-- DOCUSIGN SECTION -->
+    <li>
+        <b>DocuSign:</b> Enable the DocuSign toggle to activate DocuSign integration within CLM365. 
+        Users can electronically sign contracts directly in the system, eliminating manual processes and improving contract execution efficiency.
+        <br>
+        <div>
+        <img src="5.png" onclick="openModal('5.png')" alt="DocuSign Integration" width="100%" height="auto">
+    </div>
+    <br>
+        To configure DocuSign credentials, follow the steps:<br>
+        <ul>
+            <li>Sign up at the <a href="https://admindemo.docusign.com" target="_blank"><b>DocuSign Admin Demo Portal</b></a>.</li>
+
+            <div>
+        <img src="5a.png" onclick="openModal('5a.png')" alt="DocuSign Integration" width="100%" height="auto">
+    </div>
+    <br>
+            <li>Then, navigate to the <b>Admin Console</b> using the top-right menu, or access it directly by visiting 
+<a href="https://admindemo.docusign.com" target="_blank"><b>https://admindemo.docusign.com</b></a> 
+Once inside the console, click on <b>Apps and Keys</b> from the left-hand menu.</li><br>
+            <div>
+        <img src="5b.png" onclick="openModal('5b.png')" alt="DocuSign Integration" width="100%" height="auto">
+    </div>
+    <br>
+            <li>Copy the <b>User ID</b>, as this value will be used as the DocuSign User ID within the application. </li><br><br>
+            <div>
+        <img src="5c.png" onclick="openModal('5c.png')" alt="DocuSign Integration" width="100%" height="auto">
+    </div>
+    <br>
+    <li>Next, click on the <b>Add App and Integration Key</b> button to create a new application.</li><br><br>
+        <div>
+        <img src="5d.png" onclick="openModal('5d.png')" alt="DocuSign Integration" width="100%" height="auto">
+    </div>
+    <br>
+    <div>
+        <img src="5da.png" onclick="openModal('5da.png')" alt="DocuSign Integration" width="100%" height="auto"><br>
+    </div><br>
+    <li>You will receive an <b>Integration Key</b>; copy this value, as it will be used as the DocuSign Client ID within the application.
+</li><br>
+ <div>
+        <img src="5db.png" onclick="openModal('5db.png')" alt="DocuSign Integration" width="100%" height="auto">
+    </div>
+    <br>
+            <li>Generate the <b>RSA Private Key</b> for secure API authentication.</li>
+            <div>
+        <img src="5e.png" onclick="openModal('5e.png')" alt="DocuSign Integration" width="100%" height="auto">
+    </div>
+    <br>
+    <div>
+        <img src="5ea.png" onclick="openModal('5ea.png')" alt="DocuSign Integration" width="100%" height="auto">
+    </div>
+    <br>
+      
+   
+
+
+    <!-- ADOBE SIGN SECTION -->
+    <li>
+        <b>Adobe Acrobat Sign:</b> Enable the Adobe Sign toggle to allow digital signing through Adobe’s secure signing workflow. 
+        When configured, users can generate e-signature tasks, send documents for signing, track progress, and maintain compliance.
+        <br><br>
+          <div>
+        <img src="6.png" onclick="openModal('6.png')" alt="Adobe Acrobat Sign Integration" width="100%" height="auto">
+    </div><br>
+        Adobe Sign setup includes:
+        <ul>
+            <li>Enable Adobe Acrobat Sign from the CLM365 E-Signature Settings panel.</li>
+              <div>
+        <img src="6a.png" onclick="openModal('6a.png')" alt="Adobe Acrobat Sign Integration" width="100%" height="auto">
+    </div><br>
+            <li>Enter the <b>Integration Key</b> and save the configuration.</li>
+              <div>
+        <img src="6b.png" onclick="openModal('6b.png')" alt="Adobe Acrobat Sign Integration" width="100%" height="auto">
+    </div><br>
+            <li>Create e-sign tasks, assign signers, and specify sign types such as:<br>
+                <b>Needs to Sign, Needs to View, Receives a Copy, Allow to Edit</b>.
+            </li>
+              <div>
+        <img src="6c.png" onclick="openModal('6c.png')" alt="Adobe Acrobat Sign Integration" width="100%" height="auto">
+    </div><br>
+            <li>Send the document, place signature fields, and track signing status.</li>
+              <div>
+        <img src="6d.png" onclick="openModal('6d.png')" alt="Adobe Acrobat Sign Integration" width="100%" height="auto">
+    </div><br>
+            <li>Recipients receive a secure email link to review, sign, and submit the agreement.</li>
+              <div>
+        <img src="6e.png" onclick="openModal('6e.png')" alt="Adobe Acrobat Sign Integration" width="100%" height="auto">
+    </div><br>
+        </ul>
+        Detailed Adobe Acrobat Sign workflow reference: <b>“Adobe E-Sign Guide”</b> :contentReference[oaicite:1]{index=1}
+    </li>
+
+    <br>
+  
+
+</ul>
+
 <br>
-    <li><b>Adobe Acrobat Sign:</b> When the Adobe Acrobat Sign toggle is enabled, users can utilize Adobe’s secure digital signature capabilities to sign documents within CLM365, 
-    ensuring compliance and a seamless signing workflow.</li><br>
-    <div> 
-    <img src="6.png" onclick="openModal('6.png')" alt="E-Signature Integration" width="100%" height="auto">
 </div>
-<br>
 <!-- AI Integration Section -->
 <div class="bg-light p-4 common-scroll remove-padding" id="aiintegration">
     <h2 id="_aiintegration">
