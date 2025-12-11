@@ -124,28 +124,49 @@
 
 
 <!-- Approver Section -->
+<!-- Approver Section -->
 <h2 id="Approver">
   <a class="header-icon-link highlight" href="#Approver">
     Approver
     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
   </a>
 </h2>
+
 <p>
-  Users with the <strong>Approver</strong> role can access the <strong>My Approvals</strong> tab directly from the Home Page. This section lists all requisitions that require their review and approval. Each entry provides essential details.
+  Users with the <strong>Approver</strong> role can access the <strong>My Approvals</strong> tab directly from the Home Page.
+  This section lists all requisitions that require their review and approval.
 </p>
 
 <p>
-  Approvers can take action directly from this view, making the approval process seamless and efficient.
+  Approvers can <strong>view requisitions</strong> and take actions such as <strong>Approve</strong> or <strong>Reject</strong>.
+  They <strong>cannot view job posts</strong> or create them.
 </p>
+
 <div>
   <img src="home.png" onclick="openModal('home.png')" alt="Approver View" width="100%" height="auto">
 </div><br>
 
-<p>Clicking on the job title within the <strong>My Approvals</strong> section opens the <strong>Requisition Approval Form</strong>, providing detailed information about the request.</p> <br> 
-<div> <img src="app.png" onclick="openModal('app.png')" alt="Requisition Approval Form - Overview" width="100%" height="auto"> </div> <br> 
-<p>Within the form, approvers have the option to take appropriate action by selecting either <strong>Approve</strong> or <strong>Reject</strong>.</p> <br>
- <div> <img src="app1.png" onclick="openModal('app1.png')" alt="Approval Options" width="100%" height="auto"> </div> <br> <div> <img src="app2.png" onclick="openModal('app2.png')" alt="Approval Confirmation" width="100%" height="auto"> </div>
-<br>
+<p>
+  Selecting a requisition opens the <strong>Requisition Approval Form</strong>, where approvers can review all details.
+</p>
+
+<div>
+  <img src="app.png" onclick="openModal('app.png')" alt="Requisition Approval Form - Overview" width="100%" height="auto">
+</div><br>
+
+<p>
+  Approvers can take the required action by selecting either <strong>Approve</strong> or <strong>Reject</strong>.
+</p>
+
+<div>
+  <img src="app1.png" onclick="openModal('app1.png')" alt="Approval Options" width="100%" height="auto">
+</div><br>
+
+<div>
+  <img src="app2.png" onclick="openModal('app2.png')" alt="Approval Confirmation" width="100%" height="auto">
+</div><br>
+
+
 <!-- Recruiter Section -->
 <h2 id="Recruiter">
   <a class="header-icon-link highlight" href="#Recruiter">
@@ -153,32 +174,51 @@
     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
   </a>
 </h2>
+
 <p>
-  The <strong>Recruiter</strong> view provides tools to manage the full recruitment lifecycle. From creating requisitions to posting jobs and scheduling interviews, recruiters can access all key features in one place.
+  The <strong>Recruiter</strong> role has one of the most comprehensive permission sets.
+  Recruiters can <strong>view requisitions</strong>, <strong>view job posts</strong>, and <strong>create job posts</strong>.
+  They manage the full recruitment process, including creating requisitions, posting jobs, reviewing candidates, and tracking progress.
 </p>
+
 <div>
   <img src="Recruiter.png" onclick="openModal('Recruiter.png')" alt="Recruiter View" width="100%" height="auto">
-</div>
-<br>
-<p> Recruiters have access to nearly all the same functionalities as Admin users, except for settings-related options. For configuration and administrative tasks, please refer to the <a href="../../admin/" target="_blank">Admin Guide</a>. </p>
+</div><br>
+
+<p>
+  Recruiters have access to most features available to Admins, except configuration-related options.
+  For administrative controls, please refer to the <a href="../../admin/" target="_blank">Admin Guide</a>.
+</p>
 
 
-       <h2 id="RecruiterManager">
+<!-- Recruiter Manager Section -->
+<h2 id="RecruiterManager">
   <a class="header-icon-link highlight" href="#RecruiterManager">
     Recruiter Manager
     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
   </a>
 </h2>
+
 <p>
-  The <strong>Recruiter Manager</strong> has access to manage job postings within their department. They can create requisitions and post jobs specific to their team's hiring needs.
+  The <strong>Recruiter Manager</strong> has permissions similar to Recruiters, including:
 </p>
+
+<ul>
+  <li><strong>Viewing requisitions</strong></li>
+  <li><strong>Viewing job posts</strong></li>
+  <li><strong>Creating job posts</strong></li>
+</ul>
+
 <p>
- Both <b>Recruiter and Recruiter Manager</b> can view the <strong>approval flow</strong> of requisitions but do not have permissions to create or modify approval workflows.
+  Recruiter Managers typically oversee hiring operations and ensure job postings and requisitions follow the correct approval flow.
+  They can also view the <strong>approval flow</strong> of requisitions but cannot modify the workflow.
 </p>
+
 <div>
   <img src="recruiter-manager.png" onclick="openModal('recruiter-manager.png')" alt="Recruiter Manager View" width="100%" height="auto">
-</div>
-<br>
+</div><br>
+
+
 <!-- Interviewer Section -->
 <h2 id="Interviewer">
   <a class="header-icon-link highlight" href="#Interviewer">
@@ -186,13 +226,27 @@
     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
   </a>
 </h2>
+
 <p>
-  The <strong>Interviewer</strong> participates in the recruitment process by evaluating candidates during interviews. They are assigned to specific interview rounds and can record feedback for each candidate.
+  The <strong>Interviewer</strong> participates in the interview process.  
+  Based on the permission table, Interviewers can:
 </p>
+
+<ul>
+  <li><strong>View job posts</strong> relevant to their assigned interviews</li>
+  <li><strong>CANNOT view requisitions</strong></li>
+  <li><strong>CANNOT create job posts</strong></li>
+</ul>
+
+<p>
+  Interviewers record feedback and evaluation results for candidates during their assigned interview rounds.
+</p>
+
 <div>
-  <img src="1.png" onclick="openModal('1.png')" alt="Approver View" width="100%" height="auto">
-</div><br>
-<br>
+  <img src="1.png" onclick="openModal('1.png')" alt="Interviewer View" width="100%" height="auto">
+</div><br><br>
+
+
 <!-- Screener Section -->
 <h2 id="Screener">
   <a class="header-icon-link highlight" href="#Screener">
@@ -200,13 +254,23 @@
     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
   </a>
 </h2>
+
 <p>
-  A <strong>Screener</strong> is responsible for filtering sourced candidates. They review the applications they are assigned to, shortlist suitable profiles, and move candidates to the next stage of the recruitment process.
+  A <strong>Screener</strong> is responsible for reviewing and shortlisting sourced candidates.
+  According to the permission table, Screeners:
 </p>
+
+<ul>
+  <li><strong>CANNOT view requisitions</strong></li>
+  <li><strong>May view assigned job posts</strong> (depending on selectors)</li>
+  <li><strong>CANNOT create job posts</strong></li>
+</ul>
+
 <div>
-  <img src="2.png" onclick="openModal('2.png')" alt="Approver View" width="100%" height="auto">
-</div><br>
-<br>
+  <img src="2.png" onclick="openModal('2.png')" alt="Screener View" width="100%" height="auto">
+</div><br><br>
+
+
 <!-- Hiring Manager Section -->
 <h2 id="HiringManager">
   <a class="header-icon-link highlight" href="#HiringManager">
@@ -214,17 +278,26 @@
     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
   </a>
 </h2>
+
 <p>
-  Any user within the organization who is designated as a <strong>Hiring Manager</strong> can oversee the recruitment process for their assigned open positions. They collaborate with recruiters, interviewers, and screeners to ensure the right candidate is selected. As part of their role, they review shortlisted profiles, provide feedback, and make final hiring decisions.
+  A <strong>Hiring Manager</strong> plays a key role in reviewing and selecting candidates.  
+  Based on the permission table, Hiring Managers:
+</p>
+
+<ul>
+  <li><strong>Can view requisitions</strong></li>
+  <li><strong>Can view job posts</strong></li>
+  <li><strong>Can create job posts</strong></li>
+</ul>
+
+<p>
+  They review shortlisted profiles, provide feedback, collaborate with recruiters, and make final hiring decisions.
 </p>
 
 <div>
-  <img src="3.png" onclick="openModal('3.png')" alt="Approver View" width="100%" height="auto">
+  <img src="3.png" onclick="openModal('3.png')" alt="Hiring Manager View" width="100%" height="auto">
 </div><br>
-
-<!-- Additional Role Note -->
-
-         
+   
 
 
 
