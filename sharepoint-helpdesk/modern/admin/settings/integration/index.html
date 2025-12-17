@@ -569,88 +569,158 @@
 
 
                         </div>
-                         <div class="bg-light p-4 remove-padding common-scroll" id="email-tracker">
-    <ul class="page-list">
-        <h2 id="_email_tracker">
-            <a class="header-icon-link highlight" href="#">Integrating Mail Tracker with Helpdesk 365
-                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-            </a>
-        </h2>
+                       <div class="bg-light p-4 remove-padding common-scroll" id="email-tracker">
+<ul class="page-list">
 
-        <p>
-            The Mail Tracker module provides visibility into email communication within the Helpdesk 365 environment.
-            This includes task reminders and notifications sent to users, improving transparency and tracking.
-        </p>
-        <br>
+<h2 id="_email_tracker">
+  <a class="header-icon-link highlight" href="#">
+    Integrating Mail Tracker with Helpdesk 365
+    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+  </a>
+</h2>
 
-        <p>
-            When the "Integrate Microsoft Form with Helpdesk" toggle is enabled in Helpdesk 365 settings,
-            the Mail Tracker option becomes visible in the left navigation panel.
-        </p>
-        <br>
+<!-- Introduction -->
+<p>
+  The <b>Mail Tracker</b> in Helpdesk 365 provides complete visibility into email communications generated within the system.
+  It allows administrators and users to track notifications, reminders, and email interactions, improving transparency,
+  compliance, and accountability.
+</p>
 
-        <div>
-            <img src="12.png" onclick="openModal('12.png')" alt="Toggle Integration" width="100%" height="auto">
-        </div>
-        <br>
-        <div>
-            <img src="13.png" onclick="openModal('13.png')" alt="Toggle Integration" width="100%" height="auto">
-        </div>
-        <br>
+<p>
+  <b>Note:</b> To integrate Mail Tracker 365 with Helpdesk 365, a <b>Power Automate Premium license</b> is required.
+  Ensure your Power Automate plan supports premium connectors before proceeding.
+</p>
 
-        <p>
-            From the home screen, users can view <b>My Emails</b> to track which emails they have sent or received through the Helpdesk system.
-            This view includes delivery status, read receipts, and time logs.
-        </p>
-        <br>
+<p><b>Step 1: Import Mail Tracker Flow</b></p>
+<p>
+  Navigate to <b>Power Automate</b> and select <b>My Flows</b> from the left navigation panel.
 
-            <img src="2.png" onclick="openModal('2.png')" alt="Mail Tracker Summary View" width="100%" height="auto">
-        
-        <p>
-            The <b>Team Emails</b> view displays mail activities related to the user’s assigned teams or groups.
-            It supports better coordination and transparency by showing team-wide email tracking data.
-        </p>
-    
-            <img src="21.png" onclick="openModal('21.png')" alt="Mail Tracker Summary View" width="100%" height="auto">
-    
-        <br>
-         <p>
-            The <b>Top Interactions</b> section highlights the users with the highest number of email engagements —
-            such as most emails sent,  received — within a given period.
-            This helps identify active participants and engagement trends.
-        </p>
+</p>
 <div>
-            <img src="22.png" onclick="openModal('22.png')" alt="Mail Tracker Detail View" width="100%" height="auto">
-        </div>
-        <p>
-            Clicking on a specific user or email record allows you to view detailed interaction logs,
-            including email open time, IP address, device info, browser, and location.
-        </p>
-        <br>
-
-        <div>
-            <img src="3.png" onclick="openModal('3.png')" alt="Mail Tracker Detail View" width="100%" height="auto">
-        </div>
-        <br>
-       <p>
-The <b>Dashboard </b>in Email Tracker offers a concise overview of email productivity, including sent and received email counts, recipients, senders, open rates, and activity trends. Filters help you view data by user or team, making it easier to analyze communication performance over time.
-<br><br>
-       </p>
+  <img src="pa1.png" onclick="openModal('pa1.png')" alt="Import Package" width="100%" height="auto">
+</div><br>
+<p>  Click <b>Import Package</b> and upload the Mail Tracker flow package provided in the resources.</p>
 <div>
-            <img src="23.png" onclick="openModal('23.png')" alt="Mail Tracker Detail View" width="100%" height="auto">
-        </div>
-        <p>
-The Report tab displays detailed click tracking for each email, showing recipient activity including subject, URL clicked, timestamps for first and last clicks, and total interactions. This helps monitor user engagement at a granular level.
+  <img src="pa1a.png" onclick="openModal('pa1a.png')" alt="Import Package" width="100%" height="auto">
+</div><br>
+<div>
+  <img src="pa1b.png" onclick="openModal('pa1b.png')" alt="Import Package" width="100%" height="auto">
+</div><br>
 
-        <p><div>
-            <img src="24.png" onclick="openModal('24.png')" alt="Mail Tracker Detail View" width="100%" height="auto">
-        </div>
+<p><b>Step 2: Review Package Content</b></p>
+<p>
+  In the <b>Review Package Content</b> screen, locate the action
+  <b>HR365 - Mail Tracker 365 Encryption</b> and select <b>Create as New</b> from the setup dropdown.
+</p>
+<div>
+  <img src="pa2.png" onclick="openModal('pa2.png')" alt="Review Package Content" width="100%" height="auto">
+</div><br>
+<div>
+  <img src="pa2a.png" onclick="openModal('pa2a.png')" alt="Review Package Content" width="100%" height="auto">
+</div><br>
 
-            This module ensures transparency in communication, supports compliance checks,
-            and improves accountability for system-generated notifications within Helpdesk 365.
-        </p>
-        <br>
-        </div>
+<p><b>Step 3: Configure Related Resources</b></p>
+<p>
+  Under <b>Related Resources</b>, click the action icon for the listed resources and select <b>Create New</b>.
+ 
+</p>
+<div>
+  <img src="pa3.png" onclick="openModal('pa3.png')" alt="Related Resources" width="100%" height="auto">
+</div><br>
+<div>
+  <img src="pa3a.png" onclick="openModal('pa3a.png')" alt="Related Resources" width="100%" height="auto">
+</div><br>
+<div>
+  <img src="pa3b.png" onclick="openModal('pa3b.png')" alt="Related Resources" width="100%" height="auto">
+</div><br>
+<p> Once completed, click <b>Import</b> to proceed.</p>
+<div>
+  <img src="pa3c.png" onclick="openModal('pa3c.png')" alt="Related Resources" width="100%" height="auto">
+</div><br>
+
+<p><b>Step 4: Configure and Enable Flow</b></p>
+<p>
+  Open the imported flow, set the recurrence as per your business requirement,
+  add the required site URL, save the flow, and ensure the flow is turned <b>On</b>.
+</p>
+<div>
+  <img src="pa4.png" onclick="openModal('pa4.png')" alt="Enable Flow" width="100%" height="auto">
+</div><br>
+<div>
+  <img src="pa5.png" onclick="openModal('pa5.png')" alt="Enable Flow" width="100%" height="auto">
+</div><br>
+<div>
+  <img src="pa6.png" onclick="openModal('pa6.png')" alt="Enable Flow" width="100%" height="auto">
+</div><br>
+<!-- Existing Content (Retained & Enhanced) -->
+<p>
+  When the <b>Integrate Mail Tracker with Helpdesk 365</b> toggle is enabled in Helpdesk settings,
+  the Mail Tracker option becomes visible in the left navigation panel.
+</p>
+<div>
+  <img src="12.png" onclick="openModal('12.png')" alt="Toggle Integration" width="100%" height="auto">
+</div><br>
+<div>
+  <img src="13.png" onclick="openModal('13.png')" alt="Toggle Integration" width="100%" height="auto">
+</div><br>
+
+<p>
+  From the home screen, users can access <b>My Emails</b> to view emails sent or received by them through Helpdesk 365.
+  This includes delivery status, read receipts, and timestamps.
+</p>
+<div>
+  <img src="2.png" onclick="openModal('2.png')" alt="My Emails View" width="100%" height="auto">
+</div><br>
+
+<p>
+  The <b>Team Emails</b> view displays email activities related to the user’s assigned teams,
+  enabling better collaboration and transparency across teams.
+</p>
+<div>
+  <img src="21.png" onclick="openModal('21.png')" alt="Team Emails View" width="100%" height="auto">
+</div><br>
+
+<p>
+  The <b>Top Interactions</b> section highlights recipients or teams with the highest email engagement,
+  helping identify frequent communication patterns and active users.
+</p>
+<div>
+  <img src="22.png" onclick="openModal('22.png')" alt="Top Interactions" width="100%" height="auto">
+</div><br>
+
+<p>
+  Selecting a specific user or email record opens a detailed interaction view,
+  showing email open time, IP address, device type, browser, and location details.
+</p>
+<div>
+  <img src="3.png" onclick="openModal('3.png')" alt="Email Interaction Details" width="100%" height="auto">
+</div><br>
+
+<p>
+  The <b>Dashboard</b> provides a consolidated view of email productivity,
+  including sent and received counts, open rates, recipients, and activity trends.
+  Filters allow analysis by user or team.
+</p>
+<div>
+  <img src="23.png" onclick="openModal('23.png')" alt="Mail Tracker Dashboard" width="100%" height="auto">
+</div><br>
+
+<p>
+  The <b>Report</b> tab displays detailed click tracking for emails,
+  showing recipient activity such as clicked URLs, timestamps, and interaction counts.
+</p>
+<div>
+  <img src="24.png" onclick="openModal('24.png')" alt="Mail Tracker Reports" width="100%" height="auto">
+</div><br>
+
+<p>
+  This module ensures transparent communication, supports compliance monitoring,
+  and improves accountability for all system-generated notifications within Helpdesk 365.
+</p>
+
+</ul>
+</div>
+
                         <div class="bg-light p-4 remove-padding common-scroll" id="DevOps-Integrations">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>DevOps Integrations
