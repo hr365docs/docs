@@ -266,6 +266,11 @@ $(document).ready(function () {
     "<a href='/Expense-tracker/modern/admin/settings/feature/#Expense-Future-Days'>Expense Future Days</a>" +
     "</li>" +
 
+    
+    "<li data-nav-id='../General' title='GST for Expense Type' class='sidelist'>" +
+    "<a href='/Expense-tracker/modern/admin/settings/feature/#GST-for-Expense-Type'>GST for Expense Type</a>" +
+    "</li>" +
+
     "<li data-nav-id='../General' title='Logs Collection' class='sidelist'>" +
     "<a href='/Expense-tracker/modern/admin/settings/feature/#Logs-Collection'>Logs Collection</a>" +
     "</li>" +
