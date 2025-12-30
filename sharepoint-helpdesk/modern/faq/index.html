@@ -1317,7 +1317,130 @@
     </div>
 
 
+
+
             </div>
+            
+    <div class="card mb-4 rounded-0 shadow border-0">
+    <div class="card-header rounded-0 bg-white border p-0 border-0">
+        <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
+            data-bs-toggle="collapse" href="#collapse-api-justification" role="button"
+            aria-expanded="false" aria-controls="collapse-api-justification">
+            <span>Helpdesk API Permissions – Justification</span>
+            <i class="ti ti-plus text-primary text-right"></i>
+        </a>
+    </div>
+
+    <div id="collapse-api-justification" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body font-secondary text-color pt-0">
+
+            <ol>
+                Below are the Microsoft Graph API permissions required for the Helpdesk application and their justifications:
+            </ol>
+
+            <p>
+                <strong>API Name:</strong> Team.ReadBasic.All <br>
+                <strong>What it enables:</strong> Read names, IDs, descriptions, and visibility of all Teams (basic profile only). <br>
+                <strong>Why it is required:</strong> Used by the Bubble 365 feature to retrieve Team details when creating and managing Teams via Microsoft Graph API.
+            </p>
+            <br>
+            <div>
+                <img src="api1.png" onclick="openModal('api1.png')" alt="Team.ReadBasic.All Permission"
+                    width="100%" height="auto">
+            </div>
+            <br>
+
+            <p>
+                <strong>API Name:</strong> User.Read.All <br>
+                <strong>What it enables:</strong> Read full user profiles from the directory. <br>
+                <strong>Why it is required:</strong> Enables people pickers and displays requester/assignee details such as name, job title, email, manager, and department.
+            </p>
+            <br>
+            <p>
+                <img src="api2.png" onclick="openModal('api2.png')" alt="User.Read.All Permission"
+                    width="100%" height="auto">
+            </p>
+            <br>
+
+            <p>
+                <strong>API Name:</strong> ChatMessage.Send <br>
+                <strong>What it enables:</strong> Send messages to any chat or channel. <br>
+                <strong>Why it is required:</strong> Allows users to send messages directly from the application into Microsoft Teams.
+            </p>
+            <br>
+            <div>
+                <img src="api3.png" onclick="openModal('api3.png')" alt="ChatMessage.Send Permission"
+                    width="50%" height="50%">
+            </div>
+            <br>
+
+            <p>
+                <strong>API Name:</strong> Team.Create <br>
+                <strong>What it enables:</strong> Create Microsoft Teams and associated Microsoft 365 groups. <br>
+                <strong>Why it is required:</strong> Used by Bubble 365 to create Teams for agent and supervisor communication at ticket trigger points.
+            </P>
+            <br>
+            <div>
+                <img src="api1.png" onclick="openModal('api1.png')" alt="Team.Create Permission"
+                    width="100%" height="auto">
+            </div>
+            <br>
+
+            <P>
+                <strong>API Name:</strong> Directory.Read.All <br>
+                <strong>What it enables:</strong> Read directory-wide objects such as users, groups, and organizational data. <br>
+                <strong>Why it is required:</strong> Enables dynamic Team creation and member assignment through Microsoft Graph API.
+            </P>
+            <br>
+            <div>
+                <img src="api5.png" onclick="openModal('api5.png')" alt="Directory.Read.All Permission"
+                    width="100%" height="auto">
+            </div>
+            <br>
+
+            <P>
+                <strong>API Name:</strong> TeamSettings.Read.All <br>
+                <strong>What it enables:</strong> Read Team settings such as guest access, member permissions, and messaging settings. <br>
+                <strong>Why it is required:</strong> Ensures consistency of Team configurations during automated Team creation.
+            </P>
+            <br>
+            <div>
+                <img src="api6.png" onclick="openModal('api6.png')" alt="TeamSettings.Read.All Permission"
+                    width="100%" height="auto">
+            </div>
+            <br>
+
+            <P>
+                <strong>API Name:</strong> Chat.Create <br>
+                <strong>What it enables:</strong> Create new one-to-one or group chats. <br>
+                <strong>Why it is required:</strong> Allows the application to initiate new chats directly from the Helpdesk system.
+            </P>
+            <br>
+            <div>
+                <img src="api7.png" onclick="openModal('api7.png')" alt="Chat.Create Permission"
+                    width="100%" height="auto">
+            </div>
+            <br>
+
+            <P>
+                <strong>API Name:</strong> Chat.ReadWrite <br>
+                <strong>What it enables:</strong> Read and send messages in chats the user is a member of. <br>
+                <strong>Why it is required:</strong> Enables message delivery, chat history maintenance, and interactive communication in Microsoft Teams.
+            </P>
+            <br>
+            <div>
+                <img src="api8.png" onclick="openModal('api8.png')" alt="Chat.ReadWrite Permission"
+                    width="100%" height="auto">
+            </div>
+            <br>
+
+            <p class="mt-3">
+                These API permissions are required to enable Teams integration, automated communication, and user collaboration within the Helpdesk application.
+            </p>
+
+        </div>
+    </div>
+</div>
 
         </div>
 
