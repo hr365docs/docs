@@ -1501,9 +1501,16 @@ section .container{
  
 
   /* faq expand icon */
-  .card-link[aria-expanded="true"] .ti-plus:before{
-    display: none;
-  }
+ /* collapsed → PLUS */
+.card-link[aria-expanded="false"] i::before {
+  content: "\e61a"; /* ti-plus */
+}
+
+/* expanded → MINUS */
+.card-link[aria-expanded="true"] i::before {
+  content: "\e622"; /* ti-minus */
+}
+
   .card-link[aria-expanded="true"] i{
     position: absolute;
     left: calc(100% + -35px);

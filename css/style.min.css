@@ -1501,9 +1501,24 @@ section .container{
  
 
   /* faq expand icon */
-  .card-link[aria-expanded="true"] .ti-plus:before{
-    display: none;
-  }
+ /* collapsed → PLUS */
+/* Expanded → show minus */
+.card-link[aria-expanded="true"] i::before {
+  content: "\e622"; /* ti-minus */
+}
+
+/* Collapsed → show plus */
+/* expanded via aria */
+.card-link[aria-expanded="true"] i::before {
+  content: "\e622";
+}
+
+/* expanded via .show */
+.collapse.show ~ .card-header .card-link i::before {
+  content: "\e622";
+}
+
+
   .card-link[aria-expanded="true"] i{
     position: absolute;
     left: calc(100% + -35px);
