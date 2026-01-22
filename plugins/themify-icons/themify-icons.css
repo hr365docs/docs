@@ -132,6 +132,10 @@
 .ti-plus:before {
   content: "\e61a";
 }
+.ti-plus:after{
+  content: "\e61a";
+}
+
 
 .ti-pin:before {
   content: "\e61b";
@@ -1432,3 +1436,4 @@
 .ti-rss-alt:before {
   content: "\e75f";
 }
+

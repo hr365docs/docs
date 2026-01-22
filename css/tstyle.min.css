@@ -1502,14 +1502,24 @@ section .container{
 
   /* faq expand icon */
  /* collapsed → PLUS */
-.card-link[aria-expanded="false"] i::before {
-  content: "\e61a"; /* ti-plus */
+.toggle-icon::before {
+    content: "\e64b"; /* ti-minus */
 }
 
-/* expanded → MINUS */
-.card-link[aria-expanded="true"] i::before {
-  content: "\e622"; /* ti-minus */
+.collapsed .toggle-icon::before {
+    content: "\e64c"; /* ti-plus */
 }
+/* default = plus */
+.toggle-icon::before {
+    content: "\e61a"; /* ti-plus */
+}
+
+/* when accordion is OPEN (collapsed class removed) */
+a:not(.collapsed) .toggle-icon::before {
+    content: "\e622"; /* ti-minus */
+}
+
+
 
   .card-link[aria-expanded="true"] i{
     position: absolute;
