@@ -132,9 +132,7 @@
 .ti-plus:before {
   content: "\e61a";
 }
-.ti-plus:after{
-  content: "\e61a";
-}
+
 
 
 .ti-pin:before {
