@@ -67,6 +67,15 @@ $(document).ready(function () {
       "<li data-nav-id='../General' title='App User' class='sidelist'>" +
         "<a class='qwe' href='/LMS/modern/admin/setting/App-Users/'>App User</a>" +
       "</li>" +
+      "<li data-nav-id='../General' title='General Administration' class='sidelist'>" +
+        "<a class='qwe' href='/LMS/modern/admin/setting/General-administration/'>General Administration</a>" +
+      "</li>" +
+      "<li data-nav-id='../General' title='Features' class='sidelist'>" +
+        "<a class='qwe' href='/LMS/modern/admin/setting/Features/'>Features</a>" +
+      "</li>" +
+      "<li data-nav-id='../General' title='AI Control Panel' class='sidelist'>" +
+        "<a class='qwe' href='/LMS/modern/admin/setting/AI-Control-Panel/'>AI Control Panel</a>" +
+      "</li>" +
 
       "<li data-nav-id='../General' title='Notification' class='sidelist'>" +
         "<a class='qwe' href='/LMS/modern/admin/setting/Notification/'>Notification</a>" +

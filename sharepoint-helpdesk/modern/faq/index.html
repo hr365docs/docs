@@ -233,6 +233,105 @@
                         <div class="card mb-4 rounded-0 shadow border-0">
                             <div class="card-header rounded-0 bg-white border p-0 border-0">
                                 <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
+                                    data-bs-toggle="collapse" href="#How-to-Download-and-Share-HAR-File" role="button"
+                                    aria-expanded="false" aria-controls="How-to-Download-and-Share-HAR-File">
+                                    <span>How to Download and Share a HAR File for Support?</span> <i
+                                        class="ti-plus text-primary text-right"></i>
+                                </a>
+                            </div>
+                            <div id="How-to-Download-and-Share-HAR-File" class=collapse data-parent=#accordion>
+                                <div class="card-body font-secondary text-color pt-0">
+                                    <p>When you experience issues such as being unable to submit the ticket or if
+                                        entered
+                                        data disappears after refreshing the page, the support team may request a HAR
+                                        file.
+                                        A HAR (HTTP Archive) file captures detailed logs of your browser’s interactions
+                                        with
+                                        the system. This helps us analyse what happened on your screen and identify the
+                                        root
+                                        cause quickly and accurately.</p>
+
+                                    <h6>Why the Support Team Needs a HAR File</h6>
+                                    <p>A HAR file allows us to:</p>
+                                    <ol>
+                                        <li>Review each action taken in your browser.</li>
+                                        <li>Detect any network-related issues, failures, or delays.</li>
+                                        <li>Identify technical errors that may not be visible on the screen</li>
+                                    </ol>
+                                    <h6>How to Download a HAR File</h6>
+                                    <p>The steps to open Developer Tools and save a HAR file differ based on your
+                                        operating system.</p>
+                                    <h6>For Windows Users:</h6>
+                                    <ol>
+                                        <li>Open Google Chrome or Microsoft Edge.</li>
+                                        <li>Navigate to the HD 365 page where the issue occurs.</li>
+                                        <li>Open Developer Tools using any one of the following: <br> * Press F12.
+                                            <br>
+                                            * Press Ctrl + Shift + I
+                                            <br>
+                                            * Click the three dots menu (⋮) → More Tools → Developer Tools.
+                                        </li>
+                                        <li>Click on the Network tab inside the Developer Tools panel.
+                                        </li>
+                                        <li>Ensure that you clear the logs in network tab (as shown in the clips).
+                                        </li>
+                                        <li>Reproduce the same scenario where you are encountering the issue.
+                                        </li>
+                                        <li>Click on download and download the HAR file.
+                                        </li>
+                                    </ol>
+                                    <br>
+                                    <h6>For Mac Users:</h6>
+                                    <ol>
+                                        <li>Open Google Chrome or Microsoft Edge.</li>
+
+                                        <li>Navigate to the HD 365 page where the issue occurs.</li>
+
+                                        <li>
+                                            Open Developer Tools using one of the following methods:
+                                            <ul>
+                                                <li>Press <strong>Command + Option + I</strong></li>
+                                                <li>Click the three dots menu (⋮) → <strong>More Tools</strong> →
+                                                    <strong>Developer Tools</strong>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li>Click on the <strong>Network</strong> tab inside the Developer Tools panel.
+                                        </li>
+
+                                        <li>Ensure that you clear the logs in the Network tab (as shown in the clips).
+                                        </li>
+
+                                        <li>Reproduce the same scenario where you are encountering the issue.</li>
+
+                                        <li>Click on <strong>Download</strong> and download the <strong>HAR
+                                                file</strong>.</li>
+                                    </ol>
+                                    <h6>Screenshots and Demo Clips :</h6>
+                                    <a style="font-size: 15
+                                    px;"
+                                        href="https://megazap-my.sharepoint.com/personal/isaiahl_megazap_onmicrosoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fisaiahl%5Fmegazap%5Fonmicrosoft%5Fcom%2FDocuments%2FRecording%2D20251128%5F163314%2Ewebm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea6b898bf%2Da757%2D4fa7%2D8782%2D8ab7ddaeca7a">Clips
+                                        to download the HAR file</a>
+                                    <br>
+                                    <br>
+                                    <h6>How to Share the HAR File with Support</h6>
+                                    <p>
+                                        Once you have downloaded the HAR file, please share it with the support team by:
+                                    </p>
+                                    <p>
+                                        * Replying directly to the support email with the HAR file attached
+                                    </p>
+                                    <p>
+                                        Providing the HAR file will greatly help us troubleshoot the problem more
+                                        effectively and will save time for both of us.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4 rounded-0 shadow border-0">
+                            <div class="card-header rounded-0 bg-white border p-0 border-0">
+                                <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
                                     data-bs-toggle="collapse" href="#license-number-count" role="button"
                                     aria-expanded="false" aria-controls="license-number-count">
                                     <span>How does the user’s license number count?
@@ -1194,9 +1293,11 @@
                 <div id="allowed-as-attachments" class="collapse" data-parent="#accordion">
                     <div class="card-body font-secondary text-color pt-0">
                         <p>The Helpdesk application supports all file formats as attachments when creating an email
-                            ticket, except for <b>.msg</b> and <b>.oft</b> files. These two formats, which are commonly used for email
+                            ticket, except for <b>.msg</b> and <b>.oft</b> files. These two formats, which are commonly
+                            used for email
                             attachments, are restricted due to Microsoft’s security limitations. Additionally, <b> Power
-                            Automate will block attachments of these file types</b>, ensuring they cannot be processed
+                                Automate will block attachments of these file types</b>, ensuring they cannot be
+                            processed
                             through the system.</p>
                     </div>
                 </div>
@@ -1241,7 +1342,8 @@
                                     width="100%" height="auto"></div><br>
 
                             <li>Options such as <strong>View</strong>, <strong>Restore</strong>, and
-                                <strong>Delete</strong> will be displayed.</li><br>
+                                <strong>Delete</strong> will be displayed.
+                            </li><br>
                             <div><img src="teams5.png" onclick="openModal('teams5.png')" alt="Restore Options"
                                     width="100%" height="auto"></div><br>
 
@@ -1256,7 +1358,8 @@
                                     width="100%" height="auto"></div><br>
 
                             <li>After confirmation, select the package, click on <strong>Files</strong>, and choose
-                                <strong>Deploy</strong>.</li><br>
+                                <strong>Deploy</strong>.
+                            </li><br>
                             <div><img src="teams8.png" onclick="openModal('teams8.png')" alt="Deploy Package"
                                     width="100%" height="auto"></div><br>
 
@@ -1270,173 +1373,192 @@
                     </div>
                 </div>
 
-               
-
-
-
-        </div>
-         <div class="card mb-4 rounded-0 shadow border-0">
-    <div class="card-header rounded-0 bg-white border p-0 border-0">
-        <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
-            data-bs-toggle="collapse" href="#verifyplan" aria-expanded="false" aria-controls="verifyplan"
-            role="button">
-            <span>How to verify the Power Automate plan?</span> 
-            <i class="ti-plus text-primary text-right"></i>
-        </a>
-    </div>
-   
-
- <div id="verifyplan" class="collapse" data-parent="#accordion">
-        <div class="card-body font-secondary text-color pt-0">
-            <ol>Follow the steps below to verify your Power Automate license plan:<br><br>
-            
-            <li>Navigate to <strong>Power Automate</strong> by visiting 
-                <a href="https://make.powerautomate.com/" target="_blank">make.powerautomate.com</a>.
-                Once logged in, click on the <strong>Settings</strong> icon in the top-right corner.
-            </li><br>
-            <div>
-                <img src="verify1.png" onclick="openModal('verify1.png')" alt="Power Automate Settings" width="100%" height="auto">
-            </div><br>
-
-            <li>In the Settings menu, select <strong>View My Licenses</strong>.  
-                This will open the detailed license overview for your account.
-            </li><br>
-            <div>
-                <img src="verify2.png" onclick="openModal('verify2.png')" alt="Power Automate View License" width="100%" height="auto">
-            </div><br>
-
-            <li>In the license details, verify whether the <strong>Premium Connector</strong> is enabled.  
-                If it is active, you have access to premium flows and connectors.
-            </li><br>
-            <div>
-                <img src="verify3.png" onclick="openModal('verify3.png')" alt="Premium Connector Verification" width="100%" height="auto">
-            </div><br>
-</ol>
-           
-        </div>
-    </div>
 
 
 
 
             </div>
-            
-    <div class="card mb-4 rounded-0 shadow border-0">
-    <div class="card-header rounded-0 bg-white border p-0 border-0">
-        <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
-            data-bs-toggle="collapse" href="#collapse-api-justification" role="button"
-            aria-expanded="false" aria-controls="collapse-api-justification">
-            <span>Helpdesk API Permissions – Justification</span>
-            <i class="ti ti-plus text-primary text-right"></i>
-        </a>
-    </div>
+            <div class="card mb-4 rounded-0 shadow border-0">
+                <div class="card-header rounded-0 bg-white border p-0 border-0">
+                    <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
+                        data-bs-toggle="collapse" href="#verifyplan" aria-expanded="false" aria-controls="verifyplan"
+                        role="button">
+                        <span>How to verify the Power Automate plan?</span>
+                        <i class="ti-plus text-primary text-right"></i>
+                    </a>
+                </div>
 
-    <div id="collapse-api-justification" class="collapse" data-bs-parent="#accordion">
-        <div class="card-body font-secondary text-color pt-0">
 
-            <ol>
-                Below are the Microsoft Graph API permissions required for the Helpdesk application and their justifications:
-            </ol>
+                <div id="verifyplan" class="collapse" data-parent="#accordion">
+                    <div class="card-body font-secondary text-color pt-0">
+                        <ol>Follow the steps below to verify your Power Automate license plan:<br><br>
 
-            <p>
-                <strong>API Name:</strong> Team.ReadBasic.All <br>
-                <strong>What it enables:</strong> Read names, IDs, descriptions, and visibility of all Teams (basic profile only). <br>
-                <strong>Why it is required:</strong> Used by the Bubble 365 feature to retrieve Team details when creating and managing Teams via Microsoft Graph API.
-            </p>
-            <br>
-            <div>
-                <img src="api1.png" onclick="openModal('api1.png')" alt="Team.ReadBasic.All Permission"
-                    width="100%" height="auto">
+                            <li>Navigate to <strong>Power Automate</strong> by visiting
+                                <a href="https://make.powerautomate.com/" target="_blank">make.powerautomate.com</a>.
+                                Once logged in, click on the <strong>Settings</strong> icon in the top-right corner.
+                            </li><br>
+                            <div>
+                                <img src="verify1.png" onclick="openModal('verify1.png')" alt="Power Automate Settings"
+                                    width="100%" height="auto">
+                            </div><br>
+
+                            <li>In the Settings menu, select <strong>View My Licenses</strong>.
+                                This will open the detailed license overview for your account.
+                            </li><br>
+                            <div>
+                                <img src="verify2.png" onclick="openModal('verify2.png')"
+                                    alt="Power Automate View License" width="100%" height="auto">
+                            </div><br>
+
+                            <li>In the license details, verify whether the <strong>Premium Connector</strong> is
+                                enabled.
+                                If it is active, you have access to premium flows and connectors.
+                            </li><br>
+                            <div>
+                                <img src="verify3.png" onclick="openModal('verify3.png')"
+                                    alt="Premium Connector Verification" width="100%" height="auto">
+                            </div><br>
+                        </ol>
+
+                    </div>
+                </div>
+
+
+
+
             </div>
-            <br>
 
-            <p>
-                <strong>API Name:</strong> User.Read.All <br>
-                <strong>What it enables:</strong> Read full user profiles from the directory. <br>
-                <strong>Why it is required:</strong> Enables people pickers and displays requester/assignee details such as name, job title, email, manager, and department.
-            </p>
-            <br>
-           
+            <div class="card mb-4 rounded-0 shadow border-0">
+                <div class="card-header rounded-0 bg-white border p-0 border-0">
+                    <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
+                        data-bs-toggle="collapse" href="#collapse-api-justification" role="button" aria-expanded="false"
+                        aria-controls="collapse-api-justification">
+                        <span>Helpdesk API Permissions – Justification</span>
+                        <i class="ti ti-plus text-primary text-right"></i>
+                    </a>
+                </div>
 
-            <p>
-                <strong>API Name:</strong> ChatMessage.Send <br>
-                <strong>What it enables:</strong> Send messages to any chat or channel. <br>
-                <strong>Why it is required:</strong> Allows users to send messages directly from the application into Microsoft Teams.
-            </p>
-            <br>
-            <div>
-                <img src="api3.png" onclick="openModal('api3.png')" alt="ChatMessage.Send Permission"
-                    width="50%" height="50%">
+                <div id="collapse-api-justification" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body font-secondary text-color pt-0">
+
+                        <ol>
+                            Below are the Microsoft Graph API permissions required for the Helpdesk application and
+                            their justifications:
+                        </ol>
+
+                        <p>
+                            <strong>API Name:</strong> Team.ReadBasic.All <br>
+                            <strong>What it enables:</strong> Read names, IDs, descriptions, and visibility of all Teams
+                            (basic profile only). <br>
+                            <strong>Why it is required:</strong> Used by the Bubble 365 feature to retrieve Team details
+                            when creating and managing Teams via Microsoft Graph API.
+                        </p>
+                        <br>
+                        <div>
+                            <img src="api1.png" onclick="openModal('api1.png')" alt="Team.ReadBasic.All Permission"
+                                width="100%" height="auto">
+                        </div>
+                        <br>
+
+                        <p>
+                            <strong>API Name:</strong> User.Read.All <br>
+                            <strong>What it enables:</strong> Read full user profiles from the directory. <br>
+                            <strong>Why it is required:</strong> Enables people pickers and displays requester/assignee
+                            details such as name, job title, email, manager, and department.
+                        </p>
+                        <br>
+
+
+                        <p>
+                            <strong>API Name:</strong> ChatMessage.Send <br>
+                            <strong>What it enables:</strong> Send messages to any chat or channel. <br>
+                            <strong>Why it is required:</strong> Allows users to send messages directly from the
+                            application into Microsoft Teams.
+                        </p>
+                        <br>
+                        <div>
+                            <img src="api3.png" onclick="openModal('api3.png')" alt="ChatMessage.Send Permission"
+                                width="50%" height="50%">
+                        </div>
+                        <br>
+
+                        <p>
+                            <strong>API Name:</strong> Team.Create <br>
+                            <strong>What it enables:</strong> Create Microsoft Teams and associated Microsoft 365
+                            groups. <br>
+                            <strong>Why it is required:</strong> Used by Bubble 365 to create Teams for agent and
+                            supervisor communication at ticket trigger points.
+                        </P>
+                        <br>
+                        <div>
+                            <img src="api1.png" onclick="openModal('api1.png')" alt="Team.Create Permission"
+                                width="100%" height="auto">
+                        </div>
+                        <br>
+
+                        <P>
+                            <strong>API Name:</strong> Directory.Read.All <br>
+                            <strong>What it enables:</strong> Read directory-wide objects such as users, groups, and
+                            organizational data. <br>
+                            <strong>Why it is required:</strong> Enables dynamic Team creation and member assignment
+                            through Microsoft Graph API.
+                        </P>
+                        <br>
+                        <div>
+                            <img src="api1.png" onclick="openModal('api1.png')" alt="Directory.Read.All Permission"
+                                width="100%" height="auto">
+                        </div>
+                        <br>
+
+                        <P>
+                            <strong>API Name:</strong> TeamSettings.Read.All <br>
+                            <strong>What it enables:</strong> Read Team settings such as guest access, member
+                            permissions, and messaging settings. <br>
+                            <strong>Why it is required:</strong> Ensures consistency of Team configurations during
+                            automated Team creation.
+                        </P>
+                        <br>
+                        <div>
+                            <img src="api1.png" onclick="openModal('api1.png')" alt="TeamSettings.Read.All Permission"
+                                width="100%" height="auto">
+                        </div>
+                        <br>
+
+                        <P>
+                            <strong>API Name:</strong> Chat.Create <br>
+                            <strong>What it enables:</strong> Create new one-to-one or group chats. <br>
+                            <strong>Why it is required:</strong> Allows the application to initiate new chats directly
+                            from the Helpdesk system.
+                        </P>
+                        <br>
+                        <div>
+                            <img src="api3.png" onclick="openModal('api3.png')" alt="Chat.Create Permission" width="50%"
+                                height="50%">
+                        </div>
+                        <br>
+
+                        <P>
+                            <strong>API Name:</strong> Chat.ReadWrite <br>
+                            <strong>What it enables:</strong> Read and send messages in chats the user is a member of.
+                            <br>
+                            <strong>Why it is required:</strong> Enables message delivery, chat history maintenance, and
+                            interactive communication in Microsoft Teams.
+                        </P>
+                        <br>
+                        <div>
+                            <img src="api3.png" onclick="openModal('api3.png')" alt="Chat.ReadWrite Permission"
+                                width="50%" height="30%">
+                        </div>
+                        <br>
+
+                        <p class="mt-3">
+                            These API permissions are required to enable Teams integration, automated communication, and
+                            user collaboration within the Helpdesk application.
+                        </p>
+
+                    </div>
+                </div>
             </div>
-            <br>
-
-            <p>
-                <strong>API Name:</strong> Team.Create <br>
-                <strong>What it enables:</strong> Create Microsoft Teams and associated Microsoft 365 groups. <br>
-                <strong>Why it is required:</strong> Used by Bubble 365 to create Teams for agent and supervisor communication at ticket trigger points.
-            </P>
-            <br>
-            <div>
-                <img src="api1.png" onclick="openModal('api1.png')" alt="Team.Create Permission"
-                    width="100%" height="auto">
-            </div>
-            <br>
-
-            <P>
-                <strong>API Name:</strong> Directory.Read.All <br>
-                <strong>What it enables:</strong> Read directory-wide objects such as users, groups, and organizational data. <br>
-                <strong>Why it is required:</strong> Enables dynamic Team creation and member assignment through Microsoft Graph API.
-            </P>
-            <br>
-            <div>
-                <img src="api1.png" onclick="openModal('api1.png')" alt="Directory.Read.All Permission"
-                    width="100%" height="auto">
-            </div>
-            <br>
-
-            <P>
-                <strong>API Name:</strong> TeamSettings.Read.All <br>
-                <strong>What it enables:</strong> Read Team settings such as guest access, member permissions, and messaging settings. <br>
-                <strong>Why it is required:</strong> Ensures consistency of Team configurations during automated Team creation.
-            </P>
-            <br>
-            <div>
-                <img src="api1.png" onclick="openModal('api1.png')" alt="TeamSettings.Read.All Permission"
-                    width="100%" height="auto">
-            </div>
-            <br>
-
-            <P>
-                <strong>API Name:</strong> Chat.Create <br>
-                <strong>What it enables:</strong> Create new one-to-one or group chats. <br>
-                <strong>Why it is required:</strong> Allows the application to initiate new chats directly from the Helpdesk system.
-            </P>
-            <br>
-            <div>
-                <img src="api3.png" onclick="openModal('api3.png')" alt="Chat.Create Permission"
-                    width="50%" height="50%">
-            </div>
-            <br>
-
-            <P>
-                <strong>API Name:</strong> Chat.ReadWrite <br>
-                <strong>What it enables:</strong> Read and send messages in chats the user is a member of. <br>
-                <strong>Why it is required:</strong> Enables message delivery, chat history maintenance, and interactive communication in Microsoft Teams.
-            </P>
-            <br>
-            <div>
-                <img src="api3.png" onclick="openModal('api3.png')" alt="Chat.ReadWrite Permission"
-                    width="50%" height="30%">
-            </div>
-            <br>
-
-            <p class="mt-3">
-                These API permissions are required to enable Teams integration, automated communication, and user collaboration within the Helpdesk application.
-            </p>
-
-        </div>
-    </div>
-</div>
 
         </div>
 
@@ -1451,8 +1573,7 @@
                             href="https://www.hr365.us/sla/">SLA.</a> <a
                             href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a>
-                        <a
-                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
+                        <a href=https://www.cubiclogics.com/privacy-policy />Privacy
                         Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
                 </div>
@@ -1477,7 +1598,8 @@
         </div>
     </footer>
     <script src="/js/script.min.js"></script>
- <script src="/js/plus-toggle.js"></script></body>
+    <script src="/js/plus-toggle.js"></script>
+</body>
 <script src="../../../js/header-footer.js">
 
 </script>
