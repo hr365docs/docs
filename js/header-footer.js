@@ -110,7 +110,7 @@ $(document).ready(function () {
     `<a class='nav-link dropdown-toggle text-dark' href='#' id='webpartDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>SharePoint Add-ins</a>` +
     `<div class='dropdown-menu newWebparts' aria-labelledby='webpartDropdown'>` +
     `<a class='dropdown-item stocklink' href='/Stock365/'>Stock 365</a>` +
-    `<a class='dropdown-item stocklink' href='/BookTime-365/'>BookTime 365</a>` +
+    
     `<a class='dropdown-item stocklink' href='/Expense-365/'>Expense 365 Lite </a>` +
     `<a class='dropdown-item stocklink' href='/FAQ-365/'>FAQ 365</a>` +
     `<a class='dropdown-item stocklink' href='/Gauge365/'>Gauge 365</a>` +
