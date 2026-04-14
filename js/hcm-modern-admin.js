@@ -300,7 +300,7 @@ $(document).ready(function () {
 
                 "</li>" +
                
-                "<a href='/HRMS-HR365/modern/admin/apps/ED365/introduction/' title='ED365' >ED365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/ED365/introduction/' title='Employee Directory 365' >Employee Directory 365</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='ED365-Introduction' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/ED365/introduction/'>Introduction</a>" +
@@ -595,7 +595,7 @@ $(document).ready(function () {
 "</ul>" +
 "</li>"+ 
                
-                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/home-page/' title='TM365'>TM365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/home-page/' title='Time off Manager 365'>Time off Manager 365</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='TMP365 - Home page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/TMP365/home-page/'>Home page</a>" +
@@ -633,7 +633,7 @@ $(document).ready(function () {
                 "</ul>"+
                 "</li>"+
                 
-                "<a href='/HRMS-HR365/modern/admin/apps/EO365/home/' title='EO365'>EO365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/EO365/home/' title='Employee Onboarding 365'>Employee Onboarding 365</a>" +
                 "</li>" +
                 "<li data-nav-id='../advanced/' title='EO365 - Home Page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/EO365/home/'>Home Page</a>" +
@@ -1132,7 +1132,7 @@ $(document).ready(function () {
   "</ul>" +
 "</li>"
 +
-                "<a href='/HRMS-HR365/modern/admin/apps/TS365/home-page/' title='TS365'>TS365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TS365/home-page/' title='Timesheet 365'>Timesheet 365</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='Home page' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/TS365/home-page/'>Home page</a>" +
@@ -1431,7 +1431,7 @@ $(document).ready(function () {
 "</li>"+
 
 
-                "<a href='/HRMS-HR365/modern/admin/apps/ET365/home-page/' title='ET365'>ET365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/ET365/home-page/' title='Expense Tracker 365'>Expense Tracker 365</a>" +
                 "</li>" +
 
                 "<li data-nav-id='../advanced/' title='ET365 - Home Page' class='sidelist'>" +
@@ -1603,7 +1603,7 @@ $(document).ready(function () {
                
                
                 
-                "<a href='/HRMS-HR365/modern/admin/apps/RM365/home-page/' title='RM365'>RM365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/RM365/home-page/' title='Recruitment Management 365'>Recruitment Management 365</a>" +
                 "</li>" +
 
                 "<li data-nav-id='../advanced/' title='RM365 - Home Page' class='sidelist'>" +
@@ -1772,7 +1772,7 @@ $(document).ready(function () {
                  
 
                 "</li>" +
-                "<a href='/HRMS-HR365/modern/admin/apps/PM365/home-page/' title='PM365'>PM365</a>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/PM365/home-page/' title='Performance Management 365'>Performance Management 365</a>" +
                 "</li>" +
 
                 "<li data-nav-id='../advanced/' title='PM365 - Home Page' class='sidelist'>" +
