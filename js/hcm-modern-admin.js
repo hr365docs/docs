@@ -1986,7 +1986,46 @@ $(document).ready(function () {
 "<li data-nav-id='../advanced/' title='PM365 - Reports' class='sidelist'>" +
 "<a href='/HRMS-HR365/modern/admin/apps/PM365/reports/'>Reports</a>" +
 "</li>"
-+
++  "<a href='/HRMS-HR365/modern/admin/apps/LMS/home-page/' title='LMS 365'>LMS 365</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='LMS - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/LMS/home-page/'>Home Page</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='LMS - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/LMS/administration/'>Administration</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='LMS - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/LMS/report/'>Report</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='LMS - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/LMS/assessments/'>Assessments</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='LMS - Home Page' class='sidelist'>" +
+                 "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/LMS/settings'>" +
+    "Settings" +
+  "</a>" +
+                "</li>" +
+                     "<li class='sidelist' title='General Settings'>" +
+      "<a href='/HRMS-HR365/modern/admin/apps/LMS/settings/general-settings/'>" +
+        "General Settings" +
+      "</a>" +
+    "</li>" +
+     "<li class='sidelist' title='General Administration'>" +
+      "<a href='/HRMS-HR365/modern/admin/apps/LMS/settings/general-administration'>" +
+        "General Administration" +
+      "</a>" +
+    "</li>" +
+        "<li class='sidelist' title='Notifactions'>" +
+      "<a href='/HRMS-HR365/modern/admin/apps/LMS/settings/notifactions'>" +
+        "Notifactions" +
+      "</a>" +
+    "</li>" +
+       "<li class='sidelist' title='Theme'>" +
+      "<a href='/HRMS-HR365/modern/admin/apps/LMS/theme/index.html'>" +
+        "Theme" +
+      "</a>" +
+    "</li>" +
+
                 "</ul>" +
 
                 "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
