@@ -208,6 +208,9 @@ $(document).ready(function () {
 "<li data-nav-id='./General-Settings/' title='Display Help Page' class='sidelist'>" +
     "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#DisplayHelpPage'>Display Help Page</a>" +
 "</li>" +
+"<li data-nav-id='./General-Settings/' title='Single line ticket form' class='sidelist'>" +
+    "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#singleLine'>Single line ticket form</a>" +
+"</li>" +
 "<li data-nav-id='./Language-Settings/' title='Language Translation' class='sidelist'>" +
     "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Language-Translation'>Language Translation</a>" +
 "</li>" +
