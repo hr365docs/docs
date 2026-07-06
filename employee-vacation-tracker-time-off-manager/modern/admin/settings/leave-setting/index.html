@@ -95,7 +95,8 @@
                 <div class=col-lg-3>
                     <div class=sidebar>
                         <h5 class="mbHeading" style="color:SlateBlue"> <a
-                                href="../../../../../employee-vacation-tracker-time-off-manager/">Time off Manager 365 </a>
+                                href="../../../../../employee-vacation-tracker-time-off-manager/">Time off Manager 365
+                            </a>
                         </h5>
                         <a class=back-btn href="../../../../../employee-vacation-tracker-time-off-manager/"
                             aria-label=back></a>
@@ -120,9 +121,9 @@
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Leaves Settings
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
-                           
-                       
-                         
+
+
+
                             <p><b>Leaves</b></p>
                             <p>New leave type could be added, by clicking on add button and entering all the details.
                                 New leave types, status, accrual, show leave types in home page, partial day, leave
@@ -225,13 +226,17 @@
                                     <h6>Allow backdate leaves </h6>User can be allowed to submit back date leaves by X
                                     days
                                 </li>
-                                 <img src="0.png" onclick="openModal('0.png')" alt="Calculate partial leave"
+                                <img src="0.png" onclick="openModal('0.png')" alt="Calculate partial leave"
                                     width="100%">
                                 <br><br>
                                 <li id="leaveeligibilitydelay">
-                                    <h6>Enable Leave Eligibility Delay </h6>Enable this option to assign leave only after a defined number of days from an employee’s joining date. When this toggle is turned on, the system will allow you to specify the number of days after which leave becomes eligible.
+                                    <h6>Enable Leave Eligibility Delay </h6>Enable this option to assign leave only
+                                    after a defined number of days from an employee’s joining date. When this toggle is
+                                    turned on, the system will allow you to specify the number of days after which leave
+                                    becomes eligible.
                                 </li>
-                                <img src="EligibilityDaysInput.png" onclick="openModal('EligibilityDaysInput.png')" alt="Eligibility Days Input" width="100%" height="auto"><br>
+                                <img src="EligibilityDaysInput.png" onclick="openModal('EligibilityDaysInput.png')"
+                                    alt="Eligibility Days Input" width="100%" height="auto"><br>
                                 <br>
                                 <h6>Leaves Based On</h6> Leaves are based on 3 categories. This could be enabled by
                                 selecting the check box and click on <b>Save</b> button.
@@ -248,15 +253,72 @@
                                     </li>
                                     <br>
                                     <li id="LeavesBasedOn">
-                                        <b>Level Based Leaves</b>: Level-based leaves and grades options would be
-                                        displayed under systems settings, here first define the grades for different
-                                        job title, finally add the leaves numbers for such grades from leave based
-                                        option.
+                                        <b>Level Based Leaves</b>: The Leaves based on module allows administrators to
+                                        define how leaves are allocated across the organization.
                                         <br><br>
-                                        <img src="level_base.png" onclick="openModal('level_base.png')"
+                                        <img src="level-base-leave.png" onclick="openModal('level-base-leave.png')"
                                             alt="Leave based" width="100%">
                                         <br><br>
+                                        <p>
 
+                                            Leave allocation can be configured using different categories. To enable a
+                                            category, select the checkbox and click the Save button.
+                                        </p>
+                                        <p><strong>Note:</strong> Only one category can be selected at a time. The
+                                            selected category will
+                                            be applied to all employees.</p>
+                                        <p><strong>1. Regular Leaves</strong></p>
+                                        <p>Regular leave configuration allows administrators to assign fixed leave
+                                            values based on location.</p>
+                                        <img src="leavesetting.png" onclick="openModal('leavesetting.png')"
+                                            alt="leave setting" width="100%">
+                                        <br><br>
+                                        <p>• Configure PTO, Sick Leave values</p>
+                                        <p>• Leaves can be based on Date of Joining or accrual (optional)</p>
+                                        <p>• If no location policy is defined, default values are applied</p>
+                                        <p>• Applies automatically to all employees </p>
+                                        <p>• Individual leave can be modified from User page.</p>
+                                        <img src="leave-per-year.png" onclick="openModal('leave-per-year.png')"
+                                            alt="leave setting" width="100%">
+                                        <br><br>
+                                        <p><strong>2. Level / Grade Based Leaves</strong></p>
+                                        <p>Leaves are assigned based on employee grade or level.</p>
+                                        <img src="leave.png" onclick="openModal('leave.png')" alt="leave" width="100%">
+                                        <br><br>
+                                        <p>• Define Grades in System Settings (Grade 1, Grade 2, etc.) and Grades for
+                                            job roles (e.g., Junior, Senior, Manager)</p>
+                                        <p>• Configure leave values for each grade</p>
+                                        <img src="Add-grade.png" onclick="openModal('Add-grade.png')" alt="Add-grade"
+                                            width="100%">
+                                        <br><br>
+                                        <p>• While editing user, select Employee Grade.</p>
+                                        <img src="Edit-user.png" onclick="openModal('Edit-user.png')" alt="Add-grade"
+                                            width="100%">
+                                        <br><br>
+                                        <p>• Leave allocation is based on selected grade</p>
+                                        <br>
+                                        <p><strong>3. Tenure Based Leaves</strong></p>
+                                        <p>Leaves are calculated based on employee tenure (years of service).</p>
+                                        <img src="reg.png" onclick="openModal('reg.png')" alt="Add-grade" width="100%">
+                                        <br><br>
+                                        <p>• Define tenure ranges (e.g., 0–2 years, 3–5 years)</p>
+                                        <p>• Configure leave values for each tenure level</p>
+                                        <img src="Add-Tenure-Based.png" onclick="openModal('Add-Tenure-Based.png')" alt="Add-grade" width="100%">
+                                        <br><br>
+                                        <p>• System automatically calculates based on Date of Joining</p>
+                                        <br>
+                                        <p><strong>4. Employee Type Based Leaves</strong></p>
+                                        <p>Leaves are configured based on employee type such as Full-Time, Contractor, Intern, etc.</p>
+                                        <img src="Type.png" onclick="openModal('Type.png')" alt="Type" width="100%">
+                                        <br><br>
+                                        <p>• Define employee types</p>
+                                        <p>• Assign leave values for each type</p>
+                                         <img src="add-employee.png" onclick="openModal('add-employee.png')" alt="Type" width="100%">
+                                        <br><br>
+                                        <p>• While editing user, manually select Employee Type</p>
+                                           <img src="employee-type.png" onclick="openModal('employee-type.png')" alt="Type" width="100%">
+                                        <br><br>
+                                        <p>• Leave allocation depends on selected type</p>
                                     </li>
                                     <br>
                                 </ol>
@@ -271,13 +333,14 @@
 
                                 </li>
                         </div>
-                      
+
 
 
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">
                             <a class="nav nav-prev" href="../notification/" aria-label="Previous page"><i
-                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Notifications</span></a>
+                                    class="ti-arrow-left mr-2"></i> <span
+                                    class="d-none d-md-block">Notifications</span></a>
                             <a class="nav nav-next" href="../report/" aria-label="Previous page"> <span
                                     class="d-none d-md-block">Reports</span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
@@ -305,7 +368,7 @@
                             href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
+                            href=https://www.cubiclogics.com/privacy-policy />Privacy
                         Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
                 </div>
@@ -346,6 +409,7 @@
         document.getElementById("date").innerHTML = date;
     </script>
 
- <script src="/js/plus-toggle.js"></script></body>
+    <script src="/js/plus-toggle.js"></script>
+</body>
 
 </html>
