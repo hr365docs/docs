@@ -143,6 +143,9 @@ $(document).ready(function () {
                 "<li data-nav-id='../advanced/' title='Align employee basic information' class='sidelist'>" +
                     "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#Alignemployeebasicinformation'>Align employee basic information</a>" +
                 "</li>" +
+                "<li data-nav-id='../advanced/' title='Profile Appearance' class='sidelist'>" +
+                    "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#profile-appearance'>Profile Appearance</a>" +
+                "</li>" +
 
                 "<li data-nav-id='../advanced/' title='Clear alphabet selection with reset filter' class='sidelist'>" +
                     "<a href='/sharepoint-employee-directory/modern/admin/settings/views/#Clearalpha'>Clear alphabet selection with reset filter</a>" +
