@@ -135,8 +135,8 @@ $(document).ready(function () {
             "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#sub-tickets'>Sub Tickets</a>" +
         "</li>" +
 
-        "<li data-nav-id='./Settings/' title='Requester Details' class='sidelist'>" +
-            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#requster-details'>Requester Detail</a>" +
+        "<li data-nav-id='./Settings/' title='Calendar' class='sidelist'>" +
+            "<a href='/sharepoint-helpdesk/modern/admin/comment-page/#Calendar'>Calendar</a>" +
         "</li>" +
 
         "<li data-nav-id='./Settings/' title='Scheduled Reply' class='sidelist'>" +
