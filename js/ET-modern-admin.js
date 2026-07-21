@@ -190,6 +190,9 @@ $(document).ready(function () {
          "<li data-nav-id='../General' title='AI API Integration' class='sidelist'>" +
         "<a class='qwe' href='/Expense-tracker/modern/admin/settings/integration/#_aiapiintegration'>AI API Integration</a>" +
         "</li>" +
+         "<li data-nav-id='../General' title='Copilot Integration' class='sidelist'>" +
+        "<a class='qwe' href='/Expense-tracker/modern/admin/settings/integration/#Copilot-Integration'>Copilot Integration</a>" +
+        "</li>" +
         "</ul>"+
         "</li>"+
         "</li>" +

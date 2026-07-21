@@ -392,7 +392,7 @@
                                     <!-- MAIN DOCUMENT HEADING -->
                                     <h3 id="plaid-credit-card">
                                         <a class="header-icon-link highlight" href="#">
-                                            Plaid Credit Card Expense Integration 
+                                            Plaid Credit Card Expense Integration
                                             <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
                                         </a>
                                     </h3>
@@ -574,10 +574,10 @@
                                         <li>Under Allowed redirect URIs, click <strong>Add URI</strong></li>
                                         <li>For local development, add: <code
                                                 style="background: #eee; padding: 2px 4px; border-radius: 3px;">http://localhost:3000/oauth-callback</code>
-                                            </li>
+                                        </li>
                                         <li>For production, add your live domain: <code
                                                 style="background: #eee; padding: 2px 4px; border-radius: 3px;">https://yourdomain.com/oauth-callback</code>
-                                            </li>
+                                        </li>
                                     </ol>
                                     <div>
                                         <img src="API.png" onclick="openModal('API.png')" alt="plaid" width="100%"
@@ -722,12 +722,12 @@
                                             collective report.</li>
                                     </ul>
                                     <div>
-                                        <img src="multiple-expense.png" onclick="openModal('multiple-expense.png')" alt="plaid" width="100%"
-                                            height="auto">
+                                        <img src="multiple-expense.png" onclick="openModal('multiple-expense.png')"
+                                            alt="plaid" width="100%" height="auto">
                                     </div><br>
                                     <div>
-                                        <img src="additional.png" onclick="openModal('additional.png')" alt="plaid" width="100%"
-                                            height="auto">
+                                        <img src="additional.png" onclick="openModal('additional.png')" alt="plaid"
+                                            width="100%" height="auto">
                                     </div><br>
                                     <div>
                                         <img src="loader.png" onclick="openModal('loader.png')" alt="plaid" width="100%"
@@ -1171,6 +1171,235 @@
                                         </div><br>
                                     </ul>
                                 </div>
+                                <h3 id="_dashboards ">
+                                    <a class="header-icon-link highlight" href="#" id="Copilot-Integration">
+                                       How to Integrate Copilot with Expense 365
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                                    </a>
+                                </h3>
+
+                                <h5>Prerequisites</h3>
+                                <ul>
+                                    <li>Enter <a href="https://copilotstudio.microsoft.com/"
+                                            target="_blank">https://copilotstudio.microsoft.com/</a> in any browser and
+                                        create a Copilot agent.</li>
+                                    <li>To configure this integration, you need to have a <strong>Premium Power Automate
+                                            license</strong>.</li>
+                                </ul>
+
+                                <hr>
+
+                                <h4>Steps to Integrate Copilot with Expense Tracker 365</h3>
+
+                                <ol>
+                                    <li>
+                                        Click on your Copilot agent.
+                                        <br><br>
+                                        <!-- <img src="Copilot1.png" onclick="openModal('Copilot1.png')"
+                                            alt="Select Copilot Agent" width="100%" height="auto">
+                                            <br> -->
+                                            <br>
+                                    </li>
+                                    <li>
+                                        Click on <strong>Settings</strong>.
+                                        <br><br>
+                                        <img src="Copilot2.png" onclick="openModal('Copilot2.png')"
+                                            alt="Click Settings in Copilot Studio" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Click on <strong>Knowledge</strong> and add your Knowledge Base.
+                                        <br><br>
+                                        <img src="Copilot3.png" onclick="openModal('Copilot3.png')"
+                                            alt="Add Knowledge Base" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Open <a href="https://portal.azure.com/"
+                                            target="_blank">https://portal.azure.com/</a> and click on <strong>App
+                                            registrations</strong>.
+                                        <br><br>
+                                        <img src="Copilot4.png" onclick="openModal('Copilot4.png')"
+                                            alt="Azure Portal Home - App Registrations" width="100%"
+                                            height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Click on the <strong>New registration</strong> button at the top of the App
+                                        registrations page.
+                                        <br><br>
+                                        <img src="Copilot5.png" onclick="openModal('Copilot5.png')"
+                                            alt="New Registration Button" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Enter a <strong>Name</strong> for your application, configure any additional
+                                        settings as needed, and then click the <strong>Register</strong> button at the
+                                        bottom.
+                                        <br><br>
+                                        <img src="Copilot6.png" onclick="openModal('Copilot6.png')"
+                                            alt="Register Application Form" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        After registration, on the application overview page, copy the
+                                        <strong>Application (client) ID</strong> — you will need this for
+                                        authentication.
+                                        <br><br>
+                                        <img src="Copilot7.png" onclick="openModal('Copilot7.png')"
+                                            alt="Copy Application Client ID" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Click on the <strong>Add a certificate or secret</strong> link under Client
+                                        credentials.
+                                        <br><br>
+                                        <img src="Copilot8.png" onclick="openModal('Copilot8.png')"
+                                            alt="Add Certificate or Secret Link" width="100%" height="auto"><br><br>
+                                        <img src="Copilot9.png" onclick="openModal('Copilot9.png')"
+                                            alt="New Client Secret Button" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Add a description and choose an expiration period, then click
+                                        <strong>Add</strong>. Once created, copy the <strong>Value</strong> of the
+                                        client secret immediately (it will only be shown once).
+                                        <br><br>
+                                        <img src="Copilot10.png" onclick="openModal('Copilot10.png')"
+                                            alt="Add Client Secret Panel" width="100%" height="auto"><br><br>
+                                        <img src="Copilot11.png" onclick="openModal('Copilot11.png')"
+                                            alt="Copy Client Secret Value" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Click on <strong>Add a Redirect URI</strong> in the application overview.
+                                        <br><br>
+                                        <img src="Copilot12.png" onclick="openModal('Copilot12.png')"
+                                            alt="Add Redirect URI Link" width="100%" height="auto"><br><br>
+                                        <img src="Copilot13.png" onclick="openModal('Copilot13.png')"
+                                            alt="Authentication Setup Screen" width="100%" height="auto"><br><br>
+                                        Select <strong>Single-page application (SPA)</strong>.
+                                        <br><br>
+                                        <img src="Copilot14.png" onclick="openModal('Copilot14.png')"
+                                            alt="Select Single Page Application" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Enter the URL <code>https://token.botframework.com/.auth/web/redirect</code> and
+                                        click the <strong>Configure</strong> button to save the settings.
+                                        <br><br>
+                                        <img src="Copilot15.png" onclick="openModal('Copilot15.png')"
+                                            alt="Configure Redirect URI" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        In the left-hand navigation pane, click on <strong>API permissions</strong>,
+                                        then click <strong>Add a permission</strong>.
+                                        <br><br>
+                                        <img src="Copilot16.png" onclick="openModal('Copilot16.png')"
+                                            alt="API Permissions - Add Permission" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Choose the appropriate API (e.g., SharePoint / Microsoft Graph).
+                                        <br><br>
+                                        <img src="Copilot17.png" onclick="openModal('Copilot17.png')"
+                                            alt="Select SharePoint API" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Select the required permission type (e.g., Application permissions).
+                                        <br><br>
+                                        <img src="Copilot18.png" onclick="openModal('Copilot18.png')"
+                                            alt="Select Application Permissions" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Search and add all necessary permissions (e.g., <code>Sites.Read.All</code>) and
+                                        click <strong>Add permissions</strong>.
+                                        <br><br>
+                                        <img src="Copilot19.png" onclick="openModal('Copilot19.png')"
+                                            alt="Search and Add Permissions" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        After adding all required permissions, click <strong>Grant admin
+                                            consent</strong> (requires admin privileges).
+                                        <br><br>
+                                        <img src="Copilot20.png" onclick="openModal('Copilot20.png')"
+                                            alt="Grant Admin Consent" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Go back to Copilot Studio, navigate to <strong>Settings</strong>, select
+                                        <strong>Security</strong>, and click on <strong>Authentication</strong>.
+                                        <br><br>
+                                        <img src="Copilot21.png" onclick="openModal('Copilot21.png')"
+                                            alt="Copilot Security Settings" width="100%" height="auto"><br><br>
+                                        Click on <strong>Authenticate manually</strong>.
+                                        <br><br>
+                                        <img src="Copilot22.png" onclick="openModal('Copilot22.png')"
+                                            alt="Select Authenticate Manually" width="100%" height="auto"><br><br>
+                                        In the Service Provider dropdown, select <strong>Microsoft Entra ID V2 with
+                                            client secrets</strong>.
+                                        <br><br>
+                                        <img src="Copilot23.png" onclick="openModal('Copilot23.png')"
+                                            alt="Select Entra ID V2 with Client Secrets" width="100%"
+                                            height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Enter the following details:
+                                        <ul>
+                                            <li><strong>Client ID:</strong> The Application (client) ID copied from
+                                                Azure.</li>
+                                            <li><strong>Client Secret:</strong> The Client Secret Value created in
+                                                Azure.</li>
+                                        </ul>
+                                        <br>
+                                        <img src="Copilot24.png" onclick="openModal('Copilot24.png')"
+                                            alt="Enter Client ID and Secret" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        In the <strong>Scopes</strong> field, enter:
+                                        <code>profile openid Files.Read.All Sites.Read.All</code>.
+                                        <br><br>
+                                        <img src="Copilot25.png" onclick="openModal('Copilot25.png')"
+                                            alt="Enter Scopes and Save" width="100%" height="auto"><br><br>
+                                        Click <strong>Save</strong>, then click <strong>Publish</strong> to make
+                                        authentication settings live.
+                                    </li>
+                                    <li>
+                                        In <strong>Security</strong>, select <strong>Web channel security</strong>.
+                                        <br><br>
+                                        <img src="Copilot26.png" onclick="openModal('Copilot26.png')"
+                                            alt="Select Web Channel Security" width="100%" height="auto"><br><br>
+                                        Under web channel security, copy the <strong>Secret 1</strong> key.
+                                        <br><br>
+                                        <img src="Copilot27.png" onclick="openModal('Copilot27.png')"
+                                            alt="Copy Secret 1 Key" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Go to Power Automate, click on <strong>My Flows</strong>, import the Copilot
+                                        server solution, and click <strong>Edit</strong>.
+                                        <br><br>
+                                        <img src="Copilot28.png" onclick="openModal('Copilot28.png')"
+                                            alt="Power Automate My Flows List" width="100%" height="auto"><br><br>
+                                        <img src="Copilot29.png" onclick="openModal('Copilot29.png')"
+                                            alt="Edit Copilot Server Flow" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Disable the <strong>New Designer</strong> toggle and paste the copied Secret 1
+                                        value into <strong>Headers (Authorization: Bearer [Secret])</strong>.
+                                        <br><br>
+                                        <img src="Copilot30.png" onclick="openModal('Copilot30.png')"
+                                            alt="Update Headers in HTTP Action" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Click <strong>Save</strong>, then copy the <strong>HTTP GET URL</strong> under
+                                        the "When an HTTP request is received" trigger.
+                                        <br><br>
+                                        <img src="Copilot31.png" onclick="openModal('Copilot31.png')"
+                                            alt="Copy HTTP GET URL" width="100%" height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Return to the Expense Tracker 365 application settings, navigate to
+                                        <strong>Integration &gt; AI API Integration</strong>, enable the Copilot
+                                        integration toggle, and paste the copied URL into the <strong>Copilot
+                                            URL</strong> field.
+                                        <br><br>
+                                        <img src="Copilot32.png" onclick="openModal('Copilot32.png')"
+                                            alt="Expense Settings AI API Integration Menu" width="100%"
+                                            height="auto"><br><br>
+                                        <img src="Copilot33.png" onclick="openModal('Copilot33.png')"
+                                            alt="Enable Copilot AI Integration and Paste URL" width="100%"
+                                            height="auto"><br><br>
+                                    </li>
+                                </ol>
                                 <div class="bg-light p-4 common-scroll remove-padding" id="AzureOpenAI">
                                     <h3 id="_aiapiintegration">
                                         <a class="header-icon-link highlight" href="#">
