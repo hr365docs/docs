@@ -93,6 +93,27 @@ $(document).ready(function () {
                 "</li>"+
             "</ul>"+
         "</li>"+
+        "<li data-nav-id='./Integration' title='Timesheet Configuration' class='dropdownicon sidelist'>"+
+            "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/timesheet-configuration/'>Timesheet Configuration</a>"+
+            "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>"+
+        "</li>"+
+        "<li data-nav-id='./Setting/' title='Advance Settings' class='sidelist dropdown_romove_dot'>"+
+            "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+                "<li data-nav-id='../General' title='Project Configuration' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/timesheet-configuration/#project-configuration'>Project Configuration</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Timesheet Field Configuration' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/timesheet-configuration/#timesheet-field-configuration'>Timesheet Field Configuration</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Task Configuration Guide' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/timesheet-configuration/#task-configuration-guide'>Task Configuration Guide</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Activity Configuration' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/timesheet-configuration/#activity-configuration'>Activity Configuration</a>"+
+                "</li>"+
+               
+            "</ul>"+
+        "</li>"+
 
         "<li data-nav-id='./Users' title='Users' class='sidelist'>"+
             "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/role/'>Users</a>"+
