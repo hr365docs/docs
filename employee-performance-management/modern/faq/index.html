@@ -430,6 +430,106 @@
             <div class="card mb-4 rounded-0 shadow border-0">
               <div class="card-header rounded-0 bg-white border p-0 border-0">
                 <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-bs-toggle=collapse
+                  href=#Self-Review-reminder aria-expanded="false" aria-controls="Self-Review-reminder" role="button">
+                  <span>Why didn't I receive an email notification (e.g., the Self Review reminder) after adding an appraisal cycle?</span> <i
+                    class="ti-plus text-primary text-right"></i>
+                </a>
+              </div>
+              <div id="Self-Review-reminder" class=collapse data-parent=#accordion>
+                <div class="card-body font-secondary text-color pt-0">
+                  <p>This covers related questions such as:</p>
+                  <ul>
+                    <li>Why are email notifications not triggering after I add an appraisal cycle?</li>
+                    <li>Why was I not notified for the Self Review reminder?</li>
+                    <li>Why are my reminder emails not coming?</li>
+                    <li>Why do I get only some of the emails while the others are never sent out by the system?</li>
+                  </ul>
+
+                  <hr>
+
+                  <h5>Answer &amp; Explanation</h5>
+                  <p>Reminder notifications, such as the Self Review reminder, depend on the appraisal cycle being added
+                    far enough in advance of the review stage's start date. Add the appraisal cycle at least
+                    <strong>2–3 days before</strong> the Self Review start date. If the appraisal cycle is
+                    added too close to (or after) the start date, the trigger window has already passed and the
+                    notification will not go out.</p>
+
+                  <p>The Self Review stage sends a total of <strong>4 reminder notifications</strong> — 2 around the
+                    start of the Self Review and 2 around its expiry — as detailed below. Each notification is
+                    sent once at <strong>9:00 AM in the recipient's local time zone</strong>.</p>
+
+                  <hr>
+
+                  <h5>Self Review Reminder Schedule</h5>
+
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Reminder</th>
+                        <th>Trigger Point</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Review notification – prior to start</td>
+                        <td>1 day before the Self Review start date</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Review notification – on start date</td>
+                        <td>Self Review start date</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Last-day reminder – prior to expiry</td>
+                        <td>1 day before the Self Review expiry date</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Last-day reminder – on expiry date</td>
+                        <td>Self Review expiry (last) date</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <br>
+
+                  <p>If a reminder in this schedule was not received, first check where the creation date falls relative
+                    to the Self Review start date. If it was added fewer than 2–3 days before the start date,
+                    the start-date notifications may be skipped because the trigger window had already passed.
+                    The expiry-date reminders are calculated from the Self Review end date and are not affected by this
+                    window. If only the expiry reminders are missing, check the Power Automate flow status
+                    instead.</p>
+
+                  <hr>
+
+                  <h5>Setting the Self Review Start Date</h5>
+                  <p>The <strong>Self Review Start Date</strong> is specified on the <em>Add Appraisal Cycle</em>
+                    form. This is the target date against which the required 2–3 day buffer is evaluated.</p>
+
+                  <img src="Self-Review-reminder.png" onclick="openModal('Self-Review-reminder.png')"
+                    alt="Add Appraisal Cycle - Self Review Start Date Field" width="40%" height="auto"><br><br>
+
+                  <hr>
+
+                  <h5>Power Automate Configuration Requirement</h5>
+                  <p>Reminder notifications are automated and date-triggered, requiring <strong>Power Automate</strong>
+                    to be configured for this workflow. If Power Automate is not actively set up, reminder
+                    emails will not be sent regardless of when the appraisal cycle was added.</p>
+
+                  <blockquote>
+                    For more information regarding notification templates, please refer to the <strong>Admin Guide –
+                      Notification Settings</strong>.
+                  </blockquote>
+
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 rounded-0 shadow border-0">
+              <div class="card-header rounded-0 bg-white border p-0 border-0">
+                <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-bs-toggle=collapse
                   href=#Power-Automate aria-expanded="false" aria-controls="Power-Automate" role="button">
                   <span>Can I connect the Performance Management 365 application to Power BI & Power Automate?
 
@@ -1621,8 +1721,8 @@
                     </li>
                     <br>
                     <div>
-                      <img style="width: 50%;" src="Bonus10.png" onclick="openModal('Bonus10.png')" alt="Submitted Praise"
-                        width="100%" height="auto">
+                      <img style="width: 50%;" src="Bonus10.png" onclick="openModal('Bonus10.png')"
+                        alt="Submitted Praise" width="100%" height="auto">
                     </div>
                     <br>
                     <li>The HR Review window will open. Click on the Performance Bonus tab. </li>
