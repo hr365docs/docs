@@ -121,50 +121,8 @@ $(document).ready(function () {
 
         "<li data-nav-id='./Notification' title='Notification' class='dropdownicon sidelist'>"+
             "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/notification/'>Notification</a>"+
-            "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>"+
-        "</li>"+
-        "<li data-nav-id='./Setting/' title='Notification' class='sidelist dropdown_romove_dot'>"+
-            "<ul class='sidenavSub-topics aside_dropdown_list'>"+
-                "<li data-nav-id='../General' title='End of the Week/ Month Notification To User' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#SendEndoftheWeekNotification'>End of the Week/ Month Notification To User</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Weekly Basis, Select Day' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#SelectDaytoSendEndoftheWeekNotification'>Weekly Basis, Select Day</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Monthly Basis, Select Date' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#MonthlyBasisSelectDate'>Monthly Basis, Select Date</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Following Day as Another Notification for' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#following-day-another-notification'>Following Day as Another Notification for</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Check Pending Timesheets from Past' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#Check-Pending-Timesheets-from-Past'>Check Pending Timesheets from Past</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Send Invoice Mail to client' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#send-Invoice-mail-to-client'>Send Invoice Mail to client</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Timesheet Submission and Approval Notifications' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#timesheet-submission-and-approval-notifications'>Timesheet Submission and Approval Notifications</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Auto Approve Notifications' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#auto-approve-notifications'>Auto Approve Notifications</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Task Assign Notification' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#tasks-assign-notification'>Task Assign Notification</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Enable Daily Timesheet Report Notification' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#enable-daily-timesheet-report-notification'>Enable Daily Timesheet Report Notification</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Pending Timesheet Approval Notification To Approver' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#pending-timesheet-approval-notification-to-approver'>Pending Timesheet Approval Notification To Approver</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Shared Mail Box ID' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#shared-mailbox-id'>Shared Mail Box ID</a>"+
-                "</li>"+
-                "<li data-nav-id='../General' title='Enable local shared email' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/notification/#local-shared-mailbox-id'>Enable local shared email</a>"+
-                "</li>"+
-            "</ul>"+
+       "</li>"+
+        
         "</li>"+
 
         "<li data-nav-id='./Email Template' title='Email Template' class='dropdownicon sidelist'>"+
