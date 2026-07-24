@@ -190,8 +190,8 @@ $(document).ready(function () {
 "<li data-nav-id='./Notification-Settings/' title='Disable CC Notifications' class='sidelist'>" +
     "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#emailcss'>Disable CC Notifications</a>" +
 "</li>" +
-"<li data-nav-id='./Notification-Settings/' title='Disable Popup Alert' class='sidelist'>" +
-    "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Popup-Notification'>Disable Popup Alert</a>" +
+"<li data-nav-id='./Notification-Settings/' title='Ticket Popup Alerts' class='sidelist'>" +
+    "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#Popup-Notification'>Ticket Popup Alerts</a>" +
 "</li>" +
 "<li data-nav-id='./Ticket-Settings/' title='Reopen Tickets Without Adding Comment' class='sidelist'>" +
     "<a href='/sharepoint-helpdesk/modern/admin/settings/general/#reopen'>Reopen Tickets Without Adding Comment</a>" +
