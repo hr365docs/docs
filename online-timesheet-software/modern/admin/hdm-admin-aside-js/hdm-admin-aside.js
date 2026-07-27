@@ -43,35 +43,44 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='Date Format' class='sidelist'>"+
                     "<a href='/online-timesheet-software/modern/admin/settings/general/#date-format'>Date Format</a>"+
                 "</li>"+
-                "<li data-nav-id='../General' title='Start Day of The Week' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#start-day-of-the-week'>Start Day of The Week</a>"+
+                "<li data-nav-id='../General' title='Date Format Options' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#date-format-options'>Date Format Options</a>"+
                 "</li>"+
                 "<li data-nav-id='../General' title='Default Currency' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#defaul-tcurrency'>Default Currency</a>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#default-currency'>Default Currency</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Currency Options' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#currency-options'>Currency Options</a>"+
                 "</li>"+
                 "<li data-nav-id='../General' title='Language' class='sidelist'>"+
                     "<a href='/online-timesheet-software/modern/admin/settings/general/#language'>Language</a>"+
                 "</li>"+
-                "<li data-nav-id='../General' title='Language selection as browser default language' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#languagebrowserdefaultlanguage'>Language selection as browser default language</a>"+
+                "<li data-nav-id='../General' title='Language Options' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#language-options'>Language Options</a>"+
                 "</li>"+
-                "<li data-nav-id='../General' title='Use Sharepoint URL for MS Teams installed application' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#SharepointURL'>Use Sharepoint URL for MS Teams installed application</a>"+
+                "<li data-nav-id='../General' title='browser-default-language' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#browser-default-language'>Language Selection as Browser Default Language</a>"+
                 "</li>"+
-                "<li data-nav-id='../General' title='Hide Sharepoint Page's Default Components' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#hide-webpart-title'>Hide Sharepoint Page's Default Components</a>"+
+                "<li data-nav-id='../General' title='Use SharePoint URL for MS Teams Installed Application' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#sharepoint-url-teams'>Use SharePoint URL for MS Teams Installed Application</a>"+
                 "</li>"+
-                "<li data-nav-id='../General' title='Enable logs collection' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#Enable_Logs'>Enable logs collection</a>"+
+                "<li data-nav-id='../General' title='Hide SharePoint Page's Default Components' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#hide-sharepoint-components'>Hide SharePoint Page's Default Components</a>"+
                 "</li>"+
-                "<li data-nav-id='../General' title='Restrict Logs Types' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#Logs_Type'>Restrict Logs Types</a>"+
+                "<li data-nav-id='../General' title='SharePoint Component Configuration' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#sharepoint-component-configuration'>SharePoint Component Configuration</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Configure Quick Setup' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#quick-setup'>Configure Quick Setup</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Enable Logs Collection' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#logs-collection'>Enable Logs Collection</a>"+
                 "</li>"+
                 "<li data-nav-id='../General' title='Follow ISO Week Number Format' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#ISOweek'>Follow ISO Week Number Format</a>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#iso-week-number'>Follow ISO Week Number Format</a>"+
                 "</li>"+
-                "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#brand-logo'>Brand Logo</a>"+
+                "<li data-nav-id='../General' title='Enable Favicon &amp; Customization' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#favicon-customization'>Enable Favicon Customization</a>"+
                 "</li>"+
             "</ul>"+
         "</li>"+
