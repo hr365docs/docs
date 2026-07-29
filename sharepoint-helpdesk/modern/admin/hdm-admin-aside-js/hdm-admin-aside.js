@@ -445,7 +445,7 @@ $(document).ready(function () {
         "<li data-nav-id='./Add Assets/ ' title='Integrate with HR365 Asset Management' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#integrateMicrosoft'>Integrate with HR365 Asset Management</a>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#Integrating-asset'>Integrate with HR365 Asset Management</a>" +
         "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
