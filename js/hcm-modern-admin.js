@@ -1303,7 +1303,7 @@ $(document).ready(function () {
     "</li>" +
 
     "<li class='sidelist' title='Timesheet Customization'>" +
-      "<a href='/HRMS-HR365/modern/admin/apps/TS365/settings/features/#timesheet-customization'>" +
+      "<a href='/HRMS-HR365/modern/admin/apps/TS365/Settings/features/#timesheet-customization'>" +
         "Timesheet Customization" +
       "</a>" +
     "</li>" +

@@ -462,7 +462,7 @@ $(document).ready(function () {
         "<li data-nav-id='./Add Assets/ ' title='Copilot Integeration' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
-        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#Copilot-Integration'>Copilot Integration</a>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#copilot-integeration'>Copilot Integration</a>" +
         "<li data-nav-id='./Add Assets/ ' title='Integrate Microsoft Form with Helpdesk' class='sidelist '>" +
         "<ul class='sidenavSub-topics '>" +
         "</ul>" +
