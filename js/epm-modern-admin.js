@@ -63,7 +63,7 @@ $(document).ready(function () {
 
 
         "<li data-nav-id='./Email-Notification/' title=users class='sidelist'>" +
-        "<a href='/employee-performance-management/modern/admin/roles/user'>User</a>" +
+        "<a href='/employee-performance-management/modern/admin/roles/#users'>User</a>" +
         "</li>" +
 
         "<li data-nav-id='./Custom-Emails/' title='Manager(Employee's Manger)' class='sidelist'>" +
