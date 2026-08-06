@@ -551,8 +551,26 @@
                     <p>Enable this setting from advanced options. Refer to <a
                         href="https://bitzap-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/webApiPermissionManagement">this
                         link</a> for SharePoint API activation instructions.</p>
+                    <p>When the Exclude O365 Sign-in Blocked Users toggle is enabled, users whose accounts are disabled
+                      in Microsoft Entra ID (Azure AD) are treated as sign-in blocked users and will not be visible in
+                      the application. </p>
+                    <ol>To configure this:
+                      <li>Sign in to the Microsoft Entra Admin Center (Azure Portal). </li>
+                      <li>Navigate to Users and open the required user account. </li>
+                      <li>
+                        Under the user's profile, disable the Account Enabled option by unchecking the checkbox.
+                      </li>
+                      <li>
+                        Save the changes.
+                      </li>
+                    </ol>
                     <div><img src="04.png" onclick="openModal('04.png')" alt="Exclude by UPN" width="100%"
                         height="auto"></div><br>
+                    <div><img src="blockeduser.png" onclick="openModal('blockeduser.png')" alt="Exclude by UPN"
+                        width="100%" height="auto"></div><br>
+                    <p>Once the account is disabled, the user is considered a <strong> sign-in blocked user</strong>. If the Exclude O365
+                      Sign-in Blocked Users toggle is enabled in the application, that user will be excluded and will no
+                      longer appear in the directory. </p>
                   </div>
 
 
@@ -939,7 +957,7 @@
                     <li>• Improved visual emphasis on selected employee information.
                     </li>
                     <li>• Enhanced usability and modern design experience. </li>
-                    
+
                   </ul>
                   <strong>Profile Card Hover Design Preview:</strong>
                   <div>
