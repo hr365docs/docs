@@ -2,323 +2,592 @@
 <html lang=en-us>
 
 <head>
-    <meta charset="utf-8" />
-    <title>Recruitment Management 365 | Admin Guide | Settings | Portal Configuration</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="generator" content="Hugo 0.92.2" />
-    <meta name="description" content="Recruitment Management 365 Admin Guide - Portal Configuration Settings" />
-  
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css" />
-    <link rel="icon" href="https://hr365docs.github.io/docs/images/favicon.ico" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet" />
-  
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
-  
-    <!-- Custom Styles -->
-    <style>
-      :root {
-        --primary-color: #5637da;
-        --body-color: #f9f9f9;
-        --text-color: #636363;
-        --text-color-dark: #242738;
-        --white-color: #ffffff;
-        --light-color: #f8f9fa;
-        --font-family: Lato;
-      }
-    </style>
-  
-    <link href="https://hr365docs.github.io/docs/css/style.min.css" rel="stylesheet" media="screen" />
-  
-    <!-- External Scripts -->
-    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js"></script>
-    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js"></script>
-    <script src="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js"></script>
-    <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
-  
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-          'gtm.start': new Date().getTime(), event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');
-    </script>
-    <!-- End Google Tag Manager -->
-  </head>
-  
+  <meta charset="utf-8" />
+  <title>Recruitment Management 365 | Admin Guide | Settings | Portal Configuration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="description" content="Recruitment Management 365 Admin Guide - Portal Configuration Settings" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css" />
+  <link rel="icon" href="https://hr365docs.github.io/docs/images/favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet" />
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+
+  <!-- Custom Styles -->
+  <style>
+    :root {
+      --primary-color: #5637da;
+      --body-color: #f9f9f9;
+      --text-color: #636363;
+      --text-color-dark: #242738;
+      --white-color: #ffffff;
+      --light-color: #f8f9fa;
+      --font-family: Lato;
+    }
+  </style>
+
+  <link href="https://hr365docs.github.io/docs/css/style.min.css" rel="stylesheet" media="screen" />
+
+  <!-- External Scripts -->
+  <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js"></script>
+  <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js"></script>
+  <script src="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start': new Date().getTime(), event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
-            style="display:none;visibility:hidden">
-        </iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <header class="shadow-bottom sticky-top bg-white">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container px-2 px-md-0">
-                <a class="navbar-brand px-2" href="https://kb.hr365.us/">
-                    <img class=img-fluid src="../../../../../images/logo_.png" alt=HR365>
-                </a>
-                <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
-                    aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
-                    <span class=navbar-toggler-icon></span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x"
-                        viewBox="0 0 16 16">
-                        <path
-                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-                    </svg>
-                </button>
-                <div class="collapse navbar-collapse text-center common-header" id=navigation>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <section class="single section-sm pb-0">
-        <div class="container container-padding">
-            <div class=row>
-                <div class=col-lg-3>
-                    <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../RM365/">Recruitment
-                                Management 365</a></h5>
-                        <a class=back-btn href="../../../../RM365/" aria-label=back></a>
-                        <ul class=list-styled>
-                            <li data-nav-id="" title=admin Guide class="sidelist
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <header class="shadow-bottom sticky-top bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container px-2 px-md-0">
+        <a class="navbar-brand px-2" href="https://kb.hr365.us/">
+          <img class=img-fluid src="../../../../../images/logo_.png" alt=HR365>
+        </a>
+        <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
+          aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
+          <span class=navbar-toggler-icon></span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x"
+            viewBox="0 0 16 16">
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse text-center common-header" id=navigation>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="single section-sm pb-0">
+    <div class="container container-padding">
+      <div class=row>
+        <div class=col-lg-3>
+          <div class=sidebar>
+            <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../RM365/">Recruitment
+                Management 365</a></h5>
+            <a class=back-btn href="../../../../RM365/" aria-label=back></a>
+            <ul class=list-styled>
+              <li data-nav-id="" title=admin Guide class="sidelist
 active">
-                                <a href="../../../admin/">
-                                    Admin Guide
-                                </a>
-                                <ul id="rmmmodernadmin" class="sidenavbarscrollstyle">
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class=col-lg-9>
-                    <div class="p-lg-4 p-4 bg-white remove-padding" id=content>
-                        <div class="bg-light p-4 remove-padding">
-  <h2 id="_dashboards">
-    <a class="header-icon-link highlight" href="#"> Portal Configuration
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h2>
-  <br>
-  <p>The portal configuration allows administrators to customize the external and internal job portal interface. Users can add a privacy policy link, configure portal buttons, update banner content, adjust text colors, and upload a logo that aligns with organizational branding.</p><br>
-  <div><img src="1.png" onclick="openModal('1.png')" alt="Portal Settings Preview" width="100%" height="auto"></div><br>
-</div>
-
-                      <div class="bg-light p-4 remove-padding">
-  <h2 id="_dashboards">
-    <a class="header-icon-link highlight" href="#"> Internal Job Portal Configuration
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h2>
-  <br>
-  <p>Set up and manage the internal job portal to streamline internal hiring workflows. This includes job template setup, access control, approval mechanisms, and tracking of employee job applications.</p><br>
-
-  <div><img src="internalJob.png" onclick="openModal('internalJob.png')" alt="Internal Portal Preview" width="100%" height="auto"></div><br>
-
- <p>When configuring an internal job posting, follow these steps to ensure a complete and functional setup:</p>
-<ol>
-  <li><b>Basic Details:</b> Enter the <b>title</b>, <b>footer</b>, <b>description</b>, <b>favicon icon</b>, and <b>portal logo</b>. You can also upload two related images for branding purposes.</li><br>
-  <div><img src="1a.png" onclick="openModal('1a.png')" alt="Branding Options" width="100%" height="auto"></div><br>
-
-  <li><b>Visual Customization:</b> Add a <b>banner image</b>, select the <b>portal color theme</b> and <b>text color</b>, specify the <b>company name</b>, and provide the <b>home page link</b> along with its associated image.</li><br>
-   <div><img src="2.png" onclick="openModal('2.png')" alt="Branding Options" width="100%" height="auto"></div><br>
-
-  <li><b>Internal Page Link:</b> You must provide a valid internal page link. This is required to generate the live internal job posting site and its corresponding preview image.</li><br>
-  <div><img src="3.png" onclick="openModal('3.png')" alt="Branding Options" width="100%" height="auto"></div><br>
-
-  <li><b>Hide SharePoint Default Components:</b> To customize the portal view, click on <b>Configure</b> and enable the option to hide SharePoint’s default components.</li><br>
-  <div><img src="configureOption.png" onclick="openModal('configureOption.png')" alt="Configure SharePoint Settings" width="100%" height="auto"></div><br>
-  <li><b>Referral Options:</b> You can choose to <b>hide or show</b> the “Refer Candidate” / “Refer This Job” section by toggling the switch on or off.</li><br>
-  <div><img src="referToggle.png" onclick="openModal('referToggle.png')" alt="Referral Toggle Option" width="100%" height="auto"></div><br>
-  <li><b>Finalize Setup:</b> After entering all details, click on <b>Save</b>. </li><br>
-   <div><img src="3a.png" onclick="openModal('3a.png')" alt="Branding Options" width="100%" height="auto"></div><br>
-<li>Initially, the <b>Live</b> option will remain deactivated. Once you’ve added the required internal and home page links, the <b>Live</b> option will become active. Clicking this option will open the internal job posting site.</li><br>
- <div><img src="ReadyTemplate1.png" onclick="openModal('ReadyTemplate1.png')" alt="Link Generation" width="100%" height="auto"></div><br>
-<div><img src="ReadyTemplate.png" onclick="openModal('ReadyTemplate.png')" alt="Link Generation" width="100%" height="auto"></div><br>
-
-  
-  
-  
-  <p>Click on the provided icon to open the job application interface.</p>
-  <div><img src="ClickonIcon.png" onclick="openModal('ClickonIcon.png')" alt="Launch Job Post" width="100%" height="auto"></div><br>
-
-  <p>Then, click the <b>Apply</b> button.</p>
-  <div><img src="Apply.png" onclick="openModal('Apply.png')" alt="Apply Button" width="100%" height="auto"></div><br>
-
-  <p>Candidates can enter the required details per job criteria and upload a resume.</p>
-  <div><img src="DataFill.png" onclick="openModal('DataFill.png')" alt="Application Form" width="100%" height="auto"></div><br>
-  <p>The candidate details will be automatically extracted from the uploaded resume, eliminating the need for manual data entry.</p>
-  <div><img src="DataFill1.png" onclick="openModal('DataFill1.png')" alt="Application Form" width="100%" height="auto"></div><br>
-  <p>After completing the form, select the checkbox and click the submit button to finalize the application.</p>
-  <div><img src="Submit.png" onclick="openModal('Submit.png')" alt="Submit Application" width="100%" height="auto"></div><br>
-
-  <div class="notices note">
-  <div class="paragraph">
-  <p>When you upload a job posting, the live site and its preview image will not be immediately available. To activate the live option, ensure that the <b>Internal Portal Configuration</b> includes a valid internal page link and corresponding image. Once these are added, the live option becomes active, allowing you to click the link and view the job post with its associated image.</p><br>
-  </div></div></div>
-
-<div class="bg-light p-4 remove-padding">
-  <h2 id="_confidential_internal">
-    <a class="header-icon-link highlight" href="#"> Confidential Internal
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h2>
-  <br>
-  <p><b>Confidential Internal</b> jobs are shared only with selected employees via a private URL. These jobs do not appear in the standard internal job portal listings.</p><br>
-  <p>First, click on <b>Internal Portal Configuration</b>, enter the internal portal Home URL, and click <b>Save</b> to update the configuration.</p><br>
-
-  <div><img src="confidentialInternal.png" onclick="openModal('confidentialInternal.png')" alt="Confidential Internal Portal" width="100%" height="auto"></div><br>
-
-  <p>After publishing a job as <b>Confidential Internal</b>, copy the unique job URL from the configuration. This private link can be shared directly with chosen employees, allowing access to only that specific job.</p><br>
-  <div><img src="confidentialSettings.png" onclick="openModal('confidentialSettings.png')" alt="Confidential Internal Settings" width="100%" height="auto"></div><br>
-  <div><img src="confidentialSettings1.png" onclick="openModal('confidentialSettings1.png')" alt="Confidential Internal Settings" width="100%" height="auto"></div><br>
-</div>
-
-<div class="bg-light p-4 remove-padding">
-  <h2 id="_external_portal">
-    <a class="header-icon-link highlight" href="#"> External Job Portal Configuration
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h2>
-  <br>
-  <p>
-    All job postings made by the organization are publicly available on the external portal: 
-    <a href="https://career.rm365.org/m365online" target="_blank">RM365 Online Job Portal</a>.
-  </p>
-  <div><img src="external.png" onclick="openModal('external.png')" alt="Approval Options" width="100%" height="auto"></div><br> 
-  <div><img src="external1.png" onclick="openModal('external1.png')" alt="Approval Options" width="100%" height="auto"></div><br> 
-
-  <p>Click on the provided icon to open the job application interface.</p>
-  <div><img src="ClickonIcon1.png" onclick="openModal('ClickonIcon1.png')" alt="Launch Job Post" width="100%" height="auto"></div><br>
-
-  <p>Then, click the <b>Apply</b> button.</p>
-  <div><img src="Apply1.png" onclick="openModal('Apply1.png')" alt="Apply Button" width="100%" height="auto"></div><br>
-
-  <p>Candidates can enter the required details per job criteria and upload a resume.</p>
-  <div><img src="DataFill2.png" onclick="openModal('DataFill2.png')" alt="Application Form" width="100%" height="auto"></div><br>
-  <p>The candidate details will be automatically extracted from the uploaded resume, eliminating the need for manual data entry.</p>
-  <div><img src="DataFill3.png" onclick="openModal('DataFill3.png')" alt="Application Form" width="100%" height="auto"></div><br>
-  <p>After completing the form, select the checkbox and click the submit button to finalize the application.</p>
-  <div><img src="Submit1.png" onclick="openModal('Submit1.png')" alt="Submit Application" width="100%" height="auto"></div><br>
-</div>
-
-<!-- Confidential Internal -->
-
-
-<!-- Confidential External -->
-<div class="bg-light p-4 remove-padding">
-  <h2 id="_confidential_external">
-    <a class="header-icon-link highlight" href="#"> Confidential External
-      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
-    </a>
-  </h2>
-  <br>
-  <p><b>Confidential External</b> jobs are accessible only through a private link and do not appear in the public external portal. This option is used when the job must remain discreet but still be available to selected external candidates.</p><br>
-
-  <div><img src="confidentialExternal.png" onclick="openModal('confidentialExternal.png')" alt="Confidential External Portal" width="100%" height="auto"></div><br>
-
-  <p>Similar to Confidential Internal, after creating a job with <b>Confidential External</b> status, administrators can copy its URL and share it directly with chosen external candidates. Only individuals with the link can access and apply.</p><br>
-  <div><img src="1b.png" onclick="openModal('1b.png')" 
-           alt="Confidential External Publish Status" width="100%" height="auto"></div><br>
- <div><img src="publish_conf_external.png" onclick="openModal('publish_conf_external.png')" 
-           alt="Confidential External Publish Status" width="100%" height="auto"></div><br>
-            
-<div class="notices note">
-  <div class="paragraph">
-    <p>1. To install the Internal/External Job Portal (IJP), customers must raise a request with the support team. The support team will deploy and configure the IJP app on the customer’s SharePoint site, enabling administrators to set up and manage job postings.<br><br>2. 
-    For first-time RM365 installations within a tenant, once a user uploads a job posting and clicks the <b>Live</b> option, the system automatically opens the corresponding job posting site without requiring any additional configuration.
-  </div>
-</div>
-
-
-
-
-
-                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                        <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../hiring-process/" aria-label="Previous page"><i
-                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Hiring Process
-                                 </span></a>
-                            <a class="nav nav-next" href="../Azure-OpenAI-Integration/" aria-label="Previous page"> <span
-                                    class="d-none d-md-block">Azure Open Ai Integration</span><i class="ti-arrow-right ml-2"></i></a>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+                <a href="../../../admin/">
+                  Admin Guide
+                </a>
+                <ul id="rmmmodernadmin" class="sidenavbarscrollstyle">
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-        </div>
-    </section>
-    <div id="myModal" class="modal">
-
-        <div class="modal-content">
-            <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
-            <div class="mySlides">
-                <img src="" id="imageId" style="width:100%">
+        <div class=col-lg-9>
+          <div class="p-lg-4 p-4 bg-white remove-padding" id=content>
+            <div class="bg-light p-4 remove-padding">
+              <h2 id="_dashboards">
+                <a class="header-icon-link highlight" href="#"> Portal Configuration
+                  <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                </a>
+              </h2>
+              <br>
+              <p>The portal configuration allows administrators to customize the external and internal job portal
+                interface. Users can add a privacy policy link, configure portal buttons, update banner content, adjust
+                text colors, and upload a logo that aligns with organizational branding.</p><br>
+              <div><img src="1.png" onclick="openModal('1.png')" alt="Portal Settings Preview" width="100%"
+                  height="auto"></div><br>
             </div>
 
+            <div class="bg-light p-4 remove-padding" id="Internal-job-portal-configuration">
+              <h2 id="_dashboards">
+                <a class="header-icon-link highlight" href="#"> Internal Job Portal Configuration
+                  <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                </a>
+              </h2>
+              <br>
+              <p>Set up and manage the internal job portal to streamline internal hiring workflows. This includes job
+                template setup, access control, approval mechanisms, and tracking of employee job applications.</p><br>
+
+              <div><img src="internalJob.png" onclick="openModal('internalJob.png')" alt="Internal Portal Preview"
+                  width="100%" height="auto"></div><br>
+
+              <p>When configuring an internal job posting, follow these steps to ensure a complete and functional setup:
+              </p>
+              <ol>
+                <li><b>Basic Details:</b> Enter the <b>title</b>, <b>footer</b>, <b>description</b>, <b>favicon
+                    icon</b>, and <b>portal logo</b>. You can also upload two related images for branding purposes.</li>
+                <br>
+                <div><img src="1a.png" onclick="openModal('1a.png')" alt="Branding Options" width="100%" height="auto">
+                </div><br>
+
+                <li><b>Visual Customization:</b> Add a <b>banner image</b>, select the <b>portal color theme</b> and
+                  <b>text color</b>, specify the <b>company name</b>, and provide the <b>home page link</b> along with
+                  its associated image.
+                </li><br>
+                <div><img src="2.png" onclick="openModal('2.png')" alt="Branding Options" width="100%" height="auto">
+                </div><br>
+
+                <li><b>Internal Page Link:</b> You must provide a valid internal page link. This is required to generate
+                  the live internal job posting site and its corresponding preview image.</li><br>
+                <div><img src="3.png" onclick="openModal('3.png')" alt="Branding Options" width="100%" height="auto">
+                </div><br>
+
+                <li><b>Hide SharePoint Default Components:</b> To customize the portal view, click on <b>Configure</b>
+                  and enable the option to hide SharePoint’s default components.</li><br>
+                <div><img src="configureOption.png" onclick="openModal('configureOption.png')"
+                    alt="Configure SharePoint Settings" width="100%" height="auto"></div><br>
+                <li><b>Referral Options:</b> You can choose to <b>hide or show</b> the “Refer Candidate” / “Refer This
+                  Job” section by toggling the switch on or off.</li><br>
+                <div><img src="referToggle.png" onclick="openModal('referToggle.png')" alt="Referral Toggle Option"
+                    width="100%" height="auto"></div><br>
+                <li><b>Finalize Setup:</b> After entering all details, click on <b>Save</b>. </li><br>
+                <div><img src="3a.png" onclick="openModal('3a.png')" alt="Branding Options" width="100%" height="auto">
+                </div><br>
+                <li>Initially, the <b>Live</b> option will remain deactivated. Once you’ve added the required internal
+                  and home page links, the <b>Live</b> option will become active. Clicking this option will open the
+                  internal job posting site.</li><br>
+                <div><img src="ReadyTemplate1.png" onclick="openModal('ReadyTemplate1.png')" alt="Link Generation"
+                    width="100%" height="auto"></div><br>
+                <div><img src="ReadyTemplate.png" onclick="openModal('ReadyTemplate.png')" alt="Link Generation"
+                    width="100%" height="auto"></div><br>
+
+
+
+
+                <p>Click on the provided icon to open the job application interface.</p>
+                <div><img src="ClickonIcon.png" onclick="openModal('ClickonIcon.png')" alt="Launch Job Post"
+                    width="100%" height="auto"></div><br>
+
+                <p>Then, click the <b>Apply</b> button.</p>
+                <div><img src="Apply.png" onclick="openModal('Apply.png')" alt="Apply Button" width="100%"
+                    height="auto"></div><br>
+
+                <p>Candidates can enter the required details per job criteria and upload a resume.</p>
+                <div><img src="DataFill.png" onclick="openModal('DataFill.png')" alt="Application Form" width="100%"
+                    height="auto"></div><br>
+                <p>The candidate details will be automatically extracted from the uploaded resume, eliminating the need
+                  for manual data entry.</p>
+                <div><img src="DataFill1.png" onclick="openModal('DataFill1.png')" alt="Application Form" width="100%"
+                    height="auto"></div><br>
+                <p>After completing the form, select the checkbox and click the submit button to finalize the
+                  application.</p>
+                <div><img src="Submit.png" onclick="openModal('Submit.png')" alt="Submit Application" width="100%"
+                    height="auto"></div><br>
+
+                <div class="notices note">
+                  <div class="paragraph">
+                    <p>When you upload a job posting, the live site and its preview image will not be immediately
+                      available. To activate the live option, ensure that the <b>Internal Portal Configuration</b>
+                      includes a valid internal page link and corresponding image. Once these are added, the live option
+                      becomes active, allowing you to click the link and view the job post with its associated image.
+                    </p><br>
+                  </div>
+                </div>
+            </div>
+
+            <div class="bg-light p-4 remove-padding" id="Confidential-internal">
+              <h2 id="_confidential_internal">
+                <a class="header-icon-link highlight" href="#"> Confidential Internal
+                  <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                </a>
+              </h2>
+              <br>
+              <p><b>Confidential Internal</b> jobs are shared only with selected employees via a private URL. These jobs
+                do not appear in the standard internal job portal listings.</p><br>
+              <p>First, click on <b>Internal Portal Configuration</b>, enter the internal portal Home URL, and click
+                <b>Save</b> to update the configuration.
+              </p><br>
+
+              <div><img src="confidentialInternal.png" onclick="openModal('confidentialInternal.png')"
+                  alt="Confidential Internal Portal" width="100%" height="auto"></div><br>
+
+              <p>After publishing a job as <b>Confidential Internal</b>, copy the unique job URL from the configuration.
+                This private link can be shared directly with chosen employees, allowing access to only that specific
+                job.</p><br>
+              <div><img src="confidentialSettings.png" onclick="openModal('confidentialSettings.png')"
+                  alt="Confidential Internal Settings" width="100%" height="auto"></div><br>
+              <div><img src="confidentialSettings1.png" onclick="openModal('confidentialSettings1.png')"
+                  alt="Confidential Internal Settings" width="100%" height="auto"></div><br>
+            </div>
+
+            <div class="bg-light p-4 remove-padding" id="external-portal-configuration">
+              <h2 id="_external_portal">
+                <a class="header-icon-link highlight" href="#"> External Job Portal Configuration
+                  <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                </a>
+              </h2>
+              <div
+                style="font-family: Arial, sans-serif; color: #333; line-height: 1.6; max-width: 1200px; margin: 0 auto; padding: 20px;">
+
+                <p>
+                  Every great hire starts with someone finding your job posting and thinking, “okay, I could see myself
+                  here.” The External Job Portal is that first impression — a branded, public careers site
+                  where candidates browse your open roles and apply, without ever touching your internal SharePoint
+                  environment. External Job Portal Configuration is the settings page where you build it: your
+                  logo, your colors, your pitch, all pointed at one shareable link you can drop into LinkedIn, your
+                  careers page, or a job board before lunch.
+                </p>
+
+                <!-- SUMMARY TABLE -->
+                <table
+                  style="width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14px; text-align: left;">
+                  <tbody>
+                    <tr>
+                      <td style="padding: 10px; border: 1px solid #ddd; width: 25%;"><strong>What it does</strong></td>
+                      <td style="padding: 10px; border: 1px solid #ddd; width: 75%;">Builds and brands a public careers
+                        site where candidates browse RM365 job postings and submit applications — no developer
+                        required.</td>
+                    </tr>
+                    <tr style="background-color: #fafafa;">
+                      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Where to find it</strong></td>
+                      <td style="padding: 10px; border: 1px solid #ddd;">Settings (gear icon) → Portal Configuration →
+                        External Job Portal Configuration</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Who configures it</strong></td>
+                      <td style="padding: 10px; border: 1px solid #ddd;">An RM365 Admin handles the branding fields; a
+                        Global Administrator is needed once, up front, to grant permissions.</td>
+                    </tr>
+                    <tr style="background-color: #fafafa;">
+                      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Before you start</strong></td>
+                      <td style="padding: 10px; border: 1px solid #ddd;">Your SharePoint site URL, plus any logo,
+                        banner, and favicon files you want on the portal.</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Your candidates land at</strong></td>
+                      <td style="padding: 10px; border: 1px solid #ddd;"><code
+                          style="background: #eee; padding: 2px 4px; border-radius: 3px;">https://career.rm365.org/{YourTenantName}</code>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- PREREQUISITES -->
+                <h3 style="color: #333; margin-top: 20px;">Prerequisites</h3>
+                <p>Before you start, make sure you have:</p>
+                <ul>
+                  <li><strong>Global Administrator access</strong> — needed for the one-time permissions setup in Step
+                    1.</li>
+                  <li><strong>Your RM365 admin role</strong> — needed to open Settings and configure the portal
+                    itself.</li>
+                  <li><strong>Branding assets on hand</strong> — logo, banner image, and favicon — if you want the
+                    portal to look like your company's, not RM365's default.</li>
+                  <li><strong>Your company name and privacy policy link</strong> — Company Name is a required
+                    field.</li>
+                </ul>
+
+                <hr style="border: 0; height: 1px; background: #ddd; margin: 20px 0;">
+
+                <!-- STEP 1 -->
+                <p><strong>Step 1: Connect RM365 to Your SharePoint Tenant (One-Time Setup)</strong></p>
+                <p>
+                  This part only happens once per tenant. Think of it as introducing RM365 to your Microsoft 365
+                  environment so the two can talk — after that, you'll never see this screen again.
+                </p>
+                <ol>
+                  <li>Copy your SharePoint site URL. You'll need the full site address (for example, <code
+                      style="background: #eee; padding: 2px 4px; border-radius: 3px;">https://yourtenant.sharepoint.com/sites/YourSite</code>)
+                  </li>
+                  <li>Go to the HR365 Tools page: <a href="https://employeedirectory.hr365online.com/"
+                      style="color: #0056b3; text-decoration: none;">https://employeedirectory.hr365online.com/</a>.
+                  </li>
+                  <li>Find the “Specific Site Permission for RM 365” card, paste your site URL into the field, and click
+                    <strong>Run</strong>.
+                  </li>
+                </ol>
+
+                <div><img src="Externalpost1.png" onclick="openModal('Externalpost1.png')" alt="Application Form" width="100%"
+                    height="auto"></div><br>
+
+                <ol start="4">
+                  <li>Grant Microsoft admin consent. Open the following link and sign in with a Global
+                    Administrator account for your tenant:<br>
+                    <code
+                      style="background: #eee; padding: 2px 4px; border-radius: 3px; font-size: 12px; word-break: break-all;">https://login.microsoftonline.com/common/adminconsent?client_id=4e531893-0aa3-47a1-ac63-ee779b805393&amp;redirect_uri=https%3A%2F%2Fcareer.rm365.org&amp;sso_reload=true</code>
+                  </li>
+                  <li>Review the requested permissions and click <strong>Accept</strong>.</li>
+                </ol>
+
+                <div><img src="Externalpost2.png" onclick="openModal('Externalpost2.png')" alt="Application Form" width="100%"
+                    height="auto"></div><br>
+
+                <div style="background-color: #f9f9f9; border-left: 4px solid #0056b3; padding: 12px; margin: 15px 0;">
+                  <strong>📌 Note:</strong> The <code
+                    style="background: #eee; padding: 2px 4px; border-radius: 3px;">client_id</code> in that consent
+                  link is fixed — it identifies the RM365 application itself, not your specific tenant. You
+                  don't need to edit the link; simply opening it while signed into your own Microsoft 365 admin account
+                  scopes the grant to your organization. This consent is a one-time, tenant-wide grant. Once a Global
+                  Administrator accepts it, you won't need to repeat this step for additional RM365
+                  sites you register later.
+                </div>
+
+                <!-- STEP 2 -->
+                <p><strong>Step 2: Open External Job Portal Configuration</strong></p>
+                <ol>
+                  <li>As an RM365 admin, click the gear (Settings) icon in the left navigation.</li>
+                  <li>Under Portal Configuration, click <strong>External Job Portal Configuration</strong>.
+                  </li>
+                </ol>
+
+                <div><img src="Externalpost3.png" onclick="openModal('Externalpost3.png')" alt="Application Form"
+                    width="100%" height="auto"></div><br>
+
+                <!-- STEP 3 -->
+                <p><strong>Step 3: Brand the Portal</strong></p>
+                <p>
+                  A panel opens with your configuration fields on the left and a live Preview on the right — every
+                  change you make (logo, banner, description, colors) updates the preview instantly, so you can see
+                  exactly what candidates will see before you save anything.
+                </p>
+
+                <div><img src="Externalpost4.png" onclick="openModal('Externalpost4.png')" alt="Application Form"
+                    width="100%" height="auto"></div><br>
+
+                <p>Work through the fields:</p>
+                <ul>
+                  <li><strong>Title</strong> — the headline shown on the portal (defaults to “Welcome to RM365”; make it
+                    yours).</li>
+                  <li><strong>Footer</strong> — text shown at the bottom of the portal.</li>
+                  <li><strong>Description</strong> — your pitch to candidates. This overlays the banner image,
+                    so keep it short and punchy.</li>
+                  <li><strong>Favicon Icon, Portal Logo, Banner Image</strong> — click the pencil icon next to each to
+                    upload your own files.</li>
+                  <li><strong>Portal Color Theme and Portal Text Color</strong> — set your accent color and the text
+                    color that sits over the banner.</li>
+                  <li><strong>Privacy Policy Link</strong> — paste a link if you have one.</li>
+                  <li><strong>Company Name</strong> — required. This is your organization's name as candidates
+                    will see it.</li>
+                </ul>
+
+                <!-- STEP 4 -->
+                <p><strong>Step 4: Set the Resume Size Limit</strong></p>
+                <ol>
+                  <li>Scroll down to <strong>Resume Size Limit</strong> and choose the maximum file size RM365 should
+                    accept for candidate resumes (defaults to 5 MB).</li>
+                </ol>
+                <div><img src="Externalpost5.png" onclick="openModal('Externalpost5.png')" alt="Application Form"
+                    width="100%" height="auto"></div><br>
+
+                <!-- STEP 5 -->
+                <p><strong>Step 5: Point the Portal at Its Home Page Link</strong></p>
+                <p>This is the field that actually makes the portal live, so don't skip it.</p>
+                <ol>
+                  <li>In <strong>Enter Home Page Link</strong>, type: <code
+                      style="background: #eee; padding: 2px 4px; border-radius: 3px;">https://career.rm365.org/{YourTenantName}</code>
+                  </li>
+                  <li>Replace <code
+                      style="background: #eee; padding: 2px 4px; border-radius: 3px;">{YourTenantName}</code> with your
+                    actual tenant name — the first segment of your SharePoint domain. For example, if your
+                    SharePoint URL is <code
+                      style="background: #eee; padding: 2px 4px; border-radius: 3px;">bitzap.sharepoint.com</code>, your
+                    tenant name is <code style="background: #eee; padding: 2px 4px; border-radius: 3px;">bitzap</code>,
+                    and your link becomes <code
+                      style="background: #eee; padding: 2px 4px; border-radius: 3px;">https://career.rm365.org/bitzap</code>.
+                  </li>
+                </ol>
+
+                <div style="background-color: #fff9e6; border-left: 4px solid #ffcc00; padding: 12px; margin: 15px 0;">
+                  <strong>💡 Info:</strong> Not sure of your tenant name? Look at any SharePoint URL in your
+                  organization — it's the part right before <code
+                    style="background: #eee; padding: 2px 4px; border-radius: 3px;">.sharepoint.com</code>. In
+                  our source screenshots, the site was <code
+                    style="background: #eee; padding: 2px 4px; border-radius: 3px;">bitzap.sharepoint.com/sites/Demo2022</code>,
+                  so the tenant name is <code
+                    style="background: #eee; padding: 2px 4px; border-radius: 3px;">bitzap</code>.
+                </div>
+
+                <!-- STEP 6 -->
+                <p><strong>Step 6: Save and Verify</strong></p>
+                <ol>
+                  <li>Once every field looks right in the Preview pane, click <strong>Save</strong>.</li>
+                  <li>Open a new browser tab and go to your portal's live URL: <code
+                      style="background: #eee; padding: 2px 4px; border-radius: 3px;">https://career.rm365.org/{YourTenantName}</code>.
+                  </li>
+                  <li>Confirm your logo, banner, description, and colors are showing up exactly as configured.
+                  </li>
+                </ol>
+
+                <div style="background-color: #fff9e6; border-left: 4px solid #ffcc00; padding: 12px; margin: 15px 0;">
+                  <strong>💡 Pro Tip:</strong> Open the live URL in an incognito/private window rather than your regular
+                  browser tab. That way you're seeing the portal exactly as an anonymous candidate would — no
+                  admin session, no cached view, no “works on my machine.”
+                </div>
+
+                <!-- STEP 7 -->
+                <p><strong>Step 7: Share It</strong></p>
+                <p>
+                  Your external portal is now live at <code
+                    style="background: #eee; padding: 2px 4px; border-radius: 3px;">https://career.rm365.org/{YourTenantName}</code>.
+                  Post it, pin it, or paste it anywhere candidates might be looking — your careers page, LinkedIn, a
+                  job board — and it'll always reflect your current open roles and branding.
+                </p>
+
+              </div>
+              <br>
+              <p>
+                All job postings made by the organization are publicly available on the external portal:
+                <a href="https://career.rm365.org/m365online" target="_blank">RM365 Online Job Portal</a>.
+              </p>
+              <div><img src="external.png" onclick="openModal('external.png')" alt="Approval Options" width="100%"
+                  height="auto"></div><br>
+              <div><img src="external1.png" onclick="openModal('external1.png')" alt="Approval Options" width="100%"
+                  height="auto"></div><br>
+
+              <p>Click on the provided icon to open the job application interface.</p>
+              <div><img src="ClickonIcon1.png" onclick="openModal('ClickonIcon1.png')" alt="Launch Job Post"
+                  width="100%" height="auto"></div><br>
+
+              <p>Then, click the <b>Apply</b> button.</p>
+              <div><img src="Apply1.png" onclick="openModal('Apply1.png')" alt="Apply Button" width="100%"
+                  height="auto"></div><br>
+
+              <p>Candidates can enter the required details per job criteria and upload a resume.</p>
+              <div><img src="DataFill2.png" onclick="openModal('DataFill2.png')" alt="Application Form" width="100%"
+                  height="auto"></div><br>
+              <p>The candidate details will be automatically extracted from the uploaded resume, eliminating the need
+                for manual data entry.</p>
+              <div><img src="DataFill3.png" onclick="openModal('DataFill3.png')" alt="Application Form" width="100%"
+                  height="auto"></div><br>
+              <p>After completing the form, select the checkbox and click the submit button to finalize the application.
+              </p>
+              <div><img src="Submit1.png" onclick="openModal('Submit1.png')" alt="Submit Application" width="100%"
+                  height="auto"></div><br>
+            </div>
+
+            <!-- Confidential Internal -->
+
+
+            <!-- Confidential External -->
+            <div class="bg-light p-4 remove-padding">
+              <h2 id="_confidential_external">
+                <a class="header-icon-link highlight" href="#"> Confidential External
+                  <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                </a>
+              </h2>
+              <br>
+              <p><b>Confidential External</b> jobs are accessible only through a private link and do not appear in the
+                public external portal. This option is used when the job must remain discreet but still be available to
+                selected external candidates.</p><br>
+
+              <div><img src="confidentialExternal.png" onclick="openModal('confidentialExternal.png')"
+                  alt="Confidential External Portal" width="100%" height="auto"></div><br>
+
+              <p>Similar to Confidential Internal, after creating a job with <b>Confidential External</b> status,
+                administrators can copy its URL and share it directly with chosen external candidates. Only individuals
+                with the link can access and apply.</p><br>
+              <div><img src="1b.png" onclick="openModal('1b.png')" alt="Confidential External Publish Status"
+                  width="100%" height="auto"></div><br>
+              <div><img src="publish_conf_external.png" onclick="openModal('publish_conf_external.png')"
+                  alt="Confidential External Publish Status" width="100%" height="auto"></div><br>
+
+              <div class="notices note">
+                <div class="paragraph">
+                  <p>1. To install the Internal/External Job Portal (IJP), customers must raise a request with the
+                    support team. The support team will deploy and configure the IJP app on the customer’s SharePoint
+                    site, enabling administrators to set up and manage job postings.<br><br>2.
+                    For first-time RM365 installations within a tenant, once a user uploads a job posting and clicks the
+                    <b>Live</b> option, the system automatically opens the corresponding job posting site without
+                    requiring any additional configuration.
+                </div>
+              </div>
+
+
+
+
+
+              <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+              <nav class="pagination mt-3">
+                <a class="nav nav-prev" href="../hiring-process/" aria-label="Previous page"><i
+                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Hiring Process
+                  </span></a>
+                <a class="nav nav-next" href="../Azure-OpenAI-Integration/" aria-label="Previous page"> <span
+                    class="d-none d-md-block">Azure Open Ai Integration</span><i class="ti-arrow-right ml-2"></i></a>
+              </nav>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </section>
+  <div id="myModal" class="modal">
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a> <a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
-                        Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
+    <div class="modal-content">
+      <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
+      <div class="mySlides">
+        <img src="" id="imageId" style="width:100%">
+      </div>
 
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
+    </div>
+  </div>
+
+  <footer class="section pb-4">
+    <div class=container>
+      <div class="row align-items-center">
+        <div class="col-md-8 text-md-left text-center">
+          <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a> <a
+              href="https://www.hr365.us/sla/">SLA.</a>
+            <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
+              href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
+              href=https://www.cubiclogics.com/privacy-policy />Privacy
+            Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
+          </p>
         </div>
-    </footer>
-    <script src="../../../../../js/script.min.js"></script>
-    <script src="../../../../../js/showhidefunction.js"></script>
-    <script src="../../../../../js/header-footer.js"></script>
-    <script src="../../../../../js/rm-modern-admin.js"></script>
-    <script>
-        function openModal(src) {
+        <div class="col-md-4 text-md-right text-center">
+          <ul class=list-inline>
+            <li class=list-inline-item><a class="text-color d-inline-block p-2"
+                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i class=ti-facebook></i></a></li>
+            <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://twitter.com/HR365_HRMS"
+                aria-label=Twitter><i class=ti-twitter-alt></i></a></li>
 
-            document.getElementById("imageId").src = src;
-            document.getElementById("myModal").style.display = "block";
-        }
+            <li class=list-inline-item><a class="text-color d-inline-block p-2"
+                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd" aria-label=Linkedin><i
+                  class=ti-linkedin></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../../../../../js/script.min.js"></script>
+  <script src="../../../../../js/showhidefunction.js"></script>
+  <script src="../../../../../js/header-footer.js"></script>
+  <script src="../../../../../js/rm-modern-admin.js"></script>
+  <script>
+    function openModal(src) {
 
-        function closeModal() {
-            document.getElementById("myModal").style.display = "none";
+      document.getElementById("imageId").src = src;
+      document.getElementById("myModal").style.display = "block";
+    }
 
-        }
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
 
-        date = new Date().toLocaleDateString();
-        document.getElementById("date").innerHTML = date;
-    </script>
- <script src="/js/plus-toggle.js"></script></body>
+    }
+
+    date = new Date().toLocaleDateString();
+    document.getElementById("date").innerHTML = date;
+  </script>
+  <script src="/js/plus-toggle.js"></script>
+</body>
 
 </html>

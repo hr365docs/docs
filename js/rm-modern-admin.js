@@ -181,10 +181,25 @@ $(document).ready(function () {
                     "</ul>" +
                 "</li>" +
 
-                "<li data-nav-id='./Custom-Emails/' title='Portal Configuration' class='sidelist'>" +
+                "<li data-nav-id='../user' title='Portal Configuration' class='dropdownicon sidelist'>" +
                     "<a href='/RM365/modern/admin/settings/portal-configration/'>Portal Configuration</a>" +
+                    "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
                 "</li>" +
-
+      "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+                    "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+                      "<li data-nav-id='../General' title='Internal Job Portal Configuration' class='sidelist'>" +
+                            "<a href='/RM365/modern/admin/settings/portal-configration/#Internal-job-portal-configuration'>Internal Job Portal Configuration</a>" +
+                        "</li>" +
+                        "<li data-nav-id='../General' title='Confidential Internal' class='sidelist'>" +
+                            "<a href='/RM365/modern/admin/settings/portal-configration/#Confidential-internal'>Confidential Internal</a>" +
+                        "</li>" +
+                        "<li data-nav-id='../General' title='External Portal Configuration' class='sidelist'>" +
+                            "<a href='/RM365/modern/admin/settings/portal-configration/#external-portal-configuration'>External Portal Configuration</a>" +
+                        "</li>" +
+                      
+                       
+                    "</ul>" +
+                "</li>" +
                 "<li data-nav-id='../General' title='Azure Open AI Integration' class='sidelist'>" +
                     "<a href='/RM365/modern/admin/settings/Azure-OpenAI-Integration/'>Azure Open AI Integration</a>" +
                 "</li>" +
