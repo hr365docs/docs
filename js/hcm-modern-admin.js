@@ -55,8 +55,29 @@ $(document).ready(function () {
                 "<li  data-nav-id='../advanced/' title='Change the Look' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/settings/general/#_change_the_look'>Change the Look</a>" +
                 "</li>" +
+                "<li  data-nav-id='../advanced/' title='Logo Style' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/general/#logostyle'>Logo Style</a>" +
+                "</li>" +
+                                "<li  data-nav-id='../advanced/' title='Customize Dashboard View' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/general/#customise'>Customize Dashboard View</a>" +
+                "</li>" +
+                 "<li  data-nav-id='../advanced/' title='Currency Seperator' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/general/#seperator'>Currency Seperator</a>" +
+                "</li>" +
+                 "<li  data-nav-id='../advanced/' title='Use Sharepoint URL for MS Teams Installed Application ' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/general/#use'>Use Sharepoint URL for MS Teams Installed Application </a>" +
+                "</li>" +
+                 "<li  data-nav-id='../advanced/' title='Allow All Microsoft 365 Users in This Tenant  ' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/general/#allow'>Allow All Microsoft 365 Users in This Tenant  </a>" +
+                "</li>" +
                 "<li  data-nav-id='../advanced/' title='Default Currency' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/settings/general/#DefaultCurrency'>Default Currency</a>" +
+                "</li>" +
+                                "<li  data-nav-id='../advanced/' title='Cross-Department Publishing Access' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/general/#cross'>Cross-Department Publishing Access</a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Pending Update Validation Notifications' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/general/#pending'>Pending Update Validation Notifications</a>" +
                 "</li>" +
                 "<li  data-nav-id='../advanced/' title='AI Knowledge Vault' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/settings/general/#_ai_knowledge_vault'>AI Knowledge Vault</a>" +
@@ -175,9 +196,6 @@ $(document).ready(function () {
                 "<a href='/HRMS-HR365/modern/admin/settings/UserRole/#_restrict_permissions'>Restrict Permissions</a>" +
                 "</li>" +
 
-                 "<li  data-nav-id='../advanced/' title='Apps Settings' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/settings/UserRole/#Apps-Settings'>Apps Settings</a>" +
-                "</li>" +
 
                 
 
@@ -275,10 +293,31 @@ $(document).ready(function () {
                  "<li  data-nav-id='../advanced/' title='AI Control Panel' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/settings/ai-control-panel/'>AI Control Panel</a>" +
                 "</li>" +
-                 "<li  data-nav-id='../advanced/' title='Notifications' class='sidelist'>" +
-                "<a href='/HRMS-HR365/modern/admin/settings/Notifications/'>Notifications</a>" +
+                 "<li class='dropdownicon sidelist' title='General'>" +
+                "<a  class='qwe' href='/HRMS-HR365/modern/admin/settings/notifications/'>" +
+                "Notifications" +
+                "</a>" +
+                "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIcongeneral aside_dropdown_icon''>" +
                 "</li>" +
-
+                "<li data-nav-id='../advanced/' class='sidelist dropdown_romove_dot' >" +
+                 
+                "<ul class='sidenavSub-topics aside_dropdown_list' id='edmmoderngeneral'>" +
+                  
+                "<li  data-nav-id='../advanced/' title='Organization Email ID ' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/notifications/#organize'>Organization Email ID </a>" +
+                "</li>" +
+                "<li  data-nav-id='../advanced/' title='Email Templates  ' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/notifications/#email'>Email Templates </a>" +
+                "</li>" +
+                "</ul>"+
+                "</li>"+
+                
+                   "<li  data-nav-id='../advanced/' title='App Settings' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/appsettings/'>App Settings</a>" +
+                "</li>" +
+                  "<li  data-nav-id='../advanced/' title='Features' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/settings/features/'>Features</a>" +
+                "</li>" +
                    
 
 
@@ -627,6 +666,7 @@ $(document).ready(function () {
                 "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#Notifications'>Notifications</a>" +
                
                 "</li>" +
+
                  "<li  data-nav-id='../advanced/' title='TMP365 - Leave Type Setting' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/TMP365/settings/#leave-type-settings'>Leave Type Setting</a>" +
                 "</li>" + 

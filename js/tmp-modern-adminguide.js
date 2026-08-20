@@ -52,6 +52,9 @@ $(document).ready(function () {
         "Reports" +
         "</a>" +
         "</li>" +
+        "<li data-nav-id='../migration' title=Migration class=sidelist>" +
+        "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/migration/'>" +
+        "Migration" +
 
 
         "<li class='dropdownicon sidelist' title='System Settings'>" +
@@ -180,6 +183,9 @@ $(document).ready(function () {
         "</li>" +     
          "<li data-nav-id='../General' title='Enable Team Approval ' class='sidelist'>" +
         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/advance-setting/#teamapproval'>Enable Team Approvals  </a>" +
+        "</li>" +   
+        "<li data-nav-id='../General' title='Meeting and Task Conflict Alerts' class='sidelist'>" +
+        "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/advance-setting/#conflict'>Meeting and Task Conflict Alerts</a>" +
         "</li>" +     
         "</ul>" +
 

@@ -99,30 +99,39 @@
                         <!-- <h2 class=mb-5 id=title>General</h2> -->
                         <div class="bg-light p-4 remove-padding" id="UserRole">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>User, Roles And
-                                        Permissions
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+                                        Permissions-->User(s), Roles and Permissions · Features · Notifications 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                <p>Add/Edit Users: Allows administrators to add or modify user accounts within the
+                                <p><!--Add/Edit Users: Allows administrators to add or modify user accounts within the
                                     system. Administrators can manage access levels, assign roles, and define
-                                    permissions for each user.</p>
-                                <div><img src="Adduser1.png" onclick="openModal('Adduser1.png')" alt="Update users role"
+                                    permissions for each user.-->Who gets in, what they can touch, what gets analyzed, and what gets emailed when it happens </p>
+                                <div><img src="user.png" onclick="openModal('user.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
-                                <p>In the "Add/Edit User" form, the "Leaves Per Year" section allows you to configure
+                                <!--<p>In the "Add/Edit User" form, the "Leaves Per Year" section allows you to configure
                                     annual leave entitlements, including PTO (Paid Time Off), Sick Leave, and Comp Off
                                     (compensatory off for extra work). The "Work Week" section defines the employee’s
                                     standard working hours for each day of the week, typically set to 8 hours on
                                     weekdays and 0 on weekends. Below this, you can assign the user specific roles
                                     across multiple applications (like HR365, ED365, TM365, etc.), ensuring they have
-                                    appropriate permissions based on their responsibilities in each system.</p>
-                                <div><img src="Leavesperweek.png" onclick="openModal('Leavesperweek.png')"
+                                    appropriate permissions based on their responsibilities in each system.</p>-->
+                                     <h3 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+                                        Permissions-->Add/Edit User
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h3>
+                                <p>The front door — and the only place a person becomes a person HR365 HRMS recognizes. </p>
+                                <p>Add/Edit Users: Allows administrators to add or modify user accounts within the system. Administrators can manage access levels, assign roles, and define permissions for each user. </p>
+                                <div><img src="adduser.png" onclick="openModal('adduser.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
-                                <p>A user can be assigned different roles for different applications.
-                                    <br>
-                                    These roles define the level of access and permissions granted within each
-                                    application.
+                                <p style="display:flex;justify-content:center;align-items:center">The Active list — seven employees, each with department, manager, and location pulled from Microsoft 365.
                                 </p>
-                                <ul>
+                                <p style="display:flex;justify-content:center;align-items:center">
+                                    <strong>Update from M365: This option allows administrators to refresh or update existing user details from Microsoft 365. It syncs only the latest changes (such as name, email, or role updates) for already added users without performing a full sync. To include or exclude specific groups before syncing, use the setting option on the right side of the page. 
+ 
+</strong>
+                                </p>
+                                 <p>Click on<strong>Full sync from M365</strong>  for pull all users details from M365. </p>
+                              <!-- <ul>
 
                                     <li style="padding-bottom: 0.1vw;"><strong>Admin</strong> – Manages system
                                         configurations, user roles, and overall platform settings.</li>
@@ -166,20 +175,24 @@
                                         resume reviews and pre-qualifies candidates.</li>
                                     <li style="padding-bottom: 0.1vw;"><strong>User</strong> – Has limited access for
                                         task execution, assigned workflows, or viewing data.</li>
-                                </ul>
-                                <br>
-                                <div><img src="Roles.png" onclick="openModal('Roles.png')" alt="Update users role"
+                                </ul>-->
+                                
+                                  <h3 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+                                        Permissions-->Adding a User
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h3><br>
+                                <div><img src="adduser2.png" onclick="openModal('adduser2.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
-                                <div><img src="leftroles.png" onclick="openModal('leftroles.png')"
-                                        alt="Update users role" width="100%" height="auto"></div><br>
+                               <!-- <div><img src="leftroles.png" onclick="openModal('leftroles.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br>-->
 
-                                <p><b>Full Sync for Users:</b> This feature allows administrators to synchronize all
+                                <p style="display:flex;justify-content:center;align-items:center"><!--<b>Full Sync for Users:</b> This feature allows administrators to synchronize all
                                     user data
                                     from an external directory or source (such as Microsoft 365) into the system. It
                                     ensures that user information like names, emails, and roles are up to date and
-                                    accurately reflected in the application.</p>
+                                    accurately reflected in the application.-->Add User — Employee Name and Employee Email are the two fields worth double-checking before you fill in the rest. </p>
 
-                                <div><img src="UserFullsync.png" onclick="openModal('UserFullsync.png')"
+                              <!--  <div><img src="UserFullsync.png" onclick="openModal('UserFullsync.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
                                 <p><b>Update from M365:</b> This option allows administrators to refresh or update
                                     existing
@@ -223,31 +236,48 @@
                                 
 
                                 <div><img src="Settings.png" onclick="openModal('Settings.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>-->
+    <h4 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+                                        Permissions-->The Role × App Permission Matrix
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Scrolling to the bottom of the Add or Edit User form reveals the real access-control heart of the feature: a grid of roles (Global Admin, Admin, HR Head, Finance, Manager, Recruiter, and about twenty others) down the side and HRMS apps (HRMS-HR365, Directory, Time-Off, Onboarding, Timesheet, Expense, Recruitment, Performance, Tasks, LMS) across the top. Every checkbox is an independent grant — a user can be Manager in Time-Off and Recruiter in Recruitment at the same time. </p>
+                                      <div><img src="adduser3.png" onclick="openModal('adduser3.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
+                    <p style="display:flex;justify-content:center;align-items:center">The Role x App matrix, scrolled to show a sample of roles against HRMS-HR365, Directory, and Time-Off.</p> 
+                                <h4 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+                                        Permissions-->The Gear: Sync and Exclusion Settings
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>The small gear icon next to Search opens a second, denser configuration surface that governs how the M365 sync behaves — separate from adding individual users by hand. Overwrite user profile details controls whether a sync is allowed to clobber manually-edited fields. Below that, a choice between Exclude Options (skip specific categories of M365 account, like blocked sign-ins or shared mailboxes) and Sync M365 Groups. Further down, a set of Exclude User by Department / Location / Title / domain / name / UPN / contains rows, each opening its own searchable, multi-select Configure panel with a live table of what's currently excluded. </p>
+                  <div><img src="adduser4.png" onclick="openModal('adduser4.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>
+                                        <p style="display:flex;justify-content:center;align-items:center">Settings (gear icon) — Exclude Options and the per-attribute Configure rows that scope what a sync brings in.</p>
+                                <div class="" id="RestrictPermissions">
 
-                                        <div class="" id="RestrictPermissions">
-
-    <h2 id="_restrict_permissions">
+    <h3 id="_restrict_permissions">
       <a class="header-icon-link highlight" href="#">
         Restrict Permissions
         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
       </a>
-    </h2>
-
-    <p>
-      The <strong>Restrict Permissions</strong> feature allows administrators to define access levels for different communication types such as 
-      <em>Post</em>, <em>Announcement</em>, and <em>Poll</em>. <br>
+    </h3>
+<p>Fine-grained control over who can post, and who can even see what's posted. </p>
+    
+     <!-- The <strong>Restrict Permissions</strong> feature allows administrators to define access levels for different communication types such as 
+      <em>Post</em>, <em>Announcement</em>, and <em>Poll</em>. <br>-->
+      <p>Restrict Permissions governs three content types independently — Post, Announcement, and Poll. For each, an admin picks Create or View from a dropdown, then chooses Allow All Except (an exclude list) or Allow Selected (an include list), and manages the actual people list in a tag field right below.</p>
       <div>
-      <img src="RestrictPermission_Main1.png" onclick="openModal('RestrictPermission_Main1.png')" 
+      <img src="permissions.png" onclick="openModal('permissions.png')" 
            alt="Restrict Permissions main configuration screen" width="100%" height="auto">
     </div><br>
       
       
-      For each type, you can choose the appropriate access rule from the dropdown options — 
-      for example, whether users can <strong>Create</strong> or <strong>View</strong> content.
-    </p><br><br>
+     <!--- For each type, you can choose the appropriate access rule from the dropdown options — 
+      for example, whether users can <strong>Create</strong> or <strong>View</strong> content.-->
+      <p style="display:Flex;justify-content:center;align-items:center">Restrict Permissions — Post, Announcement, and Poll, each independently configured for Create and View access.</p>
+    <br><br>
 
-    <div>
+    <!--<div>
       <img src="RestrictPermission_Main.png" onclick="openModal('RestrictPermission_Main.png')" 
            alt="Restrict Permissions main configuration screen" width="100%" height="auto">
     </div><br>
@@ -309,8 +339,17 @@
                 </div>
             </div>
         </div>
-        </div>
-    </section>
+        </div>-->
+          <h3 id="_restrict_permissions">
+      <a class="header-icon-link highlight" href="#">
+        Included / Excluded Users 
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+    <p>Clicking the small View link next to any Create/View row opens a dedicated sub-panel listing exactly who's currently included or excluded for that specific combination, each with a trash-can icon and a confirmation prompt to remove them.</p>
+    <div><img src="includedusers.png" onclick="openModal('includedusers.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>
+</section>
     <div id="myModal" class="modal">
 
         <div class="modal-content">

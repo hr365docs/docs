@@ -104,43 +104,58 @@
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    The Administration section is used to set up and manage the core structural elements
+                                    <!--The Administration section is used to set up and manage the core structural elements
                                     of the organization within the HRMS system. It includes key configurations such as
                                     departments, organizational hierarchy, job grades, locations, and positions. This
                                     section helps in maintaining consistent organizational data across various modules
-                                    of the application.
+                                    of the application.-->
                                 </p>
 
-                                <div><img src="Administration.png" onclick="openModal('Administration.png')"
+                                <div><img src="administration3.png" onclick="openModal('administration3.png')"
                                         alt="General" width="100%" height="auto"></div>
                                 <br>
                             </ul>
+                             <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
+
+                                         Welcome to the Engine Room 
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>If HR365-HRMS were a ship, most people only ever see the deck — the dashboards, the leave requests, the shiny Praise posts. Administration is the engine room. It's where you define the departments people belong to, the grades that decide who reports to whom, the locations they clock in from, and the job titles on their business cards. Nothing here is glamorous, and that's exactly the point: get it right once, and every other module (Time-Off, Recruitment, Performance, Expense) quietly inherits the correct structure without anyone having to think about it again.</p>
+                           <p>This guide walks through all eight Administration tiles — Departments, Organization, Badges, Grades, Location, Position / Job Title, Delegation, and Employee Type — in the order you'll find them on the Settings page. Each section explains what the feature does, how to use it, and (because we test these things so you don't have to find out the hard way) a few honest heads-ups about quirks worth knowing before you rely on them.</p>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="Department">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
 
-                                        Department
+                                       <!-- Department-->Departments 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                <p><b>Departments: </b>Define and manage various departments across the organization.
+                                <p>Where every employee officially “lives” on the org chart.</p>
+                                <p><!--<b>Departments: </b>Define and manage various departments across the organization.
                                     This
-                                    ensures proper alignment of users and teams within functional groups.</p>
-                                <div><img src="department.png" onclick="openModal('department.png')"
+                                    ensures proper alignment of users and teams within functional groups.--><b>Departments are the first and most fundamental grouping in HR365-HRMS — Human Resources, Software Development, IT Services, and so on. Every employee record, every approval routing rule, and a good chunk of your reporting all key off this list, so it's worth keeping it tidy.</b></p>
+                                <div><img src="department4.png" onclick="openModal('department4.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
-
-                                <p>To add a new department, click on the “+ Add” button located at the top of the
+                                  <p style="display:flex;justify-content:center;align-items:center">The Departments grid — already synced with a healthy list of teams.</p>
+                                <!--<p>To add a new department, click on the “+ Add” button located at the top of the
                                     Departments panel. A form will appear on the right side where you can enter the
                                     department name, such as Sales. You can choose to activate the department
                                     immediately by toggling the Active switch. Once all details are filled in, click the
-                                    Save button to create and store the department in the system.</p>
-                                <div><img src="AddDepartment.png" onclick="openModal('AddDepartment.png')"
+                                    Save button to create and store the department in the system.</p>-->
+                                    <ul style="list-style-type:disc">
+                                        <li><strong>Add —</strong> click the green “+ Add” button, give the department a name and an optional description, and decide whether it's Active. Simple in, simple out. </li>
+                                    <li><strong>Sync from M365 —</strong> the teal “Sync From M365” button pulls department data straight from your Microsoft 365 tenant, so you're not retyping what Azure AD already knows. </li>
+                                    <li><strong>Bulk actions —</strong> tick the checkboxes on multiple rows and use the Action menu to deactivate or delete several departments at once — handy during a reorg or when retiring legacy teams. </li>
+                               <li><strong>Search & sort —</strong> the inline filter row under the header lets you search by department name or description without leaving the panel. </li>
+                                </ul>
+                                <br>
+                                <div><img src="department5.png" onclick="openModal('department5.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
-
-                                <p>Use “Sync from M365” to import departments directly from Microsoft 365. This keeps
+                                <p style="display:flex;justify-content:center;align-items:center">Adding a new department: name, description, and an Active switch. </p>
+                              <!---  <p>Use “Sync from M365” to import departments directly from Microsoft 365. This keeps
                                     your department list up to date with your organization’s M365 structure, reducing
-                                    manual entry.</p>
-                                <div><img src="SyncDepartment.png" onclick="openModal('SyncDepartment.png')"
+                                    manual entry.</p>-->
+                               <!-- <div><img src="SyncDepartment.png" onclick="openModal('SyncDepartment.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
 
                                 <br>
@@ -150,7 +165,7 @@
                                         alt="Update users role" width="100%" height="auto"></div><br>
 
                                 <br>
-                            </ul>
+                            </ul>-->
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="Organization">
                             <ul class=page-list>
@@ -159,25 +174,32 @@
                                         Organization
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                <p>
-                                    The Organization setup defines the hierarchical structure of the company. It allows
+                                <p>Your company's legal and banking identity, in one place. </p>
+                                <p><b>This is the one setting almost everything else quietly depends on — especially Time-Off Manager, which pulls its default location and time zone logic from here. The Organization record holds your company's registration details, contact info, and banking information across three tabs. </b>
+                                   <!-- The Organization setup defines the hierarchical structure of the company. It allows
                                     you to map how different departments or units are structured within the
-                                    organization, supporting multi-level reporting lines and organizational views.
+                                    organization, supporting multi-level reporting lines and organizational views.-->
                                 </p>
-                                <p>To add a new organization, click the "+ Add" button. Under the General tab, enter the
-                                    organization's basic information.</p>
-                                <div><img src="OrgDetails.png" onclick="openModal('OrgDetails.png')"
+                               <!-- <p>To add a new organization, click the "+ Add" button. Under the General tab, enter the
+                                    organization's basic information.</p>-->
+                                <div><img src="organisation3.png" onclick="openModal('organisation3.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
-
-                                <p>In the Bank Details tab, fill in the organization's banking information for financial
-                                    transactions.</p>
-                                <div><img src="BankDetails.png" onclick="openModal('BankDetails.png')"
-                                        alt="Update users role" width="100%" height="auto"></div><br>
-
-                                <p>The Intermediate Bank Details section is used for international transactions that
+ <p style="display:flex;justify-content:center;align-items:center"><!--The Intermediate Bank Details section is used for international transactions that
                                     involve a secondary (intermediate) bank. This is typically required when the primary
-                                    bank does not have a direct connection with the receiving bank.</p>
-                                <div><img src="intermediate-bank-details.png"
+                                    bank does not have a direct connection with the receiving bank.-->The General tab: legal name, contact info, and location — all required. </p>
+                               <!-- <p>In the Bank Details tab, fill in the organization's banking information for financial
+                                    transactions.</p>-->
+                                    <ul style="list-style-type:disc">
+                                        <li><strong>General —</strong> organization name, email, office location, country/s</li>
+                                    <li><strong>Bank Details —</strong> your primary banking information (account number, ABA/SWIFT/IBAN, bank address). Look for the “Intermediate Bank Details” link at the bottom of this tab — click it to expand a hidden sub-section for routing international wire transfers through a secondary/correspondent bank. </li>
+                                   <li><strong>Terms and Conditions —</strong> the legal terms tied to your organization record. </li>
+                                </ul>
+                                <br>
+                                <div><img src="organisation4.png" onclick="openModal('organisation4.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br>
+
+                               
+                                <!--<div><img src="intermediate-bank-details.png"
                                         onclick="openModal('intermediate-bank-details.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
 
@@ -188,7 +210,8 @@
                                         alt="Update users role" width="100%" height="auto"></div><br>
 
                                 <br>
-                            </ul>
+                            </ul>-->
+                            <p style="display:flex;justify-content:center;align-items:center">Bank Details, expanded to reveal the collapsible Intermediate Bank Details sub-section. </p>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="Badges">
                             <ul class=page-list>
@@ -197,37 +220,50 @@
                                         Badges
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                <p><b>Badges: </b>Manage digital badges or recognitions that may be awarded to users for
-                                    achievements, certifications, or milestones.</p>
-                                <div><img src="Badge.png" onclick="openModal('Badge.png')" alt="Update users role"
+                                <p>Digital “gold stars” for the Praise / recognition feature. </p>
+                                <p><!--<b>Badges: </b>Manage digital badges or recognitions that may be awarded to users for
+                                    achievements, certifications, or milestones.--><b>Badges are the little icons that show up when a colleague publicly praises someone in the recognition feed — think “Team Player”, “Above & Beyond”, or “First Ship.” Setting them up is meant to take three fields.</b></p>
+                                <div><img src="badge2.png" onclick="openModal('badge2.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
-                                <p>Click the + Add button to create a new badge. <br>
-                                    Enter the badge name, add a description, toggle it active if needed, and click Save.
+                                <p style="display:flex;justify-content:center;align-items:center"><!--Click the + Add button to create a new badge. <br>
+                                    Enter the badge name, add a description, toggle it active if needed, and click Save.-->An empty Badges list — nothing has been created yet in this tenant. 
                                 </p>
-                                <div><img src="AddBadge.png" onclick="openModal('AddBadge.png')" alt="Update users role"
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Badge name & description —</strong> what the badge is called and what it recognizes. </li>
+                               <li><strong>Active toggle —</strong> controls whether the badge can currently be awarded. </li>
+                               <li><strong>Select badge icon —</strong> a required icon picker that's supposed to open a gallery of badge artwork to attach to the badge. </li> 
+                            </ul>
+                            <br>
+                                <div><img src="badge3.png" onclick="openModal('badge3.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
                             </ul>
+                            <p style="display:flex;justify-content:center;align-items:center">The Add Badge panel — note the required icon-picker button on the left.</p>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="Grade">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
 
-                                        Grade
+                                        Grades
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
+                                <p>The levels behind the org chart — L1, L2, L3, and beyond.</p>
                                 <p>
-                                    <b>Grades:</b> Set up and maintain employee grade levels that determine compensation
+                                   <!-- <b>Grades:</b> Set up and maintain employee grade levels that determine compensation
                                     bands,
-                                    job levels, and organizational role tiers.
+                                    job levels, and organizational role tiers.--><b>Grades define seniority or compensation bands (Associate, Analyst, Senior Analyst, and so on). They're a quiet dependency for Time-Off Manager and Expense Tracker, both of which can use an employee's grade to apply different policy tiers. </b>
                                 </p>
-                                <div><img src="Grade.png" onclick="openModal('Grade.png')" alt="Update users role"
+                                <div><img src="grades2.png" onclick="openModal('grades2.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
-                                <p>Click the + Add button to create a new grade. <br>
-                                    Enter the grade name and click Save to add it to the system.</p>
-                                <div><img src="addgrade.png" onclick="openModal('addgrade.png')" alt="Update users role"
+                                <p style="display:flex;justify-content:center;align-items:center"><!--Click the + Add button to create a new grade. <br>
+                                    Enter the grade name and click Save to add it to the system.-->A simple, clean Grades list — exactly what this feature is meant to look like. </p>
+                                <!--<div><img src="addgrade.png" onclick="openModal('addgrade.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
 
-                                <br>
+                                <br>-->
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Add —</strong> type a grade name and save. That's the whole form. </li>
+                                <li><strong>Save and Add More —</strong> uniquely among the Administration tiles, Grades offers this option so you can punch in L1, L2, L3, L4… back-to-back without reopening the panel each time. More modules should borrow this trick. </li>
+                                </ul>
                             </ul>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="Location">
@@ -237,50 +273,68 @@
                                         Location
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
+                                <p>Every office, site, or remote hub your workforce clocks in from.</p>
                                 <p>
-                                    <b>Location:</b> Add and manage geographic locations or office branches where
-                                    employees are assigned.
+                                    <!--<b>Location:</b> Add and manage geographic locations or office branches where
+                                    employees are assigned.--><b>Location powers everything from directory filtering to (via the Work week table below) default working-hour expectations per site.</b>
                                 </p>
-                                <div><img src="location.png" onclick="openModal('location.png')" alt="Update users role"
+                                <div><img src="location4.png" onclick="openModal('location4.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
-                                <p>Click the + Add button to create a new location. <br>
-                                    Enter the location name, add a description, and toggle Active if required.</p>
-                                <div><img src="addlocation.png" onclick="openModal('addlocation.png')"
+                                <p style="display:flex;justify-content:center;align-items:center"><!--Click the + Add button to create a new location. <br>
+                                    Enter the location name, add a description, and toggle Active if required.-->The Location grid, complete with a Sync From M365 shortcut for keeping it current.</p>
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Add / Edit — </strong>name, description, and an Active toggle, same pattern as Departments. </li>
+                                <li><strong>Sync From M365 —</strong> pulls the latest location list from your Microsoft 365 directory. </li>
+                              <li><strong>Work week table —</strong> a Monday–Sunday grid of expected working hours for that location, shown as five rows of hour values under the day columns. </li>
+                            </ul>
+                            <br>
+                                    <div><img src="location5.png" onclick="openModal('location5.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
 
                                 <br>
-                                <p>Click Sync From M365 to automatically fetch and update the latest office locations
-                                    from your Microsoft 365 directory.</p>
-                                <div><img src="SyncLoc.png" onclick="openModal('SyncLoc.png')" alt="Update users role"
+                                <p style="display:flex;justify-content: center;align-items:center"><!--Click Sync From M365 to automatically fetch and update the latest office locations
+                                    from your Microsoft 365 directory.-->The Work week table on the Edit Location panel — five rows, currently unlabeled. </p>
+                                <!--<div><img src="SyncLoc.png" onclick="openModal('SyncLoc.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
-                            </ul>
+                            </ul>-->
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="Position">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
 
-                                        Position
+                                    Position / Job Title
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
+                                <p>The titles that show up on business cards, email signatures, and org charts.</p>
                                 <p>
-                                    <b>Position:</b> Define job positions or titles available within the company and
+                                   <!-- <b>Position:</b> Define job positions or titles available within the company and
                                     associate them with departments and grades for structured role assignment.
-                                </p>
-                                <div><img src="position.png" onclick="openModal('position.png')" alt="Update users role"
+                                --><b>This list feeds the job title field wherever it appears across HR365-HRMS  employee profiles, the directory, recruitment requisitions, and more. </b></p>
+                                <div><img src="position3.png" onclick="openModal('position3.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
-                                <p>Click the + Add button to define a new job position. <br>
-                                    Enter the position title, provide details, and click Save.</p>
-                                <div><img src="Addposition.png" onclick="openModal('Addposition.png')"
+                                <p style="display:flex;justify-content:center;align-items:center"><!--Click the + Add button to define a new job position. <br>
+                                    Enter the position title, provide details, and click Save.-->Position / Job Title grid — a healthy mix of synced and manually-added titles.</p>
+                               <ul style="list-style-type:disc">
+                                <li><strong>Add — </strong>position name, an optional description, and Active status. </li>
+                               <li><strong>Sync From M365 —</strong> keeps this list aligned with titles already defined in your Microsoft 365 directory. </li>
+                            </ul>
+                            <br>
+                                    <div><img src="addposition2.png" onclick="openModal('addposition2.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
 
                                 <br>
-                                <p>Click Sync From M365 to import job positions directly from the Microsoft 365
-                                    directory to keep your position list updated.</p>
-                                <div><img src="syncPos.png" onclick="openModal('syncPos.png')" alt="Update users role"
+                                <p style="display:flex;justify-content:center;align-items:center"><!--Click Sync From M365 to import job positions directly from the Microsoft 365
+                                    directory to keep your position list updated.-->The Add Position form — deliberately minimal.</p>
+                                <!--<div><img src="syncPos.png" onclick="openModal('syncPos.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
 
-                                <br>
+                                <br>-->
+                                 <h4 id="_dashboards"><a class="header-icon-link highlight" href=#>
 
+                                    Correction from the previous guide
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+<p>Positions do not currently link to a Department or Grade from within this form — the Add/Edit Position panel only has Position (name), Description, and Active. If your team needs department- or grade-specific job titles, that association has to be managed elsewhere (e.g., on the employee record itself) for now.</p>
                             </ul>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" >
@@ -291,26 +345,68 @@
       </a>
     </h2>
     <br>
-
+<p>Handing the keys to someone else while you're out — on your terms. </p>
     <!-- Intro -->
     <p>
-      The <strong>Delegation</strong> feature in HRMS-HR365 allows administrators to temporarily assign their responsibilities to another user, ensuring business continuity when they are unavailable.
-    </p>
+     <!-- The <strong>Delegation</strong> feature in HRMS-HR365 allows administrators to temporarily assign their responsibilities to another user, ensuring business continuity when they are unavailable.--><b>Delegation lets one person temporarily reassign their responsibilities in a specific app (Time-Off approvals, for example) to a delegatee, for a defined date range. Admins can set up a delegation for anyone; regular users can only delegate their own work. 
+    </b></p>
     <div>
-      <img src="delegation_intro.png" onclick="openModal('delegation_intro.png')" alt="Delegation Overview" width="100%" height="auto">
+      <img src="delegation.png" onclick="openModal('delegation.png')" alt="Delegation Overview" width="100%" height="auto">
     </div>
     <br>
 
     <!-- Add New Delegation -->
-    <p>
-      To create a new delegation, click on the <strong>+ Add</strong> button.
+    <p style="display:flex;justify-content:center;align-items:center">
+    <!--  To create a new delegation, click on the <strong>+ Add</strong> button.-->An active delegation: Joni Sherman handing off Time-Off duties to M Frank for a week.
     </p>
+    <ul style="list-style-type:disc">
+        <li><strong>Delegator / Delegatee — </strong>pick who's handing off responsibilities and who's picking them up, from a searchable people picker. </li>
+    <li><strong>Start Date / End Date —</strong> the window during which the delegation is active. </li>
+<li><strong>App Name —</strong> which application the delegation applies to (Time-Off, for example). </li>
+<li><strong>Active toggle —</strong> lets you disable a delegation without deleting its history. </li>    
+</ul>
+<br>
     <div>
-      <img src="delegation_add.png" onclick="openModal('delegation_add.png')" alt="Add New Delegation" width="100%" height="auto">
+      <img src="adddelegation.png" onclick="openModal('adddelegation.png')" alt="Add New Delegation" width="100%" height="auto">
+    </div>
+    <br>
+<p style="display:flex;justify-content:center;align-items:center">The Add Delegation form — delegator, delegatee, date range, and target app. </p>
+     <div class="bg-light p-4 remove-padding common-scroll" >
+
+    <h2 id="_delegation">
+      <a class="header-icon-link highlight" href="#">Employee Type
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h2>
+    <br>
+<p>Full-Time, Part-Time, Contract — and whatever else your workforce needs. </p>
+    <!-- Intro -->
+    <p>
+     <!-- The <strong>Delegation</strong> feature in HRMS-HR365 allows administrators to temporarily assign their responsibilities to another user, ensuring business continuity when they are unavailable.<b>Delegation lets one person temporarily reassign their responsibilities in a specific app (Time-Off approvals, for example) to a delegatee, for a defined date range. Admins can set up a delegation for anyone; regular users can only delegate their own work. 
+    </b>--><b>Employee Type categorizes your workforce by engagement type. It's a short list, but it quietly affects eligibility rules in modules like Time-Off and Expense.</b></p>
+    <div>
+      <img src="employeetype.png" onclick="openModal('employeetype.png')" alt="Delegation Overview" width="100%" height="auto">
     </div>
     <br>
 
-    <!-- Role Restriction -->
+    <!-- Add New Delegation -->
+    <p style="display:flex;justify-content:center;align-items:center">
+    <!--  To create a new delegation, click on the <strong>+ Add</strong> button.An active delegation: Joni Sherman handing off Time-Off duties to M Frank for a week.-->A clean, minimal Employee Type list — Part Time, Full Time, and Contract. 
+    </p>
+    <ul style="list-style-type:disc">
+        <li><strong>Add / Edit —</strong> a name and an Active toggle. The Edit form correctly requires a name — you can't save a blank Employee Type today.  </li>
+    <li><!--<strong>Start Date / End Date —</strong> the window during which the delegation is active.--><strong>Consistency — </strong>keep this list short and meaningful; it's typically referenced by policy logic elsewhere, so avoid near-duplicate entries like “Contractor” and “Contract. </li>
+<!--<li><strong>App Name —</strong> which application the delegation applies to (Time-Off, for example). </li>
+<li><strong>Active toggle —</strong> lets you disable a delegation without deleting its history. </li>   --> 
+</ul>
+<br>
+   <!-- <div>
+      <img src="adddelegation.png" onclick="openModal('adddelegation.png')" alt="Add New Delegation" width="100%" height="auto">
+    </div>
+    <br>
+<p style="display:flex;justify-content:center;align-items:center">The Add Delegation form — delegator, delegatee, date range, and target app. </p>-->
+
+<!-- Role Restriction 
     <p>
   <strong>Administrators</strong> can create delegations for any user and assign delegatees, while standard users can only create delegations for themselves and choose a delegatee from the list defined by administrators.
 </p>
@@ -320,7 +416,7 @@
     </div>
     <br>
 
-    <!-- Select Delegatee -->
+     Select Delegatee 
     <p>
       From the user list, choose the <strong>delegatee</strong> who will temporarily handle the responsibilities.
     </p>
@@ -329,7 +425,7 @@
     </div>
     <br>
 
-    <!-- Select Duration -->
+    Select Duration 
     <p>
       Specify the <strong>start date</strong> and <strong>end date</strong> for the delegation period.
     </p>
@@ -350,7 +446,7 @@
 <br>
 
 
-    <!-- Status & Save -->
+    Status & Save 
     <p>
       Use the <strong>Status toggle</strong> to activate or deactivate the delegation. Once all details are entered, click <strong>Add</strong> to finalize the delegation.
     </p>
@@ -375,7 +471,7 @@
                 </div>
             </div>
         </div>
-        </div>
+        </div>-->
     </section>
     <div id="myModal" class="modal">
 

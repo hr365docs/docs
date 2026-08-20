@@ -99,16 +99,18 @@
                         <!-- <h2 class=mb-5 id=title>General</h2> -->
                         <div class="bg-light p-4 remove-padding" id="UserRole">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>AI-Control Panel
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#><!--AI-Control Panel-->AI Control Panel 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
-                                <p>
+                        <!--        <p>
   Clicking on <strong>AI Settings</strong> in <b>AI Control Panel</b> provides access to the <strong>Copilot AI Integration</strong>, where you can enable, configure, and manage AI-powered automation features.
-</p><br>
-  <div><img src="1.png" onclick="openModal( '1.png') " alt="Copilot"
+</p><br>-->
+  <div><img src="aicontrol.png" onclick="openModal( 'aicontrol.png') " alt="Copilot"
                                         width="100% " height="auto"></div>
                                 <br>
+                                <hr/>
+                              <!--  <p>Configures AI-powered integrations available across HRMS.</p>
 
                                  <div class="" id="Copilot-Integeration">
                             <ul class=page-list>
@@ -121,14 +123,18 @@
                                     Use this toggle to enable or disable Copilot integration. Enter the configured Power
                                     Automate (PA) URL and click Save to activate the feature.
 
-                                </p>
+                                </p>-->
+                                <ul style="list-style-type:disc;margin:20px">
+                                    <li><Strong>AI Settings –</Strong> Opens the AI Integration panel, which has two independent toggles. Copilot AI Integration connects a Copilot Studio agent to HRMS via a Power Automate URL (requires a Premium Power Automate license) — useful for AI-driven helpdesk-style automation. Azure Open AI Integration connects a custom Azure OpenAI resource by supplying its endpoint, API key, and deployment name, powering the Rivo assistant and AI Knowledge Vault responses. Because this panel stores live API keys, access should be limited to trusted admins. 
+</li>
+                                </ul>
 
 
-                                <div><img src="copilot.png" onclick="openModal( 'copilot.png') " alt="Copilot"
+                                <div><img src="aiintegration.png" onclick="openModal( 'aiintegration.png') " alt="Copilot"
                                         width="100% " height="auto"></div>
                                 <br>
                                  <p>
-            To integrate <strong>Copilot</strong> with <strong>Helpdesk 365</strong>, begin by creating your Copilot agent in 
+          <!--  To integrate <strong>Copilot</strong> with <strong>Helpdesk 365</strong>, begin by creating your Copilot agent in 
             <a href="https://copilotstudio.microsoft.com/" target="_blank">Copilot Studio</a>.
         </p>
         <p>Ensure that you have a <strong>Premium Power Automate license</strong> to proceed with the configuration.</p>
@@ -233,7 +239,7 @@
                 </div>
             </div>
         </div>
-        </div>
+        </div>-->
     </section>
     <div id="myModal" class="modal">
 

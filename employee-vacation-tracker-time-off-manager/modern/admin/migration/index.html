@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang=en-us>
+
+<head>
+    <meta charset="utf-8">
+    <title>Time-Off Manager 365 | Admin Guide | User</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.92.2">
+    <meta name="description" content="Time-Off Manager 365 - Guide for managing user roles, permissions, and settings within the time-off management system.">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #5637da;
+            --body-color: #f9f9f9;
+            --text-color: #636363;
+            --text-color-dark: #242738;
+            --white-color: #ffffff;
+            --light-color: #f8f9fa;
+            --font-family: Lato;
+        }
+    </style>
+
+    <link href="https://hr365docs.github.io/docs/css/style.min.css" rel="stylesheet" media="screen">
+
+    <!-- jQuery and Bootstrap Scripts -->
+    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+
+<body>
+            <!-- Google Tag Manager (noscript) -->
+            <noscript>
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+                    style="display:none;visibility:hidden">
+                </iframe>
+            </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+    <header class="shadow-bottom sticky-top bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container px-2 px-md-0">
+                <a class="navbar-brand px-2" href="https://hr365docs.github.io/docs/">
+                    <img class=img-fluid src="../../../../images/logo_.png" alt=HR365>
+                </a>
+                <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation
+                    aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
+                    <span class=navbar-toggler-icon></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse text-center common-header" id=navigation>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="single section-sm pb-0">
+        <div class="container container-padding">
+            <div class=row>
+                <div class=col-lg-3>
+                    <div class=sidebar>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a
+                                href="../../../../employee-vacation-tracker-time-off-manager/">Time off Manager 365 </a>
+                        </h5>
+                        <a class=back-btn href="../../../../employee-vacation-tracker-time-off-manager/"
+                            aria-label=back></a>
+
+                        <ul class=list-styled>
+                            <li data-nav-id=../Time-off-manager/index.html title="Admin Guide" class="sidelist active">
+                                <a href="../../admin/">
+                                    Admin Guide
+                                </a>
+                                <div id="tmpmodernadmin" class="sidenavbarscrollstyle"></div>
+
+                            </li>
+                        </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class=col-lg-9>
+                    <div class="p-lg-4 p-4 bg-white remove-padding" id=content>
+                        <!-- <h2 class=mb-5 id=title> Users</h2> -->
+                        <div class="bg-light p-4 remove-padding">
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Importing Leaves
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <p><!--Here, admin and HR would be able to add users individually or by bulk using the csv file
+                                provided for sample.The page now includes Active Users and Inactive Users tabs, allowing
+                                admins to easily toggle between and manage users based on their activity status within
+                                the system.Use full sync from M365 option only if you want to sync all the users</p>
+                            <p><b>Note:</b> Please fill details as per specified format in sample.-->The Import Leaves tool in Settings lets administrators update employee leave records in bulk instead of one at a time. It has two modes, opened as tabs inside the same panel:</p>
+                            <ul style="list-style-type:disc">
+                                <li>Available Leaves — adds extra leave days on top of an employee's existing balance for a leave type (for example, topping up PTO, Comp off, or Sick balances)</li>
+                                <li>Consumed Leaves — bulk-records leave that employees have already taken, specifying the dates, number of days, and approver. This deducts the recorded days from the employee's existing balance.</li>
+                            </ul><br>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 1: Open Settings
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p>In the left-hand navigation, select Settings near the bottom of the menu.</p>
+                            <div><img src="step1.png" onclick="openModal('step1.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+
+                            <p style="display:flex;justify-content:center;align-items:center"><!--Users could be added by entering the details and assign different roles as per the
+                                requirement.-->The Settings item in the left-hand navigation menu.
+                            </p>
+                              <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 2: Open Import Leaves
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+<p>On the Settings page, scroll to the Migration section and click Import Leaves.</p>
+                            <div><img src="step2.png" onclick="openModal('step2.png')" alt="Sick leaves"
+                                    width="100%" height="auto"></div>
+                                    <br>
+                                  <p style="display:flex;justify-content:center;align-items:center">The Import Leaves option under the Migration section of Settings.</p>
+                                     <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Adding Available Leave Balances
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2> 
+                            <hr/>
+                            <p>Use the Available Leaves tab to top up leave balances for one or more employees — for example, granting extra PTO or Sick days. The amounts you enter are added to whatever balance the employee already has; they do not replace it.</p>
+                              <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 3: Download the Available Leaves template
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p>The Import Leaves panel opens with the Available Leaves tab selected by default. Click Download Sample File to get an Excel template listing all active users, with a column for each leave type (PTO, Comp off, Sick).</p>
+                            <div><img src="step3.png" onclick="openModal('step3.png')" alt="Sick leaves"
+                                    width="100%" height="auto"></div>
+
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center">The Available Leaves tab, with the Download Sample File button highlighted.</p>
+                             <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 4: Enter the extra days to add
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                             </h3> 
+                             <p>Open the downloaded file. Each row is one existing user, identified by Employee Email. In the columns for PTO, Comp off (off in lieu), and Sick, enter the number of extra days to add to that user's current balance. Leave a cell blank (or 0) for any leave type you don't want to change.</p><br>
+
+                            <div><img src="step4.png" onclick="openModal('step4.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center">The Available Leaves template, with blank PTO, Comp off, and Sick columns for each user.</p>
+                           <p>Fill in the amounts and save the file. In this example, 5 PTO days and 3 Sick days are being added to every listed user.</p>
+                            <div><img src="step4-2.png" onclick="openModal('step4-2.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center">The Available Leaves template filled in with 5 PTO days and 3 Sick days to add for each user.</p>
+            
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 5: Attach and upload the file
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p><!--Here, admin and HR would be able to add users individually or by bulk using the csv file
+                                provided for sample.The page now includes Active Users and Inactive Users tabs, allowing
+                                admins to easily toggle between and manage users based on their activity status within
+                                the system.Use full sync from M365 option only if you want to sync all the users</p>
+                            <p><b>Note:</b> Please fill details as per specified format in sampleAdministrators can update several employee records in one pass instead of editing each user individually. This is done from the Users page, using a downloadable Excel template that is filled in and re-uploaded through the Update Users panel. The guide below walks through the full process, from opening the panel to reviewing the upload results.-->Back in the Available Leaves tab, click Upload Excel File (or drag and drop) and select your saved template. The file appears listed under Attachments.</p>
+                            <div><img src="step5.png" onclick="openModal('step5.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center">The completed Available Leaves template attached in the Import Leaves panel.</p>
+                            <p>Scroll down and click Upload to submit the file for processing.</p>
+                             <div><img src="step5-2.png" onclick="openModal('step5-2.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:Flex;justify-content:center;align-items:center">The Upload button at the bottom of the Available Leaves tab.</p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 6: Review the results</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p><!--In the left-hand navigation, expand Administration and select Users. This opens the list of all active employees, showing details such as name, email, employee ID, manager, department, office location, and birth date.-->The panel displays a results table with a row for every user and leave type combination that was updated, along with how many days were added. Review this to confirm the balances were topped up as expected.</p>
+                            <div><img src="step6.png" onclick="openModal('step6.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center"><!--The Users item under Administration in the left-hand navigation menu.-->Row results after an Available Leaves import: 24 updated, 0 skipped, showing days added per leave type.</p>
+<h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Recording Consumed Leaves</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <hr/>
+                            <p><!--Users could be added by entering the details and assign different roles as per the
+                                requirement.On the Users page, click the Add dropdown above the user table. Three options appear: Add User, Bulk Users, and Update Users. Select Update Users to update the details of employees who are already in the system.
+                            -->Use the Consumed Leaves tab to bulk-record leave that has already been taken. Unlike Available Leaves, this template captures full leave details — dates, number of days, status, reason, and approver — and the recorded days are deducted from the employee's existing balance. </p>
+                             <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 7: Switch to the Consumed Leaves tab</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p>In the Import Leaves panel, click the Consumed Leaves tab.</p>
+                            <div><img src="step7.png" onclick="openModal('step7.png')" alt="Sick leaves"
+                                    width="100%" height="auto"></div>
+                                    <br>
+                            <p style="display:Flex;justify-content:center;align-items:center">The Consumed Leaves tab in the Import Leaves panel.</p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 8: Download the Consumed Leaves template</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p><!--The Update Users panel opens on the right. Click Download Sample File to get an Excel template pre-filled with the current information for all active users. The panel also lists the upload instructions:-->
+                                With the Consumed Leaves tab active, click Download Sample File to get the template for recording taken leave.
+                            </p>
+                           
+                            <div><img src="step8.png" onclick="openModal('step8.png')" alt="Sick leaves"
+                                    width="100%" height="auto"></div>
+
+                            <br><br>
+                            <p style="display:flex;justify-content:center;align-items:center"><!--Here we add users in BulkThe Update Users panel, with the Download Sample File button highlighted.-->
+                                The Consumed Leaves tab, with the Download Sample File button highlighted.
+                            </p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 9: Enter the leave details</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p><!--Open the downloaded file (for example, Update_Users_Template_08-15-2026.xlsx). Each row is one existing user, identified by Employee Email. Update whichever columns need to change — for example Department, Job Title, or Hire Date — and adjust the daily Work Week hours if a user's schedule has changed. Leave any cell blank to keep that field as it is. Save the file when finished.-->
+                                Open the downloaded file and add one row per leave record, filling in the Employee Email, Leave Type, Start Date and End Date (MM/DD/YYYY), Days, Status, Reason, and Approver Email. Save the file when finished.
+                            </p>
+                            <br><div><img src="step9.png" onclick="openModal('step9.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center"><!--The Update Users template opened in Excel, showing Department, Job Title, Hire Date, and Work Week columns ready to edit.-->
+                                The Consumed Leaves template filled in with a PTO record: dates, days, status, reason, and approver.
+                            </p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 10: Attach and upload the file</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p><!--Back in the Update Users panel, click Upload Excel File (or drag and drop the file onto the upload area) and select your saved template. The file appears listed under Attachments, confirming it is ready to be processed.-->
+                                Click Upload Excel File (or drag and drop) and select your saved Consumed Leaves template. The file appears listed under Attachments.
+                            </p>
+                            <div><img src="step10.png" onclick="openModal('step10.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center"><!--The uploaded file, Update_Users_Template_08-15-2026.xlsx, listed in the Attachments section of the Update Users panel.-->
+                                The completed Consumed Leaves template attached in the Import Leaves panel.
+                            </p>
+                            <p>Scroll down and click Upload to submit the file for processing.</p>
+                             <div><img src="step10-2.png" onclick="openModal('step10-2.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                             <p style="display:flex;justify-content:center;align-items:center">The Upload button at the bottom of the Consumed Leaves tab.</p>
+                              <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 11: Review the results</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p><!--Scroll to the bottom of the panel and click Upload to submit the file for processing. The system reads each row and applies the changes to the matching user record.-->
+                                The panel displays a results table confirming each leave record that was processed and deducted from the employee's balance.
+                            </p>
+                            <div><img src="step11.png" onclick="openModal('step11.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                             <p style="display:flex;justify-content:center;align-items:center"><!--The Upload button at the bottom of the Update Users panel.-->
+                                Row results after a Consumed Leaves import: 1 updated, 0 skipped, with the leave recorded against the employee
+                             </p>
+                            <!--<h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 7: Review the row results</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p>Scroll to the bottom of the panel and click Upload to submit the file for processing. The system reads each row and applies the changes to the matching user record.
+                                Once processing finishes, the panel displays a results table summarizing the outcome for every row, including a total count of records updated and skipped. Each row shows its status (Updated or Skipped), the employee it applied to, and details of which fields were changed. Review this list to confirm the updates were applied as expected, or to spot any rows that were skipped due to a conflict.
+                            </p>
+                            <div><img src="step7.png" onclick="openModal('step7.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                             <p style="display:flex;justify-content:center;align-items:center">Row results after upload, showing each employee's update status and the fields that changed.</p>
+                             <div style="background-color:rgb(193,228,245);border:1px solid rgba(0, 0, 255, 0.373);display:flex;justify-content:center;align-items:center;padding:8px">
+   <strong>Note:</strong>  Only the roles checked here will be able to set their own unavailability.
+   <div style="display:flex;flex-direction:Column;gap:5px">
+     <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Tips</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+<ul style="list-style-type:none">
+    <li>●	If a row is skipped, check that the Employee Email exactly matches an existing active user and that the row follows the formatting rules above.</li>
+<li>●	Re-download the sample file before each bulk update to ensure you're working from the current list of active users and column order.</li>
+<li>●	Contact your HR administrator if you run into persistent upload issues.</li>
+</ul>
+   </div>
+</div><br>
+                             <p><b>Full Sync for Users:</b> This feature allows administrators to synchronize all
+                                    user data
+                                    from an external directory or source (such as Microsoft 365) into the system. It
+                                    ensures that user information like names, emails, and roles are up to date and
+                                    accurately reflected in the application.</p>
+
+                                <div><img src="UserFullsync.png" onclick="openModal('UserFullsync.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br> 
+
+                                <p><b>Update from M365:</b> This option allows administrators to refresh or update
+                                    existing
+                                    user details from Microsoft 365. It syncs only the latest changes (such as name,
+                                    email, or role updates) for already added users without performing a full sync. To include or exclude specific groups before syncing, use the setting option on the right side of the page.</p>
+
+                                <div><img src="UpdatefromM365a.png" onclick="openModal('UpdatefromM365a.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br>
+                                <br>
+                                <p>Click on <b>Setting Icon.</b></p>
+                                <div><img src="SettingIcon.png" onclick="openModal('SettingIcon.png')"
+                                        alt="Update users role" width="100%" height="auto"></div>
+                                <p>
+                                <ul>
+                                    <li><strong>Overwrite user details</strong>: If enabled, it updates existing user
+                                        details during sync.</li>
+                                    <li><strong>Exclude Options / Sync M365 Groups</strong>: Choose to either exclude
+                                        specific user types or sync users based on M365 groups.</li>
+                                    <li><strong>Exclude Sign in Blocked Users</strong>: Prevents blocked users from
+                                        being synced.</li>
+                                    <li><strong>Exclude Shared Mailboxes</strong>: Shared mailboxes will not be included
+                                        in the sync.</li>
+                                    <li><strong>Exclude Unlicensed Users</strong>: Filters out users without any
+                                        license.</li>
+                                    <li><strong>Exclude Licensed Users</strong>: Excludes users with licensed or free
+                                        license and a valid subscription.</li>
+                                    <li><strong>Exclude Free Licensed Users</strong>: Removes users who only have a free
+                                        license.</li>
+                                    <li><strong>Exclude User by Department</strong>: Allows filtering users by
+                                        department.</li>
+                                    <li><strong>Exclude User by Location</strong>: Lets you exclude users based on their
+                                        location.</li>
+                                    <li><strong>Exclude User by Title</strong>: Filters users by their job title.</li>
+                                    <li><strong>Excluded Domain</strong>: Prevents users from specific domains from
+                                        being included.</li>
+                                    <li><strong>Exclude Users by Name</strong>: Specific user names can be excluded from
+                                        syncing.</li>
+                                </ul>
+                                <br>
+                                </p>
+                                
+
+                                <div><img src="Settings.png" onclick="openModal('Settings.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>
+                             <h5>Tenure Based Leave:</h5>
+              <p>
+                You can include tenure-based leaves by figuring out the duration and total amount of PTO and sick leave days.</p>
+                <div><img src="tenure.png" onclick="openModal('tenure.png')" alt="Tenure leave" width="100%" height="auto"></div>
+                <br>
+                <p>The PTO and Sick leaves can be calculated on the bases of job start date.</p>
+                <div><img src="users_save.png" onclick="openModal('users_save.png')" alt="Users save" width="100%" height="auto"></div>
+                <br><br> 
+
+
+                        </div>
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                        <nav class="pagination mt-3">
+                            <a class="nav nav-prev" href="../holidays/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Public
+                                    holidays</span></a>
+                            <a class="nav nav-next" href="../delegation/" aria-label="Previous page"> <span
+                                    class="d-none d-md-block">Delegation</span><i class="ti-arrow-right ml-2"></i></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </section>
+    <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
+            <div class="mySlides">
+                <img src="" id="imageId" style="width:100%">
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="section pb-4">
+        <div class=container>
+            <div class="row align-items-center">
+                <div class="col-md-8 text-md-left text-center">
+                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a><a
+                            href="https://www.hr365.us/sla/">SLA.</a>
+                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
+                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
+                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
+                        Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
+                    </p>
+                </div>
+                <div class="col-md-4 text-md-right text-center">
+                    <ul class=list-inline>
+                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
+                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
+                                    class=ti-facebook></i></a></li>
+                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
+                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
+                                    class=ti-twitter-alt></i></a></li>
+
+                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
+                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
+                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../../../../../js/script.min.js"></script>
+    <script src="../../../../js/header-footer.js"></script>
+    <script src="../../../../js/showhidefunction.js"></script>
+    <script src="../../../../js/tmp-modern-adminguide.js"></script>
+    <script>
+        function openModal(src) {
+
+            document.getElementById("imageId").src = src;
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+
+        }
+
+        date = new Date().toLocaleDateString();
+        document.getElementById("date").innerHTML = date;
+    </script>
+    <script src="../../../../js/header-footer.js"></script>
+ <script src="/js/plus-toggle.js"></script></body>
+
+</html>

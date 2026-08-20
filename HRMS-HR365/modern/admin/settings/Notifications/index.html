@@ -103,25 +103,43 @@
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
-                                <p>
+                              <!--  <p>
       Under <strong>Organization Email ID</strong>, you can add the official email addresses that will receive system notifications. 
       Simply click on the section, enter the desired organization email ID, and then click <strong>Submit</strong> to save the changes.
-    </p>
+    </p>-->
 
     <div>
-      <img src="AddOrganizationEmail.png" onclick="openModal('AddOrganizationEmail.png')" 
+      <img src="notifications.png" onclick="openModal('notifications.png')" 
            alt="Add organization email ID" width="100%" height="auto">
     </div><br>
+      <h3 id="organize"><a class="header-icon-link highlight" href=#>Organization Email ID 
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h3>
+                                <p>One address. Every automated email HR365-HRMS sends rides on it. </p>
+                                <p>A single-field configuration: the organization's outbound email address, used as the sender or reference address for the system's automated notifications (poll alerts, announcement alerts, delegation emails — the same templates covered next). Submit validates the format and saves.</p>
+
     <div>
-      <img src="AddOrganizationEmail1.png" onclick="openModal('AddOrganizationEmail1.png')" 
+      <img src="email.png" onclick="openModal('email.png')" 
            alt="Add organization email ID" width="100%" height="auto">
     </div><br>
+    <p>Organization Email ID — format validation exists (an obviously invalid string is rejected), but an empty submission is not. </p>
 
+ <h2 id="email"><a class="header-icon-link highlight" href=#>Email Templates 
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
 
-        
-                                
-
-
+<p>Email Templates lists four system emails — Poll (on poll creation), Announcement (on announcement creation), and two Delegation templates (on new delegation, and on delegation update) — each with an Active/Inactive status and an edit pencil. </p>
+        <div>
+      <img src="emailtemplate.png" onclick="openModal('emailtemplate.png')" 
+           alt="Add organization email ID" width="100%" height="auto">
+    </div><br>    
+    <p style="display:flex;justify-content:center;align-items:center">Email Templates — all four active by default.</p>                     
+<p>Opening a template for editing reveals Email Template Name, a required Email Subject, an optional CC people-picker, a full Email Body editor, and — for the Poll and Announcement templates — a Placeholders side panel of clickable tokens (Main Tab Value, Title, Created Date, Expiry Date, Application Url, and for Announcement, Content) that insert directly at the cursor.</p>
+ <div>
+      <img src="editemail.png" onclick="openModal('editemail.png')" 
+           alt="Add organization email ID" width="100%" height="auto">
+    </div><br>   
+    <p style="display:flex;justify-content: center;align-items: center;">Editing the Poll template — clicking a Placeholders button inserts its token right where the cursor sits in the body.</p>
                         </div>
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">

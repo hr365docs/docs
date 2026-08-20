@@ -95,7 +95,12 @@
                 </div>
 
                 <div class=col-lg-9>
-
+                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Welcome to the Control Room
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>If Administration is HR365-HRMS skeleton — departments, grades, locations, the org's legal facts — then General is its nervous system. It doesn't hold data so much as it holds decisions: what color the app wears, what currency shows up on an expense report, whether the AI assistant remembers what it was told yesterday, and whether a shared inbox gets copied on system notifications. </p>
+                                <p>This guide walks through all eighteen General settings, in the order they appear on screen — from the purely cosmetic (Theme, Logo Style) to the quietly load-bearing (Modules, Allow all Microsoft 365 users in this tenant). A few of them turned out to have real rough edges during testing; those are flagged honestly along the way, with the accompanying QA bug report as the place to track them to closure. 
+                                </p>
                     <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
                         <!-- <h2 class=mb-5 id=title>General</h2> -->
                         <div class="bg-light p-4 remove-padding">
@@ -103,7 +108,7 @@
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>General
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                <p>
+                                <!--<p>
                                     The General Settings section in HRMS-HR365 provides fundamental configuration options
                                     for
                                     system customization. It includes settings related to appearance, localization, and
@@ -111,9 +116,9 @@
                                     Additionally, it allows customization of SharePoint components and favorite icons.
                                     These settings help personalize the user experience and maintain consistency across
                                     the platform.
-                                </p>
+                                </p>-->
 
-                                <div><img src="Gen1.png" onclick="openModal('Gen1.png')" alt="General" width="100%"
+                                <div><img src="general.png" onclick="openModal('general.png')" alt="General" width="100%"
                                         height="auto"></div>
                                 <br>
 
@@ -121,16 +126,19 @@
 
                             </ul>
                         </div>
+                        <hr/>
                         <div class="bg-light p-4 remove-padding common-scroll" id="Theme">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
                                         Theme
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                HRMS Application has the theme option where the user can select Dark Mode, Light Mode,
+                                <p>Dark, light, or “whatever SharePoint is doing.”</p>
+                               <!--HRMS Application has the theme option where the user can select Dark Mode, Light Mode,
                                 or Site Mode. The theme will then change accordingly. Users can also switch between
-                                modes based on their preference for better visibility and comfort.
-                                <div class="notices note">
+                                modes based on their preference for better visibility and comfort.-->
+                                Theme controls the color scheme of the HR365-HRMS shell — three radio options: Dark mode, Light mode, or Site theme (matches your SharePoint site's own theme). The change is instant: check a box, and the whole app repaints itself immediately, no Save button required.
+                               <!-- <div class="notices note">
                                     <div class="paragraph">
                                         <p>
                                             Within HRMS, Users will have the ability to customize the theme of each
@@ -138,16 +146,20 @@
                                         </p>
                                     </div>
                                     <br>
-                                </div>
-                                <div><img src="gen2.png" onclick="openModal('gen2.png')" alt="Theme" width="100%"
+                                </div>-->
+                                <div><img src="theme3.png" onclick="openModal('theme3.png')" alt="Theme" width="100%"
                                         height="auto"></div>
-                                <div><img src="gen3.png" onclick="openModal('gen3.png')" alt="Update users role"
-                                        width="100%" height="auto"></div><br>
-
+                               <!-- <div><img src="gen3.png" onclick="openModal('gen3.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>-->
+                            </ul>
+                            <p style="display:flex;justify-content: center;align-items:center;margin-top:10px">The Theme dialog — three mutually exclusive options, applied the moment you click one. </p>
+                            <ul style="list-style-type: disc;">
+                                 <li><b>Site theme</b> is the sensible default for most tenants — it keeps HR365-HRMS visually consistent with the rest of your SharePoint environment rather than introducing a second, competing color scheme. </li>
+                                 <li><b>Dark / Light mode</b> override the site theme outright, useful if your organization's SharePoint theme is hard to read inside the HR365-HRMS shell specifically. </li>
                             </ul>
 
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="DateFormat">
+                       <!-- <div class="bg-light p-4 remove-padding common-scroll" id="DateFormat">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
                                         Date Format
@@ -166,7 +178,7 @@
 
                             </ul>
 
-                        </div>
+                        </div>-->
                         <div class="bg-light p-4 remove-padding common-scroll" id="ChangeTheLook">
   <ul class="page-list">
     <h2 id="_change_the_look">
@@ -175,67 +187,98 @@
         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
       </a>
     </h2>
-    <p>
+    <p>A single accent color, chosen from a curated palette. </p>
+   <!-- <p>
       The <strong>Change the Look</strong> feature allows users to personalize the HRMS interface by selecting a preferred theme color. 
       By default, no color is applied. However, users can choose from a range of preset themes to customize their experience. 
       For instance, selecting the <em>Mint Blossom</em> theme will apply a refreshing mint-colored accent throughout the application.
-    </p>
+    </p>-->
+    <p>Change the Look is a dropdown of named presets — Mint Blossom and similar — that recolors accents throughout the app (buttons, highlights, active-state icons) without touching layout. Pick a name, click Save, and the accent color updates across HR365-HRMS immediately.</p>
 
     <div>
-      <img src="ChangeTheLook.png" onclick="openModal('ChangeTheLook.png')" 
+      <img src="changethelook1.png" onclick="openModal('changethelook1.png')" 
            alt="Change the Look configuration screen" width="100%" height="auto">
     </div><br>
 
-    <p>
+   <!---<p>
       Once a desired theme is selected, click on the <strong>Save</strong> button to apply the changes instantly across the HRMS system.
-    </p>
+    </p>-->
 
     <div>
-      <img src="SaveTheme.png" onclick="openModal('SaveTheme.png')" 
+      <img src="change.png" onclick="openModal('change.png')" 
            alt="Save selected theme" width="100%" height="auto">
     </div><br>
+    <p style="display:flex;justify-content:center;align-items:center">Change the Look — a dropdown of preset accent colors, applied on Save.</p>
+  </ul>
+  <ul style="list-style-type: disc;display:flex;flex-direction:Column;gap:10px">
+    <li><strong>Unlike Theme,</strong> this one does require Save — the dropdown selection is just a draft until you click it. </li>
+    <li><strong>There's no live preview swatch</strong> next to each option in the dropdown itself, so the name (“Mint Blossom”) is your only clue before committing — worth trying if you want to see the actual color before rolling it out tenant-wide. </li>
   </ul>
 </div>
 
 
 
                        
-                        <div class="bg-light p-4 remove-padding common-scroll" id="DefaultCurrency">
+                        <div class="bg-light p-4 remove-padding common-scroll" id="logostyle">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
-                                        Default Currency
+                                        <!--Default Currency-->Logo Style
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                Similar to the date format, the user can select a default currency. For example, if the
+                              <!--  Similar to the date format, the user can select a default currency. For example, if the
                                 user selects USD as the default currency, it will be applied consistently across all
                                 applications within HRMS for transactions, reports, and any financial data.
                                 <br>
-                                <br>
-                                <div><img src="Default.png" onclick="openModal('Default.png')" alt="Default Currency"
+                                <br>-->
+                                <div><img src="logo1.png" onclick="openModal('logo1.png')" alt="Default Currency"
                                         width="100%" height="auto"></div>
                                 <br>
-                                <div><img src="Default-Currency.png" onclick="openModal('Default-Currency.png')"
+                                <p>Coloured or white — for whichever background your Brand Logo sits on. </p>
+                                <p><strong>A simple two-option checkbox pair — Coloured or White — that controls how the app renders your logo mark (separately from the actual logo image, which is configured under Brand Logo further down this list).</strong></p>
+                                <div><img src="logostyle6.png" onclick="openModal('logostyle6.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
-
+  <ul style="list-style-type: disc;margin:20px">
+                                <li><strong>Use White </strong>if your Brand Logo or header background is dark enough that the coloured version disappears or loses contrast. </li>
                             </ul>
+                            <div><img src="logostyle3.png" onclick="openModal('logostyle3.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br>
+                            </ul>
+                          
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="AIKnowledgeVault">
+                        <div class="bg-light p-4 remove-padding common-scroll" id="customise">
   <ul class="page-list">
-    <h2 id="_ai_knowledge_vault">
+    <h2 id="_ai_knowledge_vault" style="margin-bottom:50px">
       <a class="header-icon-link highlight" href="#">
-        AI Knowledge Vault
+       <!-- AI Knowledge Vault-->Customize Dashboard View 
         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
       </a>
     </h2>
-   <p>
+    <p>Build your own landing-page layout, card by card. </p>
+    <p>This is the most involved setting in the General column — a full-screen builder for creating named dashboard views: a title, a column count (2 or 3), a Rivo-panel alignment (Sticky or Floating), an optional “Set as default” flag, and a card picker to populate the layout. Existing views list in a simple grid with Edit and Delete actions.</p>
+     <div>
+      <img src="dashboard.png" onclick="openModal('dashboard.png')" 
+           alt="AI Knowledge Vault main screen" width="100%" height="auto">
+    </div><br>
+    <p style="display:flex;justify-content: center;align-items: center;">The Customize Dashboard View list — Edit, Delete, and Add are all available per view. </p>
+    <ul style="list-style-type:disc;margin:20px">
+        <li><strong>Set as default</strong> is mutually exclusive across views — flip it on for one view and it automatically comes off any other view that had it, exactly as you'd expect. </li>
+        <li><strong>Watch your naming.</strong> The system does not check for duplicate view names — see the QA bug report (BUG-07) for a case where two views with an identical name were created with zero warning. Give each view a name that's unambiguous at a glance in the picker. 
+        </li></ul>
+        <div>
+      <img src="customizedashboard2.png" onclick="openModal('customizedashboard2.png')" 
+           alt="AI Knowledge Vault main screen" width="100%" height="auto">
+    </div><br>
+    <h4 style="color:#5637da">Date Format</h4>
+  <!-- <p>
   The <strong>AI Knowledge Vault</strong> serves as a centralized space for managing AI-driven information, guidance, and organizational knowledge within the HRMS ecosystem. 
   It enables users to store, access, and contribute useful insights, making it easier to retrieve answers or documentation related to various HR applications. 
   This feature helps streamline internal support and promotes knowledge sharing across teams.
-</p>
-
+</p>-->
+One format, applied everywhere — no per-app overrides. 
+<p style="margin:10px 0">A single dropdown (e.g. MM/DD/YYYY) that sets the date format for the entire HR365-HRMS ecosystem. This one is genuinely global: changing it here and saving correctly updates date displays in other apps, such as Time-Off, without any additional configuration. </p>
 
     <div>
-      <img src="AIKnowledgeVault.png" onclick="openModal('AIKnowledgeVault.png')" 
+      <img src="date.png" onclick="openModal('date.png')" 
            alt="AI Knowledge Vault main screen" width="100%" height="auto">
     </div><br>
 
@@ -250,7 +293,7 @@
            alt="Add conversation in AI Knowledge Vault" width="100%" height="auto">
     </div><br> -->
 
-    <p>
+ <!--   <p>
        the <strong>Knowledge Base</strong> tab allows users to build a repository of reusable information. 
       The process is identical to adding a conversation — simply click <strong>+ Add</strong>, enter the required details, 
       and submit your entry to make it accessible to other users.
@@ -261,41 +304,54 @@
            alt="Add knowledge base item" width="100%" height="auto">
     </div><br>
   </ul>
-</div>
+</div>-->
+<p style="display:flex;justify-content:center;align-items:center">Date format — a tenant-wide setting that propagates correctly to other HCM365 apps. </p>
+<ul style="list-style-type:disc;margin:20px">
+    <li><strong>Confirmed working end-to-end</strong> during testing: switching formats here changed how dates rendered on the Time-Off calendar, which is exactly the cross-app consistency this setting promises. </li>
+</ul>
                         <div class="bg-light p-4 remove-padding common-scroll" id="GCC-Tenant">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
-                                        GCC Tenant
+                                        AI Knowledge Vault
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                If your Microsoft 365 tenant is part of the US Government Community Cloud (GCC), make
+                                <p>Where Rivo, the built-in assistant, keeps its memory and its FAQ.</p>
+                               <!-- If your Microsoft 365 tenant is part of the US Government Community Cloud (GCC), make
                                 sure the necessary settings are enabled to ensure seamless compatibility and compliance
-                                within the GCC environment.
+                                within the GCC environment.-->
                                 <br>
                                 <br>
-                                <div><img src="GCC.png" onclick="openModal('GCC.png')" alt="Default Currency"
+                                <p>AI Knowledge Vault has two tabs. Conversations is a read-only, searchable log of every question asked of Rivo across the tenant and the answer it gave — genuinely useful for spotting where the assistant is confidently wrong (an “error has occurred” response, or a “no data found” for a question that should have data) as opposed to a training gap. Query Library is where admins build a curated set of question-and-answer pairs to expand what Rivo can answer confidently.</p>
+                                <div><img src="aivault.png" onclick="openModal('aivault.png')" alt="Default Currency"
                                         width="100%" height="auto"></div>
                                 <br>
+                    <p style="display:flex;justify-content:center;align-items:center">Conversations — every question Rivo has fielded, with its response, submitter, and timestamp.</p>
+                    <div><img src="aivault2.png" onclick="openModal('aivault2.png')" alt="Default Currency"
+                                        width="100%" height="auto"></div>
+                                        <p style="display:flex;justify-content:center;align-items:center;margin:20px">Query Library — admin-curated Q&A pairs, tagged and attributed to a source application. 
 
+ </p>
                             </ul>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="ShowFavIcon">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
-                                        Favorite icon
+                                        <!--Favorite icon-->Default Currency 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-<br>
-                                <div><img src="Icon.png" onclick="openModal('Icon.png')" alt="Icon" width="100%"
+<br>                       <p>The tenant's baseline currency — in theory, everywhere finance-related.</p>
+<p>A dropdown of standard currency codes (USD, EUR, and so on) intended to set the default currency used across financial fields tenant-wide.</p>
+                                <div><img src="currency.png" onclick="openModal('currency.png')" alt="Icon" width="100%"
                                         height="auto"></div><br>
-                                <p>The favicon is displayed on the left side of the browser tab, allowing users to
+                               <!--<p>The favicon is displayed on the left side of the browser tab, allowing users to
                                     easily identify the website. If the toggle is turned on, the icon will appear;
                                     otherwise, it will not be shown.</p>
-                                <br>
-                                <div><img src="FavIcon.png" onclick="openModal('FavIcon.png')" alt="Update users role"
+                                <br>-->
+                                <p style="display:flex;justify-content:center;align-items:center">Default Currency — currently set to USD in this tenant. </p>
+                               <!-- <div><img src="FavIcon.png" onclick="openModal('FavIcon.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
 
-                            </ul>
+                            </ul>-->
                         </div>
                         <!-- <div class="bg-light p-4 remove-padding common-scroll" id="Langauge">
                             <ul class=page-list>
@@ -313,24 +369,25 @@
 
                             </ul>
                         </div> -->
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Brand-logo">
+                        <div class="bg-light p-4 remove-padding common-scroll" id="seperator">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
 
-                                        Brand logo
+                                        <!--Brand logo-->Currency Seperator
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-
-                                Here you can add your company logo, which will be displayed at the top of the navigation
+                                <p>How large numbers should be grouped — No separator, India, or International.</p>
+                                <p>Three mutually exclusive options controlling thousands-grouping style for monetary values (e.g. 1,234,567 vs 12,34,567 vs unformatted). </p>
+                            <!--    Here you can add your company logo, which will be displayed at the top of the navigation
                                 bar. From here, the admin can add or update the company logo. The updated logo will
                                 appear at the top of the navigation bar. The recommended size for the logo is 150 X 60,
                                 with the same aspect ratio, and a transparent or white background is recommended for
                                 better visibility and user experience.
                                 <br>
-                                <br>
-                                <div><img src="BrandLogo1.png" onclick="openModal('BrandLogo1.png')"
+                                <br>-->
+                                <div><img src="seperator.png" onclick="openModal('seperator.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
-                                <p>Click on the 'Upload Logo' button, then select the logo file. After selecting, the
+                               <!-- <p>Click on the 'Upload Logo' button, then select the logo file. After selecting, the
                                     user will have the option to crop the logo, allowing them to adjust the image as
                                     needed.</p>
                                 <div><img src="Crop.png" onclick="openModal('Crop.png')" alt="Update users role"
@@ -351,39 +408,45 @@
                                         alt="Update users role" width="100%" height="auto"></div><br>
                                 <br>
 
-                            </ul>
+                            </ul>-->
+                            <p style="display:flex;justify-content: center;align-items:center">Currency Seperator — No seperator is the current default.</p>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="Shared-Mail-Box">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
 
-                                        Shared Mail Box
+                                     <!--   Shared Mail Box-->GCC Tenant 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                <div><img src="SharedMailBox.png" onclick="openModal('SharedMailBox.png')"
+                                <p>A single switch for US Government Community Cloud tenants. </p>
+                                <p>If your Microsoft 365 tenant lives in the GCC environment, this toggle signals HR365-HRMS to adjust for GCC-specific compliance and connectivity requirements. Off is correct for standard commercial tenants (which is the default, and what this tenant uses). </p>
+                                <div><img src="tenant.png" onclick="openModal('tenant.png')"
                                         alt="SharedMailBox" width="100%" height="auto"></div><br>
-                                <p>SharedMailBox</p>
+                               <!-- <p>SharedMailBox</p>
                                 <div><img src="SharedMailBox1.png" onclick="openModal('SharedMailBox1.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
 
-                            </ul>
+                            </ul>-->
+                            <p style="display:flex;justify-content: center;align-items:center;margin:20px">GCC Tenant — off by default; only relevant to US Government Community Cloud environments.</p>
                         </div>
                       
                         <div class="bg-light p-4 remove-padding common-scroll" id="Sharepoint-page">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
 
-                                        Sharepoint page components
+                                        <!--Sharepoint page components-->Show Fav Icon 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                <br>
-                                <div><img src="SharePoint.png" onclick="openModal('SharePoint.png')"
+                                <p>The little icon in the browser tab. </p>
+                            
+                                <p>A single On/Off toggle controlling whether HR365-HRMS 's favicon appears in the browser tab. Straightforward, instant, and exactly as described.</p>
+                                <div><img src="icon1.png" onclick="openModal('icon1.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br>
-                                <p><b>Custom css for webpart to remove spaces</b>: Enable this toggle will remove space
-                                    outside of Webpart.</p>
-                                <div><img src="S-1.png" onclick="openModal('S-1.png')" alt="Update users role"
+                               <!-- <p><b>Custom css for webpart to remove spaces</b>: Enable this toggle will remove space
+                                    outside of Webpart.</p>-->
+                                <div><img src="icon3.png" onclick="openModal('icon3.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
-                                <p><b>Hide webpart title in SharePoint page</b>: Enable this toggle will remove the
+                               <!-- <p><b>Hide webpart title in SharePoint page</b>: Enable this toggle will remove the
                                     Webpart title.</p>
                                 <div><img src="S-2.png" onclick="openModal('S-2.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
@@ -412,23 +475,25 @@
                                         width="100%" height="auto"></div><br>
                                 <br>
                                 <br>
-                            </ul>
+                            </ul>-->
+                            <p style="display:flex;justify-content:center;align-items:center">Fav icon — on by default.</p>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="Modules">
   <ul class="page-list">
     <h2 id="_modules">
       <a class="header-icon-link highlight" href="#">
-        Modules
+       <!-- Modules-->Brand Logo
         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
       </a>
     </h2>
-
+<p>Your company's mark, top and center in the navigation bar.</p>
+<p>Upload a logo (recommended 150×60px, transparent or white background) to replace the default branding across the top navigation bar. The panel includes a crop step after upload and a Remove option (with a confirmation prompt) if you want to revert to the default.</p>
     <div>
-      <img src="Namingconvention.png" onclick="openModal('Namingconvention.png')" 
+      <img src="brand1.png" onclick="openModal('brand1.png')" 
            alt="Modules configuration" width="100%" height="auto">
     </div><br>
 
-    <p>
+   <!-- <p>
       The <strong>Modules</strong> section allows administrators to manage application names and visibility within HRMS. 
       You can rename modules according to your organization’s standards or toggle off modules that are not required for certain users or departments.
     </p>
@@ -451,9 +516,197 @@
       <img src="UploadName.png" onclick="openModal('UploadName.png')" 
            alt="Upload module naming configuration" width="100%" height="auto">
     </div><br>
-  </ul>
-</div>
+  </ul>-->
 
+<p style="display:flex;justify-content:center;align-items:center">
+    Brand Logo — an empty state, ready for an Upload Logo action.</p>
+    <ul style="list-style-type:disc">
+        <li><strong>Follow the recommended dimensions closely.</strong> The 150×60px guidance with a transparent or white background is there because the logo slot is a fixed, narrow strip in the header — an image with a busy or colored background, or a very different aspect ratio, will likely look cropped or squeezed rather than simply resized. </li></ul></div>
+        <div class="bg-light p-4 remove-padding common-scroll" id="Modules">
+  <ul class="page-list">
+    <h2 id="_modules">
+      <a class="header-icon-link highlight" href="#">
+       <!-- ModulesBrand Logo-->Shared Mail Box
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h2>
+<p><!--Your company's mark, top and center in the navigation bar.-->A shared inbox for system notifications </p>
+<p><!--Upload a logo (recommended 150×60px, transparent or white background) to replace the default branding across the top navigation bar. The panel includes a crop step after upload and a Remove option (with a confirmation prompt) if you want to revert to the default.-->If the Power Automate flow is configured in your HR365-HRMS application with your shared mailbox ID, you will be able to send all the emails through Power Automate. To know more about Power Automate configuration, please <a href="https://kb.hr365.us/HRMS-HR365/mailbox-configuration/"> click here. </a> 
+Once configured please click on validate to complete the setup. </p>
+    <div>
+      <img src="mail.png" onclick="openModal('mail.png')" 
+           alt="Modules configuration" width="100%" height="auto">
+    </div><br>
+</div>
+ <div class="bg-light p-4 remove-padding common-scroll" id="Modules">
+  <ul class="page-list">
+    <h2 id="_modules">
+      <a class="header-icon-link highlight" href="#">
+       <!-- ModulesBrand LogoShared Mail Box-->Sharepoint Page Components 
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h2>
+<p><!--Your company's mark, top and center in the navigation bar.A shared inbox for system notifications-->Nine toggles that decide how much of SharePoint's own chrome shows through. </p>
+<p><!--Upload a logo (recommended 150×60px, transparent or white background) to replace the default branding across the top navigation bar. The panel includes a crop step after upload and a Remove option (with a confirmation prompt) if you want to revert to the default.If the Power Automate flow is configured in your HR365-HRMS application with your shared mailbox ID, you will be able to send all the emails through Power Automate. To know more about Power Automate configuration, please <a href="https://kb.hr365.us/HRMS-HR365/mailbox-configuration/"> click here. </a> 
+Once configured please click on validate to complete the setup.-->HR365-HRMS runs embedded inside a SharePoint page, and these nine toggles control how much of the underlying SharePoint interface — the top site header, the command bar, the side navigation, webpart titles, comments — is hidden so that HR365-HRMS can present as a clean, full-page application instead of a webpart bolted onto a SharePoint site.  </p>
+    <div>
+      <img src="page.png" onclick="openModal('page.png')" 
+           alt="Modules configuration" width="100%" height="auto">
+    </div><br>
+    <p style="display:flex;justify-content:center;align-items:center">Sharepoint page components — all nine toggles On, which is this tenant's current (and recommended) full-page configuration.</p>
+<ul style="list-style-type:disc;">
+    <li><Strong>Enable Full Page View</Strong> is the master switch for the clean, chrome-free look most tenants want; the other eight toggles fine-tune exactly which individual SharePoint elements stay hidden. </li>
+    <li><strong>Mind the hidden link between two of these toggles:</strong> turning “Hide top site header” off also turns “Enable Full Page View” off automatically, with no warning message explaining why. Turning “Hide top site header” back on does not restore Full Page View for you — you'll need to re-enable it yourself. If you're experimenting here, check the state of Enable Full Page View before you leave the panel, not just the toggle you meant to change. 
+ </li>
+</ul>
+</div>
+ <div class="bg-light p-4 remove-padding common-scroll" id="use">
+  <ul class="page-list">
+    <h3 id="_modules">
+      <a class="header-icon-link highlight" href="#">
+       <!-- ModulesBrand LogoShared Mail BoxSharepoint Page Components -->Use Sharepoint URL for MS Teams Installed Application 
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+<p><!--Your company's mark, top and center in the navigation bar.A shared inbox for system notificationsNine toggles that decide how much of SharePoint's own chrome shows through.-->Point the Teams-installed HR365-HRMS tab at your SharePoint page instead of a standalone app URL.  </p>
+<p><!--Upload a logo (recommended 150×60px, transparent or white background) to replace the default branding across the top navigation bar. The panel includes a crop step after upload and a Remove option (with a confirmation prompt) if you want to revert to the default.If the Power Automate flow is configured in your HR365-HRMS application with your shared mailbox ID, you will be able to send all the emails through Power Automate. To know more about Power Automate configuration, please <a href="https://kb.hr365.us/HRMS-HR365/mailbox-configuration/"> click here. </a> 
+Once configured please click on validate to complete the setup.HR365-HRMS runs embedded inside a SharePoint page, and these nine toggles control how much of the underlying SharePoint interface — the top site header, the command bar, the side navigation, webpart titles, comments — is hidden so that HR365-HRMS can present as a clean, full-page application instead of a webpart bolted onto a SharePoint site.-->When enabled, this setting reveals a required “SharePoint URL” field — the address HR365-HRMS should load when opened as a tab inside Microsoft Teams. Off by default.  </p>
+<p>Enable the<strong>“Use SharePoint URL for MS Teams installed application”</strong>  toggle, then enter your SharePoint site URL in the following format: 
+https://yourtenantname.sharepoint.com/sites/SiteName/SitePages/PageName.aspx 
+After entering the URL, click the<strong>Save</strong>  button to apply your changes. </p>    
+<div>
+      <img src="installed.png" onclick="openModal('installed.png')" 
+           alt="Modules configuration" width="100%" height="auto">
+    </div><br>
+    <p style="display:flex;justify-content:center;align-items:center"><!--Sharepoint page components — all nine toggles On, which is this tenant's current (and recommended) full-page configuration.-->Use Sharepoint URL for MS Teams installed application — off by default; the URL field appears once enabled. </p>
+<!--<ul style="list-style-type:disc;">
+    <li><Strong>Enable Full Page View</Strong> is the master switch for the clean, chrome-free look most tenants want; the other eight toggles fine-tune exactly which individual SharePoint elements stay hidden. </li>
+    <li><strong>Mind the hidden link between two of these toggles:</strong> turning “Hide top site header” off also turns “Enable Full Page View” off automatically, with no warning message explaining why. Turning “Hide top site header” back on does not restore Full Page View for you — you'll need to re-enable it yourself. If you're experimenting here, check the state of Enable Full Page View before you leave the panel, not just the toggle you meant to change. 
+ </li>
+</ul>-->
+</div>
+<div class="bg-light p-4 remove-padding common-scroll" id="allow">
+  <ul class="page-list">
+    <h3 id="_modules">
+      <a class="header-icon-link highlight" href="#">
+       <!-- ModulesBrand LogoShared Mail BoxSharepoint Page Components Use Sharepoint URL for MS Teams Installed Application -->Allow All Microsoft 365 Users in This Tenant 
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+<p><!--Your company's mark, top and center in the navigation bar.A shared inbox for system notificationsNine toggles that decide how much of SharePoint's own chrome shows through.Point the Teams-installed HR365-HRMS tab at your SharePoint page instead of a standalone app URL.-->This one is exactly as consequential as it sounds, and its tooltip says so plainly: disabled, only users explicitly added via Add/Edit User can access the application; enabled, every user in the Microsoft 365 tenant can reach it directly from the URL.  </p>
+<!--<p>Upload a logo (recommended 150×60px, transparent or white background) to replace the default branding across the top navigation bar. The panel includes a crop step after upload and a Remove option (with a confirmation prompt) if you want to revert to the default.If the Power Automate flow is configured in your HR365-HRMS application with your shared mailbox ID, you will be able to send all the emails through Power Automate. To know more about Power Automate configuration, please <a href="https://kb.hr365.us/HRMS-HR365/mailbox-configuration/"> click here. </a> 
+Once configured please click on validate to complete the setup.HR365-HRMS runs embedded inside a SharePoint page, and these nine toggles control how much of the underlying SharePoint interface — the top site header, the command bar, the side navigation, webpart titles, comments — is hidden so that HR365-HRMS can present as a clean, full-page application instead of a webpart bolted onto a SharePoint site.When enabled, this setting reveals a required “SharePoint URL” field — the address HR365-HRMS should load when opened as a tab inside Microsoft Teams. Off by default.  </p>
+<p>Enable the<strong>“Use SharePoint URL for MS Teams installed application”</strong>  toggle, then enter your SharePoint site URL in the following format: 
+https://yourtenantname.sharepoint.com/sites/SiteName/SitePages/PageName.aspx 
+After entering the URL, click the<strong>Save</strong>  button to apply your changes. </p>   --> 
+<div>
+      <img src="allow.png" onclick="openModal('allow.png')" 
+           alt="Modules configuration" width="100%" height="auto">
+    </div><br>
+    <p style="display:flex;justify-content:center;align-items:center"><!--Sharepoint page components — all nine toggles On, which is this tenant's current (and recommended) full-page configurationUse Sharepoint URL for MS Teams installed application — off by default; the URL field appears once enabled.-->Allow all Microsoft 365 users in this tenant — on by default in this tenant. </p>
+<ul style="list-style-type:disc;">
+    <!--<Strong>Enable Full Page View</Strong> is the master switch for the clean, chrome-free look most tenants want; the other eight toggles fine-tune exactly which individual SharePoint elements stay hidden. </li>
+--><li><!--<strong>Mind the hidden link between two of these toggles:</strong> turning “Hide top site header” off also turns “Enable Full Page View” off automatically, with no warning message explaining why. Turning “Hide top site header” back on does not restore Full Page View for you — you'll need to re-enable it yourself. If you're experimenting here, check the state of Enable Full Page View before you leave the panel, not just the toggle you meant to change. 
+--><strong>Treat this as a break-glass setting, not a routine toggle.</strong> Because switching it off immediately narrows access to only the explicitly-added user list, it's worth confirming that list is complete and current *before* flipping this off — not after. 
+
+  </li>
+</ul>
+</div>
+<div class="bg-light p-4 remove-padding common-scroll" id="Modules">
+  <ul class="page-list">
+    <h2 id="_modules">
+      <a class="header-icon-link highlight" href="#">
+        Modules<!--Brand LogoShared Mail BoxSharepoint Page Components Use Sharepoint URL for MS Teams Installed Application Allow All Microsoft 365 Users in This Tenant -->
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h2>
+<p><!--Your company's mark, top and center in the navigation bar.A shared inbox for system notificationsNine toggles that decide how much of SharePoint's own chrome shows through.Point the Teams-installed HR365-HRMS tab at your SharePoint page instead of a standalone app URL.This one is exactly as consequential as it sounds, and its tooltip says so plainly: disabled, only users explicitly added via Add/Edit User can access the application; enabled, every user in the Microsoft 365 tenant can reach it directly from the URL. -->Rename, hide, or reorder any app in the top navigation — with a live drag handle. </p>
+<p><!--Upload a logo (recommended 150×60px, transparent or white background) to replace the default branding across the top navigation bar. The panel includes a crop step after upload and a Remove option (with a confirmation prompt) if you want to revert to the default.If the Power Automate flow is configured in your HR365-HRMS application with your shared mailbox ID, you will be able to send all the emails through Power Automate. To know more about Power Automate configuration, please <a href="https://kb.hr365.us/HRMS-HR365/mailbox-configuration/"> click here. </a> 
+Once configured please click on validate to complete the setup.HR365-HRMS runs embedded inside a SharePoint page, and these nine toggles control how much of the underlying SharePoint interface — the top site header, the command bar, the side navigation, webpart titles, comments — is hidden so that HR365-HRMS can present as a clean, full-page application instead of a webpart bolted onto a SharePoint site.When enabled, this setting reveals a required “SharePoint URL” field — the address HR365-HRMS should load when opened as a tab inside Microsoft Teams. Off by default.  </p>
+<p>Enable the<strong>“Use SharePoint URL for MS Teams installed application”</strong>  toggle, then enter your SharePoint site URL in the following format: 
+https://yourtenantname.sharepoint.com/sites/SiteName/SitePages/PageName.aspx 
+After entering the URL, click the<strong>Save</strong>  button to apply your changes.-->Modules is the control panel for the top navigation bar itself. Each row pairs a fixed system name (“Recruitment Management”) with an editable display label (“Recruitment”), an On/Off visibility toggle, and a drag handle for reordering. </p>    
+<div>
+      <img src="modules2.png" onclick="openModal('modules2.png')" 
+           alt="Modules configuration" width="100%" height="auto">
+    </div><br>
+    <p style="display:flex;justify-content:center;align-items:center"><!--Sharepoint page components — all nine toggles On, which is this tenant's current (and recommended) full-page configurationUse Sharepoint URL for MS Teams installed application — off by default; the URL field appears once enabled.Allow all Microsoft 365 users in this tenant — on by default in this tenant.-->Modules — rename, toggle, and reorder every app tile from one panel.  </p>
+<ul style="list-style-type:disc;">
+    <li><Strong>Renaming propagates everywhere immediately:</Strong> changing a display label here updates both the top navigation bar and the Apps settings tile on the main Settings screen the moment you save — there's no separate step or delay. </li>
+   <li><strong>Turning a module Off removes it cleanly</strong> from the top nav, the overflow (“⋯”) menu, and the Apps settings tiles all at once — it doesn't linger anywhere half-hidden. </li>
+   <li><strong>Drag-to-reorder needs a confident drag, not a nudge.</strong> Short drags to an immediately adjacent row don't always register — if a reorder doesn't seem to take, try dragging further than feels necessary rather than assuming the feature isn't working. 
+ </li> 
+   <!--<Strong>Enable Full Page View</Strong> is the master switch for the clean, chrome-free look most tenants want; the other eight toggles fine-tune exactly which individual SharePoint elements stay hidden. </li>
+<li><strong>Mind the hidden link between two of these toggles:</strong> turning “Hide top site header” off also turns “Enable Full Page View” off automatically, with no warning message explaining why. Turning “Hide top site header” back on does not restore Full Page View for you — you'll need to re-enable it yourself. If you're experimenting here, check the state of Enable Full Page View before you leave the panel, not just the toggle you meant to change. 
+<strong>Treat this as a break-glass setting, not a routine toggle.</strong> Because switching it off immediately narrows access to only the explicitly-added user list, it's worth confirming that list is complete and current *before* flipping this off — not after. 
+
+  </li>-->
+</ul>
+</div>
+<div class="bg-light p-4 remove-padding common-scroll" id="cross">
+  <ul class="page-list">
+    <h3 id="_modules">
+      <a class="header-icon-link highlight" href="#">
+        <!--Brand LogoShared Mail BoxSharepoint Page Components Use Sharepoint URL for MS Teams Installed Application Allow All Microsoft 365 Users in This Tenant -->Cross-Department Publishing Access
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+<p><!--Your company's mark, top and center in the navigation bar.A shared inbox for system notificationsNine toggles that decide how much of SharePoint's own chrome shows through.Point the Teams-installed HR365-HRMS tab at your SharePoint page instead of a standalone app URL.This one is exactly as consequential as it sounds, and its tooltip says so plainly: disabled, only users explicitly added via Add/Edit User can access the application; enabled, every user in the Microsoft 365 tenant can reach it directly from the URL. Rename, hide, or reorder any app in the top navigation — with a live drag handle.-->Two toggles deciding who can post company-wide announcements.  </p>
+<p><!--Upload a logo (recommended 150×60px, transparent or white background) to replace the default branding across the top navigation bar. The panel includes a crop step after upload and a Remove option (with a confirmation prompt) if you want to revert to the default.If the Power Automate flow is configured in your HR365-HRMS application with your shared mailbox ID, you will be able to send all the emails through Power Automate. To know more about Power Automate configuration, please <a href="https://kb.hr365.us/HRMS-HR365/mailbox-configuration/"> click here. </a> 
+Once configured please click on validate to complete the setup.HR365-HRMS runs embedded inside a SharePoint page, and these nine toggles control how much of the underlying SharePoint interface — the top site header, the command bar, the side navigation, webpart titles, comments — is hidden so that HR365-HRMS can present as a clean, full-page application instead of a webpart bolted onto a SharePoint site.When enabled, this setting reveals a required “SharePoint URL” field — the address HR365-HRMS should load when opened as a tab inside Microsoft Teams. Off by default.  </p>
+<p>Enable the<strong>“Use SharePoint URL for MS Teams installed application”</strong>  toggle, then enter your SharePoint site URL in the following format: 
+https://yourtenantname.sharepoint.com/sites/SiteName/SitePages/PageName.aspx 
+After entering the URL, click the<strong>Save</strong>  button to apply your changes.Modules is the control panel for the top navigation bar itself. Each row pairs a fixed system name (“Recruitment Management”) with an editable display label (“Recruitment”), an On/Off visibility toggle, and a drag handle for reordering.-->A pair of toggles — one for Managers, one for regular Users — each controlling whether that role can create Announcements and Polls that reach departments other than their own.  </p>    
+<div>
+      <img src="cross.png" onclick="openModal('cross.png')" 
+           alt="Modules configuration" width="100%" height="auto">
+    </div><br>
+    <p style="display:flex;justify-content:center;align-items:center"><!--Sharepoint page components — all nine toggles On, which is this tenant's current (and recommended) full-page configurationUse Sharepoint URL for MS Teams installed application — off by default; the URL field appears once enabled.Allow all Microsoft 365 users in this tenant — on by default in this tenant.Modules — rename, toggle, and reorder every app tile from one panel.-->Cross-Department Publishing Access — Managers can post across departments by default; Users cannot.  </p>
+<ul style="list-style-type:disc;">
+    <li><!--<Strong>Renaming propagates everywhere immediately:</Strong> changing a display label here updates both the top navigation bar and the Apps settings tile on the main Settings screen the moment you save — there's no separate step or delay. --><Strong>Managers-on, Users-off</Strong> is a sensible starting posture for most organizations — it keeps company-wide messaging with people who manage teams, while individual contributors stay scoped to their own department's feed. </li>
+   <li><!--<strong>Turning a module Off removes it cleanly</strong> from the top nav, the overflow (“⋯”) menu, and the Apps settings tiles all at once — it doesn't linger anywhere half-hidden.--><Strong>Both tooltips are clear and specific here</Strong> (“Allow Managers/Users to Create Announcements and Polls across Department”) — a good model for what the tooltip on every General setting should read like.  </li>
+   <!--<li><strong>Drag-to-reorder needs a confident drag, not a nudge.</strong> Short drags to an immediately adjacent row don't always register — if a reorder doesn't seem to take, try dragging further than feels necessary rather than assuming the feature isn't working. 
+ </li> 
+   <Strong>Enable Full Page View</Strong> is the master switch for the clean, chrome-free look most tenants want; the other eight toggles fine-tune exactly which individual SharePoint elements stay hidden. </li>
+<li><strong>Mind the hidden link between two of these toggles:</strong> turning “Hide top site header” off also turns “Enable Full Page View” off automatically, with no warning message explaining why. Turning “Hide top site header” back on does not restore Full Page View for you — you'll need to re-enable it yourself. If you're experimenting here, check the state of Enable Full Page View before you leave the panel, not just the toggle you meant to change. 
+<strong>Treat this as a break-glass setting, not a routine toggle.</strong> Because switching it off immediately narrows access to only the explicitly-added user list, it's worth confirming that list is complete and current *before* flipping this off — not after. 
+
+  </li>-->
+</ul>
+</div>
+<div class="bg-light p-4 remove-padding common-scroll" id="pending">
+  <ul class="page-list">
+    <h3 id="_modules">
+      <a class="header-icon-link highlight" href="#">
+        <!--Brand LogoShared Mail BoxSharepoint Page Components Use Sharepoint URL for MS Teams Installed Application Allow All Microsoft 365 Users in This Tenant Cross-Department Publishing Access-->Pending Update Validation Notifications
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+      </a>
+    </h3>
+<p><!--Your company's mark, top and center in the navigation bar.A shared inbox for system notificationsNine toggles that decide how much of SharePoint's own chrome shows through.Point the Teams-installed HR365-HRMS tab at your SharePoint page instead of a standalone app URL.This one is exactly as consequential as it sounds, and its tooltip says so plainly: disabled, only users explicitly added via Add/Edit User can access the application; enabled, every user in the Microsoft 365 tenant can reach it directly from the URL. Rename, hide, or reorder any app in the top navigation — with a live drag handle.Two toggles deciding who can post company-wide announcements.-->An email nudge so app updates awaiting validation don't get forgotten.   </p>
+<p><!--Upload a logo (recommended 150×60px, transparent or white background) to replace the default branding across the top navigation bar. The panel includes a crop step after upload and a Remove option (with a confirmation prompt) if you want to revert to the default.If the Power Automate flow is configured in your HR365-HRMS application with your shared mailbox ID, you will be able to send all the emails through Power Automate. To know more about Power Automate configuration, please <a href="https://kb.hr365.us/HRMS-HR365/mailbox-configuration/"> click here. </a> 
+Once configured please click on validate to complete the setup.HR365-HRMS runs embedded inside a SharePoint page, and these nine toggles control how much of the underlying SharePoint interface — the top site header, the command bar, the side navigation, webpart titles, comments — is hidden so that HR365-HRMS can present as a clean, full-page application instead of a webpart bolted onto a SharePoint site.When enabled, this setting reveals a required “SharePoint URL” field — the address HR365-HRMS should load when opened as a tab inside Microsoft Teams. Off by default.  </p>
+<p>Enable the<strong>“Use SharePoint URL for MS Teams installed application”</strong>  toggle, then enter your SharePoint site URL in the following format: 
+https://yourtenantname.sharepoint.com/sites/SiteName/SitePages/PageName.aspx 
+After entering the URL, click the<strong>Save</strong>  button to apply your changes.Modules is the control panel for the top navigation bar itself. Each row pairs a fixed system name (“Recruitment Management”) with an editable display label (“Recruitment”), an On/Off visibility toggle, and a drag handle for reordering.A pair of toggles — one for Managers, one for regular Users — each controlling whether that role can create Announcements and Polls that reach departments other than their own.-->A single toggle: when on, admins receive an email notification whenever an application update requires validation and hasn't yet been completed.   </p>    
+<div>
+      <img src="pending2.png" onclick="openModal('pending2.png')" 
+           alt="Modules configuration" width="100%" height="auto">
+    </div><br>
+    <p style="display:flex;justify-content:center;align-items:center"><!--Sharepoint page components — all nine toggles On, which is this tenant's current (and recommended) full-page configurationUse Sharepoint URL for MS Teams installed application — off by default; the URL field appears once enabled.Allow all Microsoft 365 users in this tenant — on by default in this tenant.Modules — rename, toggle, and reorder every app tile from one panel.Cross-Department Publishing Access — Managers can post across departments by default; Users cannot.-->Pending Update Validation Notifications — off by default.   </p>
+<ul style="list-style-type:disc;">
+    <li><!--<Strong>Renaming propagates everywhere immediately:</Strong> changing a display label here updates both the top navigation bar and the Apps settings tile on the main Settings screen the moment you save — there's no separate step or delay. <Strong>Managers-on, Users-off</Strong> is a sensible starting posture for most organizations — it keeps company-wide messaging with people who manage teams, while individual contributors stay scoped to their own department's feed.--><strong>Worth turning on</strong> in any tenant where update validation is someone's actual job rather than an occasional glance at the admin screen — it's the only setting in this section that proactively reaches out instead of waiting to be checked. 
+ </li>
+   <!--<strong>Turning a module Off removes it cleanly</strong> from the top nav, the overflow (“⋯”) menu, and the Apps settings tiles all at once — it doesn't linger anywhere half-hidden.<Strong>Both tooltips are clear and specific here</Strong> (“Allow Managers/Users to Create Announcements and Polls across Department”) — a good model for what the tooltip on every General setting should read like.  </li>
+   <li><strong>Drag-to-reorder needs a confident drag, not a nudge.</strong> Short drags to an immediately adjacent row don't always register — if a reorder doesn't seem to take, try dragging further than feels necessary rather than assuming the feature isn't working. 
+ </li> 
+   <Strong>Enable Full Page View</Strong> is the master switch for the clean, chrome-free look most tenants want; the other eight toggles fine-tune exactly which individual SharePoint elements stay hidden. </li>
+<li><strong>Mind the hidden link between two of these toggles:</strong> turning “Hide top site header” off also turns “Enable Full Page View” off automatically, with no warning message explaining why. Turning “Hide top site header” back on does not restore Full Page View for you — you'll need to re-enable it yourself. If you're experimenting here, check the state of Enable Full Page View before you leave the panel, not just the toggle you meant to change. 
+<strong>Treat this as a break-glass setting, not a routine toggle.</strong> Because switching it off immediately narrows access to only the explicitly-added user list, it's worth confirming that list is complete and current *before* flipping this off — not after. 
+
+  </li>-->
+</ul>
+</div>
+   <!-- <p>
 
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
