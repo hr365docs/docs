@@ -146,6 +146,98 @@
                             <div><img src="bulkuseradd.png" onclick="openModal('bulkuseradd.png')" alt="Users" width="100%"
                                     height="auto"></div>
                             <br>
+            
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Bulk Updating Users
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <p><!--Here, admin and HR would be able to add users individually or by bulk using the csv file
+                                provided for sample.The page now includes Active Users and Inactive Users tabs, allowing
+                                admins to easily toggle between and manage users based on their activity status within
+                                the system.Use full sync from M365 option only if you want to sync all the users</p>
+                            <p><b>Note:</b> Please fill details as per specified format in sample.-->Administrators can update several employee records in one pass instead of editing each user individually. This is done from the Users page, using a downloadable Excel template that is filled in and re-uploaded through the Update Users panel. The guide below walks through the full process, from opening the panel to reviewing the upload results.</p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 1: Open the Users page</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p>In the left-hand navigation, expand Administration and select Users. This opens the list of all active employees, showing details such as name, email, employee ID, manager, department, office location, and birth date.</p>
+                            <div><img src="step1.png" onclick="openModal('step1.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center">The Users item under Administration in the left-hand navigation menu.</p>
+<h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 2: Open Update Users from the Add menu</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p><!--Users could be added by entering the details and assign different roles as per the
+                                requirement.-->On the Users page, click the Add dropdown above the user table. Three options appear: Add User, Bulk Users, and Update Users. Select Update Users to update the details of employees who are already in the system.
+                            </p>
+                            <div><img src="step2.png" onclick="openModal('step2.png')" alt="Sick leaves"
+                                    width="100%" height="auto"></div>
+                                    <br>
+                            <p style="display:Flex;justify-content:center;align-items:center">The Add dropdown on the Users page, with Update Users highlighted.</p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 3: Download the sample template</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p>The Update Users panel opens on the right. Click Download Sample File to get an Excel template pre-filled with the current information for all active users. The panel also lists the upload instructions:</p>
+                            <ul style="list-style-type:none">
+                                <li>●	Add multiple records in a single file.</li>
+                                <li>●	Fill details with an exact match to avoid conflicts.</li>
+                                <li>●	Do not add commas or extra fields.</li>
+                                <li>●	Provide all dates in MM/DD/YYYY format.</li>
+                                <li>●	Do not change the column order or add new columns.</li>
+                                <li>●	Work Week columns: Sun–Sat is the base week; *1/*2/*3 columns are rotation weeks 2–4; *4 columns (e.g. Monday4) are rotation week 5. Values are hours worked that day — 0 means a day off.</li>
+                                <li>●	Leave a cell blank to keep that field unchanged for that user.</li>
+                            </ul><br>
+                            <div><img src="step3.png" onclick="openModal('step3.png')" alt="Sick leaves"
+                                    width="100%" height="auto"></div>
+
+                            <br><br>
+                            <p style="display:flex;justify-content:center;align-items:center"><!--Here we add users in Bulk.-->The Update Users panel, with the Download Sample File button highlighted.</p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 4: Edit the downloaded template</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p>Open the downloaded file (for example, Update_Users_Template_08-15-2026.xlsx). Each row is one existing user, identified by Employee Email. Update whichever columns need to change — for example Department, Job Title, or Hire Date — and adjust the daily Work Week hours if a user's schedule has changed. Leave any cell blank to keep that field as it is. Save the file when finished.</p>
+                            <br><div><img src="step4.png" onclick="openModal('step4.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center">The Update Users template opened in Excel, showing Department, Job Title, Hire Date, and Work Week columns ready to edit.</p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 5: Attach the completed file</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p>Back in the Update Users panel, click Upload Excel File (or drag and drop the file onto the upload area) and select your saved template. The file appears listed under Attachments, confirming it is ready to be processed.</p>
+                            <div><img src="step5.png" onclick="openModal('step5.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                            <p style="display:flex;justify-content:center;align-items:center">The uploaded file, Update_Users_Template_08-15-2026.xlsx, listed in the Attachments section of the Update Users panel.</p>
+                              <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 6: Click Upload to process the file</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p>Scroll to the bottom of the panel and click Upload to submit the file for processing. The system reads each row and applies the changes to the matching user record.</p>
+                            <div><img src="step6.png" onclick="openModal('step6.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                             <p style="display:flex;justify-content:center;align-items:center">The Upload button at the bottom of the Update Users panel.</p>
+                            <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 7: Review the row results</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+                            <p><!--Scroll to the bottom of the panel and click Upload to submit the file for processing. The system reads each row and applies the changes to the matching user record.-->
+                                Once processing finishes, the panel displays a results table summarizing the outcome for every row, including a total count of records updated and skipped. Each row shows its status (Updated or Skipped), the employee it applied to, and details of which fields were changed. Review this list to confirm the updates were applied as expected, or to spot any rows that were skipped due to a conflict.
+                            </p>
+                            <div><img src="step7.png" onclick="openModal('step7.png')" alt="Users" width="100%"
+                                    height="auto"></div>
+                            <br>
+                             <p style="display:flex;justify-content:center;align-items:center">Row results after upload, showing each employee's update status and the fields that changed.</p>
+                             <div style="background-color:rgb(193,228,245);border:1px solid rgba(0, 0, 255, 0.373);display:flex;justify-content:center;align-items:center;padding:8px">
+   <!--<strong>Note:</strong>  Only the roles checked here will be able to set their own unavailability.-->
+   <div style="display:flex;flex-direction:Column;gap:5px">
+     <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Tips</a>
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h3>
+<ul style="list-style-type:none">
+    <li>●	If a row is skipped, check that the Employee Email exactly matches an existing active user and that the row follows the formatting rules above.</li>
+<li>●	Re-download the sample file before each bulk update to ensure you're working from the current list of active users and column order.</li>
+<li>●	Contact your HR administrator if you run into persistent upload issues.</li>
+</ul>
+   </div>
+</div><br>
                              <!-- <p><b>Full Sync for Users:</b> This feature allows administrators to synchronize all
                                     user data
                                     from an external directory or source (such as Microsoft 365) into the system. It
@@ -154,6 +246,7 @@
 
                                 <div><img src="UserFullsync.png" onclick="openModal('UserFullsync.png')"
                                         alt="Update users role" width="100%" height="auto"></div><br> -->
+
                                 <p><b>Update from M365:</b> This option allows administrators to refresh or update
                                     existing
                                     user details from Microsoft 365. It syncs only the latest changes (such as name,
