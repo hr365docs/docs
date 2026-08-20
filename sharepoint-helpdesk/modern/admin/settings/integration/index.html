@@ -685,6 +685,268 @@
 
 
                         </div>
+                          <div class="bg-light p-4 remove-padding common-scroll" id="copilot-integeration">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Knowledge Base – MS Planner Integration Functionality
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+
+                                <p>
+                                   <!-- Use this toggle to enable or disable Copilot integration. Enter the configured Power
+                                    Automate (PA) URL and click Save to activate the feature.-->The MS Planner Integration functionality allows organizations to synchronize Microsoft Planner tasks into Timesheet 365. Planner-created tasks are imported as Global Tasks, which can later be moved to specific projects and used for timesheet submission
+
+                                </p>
+ <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Overview
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>This functionality helps organizations eliminate duplicate task creation and maintain synchronization between Microsoft Planner and Timesheet 365.</p>
+ <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Functionality Flow
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <ul style="list-style-type:none">
+                                   <li> •	Enable MS Planner Integration.</li>
+                                   <li>•	Create tasks in Microsoft Planner.</li>
+                                   <li>•	Synchronize Planner tasks.</li>
+                                   <li>  •	Planner tasks appear as Global Tasks.</li>
+                                   <li>•	Move Global Tasks to a project.</li>
+                                   <li>  •	Use those tasks in Weekly Timesheet.</li>
+                                   <li> •	Submit timesheet against Planner-created tasks.</li>
+                                </ul>
+                                <br>
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 1 – Enable MS Planner Integration
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Navigate to Settings → Integration and enable the 'Integrate With MS Planner' toggle.</p>
+                                <div><img src="steps.png" onclick="openModal( 'steps.png') " alt="Copilot"
+                                        width="100% " height="auto"></div>
+                                <br>
+                                <p style="display:flex;justify-content:center;align-items:center">Enable MS Planner Integration</p>
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 2 – Create Tasks in Microsoft Planner
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Create tasks inside Microsoft Planner. These tasks will later be synchronized into Timesheet 365.</p>
+                                <!--<p>
+                                    To integrate <strong>Copilot</strong> with <strong>Helpdesk 365</strong>, begin by
+                                    creating your Copilot agent in
+                                    <a href="https://copilotstudio.microsoft.com/" target="_blank">Copilot Studio</a>.
+                                </p>
+                                <p>Ensure that you have a <strong>Premium Power Automate license</strong> to proceed
+                                    with the configuration.</p>
+
+                                <p>In the left-hand sidebar, select <strong>Agents</strong>.</p>-->
+                                <div>
+                                    <img src="tasks.png" onclick="openModal('tasks.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                                <p style="display:flex;justify-content: center;align-items:center">Tasks Created in Microsoft Planner</p>
+                               <!-- <p>
+                                    If you don’t already have an agent, click on <strong>+ New Agent</strong> to create
+                                    one, then configure it as required.<br>
+                                </p>-->
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 3 – Synchronize Planner Tasks
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Click the 'Sync' button inside the Integration section to synchronize Planner tasks into Timesheet 365.</p>
+
+                                <div>
+                                    <img src="synchronize.png" onclick="openModal('synchronize.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                                <p style="display:flex;justify-content:center;align-items:center"><!--If you already have an existing agent, simply click on that agent to open it.-->Synchronize Planner Tasks</p>
+
+ <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 4 – Open Global Tasks
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Navigate to Administration → Tasks and click on the 'Global Task' button.</p>
+                                <div>
+                                    <img src="global.png" onclick="openModal('global.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                
+                                <p style="display:flex;justify-content:center;align-items:center"><!--In the <strong>Knowledge</strong> section, add your Knowledge Base.-->Open Global Tasks</p>
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 5 – View Synced Planner Tasks
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>All synchronized Planner tasks are displayed inside the Global Tasks section.</p>
+                                <div>
+                                    <img src="synced.png" onclick="openModal('synced.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+
+               <p style="display:flex;justify-content:center;align-items:center">View Synced Global Tasks</p>
+
+
+                              <!--  <p>Then go to <strong>Settings</strong>. Under <strong>Security</strong>, select
+                                    <strong>Web Channel Security</strong> and copy the <strong>Secret 1</strong> key.
+                                </p>-->
+                                   <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 6 – Bulk Move Tasks
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p><!--All synchronized Planner tasks are displayed inside the Global Tasks section.-->Select the required global tasks and click the 'Bulk Move' option.</p>
+                                <div>
+                                    <img src="bulk.png" onclick="openModal('bulk.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                                <p style="display:flex;justify-content:center;align-items:center">Bulk Move Global Tasks</p>
+
+                               <!-- <div>
+                                    <img src="copilot_settings.png" onclick="openModal('copilot_settings.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>-->
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 7 – Move Tasks to Specific Project
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p><!--All synchronized Planner tasks are displayed inside the Global Tasks section.Select the required global tasks and click the 'Bulk Move' option.-->
+                                    Inside the Move Task window, select the Client, Project, Task Start Date, and Billable settings. Then click 'Move'.
+                                </p>
+                                
+
+
+                                <div>
+                                    <img src="move.png" onclick="openModal('move.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+ <p style="display:flex;justify-content:center;align-items:center">Move Tasks to Project</p>
+
+                               <!-- <p>Next, in <strong>Power Automate</strong>, go to <strong>My Flows</strong> and import
+                                    the <strong>Copilot server solution</strong>.</p>-->
+                                      <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 8 – Use Planner Tasks in Weekly Timesheet
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Navigate to Timesheet → Weekly Timesheet and select the required Client and Project. Planner-created tasks are available in the Task dropdown.</p>
+                                <div>
+                                    <img src="planner.png" onclick="openModal('planner.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+
+                                <p style="display:flex;justify-content:center;align-items:center">
+                                    Planner Tasks Available in Weekly Timesheet
+                                </p>
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 9 – Submit Timesheet
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Select the task, Enter the required hours  and click Submit.</p>
+                                <div>
+                                    <img src="submit.png" onclick="openModal('submit.png')"
+                                        alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                </div><br>
+                                 <p style="display:flex;justify-content:center;align-items:center">
+                                    Timesheet Submitted Successfully
+                                </p>
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Key Features
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                 <ul style="list-style-type:none">
+                                   <li> •	Automatic synchronization of Planner tasks.</li>
+                                   <li>•	Global Task management.</li>
+                                   <li>•	Bulk task movement.</li>
+                                   <li> •	Project-specific task mapping.</li>
+                                   <li>•	Planner-based timesheet tracking.</li>
+                                   <li>  •	Centralized task management.</li>
+            
+                                </ul>
+                                <br>
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Benefits
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                 <ul style="list-style-type:none">
+                                   <li>•	Eliminates duplicate task creation.</li>
+                                   <li>•	Improves productivity tracking.</li>
+                                   <li>•	Reduces administrative effort.</li>
+                                   <li>•	Enhances collaboration between Teams and Timesheet 365.</li>
+                                   <li>•	Simplifies task synchronization.</li>
+                                   
+            
+                                </ul>
+                                <br>
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Important Conditions
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <table>
+                                    <tr>
+                                        <td>Condition</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                     <tr>
+                                        <td>MS Planner Integration Enabled</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                      <tr>
+                                        <td>Planner Access Permissions</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                     <tr>
+                                        <td>Tasks Synchronized</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tasks Moved to Project</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                    <tr>
+                                        <td>User Has Project Access</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                </table>
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Summary
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>The MS Planner Integration functionality enables organizations to synchronize Planner tasks into Timesheet 365, convert them into project-specific tasks, and track user effort directly against Microsoft Planner-created tasks.</p>
+                               <!-- <p>Disable the <strong>New Designer</strong> toggle
+                                    and paste the previously copied <strong>Secret 1</strong> value into the
+                                    <strong>Headers</strong> field.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_flows1.png" onclick="openModal('powerautomate_flows1.png')"
+                                        alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                </div><br>
+                                <p>
+                                    Save the flow and copy the <strong>HTTP GET URL</strong> generated under the
+                                    <em>When an HTTP request is received</em> trigger.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_flows2.png" onclick="openModal('powerautomate_flows2.png')"
+                                        alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                </div><br>
+                                <p>
+                                    Return to the application, enable the <strong>Copilot integration</strong> toggle,
+                                    and paste this URL into the configuration field.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_httpurl.png"
+                                        onclick="openModal('powerautomate_httpurl.png')"
+                                        alt="Power Automate HTTP GET URL" width="100%" height="auto">
+                                </div><br>
+
+
+                                <p> Once configured, Copilot will appear on the Comment page.</p>
+
+                                <div><img src="commentpage-copilot.png" onclick="openModal( 'commentpage-copilot.png') "
+                                        alt="Copilot" width="100% " height="auto"></div>
+                                <p>When you click on <b>Helpdesk Copilot</b>, the Copilot section will be displayed,
+                                    where you
+                                    can enter your questions.</p>
+
+                                <div><img src="copilot-ques.png" onclick="openModal( 'copilot-ques.png') " alt="Copilot"
+                                        width="100% " height="auto"></div>
+                                <p>Copilot will then be ready to assist you, and you can access it from the function
+                                    bar.</p>
+
+                                <div><img src="SendMessage.png" onclick="openModal( 'SendMessage.png') " alt="Copilot"
+                                        width="100% " height="auto"></div>
+
+                                -->
+                        </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="integrateMicrosoft">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Integrate Microsoft

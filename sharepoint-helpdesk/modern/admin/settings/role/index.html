@@ -728,6 +728,182 @@
                                 <div><img src="ticket_pro.png" onclick="openModal('ticket_pro.png')"
                                         alt="ticket property" width="100%" height="auto"></div>
 
+  <div class="bg-light p-4 remove-padding common-scroll" id="agent">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Overview
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+
+                                <p>
+                                   <!-- Various permissions could be provided to admin, supervisor, agent. It would
+                                    allow
+                                    users to edit priority, request type and close ticket.-->The Agent Availability feature lets you control when an agent is available to receive ticket assignments. Availability can be set manually, and if an agent has applied for leave through the Time Off Manager, that leave is reflected here automatically as well.
+                                </p>
+                   <p>Where Availability Can Be Managed</p>
+                   <p>Availability can be set from two places:</p>
+                   <ul style="list-style-type:none">
+                    <li><strong>•	Homepage — </strong>users schedule their own availability using the airplane icon.</li>
+                   <li><strong>•	Users Panel (Settings) — </strong>users with access can manage availability for any agent.</li>
+                </ul><br>
+                  <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 1: Turn On the Permission (Admin Setup)</a>
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+<p>Before agents can set their own availability, an admin needs to allow it.</p>
+<ul style="list-style-type:none">
+    <li>1.	Go to <strong>Settings → Role and Access Management.</strong></li>
+    <li>2.	Find <strong>Allow Users to Set Unavailability.</strong></li>
+    <li>3.	Check the box for <Strong>Admin </Strong>and/or<strong>Agent</strong> , depending on who should have access.</li>
+<li>4.	Click<strong> Save.</strong></li>
+</ul>
+<br>
+
+                                <div><img src="step1.png" onclick="openModal('step1.png')"
+                                        alt="Advace permissions" width="100%" height="auto"></div>
+                                <br>
+                                <p><!--Admins, Supervisors, and Agents can edit requester details based on their
+                                    permissions, while Users have limited or no access. This ensures controlled
+                                    and
+                                    secure data management.-->Role and Access Management — enabling the unavailability permission for Admin and Agent roles.</p>
+<div style="background-color:rgb(193,228,245);border:1px solid rgba(0, 0, 255, 0.373);display:flex;justify-content:center;align-items:center;padding:8px">
+   <strong>Note:</strong>  Only the roles checked here will be able to set their own unavailability.
+</div><br>
+<h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 2: Set Unavailability from the Users Panel (Settings)</a>
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>Use this option when an admin or supervisor needs to set availability for any agent.</p>
+                                <ul style="list-style-type:none">
+                                    <li>5.	Go to <strong>Settings → Add/Edit Users.</strong></li>
+                                    <li>6.	Find the agent's row and click the + icon under <strong>Schedule Unavailability.</strong></li>
+                                    <li>7.	The <strong>Set User Unavailability</strong> window opens.</li>
+                                    <li>8.	Select a <strong>Start Date</strong> and <strong>End Date.</strong></li>
+                                    <li>9.	Add a note in <strong>Remarks</strong> (optional, but helpful for context).</li>
+                                    <li>10.	Click <Strong>Save.</Strong></li>
+                                </ul><br>
+
+                                <div><img src="step2.png" onclick="openModal('step2.png')"
+                                        alt="Advace permissions" width="100%" height="auto"></div>
+                                <br>
+                                <p>Add/Edit Users — setting unavailability for an agent from the Users panel.</p>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Step 3: Set Unavailability from the Homepage (Self-Service)</a>
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>Use this option when an agent wants to schedule their own time off directly from the ticket list.</p>
+                                <ul style="list-style-type:none">
+                                    <li>
+11.	From the Homepage, click the <strong>airplane icon.</strong>
+</li>
+<li>12.	The same<strong>Set User Unavailability</strong>  window opens over the ticket list.</li>
+<li>13.	Select a <strong>Start Date</strong> and<strong>End Date</strong> , and add a <strong>Remark</strong> if needed.</li>
+<li>14.	Click <strong>Save.</strong></li>
+                                </ul><br>
+                                <div><img src="step3.png" onclick="openModal('step3.png')"
+                                        alt="Advace permissions" width="100%" height="auto"></div>
+                                <br>
+                                <p>Homepage — scheduling unavailability directly from the ticket list view.</p>
+<div style="background-color:rgb(193,228,245);border:1px solid rgba(0, 0, 255, 0.373);display:flex;justify-content:center;align-items:center;padding:8px">
+   <strong>Note:</strong> On the homepage, users can only set their own unavailability — not anyone else's.
+</div><br>
+<p>What Happens After You Save</p>
+<ul style="list-style-type:none">
+    <li>•	The system marks the user <strong>Unavailable </strong>for the selected dates.</li>
+    <li>•	Once the end date passes, the user is automatically switched back to <strong>Available.</strong></li>
+    <li>•	While unavailable, the user will not appear in the <strong>Assign To</strong> dropdown.</li>
+    <li>•	Tickets already assigned to the user are <strong>not affected.</strong></li>
+</ul><br>
+<p>Managing or Updating Availability</p>
+<p>A scheduled unavailability can be changed or cleared two ways:</p>
+<ul style="list-style-type:none">
+    <li><strong>•	From the popup — </strong>reopen it and use the remove/clear option (a confirmation will appear before clearing).</li>
+<li><strong>•	From the Agent Availability dropdown </strong>in the Users list — switch the status between Available and Unavailable directly.</li>
+</ul><br>
+<div style="background-color:rgb(193,228,245);border:1px solid rgba(0, 0, 255, 0.373);padding:8px">
+   <strong>Note:</strong> Manual changes can override the automatic schedule at any time. If a user has approved leave in Time Off Manager, it will also show here automatically.
+</div><br>
+                                <!-- <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Validate Duplicate Tickets Through Email
+                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                                            </h2>
+                                                            <p>
+                                                                This setting will avoid duplicate ticket creation through email when any user replies to the first email or any thread which doesn't have the ticket number in the subject.
+                                                            </p>
+                                                            <div><img src="validate_prop.png" onclick="openModal('validate_prop.png')" alt="Validate prop" width="100%" height="auto"></div>
+                                                            <br>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Survey Link Validation
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    From here you can add the number of the days to the survey link expire.
+                                </p>
+                                <div><img src="survey_validate.png" onclick="openModal('survey_validate.png')" alt="Survey validate" width="100%" height="auto"></div>
+                                <br>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Enable Ticket Mailbox 
+            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    From here you can raise the tickets through mail with the help of power automate.
+                                </p>
+                                <div><img src="enable.png" onclick="openModal('enable.png')" alt="Enable" width="100%" height="auto"></div> -->
+                                <br>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Enable Agent
+                                        to View
+                                        Own Private Notes
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>
+                                    This toggle option allows agents to view their own private notes within a
+                                    ticket.
+                                    When enabled (On), agents can access and review any private notes they have
+                                    added to
+                                    a ticket. When disabled (Off), agents will not be able to view their private
+                                    notes
+                                    after submission.
+                                </p>
+                                <div><img src="EnableAgent.png" onclick="openModal('EnableAgent.png')"
+                                        alt="ticket property" width="100%" height="auto"></div>
+                                <br>
+                                <p>
+                                    Inside the comment page, the user can view their private notes.
+                                </p>
+                                <div><img src="PrivateNotes.png" onclick="openModal('PrivateNotes.png')"
+                                        alt="ticket property" width="100%" height="auto"></div>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Private Note Edit <i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>Two new options have been added:</p>
+                                <b>Enable Toggle</b>:
+                                <ol>
+                                    <li> A toggle switch has been introduced to enable or disable the feature.</li>
+                                    <li> A numeric input field allows you to set the duration (in minutes) for which the
+                                        feature remains enabled after activation.</li>
+                                    <br>
+                                </ol>
+
+                                </p>
+                                <div><img src="deletePrivatenotes.png" onclick="openModal('deletePrivatenotes.png')"
+                                        alt="Ticket properties" width="100%" height="auto"></div>
+                                <br>
+                                <p>The Edit and Delete buttons allow users to modify or remove private notes. These
+                                    options are only visible within the time duration configured in the settings.</p>
+                                <div><img src="Private.png" onclick="openModal('Private.png')" alt="Ticket properties"
+                                        width="100%" height="auto"></div>
+                                <br>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Ticket
+                                        Properties
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    Using ticket properties feature, it would be able to hide or show the ticket
+                                    fields
+                                    in ticket form.
+                                </p>
+
+                                <div><img src="ticket_propeties.png" onclick="openModal('ticket_propeties.png')"
+                                        alt="Ticket properties" width="100%" height="auto"></div>
+                                <br>
+                                <div><img src="ticket_pro.png" onclick="openModal('ticket_pro.png')"
+                                        alt="ticket property" width="100%" height="auto"></div>
+
 
 
                         </div>
@@ -745,6 +921,99 @@
                 </div>
             </div>
         </div>
+        
+
+                        </div>
+                        </ul>
+                  
+                    <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                    <nav class="pagination mt-3">
+                        <a class="nav nav-prev" href="/sharepoint-helpdesk/modern/admin/settings/ticket-customization/"
+                            aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
+                                class="d-none d-md-block">Ticket Customization</span></a>
+                        <a class="nav nav-next" href="/sharepoint-helpdesk/modern/admin/settings/integration/"
+                            aria-label="Previous page"> <span class="d-none d-md-block">Integrations</span><i
+                                class="ti-arrow-right ml-2"></i></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+       <!-- View
+                                        Own Private Notes
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>
+                                    This toggle option allows agents to view their own private notes within a
+                                    ticket.
+                                    When enabled (On), agents can access and review any private notes they have
+                                    added to
+                                    a ticket. When disabled (Off), agents will not be able to view their private
+                                    notes
+                                    after submission.
+                                </p>
+                                <div><img src="EnableAgent.png" onclick="openModal('EnableAgent.png')"
+                                        alt="ticket property" width="100%" height="auto"></div>
+                                <br>
+                                <p>
+                                    Inside the comment page, the user can view their private notes.
+                                </p>
+                                <div><img src="PrivateNotes.png" onclick="openModal('PrivateNotes.png')"
+                                        alt="ticket property" width="100%" height="auto"></div>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Private Note Edit <i
+                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>Two new options have been added:</p>
+                                <b>Enable Toggle</b>:
+                                <ol>
+                                    <li> A toggle switch has been introduced to enable or disable the feature.</li>
+                                    <li> A numeric input field allows you to set the duration (in minutes) for which the
+                                        feature remains enabled after activation.</li>
+                                    <br>
+                                </ol>
+
+                                </p>
+                                <div><img src="deletePrivatenotes.png" onclick="openModal('deletePrivatenotes.png')"
+                                        alt="Ticket properties" width="100%" height="auto"></div>
+                                <br>
+                                <p>The Edit and Delete buttons allow users to modify or remove private notes. These
+                                    options are only visible within the time duration configured in the settings.</p>
+                                <div><img src="Private.png" onclick="openModal('Private.png')" alt="Ticket properties"
+                                        width="100%" height="auto"></div>
+                                <br>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Ticket
+                                        Properties
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    Using ticket properties feature, it would be able to hide or show the ticket
+                                    fields
+                                    in ticket form.
+                                </p>
+
+                                <div><img src="ticket_propeties.png" onclick="openModal('ticket_propeties.png')"
+                                        alt="Ticket properties" width="100%" height="auto"></div>
+                                <br>
+                                <div><img src="ticket_pro.png" onclick="openModal('ticket_pro.png')"
+                                        alt="ticket property" width="100%" height="auto"></div>
+
+
+
+                        </div>
+                        </ul>
+                  
+                    <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                    <nav class="pagination mt-3">
+                        <a class="nav nav-prev" href="/sharepoint-helpdesk/modern/admin/settings/ticket-customization/"
+                            aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
+                                class="d-none d-md-block">Ticket Customization</span></a>
+                        <a class="nav nav-next" href="/sharepoint-helpdesk/modern/admin/settings/integration/"
+                            aria-label="Previous page"> <span class="d-none d-md-block">Integrations</span><i
+                                class="ti-arrow-right ml-2"></i></a>
+                    </nav>
+                </div>
+            </div>
+        </div>-->
         </div>
     </section>
     <div id="myModal" class="modal">
