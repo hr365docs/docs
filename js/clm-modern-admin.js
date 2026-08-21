@@ -160,6 +160,9 @@ $(document).ready(function () {
     "<li data-nav-id='../Integration' title='AI Risk' class='sidelist'>" +
       "<a class='qwe' href='/contract-management/modern/admin/settings/integrations/#_ai_risk'>AI Risk</a>" +
     "</li>" +
+     "<li data-nav-id='../Integration' title='Copilot Integration Guide' class='sidelist'>" +
+      "<a class='qwe' href='/contract-management/modern/admin/settings/integrations/#guide'>Copilot Integration Guide</a>" +
+    "</li>" +
         "</ul>"+
         "</li>"+
         "</li>" +

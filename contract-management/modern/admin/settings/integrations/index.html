@@ -694,11 +694,457 @@ Once inside the console, click on <b>Apps and Keys</b> from the left-hand menu.<
   <div>
     <img src="45.png" onclick="openModal('45.png')" alt="Final Risk Update in Template" width="100%" height="auto">
   </div><br>
+  <h2 id="guide"><a class="header-icon-link highlight " href=#>How to Integrate Copilot with CLM 365<i
+                                        class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h2>
+                            
+  <p>Step-by-Step Configuration Guide</p>
+    <h3 id="guide"><a class="header-icon-link highlight " href=#>Prerequisites<i
+                                        class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h3>
+     <hr/>
+     <p>The following licenses and subscriptions are required before proceeding with the configuration:</p> 
+     <ol>
+      <li>Power Automate Premium license</li>
+      <li>Copilot License for the user who is configuring and publishing the Copilot</li>
+      <li>Azure Pay As You Go subscription for Copilot credits</li>
+     </ol>  
+      <h3 id="guide"><a class="header-icon-link highlight " href=#>Part 1: Create the Copilot Agent & Azure App Registration<i
+                                        class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h3>
+     <hr/>  
+     <p>These steps cover creating the Copilot agent in Microsoft Copilot Studio and registering the application in Azure.</p>     
+     <p><strong>STEP  1.	</strong>Enter https://copilotstudio.microsoft.com/ in any browser.</p>  
+      <div>
+    <img src="step1.jpg" onclick="openModal('step1.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+  <p><strong>STEP  2.	</strong>Click on "Agents" in the left navigation panel.</p>   
+   <div>
+    <img src="step2.jpg" onclick="openModal('step2.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+  <p><strong>STEP  3.	</strong>Click on "+ Create blank agent" button at the top right.</p>        
+<div>
+    <img src="step3.jpg" onclick="openModal('step3.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+   <p><strong>STEP  4.	</strong>Enter the name of the agent (e.g., "CLM 365") and click "Create".</p>        
+<div>
+    <img src="step4.jpg" onclick="openModal('step4.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+  <p><strong>STEP  5.	</strong>Once the agent is created, click on "Settings" in the top right.</p>        
+<div>
+    <img src="step5.jpg" onclick="openModal('step5.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+   <p><strong>STEP  6.	</strong>Open https://portal.azure.com/ in a new browser tab.</p>        
+<div>
+    <img src="step6.jpg" onclick="openModal('step6.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+  <p><strong>STEP  7.	</strong>In the Azure portal, click on "Microsoft Entra ID" in the left navigation panel.</p>        
+<div>
+    <img src="step7.jpg" onclick="openModal('step7.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+  <p><strong>STEP  8.	</strong>Under Manage, click on "App registrations".</p>        
+<div>
+    <img src="step8.jpg" onclick="openModal('step8.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+   <p><strong>STEP  9.	</strong>Click on the "+ New registration" button at the top of the App registrations page.</p>        
+<div>
+    <img src="step9.jpg" onclick="openModal('step9.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+   <p><strong>STEP  10.	</strong>Enter a Name for your application, and then click the "Register" button.</p>        
+<div>
+    <img src="step10.jpg" onclick="openModal('step10.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+   <p><strong>STEP  11.	</strong>After registration, copy the Application (client) ID from the overview page — you will need this for authentication.</p>        
+<div>
+    <img src="step11.jpg" onclick="openModal('step11.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+  <p><strong>STEP  12.	</strong>Click on "Add a certificate or secret" link under Client credentials.</p>        
+<div>
+    <img src="step12.jpg" onclick="openModal('step12.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  13.	</strong>On the Certificates & secrets page, click "+ New client secret".</p>        
+<div>
+    <img src="step13.jpg" onclick="openModal('step13.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+    <p><strong>STEP  14.	</strong>Add a description and choose an expiration period, then click "Add".</p>        
+<div>
+    <img src="step14.jpg" onclick="openModal('step14.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+  <p><strong>STEP  15.	</strong>Once created, copy the Value of the client secret immediately — it will only be shown once.</p>        
+<div>
+    <img src="step15.jpg" onclick="openModal('step15.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+    <p><strong>STEP  16.	</strong>Click on "Overview" to return to the application overview page.</p>        
+<div>
+    <img src="step16.jpg" onclick="openModal('step16.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  17.	</strong>Click on "Add a Redirect URI" in the application overview under Redirect URIs.</p>        
+<div>
+    <img src="step17.jpg" onclick="openModal('step17.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  18.	</strong>On the Authentication page, click "+ Add Redirect URI".</p>        
+<div>
+    <img src="step18.jpg" onclick="openModal('step18.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  19.	</strong>Select "Web" as the platform to add the redirect URI.</p>        
+<div>
+    <img src="step19.jpg" onclick="openModal('step19.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  20.	</strong>Enter the Redirect URI for that go back to copilot studio</p>        
+<div>
+    <img src="step20.jpg" onclick="openModal('step20.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+  <hr/>
+    <h3 id="guide"><a class="header-icon-link highlight " href=#>Part 2: Configure Security, Authentication & API Permissions<i
+                                        class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h3>
+     <hr/>  
+     <p>These steps configure the authentication settings in Copilot Studio and assign all required API permissions in Azure.</p>
+       <p><strong>STEP  21.	</strong>Go back to Copilot Studio Settings, click on "Security" in the left panel.</p>        
+<div>
+    <img src="step21.jpg" onclick="openModal('step21.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+    <p><strong>STEP  22.	</strong>Click on "Authentication" to configure the authentication settings.</p>        
+<div>
+    <img src="step22.jpg" onclick="openModal('step22.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+  <p><strong>STEP  23.	</strong>Select "Authenticate manually", enable "Require users to sign in", and copy the Redirect URL shown.</p>        
+<div>
+    <img src="step23.jpg" onclick="openModal('step23.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  24.	</strong>Back in Azure, paste the copied Redirect URL into the Redirect URI field and click "Configure".</p>        
+<div>
+    <img src="step24.jpg" onclick="openModal('step24.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  25.	</strong>Now click on "API permissions" in the left navigation panel.</p>        
+<div>
+    <img src="step25.jpg" onclick="openModal('step25.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+    <p><strong>STEP  26.	</strong>Click "+ Add a permission" on the API permissions page.</p>        
+<div>
+    <img src="step26.jpg" onclick="openModal('step26.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+    <p><strong>STEP  27.	</strong>In the Request API permissions panel, select "SharePoint".</p>        
+<div>
+    <img src="step27.jpg" onclick="openModal('step27.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  28.	</strong>Select "Application permissions" for SharePoint.</p>        
+<div>
+    <img src="step28.jpg" onclick="openModal('step28.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  29.	</strong>Search for sites under sites, select "Sites.Read.All" and click "Add permissions".</p>        
+<div>
+    <img src="step29.jpg" onclick="openModal('step29.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  30.	</strong>Click "+ Add a permission" again, then select "Microsoft Graph".</p>        
+<div>
+    <img src="step30.jpg" onclick="openModal('step30.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  31.	</strong>Select "Microsoft Graph" from the API list.</p>        
+<div>
+    <img src="step31.jpg" onclick="openModal('step30.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   <p><strong>STEP  32.	</strong>Select "Delegated permissions" for Microsoft Graph.</p>        
+<div>
+    <img src="step32.jpg" onclick="openModal('step30.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+   <p><strong>STEP  33.	</strong>Search for files under Files, select "Files.Read.All" and click "Add permissions".</p>        
+<div>
+    <img src="step33.png" onclick="openModal('step33.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>     
+  <div>
+    <img src="step33-1.jpg" onclick="openModal('step33-1.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <div>
+    <img src="step33-2.jpg" onclick="openModal('step33-2.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  34.	</strong>Click + Add a permission, select Microsoft Graph, choose Delegated permissions, search for openid, select the openid permission, and then click Add permissions.</p>        
+<div>
+    <img src="step34.png" onclick="openModal('step34.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+  <div>
+    <img src="step34-2.png" onclick="openModal('step34-2.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <div>
+    <img src="step34-3.jpg" onclick="openModal('step34-3.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  35.	</strong>Click + Add a permission, select Microsoft Graph, choose Delegated permissions, search for profile, select the profile permission, and then click Add permissions.</p>        
+<div>
+    <img src="step35.png" onclick="openModal('step35.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step35-1.png" onclick="openModal('step35-1.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step35-2.jpg" onclick="openModal('step35-2.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>     
+    <p><strong>STEP  36. </strong>Click + Add a permission, select Microsoft Graph, choose Delegated permissions, search for Sites, under sites select the Sites.Read.All permission, and then click Add permissions.</p>        
+<div>
+    <img src="step36.png" onclick="openModal('step36.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step36-1.png" onclick="openModal('step36-1.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step36-2.jpg" onclick="openModal('step36-2.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>     
+     <p><strong>STEP  37. </strong>Click + Add a permission, select Microsoft Graph, choose Delegated permissions, search for User, select the User.Read and User.Read.All permissions, and then click Add permissions.</p>        
+<div>
+    <img src="step37.png" onclick="openModal('step37.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step37-1.png" onclick="openModal('step37-1.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step37-2.jpg" onclick="openModal('step37-2.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>     
+   <p><strong>STEP  38. </strong>Click + Add a permission, select Microsoft Graph, choose Application permissions, search for Files, select the Files.Read.All permission, and then click Add permissions.
+</p>        
+<div>
+    <img src="step38.png" onclick="openModal('step38.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step38-1.jpg" onclick="openModal('step38-1.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step38-2.jpg" onclick="openModal('step38-2.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>     
+  <p><strong>STEP  39. </strong>Click + Add a permission, select Microsoft Graph, choose Application permissions, search for Sites, select the Sites.Read.All permission, and then click Add permissions.
+</p>        
+<div>
+    <img src="step39.png" onclick="openModal('step39.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step39-1.jpg" onclick="openModal('step39-1.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+  <div>
+    <img src="step39-2.jpg" onclick="openModal('step39-2.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+   <h3 id="guide"><a class="header-icon-link highlight " href=#>Part 3: Grant Admin Consent & Configure Power Automate Flow<i
+                                        class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h3>
+     <p>These steps complete the admin consent process in Azure, configure authentication and Web Channel Security in Copilot Studio, and update the Power Automate flow with the required secrets.</p>     
+    <p><strong>STEP  40. </strong>After adding all permissions, click "Grant admin consent for bitzap" (or your tenant name) on the API permissions page.
+</p>        
+<div>
+    <img src="step40.jpg" onclick="openModal('step40.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  41. </strong>A confirmation dialog will appear. Click "Yes" to grant admin consent for all configured permissions.
+</p>        
+<div>
+    <img src="step41.jpg" onclick="openModal('step41.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+    <p><strong>STEP  42. </strong>Go back to Copilot Studio and open the agent Settings. Click on "Security" in the left panel.
+</p>        
+<div>
+    <img src="step42.jpg" onclick="openModal('step42.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+     <p><strong>STEP  43. </strong>Under Security, click on "Authentication" to configure how users will sign in.
+</p>        
+<div>
+    <img src="step43.jpg" onclick="openModal('step43.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+    <p><strong>STEP  44. </strong>Select "Authenticate manually", then enable "Require users to sign in". Note the Redirect URL shown.
+</p>        
+<div>
+    <img src="step44.jpg" onclick="openModal('step44.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+    <p><strong>STEP  45. </strong>In the Service provider dropdown, select "Microsoft Entra ID V2 with client secrets".
+</p>        
+<div>
+    <img src="step45.jpg" onclick="openModal('step45.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+   <p><strong>STEP  46. </strong>Enter the Client ID (Application (client) ID from Azure) and Client Secret (Value you copied earlier). In the Scopes field, enter : profile openid Files.Read.All Sites.Read.All
+</p>        
+<div>
+    <img src="step46.jpg" onclick="openModal('step46.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+    <p><strong>STEP  47. </strong>Review the Scopes field to confirm it contains "profile openid Files.Read.All Sites.Read.All", then click "Save" to apply.
+</p>        
+<div>
+    <img src="step47.jpg" onclick="openModal('step47.jpg')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>       
+    <p><strong>STEP  48. </strong>After saving, click on Security.
+</p>        
+<div>
+    <img src="step48.png" onclick="openModal('step48.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   <p><strong>STEP  49. </strong>Go back to Security settings and click on "Web channel security".
+</p>        
+<div>
+    <img src="step50.png" onclick="openModal('step50.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>       
+    <p><strong>STEP  50. </strong>Under Web channel security, copy the "Secret 1" key — you will need this for the Power Automate flow. Then close the page.
+</p>        
+<div>
+    <img src="step51.png" onclick="openModal('step51.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  51. </strong>Open Power Automate (make.powerautomate.com) and navigate to "Solutions" in the left navigation panel.
+</p>        
+<div>
+    <img src="step51-1.png" onclick="openModal('step51-1.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  52. </strong>In Solutions, click on "HR365 Contract Management Premium" to open the solution.
+</p>        
+<div>
+    <img src="step52.png" onclick="openModal('step52.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>       
+   <p><strong>STEP  53. </strong>Inside the solution, click "Objects" in the left panel to browse its components.
+</p>        
+<div>
+    <img src="step53.png" onclick="openModal('step53.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+   <p><strong>STEP  54. </strong>Click on "Cloud flows (3)" to view the available flows, then click on "CLM365 Copilot" to open it.
+</p>        
+<div>
+    <img src="step54.png" onclick="openModal('step54.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+    <p><strong>STEP  55. </strong>Click the "Edit" button at the top to open the flow editor. Then disable the "New designer" toggle to switch to the classic view.
+</p>        
+<div>
+    <img src="step55.png" onclick="openModal('step55.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+  <div>
+    <img src="step55-1.png" onclick="openModal('step55-1.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+    <p><strong>STEP  56. </strong>In the classic flow editor, you will see the flow with "When a HTTP request is received", "Compose", and "Switch" action steps.
+</p>        
+<div>
+    <img src="step56.png" onclick="openModal('step56.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+    <p><strong>STEP  57. </strong>Inside the Switch block, click on the "Get Access Token" case to expand and configure it.
+</p>        
+<div>
+    <img src="step57.png" onclick="openModal('step57.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+   <p><strong>STEP  58. </strong>Inside the "Get Access Token" case, expand the "Scope" block and click on the "HTTP" action. The HTTP action uses Method: POST and URI: https://directline.botframework.com/v3/directline/tokens/generate.
+</p>        
+<div>
+    <img src="step58.png" onclick="openModal('step58.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+
+   <p><strong>STEP  59. </strong>In the HTTP action Headers field, replace the existing Authorization value with "Bearer " followed by the Secret 1 key you copied from Web channel security in Copilot Studio.
+</p>        
+<div>
+    <img src="step59.png" onclick="openModal('step59.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>   
+ <p><strong>STEP  60. </strong>Scroll back to the top of the flow and click on the "When a HTTP request is received" trigger step to expand it.
+</p>        
+<div>
+    <img src="step60.png" onclick="openModal('step60.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  61. </strong>Copy the "HTTP POST URL" shown in the trigger — this is the endpoint URL that CLM 365 will use to communicate with the Copilot flow.
+</p>        
+<div>
+    <img src="step61.png" onclick="openModal('step61.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+  <p><strong>STEP  62. </strong>Click "Save" at the top of the flow editor to save all changes to the CLM365 Copilot flow.
+</p>        
+<div>
+    <img src="step62.png" onclick="openModal('step62.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  63. </strong>Return to Copilot Studio and click "Publish" at the top right of the CLM 365 agent overview page to publish the final configuration.</p>        
+<div>
+    <img src="step63.png" onclick="openModal('step63.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+ <p><strong>STEP  64. </strong>Return to Copilot Studio and click "Publish" at the top right of the CLM 365 agent overview page to publish the final configuration.</p>        
+<div>
+    <img src="step64.png" onclick="openModal('step64.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+  <p><strong>STEP  65. </strong>Click Add a tool.</p>        
+<div>
+    <img src="step65.png" onclick="openModal('step65.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  66. </strong>Select Connector from the tool type options.</p>        
+<div>
+    <img src="step66.png" onclick="openModal('step66.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>    
+    <p><strong>STEP  67. </strong>Click SharePoint from the list of connectors.</p>        
+<div>
+    <img src="step67.png" onclick="openModal('step67.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  68. </strong> Select Get items from the SharePoint actions.</p>        
+<div>
+    <img src="step68.png" onclick="openModal('step68.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  69. </strong> Click Add and configure to add the action to your agent.</p>        
+<div>
+    <img src="step69.png" onclick="openModal('step69.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+  <p><strong>STEP  70. </strong> If needed, update the tool's Name and Description, or leave the defaults as-is.</p>        
+<div>
+    <img src="step70.png" onclick="openModal('step70.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+  <p><strong>STEP  71. </strong>Select the Site Address for your SharePoint site.</p>        
+<div>
+    <img src="step71.png" onclick="openModal('step71.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+   <p><strong>STEP  72. </strong>For List Name, change the Fill using option to Custom value.</p>        
+<div>
+    <img src="step72.png" onclick="openModal('step72.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  73. </strong>Choose Enter custom value and type CLM365Contract as the value.</p>        
+<div>
+    <img src="step73.png" onclick="openModal('step73.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  74. </strong>Click Add input to add another parameter to the tool.</p>        
+<div>
+    <img src="step74.png" onclick="openModal('step74.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+  <p><strong>STEP  75. </strong>Select Top Count from the list of available inputs.</p>        
+<div>
+    <img src="step75.png" onclick="openModal('step75.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>
+  <p><strong>STEP  76. </strong>Set Top Count to Custom value and enter 5.</p>        
+<div>
+    <img src="step76.png" onclick="openModal('step76.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+   <p><strong>STEP  77. </strong>Click Add input again and select Filter Query.</p>        
+<div>
+    <img src="step77.png" onclick="openModal('step77.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+    <p><strong>STEP  78. </strong>Set Filter Query to Custom value and enter SampleContract ne's.</p>        
+<div>
+    <img src="step78.png" onclick="openModal('step78.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+  <p><strong>STEP  79. </strong>Click Save to save the tool configuration.</p>        
+<div>
+    <img src="step79.png" onclick="openModal('step79.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+   <p><strong>STEP  80. </strong>Click Test to open the test panel and try out the agent.</p>        
+<div>
+    <img src="step80.png" onclick="openModal('step80.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+    <p><strong>STEP  81. </strong>Click Login and copy the sign-in code shown.</p>        
+<div>
+    <img src="step81.png" onclick="openModal('step81.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+ <p><strong>STEP  82. </strong>Enter the code to complete login — your agent is now ready to use.</p>        
+<div>
+    <img src="step82.png" onclick="openModal('step82.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+<p><strong>STEP  83. </strong>Open CLM 365, go to Settings > Integrations > AI Integration. Enable "Copilot AI Integration", paste the HTTP POST URL into the "Copilot URL" field, and click "Save".</p>        
+<div>
+    <img src="step83.png" onclick="openModal('step83.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br>  
+ <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Contract Summary Generation Using Copilot<i
+                                        class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h2>
+<p>Once Copilot has been configured and enabled, users can generate AI-powered contract summaries directly from the contract details page.</p>
+<div>
+    <img src="clm.png" onclick="openModal('clm.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+  <p>Once Copilot has been successfully configured, a Copilot icon will appear on the Home page, as highlighted below.</p> 
+   <div>
+    <img src="clm-2.png" onclick="openModal('clm-2.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+  <ul style="list-style-type:none">
+<li>•	Click the Copilot icon located at the bottom-right corner of the screen.</li>
+<li>•	The Copilot panel will open on the right side of the page.</li>
+<li>•	Users can then ask questions related to contracts and quickly retrieve relevant information from the Contract Management system.</li>
+<li>•	Copilot helps users access contract details, statuses, approvals, obligations, and other contract-related information through a conversational interface.</li>
+  </ul>
+  <div>
+    <img src="clm-last.png" onclick="openModal('clm-last.png')" alt="Final Risk Update in Template" width="100%" height="auto">
+  </div><br> 
+    </div>
+
+
+
+</ul></ul>
 </div>
-
-
-
-</ul></ul></div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3 " id="date">
                         <nav class="pagination mt-3">
                             <a class="nav nav-prev " href="../userroles/" aria-label="Previous page"><i
@@ -707,7 +1153,10 @@ Once inside the console, click on <b>Apps and Keys</b> from the left-hand menu.<
                         </nav>
                 </div>
             </div>
+             
         </div>
+
+         
         </div>
     </section>
     <div id="myModal " class="modal">
