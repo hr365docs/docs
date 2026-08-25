@@ -302,7 +302,7 @@ $(document).ready(function () {
             "</ul>" +
         "</li>" +
          "<li data-nav-id='../General' title='Email Templates' class='sidelist'>" +
-                    "<a href='/employee-performance-management/modern/admin/settings/emailtemplates'>Email Templates</a>" +
+                    "<a href='/employee-performance-management/modern/admin/settings/Emailtemplates'>Email Templates</a>" +
                 "</li>" +
 
     "</ul>" +
