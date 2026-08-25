@@ -195,11 +195,6 @@ $(document).ready(function () {
                 "<li  data-nav-id='../advanced/' title='Restrict Permissions' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/settings/UserRole/#_restrict_permissions'>Restrict Permissions</a>" +
                 "</li>" +
-
-
-                
-
-
                 "</ul>" +
 
                 "</li>" +
@@ -648,6 +643,9 @@ $(document).ready(function () {
 
                 "<li  data-nav-id='../advanced/' title='TMP365 - Reports' class='sidelist'>" +
                 "<a href='/HRMS-HR365/modern/admin/apps/TMP365/reports/'>Reports</a>" +
+                 "</li>" + 
+                   "<li  data-nav-id='../advanced/' title='TMP365 - Reports' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/TMP365/migration/'>Migration</a>" +
                  "</li>" + 
                   "<li class='dropdownicon sidelist' title='TMP365 - System Setting'>" +
   "<a class='qwe' href='/HRMS-HR365/modern/admin/apps/TMP365/settings/'>" +
@@ -1466,7 +1464,11 @@ $(document).ready(function () {
         "Integrate with Time-Off Manager" +
       "</a>" +
     "</li>" +
-
+"<li class='sidelist' title='Integrate with Time-Off Manager'>" +
+      "<a href='/HRMS-HR365/modern/admin/apps/TS365/settings/integration/#Knowledge'>" +
+        "Knowledge Base – MS Planner Integration Functionality" +
+      "</a>" +
+    "</li>" +
   "</ul>" +
 "</li>"+
 
@@ -2004,8 +2006,10 @@ $(document).ready(function () {
   "</a>" +
   // "<img src='/js/down-arrow-avgrepo-com.svg' class='imageIconadvanced aside_dropdown_icon' />" +
 "</li>" +
+ "<li data-nav-id='../advanced/' title='PM365 - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/PM365/emailtemplates/'>Email Templates</a>" +
+                "</li>" +
 //  "<ul class='aside_dropdown_list' aria-labelledby='generalDropdown'>" +
- 
 //         "<li data-nav-id='../General' title='360 Feedback' class='sidelist'>" +
 //         "<a href='/HRMS-HR365/modern/admin/apps/PM365/settings/#360Feedback'>360 Feedback</a>" +
 //         "</li>" +

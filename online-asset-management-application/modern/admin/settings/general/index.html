@@ -106,10 +106,10 @@
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 
                                 <p>
-                                    From here you can update date format, custom email, first asset ID etc.
+                                   <!--- From here you can update date format, custom email, first asset ID etc.-->From here you can update date format, Currency,  custom email, first asset ID etc.
                                 </p>
                                 <br>
-                                <div><img src="2.png" onclick="openModal('general_setting.png')" alt="General setting"
+                                <div><img src="general.png" onclick="openModal('general.png')" alt="General setting"
                                         width="100%" height="auto"></div>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="api-permissions">
@@ -118,56 +118,59 @@
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    This setting will work if sharepoint API is enabled, you can configure it by
-                                    visiting General-Setting.
+                                   <!-- This setting will work if sharepoint API is enabled, you can configure it by
+                                    visiting General-Setting.-->
+                                    This setting will work if sharepoint API is enabled, you can configure it by visiting General-Setting.
                                 </p>
 
-                                <div><img src="API_permission.png" onclick="openModal('API_permission.png')"
+                                <div><img src="api.png" onclick="openModal('api.png')"
                                         alt="API Permission" width="100%" height="auto"></div>
 
 
                         </div>
                          <div class="bg-light p-4 remove-padding common-scroll" id="SharepointURL">
                             <div class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Use Sharepoint URL for
-                                        MS Teams installed application
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#><!--Use Sharepoint URL for
+                                        MS Teams installed application-->Sharepoint URL for MS Teams 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
                                 <p>
-                                    The option Use SharePoint URL for MS Teams installed application enables the
+                                  <!---  The option Use SharePoint URL for MS Teams installed application enables the
                                     integration of SharePoint links within the MS Teams application, allowing users to
-                                    access SharePoint resources directly from Teams.
+                                    access SharePoint resources directly from Teams.-->The option Use SharePoint URL for MS Teams installed application enables the integration of SharePoint links within the MS Teams application, allowing users to access SharePoint resources directly from Teams.
                                 </p>
-
-                                <div><img src="URL.png" onclick="openModal('URL.png')" alt="help" width="100%"
-                                        height="auto"></div>
-
-                            </div><br>
-                           <p >
+     <p >
     Enable the <b>“Use SharePoint URL for MS Teams installed application”</b> toggle, then enter your SharePoint site URL in the following format:
     <br>
     <span>
         https://<em>yourtenantname</em>.sharepoint.com/sites/<em>SiteName</em>/SitePages/<em>PageName.aspx</em>
     </span>
+   <br>
+    or just Copy and paste your Application URL 
     <br>
     After entering the URL, click the <b>Save</b> button to apply your changes.
 </p>
-<div><img src="URL1.png" onclick="openModal('URL1.png')" alt="help" width="100%"
+                                <div><img src="sharepoint.png" onclick="openModal('sharepoint.png')" alt="help" width="100%"
                                         height="auto"></div>
 
                             </div><br>
+                      
+<!--<div><img src="URL1.png" onclick="openModal('URL1.png')" alt="help" width="100%"
+                                        height="auto"></div>
+
+                            </div><br>-->
                         <div class="bg-light p-4 remove-padding common-scroll" id="currency">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Currency
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    From here, you can select the type of currency from the dropdown. Click on the Save
-                                    button.
+                                  <!---  From here, you can select the type of currency from the dropdown. Click on the Save
+                                    button.-->From here, you can select the type of currency from the dropdown. Click on the Save button.
                                 </p>
 
-                                <div><img src="currency.png" onclick="openModal('currency.png')" alt="currency"
+                                <div><img src="currency1.png" onclick="openModal('currency1.png')" alt="currency"
                                         width="100%" height="auto"></div>
                                 <br>
 
@@ -181,33 +184,39 @@
                                 </h2>
 
                                 <p>
-                                    From here, you can select the date format from the dropdown. Click on the Save
-                                    button.
+                                 <!--   From here, you can select the date format from the dropdown. Click on the Save
+                                    button.-->From here, you can select the date format from the dropdown. Click on the Save button.
 
                                 </p>
 
-                                <div><img src="date_format.png" onclick="openModal('date_format.png')"
+                                <div><img src="date.png" onclick="openModal('date.png')"
                                         alt="date formate" width="100%" height="auto"></div>
 
 
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="asset-id-prefix">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Asset ID Prefix
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#><!--Asset ID Prefix-->Asset ID Settings 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
-                                <p>
+                              <!--  <p>
                                     Asset ID Prefix specifies the letter prefix for the generated Asset ID.
-                                </p>
-
-                                <div><img src="asset_id.png" onclick="openModal('asset_id.png')" alt="Asset ID"
+                                </p>-->
+                                <ol style="list-style-type:upper-alpha">
+                                    <li>Asset ID Prefix specifies the letter prefix for the generated Asset ID.</li>
+                                    <li>The asset ID is the unique number that will start after you have entered the asset.</li>
+                                </ol>
+<br>
+                               <!-- <div><img src="asset_id.png" onclick="openModal('asset_id.png')" alt="Asset ID"
+                                        width="100%" height="auto"></div>-->
+ <div><img src="asset.png" onclick="openModal('asset.png')" alt="Asset ID"
                                         width="100%" height="auto"></div>
 
 
                         </div>
 
-                        <div class="bg-light p-4 remove-padding common-scroll" id="first-asset-id">
+        <!--                <div class="bg-light p-4 remove-padding common-scroll" id="first-asset-id">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>First Asset ID
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -222,17 +231,25 @@
                                 <br>
 
 
-                        </div><br>
+                        </div><br>-->
 
                         <div class="bg-light p-4 remove-padding common-scroll" id="email-template">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Email Template
+                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Email Settings 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
+
+     <h4 id="_dashboards"><a class="header-icon-link highlight" href=#>a)	Email Template :
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+
+
+                               
+
                                 <p>
-                                    You can modify the email notification format for both assigned and returned assets
-                                    by following these steps:<br>
+                                   <!-- You can modify the email notification format for both assigned and returned assets
+                                    by following these steps:-->You can modify the email notification format for both assigned and returned assets by following these steps:<br>
                                     1. Navigate to the <b>Configuration</b> section in the side panel.<br>
                                     2. A <b>Custom Email</b> page will open, where you can personalize the email
                                     content.<br>
@@ -241,7 +258,7 @@
 
 
                                 </p>
-                                <div><img src="custom_email.png" onclick="openModal('custom_email.png')"
+                                <div><img src="template.png" onclick="openModal('template.png')"
                                         alt="email template" width="100%" height="auto"></div>
                                 <br>
                                 <p>
@@ -251,7 +268,7 @@
                                 </p>
 
 
-                                <div><img src="01.png" onclick="openModal('01.png')" alt="email template" width="100%"
+                                <div><img src="save.png" onclick="openModal('save.png')" alt="email template" width="100%"
                                         height="auto"></div>
                                 <br>
 
@@ -259,22 +276,22 @@
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="email-notifications">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Email Notifications
+                                <h4 id="_dashboards"><a class="header-icon-link highlight" href=#>b)	Email Notifications    :    
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
+                                </h4>
 
 
                                 <p>
-                                    Clients could set up email notifications for assigned or on return assets. You can
+                                   <!-- Clients could set up email notifications for assigned or on return assets. You can
                                     also setup reminders through email notifications for asset expiry and return date of
-                                    the assets.
+                                    the assets.--> Admins can set up email notifications for assigned or on return assets. You can also setup reminders through email notifications for asset expiry and return date of the assets.
                                 </p>
 
 
-                                <div><img src="email_notification.png" onclick="openModal('email_notification.png')"
+                                <div><img src="notifications.png" onclick="openModal('notifications.png')"
                                         alt="email notification" width="100%" height="auto">
                                 </div><br>
-                                <p>Default setting, “To users on assigning assets“ is enabled and receives the email
+                              <!--  <p>Default setting, “To users on assigning assets“ is enabled and receives the email
                                     notification. Enter the email ID and click on submit button, both the admin and the
                                     entered email ID’s would receive an email notification on assigning assets to the
                                     users.
@@ -352,7 +369,7 @@
                                 <div><img src="AutoApprove.png" onclick="openModal('AutoApprove.png')"
                                         alt="AssignTouser" width="100%" height="auto">
                                 </div><br>
-
+                            -->
                             </ul>
 
                         </div>
@@ -363,10 +380,11 @@
                                 </h2>
 
 
-                                <p>Within the Naming Convention feature, you have the option to easily modify the name
-                                    of the field itself and then save your changes by clicking on the "Save" button.</p>
+                                <p><!--Within the Naming Convention feature, you have the option to easily modify the name
+                                    of the field itself and then save your changes by clicking on the "Save" button.-->
+                                Within the Naming Convention feature, you have the option to easily modify the name of the field itself and then save your changes by clicking on the "Save" button.</p>
 
-                                <div><img src="naming.png" onclick="openModal('naming.png')" alt="email notification"
+                                <div><img src="naming1.png" onclick="openModal('naming1.png')" alt="email notification"
                                         width="100%" height="auto">
                                 </div><br>
 
@@ -376,24 +394,24 @@
 
                         <div class="bg-light p-4 remove-padding common-scroll" id="Showfavoriteicon">
                             <ul class=page-list>
-                                <h2 id="Showfavoriteicon"><a class="header-icon-link highlight" href=#>Show Favorite
-                                        Icon
+                                <h2 id="Showfavoriteicon"><a class="header-icon-link highlight" href=#>Show favicon of Asset 365
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    The favicon is shown on the left side of the browser tab, making it easy for users
+                                  <!--  The favicon is shown on the left side of the browser tab, making it easy for users
                                     to identify the website. If the toggle is turned on, the icon will be displayed;
-                                    otherwise, it will not appear.
+                                    otherwise, it will not appear.-->
+                                    The favicon is shown on the left side of the browser tab, making it easy for users to identify the website. If the toggle is turned on, the icon will be displayed; otherwise, it will not appear.
                                 </p>
 
-                                <div><img src="icon.png" onclick="openModal('icon.png')" alt="currency" width="100%"
+                                <div><img src="fav.png" onclick="openModal('fav.png')" alt="currency" width="100%"
                                         height="auto"></div>
                                 <br>
 
 
                         </div>
 
-                        <div class="bg-light p-4 remove-padding common-scroll" id="hideorgname">
+                     <!--   <div class="bg-light p-4 remove-padding common-scroll" id="hideorgname">
                             <ul class=page-list>
                                 <h2 id="hideorgname"><a class="header-icon-link highlight" href=#>Hide organisation name
                                         from asset details
@@ -418,23 +436,23 @@
                                         width="100%" height="auto"></div>
                                 <br>
                         </div>
-
+                    -->
                         <div class="bg-light p-4 remove-padding common-scroll" id="username">
                             <ul class=page-list>
-                                <h2 id="username"><a class="header-icon-link highlight" href=#>Hide user name and user
-                                        location from asset details
+                                <h2 id="username"><a class="header-icon-link highlight" href=#><!--Hide user name and user
+                                        location from asset details-->Hide User Location and User Department
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                <p>
+                            <!--    <p>
                                     Clicking on <b>Hide User Name And User Location</b> will open a panel with a toggle.
                                     When this toggle is switched on, the information of the user will be hidden.
-                                </p>
+                                </p>-->
 
-                                <div><img src="username.png" onclick="openModal('username.png')" alt="currency"
+                                <div><img src="hide.png" onclick="openModal('hide.png')" alt="currency"
                                         width="100%" height="auto"></div>
                                 <br>
 
-                                <p>As shown in the image below, when the toggle is off, the user location and user
+                              <!--  <p>As shown in the image below, when the toggle is off, the user location and user
                                     departmnet will not be hidden.</p>
                                 <div><img src="hideuser.png" onclick="openModal('hideuser.png')" alt="currency"
                                         width="100%" height="auto"></div>
@@ -445,22 +463,23 @@
                                 <div><img src="hideuser2.png" onclick="openModal('hideuser2.png')" alt="currency"
                                         width="100%" height="auto"></div>
                                 <br>
-                        </div>
+                        </div>-->
                           <div class="bg-light p-4 remove-padding common-scroll" id="Enable_Logs">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Enable logs collection
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
-                                <p>The user has the option to enable log collection. If you want to collect logs, please
+                                <p><!--The user has the option to enable log collection. If you want to collect logs, please
                                     turn on the toggle. These logs are used for troubleshooting any issues occurring in
-                                    your application.</p>
-                                <div><img src="Enablelogs.png" onclick="openModal('Enablelogs.png')" alt="title text"
+                                    your application.-->
+                                Logs of the applications will be Collected based on the selected option from the dropdown upon enabling.  these logs will helpful in troubleshooting if you are facing any issues in the application</p>
+                                <div><img src="logs.png" onclick="openModal('logs.png')" alt="title text"
                                         width="100%" height="auto"></div>
                             </ul>
 
 
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Logs_Type">
+                     <!--   <div class="bg-light p-4 remove-padding common-scroll" id="Logs_Type">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Logs Types
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -520,7 +539,7 @@
                                 <p>For downloading, the user can click on the 'Download' option to retrieve the logs.
                                 </p>
                                 <div><img src="downloadlogs.png" onclick="openModal('downloadlogs.png')"
-                                        alt="title text" width="100%" height="auto"></div>
+                                        alt="title text" width="100%" height="auto"></div>-->
                             </ul>
 
 

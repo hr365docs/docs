@@ -219,6 +219,7 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
                     "<a href='/employee-performance-management/modern/admin/settings/general-setting/#Brand-Logo'>Brand Logo</a>" +
                 "</li>" +
+                
 
             "</ul>" +
         "</li>" +
@@ -300,9 +301,10 @@ $(document).ready(function () {
 
             "</ul>" +
         "</li>" +
- "<li data-nav-id='../General' title='Email Templates' class='sidelist'>" +
-                    "<a href='/employee-performance-management/modern/admin/settings/email-template/'>Email Templates</a>" +
+         "<li data-nav-id='../General' title='Email Templates' class='sidelist'>" +
+                    "<a href='/employee-performance-management/modern/admin/settings/emailtemplates'>Email Templates</a>" +
                 "</li>" +
+
     "</ul>" +
 "</li>"+
 
