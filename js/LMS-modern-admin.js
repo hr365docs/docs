@@ -43,28 +43,40 @@ $(document).ready(function () {
       "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
         "<ul class='sidenavSub-topics aside_dropdown_list'>" +
           "<li data-nav-id='../General' title='Date Format' class='sidelist'>" +
-            "<a href='/LMS/modern/admin/setting/general-setting/#Date-Format'>Date Format</a>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#dat'>Date Format</a>" +
           "</li>" +
           "<li data-nav-id='../General' title='Show Fav Icon' class='sidelist'>" +
-            "<a href='/LMS/modern/admin/setting/general-setting/#Show-FavIcon'>Show Fav Icon</a>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#side'>Side Navigation Theme</a>" +
           "</li>" +
           "<li data-nav-id='../General' title='Language' class='sidelist'>" +
-            "<a href='/LMS/modern/admin/setting/general-setting/#Language'>Language</a>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#gcc'>GCC Tenant</a>" +
           "</li>" +
           "<li data-nav-id='../General' title=\"Hide SharePoint Page's Default Components\" class='sidelist'>" +
-            "<a href='/LMS/modern/admin/setting/general-setting/#hide'>Hide SharePoint Page's Default Components</a>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#fav'>Show Fav Icon</a>" +
           "</li>" +
           "<li data-nav-id='../General' title='Side Navigation User Permission' class='sidelist'>" +
-            "<a href='/LMS/modern/admin/setting/general-setting/#Overall-Rating-Method'>Side Navigation User Permission</a>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#default'>Default Language </a>" +
           "</li>" +
           "<li data-nav-id='../General' title='Naming Convention' class='sidelist'>" +
-            "<a href='/LMS/modern/admin/setting/general-setting/#Naming-Convention'>Naming Convention</a>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#use'>Use SharePoint URL for MS Teams Installed Application</a>" +
           "</li>" +
           "<li data-nav-id='../General' title='Company Details' class='sidelist'>" +
-            "<a href='/LMS/modern/admin/setting/general-setting/#Company-Details'>Company Details</a>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#hide'>Hide SharePoint Page's Default Components</a>" +
           "</li>" +
           "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
-            "<a href='/LMS/modern/admin/setting/general-setting/#Brand-Logo'>Brand Logo</a>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#log'>Log Collection</a>" +
+          "</li>" +
+          "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#naming'>Naming Convention</a>" +
+          "</li>" +
+          "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#company'>Company Details</a>" +
+          "</li>" +
+           "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#brand'>Brand Logo</a>" +
+          "</li>" +
+          "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
+            "<a href='/LMS/modern/admin/setting/general-setting/#delete'>Delete Inactive Users</a>" +
           "</li>" +
         "</ul>" +
       "</li>" +
@@ -75,9 +87,26 @@ $(document).ready(function () {
       "<li data-nav-id='../General' title='General Administration' class='sidelist'>" +
         "<a class='qwe' href='/LMS/modern/admin/setting/General-administration/'>General Administration</a>" +
       "</li>" +
-      "<li data-nav-id='../General' title='Features' class='sidelist'>" +
+       "<li data-nav-id='../user' title='General Settings' class='dropdownicon sidelist'>" +
         "<a class='qwe' href='/LMS/modern/admin/setting/Features/'>Features</a>" +
+        "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
       "</li>" +
+       "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
+        "<ul class='sidenavSub-topics aside_dropdown_list'>" +
+          "<li data-nav-id='../General' title='Custom Column' class='sidelist'>" +
+            "<a href='/LMS/modern/admin/setting/Features/#custom'>Custom Column</a>" +
+          "</li>" +
+           "<li data-nav-id='../General' title='Gamification' class='sidelist'>" +
+            "<a href='/LMS/modern/admin/setting/Features/#game'>Gamification</a>" +
+          "</li>" +
+           "<li data-nav-id='../General' title='Course Workflow' class='sidelist'>" +
+            "<a href='/LMS/modern/admin/setting/Features/#course'>Course Workflow</a>" +
+          "</li>" +
+           "<li data-nav-id='../General' title='Section Acknowledgement' class='sidelist'>" +
+            "<a href='/LMS/modern/admin/setting/Features/#section'>Section Acknowledgement</a>" +
+          "</li>" +
+      "</ul>"+
+     
       "<li data-nav-id='../General' title='AI Control Panel' class='sidelist'>" +
         "<a class='qwe' href='/LMS/modern/admin/setting/AI-Control-Panel/'>AI Control Panel</a>" +
       "</li>" +
