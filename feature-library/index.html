@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+   
+    <body>
+    <div class="content" id="contentid">
+   <p class="feature" >
+    Feature library</p>
+    <h1 class="explain">
+    Every feature, explained</h1>
+    <p class="search">
+    Search the capability catalogue across the suite — what a feature does, which apps ship it, which plan it needs, and the article that walks you through it.</p>
+<div class="flex">
+    <div class="input">
+        <span style="color:rgb(138,146,174)">⌕</span>
+ <input style="border:none" type="text" placeholder="Filter Features..." id="searchbox" class="in">
+    </div>
+    <button class="btn active" onClick="every();setactive(this)">
+        All Categories
+    </button>
+      <button class="btn" onClick="platform();setactive(this)">
+        Platform
+    </button>
+      <button class="btn" onClick="automation();setactive(this)">
+        Automation
+    </button>
+      <button class="btn" onClick="integration();setactive(this)">
+        Integrations
+    </button>
+      <button class="btn" onClick="reporting();setactive(this)">
+        Reporting
+    </button> 
+     <button class="btn" onClick="security();setactive(this)">
+        Security
+    </button>
+     <button class="btn" onClick="options();setactive(this)">
+      Options
+    </button>
+   
+</div>
+<div class="feature-table">
+    <div class="row-one">
+        <div>Feature</div>
+        <div>Available in</div>
+        <div>Plan</div>
+    </div>
+    <div id="feature-rows">
+        </div>
+    
+       
+      
+</div>
+</body>
+ <script>
+    const arr=[
+    {
+       Headtext:"SLA policies & escalation",
+       name:"sla",
+       secondarytext:"Priority-based response and resolution clocks with tiered escalation actions.",
+       columntwo:"Helpdesk 365",
+       columntwosecond:"Civic 365",
+       btntext:"Pro",
+       columnclass:"column-three-pro"
+    },
+    {
+        Headtext:"Teams-native experience",
+        name:"team",
+        secondarytext:"Full app surface inside Microsoft Teams tabs, chat and personal app.",
+        columntwo:"Helpdesk 365" ,
+        columntwosecond:"HR 365",
+        columntwothree:"Timesheet 365",
+        btntext:"All plans",
+        columnclass:"column-three-plans"
+    },
+    {
+          Headtext:"Entra ID user sync",
+          name:"entra",
+          secondarytext:"Scheduled directory sync with attribute mapping and de-provisioning.",
+          columntwo:"HR 365",
+          columntwosecond:"Helpdesk 365",
+          btntext:"All plans",
+          columnclass:"column-three-plans"
+    },
+    {
+       Headtext:"Power Automate connectors",
+       name:"sla",
+       secondarytext:"Triggers and actions for every record type, plus custom flow templates.",
+       columntwo:"All apps",
+       btntext:"Pro" ,
+       columnclass:"column-three-pro"
+    },
+    {
+         Headtext:"Barcode & QR scanning",
+         name:"barcode",
+         secondarytext:"Mobile check-in/check-out with camera scanning and label printing.",
+         columntwo:"Asset Management 365",
+         btntext:"Pro",
+         columnclass:"column-three-pro"
+    },
+    {
+        Headtext:"Power BI datasets",
+        name:"power",
+        secondarytext:"Certified datasets and starter dashboards for every module.",
+        columntwo:"Timesheet 365",
+        columntwosecond:"Asset Management 365",
+        btntext:"Enterprise" ,
+        columnclass:"column-three-enter" 
+    },
+    {
+         Headtext:"Audience-targeted navigation",
+         name:"team",
+         secondarytext:"Mega-menus that change by Entra group, region or device.",
+         columntwo:"NavPilot",
+         btntext:"Pro",
+         columnclass:"column-three-pro"
+    },
+    {
+        Headtext:"Acknowledgement tracking",
+        name:"barcode",
+        secondarytext:"Record who has seen and confirmed a notice, exportable for compliance.",
+        columntwo:"Power Popups",
+        columntwosecond:"Alerts Fusion",
+        btntext:"Pro",
+        columnclass:"column-three-pro"
+    },
+    {
+        Headtext:"Clause library & approvals",
+        name:"barcode",
+        secondarytext:"Reusable clause blocks with parallel and sequential approval routing.",
+        columntwo:"Contract Management 365",
+        btntext:"Enterprise",
+        columnclass:"column-three-enter"
+    },
+    {
+         Headtext:"Audit trail & data residency",
+         name:"audit",
+         secondarytext:"Immutable change history with EU, UK and US data region options.",
+         columntwo:"All apps",
+         btntext:"Enterprise",
+         columnclass:"column-three-enter"
+    },
+    {
+         Headtext:"Custom forms & fields",
+         name:"team",
+         secondarytext:"Drag-and-drop form builder with conditional visibility rules.",
+         columntwo:"Helpdesk 365",
+         columntwosecond:"HR 365",
+         columntwothree:"Recruitment 365",
+         btntext:"All plans",
+         columnclass:"column-three-plans"
+    },
+    {
+       Headtext:"Knowledge base deflection",
+       name:"sla",
+       secondarytext:"Suggest articles while a requester types a ticket subject.",
+        columntwo:"Helpdesk 365",
+        btntext:"Pro",
+        columnclass:"column-three-pro"
+    },
+    ]
+    
+
+    let neww=arr
+     let currentdata=arr;
+        const table=document.getElementById("feature-rows")
+        function tabledata(neww){
+        table.innerHTML=
+        neww.map((item,index)=>
+                `<div class="row-two">
+                    <div class="column-one">
+                        <div class="sla">
+                            ${item.Headtext}
+                        </div>
+                        <div class="policies">
+                            ${item.secondarytext}
+                        </div>
+                        </div>
+                    <div class="column-two">
+                        ${item.columntwo ? `<span class="help">${item.columntwo}</span>` : ""}
+    ${item.columntwosecond ? `<span class="help">${item.columntwosecond}</span>` : ""}
+    ${item.columntwothree ? `<span class="help">${item.columntwothree}</span>` : ""}
+                   </div>
+                   <div class="${item.columnclass}">
+                    ${item.btntext}
+                    </div>
+                    <div class="column-four">
+                          <button class="docs" onClick="sla()">
+                Docs
+            </button>
+            </div>
+            </div>`
+        
+        ).join("")}
+        tabledata(currentdata)
+        function platform(){
+             currentdata=arr.filter(item=>
+            item.name==="team"
+            
+        )
+        tabledata(currentdata)
+        }
+         function automation(){
+             currentdata=arr.filter(item=>
+            item.name==="sla"
+            
+        )
+        tabledata(currentdata)
+        }
+        function integration(){
+             currentdata=arr.filter(item=>
+            item.name==="entra"
+            
+        )
+        tabledata(currentdata)
+        }
+          function reporting(){
+            currentdata=arr.filter(item=>
+            item.name==="power"
+            
+        )
+        tabledata(currentdata)
+        }
+          function security(){
+            currentdata=arr.filter(item=>
+            item.name==="audit"
+            
+        )
+        tabledata(currentdata)
+        }
+         function options(){
+            currentdata=arr.filter(item=>
+            item.name==="barcode"
+            
+        )
+        tabledata(currentdata)
+        }
+        function every(){
+           currentdata=arr;
+           tabledata(currentdata)
+        }
+   
+    const searchInput = document.getElementById("searchbox");
+    searchInput.addEventListener("input", (e) => {
+    const value = e.target.value.toLowerCase();
+
+    const filtered = currentdata.filter(item =>
+        item.Headtext.toLowerCase().includes(value)||
+        item.secondarytext.toLowerCase().includes(value)
+    );
+
+    tabledata(filtered);
+});
+
+const details = [];
+const stepDetails=[];
+const descriptions=[];
+const descriptions1=[];
+const troubles=[];
+function setactive(button){
+     document.querySelectorAll(".btn").forEach(btn=>{
+        btn.classList.remove("active");
+    });
+
+    button.classList.add("active");
+}
+function sla(t1,t2,n1,details,stepDetails,descriptions,descriptions1,troubles,m1){
+     const helpItems = details?.map(item => `
+        <div class="helpfirst">
+            <span style="color:rgb(47,91,255)">•</span>
+            <span>${item}</span>
+        </div>
+    `).join("");    
+     const stepHtml = stepDetails?.map((step, index) => `
+        <div class="openfirst">
+
+            <div class="one">
+                ${index + 1}
+            </div>
+
+            <div class="opencontent">
+
+                <span>
+                    ${step.heading}
+                </span>
+
+                <span style="color:rgb(91,100,128)">
+                    ${step.description}
+                </span>
+
+            </div>
+
+        </div>
+    `).join("");
+    const descriptionss=descriptions?.map(item=>
+   `
+  <p class="verifyContent">
+     ${item} 
+     </p>`
+
+).join("")
+const descriptionss1=descriptions1?.map(item =>
+    `
+      <p style="color: white">
+        ${item}</p>
+    `
+).join("")
+const troubless=troubles?.map(item =>
+    `   <div class="helpfirst">
+                        <span style="color:rgb(47,91,255)">
+                            •
+                            </span>
+                            <span>
+                                ${item}
+                                </span>
+                        </div>
+
+    `
+).join("")
+                    
+    const idd=document.getElementById("contentid")
+    idd.innerHTML=
+       
+
+       
+       `  <div class="data" id="dataa">
+            <div class="left">
+                <div class="knowledge">
+                    <span style="cursor:pointer">
+                        Knowledge Base
+                    </span>
+                    <span>
+                        /
+                    </span>
+                    <span>
+                        Helpdesk 365
+                    </span>
+                     <span>
+                        /
+                    </span>
+                    <span style="color:rgb(11,16,32)">
+                        Automation & workflows
+                    </span>
+                    </div>
+                <div class="how">
+                    <span class="howto">
+                        How-to
+                        </span>
+                    <span style="color:rgb(138,146,174)" id="min">
+                   ${m1 || "9"} min read · Updated 21 Aug 2026
+                        </span>
+                    </div>
+                <h1 class="configure" id="mainhead">
+                    ${t1 || "Changeable Heading"}
+                    </h1>
+               <p class="define" id="maindesc">
+                    ${t2 || "Changeable Description"}
+                    </p>
+                <h2 class="begin" id="before">
+                    Before you begin
+                    </h2>
+                <div class="helping" id="helpp">
+                ${helpItems || "Changeable List"}
+               
+                    </div>
+                    <h2 class="steps" id="step">
+                        Steps
+                        </h2>
+                    <div class="open">
+                        ${stepHtml || "Enter steps"}
+                     </div>
+                        <div class="note">
+                            <span >⚠</span>
+                                <div class="warn" id="warn">
+                                    <strong>Note — </strong>
+                                    <!-- Publishing does not retroactively change existing records. Use the bulk update tool if you need to apply new rules to historical items.-->
+                                    ${n1 || "Enter Note here"}
+                            </div>
+                            </div>
+                            <h2 class="verify" id="verify">Verify the configuration</h2>
+                            <div >
+                          ${descriptionss || "Enter description"}
+                                </div>
+                            <div class="getapps">
+                               ${descriptionss1 || "Enter Info"}
+                                </div>
+                                <h2 class="begin" id="trouble">
+                    Troubleshooting
+                    </h2>
+                                 <div class="helping">
+                  ${troubless || "Enter items"}
+                    </div>
+                    <div class="helpful">
+                        <div class="helpfulcontent">
+                            <span style="font-weight:600">
+                                Was this article helpful?
+                                </span>
+                                <span style="color:rgb(107,116,149)">
+                                    196 people found this useful
+                                    </span>
+                            </div>
+                        <div class="buttons">
+                            <button class="thanks">
+                                Yes,thanks
+                                </button>
+                                <button class="thanks">
+                                Not really
+                                </button>
+                            </div>
+                        </div>
+<span style="color:rgb(162,169,194);font-size:12px;font-weight:700">Related articles</span>
+  <div class="cards">
+    <div class="card">
+        <span class="head">
+            Install Helpdesk 365 in Microsoft Teams
+            </span>
+            <Span class="lower">
+                Helpdesk 365  ·  6 min
+                </span>
+        </div>
+        <div class="card">
+        <span class="head">
+        Ticket categories, custom fields and forms 
+            </span>
+            <Span class="lower">
+                Helpdesk 365  ·  7 min
+                </span>
+        </div>
+         <div class="card">
+        <span class="head">
+        Agent, Manager and Requester role permissions
+            </span>
+            <Span class="lower">
+                Helpdesk 365 · 5 min
+                </span>
+        </div>
+          <div class="card">
+        <span class="head">
+    Why are ticket emails not being delivered?
+            </span>
+            <Span class="lower">
+                Helpdesk 365 ·  4 min
+                </span>
+        </div>
+    </div>             
+</div>
+<div class="sidebar">
+    <span class="onthis">
+        On this page
+        </span>
+        <div class="onthiscontent">
+            <a class="link" href="#before">Before you begin </a>
+            <a class="link" href="#step"> Steps </a>
+            <a class="link" href="#verify"> Verify the configuration </a>
+             <a class="link" href="#trouble"> Troubleshooting </a>
+            </div>
+            <div class="apply">
+                <div class="applies">
+                    Applies to
+                    </div>
+                    <div>Helpdesk 365</div>
+                    <span style="color: rgb(107, 116, 149)">
+                        v4.2 and later
+                        </span>
+                    <div class="flex">
+                        <span class="sla2">
+                            SLA
+                            </span>
+                            <span class="sla2">
+                            Automation
+                            </span>
+                             <span class="sla2">
+                            Notifications
+                            </span>
+                        </div>
+                </div>
+            <div class="ask">
+                ✦
+                <div>Ask about this article </div>
+                <div style="color:rgb(167,176,208)">
+                    The assistant answers from this page and its related docs.
+                    </div>
+                </div>
+
+    </div>
+    <div>
+     <button onClick="closeform()" class="close">X</button>
+     <div class="form" id="form">
+       
+        <input type="text" placeholder="Enter Minutes" id="m1" onfocus="minhigh()" onblur="removeminhigh()">
+            <input type="text" placeholder="Enter Heading" id="t1" onfocus="changed()" onblur="removechange()">
+           <Textarea  rows=8 placeholder="Enter Description" style="resize:none" id="t2" onfocus="highlight()" onblur="removehighlight()"></Textarea>
+       <label>Before You Begin </label>    <div class="disp" id="disp"><input placeholder="Enter Item" class="itemInput" onfocus="high()" onblur="removehigh()">
+            <button type="button" style="cursor:pointer"  onClick="inputt()">+</button>
+     </div>
+     <label>Steps</label>
+     <div id="ste">
+     <input type="text" placeholder="Enter Heading" class="headdd" onfocus="low()" onblur="removelow()" >
+     <div class="disp"><Textarea placeholder="Enter Description" style="resize:none" class="descript" onfocus="low()" onblur="removelow()"></Textarea>
+        <button type="button" onClick="steps()">+</button>
+                </div>
+                </div>
+        <Textarea rows=5 placeholder="Enter Notes" style="resize:none" id="n1" onfocus="notehigh()" onblur="removenotehigh()"></Textarea>
+          <label>Verify The Configuration </label>
+         <div class="disp" id="desc"><input placeholder="Enter Description" class="description1" onfocus="verifyhigh()" onblur="removeverifyhigh()">
+            <button type="button" style="cursor:pointer"  onClick="desc()">+</button>
+     </div>
+       <div class="disp" id="desc2"><input placeholder="Enter second description" class="description2" onfocus="verifyhigh()" onblur="removeverifyhigh()">
+            <button type="button" style="cursor:pointer"  onClick="description()">+</button>
+     </div>
+     <label>Troubleshooting</label>
+         <div class="disp" id="listitems"><input placeholder="Enter Item" class="trouble" onfocus="troublehigh()" onblur="removetroublehigh()" >
+            <button type="button" style="cursor:pointer"  onClick="item()">+</button>
+     </div>        
+<button onClick="save()">Preview data </button>
+
+    `
+   
+}
+function changed(){
+    const mainheading=document.getElementById("mainhead");
+    mainheading.style.backgroundColor="yellow"
+}
+function removechange(){
+     const mainheading=document.getElementById("mainhead");
+    mainheading.style.backgroundColor=""
+}
+function highlight(){
+     const mainheading=document.getElementById("maindesc");
+    mainheading.style.backgroundColor="yellow"
+}
+function removehighlight(){
+     const mainheading=document.getElementById("maindesc");
+    mainheading.style.backgroundColor=""
+}
+function high(){
+     const mainheading=document.getElementById("before");
+    mainheading.style.backgroundColor="yellow"
+}
+function removehigh(){
+     const mainheading=document.getElementById("before");
+    mainheading.style.backgroundColor=""
+}
+function low(){
+     const mainheading=document.getElementById("step");
+    mainheading.style.backgroundColor="yellow"
+}
+function removelow(){
+     const mainheading=document.getElementById("step");
+    mainheading.style.backgroundColor=""
+}
+function notehigh(){
+     const mainheading=document.getElementById("warn");
+    mainheading.style.backgroundColor="yellow"
+}
+function removenotehigh(){
+     const mainheading=document.getElementById("warn");
+    mainheading.style.backgroundColor=""
+}
+function verifyhigh(){
+     const mainheading=document.getElementById("verify");
+    mainheading.style.backgroundColor="yellow"
+}
+function removeverifyhigh(){
+     const mainheading=document.getElementById("verify");
+    mainheading.style.backgroundColor=""
+}
+function troublehigh(){
+     const mainheading=document.getElementById("trouble");
+    mainheading.style.backgroundColor="yellow"
+}
+function removetroublehigh(){
+     const mainheading=document.getElementById("trouble");
+    mainheading.style.backgroundColor=""
+}
+function minhigh(){
+     const mainheading=document.getElementById("min");
+    mainheading.style.backgroundColor="yellow"
+}
+function removeminhigh(){
+     const mainheading=document.getElementById("min");
+    mainheading.style.backgroundColor=""
+}
+function save() {
+
+    const t1 = document.getElementById("t1").value || "";
+    const t2 = document.getElementById("t2").value || "";
+    const n1 = document.getElementById("n1").value || "";
+    const m1=document.getElementById("m1").value || "";
+    details.length = 0;
+    stepDetails.length=0;
+    descriptions.length=0;
+    document.querySelectorAll(".itemInput").forEach(input => {
+        if (input.value.trim() !== "") {
+            details.push(input.value);
+        }
+    });
+    const allHeadings =
+        document.querySelectorAll(".headdd");
+
+    const allDescriptions =
+        document.querySelectorAll(".descript");
+
+    for (let i = 0; i < allHeadings.length; i++) {
+
+    stepDetails.push({
+        heading: allHeadings[i].value,
+        description: allDescriptions[i]?.value || ""
+    });
+    }
+    document.querySelectorAll(".description1").forEach(input => {
+        if(input.value.trim() !== ""){
+            descriptions.push(input.value);
+        }
+    })
+      document.querySelectorAll(".description2").forEach(input => {
+        if(input.value.trim() !== ""){
+            descriptions1.push(input.value);
+        }
+    })
+     document.querySelectorAll(".trouble").forEach(input => {
+        if(input.value.trim() !== ""){
+            troubles.push(input.value);
+        }
+    })
+    
+
+    sla(t1, t2, n1, details,stepDetails,descriptions,descriptions1,troubles,m1);
+}
+
+ function inputt() {
+    const divv = document.getElementById("disp");
+    const input = document.createElement("input");
+    input.type = "text";
+    input.placeholder = "Enter Item";
+    input.className = "itemInput";
+    const button=document.createElement("button")
+    button.type="button"
+    button.innerText="+"
+    button.onclick=inputt
+    divv.appendChild(input);
+    divv.appendChild(button)
+}
+    function steps(){
+     const stepss=document.getElementById("ste")
+      const row = document.createElement("div");
+    row.className = "stepRow";
+
+    const input = document.createElement("input");
+    input.type = "text";
+    input.placeholder = "Enter Heading";
+    input.className = "headdd";
+
+    const text = document.createElement("textarea");
+    text.className = "descript";
+    text.style.resize = "none";
+    text.placeholder = "Enter Description";
+
+    row.appendChild(input);
+    row.appendChild(text);
+
+    stepss.appendChild(row);
+     const button=document.createElement("button")
+    button.type="button"
+    button.innerText="+"
+    button.onclick=steps
+    stepss.appendChild(button)
+    }
+    function desc(){
+         const descriptio=document.getElementById("desc")
+         const input = document.createElement("input");
+        input.type="text",
+         input.placeholder = "Enter description";
+         input.className = "description1";
+        const button=document.createElement("button")
+       button.type="button"
+       button.innerText="+"
+    button.onclick=desc;
+    descriptio.appendChild(input);
+    descriptio.appendChild(button);
+    }
+    function description(){
+        const descri=document.getElementById("desc2")
+         const input = document.createElement("input");
+        input.type="text",
+         input.placeholder = "Enter description";
+         input.className = "description2";
+             const button=document.createElement("button")
+       button.type="button"
+       button.innerText="+"
+    button.onclick=description;
+    descri.appendChild(input);
+    descri.appendChild(button);
+    }
+    function item(){
+    let items=document.getElementById("listitems")
+    const input = document.createElement("input");
+        input.type="text",
+         input.placeholder = "Enter Item";
+         input.className = "trouble";
+           const button=document.createElement("button")
+       button.type="button"
+       button.innerText="+"
+    button.onclick=item;
+    items.appendChild(input);
+    items.appendChild(button);
+    
+    }
+    function closeform(){
+       const ff=document.getElementById("form");
+       ff.style.display="none"
+       const dd=document.getElementById("dataa");
+       dd.style.display="grid";
+       dd.style.gridTemplateColumns="1fr 232px";
+    }
+    </script>
+</html>

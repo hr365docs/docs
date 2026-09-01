@@ -73,7 +73,7 @@
     </nav>
   </header>
   <section class="single section-sm pb-0">
-    <div class="container container-padding">
+    <div class="container container-padding" style="padding-bottom: 1vw;">
       <div class=row>
         <div class=col-lg-3>
           <div class=sidebar>
@@ -107,19 +107,31 @@
 
               <ul class=page-list>
 
-                The homepage of HR365 Employee Onboarding features two processes: one for onboarding employees and
-                another for offboarding them.
+             <!---  The homepage of HR365 Employee Onboarding features two processes: one for onboarding employees and
+                another for offboarding them.-->
+                The homepage of HR365 Employee Onboarding features two processes: one for onboarding employees and another for offboarding them.
                 <br><br>
-                <img src="011.png" onclick="openModal('011.png')" alt="home page" width="100%">
+                <img src="home1.png" onclick="openModal('home1.png')" alt="home page" width="100%">
                 <br><br>
-                In home page menu bar:
+             <!--   In home page menu bar:-->In home page menu bar contains: 
                 <ul class="ul_li_styles">
                   <br>
                   <li>
-                    <p> <b>My Active tasks</b>:
-                      The tasks that need to be performed are displayed in this section.</p><br>
-                    <div>
-                      <img src="02.png" onclick="openModal('02.png')" alt="home page" width="100%"><br>
+                    <p> <b>My Active tasks: </b>
+                      <!--The tasks that need to be performed are displayed in this section.-->
+                    Displays all tasks assigned to the user that require action or completion.</p>
+                    <p>The <strong>My Active Tasks</strong> section contains the following tabs:
+</p>
+<ul style="list-style-type:disc">
+  <li><strong>All</strong> – Displays all tasks assigned to the current user.</li>
+  <li><strong>Unassigned</strong> – Displays tasks belonging to the user's team that are not assigned to any team member. If the team has multiple members, any member can assign the task to themselves or another team member.</li>
+  <li><strong>Current</strong> – Displays pending tasks that are currently active and need to be completed.</li>
+  <li><strong>Upcoming</strong> – Displays tasks that have not yet started. Task availability is determined based on the onboarding employee's joining date.</li>
+<li><strong>Overdue</strong> – Displays tasks that have exceeded their resolution or due date and are not yet completed.</li>
+<li><strong>Completed</strong> – Displays all tasks that have been completed.</li>
+</ul>
+           <br>         <div>
+                      <img src="home1.png" onclick="openModal('home1.png')" alt="home page" width="100%"><br>
                     </div>
                   </li>
                   <br>

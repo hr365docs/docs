@@ -206,6 +206,9 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='Integrate with Time-Off Manager' class='sidelist'>"+
                     "<a href='/online-timesheet-software/modern/admin/settings/integration/#Integrate-with-Time-Off-Manager'>Integrate with Time-Off Manager</a>"+
                 "</li>"+
+                 "<li data-nav-id='../General' title='Knowledge Base – MS Planner Integration Functionality' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/integration/#knowledge'>Knowledge Base – MS Planner Integration Functionality</a>"+
+                "</li>"+
             "</ul>"+
         "</li>"+
         "</ul>"+

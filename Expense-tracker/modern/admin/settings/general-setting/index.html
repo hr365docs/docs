@@ -74,7 +74,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="sidebar">
@@ -218,9 +218,34 @@ this toggle controls whether a <i>Reimbursed</i> badge is shown in Expense Detai
                 <div><img src="31.png" onclick="openModal('31.png')" alt="Draft Expense ID" width="100%" height="auto"></div><br>
 <div><img src="30a.png" onclick="openModal('30a.png')" alt="Multiple Cost Center" width="100%" height="auto"></div><br>
 
-                <li id="SelfDeclaration"><b>Self-Declaration</b>:When enabled, a checkbox will appear while creating expenses, asking if you agree to submit the expenses with or without uploading a receipt.</li><br>
-                <div><img src="32.png" onclick="openModal('32.png')" alt="Self-Declaration" width="100%" height="auto"></div><br>
-                <div><img src="32a.png" onclick="openModal('32a.png')" alt="Self-Declaration" width="100%" height="auto"></div><br>
+                <li id="SelfDeclaration"><b>Self-Declaration:</b></li><br>
+                <ol style="list-style-type:decimal">
+                    <li>The <strong>Self-Declaration</strong> feature allows users to submit expenses even without uploading a receipt, provided they acknowledge and confirm the declaration by selecting a checkbox.</li>
+               <li>When this feature is enabled, a <strong>Self-Declaration</strong> checkbox will appear while creating expenses, prompting users to confirm that they agree to submit the expense with or without attaching a receipt.</li>
+            <br>
+                <p>The screenshots below illustrate how Self-Declaration integrates with the Expense Tracker application.</p>
+                <p><strong>How to Enable Self-Declaration</strong></p>
+                <ol style="list-style-type:decimal">
+                    <li>Navigate to <strong>Settings.</strong></li>
+                    <li>Click on <strong>General Settings.</strong></li>
+                    <li>Select <strong>Self-Declaration.</strong></li>
+                </ol><br>
+                <div><img src="first.png" onclick="openModal('first.png')" alt="Self-Declaration" width="100%" height="auto"></div><br>
+<li>This pop up will open, toggle on the self-declaration</li><br>
+ <div><img src="second.png" onclick="openModal('second.png')" alt="Self-Declaration" width="100%" height="auto"></div><br>
+<li>Now Click on Expense</li><br>
+<div><img src="third.png" onclick="openModal('third.png')" alt="Multiple Cost Center" width="100%" height="auto"></div><br>
+<li>Then while creating an expense you can see the self-declaration check box in expense, time, distance both in single and multiple expenses</li><br>
+<div><img src="fourth.png" onclick="openModal('fourth.png')" alt="Multiple Cost Center" width="100%" height="auto"></div><br>
+<div><img src="fifth.png" onclick="openModal('fifth.png')" alt="Multiple Cost Center" width="100%" height="auto"></div><br>
+<li>When it is on from settings and if you try to submit the expenses without checking the check box you will get the pop-up message</li>
+<br>
+<div><img src="sixth.png" onclick="openModal('sixth.png')" alt="Multiple Cost Center" width="100%" height="auto"></div><br>
+<li>Then you can add the attachment or you can check the self-declaration checkbox to submit the expense 
+</li><br>
+<div><img src="seventh.png" onclick="openModal('seventh.png')" alt="Multiple Cost Center" width="100%" height="auto"></div><br>
+</ol>   
+<!--<div><img src="32a.png" onclick="openModal('32a.png')" alt="Self-Declaration" width="100%" height="auto"></div><br>
 
 
                 <li id="ExpenseTime"><b>Expense Time</b>: When enabled, you can specify the start and end time while creating an expense.</li><br>
@@ -244,7 +269,7 @@ this toggle controls whether a <i>Reimbursed</i> badge is shown in Expense Detai
 
 <div>
   <img src="URL1.png" onclick="openModal('URL1.png')" alt="SharePoint URL Configuration Example" width="100%" height="auto">
-</div><br>
+</div><br>-->
 
 
                 <!-- Existing SharePoint Config kept as is -->
@@ -307,8 +332,10 @@ this toggle controls whether a <i>Reimbursed</i> badge is shown in Expense Detai
                                 <br>
 
                             </ul>
-                     
-                </div></ol></ul></div>
+
+</div></ol>
+
+            </ul></div>
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date"></p>
                         <nav class="pagination mt-3">
                             <a class="nav nav-prev" href="../settings/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Settings</span></a>
