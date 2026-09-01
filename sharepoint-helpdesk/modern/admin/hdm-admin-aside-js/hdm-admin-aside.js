@@ -292,6 +292,9 @@ $(document).ready(function () {
         "<li data-nav-id='./Assign-Assets/ ' title='Advance Permissions' class='sidelist '>" +
         "<a href='/sharepoint-helpdesk/modern/admin/settings/role/#advance'>Advance Permissions </a>" +
         "</li>" +
+        "<li data-nav-id='./Assign-Assets/ ' title='Agent Availability' class='sidelist '>" +
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/role/#agent'>Agent Availability </a>" +
+        "</li>" +
         "</ul>" +
         "</li>" +
 

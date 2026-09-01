@@ -158,6 +158,7 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='Logo' class='sidelist'>" +
                     "<a href='/Expense-tracker/modern/admin/settings/general-setting/#Logo'>Logo</a>" +
                 "</li>" +
+                 
 
             "</ul>" +
         "</li>" +
@@ -192,6 +193,9 @@ $(document).ready(function () {
         "</li>" +
          "<li data-nav-id='../General' title='Copilot Integration' class='sidelist'>" +
         "<a class='qwe' href='/Expense-tracker/modern/admin/settings/integration/#Copilot-Integration'>Copilot Integration</a>" +
+        "</li>" +
+        "<li data-nav-id='../General' title='Copilot Integration' class='sidelist'>" +
+        "<a class='qwe' href='/Expense-tracker/modern/admin/settings/integration/#ai'>AI Duplicate Invoice Detection</a>" +
         "</li>" +
         "</ul>"+
         "</li>"+

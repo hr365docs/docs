@@ -2061,7 +2061,7 @@ $(document).ready(function () {
     "</li>" +
         "<li class='sidelist' title='Notifactions'>" +
       "<a href='/HRMS-HR365/modern/admin/apps/LMS/settings/notifactions'>" +
-        "Notifactions" +
+        "Notifications" +
       "</a>" +
     "</li>" +
        "<li class='sidelist' title='Theme'>" +

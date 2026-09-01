@@ -73,7 +73,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -95,6 +95,12 @@
                 </div>
 
                 <div class=col-lg-9>
+                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Welcome to the Control Room
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>If Administration is HR365-HRMS skeleton — departments, grades, locations, the org's legal facts — then General is its nervous system. It doesn't hold data so much as it holds decisions: what color the app wears, what currency shows up on an expense report, whether the AI assistant remembers what it was told yesterday, and whether a shared inbox gets copied on system notifications. </p>
+                                <p>This guide walks through all eighteen General settings, in the order they appear on screen — from the purely cosmetic (Theme, Logo Style) to the quietly load-bearing (Modules, Allow all Microsoft 365 users in this tenant). A few of them turned out to have real rough edges during testing; those are flagged honestly along the way, with the accompanying QA bug report as the place to track them to closure. 
+                                </p>
                  <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Welcome to the Control Room
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
@@ -704,8 +710,6 @@ After entering the URL, click the<strong>Save</strong>  button to apply your
 <strong>Treat this as a break-glass setting, not a routine toggle.</strong> Because switching it off immediately narrows access to only the explicitly-added user list, it's worth confirming that list is complete and current *before* flipping this off — not after. 
 
   </li>-->
-</ul>
-</div>
   <p>
 
                     </div>
@@ -721,10 +725,18 @@ After entering the URL, click the<strong>Save</strong>  button to apply your
                     </nav>
                 </div>
             </div>
+</ul>
+
+
         </div>
         </div>
     </section>
-    <div id="myModal" class="modal">
+
+<div id="footer-container"></div>
+</div>
+<script src="/footer/index.js"></script>
+<script src="/js/plus-toggle.js"></script>
+ <div id="myModal" class="modal">
 
         <div class="modal-content">
             <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
@@ -734,6 +746,12 @@ After entering the URL, click the<strong>Save</strong>  button to apply your
 
         </div>
     </div>
+        <script src="../../../../../js/script.min.js"></script>
+    <script src="../../../../../js/showhidefunction.js"></script>
+    <script src="../../../../../js/hcm-modern-admin.js"></script>
+    <script src="../../../../../js/header-footer.js"></script>
+   <!-- 
+   
 
     <footer class="section pb-4">
         <div class=container>
@@ -783,6 +801,6 @@ After entering the URL, click the<strong>Save</strong>  button to apply your
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML = date;
     </script>
- <script src="/js/plus-toggle.js"></script></body>
+ </body>
 
 </html>
