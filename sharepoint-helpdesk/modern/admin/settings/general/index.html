@@ -76,7 +76,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -89,9 +89,9 @@
                                 title="Admin Guide" class="sidelist
     active">
                                 <a href="../../../admin/">
-                                    Admin-Guide
+                                    admin Guide
                                 </a>
-                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle">
+                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle" class="sidenavbarscrollstyle">
                                 </ul>
                             </li>
 
@@ -108,7 +108,7 @@
                                 <p>
                                     From here you can update date format, logo, theme etc.
                                 </p>
-                                <br>
+
                                 <div><img src="02.png" onclick="openModal('02.png')" alt="General setting" width="100%"
                                         height="auto"></div>
                             </div>
@@ -171,25 +171,8 @@
 
                         </div>
 
-                        <!-- <div class="bg-light p-4 remove-padding common-scroll" id="display-resolved">
-                            <div class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Display Resolved Tab
-                                        on
-                                        Home Page
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
 
-                                <p>
-                                    Show resolved ticket in selected tabs
-
-                                </p>
-
-                                <div><img src="display_tab.png" onclick="openModal('display_tab.png')" alt="Display tab"
-                                        width="100%" height="auto"></div>
-
-                            </div>
-                        </div> -->
-                        <div class="bg-light p-4 remove-padding common-scroll"
+                        <!-- <div class="bg-light p-4 remove-padding common-scroll"
                             id="Select-Teams-and-priority-as-dropdown-in-new-ticket-page">
                             <div class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#> Select Teams and
@@ -207,7 +190,7 @@
                                         height="auto"></div>
 
                             </div>
-                        </div>
+                        </div> -->
                         <div class="bg-light p-4 remove-padding common-scroll" id="display-resolved">
                             <div class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#> Show resolved ticket
@@ -242,57 +225,6 @@
 
                             </div>
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="DisplayHelpPage">
-                            <div class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Display Help Page
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Admin could enable the help page from the general settings, and users would be able
-                                    to see the help option on the side navigation panel.
-
-                                </p>
-
-                                <div><img src="help_.png" onclick="openModal('help_.png')" alt="help" width="100%"
-                                        height="auto"></div>
-
-                            </div>
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Popup-Notification">
-                            <div class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Disable New ticket
-                                        Popup Notification
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    If the user enables the "Disable New Ticket Popup Notification" option, the
-                                    notification popup will not appear after creating a ticket.
-                                </p>
-
-                                <div><img src="DisableNewTicket.png" onclick="openModal('DisableNewTicket.png')"
-                                        alt="help" width="100%" height="auto"></div>
-
-                            </div>
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="singleLine">
-                            <div class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Single line ticket
-                                        form
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    The single-line ticket form option allows users to quickly create a ticket by
-                                    entering only the essential details, like the ticket name or short.
-                                </p>
-
-                                <div><img src="single.png" onclick="openModal('single.png')" alt="help" width="100%"
-                                        height="auto"></div>
-
-                            </div>
-                        </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="resolvetabs">
                             <div class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Show resolve tab in
@@ -312,8 +244,8 @@
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="emailcss">
                             <div class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Disable email
-                                        notifications to all CC users
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Disable CC
+                                        notifications
 
 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -329,72 +261,165 @@
 
                             </div>
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="New-Ticket-Option">
+                        <div class="bg-light p-4 remove-padding common-scroll" id="Popup-Notification">
                             <div class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Disable New ticket
-                                        option for Users <i class="fas fa-link"
-                                            style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>When the "Disable New Ticket Option for Users" toggle is turned ON, users with the
-                                    "User" role will no longer see the "New Ticket Create" button in the application.
-                                    This setting ensures that only authorized roles, such as Admins or specific support
-                                    agents, can create new tickets, restricting general users from raising new requests.
-                                    <br>
-                                    If this toggle is turned OFF, all users, including those with the "User" role, will
-                                    be able to access and create new tickets as usual.
-                                </p>
-
-                                <div><img src="newCreationbtn.png" onclick="openModal('newCreationbtn.png')" alt="help"
-                                        width="100%" height="auto"></div>
-
-                            </div>
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="SharepointURL">
-                            <div class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Use Sharepoint URL for
-                                        MS Teams installed application
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Ticket Popup Alerts
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
                                 <p>
-                                    The option Use SharePoint URL for MS Teams installed application enables the
-                                    integration of SharePoint links within the MS Teams application, allowing users to
-                                    access SharePoint resources directly from Teams.
+                                    Ticket Popup Alerts allows administrators to control whether a popup notification is
+                                    displayed to users after successful ticket creation.
                                 </p>
 
-                                <div><img src="URL.png" onclick="openModal('URL.png')" alt="help" width="100%"
+                                <div><img src="DisableNewTicket.png" onclick="openModal('DisableNewTicket.png')"
+                                        alt="help" width="100%" height="auto"></div>
+
+                            </div>
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="reopen">
+                            <div class="page-list">
+                                <h2 id="_dashboards">
+                                    <a class="header-icon-link highlight" href="#">
+                                        Reopen tickets without adding comment
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                                    </a>
+                                </h2>
+
+                                <p>
+                                    This option allows agents or users to reopen a closed ticket without needing to add
+                                    a new comment.
+                                    It helps when a ticket was closed by mistake or if the issue persists, avoiding
+                                    unnecessary repetitive
+                                    comments and saving time.
+                                </p>
+
+                                <div>
+                                    <img src="DisableNewTicket1.png" onclick="openModal('DisableNewTicket1.png')"
+                                        alt="help" width="100%" height="auto">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding common-scroll" id="ticket-creation">
+                            <div class="page-list">
+                                <h2 id="_dashboards">
+                                    <a class="header-icon-link highlight" href="#">
+                                        New ticket creation for users
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                                    </a>
+                                </h2>
+
+                                <p>
+                                    Toggle this option to allow or restrict end-users from creating new tickets.
+                                    When enabled, users can log new tickets from the portal. When disabled, the option
+                                    is hidden
+                                    and only admins or agents can create tickets. This is useful for controlling ticket
+                                    inflow
+                                    or pausing user submissions temporarily.
+                                </p>
+
+                                <div>
+                                    <img src="help1.png" onclick="openModal('help1.png')" alt="help" width="100%"
+                                        height="auto">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding common-scroll" id="latest-comment">
+                            <div class="page-list">
+                                <h2 id="_dashboards">
+                                    <a class="header-icon-link highlight" href="#">
+                                        Show Latest Comment with Ticket Title
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                                    </a>
+                                </h2>
+
+                                <p>
+                                    When enabled, the latest comment on each ticket will be displayed alongside the
+                                    ticket title.
+                                    This gives agents a quick overview of the most recent updates without opening the
+                                    ticket.
+                                    However, enabling this feature may impact initial loading performance if you have a
+                                    large number of tickets.
+                                </p>
+
+                                <div>
+                                    <img src="latest-comment.png" onclick="openModal('latest-comment.png')" alt="help"
+                                        width="100%" height="auto">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding common-scroll" id="default-approval">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Disable default
+                                        approval email to Admins
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>
+                                    Disable approval notifications for default admin. admin will no longer recieve
+                                    ticket approval alerts.
+                                </p>
+
+                                <div><img src="help3.png" onclick="openModal('help3.png')" alt="help" width="100%"
                                         height="auto"></div>
 
                             </div>
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Show-favicon-of-Helpdesk-365">
-                            <ul class=page-list>
-
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Show favicon of
-                                        Helpdesk 365
+                        <div class="bg-light p-4 remove-padding common-scroll" id="DisplayHelpPage">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Display Help Page
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
+
                                 <p>
-                                    Toggle on to display the favicon. The favicon appears on the left side of the
-                                    browser tab, helping users easily recognize the website.
+                                    Admin could enable the help page from the general settings, and users would be able
+                                    to see the help option on the side navigation panel.
 
                                 </p>
-                                <div><img src="favicon.png" onclick="openModal('favicon.png')" alt="Language selection"
-                                        width="100%" height="auto"></div>
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="customizeFavicon">
-                            <ul class=page-list>
 
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Customize the favicon
+                                <div><img src="help_.png" onclick="openModal('help_.png')" alt="help" width="100%"
+                                        height="auto"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding common-scroll" id="singleLine">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Single line ticket
+                                        form
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
+
                                 <p>
-                                    The Customize the favicon option allows users to change the small icon displayed in
-                                    the browser tab for the helpdesk application, enhancing branding and
-                                    personalization. </p>
-                                <div><img src="customizefavicon.png" onclick="openModal('customizeFavicon.png')"
-                                        alt="Language selection" width="100%" height="auto"></div>
+                                    The single-line ticket form option allows users to quickly create a ticket by
+                                    entering only the essential details, like the ticket name or short.
+                                </p>
+
+                                <div><img src="single1.png" onclick="openModal('single1.png')" alt="help" width="100%"
+                                        height="auto"></div>
+
+                            </div>
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="Language-Translation">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language Translation
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>
+                                    To enable language translation, please create a Translator resource in the Azure
+                                    Portal. Once the resource is set up, enter the endpoint API key, and region details
+                                    below. This service uses Microsoft’s Translator API to provide accurate and reliable
+                                    multilingual translation capabilities
+                                </p>
+
+                                <div><img src="single.png" onclick="openModal('single.png')" alt="help" width="100%"
+                                        height="auto"></div>
+
+                            </div>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="languagebrowserdefaultlanguage">
                             <ul class=page-list>
@@ -428,23 +453,369 @@
                                         </p>
                                         <div><img src="select_lang.png" onclick="openModal('select_lang.png')"
                                                 alt="Language selection" width="100%" height="auto"></div>
+                                        <p>Support for Hebrew and Arabic languages has been added to enhance
+                                            multilingual accessibility within the application.</p>
+                                        <div><img src="he.png" onclick="openModal('he.png')" alt="show projects"
+                                                width="100%" height="auto" /></div>
+                                        <br>
+                                        <p>When Hebrew is selected as the preferred language, the application interface
+                                            will automatically update to Hebrew.</p>
+                                        <div><img src="Heb3.png" onclick="openModal('Heb3.png')" alt="show projects"
+                                                width="100%" height="auto"></div><br>
+                                        <div><img src="Heb2.png" onclick="openModal('Heb2.png')" alt="show projects"
+                                                width="100%" height="auto"></div><br>
+                                        <p>When Arabic is selected as the preferred language, the application interface
+                                            will automatically update to Arabic.</p>
+                                        <div><img src="Heb1.png" onclick="openModal('Heb1.png')" alt="show projects"
+                                                width="100%" height="auto"></div><br>
+                                        <div><img src="Heb4.png" onclick="openModal('Heb4.png')" alt="show projects"
+                                                width="100%" height="auto"></div>
                                     </ul>
                                 </div>
+
+
+                                <div class="bg-light p-4 remove-padding common-scroll" id="SharepointURL">
+                                    <div class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Use Sharepoint
+                                                URL for
+                                                MS Teams installed application
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+
+                                        <p>
+                                            The option Use SharePoint URL for MS Teams installed application enables the
+                                            integration of SharePoint links within the MS Teams application, allowing
+                                            users to
+                                            access SharePoint resources directly from Teams.
+                                        </p>
+
+                                        <div><img src="URL.png" onclick="openModal('URL.png')" alt="help" width="100%"
+                                                height="auto"></div>
+
+                                    </div><br>
+                                    <p>
+                                        Enable the <b>“Use SharePoint URL for MS Teams installed application”</b>
+                                        toggle, then enter your SharePoint site URL in the following format:
+                                        <br>
+                                        <span>
+                                            https://<em>yourtenantname</em>.sharepoint.com/sites/<em>SiteName</em>/SitePages/<em>PageName.aspx</em>
+                                        </span>
+                                        <br>
+                                        After entering the URL, click the <b>Save</b> button to apply your changes.
+                                    </p>
+                                    <div><img src="URL1.png" onclick="openModal('URL1.png')" alt="help" width="100%"
+                                            height="auto"></div>
+
+                                </div><br>
+
+                                <!-- <div class="bg-light p-4 remove-padding common-scroll" id="New-Ticket-Option">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Disable New ticket
+                                        option for Users <i class="fas fa-link"
+                                            style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>When the "Disable New Ticket Option for Users" toggle is turned ON, users with the
+                                    "User" role will no longer see the "New Ticket Create" button in the application.
+                                    This setting ensures that only authorized roles, such as Admins or specific support
+                                    agents, can create new tickets, restricting general users from raising new requests.
+                                    <br>
+                                    If this toggle is turned OFF, all users, including those with the "User" role, will
+                                    be able to access and create new tickets as usual.
+                                </p>
+
+                                <div><img src="newCreationbtn.png" onclick="openModal('newCreationbtn.png')" alt="help"
+                                        width="100%" height="auto"></div>
+
+                            </div>
+                        </div> -->
+
+
                         </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="languageUpdate">
+
+                        <div class="bg-light p-4 remove-padding common-scroll" id="Language1">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>
+                                    This section allows you to manage translations for all supported languages in the
+                                    helpdesk system.
+                                    You can view system text such as labels, messages, and menu items in multiple
+                                    languages (e.g., English,
+                                    French, German, Arabic, Chinese, etc.). Each row shows the equivalent phrase in
+                                    different languages, and
+                                    you can edit them to customize wording as needed. Use the search option to quickly
+                                    find a phrase and update
+                                    its translation across languages.
+                                </p>
+
+
+                                <div><img src="single2.png" onclick="openModal('single2.png')" alt="help" width="100%"
+                                        height="auto"></div>
+
+                            </div>
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="naming-convention">
+                            <ul class="page-list">
+                                <h2 id="_dashboards">
+                                    <a class="header-icon-link highlight" href="#">
+                                        Naming Convention
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                                    </a>
+                                </h2>
+
+                                <p>
+                                    From here, you can rename the display title, company name, and application title.
+                                    Click the <b>Configure</b> button of the <b>Naming Convention</b> to open the
+                                    <b>Naming Convention</b> page.
+                                </p>
+
+                                <div>
+                                    <img src="name_convention.png" onclick="openModal('name_convention.png')"
+                                        alt="Name convention" width="100%" height="auto">
+                                </div>
+                                <br>
+
+                                <p>
+                                    Enter the desired name and click on the save icon.
+                                </p>
+
+                                <div>
+                                    <img src="save_convention.png" onclick="openModal('save_convention.png')"
+                                        alt="Save convention" width="100%" height="auto">
+                                </div>
+                                <br>
+
+                                <p>
+                                    <u><b>Use Teams Code as Ticket Suffix</b></u>: You can use the team code as a suffix
+                                    for ticket IDs.
+                                    Toggle this option on or off as needed. When enabled, the <b>team code</b> will be
+                                    added at the end of the <b>Ticket ID</b>.
+                                </p>
+
+                                <div>
+                                    <img src="code_suffix.png" onclick="openModal('code_suffix.png')" alt="Code suffix"
+                                        width="100%" height="auto">
+                                </div>
+                                <br>
+
+                                <div>
+                                    <img src="id_suffix.png" onclick="openModal('id_suffix.png')" alt="ID suffix"
+                                        width="100%" height="auto">
+                                </div>
+                                <br>
+
+                                <p>
+                                    <u><b>Teams Name in New Ticket Page</b></u>: Enable this option to display the team
+                                    name instead of the team code on the New Ticket panel or ticket form.
+                                </p>
+
+                                <div>
+                                    <img src="teams_name.png" onclick="openModal('teams_name.png')" alt="Teams name"
+                                        width="100%" height="auto">
+                                </div>
+                                <br>
+
+                                <div>
+                                    <img src="teams_shown.png" onclick="openModal('teams_shown.png')" alt="Teams shown"
+                                        width="100%" height="auto">
+                                </div>
+                                <br>
+
+                                <div>
+                                    <img src="added_team.png" onclick="openModal('added_team.png')" alt="Added team"
+                                        width="100%" height="auto">
+                                </div>
+                                <br>
+
+                                <!-- New Section Added Below -->
+                                <p>
+                                    <b>Customizable Sub-Service Names:</b> This feature allows users to rename
+                                    sub-services such as <b>L1</b>, <b>L2</b>, and <b>L3</b> according to their
+                                    preferred naming conventions. It provides greater flexibility and alignment with
+                                    organizational terminology, making the system more intuitive and user-friendly.
+                                </p>
+
+                                <div>
+                                    <img src="custom_subservice.png" onclick="openModal('custom_subservice.png')"
+                                        alt="Customizable Sub-Service Names" width="100%" height="auto">
+                                </div>
+                            </ul>
+                        </div>
+
+                        <div class="bg-light p-4 remove-padding common-scroll" id="Hide-Sharepoint-Pages-Default-Components">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language update
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide
+                                        Sharepoint Page's
+                                        Default Components
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>
-                                    The Language update option allows users to change the application's language
-                                    settings, ensuring the interface is displayed in the preferred or required language.
+                                    From here you can hide sharepoint page default <Components class="br">
+                                    </Components>
+                                    <b>Hide side navigation panel in SharePoint page</b>: To Enable this toggle
+                                    you can
+                                    hide the navigation. <br><br>
+                                    <b>Hide topbar in SharePoint page</b>: To Enable this toggle you can hide
+                                    the topbar
+                                    in Sharepoint Page. <br><br>
+                                    <b>Hide command bar in SharePoint page</b>: To Enable this toggle you can
+                                    hide
+                                    Command bar from sharepoint page. <br><br>
+                                    <b>Hide sharepoint comments wrapper</b>: Enable this toggle will hide
+                                    comments
+                                    wrapper in sharepoint page where app is running. <br><br>
+                                    <b>Hide webpart title in SharePoint page</b>: Enable this toggle will remove
+                                    the
+                                    Webpart title. <br><br>
+                                    <b>Custom css for webpart to remove spaces</b>: Enable this toggle will
+                                    remove space
+                                    outside of Webpart. <br><br>
+                                    <b>Make SharePoint page layout in full width</b>: Make your SharePoint page
+                                    width in
+                                    full screen for larger resolution where app is running. <br><br>
+                                <div><img src="hidesharepointpagecomponents.png"
+                                        onclick="openModal('hidesharepointpagecomponents.png')" alt="Update users role"
+                                        width="100%" height="auto"></div>
+                                <br>
+                                <br>
+
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll"
+                            id="Hide-Sharepoint-Pages-Default-Components">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Configure Sharepoint
+                                        API Permissions
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>
+                                    Select configure to process further.
                                 </p>
 
-                                <div><img src="updatelanguge.png" onclick="openModal('updatelanguge.png')"
-                                        alt="Language" width="100%" height="auto"></div>
+                                <div><img src="hidesharepoint.png" onclick="openModal('hidesharepoint.png')"
+                                        alt="Recycle bin" width="100%" height="auto"></div>
+                                <br>
+                            </div>
 
-                                <!-- <div class="bg-light p-4 remove-padding common-scroll"
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="recycle-bin">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Recycle
+                                        Bin
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>
+                                    The deleted tickets will display in recycle bin, the admin can restore
+                                    them or
+                                    delete
+                                    them permanently.
+                                </p>
+
+                                <div><img src="bin.png" onclick="openModal('bin.png')" alt="Recycle bin" width="100%"
+                                        height="auto"></div>
+                                <br>
+                            </div>
+
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="default-date-range">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Default
+                                        Date Range of Tickets on homepage
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>The Default Date Range of Tickets on Homepage setting allows users to
+                                    view tickets from the current month up to one year, streamlining access
+                                    to relevant ticket data.
+                                </p>
+                                <div><img src="date-range.png" onclick="openModal('date-range.png')" alt="logs"
+                                        width="100%" height="auto"></div>
+                                <br>
+                            </div>
+
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="enable-logs">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Enable
+                                        logs collection
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>
+
+                                    The Enable logs collection option allows the system to gather logs for
+                                    tracking and troubleshooting purposes; if not needed, you can turn off
+                                    the toggle to disable log collection.
+                                </p>
+
+                                <div><img src="logs.png" onclick="openModal('logs.png')" alt="logs" width="100%"
+                                        height="auto"></div>
+                                <br>
+                            </div>
+
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="brand-logo">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Brand Logo
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+
+                                <p>
+                                    From here admin can add or update the company logo. The updated logo is
+                                    displayed at
+                                    the
+                                    top of the left-side navigation panel. The recommended size of the logo
+                                    is 150 X 60
+                                    with
+                                    the same aspect ratio along with a transparent or white background is
+                                    recommended
+                                    for a
+                                    better visibility and experience.
+                                </p>
+
+
+                                <div><img src="brand_logo.png" onclick="openModal('brand_logo.png')" alt="Brand logo"
+                                        width="100%" height="auto">
+                                </div>
+
+
+                            </ul>
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="Show-favicon-of-Helpdesk-365">
+                            <ul class=page-list>
+
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>favicon
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    Toggle on to display the favicon. The favicon appears on the left side of the
+                                    browser tab, helping users easily recognize the website.
+
+                                </p>
+                                <div><img src="favicon.png" onclick="openModal('favicon.png')" alt="Language selection"
+                                        width="100%" height="auto"></div>
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="customizeFavicon">
+                            <ul class=page-list>
+
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Customize the favicon
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>
+                                    The Customize the favicon option allows users to change the small icon displayed in
+                                    the browser tab for the helpdesk application, enhancing branding and
+                                    personalization. </p>
+                                <div><img src="customizefavicon.png" onclick="openModal('customizeFavicon.png')"
+                                        alt="Language selection" width="100%" height="auto"></div>
+                        </div>
+
+
+
+                        <!-- <div class="bg-light p-4 remove-padding common-scroll"
                             id="Show-resolved-ticket-in-resolved-tab-only">
                             <div class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Show resolved ticket in resolved tab only
@@ -496,215 +867,20 @@
                             </div>
                         </div> -->
 
-                                <div class="bg-light p-4 remove-padding common-scroll"
-                                    id="Hide-Sharepoint-Pages-Default-Components">
-                                    <div class=page-list>
-                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Sharepoint
-                                                Page Configuration
-                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                        </h2>
-
-                                        <p>
-                                            Select configure to process further.
-                                        </p>
-
-                                        <div><img src="hidesharepoint.png" onclick="openModal('hidesharepoint.png')"
-                                                alt="Recycle bin" width="100%" height="auto"></div>
-                                        <br>
-                                    </div>
-
-                                </div>
-                                <div class="bg-light p-4 remove-padding common-scroll" id="update-roles">
-                                    <ul class=page-list>
-                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide
-                                                Sharepoint Page's
-                                                Default Components
-                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                        </h2>
-                                        <p>
-                                            From here you can hide sharepoint page default <Components class="br">
-                                            </Components>
-                                            <b>Hide side navigation panel in SharePoint page</b>: To Enable this toggle
-                                            you can
-                                            hide the navigation. <br><br>
-                                            <b>Hide topbar in SharePoint page</b>: To Enable this toggle you can hide
-                                            the topbar
-                                            in Sharepoint Page. <br><br>
-                                            <b>Hide command bar in SharePoint page</b>: To Enable this toggle you can
-                                            hide
-                                            Command bar from sharepoint page. <br><br>
-                                            <b>Hide sharepoint comments wrapper</b>: Enable this toggle will hide
-                                            comments
-                                            wrapper in sharepoint page where app is running. <br><br>
-                                            <b>Hide webpart title in SharePoint page</b>: Enable this toggle will remove
-                                            the
-                                            Webpart title. <br><br>
-                                            <b>Custom css for webpart to remove spaces</b>: Enable this toggle will
-                                            remove space
-                                            outside of Webpart. <br><br>
-                                            <b>Make SharePoint page layout in full width</b>: Make your SharePoint page
-                                            width in
-                                            full screen for larger resolution where app is running. <br><br>
-                                        <div><img src="hidesharepointpagecomponents.png"
-                                                onclick="openModal('hidesharepointpagecomponents.png')"
-                                                alt="Update users role" width="100%" height="auto"></div>
-                                        <br>
-                                        <br>
-
-                                </div>
-                                <div class="bg-light p-4 remove-padding common-scroll" id="naming-convention">
-                                    <ul class=page-list>
-                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Naming
-                                                Convention
-                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                        </h2>
-
-                                        <p>
-                                            From here, you can rename the display title, company name, and application
-                                            title.
-                                            Click the <b>configure</b> button of the <b>Naming Convention</b>, this
-                                            displays the
-                                            <b>Naming Convention</b> page.
-                                        </p>
-                                        <div><img src="name_convention.png" onclick="openModal('name_convention.png')"
-                                                alt="Name convention" width="100%" height="auto"></div>
-                                        <br>
-                                        <p>
-                                            Enter the name and click on save icon.
-                                        </p>
-
-                                        <div><img src="save_convention.png" onclick="openModal('save_convention.png')"
-                                                alt="Save convention" width="100%" height="auto"></div>
-
-                                        <br>
-                                        <p><u><b>Use Teams Code as Ticket Suffix</b></u> : As a suffix, you may use team
-                                            code.With the use of a toggle, you may turn this on or off . The <b>team
-                                                code</b>
-                                            will be added at the end of the <b>Ticket ID</b>.
-
-                                        </p>
-
-                                        <div><img src="code_suffix.png" onclick="openModal('code_suffix.png')"
-                                                alt="Code suffix" width="100%" height="auto"></div>
-                                        <br>
-
-                                        <div><img src="id_suffix.png" onclick="openModal('id_suffix.png')"
-                                                alt="Id suffix" width="100%" height="auto"></div>
-
-
-                                        <br>
-                                        <p><u><b>Teams Name in New Ticket Page </b></u> :Enable this to show the teams'
-                                            name
-                                            instead of
-                                            the teams' code on the New Ticket panel or ticket form.
-
-                                        </p>
-
-                                        <div><img src="teams_name.png" onclick="openModal('teams_name.png')"
-                                                alt="Teams name" width="100%" height="auto"></div>
-                                        <br>
-
-                                        <div><img src="teams_shown.png" onclick="openModal('teams_shown.png')"
-                                                alt="Teams shown" width="100%" height="auto"></div>
-                                        <br>
-                                        <div><img src="added_team.png" onclick="openModal('added_team.png')"
-                                                alt="Added team" width="100%" height="auto"></div>
-                                </div>
-
-
-                                <div>
 
 
 
-                                    <div class="bg-light p-4 remove-padding common-scroll" id="recycle-bin">
-                                        <div class=page-list>
-                                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Recycle
-                                                    Bin
-                                                    <i class="fas fa-link"
-                                                        style="font-size:12px; color:lightgray;"></i></a>
-                                            </h2>
-
-                                            <p>
-                                                The deleted tickets will display in recycle bin, the admin can restore
-                                                them or
-                                                delete
-                                                them permanently.
-                                            </p>
-
-                                            <div><img src="bin.png" onclick="openModal('bin.png')" alt="Recycle bin"
-                                                    width="100%" height="auto"></div>
-                                            <br>
-                                        </div>
-
-                                    </div>
-                                    <div class="bg-light p-4 remove-padding common-scroll" id="enable-logs">
-                                        <div class=page-list>
-                                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Enable
-                                                    logs collection
-                                                    <i class="fas fa-link"
-                                                        style="font-size:12px; color:lightgray;"></i></a>
-                                            </h2>
-
-                                            <p>
-
-                                                The Enable logs collection option allows the system to gather logs for
-                                                tracking and troubleshooting purposes; if not needed, you can turn off
-                                                the toggle to disable log collection.
-                                            </p>
-
-                                            <div><img src="logs.png" onclick="openModal('logs.png')" alt="logs"
-                                                    width="100%" height="auto"></div>
-                                            <br>
-                                        </div>
-
-                                    </div>
-                                    <div class="bg-light p-4 remove-padding common-scroll" id="default-date-range">
-                                        <div class=page-list>
-                                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Default
-                                                    Date Range of Tickets on homepage
-                                                    <i class="fas fa-link"
-                                                        style="font-size:12px; color:lightgray;"></i></a>
-                                            </h2>
-                                            <p>The Default Date Range of Tickets on Homepage setting allows users to
-                                                view tickets from the current month up to one year, streamlining access
-                                                to relevant ticket data.
-                                            </p>
-                                            <div><img src="date-range.png" onclick="openModal('date-range.png')"
-                                                    alt="logs" width="100%" height="auto"></div>
-                                            <br>
-                                        </div>
-
-                                    </div>
-                                    <div class="bg-light p-4 remove-padding common-scroll" id="brand-logo">
-                                        <ul class=page-list>
-                                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Brand Logo
-                                                    <i class="fas fa-link"
-                                                        style="font-size:12px; color:lightgray;"></i></a>
-                                            </h2>
 
 
-                                            <p>
-                                                From here admin can add or update the company logo. The updated logo is
-                                                displayed at
-                                                the
-                                                top of the left-side navigation panel. The recommended size of the logo
-                                                is 150 X 60
-                                                with
-                                                the same aspect ratio along with a transparent or white background is
-                                                recommended
-                                                for a
-                                                better visibility and experience.
-                                            </p>
+                        <div>
 
 
-                                            <div><img src="brand_logo.png" onclick="openModal('brand_logo.png')"
-                                                    alt="Brand logo" width="100%" height="auto">
-                                            </div>
 
 
-                                        </ul>
-                                    </div>
-                                    <!-- <div class="bg-light p-4 remove-padding common-scroll" id="language">
+
+
+
+                            <!-- <div class="bg-light p-4 remove-padding common-scroll" id="language">
                     <ul class=page-list>
                         <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language
                                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -724,20 +900,20 @@
 
                 </ul>
             </div> -->
-                                    <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                                    <nav class="pagination mt-3">
-                                        <a class="nav nav-prev" href="../../settings/" aria-label="Previous page"><i
-                                                class="ti-arrow-left mr-2"></i> <span
-                                                class="d-none d-md-block">Settings</span></a>
-                                        <a class="nav nav-next"
-                                            href="/sharepoint-helpdesk/modern/admin/settings/ticket-customization/"
-                                            aria-label="Previous page"> <span class="d-none d-md-block">Ticket
-                                                Customization</span><i class="ti-arrow-right ml-2"></i></a>
-                                    </nav>
-                                </div>
+                            <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                            <nav class="pagination mt-3">
+                                <a class="nav nav-prev" href="../../settings/" aria-label="Previous page"><i
+                                        class="ti-arrow-left mr-2"></i> <span
+                                        class="d-none d-md-block">Settings</span></a>
+                                <a class="nav nav-next"
+                                    href="/sharepoint-helpdesk/modern/admin/settings/ticket-customization/"
+                                    aria-label="Previous page"> <span class="d-none d-md-block">Ticket
+                                        Customization</span><i class="ti-arrow-right ml-2"></i></a>
+                            </nav>
                         </div>
                     </div>
                 </div>
+            </div>
     </section>
     <div id="myModal" class="modal">
 
@@ -750,36 +926,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.
-                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -797,6 +945,7 @@
         document.getElementById("date").innerHTML = date;
     </script>
 
+    <script src="/js/plus-toggle.js"></script>
 </body>
 <script src="../../../../../js/header-footer.js"></script>
 <script src="../../hdm-admin-aside-js/hdm-admin-aside.js"></script>

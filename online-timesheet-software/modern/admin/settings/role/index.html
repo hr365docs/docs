@@ -6,7 +6,16 @@
     <title>Timesheet 365 | Admin Guide | Settings | Role</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="Hugo 0.92.2">
-
+ <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #5637da !important;
+        }
+    </style>
     <!-- Meta Description -->
     <meta name="description"
         content="Timesheet 365 Admin Guide - Role settings for HR365 Timesheet, explaining how to manage and assign roles for users within the timesheet system.">
@@ -102,7 +111,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -114,9 +123,9 @@
                                 title="Admin Guide" class="sidelist
     active">
                                 <a href="../../../admin/">
-                                    Admin-Guide
+                                    admin Guide
                                 </a>
-                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle">
+                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle" class="sidenavbarscrollstyle">
                                 </ul>
                             </li>
                     </div>
@@ -290,11 +299,12 @@
                                         width="100%" height="auto"></div>
                                 <br>
                                 <p>To permanently delete a user, click the Confirm button after selecting the desired
-                                    user.</p>   
+                                    user.</p>
                                 <div><img src="Confirm.png" onclick="openModal('Confirm.png')" alt="User role"
                                         width="100%" height="auto"></div>
                                 <br>
-                                <p><b>Note:</b> Some users were not deleted because they have submitted timesheets. Users with submitted timesheets cannot be removed to maintain data integrity.</p>
+                                <p><b>Note:</b> Some users were not deleted because they have submitted timesheets.
+                                    Users with submitted timesheets cannot be removed to maintain data integrity.</p>
                                 <div><img src="someuser.png" onclick="openModal('someuser.png')" alt="User role"
                                         width="100%" height="auto"></div>
                                 <br>
@@ -327,243 +337,163 @@
 
 
                         </div>
-                        <!-- <div class="bg-light p-4 remove-padding common-scroll" id="users">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Users
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                <p>
-                                    Admin can assign roles to O365 users with ticket scope as per requirement in the Timesheet application. You can select both supervisor and agents for multiple teams, however, ticket scope will remain the same along with roles.
-                                </p>
+                        <p><b>Full Sync for Users:</b> This feature allows administrators to synchronize all
+                            user data
+                            from an external directory or source (such as Microsoft 365) into the system. It
+                            ensures that user information like names, emails, and roles are up to date and
+                            accurately reflected in the application.</p>
 
+                        <div><img src="UserFullsync.png" onclick="openModal('UserFullsync.png')" alt="Update users role"
+                                width="100%" height="auto"></div><br>
+                        <p><b>Update from M365:</b> This option allows administrators to refresh or update
+                            existing
+                            user details from Microsoft 365. It syncs only the latest changes (such as name,
+                            email, or role updates) for already added users without performing a full sync. To include
+                            or exclude specific groups before syncing, use the setting option on the right side of the
+                            page.</p>
 
-
-                                <b>Different types of tickets scope</b>
-                                <br><br>
-                                <b>Global access:</b>
-                                <br>
-                                <ul class="ul_li_styles">
-                                    <li>
-                                        Can view all team's unassigned tickets in the Timesheet.
-                                    </li>
-                                    <li>
-                                        Can assign tickets for all teams.
-                                    </li>
-                                    <li>
-                                        Can edit or update a ticket of all teams from the comment page only.
-                                    </li>
-                                </ul>
-                                <br>
-                                <b>Team access I:</b>
-                                <br>
-                                <ul class="ul_li_styles">
-                                    <li>
-                                        Can view all team's unassigned tickets in the Timesheet.
-                                    </li>
-                                    <li>
-                                        Can assign tickets for all teams.
-                                    </li>
-                                </ul>
-                                <br>
-                                <b>Team access II:</b>
-                                <br>
-                                <ul class="ul_li_styles">
-                                    <li>
-                                        Can view all team's unassigned tickets.
-                                    </li>
-                                    <li>
-                                        Can assign tickets for their teams.
-                                    </li>
-                                </ul>
-                                <br>
-                                <b>Restricted access:</b>
-                                <br>
-                                <ul class="ul_li_styles">
-                                    <li>
-                                        Can only view their team's assigned tickets.
-                                    </li>
-                                    <li>
-                                        Team tickets detailed view will not be available.
-                                    </li>
-                                    <li>
-                                        Can update only tickets assigned to him/her.
-                                    </li>
-                                </ul>
-                                <br><br> To add the users, follow the below steps:
-                                <br>
-                                <ol>
-                                    <li>
-                                        Click on <b>Users</b>, this displays <b>Users</b> page.
-                                    </li>
-
-                                    <li>
-                                        Click on <b>+Add</b> button, this displays <b>Add Users</b> page.
-                                    </li>
-
-                                    <li>
-                                        Enter the <b>Users</b>, <b>Job Title</b>, add <b>Manager Email</b> and add select the <b>Roles</b> and the <b>Ticket scope</b>.
-                                    </li>
-
-                                    <li>
-                                        Finally click the <b>Submit</b> button.
-                                    </li>
-
-
-                                </ol>
-                                <br>
-                                <div><img src="add_users.png" onclick="openModal('add_users.png')" alt="Add users" width="100%" height="auto"></div>
-                                <br><br>
-                                <div><img src="save_user.png" onclick="openModal('save_user.png')" alt="Save user" width="100%" height="auto"></div>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="teams">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Add/Edit Teams
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                <p>
-                                    Admin can create multiple teams as per your requirement. Admin and supervisor can view all the teams in the side navigation panel.
-                                </p>
-
-                                <p>
-                                    Admin can create teams from the settings. To create follow the below steps:
-                                </p>
-
-
-                                <ol>
-                                    <li>
-                                        Click on teams, this displays <b>Add/Edit Teams</b> page.
-                                    </li>
-
-                                    <li>
-                                        Click on <b>+New Team</b> button, this displays <b>New</b> page.
-                                        <div><img src="add_teams.png" onclick="openModal('add_teams.png')" alt="Add teams" width="100%" height="auto"></div>
-                                        <br>
-                                    </li>
-
-                                    <li>
-                                        Enter the <b>Name</b>, give <b>Code</b>, add <b>Supervisor</b> and add the <b>Team Members</b>.
-                                        
-                                    </li>
-
-                                    <li>
-                                        Finally click the <b>Save</b> button.
-                                    </li><br>
-                                    <div><img src="side_nav_team.png" onclick="openModal('side_nav_team.png')" alt="Side nav team" width="100%" height="auto"></div>
-                                    <br>
-    
-
-                                </ol>
-                                
-                            
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Escalation Teams
-                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a></h2>
-                                <p>
-                                    Admin can create multiple escalation teams as per your requirement. You can view escalation teams on comment page.
-                                </p>
-                                <p>
-                                    Admin can create escalation teams from the settings. To create follow the below steps:
-                                </p>
-
-                                <ol>
-                                    <li>
-                                        Click on teams, this displays <b>Add/Edit Teams</b> page.
-                                    </li>
-<br>
-                                    <li>
-                                        Click on <b>+New Esc Team</b> button, this displays <b>New Esc Team</b> page.
-                                        <div><img src="team_esc.png" onclick="openModal('team_esc.png')" alt="Team esc" width="100%" height="auto"></div>
-                                        <br>
-                                    </li>
-                                    <li>
-                                        Select the team from the dropdown, and select the check box to define the level of SLA Escalation.
-                                        <div class="notices note">
-                                            <div class="paragraph">
-                                                <p>The code is predefined for SLA Escalation. For first-level, code is XX L1 And for Second-level, the code is XX L2.(XX is based on code added )
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        Enter the <b>Supervisor</b> and add the <b>Team Members</b>.
-                                        <div><img src="supervisor_team.png" onclick="openModal('supervisor_team.png')" alt="Add supervisor" width="100%" height="auto"></div>
-                                        <br>
-                                    </li>
-
-                                    <li>
-                                        Finally click the <b>Save</b> button.
-                                    </li>
-
-                                </ol>
-                                
-                              
-
-                               
-
-                        </div>
-                        
-                        <div class="bg-light p-4 remove-padding common-scroll" id="advance">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Advance Permissions
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-
-                                <p>
-                                    Various permissions could be provided to admin, supervisor, agent. It would allow users to edit priority, request type and close ticket.
-                                </p>
-
-
-
-                                <div><img src="advance_permissions.png" onclick="openModal('advance_permissions.png')" alt="Advace permissions" width="100%" height="auto"></div>
-                                <br>
-                                <!-- <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Validate Duplicate Tickets Through Email
-                                    <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                                            </h2>
-                                                            <p>
-                                                                This setting will avoid duplicate ticket creation through email when any user replies to the first email or any thread which doesn't have the ticket number in the subject.
-                                                            </p>
-                                                            <div><img src="validate_prop.png" onclick="openModal('validate_prop.png')" alt="Validate prop" width="100%" height="auto"></div>
-                                                            <br>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Survey Link Validation
-        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                <p>
-                                    From here you can add the number of the days to the survey link expire.
-                                </p>
-                                <div><img src="survey_validate.png" onclick="openModal('survey_validate.png')" alt="Survey validate" width="100%" height="auto"></div>
-                                <br>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Enable Ticket Mailbox 
-            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                <p>
-                                    From here you can raise the tickets through mail with the help of power automate.
-                                </p>
-                                <div><img src="enable.png" onclick="openModal('enable.png')" alt="Enable" width="100%" height="auto"></div> -->
+                        <div><img src="UpdatefromM365.png" onclick="openModal('UpdatefromM365.png')"
+                                alt="Update users role" width="100%" height="auto"></div><br>
                         <br>
-                        <!-- <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Ticket Properties 
-                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                <p>
-                                    Using ticket properties feature, it would be able to hide or show the ticket fields in ticket form.
-                                </p>
+                        <p>Click on <b>Setting Icon.</b></p>
+                        <div><img src="SettingIcon.png" onclick="openModal('SettingIcon.png')" alt="Update users role"
+                                width="100%" height="auto"></div>
+                        <p>
+                        <ul>
+                            <li><strong>Overwrite user details</strong>: If enabled, it updates existing user
+                                details during sync.</li>
+                            <li><strong>Exclude Options / Sync M365 Groups</strong>: Choose to either exclude
+                                specific user types or sync users based on M365 groups.</li>
+                            <li><strong>Exclude Sign in Blocked Users</strong>: Prevents blocked users from
+                                being synced.</li>
+                            <!-- <li><strong>Exclude Shared Mailboxes</strong>: Shared mailboxes will not be included
+                                        in the sync.</li> -->
+                            <li><strong>Exclude Unlicensed Users</strong>: Filters out users without any
+                                license.</li>
+                            <li><strong>Exclude Licensed Users</strong>: Excludes users with licensed or free
+                                license and a valid subscription.</li>
+                            <li><strong>Exclude Free Licensed Users</strong>: Removes users who only have a free
+                                license.</li>
+                            <li><strong>Exclude User by Department</strong>: Allows filtering users by
+                                department.</li>
+                            <li><strong>Exclude User by Location</strong>: Lets you exclude users based on their
+                                location.</li>
+                            <!--<li><strong>Exclude User by Title</strong>: Filters users by their job title.</li>
+                                    <li><strong>Excluded Domain</strong>: Prevents users from specific domains from
+                                        being included.</li>
+                                    <li><strong>Exclude Users by Name</strong>: Specific user names can be excluded from
+                                        syncing.</li> -->
+                        </ul>
+                        <br>
+                        </p>
 
-                                <div><img src="ticket_propeties.png" onclick="openModal('ticket_propeties.png')" alt="Ticket properties" width="100%" height="auto"></div>
-                                <br>
-                                <div><img src="ticket_pro.png" onclick="openModal('ticket_pro.png')" alt="ticket property" width="100%" height="auto"></div>
 
+                        <div><img src="Settings.png" onclick="openModal('Settings.png')" alt="Update users role"
+                                width="100%" height="auto"></div><br>
+                        <h2>Advance Permissions</h2>
+                        <p>The Advance Permissions settings allow administrators to manage rules surrounding timesheet
+                            submission windows, editing privileges, historical data synchronization, and project billing
+                            behaviors.</p>
 
-                        </div> -->
+                        <hr>
+
+                        <h5>Accessing Advance Permissions</h5>
+                        <p>To configure these options, navigate to the settings dashboard and select <strong>Advance
+                                Permissions</strong> under the <em>Users, Roles and Permissions</em> section. This
+                            launches the configuration panel where administrative control policies can be adjusted.</p>
+
+                        <img src="advance-permissions1.png" onclick="openModal('advance-permissions1.png')"
+                            alt="Navigate to Advance Permissions Settings" width="100%" height="auto"><br><br>
+
+                        <hr>
+
+                        <h5>Timesheet Submission Controls</h5>
+
+                        <h6>1. Allow User to Submit Timesheet for Past</h6>
+                        <p>Defines how far back in time employees are permitted to submit past-due timesheets.
+                            Administrators can specify the exact number of past weeks allowed and toggle the feature on
+                            or off to control historical time logging.</p>
+
+                        <img src="advance-permissions2.png" onclick="openModal('advance-permissions2.png')"
+                            alt="Allow User to Submit Timesheet for Past" width="100%" height="auto"><br><br>
+
+                        <h6>2. Allow User to Submit Timesheet for Future</h6>
+                        <p>Determines whether team members can log working hours for future dates ahead of time. Enter
+                            the maximum number of future weeks allowed and enable the setting to support advance
+                            timesheet logging.</p>
+
+                        <img src="advance-permissions3.png" onclick="openModal('advance-permissions3.png')"
+                            alt="Allow User to Submit Timesheet for Future" width="100%" height="auto"><br><br>
+
+                        <h6>3. Allow Timesheet Submission for Upcoming Days in Current Week</h6>
+                        <p>Permits users to complete and submit timesheets for remaining days within the active week
+                            before those actual calendar dates occur, providing flexibility for planned absences or
+                            predictable weekly schedules.</p>
+
+                        <img src="advance-permissions4.png" onclick="openModal('advance-permissions4.png')"
+                            alt="Allow Submission for Upcoming Days in Current Week" width="100%" height="auto"><br><br>
+
+                        <hr>
+
+                        <h5>Editing &amp; Organizational Permissions</h5>
+
+                        <h6>1. Allow Admin to Edit Approved Timesheet</h6>
+                        <p>Grants system administrators the permission to modify timesheets that have already gone
+                            through the approval process. This capability ensures necessary administrative corrections
+                            or audit updates can be executed post-approval.</p>
+
+                        <img src="advance-permissions5.png" onclick="openModal('advance-permissions5.png')"
+                            alt="Allow Admin to Edit Approved Timesheet" width="100%" height="auto"><br><br>
+
+                        <h6>2. Allow User to Edit Submitted Timesheet</h6>
+                        <p>Controls whether employees can retract and edit timesheets that have been submitted but are
+                            still pending manager approval, adhering to organizational compliance policies.</p>
+
+                        <img src="advance-permissions6.png" onclick="openModal('advance-permissions6.png')"
+                            alt="Allow User to Edit Submitted Timesheet" width="100%" height="auto"><br><br>
+
+                        <h6>3. Allow Sync Department For Timesheet Entries</h6>
+                        <p>Enables automatic synchronization of department associations across timesheet entries,
+                            ensuring departmental data remains aligned with user profile changes over time.</p>
+
+                        <img src="advance-permissions7.png" onclick="openModal('advance-permissions7.png')"
+                            alt="Allow Sync Department For Timesheet Entries" width="100%" height="auto"><br><br>
+
+                        <hr>
+
+                        <h5>Data Synchronization &amp; Billing Behavior</h5>
+
+                        <h6>1. Previous Entries Sync Range</h6>
+                        <p>Specifies the historical time range (e.g., <em>Last 1 Year</em>) used when synchronizing past
+                            timesheet entries across system modules and external integrations.</p>
+
+                        <img src="advance-permissions8.png" onclick="openModal('advance-permissions8.png')"
+                            alt="Previous Entries Sync Range Dropdown" width="100%" height="auto"><br><br>
+
+                        <h6>2. Enable Time and Material for Project and Task</h6>
+                        <p>Activates Time and Material (T&amp;M) billing models at both the project and individual task
+                            levels, allowing accurate tracking of billable labor and associated project costs.</p>
+
+                        <img src="advance-permissions9.png" onclick="openModal('advance-permissions9.png')"
+                            alt="Enable Time and Material for Project and Task" width="100%" height="auto"><br><br>
+
+                        <h6>3. Use User's Hourly Rate When Workplace Is Not Available</h6>
+                        <p>Provides a fallback financial calculation rule: when a workplace-specific pay rate is not
+                            defined or available, the system defaults to using the user's primary base hourly rate for
+                            cost tracking.</p>
+
+                        <img src="advance-permissions10.png" onclick="openModal('advance-permissions10.png')"
+                            alt="Use User Hourly Rate Default Toggle" width="100%" height="auto"><br><br>
                         </ul>
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                     <nav class="pagination mt-3">
-                        <a class="nav nav-prev" href="/online-timesheet-software/modern/admin/settings/general/"
+                        <a class="nav nav-prev"
+                            href="/online-timesheet-software/modern/admin/settings/advance-settings/"
                             aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                                class="d-none d-md-block">General</span></a>
-                        <a class="nav nav-next" href="/online-timesheet-software/modern/admin/settings/features/"
-                            aria-label="Previous page"> <span class="d-none d-md-block">Features</span><i
+                                class="d-none d-md-block">Advance Settings</span></a>
+                        <a class="nav nav-next" href="/online-timesheet-software/modern/admin/settings/notification/"
+                            aria-label="Previous page"> <span class="d-none d-md-block">Notifications</span><i
                                 class="ti-arrow-right ml-2"></i></a>
                     </nav>
                 </div>
@@ -582,36 +512,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.
-                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+   <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -629,6 +531,7 @@
         document.getElementById("date").innerHTML = date;
     </script>
 
+    <script src="/js/plus-toggle.js"></script>
 </body>
 <script src="../../../../../js/header-footer.js"></script>
 <script src="../../hdm-admin-aside-js/hdm-admin-aside.js"></script>

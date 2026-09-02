@@ -77,7 +77,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -89,9 +89,10 @@
                                 title="Admin Guide" class="sidelist
     active">
                                 <a href="../../../admin/">
-                                    Admin-Guide
+                                    admin Guide
                                 </a>
-                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle"></ul>
+                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle" class="sidenavbarscrollstyle">
+                                </ul>
                             </li>
                     </div>
                 </div>
@@ -100,7 +101,7 @@
                         <!-- <h2 class=mb-5 id=title>General Settings</h2> -->
                         <div class="bg-light p-4 remove-padding">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Intregration <i
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Integration <i
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 
                                 <p>
@@ -112,6 +113,8 @@
 
 
                         </div>
+
+
                         <div class="bg-light p-4 remove-padding common-scroll" id="phone">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Phone
@@ -124,7 +127,7 @@
                                     The Users can find the contact number by clicking on the phone icon which is located
                                     on the right side of the home page.
                                 </p>
-                                <li>Click on Configure to process continue.</li>
+
 
 
                                 <div><img src="phone.png" onclick="openModal('phone.png')" alt="phone" width="100%"
@@ -136,6 +139,69 @@
                                 <div><img src="phone1.png" onclick="openModal('phone1.png')" alt="phone" width="100%"
                                         height="auto"></div>
 
+                        </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="agentic-tickets">
+                            <ul class="page-list">
+                                <h2 id="_agentic-tickets">
+                                    <a class="header-icon-link highlight" href="#">
+                                        Agentic Ticket
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                                    </a>
+                                </h2>
+
+                                <p>
+                                    The Agentic Tickets feature uses AI to handle ticket replies.
+                                    It becomes active when either the <strong>AI</strong> or <strong>Co-pilot</strong>
+                                    toggle is enabled
+                                    in the Integration section. The feature only applies to the teams that are selected.
+                                </p><br>
+                                <div>
+                                    <img src="integration_toggles.png" onclick="openModal('integration_toggles.png')"
+                                        alt="Integration Toggles" width="100%" height="auto">
+                                </div>
+                                <br>
+                                <div>
+                                    <img src="agentic_tab1.png" onclick="openModal('agentic_tab1.png')"
+                                        alt="Agentic Tickets Tab" width="100%" height="auto">
+                                </div><br>
+
+                                <li>
+                                    A new tab named <strong>Agentic Tickets</strong> will appear on the homepage.
+                                    This tab includes <em>Draft</em>, <em>Open</em>, <em>Resolved</em>, and
+                                    <em>Closed</em> sections.
+                                </li><br>
+                                <div>
+                                    <img src="agentic_tab.png" onclick="openModal('agentic_tab.png')"
+                                        alt="Agentic Tickets Tab" width="100%" height="auto">
+                                </div>
+                                <br>
+
+                                <li>
+                                    Ticket lifecycle:
+                                    <ul>
+                                        <li><strong>Draft</strong> — Newly created tickets through Agentic Tickets
+                                            appear here by default.</li>
+                                        <li><strong>Open</strong> — When the ticket is opened from the comment page, it
+                                            moves to Open.</li>
+                                        <li><strong>Resolved</strong> — If the ticket is resolved by AI, it moves to
+                                            Resolved.</li>
+                                        <li><strong>Closed</strong> — If the ticket is closed by AI or through
+                                            auto-close, it moves to Closed.</li>
+                                    </ul>
+                                </li>
+                                <div>
+                                    <img src="image.png" onclick="openModal('image.png')" alt="Ticket Lifecycle"
+                                        width="100%" height="auto">
+                                </div>
+                                <br>
+
+
+
+                                <p>
+                                    Note: Unlike other tabs, the <strong>Agentic Tickets</strong> tab does not display
+                                    ticket counts.
+                                </p>
+                            </ul>
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="helpdesk-mailbox">
                             <ul class=page-list>
@@ -159,8 +225,7 @@
                                 <p> If the Power automate flow is configured in your HR365 Helpdesk application with
                                     your support mailbox ID you will be able to send all the emails through power
                                     automate.</p>
-                                <p> 1. Select Helpdesk Mailbox from the integrations section of the settings page. Now
-                                    click on the configure button as shown below in the panel.<br>
+                                <p> 1. Select Helpdesk Mailbox from the integrations section of the settings page. <br>
                                 <div><img src="mail.png" onclick="openModal('mail.png')" alt="Mail configure"
                                         width="100%" height="auto"></div>
 
@@ -216,7 +281,7 @@
 
 
                         </div> -->
-                        <div class="bg-light p-4 remove-padding common-scroll" id="integrate">
+                        <div class="bg-light p-4 remove-padding common-scroll" id="Integrating-asset">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Integrating Asset
                                         Management 365 with Helpdesk 365
@@ -307,10 +372,190 @@
                                     </ul>
                                 </li>
                         </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="AI-Integration">
 
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Copilot-Integeration">
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
+                                    Azure Open AI Integration<i class="fas fa-link"
+                                        style="font-size:12px; color:lightgray;"></i></a> </h2>
+                            <br>
+
+                            <p>
+                                <strong>Azure OpenAI</strong> empowers <strong>Helpdesk 365</strong> with intelligent
+                                automation by analyzing tickets, emails, and customer queries in real time.
+                                It extracts key information, categorizes requests, suggests responses, and streamlines
+                                resolution workflows — enabling faster, more accurate, and efficient
+                                service desk operations.
+                            </p>
+
+
+                            <p>
+                                To enable this functionality, navigate to <strong>Integration</strong> and open the
+                                <strong>Azure Open AI Integration</strong> panel.
+                            </p>
+
+                            <div>
+                                <img src="azure_ai_step1.png" onclick="openModal('azure_ai_step1.png')"
+                                    alt="AI API Integration Settings" width="100%" height="auto">
+                            </div><br>
+
+                            <p>
+                                Inside the panel, configure the following options for Azure OpenAI:
+                            </p>
+                            <ul class="page-list">
+                                <li><strong>Azure Open AI Integration</strong> — Use the toggle to turn AI integration
+                                    <em>On</em> or <em>Off</em>.
+                                </li>
+                                <div>
+                                    <img src="azure_ai_step11.png" onclick="openModal('azure_ai_step11.png')"
+                                        alt="Enable Azure OpenAI Toggle" width="100%" height="auto">
+                                </div><br>
+
+                                <li><strong>Azure AI Endpoint</strong> — The REST API or service endpoint hosted on
+                                    Microsoft Azure.</li>
+                                <li><strong>Azure AI API Key</strong> — Authentication token required for secure
+                                    connection with Azure AI services.</li>
+                                <li><strong>Azure AI Deployment Name</strong> — Identifier of the deployed AI model in
+                                    your Azure resource.</li><br>
+                                <p>
+                                    To learn how to generate and retrieve your <em>Endpoint</em>, <em>API Key</em>, and
+                                    <em>Deployment Name</em>
+                                    refer this Guide:
+                                    <a href="../../../../Configure-Azure-AI/" target="_blank">Configure Azure AI</a>.
+                                </p>
+                                <div>
+                                    <img src="azure_ai_step12.png" onclick="openModal('azure_ai_step12.png')"
+                                        alt="Azure AI Configuration Example" width="100%" height="auto">
+                                </div>
+                            </ul>
+
+                            <p>
+                                After entering the required details, click <strong>Save</strong> to activate the
+                                integration.
+
+                            </p>
+                            <div>
+                                <img src="azure_ai_step13.png" onclick="openModal('azure_ai_step13.png')"
+                                    alt="Azure AI Configuration Example" width="100%" height="auto">
+                            </div><br>
+                            <div id="Reply-with-Open-AI"></div>
+                            <br>
+                            <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Reply with Open AI
+                                    <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <p>
+                                Once the integration is completed, AI-generated replies will be created based on the
+                                ticket description. The system will provide multiple suggested resolutions, which you
+                                can review and choose from according to your requirements. You can also edit the
+                                generated response before sending it.
+                            </p>
+                            <p>
+                                The steps below will help you understand how to make use of the AI-generated replies.
+                            </p>
+                            <p>
+                                Please open the ticket and click on the Reply with AI
+                            </p>
+                            <div>
+                                <img src="reply.png" onclick="openModal('reply.png')" alt="Reply with Open AI"
+                                    width="100%" height="auto">
+                            </div><br>
+                            <p>After that, you can analyze the suggested options and select the most appropriate
+                                response based on your requirement </p>
+                            <div>
+                                <img src="reply2.png" onclick="openModal('reply2.png')" alt="Reply with Open AI"
+                                    width="100%" height="auto">
+                            </div><br>
+                            <p>
+                                Then, scroll down to the bottom section where you will see the Add button. Click on it,
+                                make any necessary modifications to the response, and then click  <strong>Save</strong>.
+                            </p>
+                            <div>
+                                <img src="reply3.png" onclick="openModal('reply3.png')" alt="Reply with Open AI"
+                                    width="100%" height="auto">
+                            </div><br>
+                            <div class="notices note">
+                                <div class="paragraph" >
+                                    <p>To make this feature work, we first need to integrate OpenAI with the Helpdesk
+                                        application. Please refer to the document below for the integration steps: <a
+                                            class="header-icon-link highlight "
+                                            href="https://kb.hr365.us/sharepoint-helpdesk/Configure-Azure-AI/">Integrate
+                                            Open AI with Helpdesk
+                                            <i id="Enhance-Your-Reply-with-AI" class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                        <br>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Enhance Your Reply with
+                                    AI
+                                    <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <p>
+                                lease add the comments according to the ticket description. After that, click on the
+                                <strong> Enhance Your Reply with AI </strong> option.
+                            </p>
+                            <p>Once selected, a pop-up window will appear displaying multiple AI-generated response
+                                options. You can review the suggestions, choose the most suitable response, and make any
+                                necessary modifications before saving or sending it. </p>
+                            <div>
+                                <img src="Enhance-reply.png" onclick="openModal('Enhance-reply.png')"
+                                    alt="Enhance-reply" width="100%" height="auto">
+                            </div><br>
+                            <p>
+                                Once selected, a pop-up window will appear displaying multiple AI-generated response
+                                options. You can review the suggestions and choose the most suitable response.
+                                <br>
+                                Additionally, the AI features allow you to:
+                            </p>
+                            <ul>
+                                <li>
+                                    Summarize the response
+                                </li>
+                                <li>Improve the content </li>
+                                <li>
+                                    Check and correct spelling mistakes
+                                </li>
+                                <li>Make the response shorter </li>
+                                <li>
+                                    Change the tone of the message
+                                </li>
+                                <li>
+                                    Translate the response into your preferred language
+                                </li>
+                            </ul>
+                            <p>You can make further modifications according to your requirements before saving or
+                                sending the response. </p>
+                            <div>
+                                <img src="Enhance-reply2.png" onclick="openModal('Enhance-reply2.png')"
+                                    alt="Enhance-reply" width="100%" height="auto">
+                            </div><br>
+                            <p>You can use either <strong> OpenAI </strong> or <strong> Copilot </strong> to perform the
+                                following actions: </p>
+                            <div>
+                                <img src="Enhance-reply3.png" onclick="openModal('Enhance-reply3.png')"
+                                    alt="Enhance-reply" width="100%" height="auto">
+                            </div><br>
+                            <p>
+                                <strong> Note:</strong> To make this feature work, we first need to integrate OpenAI or
+                                Copilot with the
+                                Helpdesk application. Please refer to the document below for the integration steps.
+                            </p>
+                            <p>Open AI:
+                                <a class="header-icon-link highlight "
+                                    href="https://kb.hr365.us/sharepoint-helpdesk/Configure-Azure-AI/">Integrate Open AI
+                                    with Helpdesk
+                                    <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                            </p>
+                            <p>Co-Pilot:
+                                <a class="header-icon-link highlight "
+                                    href="https://kb.hr365.us/sharepoint-helpdesk/modern/admin/settings/integration/#Copilot-Integeration">Integrate Co-pilot with Helpdesk
+                                    <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                            </p>
+                        </div>
+
+
+                        <div class="bg-light p-4 remove-padding common-scroll" id="copilot-integeration">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Copilot Integeration
+                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Copilot Integration
                                         <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
 
@@ -321,9 +566,107 @@
 
                                 </p>
 
+
                                 <div><img src="copilot.png" onclick="openModal( 'copilot.png') " alt="Copilot"
                                         width="100% " height="auto"></div>
                                 <br>
+                                <p>
+                                    To integrate <strong>Copilot</strong> with <strong>Helpdesk 365</strong>, begin by
+                                    creating your Copilot agent in
+                                    <a href="https://copilotstudio.microsoft.com/" target="_blank">Copilot Studio</a>.
+                                </p>
+                                <p>Ensure that you have a <strong>Premium Power Automate license</strong> to proceed
+                                    with the configuration.</p>
+
+                                <p>In the left-hand sidebar, select <strong>Agents</strong>.</p>
+                                <div>
+                                    <img src="age.png" onclick="openModal('age.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                                <p>
+                                    If you don’t already have an agent, click on <strong>+ New Agent</strong> to create
+                                    one, then configure it as required.<br>
+                                </p>
+                                <div>
+                                    <img src="age1.png" onclick="openModal('age1.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                                <p>If you already have an existing agent, simply click on that agent to open it.</p>
+
+
+                                <div>
+                                    <img src="copilot_settings1.png" onclick="openModal('copilot_settings1.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+
+                                <p>In the <strong>Knowledge</strong> section, add your Knowledge Base.</p>
+                                <div>
+                                    <img src="copilot_settings3.png" onclick="openModal('copilot_settings3.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+
+
+
+
+                                <p>Then go to <strong>Settings</strong>. Under <strong>Security</strong>, select
+                                    <strong>Web Channel Security</strong> and copy the <strong>Secret 1</strong> key.
+                                </p>
+                                <div>
+                                    <img src="copilot_settings2.png" onclick="openModal('copilot_settings2.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                                <div>
+                                    <img src="copilot_settings.png" onclick="openModal('copilot_settings.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+
+
+                                <div>
+                                    <img src="copilot_settings4.png" onclick="openModal('copilot_settings4.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+
+                                <p>Next, in <strong>Power Automate</strong>, go to <strong>My Flows</strong> and import
+                                    the <strong>Copilot server solution</strong>.</p>
+                                <div>
+                                    <img src="copilot_settings5.png" onclick="openModal('copilot_settings5.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+
+                                <p>
+                                    Open the flow and click <strong>Edit</strong>.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_flows.png" onclick="openModal('powerautomate_flows.png')"
+                                        alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                </div><br>
+                                <p>Disable the <strong>New Designer</strong> toggle
+                                    and paste the previously copied <strong>Secret 1</strong> value into the
+                                    <strong>Headers</strong> field.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_flows1.png" onclick="openModal('powerautomate_flows1.png')"
+                                        alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                </div><br>
+                                <p>
+                                    Save the flow and copy the <strong>HTTP GET URL</strong> generated under the
+                                    <em>When an HTTP request is received</em> trigger.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_flows2.png" onclick="openModal('powerautomate_flows2.png')"
+                                        alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                </div><br>
+                                <p>
+                                    Return to the application, enable the <strong>Copilot integration</strong> toggle,
+                                    and paste this URL into the configuration field.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_httpurl.png"
+                                        onclick="openModal('powerautomate_httpurl.png')"
+                                        alt="Power Automate HTTP GET URL" width="100%" height="auto">
+                                </div><br>
+
+
                                 <p> Once configured, Copilot will appear on the Comment page.</p>
 
                                 <div><img src="commentpage-copilot.png" onclick="openModal( 'commentpage-copilot.png') "
@@ -341,6 +684,268 @@
                                         width="100% " height="auto"></div>
 
 
+                        </div>
+                          <div class="bg-light p-4 remove-padding common-scroll" id="copilot-integeration">
+                            <ul class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Knowledge Base – MS Planner Integration Functionality
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+
+                                <p>
+                                   <!-- Use this toggle to enable or disable Copilot integration. Enter the configured Power
+                                    Automate (PA) URL and click Save to activate the feature.-->The MS Planner Integration functionality allows organizations to synchronize Microsoft Planner tasks into Timesheet 365. Planner-created tasks are imported as Global Tasks, which can later be moved to specific projects and used for timesheet submission
+
+                                </p>
+ <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Overview
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>This functionality helps organizations eliminate duplicate task creation and maintain synchronization between Microsoft Planner and Timesheet 365.</p>
+ <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Functionality Flow
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <ul style="list-style-type:none">
+                                   <li> •	Enable MS Planner Integration.</li>
+                                   <li>•	Create tasks in Microsoft Planner.</li>
+                                   <li>•	Synchronize Planner tasks.</li>
+                                   <li>  •	Planner tasks appear as Global Tasks.</li>
+                                   <li>•	Move Global Tasks to a project.</li>
+                                   <li>  •	Use those tasks in Weekly Timesheet.</li>
+                                   <li> •	Submit timesheet against Planner-created tasks.</li>
+                                </ul>
+                                <br>
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 1 – Enable MS Planner Integration
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Navigate to Settings → Integration and enable the 'Integrate With MS Planner' toggle.</p>
+                                <div><img src="steps.png" onclick="openModal( 'steps.png') " alt="Copilot"
+                                        width="100% " height="auto"></div>
+                                <br>
+                                <p style="display:flex;justify-content:center;align-items:center">Enable MS Planner Integration</p>
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 2 – Create Tasks in Microsoft Planner
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Create tasks inside Microsoft Planner. These tasks will later be synchronized into Timesheet 365.</p>
+                                <!--<p>
+                                    To integrate <strong>Copilot</strong> with <strong>Helpdesk 365</strong>, begin by
+                                    creating your Copilot agent in
+                                    <a href="https://copilotstudio.microsoft.com/" target="_blank">Copilot Studio</a>.
+                                </p>
+                                <p>Ensure that you have a <strong>Premium Power Automate license</strong> to proceed
+                                    with the configuration.</p>
+
+                                <p>In the left-hand sidebar, select <strong>Agents</strong>.</p>-->
+                                <div>
+                                    <img src="tasks.png" onclick="openModal('tasks.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                                <p style="display:flex;justify-content: center;align-items:center">Tasks Created in Microsoft Planner</p>
+                               <!-- <p>
+                                    If you don’t already have an agent, click on <strong>+ New Agent</strong> to create
+                                    one, then configure it as required.<br>
+                                </p>-->
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 3 – Synchronize Planner Tasks
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Click the 'Sync' button inside the Integration section to synchronize Planner tasks into Timesheet 365.</p>
+
+                                <div>
+                                    <img src="synchronize.png" onclick="openModal('synchronize.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                                <p style="display:flex;justify-content:center;align-items:center"><!--If you already have an existing agent, simply click on that agent to open it.-->Synchronize Planner Tasks</p>
+
+ <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 4 – Open Global Tasks
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Navigate to Administration → Tasks and click on the 'Global Task' button.</p>
+                                <div>
+                                    <img src="global.png" onclick="openModal('global.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                
+                                <p style="display:flex;justify-content:center;align-items:center"><!--In the <strong>Knowledge</strong> section, add your Knowledge Base.-->Open Global Tasks</p>
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 5 – View Synced Planner Tasks
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>All synchronized Planner tasks are displayed inside the Global Tasks section.</p>
+                                <div>
+                                    <img src="synced.png" onclick="openModal('synced.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+
+               <p style="display:flex;justify-content:center;align-items:center">View Synced Global Tasks</p>
+
+
+                              <!--  <p>Then go to <strong>Settings</strong>. Under <strong>Security</strong>, select
+                                    <strong>Web Channel Security</strong> and copy the <strong>Secret 1</strong> key.
+                                </p>-->
+                                   <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 6 – Bulk Move Tasks
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p><!--All synchronized Planner tasks are displayed inside the Global Tasks section.-->Select the required global tasks and click the 'Bulk Move' option.</p>
+                                <div>
+                                    <img src="bulk.png" onclick="openModal('bulk.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+                                <p style="display:flex;justify-content:center;align-items:center">Bulk Move Global Tasks</p>
+
+                               <!-- <div>
+                                    <img src="copilot_settings.png" onclick="openModal('copilot_settings.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>-->
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 7 – Move Tasks to Specific Project
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p><!--All synchronized Planner tasks are displayed inside the Global Tasks section.Select the required global tasks and click the 'Bulk Move' option.-->
+                                    Inside the Move Task window, select the Client, Project, Task Start Date, and Billable settings. Then click 'Move'.
+                                </p>
+                                
+
+
+                                <div>
+                                    <img src="move.png" onclick="openModal('move.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+ <p style="display:flex;justify-content:center;align-items:center">Move Tasks to Project</p>
+
+                               <!-- <p>Next, in <strong>Power Automate</strong>, go to <strong>My Flows</strong> and import
+                                    the <strong>Copilot server solution</strong>.</p>-->
+                                      <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 8 – Use Planner Tasks in Weekly Timesheet
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Navigate to Timesheet → Weekly Timesheet and select the required Client and Project. Planner-created tasks are available in the Task dropdown.</p>
+                                <div>
+                                    <img src="planner.png" onclick="openModal('planner.png')"
+                                        alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                </div><br>
+
+                                <p style="display:flex;justify-content:center;align-items:center">
+                                    Planner Tasks Available in Weekly Timesheet
+                                </p>
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Step 9 – Submit Timesheet
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>Select the task, Enter the required hours  and click Submit.</p>
+                                <div>
+                                    <img src="submit.png" onclick="openModal('submit.png')"
+                                        alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                </div><br>
+                                 <p style="display:flex;justify-content:center;align-items:center">
+                                    Timesheet Submitted Successfully
+                                </p>
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Key Features
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                 <ul style="list-style-type:none">
+                                   <li> •	Automatic synchronization of Planner tasks.</li>
+                                   <li>•	Global Task management.</li>
+                                   <li>•	Bulk task movement.</li>
+                                   <li> •	Project-specific task mapping.</li>
+                                   <li>•	Planner-based timesheet tracking.</li>
+                                   <li>  •	Centralized task management.</li>
+            
+                                </ul>
+                                <br>
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Benefits
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                 <ul style="list-style-type:none">
+                                   <li>•	Eliminates duplicate task creation.</li>
+                                   <li>•	Improves productivity tracking.</li>
+                                   <li>•	Reduces administrative effort.</li>
+                                   <li>•	Enhances collaboration between Teams and Timesheet 365.</li>
+                                   <li>•	Simplifies task synchronization.</li>
+                                   
+            
+                                </ul>
+                                <br>
+                                  <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Important Conditions
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <table>
+                                    <tr>
+                                        <td>Condition</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                     <tr>
+                                        <td>MS Planner Integration Enabled</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                      <tr>
+                                        <td>Planner Access Permissions</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                     <tr>
+                                        <td>Tasks Synchronized</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tasks Moved to Project</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                    <tr>
+                                        <td>User Has Project Access</td>
+                                        <td>Requirement</td>
+                                    </tr>
+                                </table>
+                                <h4 id="_dashboards"><a class="header-icon-link highlight " href=#>Summary
+
+                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
+                                </h4>
+                                <p>The MS Planner Integration functionality enables organizations to synchronize Planner tasks into Timesheet 365, convert them into project-specific tasks, and track user effort directly against Microsoft Planner-created tasks.</p>
+                               <!-- <p>Disable the <strong>New Designer</strong> toggle
+                                    and paste the previously copied <strong>Secret 1</strong> value into the
+                                    <strong>Headers</strong> field.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_flows1.png" onclick="openModal('powerautomate_flows1.png')"
+                                        alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                </div><br>
+                                <p>
+                                    Save the flow and copy the <strong>HTTP GET URL</strong> generated under the
+                                    <em>When an HTTP request is received</em> trigger.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_flows2.png" onclick="openModal('powerautomate_flows2.png')"
+                                        alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                </div><br>
+                                <p>
+                                    Return to the application, enable the <strong>Copilot integration</strong> toggle,
+                                    and paste this URL into the configuration field.
+                                </p>
+                                <div>
+                                    <img src="powerautomate_httpurl.png"
+                                        onclick="openModal('powerautomate_httpurl.png')"
+                                        alt="Power Automate HTTP GET URL" width="100%" height="auto">
+                                </div><br>
+
+
+                                <p> Once configured, Copilot will appear on the Comment page.</p>
+
+                                <div><img src="commentpage-copilot.png" onclick="openModal( 'commentpage-copilot.png') "
+                                        alt="Copilot" width="100% " height="auto"></div>
+                                <p>When you click on <b>Helpdesk Copilot</b>, the Copilot section will be displayed,
+                                    where you
+                                    can enter your questions.</p>
+
+                                <div><img src="copilot-ques.png" onclick="openModal( 'copilot-ques.png') " alt="Copilot"
+                                        width="100% " height="auto"></div>
+                                <p>Copilot will then be ready to assist you, and you can access it from the function
+                                    bar.</p>
+
+                                <div><img src="SendMessage.png" onclick="openModal( 'SendMessage.png') " alt="Copilot"
+                                        width="100% " height="auto"></div>
+
+                                -->
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="integrateMicrosoft">
                             <ul class=page-list>
@@ -365,6 +970,190 @@
 
 
                         </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="email-tracker">
+                            <ul class="page-list">
+
+                                <h2 id="_email_tracker">
+                                    <a class="header-icon-link highlight" href="#">
+                                        Integrating Mail Tracker with Helpdesk 365
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                                    </a>
+                                </h2>
+
+                                <!-- Introduction -->
+                                <p>
+                                    The <b>Mail Tracker</b> in Helpdesk 365 provides complete visibility into email
+                                    communications generated within the system.
+                                    It allows administrators and users to track notifications, reminders, and email
+                                    interactions, improving transparency,
+                                    compliance, and accountability.
+                                </p>
+
+                                <p>
+                                    <b>Note:</b> To integrate Mail Tracker 365 with Helpdesk 365, a <b>Power Automate
+                                        Premium license</b> is required.
+                                    Ensure your Power Automate plan supports premium connectors before proceeding.
+                                </p>
+
+                                <p><b>Step 1: Import Mail Tracker Flow</b></p>
+                                <p>
+                                    Navigate to <b>Power Automate</b> and select <b>My Flows</b> from the left
+                                    navigation panel.
+
+                                </p>
+                                <div>
+                                    <img src="pa1.png" onclick="openModal('pa1.png')" alt="Import Package" width="100%"
+                                        height="auto">
+                                </div><br>
+                                <p> Click <b>Import Package</b> and upload the Mail Tracker flow package provided in the
+                                    resources.</p>
+                                <div>
+                                    <img src="pa1a.png" onclick="openModal('pa1a.png')" alt="Import Package"
+                                        width="100%" height="auto">
+                                </div><br>
+                                <div>
+                                    <img src="pa1b.png" onclick="openModal('pa1b.png')" alt="Import Package"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <p><b>Step 2: Review Package Content</b></p>
+                                <p>
+                                    In the <b>Review Package Content</b> screen, locate the action
+                                    <b>HR365 - Mail Tracker 365 Encryption</b> and select <b>Create as New</b> from the
+                                    setup dropdown.
+                                </p>
+                                <div>
+                                    <img src="pa2.png" onclick="openModal('pa2.png')" alt="Review Package Content"
+                                        width="100%" height="auto">
+                                </div><br>
+                                <div>
+                                    <img src="pa2a.png" onclick="openModal('pa2a.png')" alt="Review Package Content"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <p><b>Step 3: Configure Related Resources</b></p>
+                                <p>
+                                    Under <b>Related Resources</b>, click the action icon for the listed resources and
+                                    select <b>Create New</b>.
+
+                                </p>
+                                <div>
+                                    <img src="pa3.png" onclick="openModal('pa3.png')" alt="Related Resources"
+                                        width="100%" height="auto">
+                                </div><br>
+                                <div>
+                                    <img src="pa3a.png" onclick="openModal('pa3a.png')" alt="Related Resources"
+                                        width="100%" height="auto">
+                                </div><br>
+                                <div>
+                                    <img src="pa3b.png" onclick="openModal('pa3b.png')" alt="Related Resources"
+                                        width="100%" height="auto">
+                                </div><br>
+                                <p> Once completed, click <b>Import</b> to proceed.</p>
+                                <div>
+                                    <img src="pa3c.png" onclick="openModal('pa3c.png')" alt="Related Resources"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <p><b>Step 4: Configure and Enable Flow</b></p>
+                                <p>
+                                    Open the imported flow, set the recurrence as per your business requirement,
+                                    add the required site URL, save the flow, and ensure the flow is turned <b>On</b>.
+                                </p>
+                                <div>
+                                    <img src="pa4.png" onclick="openModal('pa4.png')" alt="Enable Flow" width="100%"
+                                        height="auto">
+                                </div><br>
+                                <div>
+                                    <img src="pa5.png" onclick="openModal('pa5.png')" alt="Enable Flow" width="100%"
+                                        height="auto">
+                                </div><br>
+                                <div>
+                                    <img src="pa6.png" onclick="openModal('pa6.png')" alt="Enable Flow" width="100%"
+                                        height="auto">
+                                </div><br>
+                                <!-- Existing Content (Retained & Enhanced) -->
+                                <p>
+                                    When the <b>Integrate Mail Tracker with Helpdesk 365</b> toggle is enabled in
+                                    Helpdesk settings,
+                                    the Mail Tracker option becomes visible in the left navigation panel.
+                                </p>
+                                <div>
+                                    <img src="12.png" onclick="openModal('12.png')" alt="Toggle Integration"
+                                        width="100%" height="auto">
+                                </div><br>
+                                <div>
+                                    <img src="13.png" onclick="openModal('13.png')" alt="Toggle Integration"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <p>
+                                    From the home screen, users can access <b>My Emails</b> to view emails sent or
+                                    received by them through Helpdesk 365.
+                                    This includes delivery status, read receipts, and timestamps.
+                                </p>
+                                <div>
+                                    <img src="2.png" onclick="openModal('2.png')" alt="My Emails View" width="100%"
+                                        height="auto">
+                                </div><br>
+
+                                <p>
+                                    The <b>Team Emails</b> view displays email activities related to the user’s assigned
+                                    teams,
+                                    enabling better collaboration and transparency across teams.
+                                </p>
+                                <div>
+                                    <img src="21.png" onclick="openModal('21.png')" alt="Team Emails View" width="100%"
+                                        height="auto">
+                                </div><br>
+
+                                <p>
+                                    The <b>Top Interactions</b> section highlights recipients or teams with the highest
+                                    email engagement,
+                                    helping identify frequent communication patterns and active users.
+                                </p>
+                                <div>
+                                    <img src="22.png" onclick="openModal('22.png')" alt="Top Interactions" width="100%"
+                                        height="auto">
+                                </div><br>
+
+                                <p>
+                                    Selecting a specific user or email record opens a detailed interaction view,
+                                    showing email open time, IP address, device type, browser, and location details.
+                                </p>
+                                <div>
+                                    <img src="3.png" onclick="openModal('3.png')" alt="Email Interaction Details"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <p>
+                                    The <b>Dashboard</b> provides a consolidated view of email productivity,
+                                    including sent and received counts, open rates, recipients, and activity trends.
+                                    Filters allow analysis by user or team.
+                                </p>
+                                <div>
+                                    <img src="23.png" onclick="openModal('23.png')" alt="Mail Tracker Dashboard"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <p>
+                                    The <b>Report</b> tab displays detailed click tracking for emails,
+                                    showing recipient activity such as clicked URLs, timestamps, and interaction counts.
+                                </p>
+                                <div>
+                                    <img src="24.png" onclick="openModal('24.png')" alt="Mail Tracker Reports"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <p>
+                                    This module ensures transparent communication, supports compliance monitoring,
+                                    and improves accountability for all system-generated notifications within Helpdesk
+                                    365.
+                                </p>
+
+                            </ul>
+                        </div>
+
                         <div class="bg-light p-4 remove-padding common-scroll" id="DevOps-Integrations">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>DevOps Integrations
@@ -554,17 +1343,22 @@
                         </div>
 
                         </ul>
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3 " id="date">
+                        <nav class="pagination mt-3">
+                            <a class="nav nav-prev "
+                                href="../../../../../sharepoint-helpdesk/modern/admin/settings/role/"
+                                aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
+                                    class="d-none d-md-block">Users Roles permission</span></a>
+                            <a class="nav nav-next "
+                                href="../../../../../sharepoint-helpdesk/modern/admin/settings/notification/"
+                                aria-label="Previous page"> <span class="d-none d-md-block">Notification</span><i
+                                    class="ti-arrow-right ml-2"></i></a>
+                        </nav>
+
+
+                        </ul>
                     </div>
-                    <p class="post-meta border-bottom pb-3 mb-0 mt-3 " id="date">
-                    <nav class="pagination mt-3">
-                        <a class="nav nav-prev " href="../../../../../sharepoint-helpdesk/modern/admin/settings/role/"
-                            aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                                class="d-none d-md-block">Users Roles permission</span></a>
-                        <a class="nav nav-next "
-                            href="../../../../../sharepoint-helpdesk/modern/admin/settings/notification/"
-                            aria-label="Previous page"> <span class="d-none d-md-block">Notification</span><i
-                                class="ti-arrow-right ml-2"></i></a>
-                    </nav>
+
                 </div>
             </div>
         </div>
@@ -581,36 +1375,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.
-                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2 "
-                                href="https://www.facebook.com/hr365apps/ " aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2 "
-                                href="https://twitter.com/HR365_HRMS " aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-                        <!-- <li class=list-inline-item><a class="text-color d-inline-block p-2 " href=# aria-label=Github><i class=ti-github></i></a></li> -->
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2 "
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd "
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -627,6 +1393,7 @@
         document.getElementById("date ").innerHTML = date;
     </script>
 
+    <script src="/js/plus-toggle.js"></script>
 </body>
 <script src="../../../../../js/header-footer.js"></script>
 <script src="../../hdm-admin-aside-js/hdm-admin-aside.js"></script>

@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Asset Management 365 | Admin Guide | Home-Page</title>
+    <title>Asset 365 | Admin Guide | Home-Page</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="Hugo 0.92.2">
     
     <!-- Meta Description -->
-    <meta name="description" content="Explore the home page of Asset Management 365's Admin Guide for effective asset management, asset tracking, and management best practices.">
+    <meta name="description" content="Explore the home page of Asset 365's Admin Guide for effective asset management, asset tracking, and management best practices.">
     <!-- External Styles and Scripts -->
     <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css">
@@ -75,12 +75,12 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
                         <h5 class="mbHeading" style="color:SlateBlue"> <a
-                                href="../../../../online-asset-management-application/">Asset Management 365</a></h5>
+                                href="../../../../online-asset-management-application/">Asset 365</a></h5>
                         <a class=back-btn href="../../admin/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title=Installation
@@ -107,8 +107,7 @@
 
 
                             </li>
-                        </div>
-                        <ol>
+                      
 
                             <li>
 
@@ -187,7 +186,9 @@
                             of assets according to their types or classifications.
 </p>
 
-                        <div><img src="CategoryView.png" onclick="openModal('CategoryView.png')" alt="Home page"
+                        <div><img src="CategoryView1.png" onclick="openModal('CategoryView1.png')" alt="Home page"
+                                width="100%" height="auto"></div><br>
+                                 <div><img src="CategoryView.png" onclick="openModal('CategoryView.png')" alt="Home page"
                                 width="100%" height="auto"></div><br>
 
                         <h3 id="_dashboards"><a class="header-icon-link highlight" href="">Camera Scanner<i
@@ -210,10 +211,41 @@
                                 If the barcode is not available, an error message will be displayed.</li> <br>
                             <div><img src="barcode.png" onclick="openModal('barcode.png')" alt="Home page" width="100%"
                                     height="auto"></div><br>
+
+                                   
+
                         </ol>
 
+                        <p>
+    The <b>Bulk Assign</b> and <b>Bulk Return</b> options have been added to simplify asset management 
+    by allowing multiple assets to be assigned or returned at once from the <b>Quick Action</b> module.
+</p>
 
-                    </div>
+<p>
+    Enable the <b>Bulk Assign</b> option to assign multiple assets to a single employee simultaneously, 
+    reducing manual effort and saving time.
+</p>
+<div>
+    <img src="3a.png" onclick="openModal('3a.png')" alt="Bulk Assign Option" width="100%" height="auto">
+</div>
+<br>
+
+<p>
+    Similarly, use the <b>Bulk Return</b> option to process the return of multiple assets in one step, 
+    making the return workflow faster and more efficient.
+</p>
+<div>
+    <img src="3b.png" onclick="openModal('3b.png')" alt="Bulk Return Option" width="100%" height="auto">
+</div>
+<br>
+<p>Sample inventory items are now provided by default, simplifying the initial setup and testing process for new users.</p>
+
+<div>
+    <img src="3c.png" onclick="openModal('3c.png')" alt="Bulk Return Option" width="100%" height="auto">
+</div>
+<br>
+
+                    
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                     <nav class="pagination mt-3">
                         <a class="nav nav-prev" href="../architecture-diagram/" aria-label="Previous page"><i
@@ -239,36 +271,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.
-                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../../js/header-footer.js"></script>
     <script src="../../../../js/showhidefunction.js"></script>
@@ -288,6 +292,6 @@
         document.getElementById("date").innerHTML = date;
     </script>
     <script src="../aside-assets/aside-assets.js"></script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

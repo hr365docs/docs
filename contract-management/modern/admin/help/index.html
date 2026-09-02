@@ -70,22 +70,20 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
                         <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../contract-management/">CLM 365</a></h5>
                         <a class=back-btn href="../../../../contract-management/" aria-label=back></a>
                         <ul class=list-styled>
-                            <li data-nav-id="../../../../sharepoint-employee-directory/" title=Admin-Guide class="sidelist
+                            <li data-nav-id="../../../../sharepoint-employee-directory/" title=admin Guide class="sidelist
 active">
                                 <a href="../../admin/">
                                     Admin Guide
                                 </a>
                                
-                                <ul id="clmmodernadmin">
-
-                                </ul>
+                                <ul id="clmmodernadmin" class="sidenavbarscrollstyle"></ul>
                             
                         </li>
                         </ul>
@@ -114,6 +112,14 @@ active">
                       <div><img src="epmhelp.png" onclick="openModal('epmhelp.png')" alt="Help" width="100%" height="auto"></div>
                          
                       <br>
+                       <p id="feedback"><b>Feedback</b>:
+                            The Rate Your Overall Experience with CLM365 feature allows users to provide
+                            feedback on their experience with the application. This feedback helps improve the
+                            application by identifying strengths and areas for enhancement, ensuring that user needs
+                            are met effectively.</p>
+                            <div><img src="Feedback.png" onclick="openModal('feedback.png')"
+                                alt="product active" width="100%" height="auto"></div>
+                        <br>
                      
           
               </ul>
@@ -165,35 +171,8 @@ active">
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> 
-                        <a href="https://www.hr365.us/sla/">SLA.</a>
-                    <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                        href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                        href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                    Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-                    
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../../js/showhidefunction.js"></script>
     <script src="../../../../js/header-footer.js"></script>
@@ -213,6 +192,6 @@ function closeModal() {
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html> 

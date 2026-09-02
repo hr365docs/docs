@@ -71,21 +71,21 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"><a href="/LMS/index.html">Learning Management
+                        <h5 class="mbHeading" style="color:SlateBlue"><a href="/LMS/">Learning Management
                                 System 365</a></h5>
-                        <a class=back-btn href="/LMS/index.html" aria-label=back></a>
+                        <a class=back-btn href="/LMS/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
                                 title=" Admin Guide" class="sidelist
     active">
-                                <a href="../../admin/">
+                                <a href="../../../admin/">
                                     Admin Guide
                                 </a>
-                                <ul id="lmsmodernadmin">
+                                <ul id="lmsmodernadmin" class="sidenavbarscrollstyle">
                                 </ul>
                         </ul>
                         </ul>
@@ -160,11 +160,38 @@
                                             <img src="SettingIcon.png" onclick="openModal('SettingIcon.png')"
                                                 alt="question" width="100%" height="auto">
                                         </div> <br>
+                                        <ul>
+                                    <li><strong>Overwrite user details</strong>: If enabled, it updates existing user
+                                        details during sync.</li>
+                                    <li><strong>Exclude Options / Sync M365 Groups</strong>: Choose to either exclude
+                                        specific user types or sync users based on M365 groups.</li>
+                                    <li><strong>Exclude Sign in Blocked Users</strong>: Prevents blocked users from
+                                        being synced.</li>
+                                    <li><strong>Exclude Shared Mailboxes</strong>: Shared mailboxes will not be included
+                                        in the sync.</li>
+                                    <li><strong>Exclude Unlicensed Users</strong>: Filters out users without any
+                                        license.</li>
+                                    <li><strong>Exclude Licensed Users</strong>: Excludes users with licensed or free
+                                        license and a valid subscription.</li>
+                                    <li><strong>Exclude Free Licensed Users</strong>: Removes users who only have a free
+                                        license.</li>
+                                    <li><strong>Exclude User by Department</strong>: Allows filtering users by
+                                        department.</li>
+                                    <li><strong>Exclude User by Location</strong>: Lets you exclude users based on their
+                                        location.</li>
+                                    <li><strong>Exclude User by Title</strong>: Filters users by their job title.</li>
+                                    <li><strong>Excluded Domain</strong>: Prevents users from specific domains from
+                                        being included.</li>
+                                    <li><strong>Exclude Users by Name</strong>: Specific user names can be excluded from
+                                        syncing.</li>
+                                        <div><img src="Settings.png" onclick="openModal('Settings.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>
                                         <p>Then, click on the Configure button</p>
                                         <div>
                                             <img src="Configure.png" onclick="openModal('Configure.png')" alt="question"
                                                 width="100%" height="auto">
                                         </div> <br>
+                                        
 
                                         <p>Users can now rearrange the custom columns they have created in their
                                             preferred order and save the changes.</p>
@@ -207,8 +234,8 @@
                         <a class="nav nav-prev" href="/LMS/modern/admin/setting/general-setting/"
                             aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
                                 class="d-none d-md-block">General Settings</span></a>
-                        <a class="nav nav-next" href="/LMS/modern/admin/setting/Notification/"
-                            aria-label="Previous page"> <span class="d-none d-md-block">Notification </span><i
+                        <a class="nav nav-next" href="/LMS/modern/admin/setting/General-administration/"
+                            aria-label="Previous page"> <span class="d-none d-md-block">General Administration </span><i
                                 class="ti-arrow-right ml-2"></i></a>
                     </nav>
 
@@ -230,11 +257,11 @@
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
+                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a> <a
                             href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
                         Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
                 </div>
@@ -274,6 +301,6 @@
     <script src="../../../../../js/header-footer.js"></script>
     <script src="../../../../../js/showhidefunction.js"></script>
     <script src="/js/LMS-modern-admin.js"></script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

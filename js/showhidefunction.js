@@ -123,3 +123,20 @@ window.addEventListener("load", () => {
 
 })
 
+// General dropdown JS code
+if (document.querySelector(".aside_dropdown_icon_general")) {
+    let generalDropdownIcon = document.querySelector(".aside_dropdown_icon_general");
+    let generalDropdownList = document.querySelector(".aside_dropdown_list_general");
+
+    generalDropdownIcon.addEventListener("click", () => {
+        generalDropdownIcon.classList.toggle("active");
+        generalDropdownList.classList.toggle("active");
+
+        if (generalDropdownList.classList.contains("active")) {
+            let height = generalDropdownList.scrollHeight;
+            generalDropdownList.setAttribute("style", `height:${height}px;opacity:1;overflow:visible;`);
+        } else {
+            generalDropdownList.setAttribute("style", "height:0px;overflow:hidden;opacity:0;");
+        }
+    });
+}

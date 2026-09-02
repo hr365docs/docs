@@ -84,19 +84,19 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
                         <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../../../HRMS-HR365/">HRMS-HR365 </a></h5>
                         <a class=back-btn href="../../../../../../../HRMS-HR365/" aria-label=back></a>
                         <ul class=list-styled>
-                            <li data-nav-id="" title=Admin-Guide class="sidelist
+                            <li data-nav-id="" title=admin Guide class="sidelist
 active">
                                 <a href="../../../../../admin/">
                                     Admin Guide
                                 </a>
-                                 <div id="hcm-admin-guide" class="sidenavbarscrollstyle">
+                                 <div id="hcm-admin-Guide" class="sidenavbarscrollstyle">
                                    
                                 </div>   
 
@@ -225,15 +225,78 @@ active">
                                 <p>You can add your company's logo here.</p><br>
                                 <div><img src="14.png" onclick="openModal('14.png')" alt="RM365" width="100%" height="auto">
                                 </div>   <br>
-                          -->  </ul>
+                          -->  
+                             <div class="bg-light p-4 remove-padding common-scroll" id="default-currency">
+  <h3 id="_default_currency">
+    <a class="header-icon-link highlight" href="#">Default Currency
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+
+ <p>
+In <b>Global Settings</b>, the <b>default currency</b> is set to <b>USD</b> by default. Administrators can change the default currency by selecting a different option from the dropdown menu and clicking <b>Save</b>. The selected currency will then be applied as the new system-wide default.
+</p>
+
+  <div>
+    <img src="currency-settings.png" onclick="openModal('currency-settings.png')" alt="Default Currency Settings" width="100%" height="auto">
+  </div><br>
+  
+
+  <p>Once configured, the selected currency will automatically appear in the following places:</p>
+  <ul>
+    <li><b>Requisition:</b> When adding a requisition, the chosen currency will be visible for the <i>Minimum Annual Budget</i> and <i>Maximum Annual Budget</i> fields. Users can also change the currency manually if needed.<br><br>
+      <img src="currency-requisition.png" onclick="openModal('currency-requisition.png')" alt="Currency in Requisition" width="100%" height="auto">
+    </li><br>
+    <li><b>Job Posting:</b> The selected currency will appear when posting a new job.<br><br>
+      <img src="currency-jobposting.png" onclick="openModal('currency-jobposting.png')" alt="Currency in Job Posting" width="100%" height="auto">
+    </li><br>
+    <li><b>Candidate Management:</b> While adding a candidate to a job, the default currency will be displayed.<br><br>
+      <img src="currency-candidate.png" onclick="openModal('currency-candidate.png')" alt="Currency in Candidate Management" width="100%" height="auto">
+    </li><br>
+    <!-- <li><b>Offer Letter:</b> The selected currency will also be reflected while generating an offer letter.<br>
+      <img src="currency-offerletter.png" onclick="openModal('currency-offerletter.png')" alt="Currency in Offer Letter" width="100%" height="auto">
+    </li> -->
+  </ul>
+  
+       
+</div>
+
+<div class="bg-light p-4 remove-padding common-scroll" id="currency-separator">
+  <h3 id="_currency_separator">
+    <a class="header-icon-link highlight" href="#">Currency Separator
+      <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+  </h3>
+
+  <p><b>Currency Separator Options:</b> Administrators can choose how numbers are displayed system-wide by selecting one of the following options:</p><br>
+  <img src="18g.png" onclick="openModal('18g.png')" alt="Currency Separator Options" width="100%" height="auto"><br>
+<br>
+  <ol>
+    <li><b>International:</b> Uses a comma to separate every three digits from the right. For example, 1,000,000 for one million.<br><br>
+      <img src="18a.png" onclick="openModal('18a.png')" alt="International Separator Example 1" width="100%" height="auto"><br>
+      <img src="18b.png" onclick="openModal('18b.png')" alt="International Separator Example 2" width="100%" height="auto"><br>
+    </li><br>
+
+    <li><b>India:</b> Follows the Indian numbering system, where the first three digits are grouped, and subsequent digits are grouped in twos. For example, 10,00,000 for ten lakh.<br><br>
+      <img src="18c.png" onclick="openModal('18c.png')" alt="India Separator Example 1" width="100%" height="auto"><br>
+      <img src="18d.png" onclick="openModal('18d.png')" alt="India Separator Example 2" width="100%" height="auto"><br>
+    </li><br>
+
+    <li><b>No Separator:</b> Displays numbers without any thousand separators. For example, 1000000 for one million.<br><br>
+      <img src="18e.png" onclick="openModal('18e.png')" alt="No Separator Example 1" width="100%" height="auto"><br>
+      <img src="18f.png" onclick="openModal('18f.png')" alt="No Separator Example 2" width="100%" height="auto"><br>
+    </li><br>
+  </ol>
+</div>
+</ul>
 
 
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../Email-configration/" aria-label="Previous page"><i
-                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Email Configuration</span></a>
-                            <a class="nav nav-next" href="../permissions/" aria-label="Previous page"> <span
-                                    class="d-none d-md-block">Permission</span><i
+                            <a class="nav nav-prev" href="../../settings/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Seetings</span></a>
+                            <a class="nav nav-next" href="../custom-field/" aria-label="Previous page"> <span
+                                    class="d-none d-md-block">Field Customization</span><i
                                     class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
@@ -253,15 +316,15 @@ active">
         </div>
     </div>
 
-    <footer class="section pb-4">
+   <!-- <footer class="section pb-4">
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
+                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a> <a
                             href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
                         Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
                 </div>
@@ -281,7 +344,9 @@ active">
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>-->
+    <div id="footer-container"></div>
+    <script src="/footer/index.js"></script>
      <script src="../../../../../../../js/script.min.js"></script>
     <script src="../../../../../../../js/showhidefunction.js"></script>
     
@@ -302,6 +367,6 @@ active">
     </script>
      <script src="../../../../../../../js/header-footer.js"></script>
     <script src="../../../../../../../js/hcm-modern-admin.js"></script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

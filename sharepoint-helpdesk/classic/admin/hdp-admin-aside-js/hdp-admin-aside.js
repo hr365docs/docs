@@ -108,7 +108,7 @@ $(document).ready(function () {
         "<img  class='helpdesk-img aside_dropdown_icon' src='/sharepoint-helpdesk/classic/admin/hdp-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
         "</li>"+
 
-        "<li data-nav-id='../Admin-Guide/Administration/' class='sidelist dropdown_romove_dot'>"+
+        "<li data-nav-id='../admin Guide/Administration/' class='sidelist dropdown_romove_dot'>"+
         "<ul class='sidenavSub-topics aside_dropdown_list'>"+
         "<li data-nav-id='./Assign-Assets/' title='Priority Type' class='sidelist'>"+
         "<a href='/sharepoint-helpdesk/classic/admin/settings/ticket-customization/#priority-type'>Priority Type</a>"+

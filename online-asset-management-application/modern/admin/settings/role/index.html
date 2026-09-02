@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Asset Management 365 | Admin Guide | Settings | Role</title>
+    <title>Asset 365 | Admin Guide | Settings | Role</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="Hugo 0.92.2">
 
     <!-- Meta Description for SEO -->
-    <meta name="description" content="Learn how to manage roles and permissions in Asset Management 365 to streamline access control and ensure security.">
+    <meta name="description" content="Learn how to manage roles and permissions in Asset 365 to streamline access control and ensure security.">
 
 
     <!-- External Styles and Scripts -->
@@ -75,19 +75,19 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
                         <h5 class="mbHeading" style="color:SlateBlue"> <a
-                                href="../../../../../online-asset-management-application/">Asset Management 365</a></h5>
+                                href="../../../../../online-asset-management-application/">Asset 365</a></h5>
                         <a class=back-btn href="../../../admin/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
                                 title="Admin Guide" class="sidelist
     active">
                                 <a href="../../../admin/">
-                                    Admin-Guide
+                                    admin Guide
                                 </a>
                                 <ul id="asset-asidebar" class="sidenavbarscrollstyle">
                                 </ul>
@@ -208,6 +208,58 @@
                                 </p>
                                 <div><img src="add_user.png" onclick="openModal('add_user.png')" alt="add user"
                                         width="100%" height="auto"></div><br>
+                                        <p><b>Full Sync for Users:</b> This feature allows administrators to synchronize all
+                                    user data
+                                    from an external directory or source (such as Microsoft 365) into the system. It
+                                    ensures that user information like names, emails, and roles are up to date and
+                                    accurately reflected in the application.</p>
+
+                                <div><img src="UserFullsync.png" onclick="openModal('UserFullsync.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br>
+                                <p><b>Update from M365:</b> This option allows administrators to refresh or update
+                                    existing
+                                    user details from Microsoft 365. It syncs only the latest changes (such as name,
+                                    email, or role updates) for already added users without performing a full sync. To include or exclude specific groups before syncing, use the setting option on the right side of the page.</p>
+
+                                <div><img src="UpdatefromM365.png" onclick="openModal('UpdatefromM365.png')"
+                                        alt="Update users role" width="100%" height="auto"></div><br>
+                                <br>
+                                <p>Click on <b>Setting Icon.</b></p>
+                                <div><img src="SettingIcon.png" onclick="openModal('SettingIcon.png')"
+                                        alt="Update users role" width="100%" height="auto"></div>
+                                <p>
+                                <ul>
+                                    <li><strong>Overwrite user details</strong>: If enabled, it updates existing user
+                                        details during sync.</li>
+                                    <li><strong>Exclude Options / Sync M365 Groups</strong>: Choose to either exclude
+                                        specific user types or sync users based on M365 groups.</li>
+                                    <li><strong>Exclude Sign in Blocked Users</strong>: Prevents blocked users from
+                                        being synced.</li>
+                                    <li><strong>Exclude Shared Mailboxes</strong>: Shared mailboxes will not be included
+                                        in the sync.</li>
+                                    <li><strong>Exclude Unlicensed Users</strong>: Filters out users without any
+                                        license.</li>
+                                    <li><strong>Exclude Licensed Users</strong>: Excludes users with licensed or free
+                                        license and a valid subscription.</li>
+                                    <li><strong>Exclude Free Licensed Users</strong>: Removes users who only have a free
+                                        license.</li>
+                                    <li><strong>Exclude User by Department</strong>: Allows filtering users by
+                                        department.</li>
+                                    <li><strong>Exclude User by Location</strong>: Lets you exclude users based on their
+                                        location.</li>
+                                    <li><strong>Exclude User by Title</strong>: Filters users by their job title.</li>
+                                    <li><strong>Excluded Domain</strong>: Prevents users from specific domains from
+                                        being included.</li>
+                                    <li><strong>Exclude Users by Name</strong>: Specific user names can be excluded from
+                                        syncing.</li>
+                                </ul>
+                                <br>
+                                </p>
+                                
+
+                                <div><img src="Settings.png" onclick="openModal('Settings.png')" alt="Update users role"
+                                        width="100%" height="auto"></div><br>
+
 
                         </div>
                         <div class="bg-light p-4 remove-padding common-scroll" id="asset-manager-to-add-assets">
@@ -337,36 +389,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.
-                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+    <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -384,7 +408,7 @@
         document.getElementById("date").innerHTML = date;
     </script>
 
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 <script src="../../../../../js/header-footer.js"></script>
 <script src="../../aside-assets/aside-assets.js"></script>
 <script src="../../../../../js/showhidefunction.js"></script>

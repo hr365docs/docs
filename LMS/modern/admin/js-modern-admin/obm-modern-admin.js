@@ -23,7 +23,7 @@ $(document).ready(function () {
         // "</li>" +
 
         "<li class='dropdownicon sidelist'>" +
-        "<a class='qwe'  href='/sharepoint-employee-onboarding/modern/admin/setting'> Settings </a>" +
+        "<a class='qwe'  href='/sharepoint-employee-onboarding/modern/admin/setting/'> Settings </a>" +
         "<img class='helpdesk-img aside_dropdown_icon_setting' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
         "</li>" +
 
@@ -33,7 +33,7 @@ $(document).ready(function () {
 
 
         "<li class='dropdownicon sidelist'>" +
-        "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation'> General Administration </a>" +
+        "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/general-administation/'> General Administration </a>" +
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
         "</li>" +
         "<li data-nav-id='./Setting/' title='System Setting' class='sidelist dropdown_romove_dot'>" +
@@ -146,7 +146,7 @@ $(document).ready(function () {
         //HEADING START
 
         "<li class='dropdownicon sidelist'>" +
-        "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting'> General Settings </a>" +
+        "<a class='qwe' href='/sharepoint-employee-onboarding/modern/admin/setting/general-setting/'> General Settings </a>" +
         "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>" +
         "</li>" +
         //HEADING END

@@ -89,7 +89,7 @@
     </header>
 
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -106,7 +106,7 @@
                                 </a>
                                 <ul>
                                     <li data-nav-id=../../../Getting-started/installation/using-app-file/install.html
-                                        title=install class="sidelist">
+                                        title='SharePoint Store' class="sidelist">
                                         <a href="../sharepoint-store/">
                                             Installation of Time off Manager 365 from SharePoint Store
                                         </a>
@@ -114,14 +114,14 @@
                                     <li data-nav-id=../../../Getting-started/installation/using-app-file/app-file.html
                                         title=using-app-file class="sidelist active">
                                         <a href="../using-app-file/">
-                                            Installation of Time off Manager 365 from app catalog
+                                            Installation of Time off Manager 365 from App Catalog
                                         </a>
 
 
                                     <li data-nav-id=../../../Getting-started/installation/using-app-file/install.html
-                                        title=install class="sidelist">
+                                        title='Microsoft Teams' class="sidelist">
                                         <a href="../microsoft-teams/">
-                                            Installation of Time off Manager 365 from Microsoft teams
+                                            Installation of Time off Manager 365 from Microsoft Teams
                                         </a>
                                     </li>
 
@@ -227,7 +227,7 @@
 
                                     <div class="notices note">
                                         <div class="paragraph">
-                                            <p>We must add Helpdesk 365 as web part in the page.</p>
+                                            <p>We must add Time off Manager 365 as web part in the page.</p>
                                         </div>
                                         <br>
                                         <li>Click on <b>New</b> and select <b>Page</b>.</li>
@@ -245,7 +245,7 @@
                     <br> -->
                                         <br>
 
-                                        <li>Now click on <b>+ icon</b> and then select the Helpdesk 365 as
+                                        <li>Now click on <b>+ icon</b> and then select the Time off Manager 365 as
                                             shown in below.</li>
                                         <br>
                                         <div><img src="plus.png" onclick="openModal('plus.png')" alt="plus icon"
@@ -260,6 +260,23 @@
 
                     <div><img src="edit_title.png" onclick="openModal('edit_title.png')" alt="Edit title" width="100%"
                         height="auto"></div> -->
+ <li>
+    When users first access <b>Time off Manager 365</b>, a welcome popup is displayed to introduce the platform and provide an overview of the onboarding process.
+</li>
+<br>
+<div><img src="onboarding_get1.png" onclick="openModal('onboarding_get1.png')" alt="Welcome Popup" width="100%" height="auto"></div>
+<br>
+
+<li>
+    After clicking <b>Get Started</b>, the system prompts you to enter your organization details. Fill in the required fields and click <b>Save and Next</b> to proceed with the setup.
+</li>
+<div><img src="1.png" onclick="openModal('1.png')" alt="Welcome Popup" width="100%" height="auto"></div>
+<br>
+<li>
+    Next, you’ll be guided to configure leave types. Click on <b>+ Add</b> to create a new leave type. Use the <b>Action</b> button to edit or delete existing leave types. Once done, click <b>Save</b> to proceed.
+</li>
+<div><img src="2.png" onclick="openModal('2.png')" alt="Welcome Popup" width="100%" height="auto"></div>
+<br>
 
                                         <br>
 
@@ -310,7 +327,7 @@
                                     class="ti-arrow-left mr-2"></i>
                                 <span class="d-none d-md-block">SharePoint Store</span></a>
                             <a class="nav nav-next" href="../microsoft-teams/" aria-label="Previous page">
-                                <span class="d-none d-md-block">Microsoft teams</span><i
+                                <span class="d-none d-md-block">Microsoft Teams</span><i
                                     class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
@@ -329,35 +346,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../../../js/header-footer.js"></script>
     <script>
@@ -376,6 +366,6 @@
         document.getElementById("date").innerHTML = date;
     </script>
     <script src="../../../../../js/header-footer.js"></script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

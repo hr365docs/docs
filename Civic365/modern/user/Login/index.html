@@ -65,7 +65,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -74,23 +74,23 @@
                         <a class=back-btn href="../../../../Civic365/" aria-label=back></a>
 
                         <ul class=list-styled>
-                            <li data-nav-id=../Civic365/index.html title="Admin Guide" class="sidelist active">
+                            <li data-nav-id=../Civic365/index.html title='User Guide' class="sidelist active">
                                 <a href="../../user/">
                                     User Guide
                                 </a>
-                                <ul id="hdm-admin-aside"></ul>
+                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle"></ul>
 
 
                     </div>
                 </div>
 
-                <div class=col-lg-9>
-
-                    <div class="bg-light p-4 remove-padding">
-                        <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Log In
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                        </h2>
-
+                              <div class=col-lg-9>
+        <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
+        <!-- <h2 class=mb-5 id=title> Help</h2> -->
+        <div class="bg-light p-4 remove-padding">
+            <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Log In
+                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+        </h2>
 
                         <ol>
                             <li>Go to <a href="https://request.civic365.ca/">request.civic365.ca</a>.</li>
@@ -135,7 +135,7 @@
                                         height="auto">
                                 </div><br> 
 
-                        </ol>
+                        </ol></div>
 
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">
@@ -161,35 +161,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../../js/header-footer.js"></script>
     <script src="../../../../js/tmp-classic-userguide.js"></script>
@@ -211,6 +184,6 @@
         document.getElementById("date").innerHTML = date;
     </script>
     <script src="../../../../js/header-footer.js"></script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

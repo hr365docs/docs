@@ -82,11 +82,11 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../../HRMS-HR365/">HR365-HRMS </a></h5>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../../HRMS-HR365/">HRMS-HR365 </a></h5>
                         <a class=back-btn href="../../../../../../HRMS-HR365/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
@@ -95,7 +95,7 @@
                                 <a href="../../../../admin/">
                                     Admin Guide
                                 </a>
-                                 <div id="hcm-admin-guide" class="sidenavbarscrollstyle">
+                                 <div id="hcm-admin-Guide" class="sidenavbarscrollstyle">
                                    
                                 </div>  
                                 
@@ -121,10 +121,10 @@
                                             href="/HRMS-HR365/modern/admin/apps/PM365/settings/#general-setting/">General
                                             Settings</a>
                                     </li>
-                                    <!-- <li>
+                                    <li>
                                         <a
-                                            href="/HRMS-HR365/modern/admin/apps/PM365/settings/#users">User(s)</a>
-                                    </li> -->
+                                            href="/HRMS-HR365/modern/admin/apps/PM365/settings/#AdvanceSettings">Advance Settings</a>
+                                    </li>
                                      <li>
                                         <a
                                             href="/HRMS-HR365/modern/admin/apps/PM365/settings/#features">Features</a>
@@ -408,7 +408,7 @@
 
                     </div> -->
 
-                    <!-- <div class="bg-light p-4 common-scroll remove-padding" id="AdvanceSettings">
+                    <div class="bg-light p-4 common-scroll remove-padding" id="AdvanceSettings">
                         <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Advance Settings<i
                                     class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a> </h3>
                         <br>
@@ -505,8 +505,8 @@
                             <div><img src="calculations.png" onclick="openModal( 'calculations.png') "
                                     alt="AdvanceSettings" width="100% " height="auto"></div>
                             <br>
-                            <!-- <div>
-                            <p>
+                          <div>
+                            <!-- <p>
                              Both
                             </p>
                             <div><img src="both.png" onclick="openModal( 'both.png') "
@@ -632,16 +632,20 @@
                             <div><img src="Wellness.png" onclick="openModal( 'Wellness.png') "
                                     alt="AdvanceSettings" width="100% " height="auto"></div>
                             <br>
-                            </div> -->
-                            <!-- <p>
+                            </div>  -->
+                          <p>
                                 Select your preferred option from the list, and your rating will be assigned based on
                                 your choice.
                             </p>
                             <div><img src="FeedbackSettings.png" onclick="openModal( 'FeedbackSettings.png') "
                                     alt="AdvanceSettings" width="100% " height="auto"></div>
                             <br>
+                            <p>Enable to send an email notification to the manager</p>
+                               <div><img src="FeedbackSettings1.png" onclick="openModal( 'FeedbackSettings1.png') "
+                                    alt="AdvanceSettings" width="100% " height="auto"></div>
+                            <br>
 
-                    </div>  -->
+                    </div> 
 
                     <div class="bg-light p-4 common-scroll remove-padding" id="notification">
                         <h3 id="_dashboards"><a class="header-icon-link highlight" href=#>Notification<i
@@ -1381,15 +1385,15 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
+    <!--<footer class="section pb-4">
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
+                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a> <a
                             href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
                         Policy.
                         </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
@@ -1402,7 +1406,7 @@
                         <li class=list-inline-item><a class="text-color d-inline-block p-2 "
                                 href="https://twitter.com/HR365_HRMS " aria-label=Twitter><i
                                     class=ti-twitter-alt></i></a></li>
-                        <!-- <li class=list-inline-item><a class="text-color d-inline-block p-2 " href=# aria-label=Github><i class=ti-github></i></a></li> -->
+                         <li class=list-inline-item><a class="text-color d-inline-block p-2 " href=# aria-label=Github><i class=ti-github></i></a></li> 
                         <li class=list-inline-item><a class="text-color d-inline-block p-2 "
                                 href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd "
                                 aria-label=Linkedin><i class=ti-linkedin></i></a></li>
@@ -1410,7 +1414,9 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>-->
+    <div id="footer-container"></div>
+    <script src="/footer/index.js"></script>
     <script src="../../../../../../js/script.min.js"></script>
    
     <script src="../../../../../../js/showhidefunction.js"></script>
@@ -1432,6 +1438,6 @@
     <script src="../../../../../../js/header-footer.js"></script>
     <script src="../../../../../../js/hcm-modern-admin.js"></script>
 
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

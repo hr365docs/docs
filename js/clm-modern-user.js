@@ -14,29 +14,31 @@ $(document).ready(function () {
 "</li>"+
 
 
-"<li class='dropdownicon sidelist' title='Self Review'>"+
+"<li class='dropdownicon sidelist' title='Reports'>"+
 "<a class='qwe' href='/contract-management/modern/user/self-review/'>"+
     "Reports"+
     "</a>"+ 
-    "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
+    "<img src='/down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+
 "</li>"+
+
+
 
 "<li data-nav-id='./installation/requirments/' class='sidelist dropdown_romove_dot'>"+
     
     
     "<ul class='sidenavSub-topics aside_dropdown_list active'>"+
-        "<li data-nav-id='../General' title= 'Review'  class=sidelist>"+
+        "<li data-nav-id='../General' title= 'Contract Report'  class=sidelist>"+
           "<a href='/contract-management/modern/user/self-review/#review'>"+
             "Contract Report"+
             "</a>"+
             "</li>"+
 
-            "<li data-nav-id='../General' title='Summary and Plan'  class=sidelist>"+
+            "<li data-nav-id='../General' title='Request Report'  class=sidelist>"+
                 "<a href='/contract-management/modern/user/self-review/#summary-and-plan'>"+
                     "Request Report"+
                   "</a>"+
                   "</li>"+
-                  "<li data-nav-id='../General' title='Summary and Plan'  class=sidelist>"+
+                  "<li data-nav-id='../General' title='Task Report'  class=sidelist>"+
                   "<a href='/contract-management/modern/user/self-review/#task-report'>"+
                       "Task Report"+
                     "</a>"+
@@ -45,10 +47,22 @@ $(document).ready(function () {
     "</ul>"+
 
 "</li>"+
+"<li class='dropdownicon sidelist' title='Delegation'>"+
+"<a class='qwe' href='/contract-management/modern/user/delegation/'>"+
+    "Delegation"+
+    "</a>"+ 
+   
+"</li>"+
+"<li class='dropdownicon sidelist' title='themes'>"+
+"<a class='qwe' href='/contract-management/modern/user/theme/'>"+
+    "Themes"+
+    "</a>"+ 
+   
+"</li>"+
 
 
 "<li class='dropdownicon sidelist' title='Help'>"+
-    "<a class='qwe' href='/contract-management/modern/user/feedback/'>"+
+    "<a class='qwe' href='/contract-management/modern/user/help/'>"+
         "Help"+
      "</a>"+ 
     // "<img src='./down-arrow-svgrepo-com.svg'  class='imageIconmodernuser aside_dropdown_icon'>"+

@@ -77,15 +77,15 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-          <div class="container container-padding">
+          <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../sharepoint-helpdesk/">Timesheet 365 </a></h5>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../online-timesheet-software/">Timesheet 365 </a></h5>
                         <a class=back-btn href="../../../../online-timesheet-software/" aria-label=back></a>
 
                         <ul class=list-styled>
-                            <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title=Installation
+                            <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title=Upgrading
                                 class="sidelist">
                                 <a href="../../../../online-timesheet-software/modern/getting-started/upgrading/">
                                     Upgrading
@@ -128,22 +128,22 @@
                                     style="font-size:12px; color:lightgray;"></i></a> </h3>
                    
                             <ul class=page-list>
-                                <li data-nav-id=../Getting-started/installation/using-app-file title=Installation
+                                <li data-nav-id=../Getting-started/installation/using-app-file title=Upgrading
                                     class="sidelist">
                                    
                                     You can Upgrade the HR365 applications in two ways:
 
                                     <ol>
-                                        <li data-nav-id="../../Getting-started/installation/install/" title=installation
+                                        <li data-nav-id="../../Getting-started/installation/install/" title='SharePoint Store'
                                             class="sidelist">
                                             <a href="../../../../online-timesheet-software/modern/getting-started/upgrading/sharepoint/">
                                                 Using SharePoint Store
                                             </a>
                                         </li>
                                         <li data-nav-id="../../Getting-started/installation/using-app-file/"
-                                            title=installation class=sidelist>
+                                            title='App Catalog' class=sidelist>
                                             <a href="../../../../online-timesheet-software/modern/getting-started/upgrading/catalog/">
-                                                Using App catalog
+                                                Using App Catalog
                                             </a>
                                         </li>
                                         <!-- <li data-nav-id="../../Getting-started/installation/install/" title=installation
@@ -165,11 +165,11 @@
 
 
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../../../../employee-vacation-tracker-time-off-manager/" aria-label="Previous page"><i
+                            <a class="nav nav-prev" href="../installation/" aria-label="Previous page"><i
                                     class="ti-arrow-left mr-2"></i>
-                                <span class="d-none d-md-block">Time of Manager 365</span></a>
+                                <span class="d-none d-md-block">Installation</span></a>
                             <a class="nav nav-next" href="../../../../online-timesheet-software/modern/getting-started/upgrading/sharepoint/" aria-label="Previous page">
-                                <span class="d-none d-md-block">sharepoint</span><i
+                                <span class="d-none d-md-block">SharePoint Store</span><i
                                     class="ti-arrow-right ml-2"></i></a>
                         </nav>
                         </nav>
@@ -189,34 +189,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a href="https://www.hr365.us/sla/">SLA.</a>
-                    <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                        href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                        href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                    Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-                    
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../../js/header-footer.js"></script>
     <script>
@@ -234,6 +208,6 @@ function closeModal() {
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html> 

@@ -73,7 +73,7 @@
     </header>
 
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -87,8 +87,7 @@
                                 <a href="../../admin/">
                                     Admin Guide
                                 </a>
-                                <ul id="clmmodernadmin">
-                                </ul>
+                                <ul id="clmmodernadmin" class="sidenavbarscrollstyle"></ul>
                             </li>
                         </ul>
 
@@ -114,18 +113,43 @@
                             <div><img src="2.png" onclick="openModal('2.png')" alt="Report data" width="100%"
                                     height="auto"></div><br>
 
-                            <p><b>Business Unit: </b> Business Units categorize different segments or divisions within
+                            <!-- <p><b>Business Unit: </b> Business Units categorize different segments or divisions within
                                 an organization. They are used to organize contracts and manage permissions or access
                                 levels for users based on their roles within specific business units.</p>
                             <div><img src="3.png" onclick="openModal('3.png')" alt="Report data" width="100%"
-                                    height="auto"></div><br>
+                                    height="auto"></div><br> -->
+                            <p><b>Clause Library:</b> The Clause Library is a centralized repository within CLM365 that
+                                stores reusable legal clauses. Users can select predefined clauses while drafting
+                                contracts, ensuring consistency and reducing drafting time.</p>
+                            <div><img src="clauseLibrary.png" onclick="openModal('clauseLibrary.png')"
+                                    alt="Clause Library" width="100%" height="auto"></div><br>
+                            <p>When you click <strong>+ Add</strong> in the Clause Library, a new clause creation form
+                                opens. This interface allows users to define reusable clauses by specifying the type,
+                                name, tags, and clause content using a rich text editor.</p>
+                            <div><img src="clauseLibrary2.png" onclick="openModal('clauseLibrary2.png')"
+                                    alt="Clause Library" width="100%" height="auto"></div><br>
+                            <p>To create a new clause, select the appropriate <strong>Clause Type</strong>, enter a
+                                unique <strong>Clause Name</strong>, add relevant <strong>Tags</strong> for easy search,
+                                and provide the full <strong>Clause</strong> content. You may also assign a
+                                <strong>Clause Title</strong> and optionally create an <strong>Alternate Clause</strong>
+                                for variations.
+                            </p>
+                            <div><img src="clauseLibrary1.png" onclick="openModal('clauseLibrary1.png')"
+                                    alt="Clause Library" width="100%" height="auto"></div><br>
+                            <p><b>Clause Type:</b> Clause Types help categorize clauses in the Clause Library, such as
+                                indemnity clauses, termination clauses, confidentiality clauses, etc. These types assist
+                                in organizing and retrieving clauses based on their legal function or relevance.</p>
+
+                            <div><img src="clauseType2.png" onclick="openModal('clauseType2.png')" alt="Clause Type"
+                                    width="100%" height="auto"></div><br>
+
 
                             <p><b>Contract Type: </b> Contract Types in CLM365 categorize contracts based on their
                                 nature or purpose, such as sales contracts, service agreements, non-disclosure
                                 agreements (NDAs), etc. Each type might have specific templates, clauses, or processes
                                 associated with it.</p>
                             <p>Go to "Administration" in the left navigation bar ,select "Contract type", click on
-                                "Edit" option of a contract</p>
+                                "+ Contract Type" .</p>
                             <div><img src="contractType.png" onclick="openModal('contractType.png')" alt="Report data"
                                     width="100%" height="auto"></div><br>
                             <p>Add a field by filling Column name, Type and Contract type.</p>
@@ -151,9 +175,9 @@
                             <div><img src="NewField.png" onclick="openModal('NewField.png')" alt="Report data"
                                     width="100%" height="auto"></div><br>
 
-                            <p><b>Counter Party: </b> Counterparty Types classify different types of counterparties
-                                based on their nature, such as customers, vendors, partners, etc. This classification
-                                helps in segmenting and managing contracts associated with different counterparties.</p>
+                            <p><b>Counter Party: </b> The Counterparty section in CLM365 enables you to manage external
+                                parties involved in contracts. It supports both individual and bulk additions for
+                                streamlined contract collaboration and tracking.</p>
                             <div><img src="5.png" onclick="openModal('5.png')" alt="Report data" width="100%"
                                     height="auto"></div><br>
 
@@ -168,6 +192,23 @@
                                 document types associated with contracts.
                             </p>
                             <div><img src="7.png" onclick="openModal('7.png')" alt="Report data" width="100%"
+                                    height="auto"></div><br>
+                            <p><strong>Obligations</strong> represent the specific actions, tasks, or responsibilities
+                                outlined in a contract that must be fulfilled by either party. This module helps track
+                                and manage these commitments efficiently throughout the contract lifecycle.</p>
+                            <div><img src="17.png" onclick="openModal('17.png')" alt="Report data" width="100%"
+                                    height="auto"></div><br>
+                            <p>Clicking <strong>+ Add</strong> in the Obligations section opens the <strong>Add
+                                    Obligation</strong> form, where you define the obligation's title, contract type,
+                                category, priority, status, and description. Use <strong>Save</strong> to submit or
+                                <strong>Save and Add More</strong> to continue adding obligations.
+                            </p>
+                            <div><img src="18.png" onclick="openModal('18.png')" alt="Report data" width="100%"
+                                    height="auto"></div><br>
+                            <p><strong>Obligation Type</strong> categorizes each obligation (e.g., Compliance, Payment,
+                                Delivery) to streamline tracking, reporting, and reminder workflows, ensuring clarity
+                                and accountability.</p>
+                            <div><img src="71.png" onclick="openModal('71.png')" alt="Report data" width="100%"
                                     height="auto"></div><br>
 
                             <!-- <p><b>Obligations: </b> Obligations refer to commitments or responsibilities outlined in a contract that parties must fulfill. CLM365 might include a module to manage, track, and ensure compliance with these obligations.
@@ -188,12 +229,137 @@
                             </p>
                             <div><img src="10.png" onclick="openModal('10.png')" alt="Report data" width="100%"
                                     height="auto"></div><br>
-                            <p><b>Request Action: </b> Request Actions might represent predefined actions or steps that
-                                users can take regarding contract-related processes. These actions could include Edit
-                                Request, Send for Legal Review, Execution approval, etc.
+                            <p id="Request-Action"></p>
+
+                            <p><b>Custom Actions from Request Action Menu</b></p>
+
+                            <p>
+                                Users can create their own custom actions directly from the <b>Request Action</b> menu.
+                                By selecting <b>Action</b> from the request options, you can configure and define
+                                actions based on:
+                            </p>
+
+                            <ul>
+                                <li>User Roles</li>
+                                <li>Approval Flow Requirements</li>
+                                <li>Specific Business Processes</li>
+                            </ul>
+
+                            <p>
+                                This allows organizations to tailor actions according to their internal workflow and
+                                ensure that the correct approval process is followed for each role.
                             </p>
                             <div><img src="11.png" onclick="openModal('11.png')" alt="Report data" width="100%"
                                     height="auto"></div><br>
+                            <br>
+
+                            <p><b>Creating a New Action from the Actions Panel</b></p>
+
+                            <p>To create a new custom action, follow the steps below:</p>
+
+                            <ol>
+                                <li>Navigate to the <b>Request Action</b> menu.</li>
+                                <li>Click on <b>Actions</b> to create a new action.</li>
+                            </ol>
+
+                            <p>Once you click <b>Actions</b>, the <b>Action Panel</b> will open.</p>
+
+                            <ol start="3">
+                                <li>
+                                    In the panel, select the <b>Request Stage</b> from the dropdown menu.
+                                    <p>The available request stages include:</p>
+                                    <ul>
+                                        <li>Draft Approval</li>
+                                        <li>Business Approval</li>
+                                        <li>Execution Approval</li>
+                                        <li>Legal Review</li>
+                                        <li>Negotiation</li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    After selecting the request stage, choose the <b>Role</b> for which the action
+                                    should be displayed.
+                                    <p>
+                                        This ensures that the action is only visible to the appropriate users based on
+                                        their role and the selected approval stage.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    For each request stage, choose the appropriate <b>Stage Status</b>.
+                                    <p>The available status options are:</p>
+                                    <ul>
+                                        <li>Not Started</li>
+                                        <li>Pending</li>
+                                        <li>Completed</li>
+                                    </ul>
+                                    <p>
+                                        This allows actions to appear only when the request is in the correct status.
+                                    </p>
+
+
+                                </li>
+
+                                <li>
+                                    Next, select the <b>Request Actions</b> that should be available for the chosen role
+                                    and stage.
+                                    <p>Some of the available request actions include:</p>
+                                    <ul>
+                                        <li>Edit Request</li>
+                                        <li>Withdraw Request</li>
+                                        <li>Upload Draft</li>
+                                        <li>Print Draft</li>
+                                        <li>Execution Approval</li>
+                                        <li>Send for Legal Review</li>
+                                        <li>Negotiation</li>
+                                        <li>Publish</li>
+                                    </ul>
+                                    <p>
+                                        You can select multiple actions based on your workflow requirements.
+                                        <br> This configuration ensures that users see only the relevant actions
+                                        depending on
+                                        their role, the current stage, and the request status.
+                                    </p>
+                                    <div><img src="Action_2.png" onclick="openModal('Action_2.png')" alt="Report data"
+                                            width="100%" height="auto"></div><br>
+                                    <div><img src="Action_4.png" onclick="openModal('Action_3.png')" alt="Report data"
+                                            width="100%" height="auto"></div><br>
+                                </li>
+
+                                <li>
+                                    Once all selections are completed, click <b>Save</b> to create and apply the new
+                                    action configuration.
+                                </li>
+                                <div><img src="Action_3.png" onclick="openModal('Action_4.png')" alt="Report data"
+                                        width="100%" height="auto"></div><br>
+                            </ol>
+
+                            <p>
+                                After saving the action configuration, the selected actions will become available based
+                                on the setup you created.
+                            </p>
+
+                            <p>
+                                When an approver is reviewing and approving a task, the <b>Action</b> options will be
+                                automatically enabled according to:
+                            </p>
+
+                            <ul>
+                                <li>The configured Request Stage</li>
+                                <li>The selected Stage Status</li>
+                                <li>The assigned User Role</li>
+                                <li>The chosen Request Actions</li>
+                            </ul>
+
+                            <p>
+                                This ensures that approvers can only perform the actions that are relevant to their role
+                                and the current workflow stage.
+                            </p>
+                            <div><img src="Action_5.png" onclick="openModal('Action_5.png')" alt="Report data"
+                                    width="100%" height="auto"></div><br>
+
+
                             <p><b>Users </b> Users refer to individuals or entities granted access to CLM365. They might
                                 have various roles, permissions, or access levels within the system to perform actions
                                 related to contract management based on their roles in the organization.
@@ -201,17 +367,422 @@
                             <div><img src="12.png" onclick="openModal('12.png')" alt="Report data" width="100%"
                                     height="auto"></div><br>
                         </div>
+                        <p id="Request-action">
+                            <strong>Request Action</strong>
+                        </p>
+                        <p>Users can create their own custom actions directly from the Request Action menu. By selecting
+                            Action from the request options, you can configure and define actions based on:</p>
+                        <ul>
+                            <li>User Roles</li>
+                            <li>Approval Flow Requirements</li>
+                            <li>Specific Business Processes</li>
+                        </ul>
+                        <p>This allows organizations to tailor actions according to their internal workflow and ensure
+                            that the correct approval process is followed for each role.</p>
 
+                        <img src="request1.png" onclick="openModal('request1.png')" alt="Request Action Overview"
+                            width="100%" height="auto"><br><br>
+
+                        <p>
+                            <strong>Creating a New Action from the Actions Panel</strong>
+                        </p>
+                        <p>To create a new custom action, follow the steps below:</p>
+                        <ol>
+                            <li>Navigate to the <strong>Request Action</strong> menu.</li>
+                            <li>Click on <strong>Actions</strong> to create a new action.</li>
+                            <p>Once you click <strong>Actions</strong>, the <strong>Action Panel</strong> will open.</p>
+                            <li>In the panel, select the <strong>Request Stage</strong> from the dropdown menu.
+                                <br>The available request stages include:
+                                <ul>
+                                    <li>Draft Approval</li>
+                                    <li>Business Approval</li>
+                                    <li>Execution Approval</li>
+                                    <li>Legal Review</li>
+                                    <li>Negotiation</li>
+                                </ul>
+                            </li>
+                            <li>After selecting the request stage, choose the <strong>Role</strong> for which the action
+                                should be displayed.
+                                <br>This ensures that the action is only visible to the appropriate users based on their
+                                role and the selected approval stage.
+                            </li>
+                            <li>For each request stage, choose the appropriate <strong>Stage Status</strong>.
+                                <br>The available status options are:
+                                <ul>
+                                    <li>Not Started</li>
+                                    <li>Pending</li>
+                                    <li>Completed</li>
+                                </ul>
+                                This allows actions to appear only when the request is in the correct status.
+                            </li>
+                            <li>Next, select the <strong>Request Actions</strong> that should be available for the
+                                chosen role and stage.
+                                <br>Some of the available request actions include:
+                                <ul>
+                                    <li>Edit Request</li>
+                                    <li>Withdraw Request</li>
+                                    <li>Upload Draft</li>
+                                    <li>Print Draft</li>
+                                    <li>Execution Approval</li>
+                                    <li>Send for Legal Review</li>
+                                    <li>Negotiation</li>
+                                    <li>Publish</li>
+                                </ul>
+                                You can select <strong>multiple actions</strong> based on your workflow requirements.
+                                <br>This configuration ensures that users see only the relevant actions depending on
+                                their role, the current stage, and the request status.
+                            </li>
+                        </ol>
+
+                        <img src="request2.png" onclick="openModal('request2.png')" alt="Configure Request Action"
+                            width="100%" height="auto"><br><br>
+
+                        <ol start="7">
+                            <li>Once all selections are completed, click <strong>Save</strong> to create and apply the
+                                new action configuration.</li>
+                        </ol>
+
+                        <img src="request3.png" onclick="openModal('request3.png')" alt="Save Action Configuration"
+                            width="100%" height="auto"><br><br>
+
+                        <p>After saving the action configuration, the selected actions will become available based on
+                            the setup you created. When an approver is reviewing and approving a task, the
+                            <strong>Action</strong> options will be automatically enabled according to:
+                        </p>
+                        <ul>
+                            <li>The configured <strong>Request Stage</strong></li>
+                            <li>The selected <strong>Stage Status</strong></li>
+                            <li>The assigned <strong>User Role</strong></li>
+                            <li>The chosen <strong>Request Actions</strong></li>
+                        </ul>
+                        <p>This ensures that approvers can only perform the actions that are relevant to their role and
+                            the current workflow stage.</p>
+
+                        <img src="request4.png" onclick="openModal('request4.png')" alt="Approver Action Menu View"
+                            width="100%" height="auto"><br><br>
 
                     </div>
 
+                    <h2 id="post-rejection">
+                        <a class="header-icon-link highlight" href="#">Post Rejection
+                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                        </a>
+                    </h2>
+                    <p>For approval stages that include <strong>more than one approval level</strong>, an additional
+                        configuration option is available: </p>
+                    <blockquote>
+                        “Post rejection, redirect the task to” 
+                    </blockquote>
+                    <p>This option defines where the task should be sent if it is rejected during the approval process.
+                        </p>
 
+                    <h3>Available Redirection Options</h3>
+                    <ul>
+                        <li><strong>Previous Levels:</strong> Redirects the task back to the earlier approval levels for
+                            re-review. </li>
+                        <li><strong>Business User:</strong> (Applicable for Request Approval stages) Sends the rejected
+                            task back to the business user who initiated the request. </li>
+                        <li><strong>Contract Owner:</strong> (Applicable for Contract Approval stages) Sends the
+                            rejected task back to the contract owner for further action. </li>
+                    </ul>
+
+                    <img src="Post-Rejection.png" onclick="openModal('Post-Rejection.png')"
+                        alt="Post Rejection Configuration Field" width="100%" height="auto"><br><br>
+                    <img src="Post-Rejection2.png" onclick="openModal('Post-Rejection2.png')"
+                        alt="Request Approval Redirection Options" width="100%" height="auto"><br><br>
+                    <img src="Post-Rejection3.png" onclick="openModal('Post-Rejection3.png')"
+                        alt="Contract Approval Redirection Options" width="100%" height="auto"><br><br>
+
+                    <hr>
+
+                    <strong>Post Rejection Scenarios</strong>
+                    <p>When the <strong>Post rejection, redirect the task to</strong> option is configured, the
+                        rejection behavior changes based on the selected redirection target. </p>
+
+                    <h3>Case 1: No Option Selected (Default Behavior)</h3>
+                    <p>When no redirection option is configured, the system follows the default rejection handling based
+                        on the approval level. </p>
+
+                    <h4>1. Business Approval</h4>
+                    <ul>
+                        <li>
+                            <strong>Level 1:</strong> If a rejection occurs at Level 1, the approval flow stops at this
+                            stage.  The <strong>Business User (Requester)</strong> is allowed to
+                            edit the request, and once updated, the approval workflow is triggered again from the
+                            beginning. 
+                            <br><br>
+                            <img src="Post-Rejection4.png" onclick="openModal('Post-Rejection4.png')"
+                                alt="Business Approval Rejected View" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection5.png" onclick="openModal('Post-Rejection5.png')"
+                                alt="Edit Request Form" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection6.png" onclick="openModal('Post-Rejection6.png')"
+                                alt="Update and Submit Button" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection7.png" onclick="openModal('Post-Rejection7.png')"
+                                alt="Workflow Re-triggered Timeline" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection8.png" onclick="openModal('Post-Rejection8.png')"
+                                alt="Business Approval Restarted Status" width="100%" height="auto"><br><br>
+                        </li>
+                        <li>
+                            <strong>Level 2 or Above:</strong> If a rejection occurs at Level 2 or higher, a task is
+                            automatically created for the <strong>previous approval level</strong>, and the approval
+                            process continues normally from that earlier stage. 
+                            <br><br>
+                            <img src="Post-Rejection9.png" onclick="openModal('Post-Rejection9.png')"
+                                alt="Level 2 Rejection Task View" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection10.png" onclick="openModal('Post-Rejection10.png')"
+                                alt="Previous Level Task Recreated" width="100%" height="auto"><br><br>
+                        </li>
+                    </ul>
+
+                    <h4>2. Legal Review</h4>
+                    <ul>
+                        <li>If a rejection occurs during the Legal Review stage, a <strong>Business Approval – Level
+                                1</strong> task is automatically created on rejection, and the approval workflow then
+                            continues as per the standard process. 
+                            <br><br>
+                            <img src="Post-Rejection11.png" onclick="openModal('Post-Rejection11.png')"
+                                alt="Legal Review Task Rejection Action" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection12.png" onclick="openModal('Post-Rejection12.png')"
+                                alt="Legal Review Rejected Status" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection13.png" onclick="openModal('Post-Rejection13.png')"
+                                alt="Business Approval Task Created Post Rejection" width="100%" height="auto"><br><br>
+                        </li>
+                    </ul>
+
+                    <h4>3. Draft Approval</h4>
+                    <p>Rejection handling in the Draft Approval stage depends on the approval level: </p>
+                    <ul>
+                        <li>
+                            <strong>Level 1:</strong> If a rejection occurs at Draft Approval – Level 1, a <strong>Legal
+                                Review</strong> task is created and the approval workflow continues as usual from that
+                            stage. 
+                            <br><br>
+                            <img src="Post-Rejection14.png" onclick="openModal('Post-Rejection14.png')"
+                                alt="Draft Approval Initial View" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection15.png" onclick="openModal('Post-Rejection15.png')"
+                                alt="Draft Approval Rejection Action" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection16.png" onclick="openModal('Post-Rejection16.png')"
+                                alt="Draft Approval Rejected Status" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection17.png" onclick="openModal('Post-Rejection17.png')"
+                                alt="Legal Review Task Created Post Rejection" width="100%" height="auto"><br><br>
+                        </li>
+                        <li>
+                            <strong>Level 2 or Above:</strong> If a rejection occurs at Draft Approval – Level 2 or
+                            higher, a task is created for the <strong>previous approval level</strong>, and the workflow
+                            continues normally through the approval process. 
+                            <br><br>
+                            <img src="Post-Rejection18.png" onclick="openModal('Post-Rejection18.png')"
+                                alt="Draft Approval Level 2 Rejection Handling" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection19.png" onclick="openModal('Post-Rejection19.png')"
+                                alt="Draft Approval Previous Level Task Restored" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection20.png" onclick="openModal('Post-Rejection20.png')"
+                                alt="Workflow Progress From Restored Stage" width="100%" height="auto"><br><br>
+                        </li>
+                    </ul>
+
+                    <h4>4. Execution Approval</h4>
+                    <p>Rejection handling in the Execution Approval stage depends on the approval level: </p>
+                    <ul>
+                        <li>
+                            <strong>Level 1:</strong> If a rejection occurs at Execution Approval – Level 1, a
+                            <strong>Legal Review</strong> task is created, and the approval workflow then continues as
+                            usual from the Legal Review stage. 
+                            <br><br>
+                            <img src="Post-Rejection21.png" onclick="openModal('Post-Rejection21.png')"
+                                alt="Execution Approval Initial Stage" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection22.png" onclick="openModal('Post-Rejection22.png')"
+                                alt="Execution Approval Rejection Status" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection23.png" onclick="openModal('Post-Rejection23.png')"
+                                alt="Legal Review Task Generation" width="100%" height="auto"><br><br>
+                        </li>
+                        <li>
+                            <strong>Level 2 or Above:</strong> If a rejection occurs at Execution Approval – Level 2 or
+                            higher, the system creates a task of the <strong>previous approval level</strong>, and the
+                            approval workflow continues as usual from that level. 
+                            <br><br>
+                            <img src="Post-Rejection24.png" onclick="openModal('Post-Rejection24.png')"
+                                alt="Execution Approval Higher Level View" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection25.png" onclick="openModal('Post-Rejection25.png')"
+                                alt="Execution Approval Rejected at Higher Level" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection26.png" onclick="openModal('Post-Rejection26.png')"
+                                alt="Previous Execution Stage Restored" width="100%" height="auto"><br><br>
+                        </li>
+                    </ul>
+
+                    <h4>5. eSign &amp; Publish Stages</h4>
+                    <ul>
+                        <li><strong>eSign:</strong> Rejection is <strong>not allowed</strong> in the eSign stage. Tasks
+                            in this stage cannot be rejected. </li>
+                        <li><strong>Publish:</strong> Rejection is <strong>not allowed</strong> in the Publish stage.
+                            The workflow does not support rejection at this stage. </li>
+                    </ul>
+
+                    <h4>6. Contract Approval</h4>
+                    <p>Rejection handling in the Contract Approval stage depends on the approval level: 
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Level 1:</strong> If a rejection occurs at Contract Approval – Level 1, the approval
+                            flow stops at this stage.  The <strong>Contract Owner</strong> is
+                            allowed to edit the request, and once updated, the approval workflow is re-triggered. 
+                            <br><br>
+                            <img src="Post-Rejection27.png" onclick="openModal('Post-Rejection27.png')"
+                                alt="Contract Approval Level 1 Task View" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection28.png" onclick="openModal('Post-Rejection28.png')"
+                                alt="Contract Approval Level 1 Rejected Status" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection29.png" onclick="openModal('Post-Rejection29.png')"
+                                alt="Contract Action Menu View" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection30.png" onclick="openModal('Post-Rejection30.png')"
+                                alt="Edit Contract and Update Form" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection31.png" onclick="openModal('Post-Rejection31.png')"
+                                alt="Contract Workflow Re-triggered View" width="100%" height="auto"><br><br>
+                        </li>
+                        <li>
+                            <strong>Level 2 or Above:</strong> If a rejection occurs at Contract Approval – Level 2 or
+                            higher, the <strong>previous level task</strong> is created, and the approval process
+                            continues as usual from that level. 
+                            <br><br>
+                            <img src="Post-Rejection32.png" onclick="openModal('Post-Rejection32.png')"
+                                alt="Contract Approval Level 2 Active View" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection33.png" onclick="openModal('Post-Rejection33.png')"
+                                alt="Contract Approval Level 2 Rejection Status" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection34.png" onclick="openModal('Post-Rejection34.png')"
+                                alt="Contract Previous Level Task Restored" width="100%" height="auto"><br><br>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <h3>Case 2: “Post rejection, redirect the task to” Option Selected</h3>
+
+                    <h4>General Rule: If “Business User” Is Selected at Any Stage</h4>
+                    <p>When <strong>Business User</strong> is chosen as the redirection option, if the task is rejected
+                        at any stage, the request is redirected back to the <strong>Business User (Requester)</strong>.
+                       The Requester is allowed to edit and update the request. 
+                        Once the update is completed, the approval workflow is re-triggered. </p>
+
+                    <img src="Post-Rejection35.png" onclick="openModal('Post-Rejection35.png')"
+                        alt="Business User Configuration Setup View" width="100%" height="auto"><br><br>
+
+                    <ul>
+                        <li>
+                            <strong>Business Approval – Level 1:</strong> For Business Approval – Level 1, the rejection
+                            behavior remains the same as the default. The approval flow stops at this stage, the
+                            <strong>Requester (Business User)</strong> can edit the request, and after the update, the
+                            approval workflow is re-triggered. 
+                            <br><br>
+                            <img src="Post-Rejection36.png" onclick="openModal('Post-Rejection36.png')"
+                                alt="Business Approval Level 1 Rejection Status View" width="100%"
+                                height="auto"><br><br>
+                            <img src="Post-Rejection37.png" onclick="openModal('Post-Rejection37.png')"
+                                alt="Edit Request Workspace" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection38.png" onclick="openModal('Post-Rejection38.png')"
+                                alt="Update and Submit Form Action" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection39.png" onclick="openModal('Post-Rejection39.png')"
+                                alt="Workflow Re-initialized Status" width="100%" height="auto"><br><br>
+                        </li>
+                        <li>
+                            <strong>Business Approval – Level 2 or Above:</strong> If a rejection occurs at Business
+                            Approval – Level 2 or higher, the task is <strong>redirected and assigned</strong> to the
+                            approval level selected in the “Post rejection, redirect the task to” configuration, and the
+                            workflow then continues as usual from that stage. 
+                            <br><br>
+                            <img src="Post-Rejection40.png" onclick="openModal('Post-Rejection40.png')"
+                                alt="Business Approval Level Redirect Dropdown Options" width="100%"
+                                height="auto"><br><br>
+                        </li>
+                        <li>
+                            <strong>Legal Review:</strong> If a rejection occurs during the Legal Review stage, the task
+                            is <strong>redirected and assigned</strong> to <strong>Business Approval – Level 1</strong>,
+                            and the approval workflow then continues as usual from that stage. 
+                            <br><br>
+                            <img src="Post-Rejection41.png" onclick="openModal('Post-Rejection41.png')"
+                                alt="Legal Review Initial Setup Workflow View" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection42.png" onclick="openModal('Post-Rejection42.png')"
+                                alt="Legal Review Rejection Tracking Status" width="100%" height="auto"><br><br>
+                            <img src="Post-Rejection43.png" onclick="openModal('Post-Rejection43.png')"
+                                alt="Business Approval Task Created From Redirection" width="100%"
+                                height="auto"><br><br>
+                        </li>
+                        <li>
+                            <strong>Draft Approval:</strong> Rejection handling depends on the level:
+                            <ul>
+                                <li><strong>Level 1:</strong> If a rejection occurs at Draft Approval – Level 1, the
+                                    task is <strong>redirected and assigned</strong> to the <strong>Legal
+                                        Review</strong> stage, and the approval workflow then continues as usual from
+                                    that stage. </li>
+                                <li><strong>Level 2 or Above:</strong> If a rejection occurs at Draft Approval – Level 2
+                                    or higher, the task is <strong>redirected and assigned</strong> to the approval
+                                    level selected in the configuration, and the workflow continues as usual from that
+                                    stage.</li>
+                            </ul>
+                            <br>
+                            <img src="Post-Rejection44.png" onclick="openModal('Post-Rejection44.png')"
+                                alt="Draft Approval Redirection Configurations" width="100%" height="auto"><br><br>
+                        </li>
+                        <li>
+                            <strong>Execution Approval:</strong> Rejection handling depends on the level:
+                            <ul>
+                                <li><strong>Level 1 (As Default Flow):</strong> If a rejection occurs at Execution
+                                    Approval – Level 1, the task is <strong>redirected and assigned</strong> to the
+                                    <strong>Legal Review</strong> stage, and the approval workflow then continues as
+                                    usual from that stage. 
+                                </li>
+                                <li><strong>Level 2 or Above:</strong> If a rejection occurs at Execution Approval –
+                                    Level 2 or higher, the task is <strong>redirected and assigned</strong> to the
+                                    approval level selected in the configuration, and the workflow continues as usual
+                                    from that stage.</li>
+                            </ul>
+                            <br>
+                            <img src="Post-Rejection45.png" onclick="openModal('Post-Rejection45.png')"
+                                alt="Execution Approval Redirect Dropdown Choices" width="100%" height="auto"><br><br>
+                        </li>
+                        <li>
+                            <strong>eSign &amp; Publish Stages:</strong>
+                            <ul>
+                                <li><strong>eSign:</strong> Rejection is <strong>not allowed</strong> in the eSign
+                                    stage. Tasks in this stage cannot be rejected or redirected.
+                                </li>
+                                <li><strong>Publish:</strong> Rejection is <strong>not allowed</strong> in the Publish
+                                    stage. The workflow does not support rejection at this stage. 
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <h4>General Rule: If “Contract Owner” Is Selected at Any Stage</h4>
+                    <p>When <strong>Contract Owner</strong> is chosen as the redirection option, if the task is rejected
+                        at any stage, the contract is redirected back to the <strong>Contract Owner</strong>.  The Contract Owner is allowed to edit and update the contract. 
+                        Once the update is completed, the approval workflow is re-triggered. </p>
+
+
+                    <ul>
+                        <li>
+                            <strong>Contract Approval:</strong> Rejection handling depends on the level: 
+                            <ul>
+                                <li><strong>Level 1:</strong> If a rejection occurs at Contract Approval – Level 1, the
+                                    approval flow stops at this stage. The <strong>Contract Owner</strong> is allowed to
+                                    edit the request, and after the update, the approval workflow is re-triggered.
+                                  </li>
+                                <li><strong>Level 2 or Above:</strong> If a rejection occurs at Contract Approval –
+                                    Level 2 or higher, the task is <strong>redirected and assigned</strong> to the
+                                    approval level selected in the “Post rejection, redirect the task to” configuration,
+                                    and the workflow then continues as usual from that stage.
+                                </li>
+                            </ul>
+                            <br>
+
+                        </li>
+                    </ul>
+                   
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                     <nav class="pagination mt-3">
                         <a class="nav nav-prev" href="../reports/" aria-label="Previous page"><i
                                 class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Reports</span></a>
-                        <a class="nav nav-next " href="../settings/" aria-label="Previous page"> <span
-                                class="d-none d-md-block">Settings</span><i class="ti-arrow-right ml-2"></i></a>
+                        <a class="nav nav-next " href="../counterparty/" aria-label="Previous page"> <span
+                                class="d-none d-md-block">Counterparty</span><i class="ti-arrow-right ml-2"></i></a>
                     </nav>
                 </div>
             </div>
@@ -232,35 +803,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../../js/header-footer.js"></script>
     <script src="../../../../js/showhidefunction.js"></script>
@@ -281,6 +825,7 @@
         document.getElementById("date").innerHTML = date;
     </script>
 
+    <script src="/js/plus-toggle.js"></script>
 </body>
 
 </html>

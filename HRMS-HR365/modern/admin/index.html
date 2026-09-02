@@ -3,7 +3,7 @@
 
 <head>
     <meta charset=utf-8>
-    <title>HRMS-HR365 | User</title>
+    <title>HRMS-HR365 | Admin</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
     <meta name=description content="Performance Management">
@@ -25,7 +25,7 @@
         }
     </style>
     <!-- <link rel="stylesheet" href="../../../css/style.min.css"> -->
-   <link href=https://hr365docs.github.io/docs/css/style.min.css rel=stylesheet media=screen> 
+    <link href=https://hr365docs.github.io/docs/css/style.min.css rel=stylesheet media=screen>
     <script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js></script>
     <script src=https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js></script>
     <script src=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js></script>
@@ -108,7 +108,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0 ">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -122,7 +122,7 @@ active">
                                 <a href="../admin/">
                                     Admin Guide
                                 </a>
-                                <ul id="hcm-admin-guide" class="sidenavbarscrollstyle"></ul>
+                                <ul id="hcm-admin-Guide" class="sidenavbarscrollstyle"></ul>
                     </div>
                 </div>
                 <div class=col-lg-9>
@@ -170,7 +170,7 @@ active">
                                             </li>
 
 
-<!-- 
+                                            <!-- 
                                             <li data-nav-id="./Settings/" title=Administration class=sidelist>
 
                                                 <ul class="sidenavSub-topics">
@@ -189,63 +189,77 @@ active">
                                                     <ul>
 
                                                         <li data-nav-id="./General-Settings/" title='General'
-                                                            class="sidelist"><a
-                                                                href="./settings/general/">General
-                                                                </a>
+                                                            class="sidelist"><a href="./settings/general/">General
+                                                            </a>
                                                         </li>
 
-                                                        <li data-nav-id="./Custom-Emails/" title=Administration class="sidelist">
+                                                        <li data-nav-id="./Custom-Emails/" title=Administration
+                                                            class="sidelist">
                                                             <a href="./settings/Administration/">Administration</a>
                                                         </li>
 
-                                                        <li data-nav-id="./Column-Setting/" title=Users Role Permissions
-                                                            class="sidelist"><a href="./settings/UserRole/">User's Role Permissions</a>
+                                                        <li data-nav-id="./Column-Setting/"
+                                                            title='Users Role Permissions' class="sidelist"><a
+                                                                href="./settings/UserRole/">User's Role Permissions</a>
                                                         </li>
                                                         <li data-nav-id="./Column-Setting/" title="Apps"
                                                             class="sidelist"><a
                                                                 href="./apps/ED365/introduction/">Apps</a>
-                                                       
-                                                          <ul class="sidenavSub-topics">
-                                        <li data-nav-id="../General" title= 'Review'  class=sidelist>
-                                        <a href="./apps/ED365/introduction/">
-                                           ED365
-                                            </a>
-                                            </li>
 
-                                            <li data-nav-id="../General" title=' Summary and Plan'  class=sidelist>
-                                                <a href="./apps/TMP365/home-page/">
-                                                   TMP365
-                                                </a>
-                                                </li>
-                                                 <li data-nav-id="../General" title=' Summary and Plan'  class=sidelist>
-                                                <a href="./apps/EO365/home/">
-                                                   EO365
-                                                </a>
-                                                </li>
-                                                 <li data-nav-id="../General" title=' Summary and Plan'  class=sidelist>
-                                                <a href="./apps/TS365/home-page/">
-                                                   TS365
-                                                </a>
-                                                </li>
-                                                 <li data-nav-id="../General" title=' Summary and Plan'  class=sidelist>
-                                                <a href="./apps/ET365/home-page/">
-                                                   ET365
-                                                </a>
-                                                </li>
-                                                 <li data-nav-id="../General" title=' Summary and Plan'  class=sidelist>
-                                                <a href="./apps/RM365/home-page/">
-                                                   RM365
-                                                </a>
-                                                </li>
-                                                 <li data-nav-id="../General" title=' Summary and Plan'  class=sidelist>
-                                                <a href="./apps/PM365/home-page/">
-                                                  PM365
-                                                </a>
-                                                </li>
+                                                            <ul class="sidenavSub-topics">
+                                                                <li data-nav-id="../General" title='Ed365'
+                                                                    class=sidelist>
+                                                                    <a href="./apps/ED365/introduction/">
+                                                                        Employee Directory 365
+                                                                    </a>
+                                                                </li>
+
+                                                                <li data-nav-id="../General" title=' TMP365'
+                                                                    class=sidelist>
+                                                                    <a href="./apps/TMP365/home-page/">
+                                                                        Time off Manager 365
+                                                                    </a>
+                                                                </li>
+                                                                <li data-nav-id="../General" title=' EO365'
+                                                                    class=sidelist>
+                                                                    <a href="./apps/EO365/home/">
+                                                                        Employee Onboarding 365
+                                                                    </a>
+                                                                </li>
+                                                                <li data-nav-id="../General" title=' TS365'
+                                                                    class=sidelist>
+                                                                    <a href="./apps/TS365/home-page/">
+                                                                        Timesheet 365
+                                                                    </a>
+                                                                </li>
+                                                                <li data-nav-id="../General" title=' ET365'
+                                                                    class=sidelist>
+                                                                    <a href="./apps/ET365/home-page/">
+                                                                        Expense 365
+                                                                    </a>
+                                                                </li>
+                                                                <li data-nav-id="../General" title=' RM365'
+                                                                    class=sidelist>
+                                                                    <a href="./apps/RM365/home-page/">
+                                                                        Recruitment Management 365
+                                                                    </a>
+                                                                </li>
+                                                                <li data-nav-id="../General" title='PM365'
+                                                                    class=sidelist>
+                                                                    <a href="./apps/PM365/home-page/">
+                                                                        Performance Management 365
+                                                                    </a>
+                                                                </li>
+                                                                <li data-nav-id="../General" title='PM365'
+                                                                    class=sidelist>
+                                                                    <a href="./apps/LMS/home-page/">
+                                                                        LMS 365
+                                                                    </a>
+                                                                </li>
 
 
-                                    </ul>
-                                     </li>
+                                                            </ul>
+                                                        </li>
                                                         <!-- <li data-nav-id="./Column-Setting/" title=Notification
                                                             class="sidelist"><a
                                                                 href="./settings/#Notification">Notification</a>
@@ -273,7 +287,7 @@ active">
                                                     Help
                                                 </a>
                                             </li>
-                                            
+
 
                                         </ul>
                             </div>
@@ -302,15 +316,15 @@ active">
         </div>
     </div>
 
-    <footer class="section pb-4">
+<!--   <footer class="section pb-4">
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a>
+                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a>
                         <a href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                            href=https://www.cubiclogics.com/privacy-policy />Privacy
                         Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
                 </div>
@@ -330,9 +344,11 @@ active">
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>-->
+    <div id="footer-container"></div>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../js/showhidefunction.js"></script>
+    <script src="/footer/index.js"></script>
     <script>
         function openModal(src) {
 
@@ -350,6 +366,7 @@ active">
     </script>
     <script src="../../../js/header-footer.js"></script>
     <script src="../../../js/hcm-modern-admin.js"></script>
+    <script src="/js/plus-toggle.js"></script>
 </body>
 
 </html>

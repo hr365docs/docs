@@ -72,7 +72,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -84,8 +84,7 @@
                                 <a href="../../admin/">
                                     Admin Guide
                                 </a>
-                                <ul id="clmmodernadmin">
-                                </ul>
+                                <ul id="clmmodernadmin" class="sidenavbarscrollstyle"></ul>
                             </li>
                         </ul>
                     </div>
@@ -97,6 +96,9 @@
                             <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Home Page
                                     <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                             </h2>
+                            <p>CLM365's Home Page offers a centralized interface for quick access to contracts,
+                                requests, tasks, and approvals. It provides real-time insights through dashboards and
+                                widgets, streamlining contract lifecycle management from a single view.</p>
                             <p>
                             <div><img src="1.png" onclick="openModal('1.png')" alt="CLM" width="100%" height="auto">
                             </div>
@@ -122,8 +124,16 @@
                             </p>
                             <div><img src="NewContract.png" onclick="openModal('NewContract.png')" alt="CLM"
                                     width="100%" height="auto">
+                            </div><br>
+                            <p><b>Payment Term</b> and <b>Contract Cost</b> fields are now available when you are
+                                creating a request or contract.</p>
+
+                            <div><img src="Allfields1.png" onclick="openModal('Allfields1.png')" alt="CLM" width="100%"
+                                    height="auto">
                             </div>
-                            <br>
+                            <div><img src="Allfields2.png" onclick="openModal('Allfields2.png')" alt="CLM" width="100%"
+                                    height="auto">
+                            </div><br>
                             <p>Fill all necessary details and submit the request.</p>
                             <div><img src="Allfields.png" onclick="openModal('Allfields.png')" alt="CLM" width="100%"
                                     height="auto">
@@ -155,27 +165,31 @@
                             </div>
                             <br>
 
-                           <h3>Status Representation </h3>
+                            <h3>Status Representation </h3>
 
-<p><strong>Before Legal Review Completion</strong></p>
-<p>At this stage, the legal review task is not yet finalized. The timeline displays the status as <em>Not Started</em>, and no completion date is shown.</p>
+                            <p><strong>Before Legal Review Completion</strong></p>
+                            <p>At this stage, the legal review task is not yet finalized. The timeline displays the
+                                status as <em>Not Started</em>, and no completion date is shown.</p>
 
-<div>
-  <img src="status.png" onclick="openModal('status.png')" alt="Legal Status Before Completion" width="100%" height="auto">
-</div>
-<br>
+                            <div>
+                                <img src="status.png" onclick="openModal('status.png')"
+                                    alt="Legal Status Before Completion" width="100%" height="auto">
+                            </div>
+                            <br>
 
-<p><strong>After Legal Review Completion</strong></p>
-<p>Upon completion and approval of the legal review task, the status is automatically updated to <em>Completed</em> in the timeline. This update includes:</p>
-<ul>
-  <li>Approver’s name</li>
-  <li>Completion date</li>
-</ul>
-<p>This ensures accurate tracking and maintains a transparent approval trail.</p>
+                            <p><strong>After Legal Review Completion</strong></p>
+                            <p>Upon completion and approval of the legal review task, the status is automatically
+                                updated to <em>Completed</em> in the timeline. This update includes:</p>
+                            <ul>
+                                <li>Approver’s name</li>
+                                <li>Completion date</li>
+                            </ul>
+                            <p>This ensures accurate tracking and maintains a transparent approval trail.</p>
 
-<div>
-  <img src="status1.png" onclick="openModal('status1.png')" alt="Legal Status After Completion" width="100%" height="auto">
-</div>
+                            <div>
+                                <img src="status1.png" onclick="openModal('status1.png')"
+                                    alt="Legal Status After Completion" width="100%" height="auto">
+                            </div>
 
                             <p>Task owners can be able to see their task in my tasks. Then click on the title to open
                                 legal review task.</p>
@@ -183,16 +197,13 @@
                                     height="auto">
                                 <br>
                                 <br>
-                                <p>Go to "My task", click on the "Title" of the task to open the task, and upon
-                                    completing click on "Complete " button</p>
-                                <div><img src="Task.png" onclick="openModal('Complete.png')" alt="CLM" width="100%"
+                                <p>Go to "My task", click on the "Title" of the task to open the task.</p>
+                                <div><img src="Task.png" onclick="openModal('Task.png')" alt="CLM" width="100%"
                                         height="auto">
                                     <br>
                                     <br>
-                                    <div><img src="Complete.png" onclick="openModal('LegalView.png')" alt="CLM"
-                                            width="100%" height="auto">
-                                    </div>
-                                    <br>
+
+
                                     <p>Enter remarks(optional) and add attachments(optional), draft(optional). Then
                                         click on the
                                         approve button to approve task.</p>
@@ -338,44 +349,30 @@
                                     <div><img src="Adele.png" onclick="openModal('Adele.png')" alt="CLM" width="100%"
                                             height="auto"></div>
                                     <br>
-                                   <p><strong>Request With Workflow:</strong> Since this request was created using an approval workflow, all workflow stages are now visible in the timeline, each displaying its current status. This view helps users clearly understand progress across all approval phases, including business approval, legal review, and execution.</p>
+                                    <p><strong>Request With Workflow:</strong> Since this request was created using an
+                                        approval workflow, all workflow stages are now visible in the timeline, each
+                                        displaying its current status. This view helps users clearly understand progress
+                                        across all approval phases, including business approval, legal review, and
+                                        execution.</p>
 
 
                                     <div><img src="time.png" onclick="openModal('time.png')" alt="CLM" width="100%"
                                             height="auto"></div><br>
-                                            <div><img src="time1.png" onclick="openModal('time1.png')" alt="CLM" width="100%"
+                                    <div><img src="time1.png" onclick="openModal('time1.png')" alt="CLM" width="100%"
                                             height="auto"></div><br>
-                                            <div><img src="time2.png" onclick="openModal('time2.png')" alt="CLM" width="100%"
+                                    <div><img src="time2.png" onclick="openModal('time2.png')" alt="CLM" width="100%"
                                             height="auto"></div><br>
-                                           <p><strong>Note:</strong> If any task in the workflow is <em>rejected</em>, its status will be clearly indicated in the timeline using a distinct visual marker and a red highlight. This ensures that users can easily identify the point of rejection within the approval process.</p>
+                                    <p><strong>Note:</strong> If any task in the workflow is <em>rejected</em>, its
+                                        status will be clearly indicated in the timeline using a distinct visual marker
+                                        and a red highlight. This ensures that users can easily identify the point of
+                                        rejection within the approval process.</p>
 
-                                            <div><img src="time3.png" onclick="openModal('time3.png')" alt="CLM" width="100%"
+                                    <div><img src="time3.png" onclick="openModal('time3.png')" alt="CLM" width="100%"
                                             height="auto"></div>
 
                                 </div>
 
 
-                                <div class="bg-light p-4 remove-padding" id="AI Summary">
-                                    <h2 id="_dashboards"><a class="header-icon-link highlight" href="">AI Summary
-                                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                    </h2>
-                                    <p>The "AI Summary" section provides an automatically generated summary of the
-                                        document. In this instance, the system could not generate a summary because the
-                                        document did not contain text to analyze. By providing a document with text, the
-                                        AI can generate a meaningful summary based on its content.
-                                        <br>
-                                        For documents exceeding 100 to 200 pages, the AI Summary will highlight key
-                                        elements, including an overview, major sections, important terms, risk and
-                                        compliance factors, actionable insights, and critical takeaways, offering a
-                                        concise yet comprehensive understanding of the document.
-                                    </p>
-                                    <div><img src="ContractTitle.png" onclick="openModal('ContractTitle.png')" alt="CLM"
-                                            width="100%" height="auto"></div>
-                                    <br>
-                                    <div><img src="AIsummary.png" onclick="openModal('AIsummary.png')" alt="CLM"
-                                            width="100%" height="auto"></div>
-                                    <br>
-                                </div>
 
                                 <div class="bg-light p-4 remove-padding" id="Deviation">
                                     <h2 id="_dashboards"><a class="header-icon-link highlight" href="">Deviation
@@ -612,18 +609,415 @@
                                         extraction of essential details.</p>
                                     <div><img src="AI-1.png" onclick="openModal('AI-1.png')" alt="AI Summary"
                                             width="100%" height="auto"></div>
+                                    <div class="bg-light p-4 remove-padding" id="DraftFileComparison">
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Draft
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+
+
+                                        <p>The <strong>Draft File Comparison</strong> feature allows users to view the
+                                            differences between the first uploaded draft and the final draft of a
+                                            document. This feature is especially useful in tracking revisions in
+                                            contracts, policy documents, or any collaborative files.</p>
+
+
+
+                                        <p>To access this feature:</p>
+                                        <ol>
+                                            <li>Navigate to the <strong>Drafts</strong> section of the contract or
+                                                document.</li>
+                                            <li>Click on the option <em>"Compare with First Draft"</em>.</li><br>
+                                            <div><img src="draft.png" onclick="openModal('draft.png')"
+                                                    alt="Compare Draft Button" width="100%" height="auto"></div>
+                                            <br>
+                                            <li>A comparison panel will appear, showing the first and final versions
+                                                along with highlighted changes.</li>
+                                        </ol>
+
+
+                                        <div><img src="draft1.png" onclick="openModal('draft1.png')"
+                                                alt="Draft Comparison Panel" width="100%" height="auto"></div>
+                                        <br>
+
+                                        <p>This feature enhances document control and provides stakeholders with
+                                            visibility into how content has evolved throughout the drafting process.</p>
+
+
+                                    </div>
+                                    <div class="bg-light p-4 remove-padding" id="URLShortener">
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">React Quill
+                                                – URL Shortener
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+
+                                        <p>The <strong>URL Shortener</strong> feature in React Quill enhances the
+                                            editing experience by automatically converting
+                                            long, raw URLs into short and user-friendly hyperlinks when pasted into the
+                                            editor.
+                                            The underlying hyperlink remains intact, but users see a clean label instead
+                                            of the full link.</p>
+
+                                        <ul>
+                                            <li><strong>Improved readability:</strong> Long URLs are displayed as clean
+                                                text labels.</li>
+                                            <li><strong>Preserved functionality:</strong> The original hyperlink is
+                                                stored in the background and works as expected.</li>
+                                            <li><strong>Seamless integration:</strong> Default React Quill formatting
+                                                options such as bold, italic, underline, lists,
+                                                and headings continue to function without disruption.</li>
+                                        </ul>
+
+                                        <p>This feature leverages Quill’s clipboard module to detect pasted events and
+                                            automatically applies
+                                            URL shortening for a smoother editing workflow.</p>
+
+                                        <p><strong>Example:</strong></p>
+                                        <ul>
+                                            <li><strong>Pasted URL:</strong> https://www.microsoft.com/</li>
+                                            <li><strong>Displayed Name:</strong> Microsoft</li>
+                                        </ul>
+                                        <br>
+                                        <div>
+                                            <img src="url-shortener.png" onclick="openModal('url-shortener.png')"
+                                                alt="React Quill URL Shortener Example" width="100%" height="auto">
+                                        </div><br>
+                                        <div>
+                                            <img src="url-shortener1.png" onclick="openModal('url-shortener1.png')"
+                                                alt="React Quill URL Shortener Example" width="100%" height="auto">
+                                        </div>
+                                        <br>
+                                        <p>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">AI Auto-Fill
+                                                Option During Contract/Request Creation
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+
+
+                                        <p>
+                                            When creating a new request or contract, if a user uploads a document
+                                            (attachment), a pop-up will appear asking how they would like to complete
+                                            the contract.
+                                        </p>
+
+                                        <p><strong>What does this mean?</strong></p>
+                                        <p>
+                                            The application provides two options to fill in contract details:
+                                        </p>
+
+                                        <p><strong>1. Use AI to Autofill</strong></p>
+                                        <ul>
+                                            <li>The application reads the uploaded document.</li>
+                                            <li>Automatically extracts relevant information.</li>
+                                            <li>Fills the contract fields accordingly.</li>
+                                            <li>This process typically takes 2–3 minutes.</li>
+                                        </ul>
+                                        <p><strong>Best for:</strong> Saving time and reducing manual effort.</p>
+
+                                        <p><strong>2. Fill Manually</strong></p>
+                                        <ul>
+                                            <li>Users can enter all contract details manually.</li>
+                                            <li>No AI processing is applied.</li>
+                                        </ul>
+                                        <p><strong>Best for:</strong> Full control or when the document is not suitable
+                                            for AI extraction.</p>
+
+                                        <p><strong>When will this pop-up appear?</strong></p>
+                                        <p>
+                                            The pop-up appears only when a user uploads an attachment while creating a
+                                            contract or request.
+                                        </p>
+
+                                        <p><strong>Key Benefits</strong></p>
+                                        <ul>
+                                            <li>Faster contract creation</li>
+                                            <li>Reduced manual data entry</li>
+                                            <li>Improved accuracy using AI</li>
+                                        </ul>
+
+                                        <p><strong>Note</strong></p>
+                                        <p>
+                                            Users can continue with manual entry even after uploading a document. AI
+                                            works best with clear and properly formatted documents.
+                                        </p>
+                                        </p>
+                                        <div>
+                                            <img src="autofill.png" onclick="openModal('autofill.png')"
+                                                alt="React Quill URL Shortener Example" width="100%" height="auto">
+                                        </div>
+                                        <br>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Document
+                                                Viewer – Enhanced Loading Experience
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>
+                                            The Document Viewer has been enhanced with a refined UI and a smoother
+                                            loading experience. Users now receive clear, real-time progress feedback
+                                            while contract drafts are being updated, reducing perceived wait time and
+                                            improving overall confidence during document updates.
+                                        </p>
+
+                                        <p><strong>Right-Hand Metadata Panel</strong></p>
+                                        <ul>
+                                            <li>Sections can be expanded or collapsed individually, or all at once.</li>
+                                            <li>A search bar allows users to filter fields across all sections in real
+                                                time.</li>
+                                            <li>Matching sections automatically expand, while non-matching sections
+                                                collapse.</li>
+                                        </ul>
+
+                                        <div>
+                                            <img src="document-view.png" onclick="openModal('document-view.png')"
+                                                alt="React Quill URL Shortener Example" width="100%" height="auto">
+                                        </div>
+                                        <br>
+
+                                        <p><strong>Confirmation Before Update</strong></p>
+                                        <p>
+                                            A confirmation pop-up is displayed before updating the document to ensure
+                                            user intent and prevent accidental changes.
+                                        </p>
+
+                                        <div>
+                                            <img src="document-view2.png" onclick="openModal('document-view2.png')"
+                                                alt="React Quill URL Shortener Example" width="100%" height="auto">
+                                            <br>
+                                        </div>
+                                        <br>
+
+                                        <p><strong>Dynamic Progress Indicator</strong></p>
+                                        <p>
+                                            A smooth, percentage-based progress indicator provides real-time visibility
+                                            into the update process, keeping users informed about the operation status.
+                                        </p>
+                                        <div>
+                                            <img src="document-view3.png" onclick="openModal('document-view3.png')"
+                                                alt="React Quill URL Shortener Example" width="100%" height="auto">
+                                            <br>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Enhanced
+                                                Bulk Contract Upload with Currency Code & Progress Tracking
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+
+                                        <p>
+                                            The bulk contract upload feature has been enhanced to provide greater
+                                            flexibility and transparency during the upload process.
+                                        </p>
+
+                                        <p><strong>1. Currency Code Support in Bulk Upload</strong></p>
+                                        <p>
+                                            When downloading the sample Excel file for bulk contract upload, a new
+                                            column titled <strong>“Currency Code”</strong> is included.
+                                        </p>
+
+                                        <p><strong>What should users do?</strong></p>
+                                        <ul>
+                                            <li>Enter the appropriate currency code for each contract item in this
+                                                column.</li>
+                                            <li>Examples: INR, USD, EUR, etc.</li>
+                                        </ul>
+
+                                        <p><strong>How it works</strong></p>
+                                        <ul>
+                                            <li>The entered value will be applied as the currency for the respective
+                                                contract.</li>
+                                            <li>Each row can have a different currency if required.</li>
+                                            <li>This enables management of multiple currencies within a single upload.
+                                            </li>
+                                        </ul>
+
+                                        <div>
+                                            <img src="bulk-upload.png" onclick="openModal('bulk-upload.png')"
+                                                alt="React Quill URL Shortener Example" width="100%" height="auto">
+                                            <br>
+                                        </div>
+
+                                        <p><strong>2. Upload Progress Modal</strong></p>
+                                        <p>
+                                            When the bulk upload process is initiated, a progress modal (popup) appears
+                                            to provide real-time updates.
+                                        </p>
+
+                                        <p><strong>What does it show?</strong></p>
+                                        <ul>
+                                            <li>Real-time progress of contract uploads</li>
+                                            <li>Number of contracts being processed</li>
+                                            <li>Status updates during the upload</li>
+                                        </ul>
+
+                                        <p><strong>Why this is useful</strong></p>
+                                        <ul>
+                                            <li>Provides clear visibility into the upload process</li>
+                                            <li>Helps users track completed and pending contracts</li>
+                                            <li>Reduces confusion during large uploads</li>
+                                        </ul>
+
+                                        <p><strong>Key Benefits</strong></p>
+                                        <ul>
+                                            <li>Supports multiple currencies in a single bulk upload</li>
+                                            <li>Improves transparency with real-time progress tracking</li>
+                                            <li>Enhances overall user experience</li>
+                                        </ul>
+
+                                        <p><strong>Note</strong></p>
+                                        <ul>
+                                            <li>Ensure valid currency codes are entered in the Excel file.</li>
+                                            <li>Do not leave the <strong>Currency Code</strong> column empty if a
+                                                currency is required.</li>
+                                            <li>Keep the upload window open until the process is complete.</li>
+                                        </ul>
+
+                                        <div>
+                                            <img src="uploaded.png" onclick="openModal('uploaded.png')"
+                                                alt="React Quill URL Shortener Example" width="100%" height="auto">
+                                            <br>
+                                        </div>
+                                    </div>
                                 </div>
+                                <h2 id="redlining">
+                                    <a class="header-icon-link highlight" href="#">Redlining
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+                                    </a>
+                                </h2>
 
-                                <nav class="pagination mt-3">
-                                    <a class="nav nav-prev" href="../architecture-diagram/"
-                                        aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                                            class="d-none d-md-block">Architecture Diagram</span></a>
-                                    <a class="nav nav-next" href="../draft/" aria-label="Next page"> <span
-                                            class="d-none d-md-block">Draft</span><i
-                                            class="ti-arrow-right ml-2"></i></a>
-                                </nav>
+                                <strong>Overview</strong>
+                                <p>The main purpose of Redlining is to track changes made to a document.
+                                    When a user
+                                    opens the document and makes any modifications, the changes are displayed in red
+                                    color. The user has the option to either accept or reject those changes.
+                                    After
+                                    updating the document, the user can view the version history of the draft.
+                                    Additionally, the Draft Compare feature allows users to compare different versions
+                                    of the
+                                    document to review the changes made.</p>
 
+                                <h3>Steps</h3>
+                                <ol>
+                                    <li>
+                                        After creating a request, click on the respective request to open the
+                                        Agreement.
+                                        <br><br>
+                                        <img src="Redlining1.png" onclick="openModal('Redlining1.png')"
+                                            alt="New Request Setup" width="100%" height="auto"><br><br>
+                                        <img src="Redlining2.png" onclick="openModal('Redlining2.png')"
+                                            alt="Select Agreement from Requests List" width="100%"
+                                            height="auto"><br><br>
+                                    </li>
+                                    <li>
+                                        Under the <strong>Draft</strong> tab, click on the document name to open the
+                                        associated
+                                        contract template document.
+                                        <br><br>
+                                        <img src="Redlining3.png" onclick="openModal('Redlining3.png')"
+                                            alt="Click Document Under Draft Tab" width="100%" height="auto"><br><br>
+                                        <img src="Redlining4.png" onclick="openModal('Redlining4.png')"
+                                            alt="Opened Contract Template Document View" width="100%"
+                                            height="auto"><br><br>
+                                    </li>
+                                </ol>
+
+                                <hr>
+
+                                <h3>Tracking Changes</h3>
+                                <p>When any modifications are made to the document, such as adding new content or
+                                    deleting existing
+                                    content, the changes will be displayed in red color. This allows
+                                    users to
+                                    clearly identify all updates made to the document during the redlining process.</p>
+
+                                <img src="Redlining5.png" onclick="openModal('Redlining5.png')"
+                                    alt="Modifications Displayed in Red Color" width="100%" height="auto"><br><br>
+
+                                <hr>
+
+                                <h3>Accepting or Rejecting Changes</h3>
+                                <p>When changes are made to the document (such as inserted or deleted content), the
+                                    system
+                                    highlights them in red and records them in the <strong>Changes</strong> panel.
+                                    For each modification, the system provides two options:</p>
+                                <ul>
+                                    <li><strong>Accept:</strong> Approves the change and permanently updates the
+                                        document with the
+                                        modification.</li>
+                                    <li><strong>Reject:</strong> Discards the change and restores the original
+                                        content.
+                                    </li>
+                                </ul>
+                                <p>Users can review each change individually and decide whether to accept or reject it
+                                    before
+                                    finalizing the draft.</p>
+
+                                <img src="Redlining6.png" onclick="openModal('Redlining6.png')"
+                                    alt="Changes Panel with Accept and Reject Options" width="100%"
+                                    height="auto"><br><br>
+
+                                <hr>
+
+                                <h3>Updating the Document</h3>
+                                <p>After reviewing the changes and selecting <strong>Accept</strong> or
+                                    <strong>Reject</strong>,
+                                    click on <strong>Update</strong>. Once the Update button is clicked,
+                                    the
+                                    document will be updated with the selected changes, and the draft will reflect the
+                                    final
+                                    accepted modifications.</p>
+
+                                <img src="Redlining7.png" onclick="openModal('Redlining7.png')"
+                                    alt="Click Update Button" width="100%" height="auto"><br><br>
+                                <img src="Redlining8.png" onclick="openModal('Redlining8.png')"
+                                    alt="Saving Changes Progress Indicator" width="100%" height="auto"><br><br>
+
+                                <hr>
+
+                                <h3>Version History</h3>
+                                <p>To view the version history of the draft, click on the <strong>Version
+                                        History</strong> icon
+                                    available under the Action column. Once clicked, the Version History
+                                    panel will
+                                    open, displaying the different versions of the draft and allowing users to review
+                                    previous
+                                    updates made to the document.</p>
+
+                                <img src="Redlining9.png" onclick="openModal('Redlining9.png')"
+                                    alt="Version History Icon under Action Column" width="100%" height="auto"><br><br>
+                                <img src="Redlining10.png" onclick="openModal('Redlining10.png')"
+                                    alt="Version History Panel List View" width="100%" height="auto"><br><br>
+
+                                <hr>
+
+                                <h3>Draft Compare</h3>
+                                <p>To compare changes between versions of the draft, click on the <strong>Draft
+                                        Compare</strong>
+                                    icon under the Action column. Once clicked, the Draft Change Log
+                                    panel will
+                                    open. This panel displays:</p>
+                                <ul>
+                                    <li><strong>Original Text:</strong> The content before modification.</li>
+                                    <li><strong>Changed Text:</strong> The updated content after modification.</li>
+                                </ul>
+                                <p>The changes are highlighted in red, allowing users to easily identify the differences
+                                    between the
+                                    versions and analyze modifications made across different draft versions.</p>
+
+                                <img src="Redlining11.png" onclick="openModal('Redlining11.png')"
+                                    alt="Draft Compare Icon under Action Column" width="100%" height="auto"><br><br>
+                                <img src="Redlining12.png" onclick="openModal('Redlining12.png')"
+                                    alt="Draft Change Log Side-by-Side Comparison" width="100%" height="auto"><br><br>
                             </div>
+                        </div>
+
+
+                        <nav class="pagination mt-3">
+                            <a class="nav nav-prev" href="../architecture-diagram/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Architecture
+                                    Diagram</span></a>
+                            <a class="nav nav-next" href="../negotiation/" aria-label="Next page"> <span
+                                    class="d-none d-md-block">Negotiation</span><i class="ti-arrow-right ml-2"></i></a>
+                        </nav>
+
+                    </div>
     </section>
     <div id="myModal" class="modal">
         <div class="modal-content">
@@ -633,35 +1027,8 @@
             </div>
         </div>
     </div>
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a>
-                        <a href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../../js/header-footer.js"></script>
     <script src="../../../../js/tmp-classic-userguide.js"></script>
@@ -681,6 +1048,7 @@
         document.getElementById("date").innerHTML = date;
     </script>
     <script src="../../../../js/header-footer.js"></script>
+    <script src="/js/plus-toggle.js"></script>
 </body>
 
 </html>

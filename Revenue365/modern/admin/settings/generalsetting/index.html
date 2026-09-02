@@ -73,7 +73,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -84,7 +84,7 @@
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
                                 title="Admin Guide" class="sidelist
     active">
-                                <a href="../../admin/">
+                                <a href="../../../admin/">
                                     Admin Guide
                                 </a>
                                 <ul id="revmodernadmin" class="sidenavbarscrollstyle">
@@ -120,7 +120,7 @@
 
 
                             </ul>
-                        </div>
+                   
                         <div class="bg-light p-4 remove-padding common-scroll" id="Theme">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
@@ -146,7 +146,7 @@
 
                             </ul>
 
-                        </div>
+                     
                         <div class="bg-light p-4 remove-padding common-scroll" id="DateFormat">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
@@ -246,8 +246,8 @@
                         </div>
                          <div class="bg-light p-4 remove-padding common-scroll" id="Langauge">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
-                                        Dashbords
+                                <h2 id="_dashboards2"><a class="header-icon-link highlight" href=#>
+                                        Sample Dashboard Data
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
                                 <p>When the Sample Dashboard Data toggle is enabled, sample data is displayed on the dashboard.</p>
@@ -262,9 +262,25 @@
                                 
                             </ul>
                         </div>
+                        <div class="bg-light p-4 remove-padding common-scroll" id="Revenue365SampleData">
+    <ul class=page-list>
+        <h2 id="_revenue365Sample"><a class="header-icon-link highlight" href="#">
+                Revenue 365 Sample Data
+                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+        </h2>
+        <p>When the <b>Revenue 365 Sample Data</b> toggle is enabled, sample data will appear on the homepage view.</p>
+
+        <div><img src="dashboard12.png" onclick="openModal('dashboard12.png')" alt="Revenue 365 Sample Data"
+                width="100%" height="auto"></div><br>
+        <div><img src="dashboard13.png" onclick="openModal('dashboard13.png')" alt="Revenue 365 Sample Data"
+                width="100%" height="auto"></div><br>
+      
+    </ul>
+</div>
+
                                                  <div class="bg-light p-4 remove-padding common-scroll" id="Langauge">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
+                                <h2 id="LanguageSelection"><a class="header-icon-link highlight" href=#>
                                        Language Selection as a Browser Default Language
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
@@ -355,6 +371,36 @@
 
 
                         </div>
+                         <div class="bg-light p-4 remove-padding common-scroll" id="SharepointURL">
+                            <div class=page-list>
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Use Sharepoint URL for
+                                        MS Teams installed application
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+
+                                <p>
+                                    The option Use SharePoint URL for MS Teams installed application enables the
+                                    integration of SharePoint links within the MS Teams application, allowing users to
+                                    access SharePoint resources directly from Teams.
+                                </p>
+
+                                <div><img src="URL.png" onclick="openModal('URL.png')" alt="help" width="100%"
+                                        height="auto"></div>
+
+                            </div><br>
+                           <p >
+    Enable the <b>“Use SharePoint URL for MS Teams installed application”</b> toggle, then enter your SharePoint site URL in the following format:
+    <br>
+    <span>
+        https://<em>yourtenantname</em>.sharepoint.com/sites/<em>SiteName</em>/SitePages/<em>PageName.aspx</em>
+    </span>
+    <br>
+    After entering the URL, click the <b>Save</b> button to apply your changes.
+</p>
+<div><img src="URL1.png" onclick="openModal('URL1.png')" alt="help" width="100%"
+                                        height="auto"></div>
+
+                            </div><br>
                         
                         <div class="bg-light p-4 remove-padding common-scroll" id="Brand-logo">
                             <ul class=page-list>
@@ -429,11 +475,11 @@
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a
+                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a><a
                             href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
                         Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
                 </div>
@@ -473,6 +519,6 @@
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML = date;
     </script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

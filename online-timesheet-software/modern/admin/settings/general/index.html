@@ -6,7 +6,16 @@
     <title>Timesheet 365 | Admin Guide | Settings | General</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="Hugo 0.92.2">
-
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #5637da !important;
+        }
+    </style>
     <!-- Meta Description -->
     <meta name="description"
         content="Timesheet 365 Admin Guide - General information page providing an overview of the features, setup, and configuration of HR365 Timesheet, including usage instructions and administrative settings.">
@@ -20,7 +29,7 @@
 
 
 
-    <meta property="og:url" content="https://hr365docs.github.io/docs/sharepoint-timesheet/">
+    <meta property="og:url" content="https://hr365docs.github.io/docs/online-timesheet-software/">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:title" content="Timesheet 365 | Admin Guide | General">
@@ -100,7 +109,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -113,9 +122,9 @@
                                 title="Admin Guide" class="sidelist
     active">
                                 <a href="../../../admin/">
-                                    Admin-Guide
+                                    admin Guide
                                 </a>
-                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle">
+                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle" class="sidenavbarscrollstyle">
                                 </ul>
                             </li>
 
@@ -123,323 +132,295 @@
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title>General Settings</h2> -->
                         <div class="bg-light p-4 remove-padding">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>General <i
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>General Settings <i
                                             class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
 
-                                <p>
-                                    From here you can update date format, logo, theme, default currency etc.
-                                </p>
-                                <br>
-                                <div><img src="general_setting.png" onclick="openModal('general_setting.png')"
-                                        alt="General setting" width="100%" height="auto"></div>
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="theme">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#> Theme
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                <p>
-                                    From here you can select the theme for the application. There are three themes
-                                    namely dark mode, light mode, and site theme color.
-                                </p>
+                                <p>The General Settings section provides a centralized hub for configuring the
+                                    application's overall visual appearance, regional localization, SharePoint component
+                                    behavior, diagnostic logging, and custom organizational branding.</p>
 
-                                <div><img src="theme.png" onclick="openModal('theme.png')" alt="Theme" width="100%"
-                                        height="auto"></div>
-                                <br>
+                                <hr>
 
+                                <h5>Accessing General Settings</h5>
+                                <p>To access these configuration options, navigate to the main settings dashboard and
+                                    locate the <strong>General Settings</strong> section on the upper left panel.
+                                    Selecting items from this section launches the central configuration panel.</p>
 
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="date-format">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Date Format
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                <p>
-                                    From here you can select the date format. This date format will update everywhere in
-                                    the application.
-                                </p>
+                                <img src="general-settings1.png" onclick="openModal('general-settings1.png')"
+                                    alt="General Settings Overview Panel" width="100%" height="auto"><br><br>
 
-                                <div><img src="date_format.png" onclick="openModal('date_format.png')" alt="Date format"
-                                        width="100%" height="auto"></div>
+                                <hr>
 
+                                <h5>Appearance &amp; Localization Settings</h5>
 
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="start-day-of-the-week">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Start Day of The Week
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
+                                <!-- 1. Theme Settings -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="theme">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>1. Theme
+                                                Settings
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>The <strong>Theme</strong> control manages the visual design and color scheme
+                                            of the platform. Administrators can select from Dark Mode, Light Mode, Site
+                                            Theme, or Custom Theme to match organizational brand guidelines or user
+                                            accessibility preferences.</p>
 
-                                <p>Start day of the week: Here you can select the start day of the week for the weekly
-                                    timesheet.</p>
-
-                                <div><img src="startDay.png" onclick="openModal('startDay.png')" alt="Start Day"
-                                        width="100%" height="auto"></div>
-
-
-                        </div>
-
-                        <div class="bg-light p-4 remove-padding common-scroll" id="defaul-tcurrency">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Default Currency
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Here you can select your default currency and the same will show on add project
-                                    page.
-                                </p>
-
-                                <div><img src="defaulturrency.png" onclick="openModal('defaulturrency.png')"
-                                        alt="Default Currency" width="100%" height="auto"></div>
-
-
-                        </div>
-
-
-
-                        <div class="bg-light p-4 remove-padding common-scroll" id="language">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Here you can choose your preferred language out of these languages. Czech, Dutch,
-                                    English, French, German, Hungarian, Italian, Japanese, Polish, Portuguese, Russian,
-                                    and Spanish.
-                                </p>
-                                <div><img src="language.png" onclick="openModal('language.png')" alt="language"
-                                        width="100%" height="auto"></div>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="hide-webpart-title">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Sharepoint Page's
-                                        Default Components
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Select configure to process further.
-                                </p>
-                                <div><img src="webpartTitle.png" onclick="openModal('webpartTitle.png')"
-                                        alt="Webpart CSS" width="100%" height="auto"></div>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="remove-custom-webpart-css">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Remove Custom Webpart
-                                        CSS
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Here you can remove extra spaces from the SharePoint page.
-                                </p>
-                                <div><img src="webpartcss.png" onclick="openModal('webpartcss.png')" alt="Webpart CSS"
-                                        width="100%" height="auto"></div>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="HideWebpartTitleonSharepointPage">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Webpart Title on
-                                        Sharepoint Page
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Here you can Hide Webpart Title on Sharepoint Page.
-                                </p>
-                                <div><img src="1.png" onclick="openModal('1.png')" alt="Webpart CSS" width="100%"
-                                        height="auto"></div>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="hide-side-navigation">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Side Navigation
-                                        Panel on SharePoint Page
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Here you can hide the left navigation panel on SharePoint Page.
-                                </p>
-                                <div><img src="hideNavigation.png" onclick="openModal('hideNavigation.png')"
-                                        alt="Hide Navigation" width="100%" height="auto"></div>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="hide-top-command">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Top Command Bar
-                                        on SharePoint Page
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Here you can hide to top command bar on the SharePoint page.
-                                </p>
-                                <div><img src="hideTopCommand.png" onclick="openModal('hideTopCommand.png')"
-                                        alt="Hide Top Command." width="100%" height="auto"></div>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Hide Comment Container
-">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Comment Container
-
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Here you can Hide Comment Wrapper on Sharepointpage.
-
-                                </p>
-                                <div><img src="2.png" onclick="openModal('2.png')" alt="Hide Top Command." width="100%"
-                                        height="auto"></div>
-                                <ul class=page-list>
-                                    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Top Site
-                                            Header
-
-                                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                    </h2>
-
-                                    <p>
-                                        Here you can Hide Top Site Header on Sharepointpage.
-
-                                    </p>
-                                    <div><img src="topHeader.png" onclick="openModal('topHeader.png')"
-                                            alt="Hide Top Command." width="100%" height="auto"></div>
-                                    <br>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Enable_Logs">
-                            <ul class=page-list>
-                                <h2 id="_dashboards">
-                                    <a class="header-icon-link highlight" href=#>Enable logs collection</a>
-                                </h2>
-
-                                <p>
-                                <p>The user has the option to enable log collection. If you want to collect logs, please
-                                    turn on the toggle. These logs are used for troubleshooting any issues occurring in
-                                    your application.</p>
-                                </p>
-                                <div><img src="EnableLogs.png" onclick="openModal('EnableLogs.png')"
-                                        alt="Enable logs collection" width="100%" height="auto"></div>
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="Logs_Type">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Logs Types
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                <p>After enabling log collection, the user will see an option for 'Log Types' below."
-                                </p>
-                                <div><img src="LogosTypes.png" onclick="openModal('LogosTypes.png')" alt="title text"
-                                        width="100%" height="auto"></div>
-                                <br>
-                                <p>
-                                <ul style="list-style-type: bullet;">
-                                    <li><b>Debug Logs:</b> Captures detailed system activity for in-depth
-                                        troubleshooting. It generates extensive logs and requires significant storage
-                                        space. Ideal for resolving specific issues. </li>
-                                    <br>
-                                    <li><b>Information Logs:</b>Records all application actions, providing a complete
-                                        activity trail. Useful for analyzing suspected issues but consumes moderate
-                                        storage. </li>
-                                    <br>
-                                    <li><b>Warning Logs:</b>Logs errors and potential risks that might not immediately
-                                        disrupt functionality. Focused on early issue detection with minimal storage
-                                        impact. </li>
-                                    <br>
-                                    <li><b>Error Logs:</b>Logs critical errors affecting application functionality.
-                                        Provides essential details for immediate troubleshooting with minimal storage
-                                        usage.</li>
-                                    <br>
-                                </ul>
-                                </p>
-                                <div><img src="LogsError.png" onclick="openModal('LogsError.png')" alt="title text"
-                                        width="100%" height="auto"></div>
-                                <br>
-                                <p>If the user selects 'Debug' from the log types and saves it.</p>
-                                <div><img src="Debug.png" onclick="openModal('Debug.png')" alt="title text" width="100%"
-                                        height="auto"></div>
-                                <br>
-                                <p>Then, the user will see an option to 'Download Logs' after going to the help page.
-                                </p>
-                                <div><img src="HelpPageDownLoadLlogs.png"
-                                        onclick="openModal('HelpPageDownLoadLlogs.png')" alt="title text" width="100%"
-                                        height="auto"></div>
-                                <br>
-                                <p>In the field, the current user's name must be entered, and then by clicking on
-                                    'View,' the user can access and view the debug logs.</p>
-                                <div><img src="ViewIcons.png" onclick="openModal('ViewIcons.png')" alt="title text"
-                                        width="100%" height="auto"></div>
-                                <br>
-                                <div><img src="ViewDeBugs.png" onclick="openModal('ViewDeBugs.png')" alt="title text"
-                                        width="100%" height="auto"></div>
-                                <br>
-                                <p>The user can click on the 'Share' icon to share the logs. Encrypted logs will be
-                                    shared with Cubic for further troubleshooting and to provide a more efficient
-                                    resolution.</p>
-                                <div><img src="Sharelogs.png" onclick="openModal('Sharelogs.png')" alt="title text"
-                                        width="100%" height="auto"></div>
-                                <br>
-                                <p>For downloading, the user can click on the 'Download' option to retrieve the logs.
-                                </p>
-                                <div><img src="downloadlogs.png" onclick="openModal('downloadlogs.png')"
-                                        alt="title text" width="100%" height="auto"></div>
-                            </ul>
-
-
-                        </div>
-
-                        <div class="bg-light p-4 remove-padding common-scroll" id="ISOweek">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Follow ISO Week Number
-                                        Format
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-                                <p>
-                                    Here you can select ISO week format for the weekly timesheet.
-                                </p>
-                                <div><img src="ISOweek.png" onclick="openModal('ISOweek.png')" alt="ISO Week"
-                                        width="100%" height="auto"></div>
-
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="brand-logo">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Brand Logo
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
-
-                                <p>
-                                    Here you can add your company logo and the same will display at the top left
-                                    navigation panel.From here admin can add or update the company logo. The updated
-                                    logo is displayed at the top of the left-side navigation panel. The recommended size
-                                    of the logo is 150 X 60 with the same aspect ratio along with a transparent or white
-                                    background is recommended for a better visibility and experience.
-                                </p>
-
-
-                                <div><img src="brand_logo.png" onclick="openModal('brand_logo.png')" alt="Brand logo"
-                                        width="100%" height="auto">
+                                        <img src="general-settings2.png" onclick="openModal('general-settings2.png')"
+                                            alt="Configure Theme Settings" width="100%" height="auto"><br><br>
+                                    </ul>
                                 </div>
 
+                                <!-- 2. Date Format -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="date-format">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>2. Date Format
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>The <strong>Date Format</strong> dropdown sets the global display standard
+                                            for calendar dates across all timesheet views, submission forms, and
+                                            analytical reports.</p>
+
+                                        <img src="general-settings3.png" onclick="openModal('general-settings3.png')"
+                                            alt="Configure Date Format Field" width="100%" height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 3. Date Format Options -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="date-format-options">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>3. Date Format
+                                                Options
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>A wide variety of international date structures are available, including
+                                            MM/DD/YYYY, DD/MM/YYYY, YYYY/MM/DD, DD-MMM-YYYY, and other regional
+                                            patterns.</p>
+
+                                        <img src="general-settings4.png" onclick="openModal('general-settings4.png')"
+                                            alt="Date Format Dropdown Options" width="100%" height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 4. Default Currency -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="default-currency">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>4. Default
+                                                Currency
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>The <strong>Default Currency</strong> setting establishes the base monetary
+                                            unit used for financial metrics, hourly billing rates, and cost tracking
+                                            across system modules.</p>
+
+                                        <img src="general-settings5.png" onclick="openModal('general-settings5.png')"
+                                            alt="Configure Default Currency Field" width="100%" height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 5. Currency Options -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="currency-options">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>5. Currency
+                                                Options
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>The currency dropdown contains standard international currencies (such as
+                                            USD, JPY, KRW, NGN, and others) to ensure global financial reporting
+                                            alignment.</p>
+
+                                        <img src="general-settings6.png" onclick="openModal('general-settings6.png')"
+                                            alt="Currency Selection List" width="100%" height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 6. Language -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="language">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>6. Language
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>The <strong>Language</strong> setting defines the primary interface language
+                                            applied across all standard user screens, buttons, and navigation elements.
+                                        </p>
+
+                                        <img src="general-settings7.png" onclick="openModal('general-settings7.png')"
+                                            alt="Configure Default Language Field" width="100%" height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 7. Language Options -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="language-options">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>7. Language
+                                                Options
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>Select from supported international languages—including English, Arabic,
+                                            Czech, Dutch, French, German, and others—to support multilingual teams.</p>
+
+                                        <img src="general-settings8.png" onclick="openModal('general-settings8.png')"
+                                            alt="Language Selection List" width="100%" height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 8. Language Selection as Browser Default Language -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="browser-default-language">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>8. Language
+                                                Selection as Browser Default Language
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>When <strong>Language Selection as Browser Default Language</strong> is
+                                            enabled, the system automatically detects each user's web browser locale
+                                            settings and dynamically updates the UI language accordingly.</p>
+
+                                        <img src="general-settings9.png" onclick="openModal('general-settings9.png')"
+                                            alt="Language Selection Browser Default Toggle" width="100%"
+                                            height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <hr>
+
+                                <h5>Integration, SharePoint &amp; Diagnostic Settings</h5>
+
+                                <!-- 1. Use SharePoint URL for MS Teams Installed Application -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="sharepoint-url-teams">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>1. Use
+                                                SharePoint URL for MS Teams Installed Application
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>Toggling <strong>Use SharePoint URL for MS Teams installed
+                                                application</strong> routes platform interactions through the native
+                                            SharePoint site collection when users access timesheets from inside
+                                            Microsoft Teams.</p>
+
+                                        <img src="general-settings10.png" onclick="openModal('general-settings10.png')"
+                                            alt="Use SharePoint URL for MS Teams Toggle" width="100%"
+                                            height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 2. Hide SharePoint Page's Default Components -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="hide-sharepoint-components">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>2. Hide
+                                                SharePoint Page's Default Components
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>Clicking <strong>Configure</strong> adjacent to <em>Hide SharePoint Page's
+                                                Default Components</em> opens granular display controls to customize
+                                            standard SharePoint page elements around the application web part.</p>
+
+                                        <img src="general-settings11.png" onclick="openModal('general-settings11.png')"
+                                            alt="Hide SharePoint Default Components Configure Button" width="100%"
+                                            height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 3. SharePoint Component Configuration -->
+                                <div class="bg-light p-4 remove-padding common-scroll"
+                                    id="sharepoint-component-configuration">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>3. SharePoint
+                                                Component Configuration
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>Customize page visibility by toggling elements such as Full Page View, Custom
+                                            Webpart CSS, Webpart Title, Side Navigation, Default Recommendations, Top
+                                            Command Bar, Top Bar, Comments Wrapper, and Site Header, then click Save to
+                                            apply changes.</p>
+
+                                        <img src="general-settings12.png" onclick="openModal('general-settings12.png')"
+                                            alt="SharePoint Component Configuration Panel" width="100%"
+                                            height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 4. Configure Quick Setup -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="quick-setup">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>4. Configure
+                                                Quick Setup
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>Enabling <strong>Configure Quick Setup</strong> activates streamlined
+                                            onboarding prompts and automated wizard guides for fast application
+                                            deployment.</p>
+
+                                        <img src="general-settings13.png" onclick="openModal('general-settings13.png')"
+                                            alt="Configure Quick Setup Toggle" width="100%" height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 5. Enable Logs Collection -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="logs-collection">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>5. Enable Logs
+                                                Collection
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>The <strong>Enable logs collection</strong> section allows administrators to
+                                            gather diagnostic logs for troubleshooting. You can specify the desired Log
+                                            Type (such as Debug), establish the auto-archive threshold, and define the
+                                            maximum retention period in days.</p>
+
+                                        <img src="general-settings14.png" onclick="openModal('general-settings14.png')"
+                                            alt="Enable Logs Collection Controls" width="100%" height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <hr>
+
+                                <h5>Calendar Standards &amp; Branding</h5>
+
+                                <!-- 1. Follow ISO Week Number Format -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="iso-week-number">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>1. Follow ISO
+                                                Week Number Format
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>Activating <strong>Follow ISO Week Number Format</strong> ensures that week
+                                            numbering across timesheet periods, calendars, and exported reports strictly
+                                            follows the ISO 8601 international standard.</p>
+
+                                        <img src="general-settings15.png" onclick="openModal('general-settings15.png')"
+                                            alt="Follow ISO Week Number Format Toggle" width="100%"
+                                            height="auto"><br><br>
+                                    </ul>
+                                </div>
+
+                                <!-- 2. Enable Favicon & Customization -->
+                                <div class="bg-light p-4 remove-padding common-scroll" id="favicon-customization">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>2. Enable
+                                                Favicon &amp; Customization
+                                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+                                        <p>The <strong>Enable Favicon</strong> setting allows administrators to upload a
+                                            custom 64x64 pixel browser icon. Using the <strong>Upload favicon</strong>
+                                            or <strong>Remove icon</strong> buttons lets you maintain consistent
+                                            corporate identity right in browser tabs.</p>
+
+                                        <img src="general-settings16.png" onclick="openModal('general-settings16.png')"
+                                            alt="Enable Favicon and Customization Controls" width="100%"
+                                            height="auto"><br><br>
+                                    </ul>
+                                </div>
 
                             </ul>
                         </div>
 
-                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date"></p>
                         <nav class="pagination mt-3">
                             <a class="nav nav-prev" href="../../settings/" aria-label="Previous page"><i
                                     class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Settings</span></a>
-                            <a class="nav nav-next" href="/online-timesheet-software/modern/admin/settings/role/"
-                                aria-label="Previous page"> <span class="d-none d-md-block">User</span><i
+                            <a class="nav nav-next" href="../advance-settings/" aria-label="Next page">
+                                <span class="d-none d-md-block">Advance Settings</span><i
                                     class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
@@ -458,36 +439,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.
-                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -505,6 +458,7 @@
         document.getElementById("date").innerHTML = date;
     </script>
 
+    <script src="/js/plus-toggle.js"></script>
 </body>
 <script src="../../../../../js/header-footer.js"></script>
 <script src="../../hdm-admin-aside-js/hdm-admin-aside.js"></script>

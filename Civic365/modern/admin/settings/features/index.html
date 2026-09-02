@@ -66,7 +66,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -81,7 +81,7 @@
                                 <a href="../../../admin/">
                                     Admin Guide
                                 </a>
-                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle">
+                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle" class="sidenavbarscrollstyle">
 
                                 </ul>
                             </li>
@@ -186,8 +186,21 @@
                                     Body</b> and click on <b>Update</b> button.
 
 
-                        </div>
-                        <div class="bg-light p-4 remove-padding common-scroll" id="customer-satisfaction">
+                        <br><br>
+                        <h2 id="Column_Indexing">
+            <a class="header-icon-link highlight" href="#">
+                Column Indexing
+                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+            </a>
+        </h2>
+<p>
+   The <b>Column Indexing</b> feature helps optimize system performance when handling a large number of tickets. By enabling indexing on selected columns, it enhances the efficiency of column filters, ensuring faster data retrieval and more reliable results. This feature is particularly useful for improving search and filter performance in high-volume environments.
+</p>
+<br>
+<div>
+  <img src="column_indexing.png" onclick="openModal('column_indexing.png')" alt="Column Indexing Feature" width="100%" height="auto">
+</div>
+                            </ul></div>                <div class="bg-light p-4 remove-padding common-scroll" id="customer-satisfaction">
                             <ul class=page-list>
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Customer Satisfaction
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
@@ -521,6 +534,8 @@
                                 <br>
                                 <div><img src="04.png" onclick="openModal('04.png')" alt="Rule Automation" width="100%"
                                         height="auto"></div>
+                                        <p><b>Approval Workflow Based on Teams and Services:</b> You can configure workflows based on selected teams, request types, services, and sub-services. When a ticket is created that matches these conditions, the approval process is triggered. Additionally, you can decide whether this should occur on ticket creation or status update.</p><br>
+<div><img src="image6.png" onclick="openModal('image6.png')" alt="Team and Service-Based Workflow" width="100%" height="auto"></div><br>
 
                         </div>
 
@@ -971,36 +986,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.
-                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+   <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -1018,7 +1005,7 @@
         document.getElementById("date").innerHTML = date;
     </script>
 
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 <script src="../../../../../js/header-footer.js"></script>
 <script src="../../hdm-admin-aside-js/hdm-admin-aside.js"></script>
 <script src="../../../../../js/showhidefunction.js"></script>

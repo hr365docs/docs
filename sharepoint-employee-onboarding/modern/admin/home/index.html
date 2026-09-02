@@ -73,7 +73,7 @@
     </nav>
   </header>
   <section class="single section-sm pb-0">
-    <div class="container container-padding">
+    <div class="container container-padding" style="padding-bottom: 1vw;">
       <div class=row>
         <div class=col-lg-3>
           <div class=sidebar>
@@ -107,19 +107,31 @@
 
               <ul class=page-list>
 
-                The homepage of HR365 Employee Onboarding features two processes: one for onboarding employees and
-                another for offboarding them.
+             <!---  The homepage of HR365 Employee Onboarding features two processes: one for onboarding employees and
+                another for offboarding them.-->
+                The homepage of HR365 Employee Onboarding features two processes: one for onboarding employees and another for offboarding them.
                 <br><br>
-                <img src="011.png" onclick="openModal('011.png')" alt="home page" width="100%">
+                <img src="home1.png" onclick="openModal('home1.png')" alt="home page" width="100%">
                 <br><br>
-                In home page menu bar:
+             <!--   In home page menu bar:-->In home page menu bar contains: 
                 <ul class="ul_li_styles">
                   <br>
                   <li>
-                    <p> <b>My Active tasks</b>:
-                      The tasks that need to be performed are displayed in this section.</p><br>
-                    <div>
-                      <img src="02.png" onclick="openModal('02.png')" alt="home page" width="100%"><br>
+                    <p> <b>My Active tasks: </b>
+                      <!--The tasks that need to be performed are displayed in this section.-->
+                    Displays all tasks assigned to the user that require action or completion.</p>
+                    <p>The <strong>My Active Tasks</strong> section contains the following tabs:
+</p>
+<ul style="list-style-type:disc">
+  <li><strong>All</strong> – Displays all tasks assigned to the current user.</li>
+  <li><strong>Unassigned</strong> – Displays tasks belonging to the user's team that are not assigned to any team member. If the team has multiple members, any member can assign the task to themselves or another team member.</li>
+  <li><strong>Current</strong> – Displays pending tasks that are currently active and need to be completed.</li>
+  <li><strong>Upcoming</strong> – Displays tasks that have not yet started. Task availability is determined based on the onboarding employee's joining date.</li>
+<li><strong>Overdue</strong> – Displays tasks that have exceeded their resolution or due date and are not yet completed.</li>
+<li><strong>Completed</strong> – Displays all tasks that have been completed.</li>
+</ul>
+           <br>         <div>
+                      <img src="home1.png" onclick="openModal('home1.png')" alt="home page" width="100%"><br>
                     </div>
                   </li>
                   <br>
@@ -150,12 +162,26 @@
                     <div><img src="28.png" onclick="openModal('28.png')" alt="home page" width="100%">
                     </div> <br>
 
+                  <li> The system now supports automatic transition from <b>Pre-Onboarding</b> to <b>Onboarding</b> upon
+                    approval.</li>
+                  <br>
+                  <p>1) Click on the employee’s name from the Pre-Onboarding list. Select the <b>“Move to
+                      Onboarding”</b> option.</p><br>
+                  <div><img src="1.png" onclick="openModal('1.png')" alt="home page" width="100%">
+                  </div> <br>
+                  <p>2)Complete the required details and confirm by clicking the <b>“Yes”</b> button. </p><br>
+                  <div><img src="2.png" onclick="openModal('2.png')" alt="home page" width="100%">
+                  </div> <br>
+                  <p>3) The candidate will then be automatically transitioned to the Onboarding stage.</p><br>
+                  <div><img src="3.png" onclick="openModal('3.png')" alt="home page" width="100%">
+                  </div> <br>
+
 
 
 
                   </li>
                   <li>
-                    <p> <b>Onboarding</b>: From here, you can input new hire details and oversee the entire onboarding
+                    <!--<p> <b>Onboarding</b>: From here, you can input new hire details and oversee the entire onboarding
                       process.</p> <br>
                     <div><img src="05.png" onclick="openModal('05.png')" alt="home page" width="100%">
                     </div> <br>
@@ -170,6 +196,107 @@
                       group membership, contact information, and current information.</p>
                   </li>
 
+                  <br>-->
+<p><strong>Onboarding : Overview</strong></p>                  
+                    
+
+                    <p>Employee Onboarding 365 lets HR and admin teams manage the full onboarding lifecycle of a new hire from a single application. The process begins when the employee record is created and continues through group, team, asset, and license assignment, and task completion by the responsible teams (Admin, HR, IT). Once every assigned task is marked complete, the employee automatically moves from the Onboarding stage to the Onboarded stage.</p>
+                    <div style="background-color:rgb(218,233,247);padding:8px">
+<p><strong>Prerequisites</strong></p>
+                    <ul style="list-style-type:none">
+                      <li>• The application ships with a set of default Teams (e.g. Admin, HR, IT, HR Head) and default Tasks already configured, so onboarding can begin without any setup. Admins can use these defaults as-is, or create new / edit existing Teams and Tasks to match their organization.</li>
+                    <li>• Teams are managed under Settings → Add/Edit Teams. Each team (e.g. Admin, HR, IT) can contain multiple members; when a task is assigned to a team, it is assigned to every member in that team.</li>
+                    <li>• Tasks are managed under Settings → Task Administration → Task, with a Task Owner (team) set for each task.</li>
+                  <li>• A Task Template must be created (or an existing default template used) under Settings → Task Administration → Task Templates, grouping the relevant tasks for the Onboarding / Preonboarding / Offboarding process.</li>
+                  </ul>
+                    </div><br>
+<p><strong>1. Onboarding Dashboard</strong></p>
+             <hr/>
+<p>The dashboard is the starting point for the onboarding process. It is organized into tabs — My Active Tasks, Preonboarding, Onboarding, Offboarding, All Active Tasks, Onboarded, and Offboarded — that let admins and HR track every employee's stage at a glance. Selecting a tab filters the table below to show only employees currently in that stage, along with details such as Employee Name, Date of Joining, Position, Department, Employee Type, Manager, Status, and Requested By.</p>
+ <div><img src="step1.png" onclick="openModal('step1.png')" alt="home page"
+                      width="100%"></div>
+                  <br>
+                  <p>Figure 1: Onboarding dashboard showing stage tabs (Preonboarding, Onboarding, Offboarding, Onboarded, Offboarded) and the employee list.</p>
+              <p>To begin onboarding a new employee, click the New button above the table. This opens the “Onboard an Employee” form, which is organized into tabs: Basic Info, Confidential, Groups, Teams, Assets and Licenses, and Tasks.
+</p>
+<p><strong>2. Step 1 – Enter Employee Information</strong></p>
+             <hr/>
+             <p>The Basic Info tab captures the new hire's core details. Required fields (marked with *) include Employee Name, Employee ID, User Email, Manager, Department, Position, Employee Type, Date of Joining, Personal Email, Contact Number, Location, Date of Birth, Onboarding Start Date, and Gender. Optional fields include Recruiter Name, Alternate Number, Present Employer, and Remarks.</p>
+<div><img src="step2.png" onclick="openModal('step2.png')" alt="home page"
+                      width="100%"></div>
+                  <br>
+                  <p>Figure 2: Basic Info tab of the “Onboard an Employee” form.</p>
+            <p>Once all required fields are completed, click Next to proceed to the Groups tab, and continue through Teams, Assets and Licenses, and Tasks in sequence.</p>
+         <p><strong>3. Step 2 – Assign Groups and Teams</strong></p>
+             <hr/>  
+             <p>The Groups tab lets you add the employee to relevant Microsoft 365 / SharePoint groups. The Teams tab lists all teams configured in the system, each with a Team Name and Description. Select the checkbox next to every team the employee should be added to (for example, department-specific Teams channels or project teams), then click Next.</p>   
+          <div><img src="step3.png" onclick="openModal('step3.png')" alt="home page"
+                      width="100%"></div>
+                  <br>
+                  <p>Figure 3: Teams tab — selecting Microsoft Teams the employee should be added to.</p>
+            <p>Note: the Teams listed here are Microsoft Teams / SharePoint channels the employee will join — this is separate from the internal “Teams” used for task ownership (Admin, HR, IT), which are configured under Settings → Add/Edit Teams and covered in Section 6.</p>
+          <p><strong>4. Step 3 – Assign Assets and Licenses</strong></p>
+             <hr/>
+             <p>The Assets and Licenses tab has two sections: Device and Software. Under Device, click Add to assign hardware such as laptops, setting the Status (e.g. Assign), Assigned/Return Date, and Remarks. Under Software, click Add to assign licenses — the panel shows each license's name along with live availability (e.g. “9706 of 10000 licenses available”), and lets you set Status, Assigned/Revoke Date, and Remarks for each one.</p>        
+          <div><img src="step4.png" onclick="openModal('step4.png')" alt="home page"
+                      width="100%"></div>
+                  <br>
+                  <p>Figure 4: Assets and Licenses tab — assigning a device and software licenses to the employee.</p>
+           <p>After assigning the required devices and licenses, click Submit to save the record (or Save Default to store this configuration as a default for future onboarding requests), then proceed to the Tasks tab.
+</p>
+ <p><strong>5. Step 4 – Assign the Task Template</strong></p>
+             <hr/>
+             <p>The Tasks tab is where the onboarding checklist is applied to the employee. Under Task Template, search for and select the template that should govern this employee's onboarding (e.g. “Onboarding Tasks”). Once selected, the tab displays every task from that template — Task Name, Start Date, Due Date, Priority, and Assigned To — automatically populated based on how each task was configured (see Section 7).</p>
+             <div><img src="step5.png" onclick="openModal('step5.png')" alt="home page"
+                      width="100%"></div>
+                  <br> 
+                  <p>Figure 5: Tasks tab — the selected Onboarding Tasks template applied to employee John Miller, showing tasks such as Signed appointment letter, Signed NDA, Joining form completed, and Employee Onboarded, each assigned to HR.</p>   
+        <p>Each task shown here is assigned to the team set as its Task Owner (for example, HR, Admin, or IT). Every member of that team can see and complete the task from their own “My Active Tasks” view. Once all tasks tied to the employee's template are marked complete, the employee's record automatically moves from the Onboarding tab to the Onboarded tab on the dashboard.</p>
+       <p><strong>6. Prerequisite Setup: Creating and Managing Teams</strong></p>
+             <hr/>   
+             <p>Before tasks can be assigned, the teams that will own them (Admin, HR, IT, etc.) must exist in the system. Teams are managed centrally from Settings, and any member added to a team automatically becomes eligible to receive and complete tasks assigned to that team.</p>       
+      <h6>6.1 Locate Add/Edit Teams in Settings</h6>
+      <p>Navigate to Settings. Under the “Users, Roles and Permissions” section, select Add/Edit Teams.</p>
+    <div><img src="step6.png" onclick="openModal('step6.png')" alt="home page"
+                      width="100%"></div>
+                  <br>   
+                  <p>Figure 6: Settings screen — Add/Edit Teams under Users, Roles and Permissions.</p>  
+   <h6>6.2 Task Administration section</h6>
+   <p>The Task Administration section (left navigation) is where Task Categories, Task, and Task Templates are managed — these are covered in Section 7. It sits alongside General Administration and General Settings on the same Settings screen.</p>
+  <div><img src="step6-2.png" onclick="openModal('step6-2.png')" alt="home page"
+                      width="100%"></div>
+                  <br> 
+                  <p>Figure 7: Settings screen — Task Administration section (Task Categories, Task, Task Templates).</p>               
+  <h6>6.3 Create or edit a team</h6>
+  <p>On the Teams Permissions panel, click Add to create a new team, or select an existing team (e.g. Admin, IT, HR, HR Head) to edit it. In the Edit Teams panel, enter the Teams Name and add one or more people under Teams Members — a single team can contain multiple users. When a task is later assigned to this team as its Task Owner, it is assigned to every member listed here, and any of them can complete it.</p>
+   <div><img src="step6-3.png" onclick="openModal('step6-3.png')" alt="home page"
+                      width="100%"></div>
+                  <br>           
+<p>Figure 8: Teams Permissions list and Edit Teams panel — adding members (e.g. John Taylor, Lee Gu) to the Admin team.</p>
+ <p><strong>7. Prerequisite Setup: Creating Tasks and Task Templates</strong></p>
+             <hr/>   
+             <h6>7.1 Create a Task</h6>  
+             <p>From Settings → Task Administration → Task, click Add to open the Add Task panel. Configure the following fields:</p>            
+<ul style="list-style-type:disc;margin:20px">
+  <li>Task Name – a short, descriptive name (e.g. “Signed appointment letter”).</li>
+<li>Process Type – the stage the task belongs to (e.g. Onboarding, Preonboarding, Offboarding).</li>
+<li>Category – groups related tasks (e.g. Post Joining).</li>
+<li>Resolution Days – the number of days allowed to complete the task.</li>
+<li>Department – optional department scoping for the task.</li>
+<li>Priority – Low, Medium, or High.</li>
+<li>Task Owner – the team responsible for completing the task (e.g. Admin, HR, or IT). This determines which team's members the task is assigned to.</li>
+<li>Task Dependency – optionally link this task to another task that must complete first.</li>
+<li>Description, Active toggle, and Task Start Date rules (e.g. same day as Date of Joining, a number of days before/after, or a custom date), plus optional Attachments.</li>
+</ul>
+ <div><img src="step7.png" onclick="openModal('step7.png')" alt="home page"
+                      width="100%"></div>
+                  <br> 
+                  <p>Figure 9: Task list (left) and Add Task panel (right) — configuring Task Name, Process Type, Category, Resolution Days, Priority, and Task Owner.</p>     
+          <p>Repeat this for every task needed across the onboarding journey (e.g. Signed appointment letter, Signed NDA, Joining form completed, Employee handbook shared, Company policy shared, Tax declaration form shared, Joining documents collected, IT Equipment Assigned, Joining kit shared, Employee Onboarded).</p>
+        <h6>7.2 Create a Task Template</h6>    
+        <p>From Settings → Task Administration → Task Templates, create a new template (e.g. “Onboarding Tasks”) and select which of the tasks created in Section 7.1 should be included for that process. A separate template can be built for each process type — Preonboarding, Onboarding, and Offboarding — so that only the relevant checklist is applied depending on which stage the employee is in.</p>   
+      <div><img src="step7-2.png" onclick="openModal('step7-2.png')" alt="home page"
+                      width="100%"></div>
                   <br>
                   <li>
                     <p> <b>Offboarding</b>:
@@ -238,28 +365,170 @@
                   <div><img src="22.png" onclick="openModal('22.png')" alt="home page" width="100%"></div>
 
                   <br>
-                  <li><b>Probationary Period</b> A task will be automatically created based on the selected number of
-                    days.
-                    The due date for the Probation Task will be calculated by adding the selected days to the employee's
-                    onboarding or start date. This ensures timely tracking and completion of probation-related
-                    activities.</li> <br>
-
-                  <div><img src="Probation-period.png" onclick="openModal('Probation-period.png')" alt="home page"
-                      width="100%"></div>
-
+                  <li>
+                    Probation Period Process for Onboarding Employees
                   </li>
-                  <li>The due date of the Probation Task can be extended directly from the task itself. This allows
-                    flexibility in managing probation timelines based on business requirements or employee performance
-                    evaluations.</li> <br>
 
-                  <div><img src="Probation-period.png" onclick="openModal('Probation-period.png')" alt="home page"
+                  <strong>Overview</strong>
+                  <p>
+                    This knowledge base document explains the process of managing the Probation Period for employees
+                    during onboarding. The feature allows HR/Admin users to define a probation duration while
+                    onboarding an employee, automatically create a probation task for the employee’s manager, and
+                    track the probation status until completion.
+                  </p>
+
+                  <hr style="border: 0; height: 1px; background: #ddd; margin: 20px 0;">
+
+                  <strong style="color: #333; margin-top: 20px;">Probation Period Process</strong>
+
+                  <!-- STEP 1 -->
+                  <p><strong>Step 1: Add “Probationary Period” Field in Custom Form</strong></p>
+                  <p><strong>Navigation:</strong> <code
+                      style="background: #eee; padding: 2px 4px; border-radius: 3px;">Settings → Custom Forms → Edit Onboarding Form</code>
+                  </p>
+                  <p><strong>Steps:</strong></p>
+                  <ol>
+                    <li>Open the required onboarding custom form.</li>
+                    <li>Search for the field <strong>“Probationary Period”</strong> from the available fields
+                      section.</li>
+                    <li>Drag and drop the field into the selected fields area.</li>
+                    <li>Save the form.</li>
+                  </ol>
+                  <p><strong>Reference:</strong> The “Probationary Period” field should be added to the onboarding
+                    form configuration.</p>
+                  <div><img src="Edit-custom-column.png" onclick="openModal('Edit-custom-column.png')" alt="home page"
                       width="100%"></div>
+                  <br>
 
-                  </li>
+                  <!-- STEP 2 -->
+                  <p><strong>Step 2: Select Probation Duration While Onboarding Employee</strong></p>
+                  <p>During employee onboarding:</p>
+                  <ol>
+                    <li>Create a new onboarding request.</li>
+                    <li>Fill in employee details.</li>
+                    <li>Select the required probation duration/days in the <strong>Probationary Period</strong>
+                      field.</li>
+                    <li>Submit the onboarding request.</li>
+                  </ol>
+
+
+                  <div><img src="Onboard-an-Employee.png" onclick="openModal('Onboard-an-Employee.png')" alt="home page"
+                      width="100%"></div>
+                  <br>
+                  <p><strong>Expected Behaviour:</strong></p>
+                  <ul>
+                    <li>The system calculates the probation end date based on the employee’s <strong>Date of
+                        Joining</strong> and selected probation period.</li>
+                    <li>The onboarding request remains active until the probation process is completed.</li>
+                  </ul>
+
+                  <!-- STEP 3 -->
+                  <p><strong>Step 3: Automatic Probation Task Creation</strong></p>
+                  <p>After the onboarding request is submitted:</p>
+                  <ul>
+                    <li>A task named <strong>“Probation Period Task”</strong> is automatically created.</li>
+                    <li>The task is assigned to the employee’s reporting manager.</li>
+                    <li>The task appears under: <strong>My Active Tasks</strong> and <strong>Current
+                        Tasks</strong>.</li>
+                  </ul>
+
+                  <p><strong>Task Details Include:</strong></p>
+                  <table
+                    style="width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 14px; text-align: left;">
+                    <thead>
+                      <tr style="background-color: #f2f2f2; border-bottom: 2px solid #ddd;">
+                        <th style="padding: 10px; border: 1px solid #ddd; width: 40%;">Detail Field</th>
+                        <th style="padding: 10px; border: 1px solid #ddd; width: 60%;">Value Type / Context</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Employee Name</strong></td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Name of the onboarding employee
+                        </td>
+                      </tr>
+                      <tr style="background-color: #fafafa;">
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>User Email</strong></td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">The employee's official email address</td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Department / Job Title</strong>
+                        </td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Assigned organizational department and
+                          position</td>
+                      </tr>
+                      <tr style="background-color: #fafafa;">
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Date of Joining / Manager</strong>
+                        </td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Official start date and assigned reporting
+                          authority</td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Due Date / Process Type</strong>
+                        </td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Calculated deadline date; Process Type is
+                          <strong>Onboarding</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div><img src="task-details_.png" onclick="openModal('task-details_.png')" alt="home page"
+                      width="100%"></div>
+                  <br>
+
+                  <!-- STEP 4 -->
+                  <p><strong>Step 4: Manager Actions on Probation</strong></p>
+                  <p>The assigned manager can review the employee’s probation and take one of the following
+                    actions:</p>
+
+                  <table
+                    style="width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 14px; text-align: left;">
+                    <thead>
+                      <tr style="background-color: #f2f2f2; border-bottom: 2px solid #ddd;">
+                        <th style="padding: 10px; border: 1px solid #ddd; width: 25%;">Available Action</th>
+                        <th style="padding: 10px; border: 1px solid #ddd; width: 75%;">System Behaviour & Requirements
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>1. Complete</strong></td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Marks the employee probation as
+                          successfully completed. The employee onboarding process is finalized and the
+                          employee moves out of the onboarding section.</td>
+                      </tr>
+                      <tr style="background-color: #fafafa;">
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>2. Reject</strong></td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Marks the probation as rejected.
+                          HR/Admin can take further action based on company policy.</td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;"><strong>3. Extend</strong></td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">Extends the employee probation period.
+                          Manager must explicitly provide an <strong>Extended probation date</strong> and a
+                          <strong>Justification/comments</strong>.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- STEP 5 -->
+                  <p><strong>Step 5: Employee Visibility in Onboarding</strong></p>
+                  <p><strong>Important Behaviour:</strong></p>
+                  <ul>
+                    <li>Until the probation task is marked as <strong>Completed</strong>, the employee will continue
+                      to appear in the Onboarding section, and the onboarding request status remains active/in
+                      progress.</li>
+                    <li>Once the manager completes the probation task, the employee is moved from the onboarding
+                      stage, and the onboarding lifecycle is considered completed.</li>
+                  </ul>
+
+                  <hr style="border: 0; height: 1px; background: #ddd; margin: 30px 0;">
+
+
                 </ul>
-
-
-              </ul>
+<!--content added-->   
+      </ul>
             </div>
             <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
             <nav class="pagination mt-3">
@@ -284,33 +553,8 @@
     </div>
   </div>
 
-  <footer class="section pb-4">
-    <div class=container>
-      <div class="row align-items-center">
-        <div class="col-md-8 text-md-left text-center">
-          <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
-              href=https://www.hr365.us/sla />SLA.</a>
-            <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-              href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-              href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-            Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-          </p>
-        </div>
-        <div class="col-md-4 text-md-right text-center">
-          <ul class=list-inline>
-            <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i class=ti-facebook></i></a></li>
-            <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://twitter.com/HR365_HRMS"
-                aria-label=Twitter><i class=ti-twitter-alt></i></a></li>
-
-            <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd" aria-label=Linkedin><i
-                  class=ti-linkedin></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
   <script src="../../../../../js/script.min.js"></script>
   <script>
     function openModal(src) {
@@ -330,6 +574,7 @@
   <script src="../../../../js/header-footer.js"></script>
   <script src="../../../../js/showhidefunction.js"></script>
   <script src="../js-modern-admin/obm-modern-admin.js"></script>
+  <script src="/js/plus-toggle.js"></script>
 </body>
 
 </html>

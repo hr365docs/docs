@@ -70,14 +70,14 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-          <div class="container container-padding">
+          <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
                         <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../sharepoint-employee-directory/">Employee Directory 365 </a></h5>
                         <a class=back-btn href="../../admin/" aria-label=back></a>
                         <ul class=list-styled>
-                            <li data-nav-id="../../../../sharepoint-employee-directory/" title= Admin-Guide class="sidelist
+                            <li data-nav-id="../../../../sharepoint-employee-directory/" title= admin Guide class="sidelist
 active">
                                 <a href="../../admin/">
                                     Admin Guide
@@ -136,11 +136,15 @@ active">
                                                 <div><img src="print.png" onclick="openModal('print.png')" alt="Print to PDF" width="100%"
                                                     height="auto"></div></li>
                                                     <br>
-                                                    <p><b>Export to CSV:</b>  From here you can take a printout of the team member's details displayed on the home page in CSV format. Admin can hide/show the <b>Export to CSV</b> from <a href="/sharepoint-employee-directory/modern/admin/settings/general/#allow-user-export-directory">general settings</a>.
+                                                   <p>
+  <b>Export to CSV:</b> From here you can take a printout of the team member's details displayed on the home page in CSV format. You can also export all users at once. Admins can hide/show the <b>Export to CSV</b> option from <a href="/sharepoint-employee-directory/modern/admin/settings/general/#allow-user-export-directory">general settings</a>.
+</p>
 
-                                                    </p>
                                                        
                                                         <div><img src="export_CSV.png" onclick="openModal('export_CSV.png')" alt="Export to CSV" width="100%"
+                                                            height="auto"></div></li>
+                                                            <br>
+                                                            <div><img src="export_CSV1.png" onclick="openModal('export_CSV1.png')" alt="Export to CSV" width="100%"
                                                             height="auto"></div></li>
                                                             <br>
                                                     <p> In the tab bar, click on the cake icon, and you will see the upcoming birthdays and work anniversaries.</p>
@@ -214,35 +218,8 @@ active">
 
         </div>
     </div>
-
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a href="https://www.hr365.us/sla/">SLA.</a>
-                    <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                        href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                        href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                    Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-                    
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+<div id="footer-container"></div>
+<script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../../../../js/edm-admin-advanced.js"></script>
     <script src="../../../../js/edm-adminguide-general.js"></script>
@@ -265,6 +242,6 @@ function closeModal() {
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML=date;
        </script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html> 

@@ -77,7 +77,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -90,7 +90,7 @@
                                 class="sidelist
         active">
                                 <a href="../../user/">
-                                    User-Guide
+                                    User Guide
                                 </a>
                                 <ul id="hdm-user-aside" class="sidenavbarscrollstyle">
                                 </ul>
@@ -127,6 +127,15 @@
                             </ul>
                             <br>
 
+                             <h3 id="My-Requests"><a class="header-icon-link highlight" href="">My Requests<i
+                                        class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                            <p>
+                                From here, the user can view ticket details and recently raised tickets.
+                            </p>
+                            <div><img src="my_ticket.png" onclick="openModal('my_ticket.png')" alt="My ticket"
+                                    width="100%" height="auto"></div><br>
+
+
                             <h3 id="_dashboards"><a class="header-icon-link highlight" href="">New Ticket<i
                                         class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
                             <p>
@@ -137,7 +146,7 @@
                             <ol>
 
                                 <li>
-                                    <p>Click on the <b>New ticket</b> on the Home page, this displays the new ticket
+                                    <p>Click on the <b>+ ticket</b> on the Home page, this displays the new ticket
                                         page.</p>
 
                                     <div><img src="new_ticket.png" onclick="openModal('new_ticket.png')"
@@ -162,14 +171,7 @@
                                 </li>
 
                             </ol>
-                            <h3 id="_dashboards"><a class="header-icon-link highlight" href="">My Ticket<i
-                                        class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
-                            <p>
-                                From here, the user can view ticket details and recently raised tickets.
-                            </p>
-                            <div><img src="my_ticket.png" onclick="openModal('my_ticket.png')" alt="My ticket"
-                                    width="100%" height="auto"></div>
-
+                           
                             <p>
                                 <br>
                                 <b>Comment Page:</b> Click the <b>Ticket ID</b> or <b>Title</b> to open the comment
@@ -199,13 +201,76 @@
                             </p>
                             <br>
 
+                            <h2 id="My-Closed"> <a class="header-icon-link highlight" href="">My Closed</a></h2>
+
+<p>
+The <b>My Closed</b> section shows all tickets that have been resolved. Users can review closed ticket details and see how their issues were addressed.
+</p>
+ <div><img src="6.png" onclick="openModal('6.png')"
+                                    alt="Ticket history" width="100%" height="auto"></div><br>
+
+
+
+
+                            <h2 id="Knowledgebase">
+    <a class="header-icon-link highlight" href="">
+        Knowledgebase
+        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+    </a>
+</h2>
+
+<p>
+    Once the Knowledgebase feature is enabled for end users, the <b>Knowledgebase</b> tab becomes visible in the Helpdesk navigation menu. 
+    Users can quickly open it to browse articles, search for answers, and explore content organized under different teams or departments.
+</p>
+
+<div>
+    <img src="2.png"  onclick="openModal('2.png')" width="100%" alt="User KB Home">
+</div><br>
+
+<p>
+    Inside the Knowledgebase, articles are grouped by department categories such as <b>Human Resources</b>, 
+    <b>Information Technology</b>, and <b>Customer Experience</b>. Users can expand any category to view all available articles inside it.
+</p>
+
+<div>
+    <img src="1.png"  onclick="openModal('1.png')" width="100%" alt="User KB Home">
+</div><br>
+
+<p>
+    Users can also use the <b>Search</b> bar to quickly find articles by entering keywords related to their question or issue.
+</p>
+
+
+<div>
+    <img src="3.png"  onclick="openModal('3.png')" width="100%" alt="User KB Home">
+</div><br>
+
+<p>
+    At the bottom of each article, users can rate the helpfulness of the content using the <b>five-star rating system</b>. 
+    There is also a <b>feedback text box</b> where additional comments can be submitted to help improve article quality.
+</p>
+<div>
+    <img src="4.png"  onclick="openModal('4.png')" width="100%" alt="User KB Home">
+</div><br>
+
+<p>
+    Users can access related articles from the right-side panel, allowing them to browse additional content from the same department without returning to the main page.
+</p>
+<div>
+    <img src="5.png"  onclick="openModal('5.png')" width="100%" alt="User KB Home">
+</div><br>
+
+
+
+
 
                         </div>
                         <nav class="pagination mt-3">
                             <a class="nav nav-prev" href="../introduction/" aria-label="Previous page"><i
                                     class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Introduction</span></a>
-                            <a class="nav nav-next" href="../help/" aria-label="Previous page"> <span
-                                    class="d-none d-md-block"> Help </span><i class="ti-arrow-right ml-2"></i></a>
+                            <a class="nav nav-next" href="../theme/" aria-label="Previous page"> <span
+                                    class="d-none d-md-block"> Theme </span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
                 </div>
@@ -224,36 +289,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a
-                            href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.
-                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+    <script src="/footer/index.js"></script>
     <script src="../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -271,7 +308,7 @@
         document.getElementById("date").innerHTML = date;
     </script>
 
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 <script src="../../../../js/header-footer.js"></script>
 <script src="../hdm-user-js/hdm-user-aside.js"></script>
 <script src="../../../../js/showhidefunction.js"></script>

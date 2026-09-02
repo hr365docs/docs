@@ -84,19 +84,19 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
                         <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../../../HRMS-HR365/">HRMS-HR365 </a></h5>
                         <a class=back-btn href="../../../../../../../HRMS-HR365/" aria-label=back></a>
                         <ul class=list-styled>
-                            <li data-nav-id="" title=Admin-Guide class="sidelist
+                            <li data-nav-id="" title=admin Guide class="sidelist
 active">
                                 <a href="../../../../../admin/">
                                     Admin Guide
                                 </a>
-                                 <div id="hcm-admin-guide" class="sidenavbarscrollstyle">
+                                 <div id="hcm-admin-Guide" class="sidenavbarscrollstyle">
                                    
                                 </div>   
                               
@@ -151,6 +151,44 @@ active">
                                     </div>   <br>
     
                                 </ul>
+                                <h2 id="_offer_letter_template">
+        <a class="header-icon-link highlight" href="#">Offer Letter Template
+          <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+        </a>
+      </h2>
+      <br>
+      <p>An offer letter template is a pre-defined format used to create employment offers for selected candidates. It helps maintain consistency and ensures all essential information is included in the offer.</p><br>
+
+        <div><img src="21.png" onclick="openModal('21.png')" alt="Offer Letter Template Preview" width="100%" height="auto"></div><br>
+
+      <p>Click the “+Add Template” button to create a new offer letter template.</p><br>
+      <div><img src="22.png" onclick="openModal('22.png')" alt="Add Offer Letter Template" width="100%" height="auto"></div><br>
+
+    <p>
+  After entering the template name, description, access type, and offer content, you can use placeholders such as {CandidateName}, {Position}, {JoiningDate}, and {Salary} to automatically fill in candidate details in the final offer letter. Once done, click “Save” to store the template.
+</p><br>
+
+<div>
+  <img src="23.png" onclick="openModal('23.png')" alt="Save Offer Letter Template" width="100%" height="auto">
+</div><br>
+<div>
+
+
+
+      <p>To deactivate an offer letter template, select the checkbox next to the desired entry.</p><br>
+      <div><img src="inactiveToogle1.png" onclick="openModal('inactiveToogle1.png')" alt="Deactivate Offer Letter Template" width="100%" height="auto"></div><br>
+
+      <p>Inactive templates will appear in the dedicated section for easy identification.</p><br>
+      <div><img src="inactiveSection1.png" onclick="openModal('inactiveSection1.png')" alt="Inactive Offer Letter Templates" width="100%" height="auto"></div><br>
+
+      <p>If a template was deactivated by mistake, users can re-enable it by checking the box again.</p><br>
+      <div><img src="BacktoActive1.png" onclick="openModal('BacktoActive1.png')" alt="Reactivate Offer Letter Template" width="100%" height="auto"></div><br>
+
+      <p>Once reactivated, the template will be listed in the Active section.</p><br>
+      <div><img src="nowActive1.png" onclick="openModal('nowActive1.png')" alt="Active Offer Letter Templates" width="100%" height="auto"></div><br>
+
+    </div>
+</div>
                             </div>
 
 
@@ -159,10 +197,10 @@ active">
 
                         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
                         <nav class="pagination mt-3">
-                            <a class="nav nav-prev" href="../hiring-process/" aria-label="Previous page"><i
-                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Hiring Process</span></a>
-                            <a class="nav nav-next" href="../portal-configration/" aria-label="Previous page"> <span
-                                    class="d-none d-md-block">Portal Configration</span><i class="ti-arrow-right ml-2"></i></a>
+                            <a class="nav nav-prev" href="../custom-field/" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Field Customization</span></a>
+                            <a class="nav nav-next" href="../permissions/" aria-label="Previous page"> <span
+                                    class="d-none d-md-block">Permissions</span><i class="ti-arrow-right ml-2"></i></a>
                         </nav>
                     </div>
                 </div>
@@ -181,15 +219,15 @@ active">
         </div>
     </div>
 
-    <footer class="section pb-4">
+    <!--<footer class="section pb-4">
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
+                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a> <a
                             href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
                         Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
                 </div>
@@ -209,7 +247,9 @@ active">
                 </div>
             </div>
         </div>
-    </footer>
+    </footer>-->
+    <div id="footer-container"></div>
+    <script src="/footer/index.js"></script>
      <script src="../../../../../../../js/script.min.js"></script>
     <script src="../../../../../../../js/showhidefunction.js"></script>
     <script>
@@ -229,6 +269,6 @@ active">
     </script>
      <script src="../../../../../../../js/header-footer.js"></script>
     <script src="../../../../../../../js/hcm-modern-admin.js"></script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

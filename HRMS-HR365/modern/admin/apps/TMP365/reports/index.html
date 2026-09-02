@@ -84,7 +84,7 @@
 </header>
         
 <section class="single section-sm pb-0">
-    <div class="container container-padding">
+    <div class="container container-padding" style="padding-bottom: 1vw;">
     <div class=row>
     <div class=col-lg-3>
     <div class=sidebar>
@@ -96,7 +96,7 @@
         <a href="../../../../admin/">
         Admin Guide
         </a>
-        <div id="hcm-admin-guide" class="sidenavbarscrollstyle">
+        <div id="hcm-admin-Guide" class="sidenavbarscrollstyle">
                                    
                                 </div>     
                         
@@ -114,21 +114,51 @@
                 <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
         </h2>
               
-           <ol type="I">
-                             
-               <li><h6>Employee Leave Reports </h6>All the information of the users leaves balance leave of users based on department and location could be viewed. You could also generate the report by clicking on export button.</li>
-               <br> <div><img src="reports.png" onclick="openModal('reports.png')" alt="Reports" width="100%" height="auto"></div>
-               <br>
-               <li><h6>Employee Work Reports </h6>The Employee Work Reports feature provides detailed information on employees' work activities, including hours worked and tasks completed. Users can filter reports by department and location, and generate a comprehensive report by clicking the export button.</li>
-               <br> <div><img src="employeework.png" onclick="openModal('reports.png')" alt="Reports" width="100%" height="auto"></div>
-               <br>
-               <li><h6>Leave Reports</h6>Time-off Type by Department, Time-off Type by Location, Weekdays Time-off by Department,Absence Rate by Department, Absence Rate by Location and Weekdays Time-off by Location could be viewed.</li>
-               <br> <div><img src="leave_report.png" onclick="openModal('leave_report.png')" alt="Leave report" width="100%" height="auto"></div>
-               <br>
-              
-              <br><br>
-           </ol>
-           
+         <ol type="I">
+        <!-- Reports Overview -->
+        <li>
+            
+            View comprehensive reports related to employee activities and leave trends. Visual summaries help track productivity and absenteeism across departments and locations.
+            <br><br>
+            <div><img src="reports.png" onclick="openModal('reports.png')" alt="Reports" width="100%" height="auto"></div>
+            <br>
+        </li>
+
+        <!-- Employee Reports -->
+        <li>
+            <h6>Employee Reports</h6>
+
+            <!-- Leaves -->
+            
+            <b>Leaves : </b>View user leave balances by department and location. Export detailed reports using the export button.<br>
+            <br><div><img src="reports1.png" onclick="openModal('reports1.png')" alt="Reports" width="100%" height="auto"></div>
+            <br>
+
+            <!-- Workdays -->
+          
+          <b>Workdays :</b>  Detailed overview of employees’ work hours and tasks. Filters available by department and location for easy report generation.<br>
+            <br>
+            <div><img src="employeework.png" onclick="openModal('employeework.png')" alt="Employee Work Reports" width="100%" height="auto"></div>
+            <br>
+        </li>
+
+        <!-- Leave Reports -->
+        <li>
+            <h6>Leave Reports</h6>
+           <p>
+    The Leave Report provides a detailed view of employee leave records including leave type, duration, department, and approval status. Users can easily track and manage leave requests, helping teams monitor attendance trends and ensure compliance with leave policies.
+</p>
+<br>
+            <div><img src="leave_report.png" onclick="openModal('leave_report.png')" alt="Leave Report" width="100%" height="auto"></div>
+            <br>
+            <p>
+    Use the available filters to quickly narrow down and view specific leave records based on your selection criteria.
+</p>
+<div><img src="leave_report1.png" onclick="openModal('leave_report1.png')" alt="Leave Report" width="100%" height="auto"></div>
+            <br>
+
+        </li>
+    </ol>
      
         </div>
         <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
@@ -155,14 +185,14 @@
                 </div>
             </div>
         
-            <footer class="section pb-4">
+            <!--<footer class="section pb-4">
                 <div class=container>
                     <div class="row align-items-center">
                         <div class="col-md-8 text-md-left text-center">
-                            <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a href="https://www.hr365.us/sla/">SLA.</a>
+                            <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a><a href="https://www.hr365.us/sla/">SLA.</a>
                             <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                                 href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                                href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                                href=https://www.cubiclogics.com/privacy-policy/>Privacy
                             Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                         </p>
                         </div>
@@ -182,7 +212,9 @@
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer>-->
+            <div id="footer-container"></div>
+            <script src="/footer/index.js"></script>
              <script src="../../../../../../js/script.min.js"></script>
                <script src="../../../../../../js/showhidefunction.js"></script>
             <script>
@@ -202,6 +234,6 @@
                </script>
                <script src="../../../../../../js/header-footer.js"></script>
     <script src="../../../../../../js/hcm-modern-admin.js"></script>
-        </body>
+         <script src="/js/plus-toggle.js"></script></body>
         
         </html> 

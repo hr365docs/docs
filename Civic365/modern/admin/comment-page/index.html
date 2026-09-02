@@ -63,7 +63,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-          <div class="container container-padding">
+          <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -103,6 +103,7 @@
                                     <li>Escalate</li>
                                     <li>Review</li>
                                     <li>Sub Tickets</li>
+                                     <li>Scheduled Reply</li>
 
 
 
@@ -590,6 +591,72 @@
                                                 </p>
                                             </li> -->
                                         </ol></ul></div>
+                                                  <div class="bg-light p-4 remove-padding common-scroll" id="scheduled-reply">
+    <ul class="page-list">
+        <h2 id="_scheduled_reply">
+            <a class="header-icon-link highlight" href="#">Scheduled Reply
+                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+            </a>
+        </h2>
+
+        <p>
+            The <b>Scheduled Reply</b> feature allows users to compose a comment and schedule it to be sent automatically at a specified future date and time. 
+            This ensures timely responses, even during non-working hours or at strategic intervals.
+        </p>
+
+        <p>
+            Once the timer icon is clicked, a popup modal titled <b>“Send Scheduled Message”</b> appears. 
+            This allows the user to configure when the reply should be sent.
+        </p>
+
+        <div>
+            <img src="01.png" 
+                 onclick="openModal('01.png')" 
+                 alt="Send Scheduled Message Popup" width="100%" height="auto">
+        </div>
+
+        <br>
+
+        <p>
+            The popup includes a <b>Date Picker</b> to select the schedule date and a <b>Time Dropdown</b> to choose a valid time in <b>HH:MM AM/PM</b> format. 
+        </p>
+        <div>
+            <img src="04.png" 
+                 onclick="openModal('04.png')" 
+                 alt="Scheduled Reply Button" width="100%" height="auto">
+        </div><br>
+
+        <p>
+            Times are shown in a 12-hour format and only valid future slots are displayed to ensure accurate scheduling.
+        </p>
+        <div>
+            <img src="03.png" 
+                 onclick="openModal('03.png')" 
+                 alt="Scheduled Reply Button" width="100%" height="auto">
+        </div>
+
+        <br>
+
+        <p>Click <b>Send</b> to confirm and schedule the message, or <b>Cancel</b> to close the popup without saving.</p>
+        <div>
+            <img src="02.png" 
+                 onclick="openModal('02.png')" 
+                 alt="Scheduled Reply Button" width="100%" height="auto">
+        </div>
+
+        <br>
+
+        <p>
+            Once a message is scheduled successfully, it will be sent automatically at the defined date and time without requiring further user action.
+        </p>
+
+        <div class="notices note">
+            <div class="paragraph">
+                <p> The Scheduled Reply feature works with the help of <b>Power Automate</b> to execute the message delivery at the scheduled time.</p>
+            </div>
+        </div>
+    </ul>
+</div>
                                     </div>
 
                               
@@ -598,8 +665,6 @@
 
 
                         </div>
-                        </ul>
-                    </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3 " id="date ">
 
                     <nav class="pagination mt-3 ">
@@ -624,34 +689,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4 ">
-        <div class=container>
-            <div class="row align-items-center ">
-                <div class="col-md-8 text-md-left text-center ">
-                    <p class="mb-md-0 mb-4 ">© 2025-<a href=https://www.hr365.us />HR365.</a><a href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                            href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                        Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center ">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2 "
-                                href="https://www.facebook.com/hr365apps/ " aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2 "
-                                href="https://twitter.com/HR365_HRMS " aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-                        <!-- <li class=list-inline-item><a class="text-color d-inline-block p-2 " href=# aria-label=Github><i class=ti-github></i></a></li> -->
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2 "
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd "
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -669,7 +708,7 @@
         document.getElementById("date ").innerHTML = date;
     </script>
 
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 <script src="../../../../js/header-footer.js "></script>
 <script src="../../admin/hdm-admin-aside-js/hdm-admin-aside.js "></script>
 <script src="../../../../js/showhidefunction.js"></script>

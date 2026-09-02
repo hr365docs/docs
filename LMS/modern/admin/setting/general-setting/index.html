@@ -68,11 +68,11 @@
     </nav>
   </header>
   <section class="single section-sm pb-0">
-   <div class="container container-padding">
+   <div class="container container-padding" style="padding-bottom: 1vw;">
       <div class=row>
         <div class=col-lg-3>
           <div class=sidebar>
-            <h5 class="mbHeading" style="color:SlateBlue"><a href="/LMS/index.html">Learning Management System 365</a></h5>
+            <h5 class="mbHeading" style="color:SlateBlue"><a href="/LMS/">Learning Management System 365</a></h5>
               <a class=back-btn href="../../../../../LMS/" aria-label=back></a>
               <ul class=list-styled>
               <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title="Admin Guide" class="sidelist
@@ -81,7 +81,7 @@
               Admin Guide
               </a>
               <ul>
-                  <ul id="lmsmodernadmin"> 
+                  <ul id="lmsmodernadmin" class="sidenavbarscrollstyle"> 
                 </ul>
           </li>
         
@@ -99,19 +99,217 @@
                 <!-- <h2 class=mb-5 id=title>General Settings</h2> -->
                 <div class="bg-light p-4 remove-padding">
                     <div class=page-list>
-                        <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>General Settings
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
+                        <h2 style="color:var(--primary-color)" id="_dashboards">General Settings
+                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></h2>
 
-                        <p>This section allows you to modify settings such as date format, theme, language selection, logo configuration, and more.</p>
-                        <div><img src="1.png" onclick="openModal('1.png')" alt="intregation"
+                        <p><!--This section allows you to modify settings such as date format, theme, language selection, logo configuration, and more.-->This section allows administrators to configure core application settings including date formats, themes, language preferences, logo configuration, user management, and more. Settings modified here are applied globally across the application.</p>
+                       <!-- <div><img src="1.png" onclick="openModal('1.png')" alt="intregation"
+                                width="100%" height="auto"></div><br>-->
+                        <div><img src="first.png" onclick="openModal('first.png')" alt="intregation"
                                 width="100%" height="auto"></div><br>
-                        
-                       
+                        <h3 style="color:var(--primary-color)" id="_dashboards">General Settings
+                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></h3>
+                                <hr/>
+<h3 style="color:var(--primary-color)" id="dat">Date Format<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3>
+          <p>Allows administrators to set the date format used throughout the application. Once changed, the selected format will be reflected across all modules and pages.</p>
                         </div>
-                 
-<div class="bg-light p-4 remove-padding common-scroll" id="Date-Format">
-    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Date-Format<i class="fas fa-link"
-          style="font-size:12px; color:lightgray;"></i></a> </h2>
+  <ul style="list-style-type:disc;margin:20px">
+    <li>Navigate to Admin > Settings > General Settings.</li>
+    <li>Locate the Date Format option.</li>
+ <li>Select your preferred date format from the dropdown.</li>
+ <li>Click Save to apply the changes.  </li>
+  </ul>   
+   <div><img src="second.png" onclick="openModal('second.png')" alt="intregation"
+                                width="100%" height="auto"></div><br> 
+  <div style="background-color:rgb(218,233,247);border:1px solid blue;display:flex;padding:5px;align-items:center">
+    <p style="margin:0"><strong style="color:var(--primary-color)">Note: </strong>The date format change applies globally to all users in the application.</p>
+  </div>                  
+    <hr/>  
+    <h3 style="color:var(--primary-color)" id="side">Side Navigation Theme<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3> 
+          <p>This feature enables administrators to customize the visual theme of the side navigation bar. Adjusting the theme helps align the application's appearance with your organization's branding.</p>          
+<ul style="list-style-type:disc;margin:20px">
+  <li>Navigate to Admin > Settings > General Settings.</li>
+  <li>Find the Side Navigation Theme option.</li>
+  <li>Choose your preferred theme (e.g., Dark, Light, or Custom colour)</li>
+  <li>Click Save to apply.</li>
+</ul>
+<div><img src="third.png" onclick="openModal('third.png')" alt="intregation"
+                                width="100%" height="auto"></div><br> 
+  <div style="background-color:rgb(218,233,247);border:1px solid blue;display:flex;padding:5px;align-items:center">
+ <p style="margin:0"><strong style="color:var(--primary-color)">Note: </strong>The selected theme is applied to all users across the application.</p>
+  
+  </div><hr/>
+      <h3 style="color:var(--primary-color)" id="gcc">GCC Tenant<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3> 
+          <p>The GCC (Government Community Cloud) Tenant setting allows organizations operating in the Microsoft GCC environment to configure the application to work within GCC compliance boundaries.</p>                          
+          <ul style="list-style-type:disc;margin:20px">
+            <li>Navigate to Admin > Settings > General Settings.</li>
+            <li>Locate the GCC Tenant toggle.</li>
+            <li>Enable the toggle if your organization uses a Microsoft GCC tenant.</li>
+            <li>Click Save to confirm the configuration.</li>
+          </ul>
+          <div><img src="fourth.png" onclick="openModal('fourth.png')" alt="intregation"
+                                width="100%" height="auto"></div><br> 
+          <div style="background-color:rgb(218,233,247);border:1px solid blue;display:flex;padding:5px;align-items:center">
+ <p style="margin:0"><strong style="color:var(--primary-color)">Note: </strong>This setting must be enabled for organizations using Microsoft 365 GCC or GCC High environments to ensure proper authentication and data residency compliance.</p>
+  
+  </div><hr/>
+   <h3 style="color:var(--primary-color)" id="fav">Show Fav Icon<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3> 
+          <p>By toggling this option, you can enable or disable the display of the favicon on the left side of the browser tab. This helps users quickly identify the application when multiple tabs are open.</p>
+         <ul style="list-style-type:disc;margin:20px">
+          <li>Navigate to Admin > Settings > General Settings.</li>
+          <li>Locate the Show Fav Icon toggle.</li>
+          <li>Enable the toggle to display the favicon in the browser tab.</li>
+          <li>Click Save</li>
+         </ul>
+           <div><img src="fav.png" onclick="openModal('fav.png')" alt="intregation"
+                                width="100%" height="auto"></div><br> <hr/>
+            <h3 style="color:var(--primary-color)" id="default">Default Language <i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3>  
+          <p>This feature allows administrators to set the default language for the application. Users can designate their preferred language for web content, and the system will default to this language unless individually overridden.</p>                    
+          <ul style="list-style-type:disc;margin:20px">
+            <li>Navigate to Admin > Settings > General Settings.</li>
+         <li>Find the Default Language dropdown.</li>
+         <li>Select the preferred language from the available options.</li>
+         <li>Click Save to apply the language setting across the application.</li>
+          </ul>
+           <div><img src="default.png" onclick="openModal('default.png')" alt="intregation"
+                                width="100%" height="auto"></div><br> 
+                                  <div style="background-color:rgb(218,233,247);border:1px solid blue;display:flex;padding:5px;align-items:center">
+ <p style="margin:0"><strong style="color:var(--primary-color)">Note: </strong>Individual users may override the default language from their personal profile settings if permitted.</p>
+  </div><hr/>
+   <h3 style="color:var(--primary-color)" id="use">Use SharePoint URL for MS Teams Installed Application <i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3>
+          <p>This setting configures the application to use the SharePoint URL when the LMS is installed as an application within Microsoft Teams. This ensures seamless navigation and proper rendering within the Teams environment.</p>
+          <ul style="list-style-type:disc;margin:20px">
+            <li>Navigate to Admin > Settings > General Settings.</li>
+            <li>Locate the 'Use SharePoint URL for MS Teams installed application' toggle.</li>
+            <li>Enable the toggle if the LMS is deployed as a Teams app.</li>
+            <li>Enter the SharePoint URL if prompted.</li>
+            <li>Click Save to apply.</li>
+          </ul>
+           <div><img src="sharepoint.png" onclick="openModal('sharepoint.png')" alt="intregation"
+                                width="100%" height="auto"></div><br> 
+              <div style="background-color:rgb(218,233,247);border:1px solid blue;display:flex;padding:5px;align-items:center">
+ <p style="margin:0"><strong style="color:var(--primary-color)">Note: </strong>This setting is only applicable when the application is installed as a tab or personal app within Microsoft Teams.</p>
+  
+  </div><hr/>       
+  <h3 style="color:var(--primary-color)" id="hide">Hide SharePoint Page's Default Components<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3>    
+          <p>Activating this toggle will automatically remove the default empty space and default components surrounding the designated webpart on SharePoint pages, providing a cleaner and more focused view.</p>         
+        <ul style="list-style-type:disc;margin:20px">
+          <li>Navigate to Admin > Settings > General Settings.</li>
+          <li>Select Configure to begin processing.</li>
+          <li>Enable the toggle to hide default SharePoint components.</li>
+          <li>Click Save.</li>
+        </ul>
+         <div><img src="hide.png" onclick="openModal('hide.png')" alt="intregation"
+                                width="100%" height="auto"></div><br><hr/>
+                                 <h3 style="color:var(--primary-color)" id="log">Log Collection<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3>
+          <p>The Log Collection feature enables administrators to capture and download application logs for troubleshooting and diagnostics. This is especially useful when reporting issues to the HR365 support team.</p>
+          <ul style="list-style-type:disc;margin:20px">
+            <li>Navigate to Admin > Settings > General Settings.</li>
+            <li>Locate the Log Collection option.</li>
+            <li>Enable or configure the log collection settings as needed.</li>
+            <li>Use the Download Logs button to retrieve the collected log files.</li>
+            <li>Share log files with HR365 support when raising a ticket.</li>
+          </ul>
+            <div><img src="log.png" onclick="openModal('log.png')" alt="intregation"
+                                width="100%" height="auto"></div><br>
+                                     <div style="background-color:rgb(218,233,247);border:1px solid blue;display:flex;padding:5px;align-items:center">
+ <p style="margin:0"><strong style="color:var(--primary-color)">Note: </strong>Log collection may have a performance impact during high-traffic periods. Enable only when needed for troubleshooting.</p>
+  </div><hr/>
+   <h3 style="color:var(--primary-color)" id="naming">Naming Convention<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3> 
+          <p>The Naming Convention setting allows administrators to define custom section names that appear as headings in the ESS portal, under which required documents can be attached.</p>
+        <ul style="list-style-type:disc;margin:20px">
+          <li>Navigate to Admin > Settings > General Settings.</li>
+          <li>Select Configure to proceed.</li>
+          <li>Enter the desired naming conventions for your document sections.</li>
+          <li>Click Save to apply the changes.</li>
+        </ul>
+         <div><img src="naming.png" onclick="openModal('naming.png')" alt="intregation"
+                                width="100%" height="auto"></div><br><hr/>
+            <h3 style="color:var(--primary-color)" id="company">Company Details<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3>        
+          <p>The Company Details section allows administrators to configure the organization's public-facing information displayed within the application.</p>              
+         <ul style="list-style-type:disc;margin:20px">
+          <li>Navigate to Admin > Settings > General Settings.</li>
+          <li>Select Configure to open the Company Details panel.</li>
+          <li>Fill in the Company Name, Tagline, and Company Bio.</li>
+          <li>Click Save to apply the changes.</li>
+         </ul>
+          <div><img src="company.png" onclick="openModal('company.png')" alt="intregation"
+                                width="100%" height="auto"></div><br><hr/>
+              <h3 style="color:var(--primary-color)" id="brand">Brand Logo<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3>   
+          <p>This setting allows administrators to upload and manage the organization's brand logo that appears within the application interface.</p>                    
+         <ul style="list-style-type:disc;margin:20px">
+          <li>Navigate to Admin > Settings > General Settings.</li>
+          <li>Locate the Brand Logo section.</li>
+          <li>Upload your organization's logo in the supported format.</li>
+          <li>Click Save to apply.</li>
+         </ul>
+           <div><img src="brand.png" onclick="openModal('brand.png')" alt="intregation"
+                                width="100%" height="auto"></div><br><hr/>
+                                 <h3 style="color:var(--primary-color)" id="delete">Delete Inactive Users  <i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3> 
+          <p>This feature allows administrators to automatically or manually remove users who have been inactive for a defined period, helping maintain a clean and up-to-date user base.</p>  
+          <ul style="list-style-type:disc;margin:20px">
+            <li>Navigate to Admin > Settings > General Settings.</li>
+            <li>Locate the Delete Inactive Users option.</li>
+            <li>Set the inactivity threshold (e.g., number of days without login).</li>
+            <li>Enable the toggle to automatically delete inactive users, or use the manual delete option.</li>
+          <li>Click Save to confirm the configuration.</li>
+          </ul>
+           <div><img src="delete.png" onclick="openModal('delete.png')" alt="intregation"
+                                width="100%" height="auto"></div><br>
+           <div style="background-color:rgb(218,233,247);border:1px solid blue;display:flex;padding:5px;align-items:center">
+ <p style="margin:0"><strong style="color:var(--primary-color)">Note: </strong>Deleted users cannot be recovered. Ensure you have exported or backed up any required user data before enabling automatic deletion.</p>
+  </div><hr/>
+   <h3 style="color:var(--primary-color)" id="_dashboards">Summary of New Features<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h3> <hr/>
+          <p>The following features have been added to the General Settings section in this release:</p>  
+          <table>
+            <tr>
+              <td style="background-color:rgb(218,233,247)"> <h5 style="color:var(--primary-color)" id="_dashboards">Side Navigation Theme<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h5></td>
+          <td>Customize the color theme of the application's side navigation bar.</td>
+            </tr>
+             <tr>
+              <td style="background-color:rgb(218,233,247)"> <h5 style="color:var(--primary-color)" id="_dashboards">GCC Tenant<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h5></td>
+          <td>Enable GCC compliance mode for Microsoft Government Cloud tenants.</td>
+            </tr>
+             <tr>
+              <td style="background-color:rgb(218,233,247)"> <h5 style="color:var(--primary-color)" id="_dashboards">Default Language<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h5></td>
+          <td>Set the default display language for the application.</td>
+            </tr>
+             <tr>
+              <td style="background-color:rgb(218,233,247)"> <h5 style="color:var(--primary-color)" id="_dashboards">SharePoint URL for MS Teams<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h5></td>
+          <td>Use SharePoint URL when LMS is installed as a MS Teams application.</td>
+            </tr>
+            <tr>
+              <td style="background-color:rgb(218,233,247)"> <h5 style="color:var(--primary-color)" id="_dashboards">Log Collection<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h5></td>
+          <td>Enable log capture and download for support and diagnostics.</td>
+            </tr>
+            <tr>
+              <td style="background-color:rgb(218,233,247)"> <h5 style="color:var(--primary-color)" id="_dashboards">Delete Inactive Users<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h5></td>
+          <td>Automatically or manually remove users who have been inactive.</td>
+            </tr>
+          </table>
+          <!--<div class="bg-light p-4 remove-padding common-scroll" id="Date-Format">
+  
+    <h2 style="color:var(--primary-color)" id="_dashboards">Date-Format<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h2>
    
     <ul class=page-list>
       <li>You can change the Date format from here. This date format will be updated throughout the application.
@@ -125,8 +323,8 @@
   </div>
 
   <div class="bg-light p-4 remove-padding common-scroll" id="Show-FavIcon">
-    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Show Fav Icon<i class="fas fa-link"
-          style="font-size:12px; color:lightgray;"></i></a> </h2>
+    <h2 style="color:var(--primary-color)" id="_dashboards">Show Fav Icon<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h2>
   
     <ul class=page-list>
       <li> 
@@ -138,8 +336,8 @@
   </div>
 
   <div class="bg-light p-4 remove-padding common-scroll" id="Language">
-    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Language<i class="fas fa-link"
-          style="font-size:12px; color:lightgray;"></i></a> </h2>
+    <h2 style="color:var(--primary-color)" id="_dashboards">Language<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i></h2>
     <ul class=page-list>
               <li>This feature allows users to designate their preferred language for web content by setting it as the
         default
@@ -151,8 +349,8 @@
   </div>
 
   <div class="bg-light p-4 remove-padding common-scroll" id="hide">
-    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Hide Sharepoint Page's Default Components<i
-          class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
+    <h2 style="color:var(--primary-color)" id="_dashboards">Hide Sharepoint Page's Default Components<i
+          class="fas fa-link" style="font-size:12px; color:lightgray;"></i> </h2>
 
     <ul class=page-list>
       <li>Select <b>Configure </b> to continue processing.<br></li><br>
@@ -169,8 +367,8 @@
   </div>
 
   <div class="bg-light p-4 remove-padding common-scroll" id="">
-    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Side Navigation User Permission<i class="fas fa-link"
-          style="font-size:12px; color:lightgray;"></i></a> </h2>
+    <h2 style="color:var(--primary-color)" id="_dashboards">Side Navigation User Permission<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i></h2>
     <ul class=page-list>
               <li>Side navigation allows users to access features based on their permissions, ensuring that each user sees only what they are authorized to access.<br></li><br>
       <div><img src="7.png" onclick="openModal('7.png')" alt="Add users" width="100%" height="auto">
@@ -180,8 +378,8 @@
   </div>
 
   <div class="bg-light p-4 remove-padding common-scroll" id="Naming-Convention">
-    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Naming-Convention<i class="fas fa-link"
-          style="font-size:12px; color:lightgray;"></i></a> </h2>
+    <h2 style="color:var(--primary-color)" id="_dashboards">Naming-Convention<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i></h2>
 
     <ul class=page-list>
 
@@ -200,8 +398,8 @@
   </div>
 
   <div class="bg-light p-4 remove-padding common-scroll" id="Company-Details">
-    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Company Details<i class="fas fa-link"
-          style="font-size:12px; color:lightgray;"></i></a> </h2>
+    <h2 style="color:var(--primary-color)" id="_dashboards">Company Details<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i></h2>
 
     <ul class=page-list>
 
@@ -218,8 +416,8 @@
   </div>
 
   <div class="bg-light p-4 remove-padding common-scroll" id="Brand-Logo">
-    <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Brand-Logo<i class="fas fa-link"
-          style="font-size:12px; color:lightgray;"></i></a> </h2>
+    <h2 style="color:var(--primary-color)" id="_dashboards">Brand-Logo<i class="fas fa-link"
+          style="font-size:12px; color:lightgray;"></i> </h2>
 
     <ul class=page-list>
 
@@ -235,11 +433,11 @@
   </div>
  
 
-  <!-- Brand Logo end -->
+   Brand Logo end 
 
-  <!-- General setting end -->
+  General setting end 
 
-<!-- upr -->
+ upr -->
 
                 </div>
 
@@ -272,10 +470,10 @@
     <div class=container>
       <div class="row align-items-center">
         <div class="col-md-8 text-md-left text-center">
-          <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a href="https://www.hr365.us/sla/">SLA.</a>
+          <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a> <a href="https://www.hr365.us/sla/">SLA.</a>
             <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
               href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-              href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+              href=https://www.cubiclogics.com/privacy-policy/>Privacy
             Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
           </p>
         </div>
@@ -313,6 +511,6 @@
   <script src="../../../../../js/header-footer.js"></script>
   <script src="../../../../../js/showhidefunction.js"></script>
   <script src="/js/LMS-modern-admin.js"></script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

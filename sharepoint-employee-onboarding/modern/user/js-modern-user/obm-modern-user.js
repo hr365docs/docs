@@ -7,12 +7,20 @@ $(document).ready(function() {
          "</li>"+
         //  "<li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/ title='Getting Started' class=sidelist>"+
         //  "<a href='/sharepoint-employee-onboarding/modern/user/getting-started/'>Getting Started</a>"+
-         "<li data-nav-id='./installation/requirments/' title=Home Page class=sidelist>"+
+         "<li data-nav-id='./installation/requirments/' title='Home Page' class=sidelist>"+
          "<a href='/sharepoint-employee-onboarding/modern/user/home-page/'> Home Page </a>"+
          "</li>"+
-
-         "<li data-nav-id='./installation/requirments/' title=Home Page class=sidelist>"+
+           "<li data-nav-id='./installation/requirments/' title=Theme class=sidelist>"+
+         "<a href='/sharepoint-employee-onboarding/modern/user/theme/'>Theme</a>"+
+         "</li>"+
+         
+           "<li data-nav-id='./installation/requirments/' title='Ess Portal' class=sidelist>"+
          "<a href='/sharepoint-employee-onboarding/modern/user/Ess-Portal/'> Ess Portal </a>"+
+         "</li>"+
+         
+
+         "<li data-nav-id='./installation/requirments/' title='Email Tracker' class=sidelist>"+
+         "<a href='/sharepoint-employee-onboarding/modern/user/email-tracker/'>Email Tracker</a>"+
          "</li>"+
          
          
@@ -34,6 +42,12 @@ $(document).ready(function() {
               "</li>"+
               "</ul>"+
               "</li>"+
+
+               "<li data-nav-id='./installation/requirments/' title=Help class=sidelist>"+
+         "<a href='/sharepoint-employee-onboarding/modern/user/Help/'>Help</a>"+
+         "</li>"+
+         
               "</li>"+
+              
               "</ul>")
 })

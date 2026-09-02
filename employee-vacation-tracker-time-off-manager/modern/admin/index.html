@@ -83,7 +83,7 @@
 </nav>
 </header>
 <section class="single section-sm pb-0">
-    <div class="container container-padding">
+    <div class="container container-padding" style="padding-bottom: 1vw;">
 <div class=row>
 <div class=col-lg-3>
 <div class=sidebar>
@@ -94,7 +94,7 @@
     <a href="../admin/">
     Admin Guide
     </a>
-    <div id="tmpmodernadmin"  class="sidenavbarscrollstyle"></div>   
+    <div id="tmpmodernadmin"   class="sidenavbarscrollstyle"></div>   
                     
         </li>
     </ul>
@@ -116,52 +116,69 @@
             title="Table of content" class="sidelist active">
 
 
-            <ul class="list-styled-content">
-                <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/requirments/
-                    title=Introduction class=sidelist>
-                    <a href="./introduction/">
-                        Introduction
-                    </a>
-                <li>
-                    <a href="./home-page/">Home Page</a>
-                </li>
-                <li>    
-                    <a href="./hr-actions/">HR Actions</a>
-                </li>
-                <li>    
-                    <a href="./holidays/">Public Holidays</a>
-                </li>
-                <li>    
-                    <a href="./user/">Users</a>  
-                </li>
-                <li>    
-                    <a href="./reports/">Reports</a>  
-                </li>
-                <li>
-                    <a href="./settings/">Setting</a>
-                    <ul class="ml-15 sidenavSub-topics">
-                        <!-- <li>    
-<a href="./User-Interface/navigation/">Navigation</a>
-</li> -->
-                        <li>
-                            <a href="./settings/#organization">Organizations</a>
-                        </li>
-                        <li>
-                            <a href="./settings/#leave-type-settings">Leave Settings</a>
+           <ul class="list-styled-content">
+    <li data-nav-id="https://github.com/hr365docs/My-project.git/installation/requirments/" title="Introduction" class="sidelist">
+        <a href="./introduction/">Introduction</a>
+    </li>
 
-                        </li>
-                        <li>
-                            <a href="./settings/#advance-settings">Advanced Settings</a>
+    <li title="Home Page" class="sidelist">
+        <a href="./home-page/">Home Page</a>
+    </li>
 
-                        </li>
-                        
+    <li title="Architecture Diagram" class="sidelist">
+        <a href="./ArchitectureDiagram/">Architecture Diagram</a>
+    </li>
 
-                    </ul>
-                    <li data-nav-id="./installation/configuration/" title=Help class=sidelist>
-                        <a href="./help/">Help</a>
-                </li>
-                
-            </ul>
+    <li title="Dashboard" class="sidelist">
+        <a href="./dashboard/">Dashboard</a>
+    </li>
+
+    <li title="HR Actions" class="sidelist">
+        <a href="./hr-actions/">HR Actions</a>
+    </li>
+
+    <li title="Public Holidays" class="sidelist">
+        <a href="./holidays/">Public Holidays</a>
+    </li>
+
+    <li title="Users" class="sidelist">
+        <a href="./user/">Users</a>
+    </li>
+
+    <li title="Delegation" class="sidelist">
+        <a href="./delegation/">Delegation</a>
+    </li>
+
+    <li title="Reports" class="sidelist">
+        <a href="./reports/">Reports</a>
+    </li>
+
+    <li title="System Settings" class="sidelist">
+        <a href="./settings/">System Settings</a>
+        <ul class="ml-15 sidenavSub-topics">
+            <li title="General" class="sidelist">
+                <a href="./settings/#general">General</a>
+            </li>
+            <li title="Advance Settings" class="sidelist">
+                <a href="./settings/#advance-settings">Advance Settings</a>
+            </li>
+            <li title="Notifications" class="sidelist">
+                <a href="./settings/#Notifications">Notifications</a>
+            </li>
+            <li title="Leave Settings" class="sidelist">
+                <a href="./settings/#leave-type-settings">Leave Settings</a>
+            </li>
+            <li title="Reports" class="sidelist">
+                <a href="./settings/#Reports">Reports</a>
+            </li>
+        </ul>
+    </li>
+
+    <li data-nav-id="./installation/configuration/" title="Help" class="sidelist">
+        <a href="./help/">Help</a>
+    </li>
+</ul>
+
             
         </li>
     </ul>
@@ -190,34 +207,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a href="https://www.hr365.us/sla/">SLA.</a>
-                    <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-                        href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                        href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-                    Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-                    
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
-                                aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script src="../.././../js/header-footer.js"></script>
     <script src="../../../js/tmp-modern-adminguide.js"></script>
@@ -238,6 +229,6 @@ function closeModal() {
         document.getElementById("date").innerHTML=date;
        </script>
        <script src="../../../js/header-footer.js"></script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html> 

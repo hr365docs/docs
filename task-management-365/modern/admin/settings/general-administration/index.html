@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Task Management 365 | Settings | User's role</title>
+    <title>Task 365 | Settings | User's role</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="Hugo 0.92.2">
-    <meta name="description" content="HR365-HRMS | Settings | User's role">
+    <meta name="description" content="HRMS-HR365 | Settings | User's role">
     <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css">
     <link rel="icon" href="#" type="image/x-icon">
@@ -72,11 +72,11 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
-                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../task-management-365/">Task Management 365</a>
+                        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../../task-management-365/">Task 365</a>
                         </h5>
                         <a class=back-btn href="../../../../../task-management-365/" aria-label=back></a>
                         <ul class=list-styled>
@@ -295,9 +295,69 @@
 <br><br>
 
 <p>Projects will appear during task creation and in reports for filtering and grouping tasks.</p>
-<img src="project-in-task.png" onclick="openModal('project-in-task.png')" width="100%" height="auto" alt="Project in Task">
+<img src="project-in-task.png" onclick="openModal('project-in-task.png')" width="100%" height="auto" alt="Project in Task"><br><br>
 
+            <div >
+  <h4 id="delegation">
+    
+      Delegation
+     
+    </a>
+  </h4>
+  <ul class="page-list">
+    <p>
+      The <strong>Delegation</strong> feature in Task 365 365 allows administrators and users to temporarily assign their responsibilities to another user. This ensures continuity of the onboarding process when the original approver or responsible user is unavailable.
+    </p>
+    
+    <!-- Intro -->
+    <li>
+      Open the <b>Delegation</b> panel to view or create delegation records.
+    </li><br>
+    <div>
+      <img src="delegation_intro.png" onclick="openModal('delegation_intro.png')" alt="Delegation Overview in Task 365 365" width="100%" height="auto"><br><br>
+    </div>
 
+    <!-- Add Delegation -->
+    <li>
+      Click on <b>+ Add</b> to create a new delegation entry.
+    </li><br>
+    <div>
+      <img src="delegation_add.png" onclick="openModal('delegation_add.png')" alt="Add New Delegation in Task 365 365" width="100%" height="auto"><br><br>
+    </div>
+
+    <!-- Role Restriction -->
+    <li>
+      <b>Administrators</b> can create delegations for any user, while standard users can only delegate their own responsibilities.
+    </li><br>
+    <div>
+      <img src="delegation_admin.png" onclick="openModal('delegation_admin.png')" alt="Administrator Delegation Access in Task 365 365" width="100%" height="auto"><br><br>
+    </div>
+
+    <!-- Select Delegatee -->
+    <li>
+      From the list, choose the <b>delegatee</b> who will temporarily manage tasks or approvals.
+    </li><br>
+    <div>
+      <img src="delegation_delegatee.png" onclick="openModal('delegation_delegatee.png')" alt="Select Delegatee in Task 365 365" width="100%" height="auto"><br><br>
+    </div>
+
+    <!-- Duration -->
+    <li>
+      Define the <b>start date</b> and <b>end date</b> for the delegation period.
+    </li><br>
+    <div>
+      <img src="delegation_dates.png" onclick="openModal('delegation_dates.png')" alt="Delegation Duration in Task 365 365" width="100%" height="auto"><br><br>
+    </div>
+
+    <!-- Status -->
+    <li>
+      Use the <b>Active toggle</b> to enable or disable the delegation. Once all details are filled in, click <b>Submit</b> to finalize.
+    </li><br>
+    <div>
+      <img src="delegation_status.png" onclick="openModal('delegation_status.png')" alt="Delegation Status in Task 365 365" width="100%" height="auto"><br><br>
+    </div>
+  </ul>
+</div>
 
 </div>
        
@@ -334,11 +394,11 @@
         <div class=container>
             <div class="row align-items-center">
                 <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a><a
+                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a><a
                             href="https://www.hr365.us/sla/">SLA.</a>
                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                            href=https://www.cubiclogics.com/privacy-policy/>Privacy
                         Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                     </p>
                 </div>
@@ -378,6 +438,6 @@
         date = new Date().toLocaleDateString();
         document.getElementById("date").innerHTML = date;
     </script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>

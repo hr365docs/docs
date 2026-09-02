@@ -63,7 +63,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-          <div class="container container-padding">
+          <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <div class=col-lg-3>
                     <div class=sidebar>
@@ -73,9 +73,9 @@
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/ title="Admin Guide" class="sidelist
     active">
                                 <a href="../../../admin/">
-                                    Admin-Guide
+                                    admin Guide
                                 </a>
-                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle">
+                                <ul id="hdm-admin-aside" class="sidenavbarscrollstyle" class="sidenavbarscrollstyle">
                                     </ul>
                                         </li>
                     </div>
@@ -196,6 +196,50 @@
 
 
                         </div>
+                   <div class="bg-light p-4 remove-padding common-scroll" id="approver">
+
+    <ul class="page-list">
+        <h2 id="_approvers"><a class="header-icon-link highlight" href="#">Approver
+            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+        </h2>
+        Approvers are responsible for reviewing and approving tickets. Admins can edit the email notification content in email templates and enable or disable notifications sent to approvers. To disable the notification, open the template, uncheck the <b>Active</b> checkbox, and click the <b>Save</b> button. The following actions on tickets trigger email notifications to the approvers:
+        <br>
+        <br>
+           <div><img src="approver_actions2.png" onclick="openModal('approver_actions2.png')" alt="Approver Actions" width="100%" height="auto"></div> <br>
+  
+<p>
+  <b>Disable Default Approval Email to Admins:</b> This option allows you to disable approval notifications for the default admin. Once enabled, the admin will no longer receive ticket approval alerts.
+</p>
+ <br>
+           <div><img src="approver_actions3.png" onclick="openModal('approver_actions3.png')" alt="Approver Actions" width="100%" height="auto"></div> <br>
+  
+        <p>
+  When this toggle is enabled, approval emails will be sent exclusively from the users specified within the application. If the toggle is disabled, approval emails will be sent from both the application users and the site users, ensuring broader distribution.
+</p>
+<br>
+           <div><img src="approver_actions1.png" onclick="openModal('approver_actions1.png')" alt="Approver Actions" width="100%" height="auto"></div> <br>
+  
+<p>
+  <b>Editing Approver Email Notification Templates:</b> When you click the edit icon in the <b>Approver</b> section, the corresponding email notification template opens for customization.</p><br>
+
+<br>
+<div>
+  <img src="approver_edit_template..png" onclick="openModal('approver_edit_template..png')" alt="Approver Email Template Edit View" width="100%" height="auto">
+</div><br>
+<p> In this editor, you can modify the <b>Email Subject</b> and <b>Email Body</b> fields, specify recipients in the <b>To</b> and <b>CC</b> fields, and enable or disable the template using the <b>Active</b> checkbox. Once the necessary changes are made, click <b>Save</b> to apply the updates.</p>
+<div>
+  <img src="approver_edit_template1.png" onclick="openModal('approver_edit_template1.png')" alt="Approver Email Template Edit View" width="100%" height="auto">
+</div><br>
+<!-- <div>
+  <img src="approver_edit_template2.png" onclick="openModal('approver_edit_template2.png')" alt="Approver Email Template Edit View" width="100%" height="auto">
+</div><br> -->
+
+
+
+        
+           </ul>
+
+</div>
                         </ul>
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3 " id="date">
@@ -220,29 +264,8 @@
         </div>
     </div>
 
-    <footer class="section pb-4">
-        <div class=container>
-            <div class="row align-items-center">
-                <div class="col-md-8 text-md-left text-center">
-                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a href="https://www.hr365.us/sla/">SLA.</a>
-                        <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy
-                        />Privacy Policy.
-                        </a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-right text-center">
-                    <ul class=list-inline>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2 " href="https://www.facebook.com/hr365apps/ " aria-label=Facebook><i
-                                    class=ti-facebook></i></a></li>
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2 " href="https://twitter.com/HR365_HRMS " aria-label=Twitter><i
-                                    class=ti-twitter-alt></i></a></li>
-                        <!-- <li class=list-inline-item><a class="text-color d-inline-block p-2 " href=# aria-label=Github><i class=ti-github></i></a></li> -->
-                        <li class=list-inline-item><a class="text-color d-inline-block p-2 " href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd " aria-label=Linkedin><i class=ti-linkedin></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer-container"></div>
+   <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -260,7 +283,7 @@
         document.getElementById("date ").innerHTML = date;
     </script>
 
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 <script src="../../../../../js/header-footer.js"></script>
 <script src=".././../hdm-admin-aside-js/hdm-admin-aside.js"></script>
 <script src="../../../../../js/showhidefunction.js"></script>

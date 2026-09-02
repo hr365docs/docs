@@ -71,7 +71,7 @@
         </nav>
     </header>
     <section class="single section-sm pb-0">
-        <div class="container container-padding">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
             <div class=row>
                 <!doctype html>
                 <html lang=en-us>
@@ -106,7 +106,7 @@
                     <script
                         src=https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js></script>
 
-                    
+
 
 
 
@@ -125,22 +125,21 @@
                 <body>
 
                     <section class="single section-sm pb-0">
-                        <div class="container container-padding">
+                        <div class="container container-padding" style="padding-bottom: 1vw;">
                             <div class=row>
                                 <div class=col-lg-3>
                                     <div class=sidebar>
                                         <h5 class="mbHeading" style="color:SlateBlue"><a
                                                 href="../../../../../LMS/">Learning Management System 365</a></h5>
-                                        <a class=back-btn href="../../../../sharepoint-employee-onboarding/"
-                                            aria-label=back></a>
+                                        <a class=back-btn href="../../../../../LMS/" aria-label=back></a>
                                         <ul class=list-styled>
                                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
                                                 title=" Admin Guide" class="sidelist
                     active">
-                                                <a href="../../admin/">
+                                                <a href="../../../admin/">
                                                     Admin Guide
                                                 </a>
-                                                <ul id="lmsmodernadmin">
+                                                <ul id="lmsmodernadmin" class="sidenavbarscrollstyle">
                                                 </ul>
                                         </ul>
                                         </ul>
@@ -169,9 +168,9 @@
 
                                             <!-- Email start -->
                                             <div class="bg-light p-4 remove-padding common-scroll" id="Email">
-                                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>Email
-                                                        Templates<i class="fas fa-link"
-                                                            style="font-size:12px; color:lightgray;"></i></a> </h2>
+                                                <h2 style="color:var(--primary-color)" id="_dashboards">Email
+                                                    Templates<i class="fas fa-link"
+                                                        style="font-size:12px; color:lightgray;"></i> </h2>
 
                                                 <ul class=page-list>
 
@@ -182,6 +181,492 @@
                                                     <li>You may add a dynamic email template. </li><br>
                                                     <div><img src="3.png" onclick="openModal('3.png')" alt="Add users"
                                                             width="100%" height="auto"><br>
+                                                    </div>
+                                                    <br>
+                                                    <div>
+                                                        <h2 id="_dashboards"><a class="header-icon-link highlight"
+                                                                href=#> Reminder Notifications — Configuration Guide
+                                                                <i class="fas fa-link"
+                                                                    style="font-size:12px; color:lightgray;"></i></a>
+                                                        </h2>
+
+                                                        <hr
+                                                            style="border: 0; height: 1px; background: #ddd; margin: 20px 0;">
+
+                                                        <!-- SECTION 1 -->
+                                                        <h3 style="color: #333; margin-top: 20px;">1. Overview</h3>
+                                                        <p>
+                                                            LMS 365 provides a built-in Reminder Notifications feature
+                                                            that allows administrators to configure automated email
+                                                            alerts for upcoming and overdue courses and training
+                                                            sessions. These notifications are triggered automatically
+                                                            via Microsoft Power Automate, ensuring that learners and
+                                                            managers are kept informed without any manual intervention.
+                                                        </p>
+                                                        <p>
+                                                            This document covers how to navigate to the Reminder
+                                                            Notifications settings, explains each available notification
+                                                            option, and describes how the email triggers work through
+                                                            Power Automate.
+                                                        </p>
+
+                                                        <!-- SECTION 2 -->
+                                                        <h3 style="color: #333; margin-top: 20px;">2. Navigating to
+                                                            Reminder Notifications</h3>
+                                                        <p>
+                                                            Reminder Notifications are configured from within the LMS
+                                                            365 Settings panel. Follow the steps below to access this
+                                                            section.
+                                                        </p>
+
+                                                        <div>
+                                                            <!-- Replace 'src' attribute value with your real image link or path from your end -->
+                                                            <div>
+                                                                <img src="reminder.png"
+                                                                    onclick="openModal('reminder.png')"
+                                                                    alt="question" width="100%" height="auto">
+                                                            </div> <br>
+                                                            <p
+                                                                style="font-size: 13px; color: #666; font-style: italic; margin-top: 5px;">
+                                                                Figure 1 – LMS 365 Settings Panel with Reminder
+                                                                Notifications highlighted</p>
+                                                        </div>
+
+                                                        <p><strong>Steps:</strong></p>
+                                                        <ol>
+                                                            <li>Click the Settings icon (⚙) from the left-side
+                                                                navigation bar.</li>
+                                                            <li>The Settings page opens, displaying multiple
+                                                                configuration sections: General Settings, App Users,
+                                                                General Administration, Features, AI Control Panel, and
+                                                                Notifications.</li>
+                                                            <li>Under the Notifications section (right column), click
+                                                                <strong>Reminder Notifications</strong>.
+                                                            </li>
+                                                            <li>The Reminder Notifications panel slides open on the
+                                                                right side of the screen.</li>
+                                                        </ol>
+
+                                                        <div
+                                                            style="background-color: #f9f9f9; border-left: 4px solid #0056b3; padding: 12px; margin: 15px 0;">
+                                                            <strong>📌 Note:</strong> Only users with Admin role can
+                                                            access and modify Reminder Notification settings.
+                                                        </div>
+
+                                                        <!-- SECTION 3 -->
+                                                        <h3 style="color: #333; margin-top: 20px;">3. Reminder
+                                                            Notifications Panel</h3>
+                                                        <p>
+                                                            The Reminder Notifications panel is divided into two main
+                                                            categories: Course Reminder Notifications and Training
+                                                            Reminder Notifications. Each category has two sub-sections —
+                                                            Days Before (upcoming reminders) and Overdue (post-deadline
+                                                            reminders).
+                                                        </p>
+
+                                                        <div>
+                                                            <div>
+                                                                <img src="Reminder-notifaction.png"
+                                                                    onclick="openModal('Reminder-notifaction.png')"
+                                                                    alt="question" width="100%" height="auto">
+                                                            </div> <br>
+                                                            <p
+                                                                style="font-size: 13px; color: #666; font-style: italic; margin-top: 5px;">
+                                                                Figure 2 – Reminder Notifications Configuration Panel
+                                                            </p>
+                                                        </div>
+
+                                                        <!-- SECTION 4 -->
+                                                        <h3 style="color: #333; margin-top: 20px;">4. Course Reminder
+                                                            Notifications</h3>
+                                                        <p>This section configures automated email reminders related to
+                                                            courses assigned to learners.</p>
+
+                                                        <h4 style="color: #555;">4.1 Days Before (Upcoming Course
+                                                            Reminders)</h4>
+                                                        <p>These notifications are sent to learners a specified number
+                                                            of days before a course is due. Up to three separate
+                                                            reminder notifications can be configured.</p>
+
+                                                        <table
+                                                            style="width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 14px; text-align: left;">
+                                                            <thead>
+                                                                <tr
+                                                                    style="background-color: #f2f2f2; border-bottom: 2px solid #ddd;">
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 25%;">
+                                                                        Notification</th>
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 45%;">
+                                                                        Description</th>
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 30%;">
+                                                                        How to Configure</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Course Reminder Notification 1</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        First reminder email sent before the course due
+                                                                        date.</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days in the input field and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                                <tr style="background-color: #fafafa;">
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Course Reminder Notification 2</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Second reminder email — useful for a mid-point
+                                                                        follow-up.</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days in the input field and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Course Reminder Notification 3</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Third reminder email — typically a final nudge
+                                                                        before due date.</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days in the input field and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                        <div
+                                                            style="background-color: #f9f9f9; border-left: 4px solid #0056b3; padding: 12px; margin: 15px 0;">
+                                                            <strong>📌 Note:</strong> In the example shown, Course
+                                                            Reminder Notification 1 is set to 1 day before and is
+                                                            toggled On. Notifications 2 and 3 are toggled Off.
+                                                        </div>
+
+                                                        <h4 style="color: #555;">4.2 Overdue (Course Overdue Reminders)
+                                                        </h4>
+                                                        <p>These notifications are sent after a course due date has
+                                                            passed, alerting learners (and optionally managers) that a
+                                                            course is overdue. Up to three overdue reminders can be
+                                                            configured.</p>
+
+                                                        <table
+                                                            style="width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 14px; text-align: left;">
+                                                            <thead>
+                                                                <tr
+                                                                    style="background-color: #f2f2f2; border-bottom: 2px solid #ddd;">
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 25%;">
+                                                                        Notification</th>
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 45%;">
+                                                                        Description</th>
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 30%;">
+                                                                        How to Configure</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Course Overdue Reminder 1</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        First overdue alert sent after the course
+                                                                        deadline passes.</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days after due date and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                                <tr style="background-color: #fafafa;">
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Course Overdue Reminder 2</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Second escalation reminder for overdue courses.
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days after due date and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Course Overdue Reminder 3</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Final escalation reminder for overdue courses.
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days after due date and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                        <!-- SECTION 5 -->
+                                                        <h3 style="color: #333; margin-top: 20px;">5. Training Reminder
+                                                            Notifications</h3>
+                                                        <p>This section configures automated email reminders for
+                                                            scheduled training sessions. It follows the same structure
+                                                            as Course Reminders, with Days Before and Overdue
+                                                            sub-sections.</p>
+
+                                                        <h4 style="color: #555;">5.1 Days Before (Upcoming Training
+                                                            Reminders)</h4>
+                                                        <p>These notifications are sent before a training session's
+                                                            scheduled date to ensure learners are prepared and aware of
+                                                            the upcoming session.</p>
+
+                                                        <table
+                                                            style="width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 14px; text-align: left;">
+                                                            <thead>
+                                                                <tr
+                                                                    style="background-color: #f2f2f2; border-bottom: 2px solid #ddd;">
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 25%;">
+                                                                        Notification</th>
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 45%;">
+                                                                        Description</th>
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 30%;">
+                                                                        How to Configure</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Training Reminder Notification
+                                                                            1</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        First reminder sent before the training session
+                                                                        date.</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days in the input field and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                                <tr style="background-color: #fafafa;">
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Training Reminder Notification
+                                                                            2</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Second reminder for the upcoming training
+                                                                        session.</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days in the input field and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Training Reminder Notification
+                                                                            3</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Third and final reminder before the training
+                                                                        session.</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days in the input field and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                        <h4 style="color: #555;">5.2 Overdue (Training Overdue
+                                                            Reminders)</h4>
+                                                        <p>These notifications are triggered after a training session
+                                                            date has passed if the learner has not completed or attended
+                                                            the session.</p>
+
+                                                        <table
+                                                            style="width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 14px; text-align: left;">
+                                                            <thead>
+                                                                <tr
+                                                                    style="background-color: #f2f2f2; border-bottom: 2px solid #ddd;">
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 25%;">
+                                                                        Notification</th>
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 45%;">
+                                                                        Description</th>
+                                                                    <th
+                                                                        style="padding: 10px; border: 1px solid #ddd; width: 30%;">
+                                                                        How to Configure</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Training Overdue Reminder 1</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        First overdue alert after the training session
+                                                                        date passes.</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days after due date and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                                <tr style="background-color: #fafafa;">
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Training Overdue Reminder 2</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Second escalation for overdue training.</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days after due date and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Training Overdue Reminder 3</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Final escalation reminder for overdue training.
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Enter the number of days after due date and
+                                                                        toggle On.</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                        <!-- SECTION 6 -->
+                                                        <h3 style="color: #333; margin-top: 20px;">6. How Notifications
+                                                            are Triggered — Power Automate</h3>
+                                                        <p>
+                                                            All Reminder Notifications in LMS 365 are powered by
+                                                            Microsoft Power Automate flows running in the background.
+                                                            Admins do not need to manually trigger these emails — once
+                                                            configured and enabled, the flows handle delivery
+                                                            automatically.
+                                                        </p>
+
+                                                        <h4 style="color: #555;">6.1 How It Works</h4>
+                                                        <ol>
+                                                            <li>Admin configures the number of days and enables the
+                                                                toggle for the desired notification in the Reminder
+                                                                Notifications panel.</li>
+                                                            <li>LMS 365 stores this configuration and communicates it to
+                                                                the connected Power Automate flow.</li>
+                                                            <li>Power Automate runs on a scheduled basis (typically
+                                                                daily) and checks for courses or training sessions that
+                                                                match the configured day thresholds.</li>
+                                                            <li>When a match is found, Power Automate triggers an
+                                                                automated email to the relevant learner(s) using the
+                                                                configured Email Template.</li>
+                                                            <li>For overdue notifications, the same process applies —
+                                                                Power Automate checks how many days have passed since
+                                                                the due date and triggers the appropriate email.</li>
+                                                        </ol>
+
+                                                        <h4 style="color: #555;">6.2 Notification Trigger Summary</h4>
+                                                        <table
+                                                            style="width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 14px; text-align: left;">
+                                                            <thead>
+                                                                <tr
+                                                                    style="background-color: #f2f2f2; border-bottom: 2px solid #ddd;">
+                                                                    <th style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Notification Type</th>
+                                                                    <th style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Trigger Condition</th>
+                                                                    <th style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Recipient</th>
+                                                                    <th style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Triggered By</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Course Reminder (Days Before)</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">X
+                                                                        days before course due date</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Assigned Learner</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Power Automate (Scheduled Flow)</td>
+                                                                </tr>
+                                                                <tr style="background-color: #fafafa;">
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Course Overdue Reminder</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">X
+                                                                        days after course due date (not completed)</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Assigned Learner</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Power Automate (Scheduled Flow)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Training Reminder (Days Before)</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">X
+                                                                        days before training session date</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Assigned Learner</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Power Automate (Scheduled Flow)</td>
+                                                                </tr>
+                                                                <tr style="background-color: #fafafa;">
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        <strong>Training Overdue Reminder</strong>
+                                                                    </td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">X
+                                                                        days after training date (not attended)</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Assigned Learner</td>
+                                                                    <td style="padding: 10px; border: 1px solid #ddd;">
+                                                                        Power Automate (Scheduled Flow)</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                        <div
+                                                            style="background-color: #fff9e6; border-left: 4px solid #ffcc00; padding: 12px; margin: 15px 0;">
+                                                            <strong>💡 Tip:</strong> Email content is controlled by the
+                                                            Email Templates configured under Settings → Notifications →
+                                                            Email Templates. Ensure the relevant templates are active
+                                                            for reminders to be delivered correctly.
+                                                        </div>
+
+                                                        <!-- SECTION 7 -->
+                                                        <h3 style="color: #333; margin-top: 20px;">7. Configuration
+                                                            Steps — Quick Summary</h3>
+                                                        <ol>
+                                                            <li>Go to Settings (⚙) from the left navigation.</li>
+                                                            <li>Under Notifications, click <strong>Reminder
+                                                                    Notifications</strong>.</li>
+                                                            <li>For each reminder you wish to activate:</li>
+                                                            <ul>
+                                                                <li>Enter the number of days in the input box (e.g., 1,
+                                                                    3, 7).</li>
+                                                                <li>Toggle the switch to <strong>On</strong> (blue).
+                                                                </li>
+                                                            </ul>
+                                                            <li>Click the Save icon (💾) at the top-right of the
+                                                                Reminder Notifications panel to save your changes.</li>
+                                                            <li>Verify the corresponding Power Automate flow is active
+                                                                in your Microsoft 365 environment.</li>
+                                                        </ol>
+
+                                                        <div
+                                                            style="background-color: #f9f9f9; border-left: 4px solid #0056b3; padding: 12px; margin: 15px 0;">
+                                                            <strong>📌 Note:</strong> If a toggle is Off or the days
+                                                            field is left blank, that particular reminder will not be
+                                                            sent, even if Power Automate is active.
+                                                        </div>
+
+                                                        <hr
+                                                            style="border: 0; height: 1px; background: #ddd; margin: 30px 0;">
+
                                                     </div>
                                             </div>
 
@@ -231,11 +716,11 @@
                         <div class=container>
                             <div class="row align-items-center">
                                 <div class="col-md-8 text-md-left text-center">
-                                    <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a
+                                    <p class="mb-md-0 mb-4">© 2026-<a href=https://www.hr365.us />HR365.</a> <a
                                             href="https://www.hr365.us/sla/">SLA.</a>
                                         <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
                                             href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-                                            href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
+                                            href=https://www.cubiclogics.com/privacy-policy />Privacy
                                         Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
                                     </p>
                                 </div>
@@ -275,6 +760,7 @@
                     <script src="../../../../../js/header-footer.js"></script>
                     <script src="../../../../../js/showhidefunction.js"></script>
                     <script src="/js/LMS-modern-admin.js"></script>
+                    <script src="/js/plus-toggle.js"></script>
                 </body>
 
                 </html>

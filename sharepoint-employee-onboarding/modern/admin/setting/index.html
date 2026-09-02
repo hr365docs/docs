@@ -68,7 +68,7 @@
     </nav>
   </header>
   <section class="single section-sm pb-0">
-   <div class="container container-padding">
+   <div class="container container-padding" style="padding-bottom: 1vw;">
       <div class=row>
         <div class=col-lg-3>
           <div class=sidebar>
@@ -81,11 +81,11 @@
               Admin Guide
               </a>
               <ul>
-                  <ul id="obm-modern-admin"> 
+                  <ul id="obm-modern-admin" class="sidenavbarscrollstyle"> 
                 </ul>
           </li>
           <!-- <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/configuration/ title=Configuration class=sidelist> -->
-          <!-- <a href="../Admin-Guide/System/"> -->
+          <!-- <a href="../admin Guide/System/"> -->
           <!-- System -->
           </a>
           </li>
@@ -102,34 +102,44 @@
         </div><br><br>
         <div>
           <ul>
-            <li data-nav-id="../General" title='Email Template' class=sidelist>
+            <li data-nav-id="../General" title=' General-Administation' class=sidelist>
               <a href="../setting/general-administation/">
               General-Administation
               </a>
             </li>
-            <li data-nav-id="../General" title='Email Template' class=sidelist>
+            <li data-nav-id="../General" title='Task-Administation' class=sidelist>
               <a href="../setting/task-administation/">
                 Task-Administation
               </a>
-            </li><li data-nav-id="../General" title='Email Template' class=sidelist>
+            </li><li data-nav-id="../General" title='General-Setting' class=sidelist>
               <a href="../setting/general-setting/">
                 General-Setting
               </a>
-            </li><li data-nav-id="../General" title='Email Template' class=sidelist>
+            </li><li data-nav-id="../General" title='Users-Roles-and-Permissions' class=sidelist>
               <a href="../setting/Users-Roles-and-Permissions/">
                 Users-Roles-and-Permissions
               </a>
-            </li><li data-nav-id="../General" title='Email Template' class=sidelist>
+            </li><li data-nav-id="../General" title='Integration' class=sidelist>
               <a href="../setting/Integration/">
                 Integration
               </a>
-            </li><li data-nav-id="../General" title='Email Template' class=sidelist>
+            </li><li data-nav-id="../General" title='Features' class=sidelist>
               <a href="../setting/Features/">
                 Features
               </a>
-            </li><li data-nav-id="../General" title='Email Template' class=sidelist>
+            </li><li data-nav-id="../General" title='Notification' class=sidelist>
               <a href="../setting/Notification/">
                 Notification
+              </a>
+            </li>
+             </li><li data-nav-id="../General" title='Assessments' class=sidelist>
+              <a href="../setting/EO365-Assesment/">
+                Assessments
+              </a>
+            </li>
+             </li><li data-nav-id="../General" title='Courses' class=sidelist>
+              <a href="../setting/courses/">
+                Courses
               </a>
             </li>
           </ul>
@@ -180,8 +190,8 @@
             <nav class="pagination mt-3">
               <a class="nav nav-prev" href="../access-requirements/" aria-label="Previous page"><i
                   class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Access-requirements</span></a>
-              <a class="nav nav-next" href="../report/" aria-label="Previous page"> <span
-                  class="d-none d-md-block">Report</span><i class="ti-arrow-right ml-2"></i></a>
+              <a class="nav nav-next" href="./general-administation/" aria-label="Previous page"> <span
+                  class="d-none d-md-block">General Administation</span><i class="ti-arrow-right ml-2"></i></a>
             </nav>
           </div>
         </div>
@@ -199,32 +209,8 @@
     </div>
   </div>
 
-  <footer class="section pb-4">
-    <div class=container>
-      <div class="row align-items-center">
-        <div class="col-md-8 text-md-left text-center">
-          <p class="mb-md-0 mb-4">© 2025-<a href=https://www.hr365.us />HR365.</a> <a href="https://www.hr365.us/sla/">SLA.</a>
-            <a href=https://www.hr365.us/terms-and-conditions />T&C.</a> <a
-              href=https://www.hr365.us/end-user-license-agreement-eula />EULA.</a> <a
-              href=https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy />Privacy
-            Policy.</a> <a href=https://www.cubiclogics.com />Cubic Logics.</a>
-          </p>
-        </div>
-        <div class="col-md-4 text-md-right text-center">
-          <ul class=list-inline>
-            <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i class=ti-facebook></i></a></li>
-            <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://twitter.com/HR365_HRMS"
-                aria-label=Twitter><i class=ti-twitter-alt></i></a></li>
-        
-            <li class=list-inline-item><a class="text-color d-inline-block p-2"
-                href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd" aria-label=Linkedin><i
-                  class=ti-linkedin></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <div id="footer-container"></div>
+  <script src="/footer/index.js"></script>
   <script src="../../../../../js/script.min.js"></script>
   <script>
     function openModal(src) {
@@ -244,6 +230,6 @@
   <script src="../../../../js/header-footer.js"></script>
   <script src="../../../../js/showhidefunction.js"></script>
   <script src="../js-modern-admin/obm-modern-admin.js"></script>
-</body>
+ <script src="/js/plus-toggle.js"></script></body>
 
 </html>
