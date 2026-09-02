@@ -367,6 +367,50 @@
                     </div>
                 </div>
             </div>
+             <div class="card mb-4 rounded-0 shadow border-0">
+                            <div id="microsoft-teams-instead" class="card-header rounded-0 bg-white border p-0 border-0">
+                                <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"
+                                   data-bs-toggle=collapse href=#microsoft
+                                    id="microsoft-teams-instead">
+                                    <span>Why does the Rivo AI Bot answer policy questions using external web content and present it as company policy?</span> <i
+                                        class="ti-plus text-primary text-right"></i>
+                                </a>
+                            </div>
+                            <div id=microsoft class=collapse data-parent=#accordion>
+                                <div class="card-body font-secondary text-color pt-0">
+                                   <h5>Cause </h5>
+                                   
+                                   <p>This happens when the <strong>Web Search</strong> toggle is turned <strong>ON </strong>for the agent. When enabled, this toggle allows the agent to search the web for the query asked, and the agent can skip the configured knowledge base if it finds information it considers more relevant on the web — even though the response is still presented to the user as if it were company policy.</p>
+                                <h5>Resolution</h5>
+                                <p>Turn the Web Search toggle <strong>OFF</strong> so the agent answers strictly from the configured knowledge base rather than pulling in external web content.</p>
+                            <h5>Steps:</h5>   
+                            <ol style="list-style-type:decimal">
+                                <li>Go to the respective application's <strong>Agent Overview</strong> tab.</li>
+                                <li>Scroll down to the <strong>Knowledge</strong> section.</li>
+                                <li>Locate the <strong>Web Search</strong> toggle.</li>
+                                <li>Ensure the toggle is switched <strong>OFF.</strong></li>
+                            </ol>
+                            <h5>About the Web Search Toggle</h5>
+                            <table>
+                                <tr>
+                                    <th>Setting</th>
+                                    <th>Behavior</th>
+                                </tr>
+                                <tr>
+                                    <th>On</th>
+                                    <td>Enables web search for the agent. The agent can search the web for the query asked and may skip the configured knowledge base if it finds more relevant information online.</td>
+                                </tr>
+                                <tr>
+                                    <th>Off</th>
+                                    <td>Agent responses are limited to the configured knowledge base only.</td>
+                                </tr>
+                            </table>
+                           <div style="display:flex;gap:5px"> <h5>Recommendation:</h5><p>For policy-related or compliance-sensitive queries, keep Web Search <strong>OFF</strong> to ensure the agent only responds using verified, company-approved knowledge content.</p>
+                        </div>  
+                        </div>
+                            </div>
+                        </div>
+                     
           <!--  <div class="card mb-4 rounded-0 shadow border-0">
                 <div class="card-header rounded-0 bg-white border p-0 border-0">
                   <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between"data-bs-toggle=collapse
