@@ -212,6 +212,163 @@
                                 </li> <br>
                                 <img src="16.png" onclick="openModal('16.png')" alt="Office Location" width="100%"><br>
                                 <br>
+                                <li id="integrate">
+                                    <h6>Integration with Outlook Calendar</h6>
+                                    <ol style="list-style-type:decimal">
+                                        <li><h6>Overview</h6></li>
+                                        <p>The Integration with Outlook Calendar feature automatically creates events in Outlook calendars whenever an employee's leave request is approved. This gives managers, HR, and team members visibility into who is on leave, directly from their Outlook calendar, without needing to check Time-off Manager 365 separately.</p>
+                                   <p>The feature is configured from Settings > Advanced > Integration with Outlook calendar, and supports two independent event-creation targets:</p>
+                                <ul style="list-style-type:disc">
+                                    <li>Team Events — creates the leave event on the calendars of the employee and/or selected roles (Manager, HR, Manager of Manager), or on a shared mailbox calendar, or both.</li>
+                                <li>Department Calendar — creates the leave event on a calendar associated with the employee's department, using a department-to-calendar mapping that you configure.</li>
+                                </ul>  <br>
+                                <p>Both options can be enabled together, so an approved leave can create events in more than one place at once.</p> 
+                                 <br>
+                                <img src="step1.png" onclick="openModal('step1.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <p>Figure 1: Settings page — Integration with outlook calendar is listed under Advanced settings.</p>
+                          <li><h6>Enabling the Integration</h6></li>
+                          <ol style="list-style-type:decimal">
+                            <li>Go to Settings from the left navigation.</li>
+                            <li>Under the Advanced column, click Integration with outlook calendar.</li>
+                        <li>A panel opens with two tabs: General and Department Calendar Mapping (the second tab appears only after Department Calendar is enabled — see Section 5).</li>  
+                    <li>On the General tab, use the toggle at the top right to turn the integration On.</li>   
+                    </ol>
+                     <br>
+                                <img src="step2.png" onclick="openModal('step2.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <p>Figure 2: Integration with outlook calendar panel — toggle is Off by default.</p>
+                            <br>
+                                <img src="step2-2.png" onclick="openModal('step2-2.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <p>Figure 3: Once switched On, the Event creation method, Create events in, and Invite to the event options become available.</p>
+                            <li><h6>Event Creation Method</h6></li>
+                            <p>Once the integration is switched On, an Event creation method dropdown appears. This determines how the Outlook event is technically created:</p>
+                        <ul style="list-style-type:disc">
+                            <li>Built-in (no Flow needed) — Time-off Manager 365 creates the Outlook event directly. No Power Automate flow needs to be built or maintained.</li>
+                        <li>Power Automate — event creation is handed off to a configured Power Automate flow, giving you more flexibility to customize the automation if the built-in method does not meet your requirements.</li>
+                        </ul> <br>
+                        <div style="display:flex;gap:5px;background-color:rgb(218,233,247);padding:2px;border-left:4px solid rgb(33,94,153)">
+                            <h6 style="margin-top:3px">Note:</h6><p>
+                                Built-in is the simpler option for most organizations, since it requires no additional configuration outside of this panel. Choose Power Automate only if you need custom logic that the built-in method does not support.
+                            </p>
+                        </div><br>
+                        <li><h6>Team Events (Create events in)</h6></li>
+                        <p>Under Create events in, two checkboxes control where events are created:</p>
+                        <ul style="list-style-type:disc">
+                            <li>Team Events — creates the leave event based on role (employee, manager, HR, etc.) or a shared mailbox, configured under Invite to the event.</li>
+                       <li>Department Calendar — creates the leave event on the calendar mapped to the employee's department (covered in Section 5).</li>
+                        </ul><br>
+                        <p>These two options are independent and can be selected individually or together.</p>
+                    <ol style="list-style-type:decimal">
+                        <li><p><strong>Invite to the Event</strong></p>
+                        When Team Events is enabled, the Invite to the event dropdown controls who receives the Outlook event. Three choices are available:</li>
+                   <ul style="list-style-type:disc">
+                    <li>Employee/Manager/HR/Manager of Manager (own calendars) — the event is created on the calendars of the selected roles.</li>
+                <li>A shared mailbox calendar — the event is created on a specified shared mailbox's calendar.</li>
+            <li>Both — the event is created for the selected roles and on the shared mailbox calendar.</li> 
+            </ul>
+              <br>
+                                <img src="invite.png" onclick="openModal('invite.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                            <p>Figure 4: Invite to the event dropdown, showing the three available options.</p>
+                            <ol style="list-style-type:decimal">
+ <li>Role-based invitees</li><br>
+ <p>Selecting Employee/Manager/HR/Manager of Manager (own calendars) reveals individual checkboxes so you can choose exactly which roles receive the event on their own calendar:</p>
+<ul style="list-style-type:disc">
+    <li>User (the employee who is on leave)</li>
+    <li>Manager</li>
+    <li>HR</li>
+    <li>Manager of Manager</li>
+</ul> <br>
+<p>Check the roles that should receive the event, then click Save.</p>    
+<li>Shared mailbox invitee</li><br>         
+Selecting A shared mailbox calendar requires a shared mailbox with the appropriate calendar permissions. Configure it as follows:             
+<ul style="list-style-type:disc">
+    <li>Enter the shared mailbox email address in the Shared mailbox calendar field (for example, timeoffsharedmailbox@yourdomain.com).</li>
+    <li>Click Load Calendars to retrieve the list of calendars available on that mailbox.</li>
+    <li>Select the target Calendar from the dropdown.</li>
+    <li>Click Save.</li>
+</ul><br>
+ <div style="display:flex;gap:5px;background-color:rgb(218,233,247);padding:2px;border-left:4px solid rgb(33,94,153)">
+                            <h6 style="margin-top:3px">Note:</h6><p>
+                               The shared mailbox must already exist in Microsoft 365 and the app must have the necessary calendar permissions on it before events can be created there.
+                            </p>
+                        </div><br>
+</ol>
+                           
+                    </ol>   
+                   <li><h6>Department Calendar</h6></li> 
+                   <p>Enabling the Department Calendar checkbox under Create events in allows leave events to also be created on a calendar tied to the employee's department, rather than (or in addition to) the role-based or shared-mailbox targets configured for Team Events.</p>
+                 <br>
+                                <img src="depart.png" onclick="openModal('depart.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                        <p>Figure 7: The Department Calendar checkbox, unchecked, alongside Team Events.</p>  
+                        <p>Once Department Calendar is checked and the configuration is saved, a new Department Calendar Mapping tab appears at the top of the panel, next to General.</p>            
+               <br>
+                                <img src="depart2.png" onclick="openModal('depart2.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <p>Figure 8: Department Calendar checkbox checked — this activates the Department Calendar Mapping tab.</p>
+                  <br>
+                                <img src="depart3.png" onclick="openModal('depart3.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <p>Figure 9: The Department Calendar Mapping tab becomes visible at the top of the panel.</p>
+                                <ol style="list-style-type:decimal">
+                                    <li><p><strong>Configuring Department Calendar Mapping</strong></p></li>
+                                    <p>Open the Department Calendar Mapping tab to define which calendar each department's leave events should be created on. This tab has Active and Inactive sub-tabs, a search box, and two ways to add mappings: Add (manual entry) and Bulk Upload.</p>
+                                 <br>
+                                <img src="step5.png" onclick="openModal('step5.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <p>Figure 10: Department Calendar Mapping tab, showing the Active list (empty), Add, and Bulk Upload options.</p>
+                            <ol style="list-style-type:decimal">
+                                <li>Adding a mapping manually</li><br>
+                                <ul style="list-style-type:disc">
+                                    <li>Click Add. The Add Department Calendar Mapping panel opens.</li>
+                                    <li>From the Department dropdown, select the department you want to map.</li>
+                                    <li>From the Calendar for this department dropdown, choose whose calendar the department's leave events should be created on:</li>
+                                    <ul style="list-style-type:disc;margin-left:30px">
+                                        <li>Employee's own calendar (+ department members) — invites the same Employee/Manager/HR/Manager-of-Manager targets configured under Settings > General > Invite to the event, plus every other user whose Department matches this one, so colleagues in the same department see each other's leave. This list is resolved fresh from the user directory each time, so there is no list to maintain, and no extra permission is needed for it.</li>
+                                    <li>A specific user's calendar — routes events for this department to one nominated user's calendar.</li>
+                                <li>A shared mailbox calendar — routes events for this department to a shared mailbox's calendar (same setup as described in Section 4.1.2).</li>    
+                                </ul>
+                                <li>Use the Active toggle to turn this mapping On or Off without deleting it.</li>
+                                <li>Review the Summary panel, which echoes back the selected Department and Calendar for this department.</li>
+                                <li>Click Submit to save the mapping.</li>
+                                </ul>
+                            </ol>    
+                             <br>
+                                <img src="step6.png" onclick="openModal('step6.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <p>Figure 11: Add Department Calendar Mapping panel — Department dropdown, Calendar for this department options, Active toggle, and Summary.</p>
+                                 <br>
+                                <img src="step7.png" onclick="openModal('step7.png')" alt="Office Location" width="100%"><br>
+                                <br>
+                                <p>Figure 12: Calendar for this department dropdown expanded, showing all three routing options, with Submit highlighted.</p><br>
+                                <li>Adding mappings in bulk</li><br>
+                                <p>For organizations with many departments, click Bulk Upload instead of Add to import multiple department-to-calendar mappings at once (for example, via a spreadsheet template), rather than creating each mapping individually.</p>
+                                <li>Managing existing mappings</li><br>
+                                <p>Saved mappings appear in the table under the Active tab, with columns for Department, Mailbox, Calendar, and Status. Use the search box to locate a specific mapping, and switch to the Inactive tab to view mappings that have been turned off. </p>
+                           <p>Mappings can be edited or deactivated at any time; deactivating a mapping stops department-based event creation for that department without deleting the configuration.</p>
+                            </ol>
+                            <li><h6>How Events Are Created</h6></li>
+                            <p>Once the integration is enabled and configured, no further action is required from end users. The event creation flow works as follows:</p>
+                        <ul style="list-style-type:disc">
+                            <li>An employee submits a leave request in Time-off Manager 365.</li>
+                            <li>The request goes through the normal approval workflow.</li>
+                            <li>When the leave request is approved, Time-off Manager 365 automatically creates an Outlook calendar event for the approved leave dates.</li>
+                        </ul> 
+                        <br>
+                                <img src="last.png" onclick="openModal('last.png')" alt="Office Location" width="100%"><br>
+                                <br> 
+                                The event is created according to the configuration in this panel:
+                                <ul style="list-style-type:disc">
+                                    <li>If Team Events is enabled, the event is created on the calendars of the selected roles and/or the configured shared mailbox, as set under Invite to the event.</li>
+                              <li>If Department Calendar is enabled, the event is additionally created on the calendar mapped to the employee's department, based on the Department Calendar Mapping table.</li>
+                                </ul>
+                                <p>If both Team Events and Department Calendar are enabled, both sets of events are created for the same approved leave, so the leave can appear on multiple relevant calendars simultaneously.</p>
+                        </ol>
+                    
+                                </li>
                                 <li id="MicrosoftoutlookCalender">
                                     <h6>Show Time off requests in Microsoft outlook calender.</h6>When we apply leave,
                                     Outlook Calendar is blocked.
