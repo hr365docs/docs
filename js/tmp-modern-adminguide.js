@@ -178,10 +178,7 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title='Integration with Outlook Calendar ' class='sidelist'>" +
         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/advance-setting/#integrate'> Integration with Outlook Calendar  </a>" +
         "</li>" +
-        
-        "<li data-nav-id='../General' title='Show Time off requests in Microsoft outlook calender' class='sidelist'>" +
-        "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/advance-setting/#MicrosoftoutlookCalender'> Show Time off requests in Microsoft outlook calender </a>" +
-        "</li>" +
+     
         "<li data-nav-id='../General' title='Enable recurrence of leaves ' class='sidelist'>" +
         "<a href='/employee-vacation-tracker-time-off-manager/modern/admin/settings/advance-setting/#EnableRecurrenceOfleaves'> Enable recurrence of leaves  </a>" +
         "</li>" +     
