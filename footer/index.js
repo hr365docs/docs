@@ -8,10 +8,10 @@ if (!$("#fa-stylesheet").length) {         $("<link>", {             id: "fa-sty
                     "<div class='col'>" +
                         "<p class='column-first' style='color:white'>© 2026-" +
                             "<a href='https://www.hr365.us/' style='color:white'>HR365.</a> " +
-                            "<a href='https://www.hr365.us/sla/' style='color:white'>SLA.</a> " +
+                            "<a href='https://www.hr365.us/wp-content/uploads/HR365-SLA.pdf' style='color:white'>SLA.</a> " +
                             "<a href='https://www.hr365.us/terms-and-conditions/' style='color:white'>T&C.</a> " +
                             "<a href='https://www.hr365.us/end-user-license-agreement-eula/' style='color:white'>EULA.</a> " +
-                            "<a href='https://www.cubiclogics.com/privacy-policy/' style='color:white'>Privacy Policy.</a> " +
+                            "<a href='https://www.hr365.us/trust-center/privacy-policy/' style='color:white'>Privacy Policy.</a> " +
                             "<a href='https://www.cubiclogics.com/' style='color:white'>Cubic Logics.</a>" +
                         "</p>" +
                     "</div>" +
