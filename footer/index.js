@@ -2,11 +2,11 @@ $(document).ready(function () {
 if (!$("#fa-stylesheet").length) {         $("<link>", {             id: "fa-stylesheet",             rel: "stylesheet",             href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"        }).appendTo("head");     }
     $("#footer-container").html(
         "<div style='position:absolute;width:100%'>"+
-        "<footer class='section footer' style='padding:1vw 0 0 0;background-color:black;margin:0 30px;position:relative;bottom:0;width:95%'>" +
+        "<footer class='section footer' style='padding:1vw 0 0 0;background-color:black;margin:30px 0 0 0;position:relative;bottom:0;width:100%'>" +
             "<div class='container' style='margin:0;width:100%;max-width:100%'>" +
                 "<div class='row'style='display:flex;justify-content:space-between;width:100%'>" +
                     "<div class='col'>" +
-                        "<p class='column-first' style='color:white'>© 2026-" +
+                        "<p class='column-first' style='color:white'>©" +new Date().getFullYear() +"-"+
                             "<a href='https://www.hr365.us/' style='color:white'>HR365.</a> " +
                             "<a href='https://www.hr365.us/wp-content/uploads/HR365-SLA.pdf' style='color:white'>SLA.</a> " +
                             "<a href='https://www.hr365.us/terms-and-conditions/' style='color:white'>T&C.</a> " +
