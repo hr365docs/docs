@@ -21,7 +21,7 @@
   <!-- Custom Styles -->
   <style>
     :root {
-      --primary-color: #5637da;
+      
       --body-color: #f9f9f9;
       --text-color: #636363;
       --text-color-dark: #242738;
@@ -302,8 +302,8 @@
         // events
       
         
-            return $( "<li class='autocomplete_items'>" )
-              .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
+            return $( "<li class='autocomplete_items '>" )
+              .append( "<a class='link' href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
               .appendTo( ul );
             };
             

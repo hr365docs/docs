@@ -183,6 +183,92 @@ style.innerHTML = `
   .fa-chain:before, .fa-link:before{
   display: none;
   }
+  a,
+a:hover,
+a:focus {
+     text-decoration: none !important;
+    color: #5637da 
+}
+a:hover i{
+color:#fff !important 
+}   
+.list-inline-item a{
+        color:#fff !important
+    }
+     .list-inline-item a:hover{
+        color:#fff !important;
+        text-decoration:none !important;
+    }
+  .head{
+  color:#0b1020 !important;
+  font-weight:400;
+  }
+  .highlight{
+  color:#0b1020 !important;
+  }
+  .highlight:hover{
+  color:#0b1020;
+  }
+  .head:hover{
+  font-weight:600;
+  color:#0b1020 !important;
+  }
+  .pagination a{
+  color:#0b1020
+  }
+  .mbHeading a {
+  color:#0b1020
+ }
+  .back-btn{
+  color:#0b1020 !important
+ }
+  .sidelist a{
+  color:#0b1020 !important
+ }
+  .btn-primary {
+    background:#5637da;
+    color: #fff !important
+}
+    .btn-primary:active {
+    background: #5637da;
+}
+    .btn-primary:hover {
+    background: #5637da;
+}
+  .sidelist li.sidelist.active a {
+    color:black !important;
+    font-weight: 600 !important;
+}
+    .ti-panel:before,.ti-folder:before,.ti-cloud:before{
+    color: #5637da !important
+}
+    .text-primary,.text-primary a{
+    color:#0b1020 !important;
+    }
+    
+    .list-styled li::before {
+    position: absolute;
+    content: '';
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background:rgb(11,16,32) !important;
+    opacity: .3;
+    left: 0;
+    top: 12px
+}
+    h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+   color: rgb(11,16,32) !important;
+    font-family: var(--font-family), sans-serif;
+    font-weight: 700;
+    line-height: 1.2
+}
     .newWebparts{
       position: absolute;
         max-height: 25vw !important;
@@ -196,6 +282,9 @@ style.innerHTML = `
     text-decoration: none !important;
     border: none !important;
   }
+   .aurocomplete_items a {
+   color: #5637da !important
+   }
 `;
 document.head.appendChild(style);
 

@@ -6,7 +6,7 @@ if (!$("#fa-stylesheet").length) {         $("<link>", {             id: "fa-sty
             "<div class='container' style='margin:0;width:100%;max-width:100%'>" +
                 "<div class='row'style='display:flex;justify-content:space-between;width:100%'>" +
                     "<div class='col'>" +
-                        "<p class='column-first' style='color:white'>©" +new Date().getFullYear() +"-"+
+                        "<p class='column-first' style='color:white'>© " +new Date().getFullYear() +" - "+
                             "<a href='https://www.hr365.us/' style='color:white'>HR365.</a> " +
                             "<a href='https://www.hr365.us/wp-content/uploads/HR365-SLA.pdf' style='color:white'>SLA.</a> " +
                             "<a href='https://www.hr365.us/terms-and-conditions/' style='color:white'>T&C.</a> " +

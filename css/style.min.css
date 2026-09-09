@@ -32,17 +32,7 @@ p {
     width: 415px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: var(--text-color-dark);
-    font-family: var(--font-family), sans-serif;
-    font-weight: 700;
-    line-height: 1.2
-}
+
 
 h1,
 .h1 {
@@ -100,18 +90,11 @@ h6,
     box-shadow: none
 }
 
-.btn-primary {
-    background: var(--primary-color);
-    color: var(--white-color)
-}
 
-.btn-primary:active {
-    background: var(--primary-color)
-}
 
-.btn-primary:hover {
-    background: var(--primary-color)
-}
+
+
+
 
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -172,12 +155,7 @@ img {
     border: 0
 }
 
-a,
-a:hover,
-a:focus {
-    text-decoration: none;
-    color: var(--primary-color)
-}
+
 
 a:hover,
 a:focus {
@@ -188,7 +166,7 @@ a,
 button,
 select {
     cursor: pointer;
-    transition: .2s ease
+    
 }
 
 a:focus,
@@ -266,9 +244,7 @@ pre {
     background-color: var(--light-color) !important
 }
 
-.text-primary {
-    color: var(--primary-color) !important
-}
+
 
 .text-color {
     color: var(--text-color) !important
@@ -346,12 +322,12 @@ pre {
 .navbar .dropdown-item {
     position: relative;
     color: var(--text-color-dark);
-    transition: .2s ease;
+    
     font-family: var(--font-family), sans-serif
 }
 
 .navbar .dropdown-item:hover {
-    color: var(--primary-color);
+    /*color: var(--primary-color);*/
     background: 0 0
 }
 
@@ -513,17 +489,7 @@ textarea.form-control {
     position: relative
 }
 
-.list-styled li::before {
-    position: absolute;
-    content: '';
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    background: var(--primary-color);
-    opacity: .3;
-    left: 0;
-    top: 12px
-}
+
 
 .post-meta {
     color: var(--text-color);
@@ -550,7 +516,7 @@ blockquote p {
 }
 
 .pagination a {
-    color: var(--primary-color)
+    color: rgb(11,16,32) !important;
 }
 
 .pagination i {
@@ -689,8 +655,9 @@ li.sidelist li a {
     display: block
 }
 
-.sidelist li.sidelist.active a {
-    color: var(--primary-color)
+
+.sidelist .active{
+    font-weight: 600;
 }
 
 .sidelist li.sidelist.active::before {
@@ -712,7 +679,7 @@ li.sidelist li a {
     display: flex !important;
 } */
 .sidelist li a {
-    color: var(--text-color-dark);
+    color: rgb(11,16,32) !important;
     display: block;
     font-size: 15px;
     font-weight: 500;
@@ -815,7 +782,6 @@ pre code::-webkit-scrollbar-thumb {
     padding-left: 0;
     border-right: 1px solid #dee2e6
 }
-
 .code-tabs .nav-tabs .nav-item .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -2083,3 +2049,22 @@ span.msanchortag {
 .civic {
     font-size: 12px;
 }
+a{
+    color:  #5637da !important;
+}
+ .column-first a{
+        color: #fff !important;
+    }
+         .column-first a:hover{
+        color: #fff !important;
+        text-decoration: none !important;
+    }
+    
+    .list-inline-item a{
+        color:#fff !important
+    }
+     .list-inline-item a:hover{
+        color:#fff !important;
+        text-decoration:none !important;
+    }
+  

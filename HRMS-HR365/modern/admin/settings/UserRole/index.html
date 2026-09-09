@@ -15,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
     <style>
         :root {
-            --primary-color: #5637da;
+            
             --body-color: #f9f9f9;
             --text-color: #636363;
             --text-color-dark: #242738;
@@ -99,7 +99,7 @@
                         <!-- <h2 class=mb-5 id=title>General</h2> -->
                         <div class="bg-light p-4 remove-padding" id="UserRole">
                             <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+                                <h2 id="_dashboards"><a class="header-icon-link highlight head" href=#><!--User, Roles And
                                         Permissions-->User(s), Roles and Permissions · Features · Notifications 
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h2>
@@ -115,7 +115,7 @@
                                     weekdays and 0 on weekends. Below this, you can assign the user specific roles
                                     across multiple applications (like HR365, ED365, TM365, etc.), ensuring they have
                                     appropriate permissions based on their responsibilities in each system.</p>-->
-                                     <h3 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+                                     <h3 id="_dashboards"><a class="header-icon-link highlight head" href=#><!--User, Roles And
                                         Permissions-->Add/Edit User
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h3>
@@ -177,7 +177,7 @@
                                         task execution, assigned workflows, or viewing data.</li>
                                 </ul>-->
                                 
-                                  <h3 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+                                  <h3 id="_dashboards"><a class="header-icon-link highlight head" href=#><!--User, Roles And
                                         Permissions-->Adding a User
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h3><br>
@@ -237,7 +237,7 @@
 
                                 <div><img src="Settings.png" onclick="openModal('Settings.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>-->
-    <h4 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+    <h4 id="_dashboards"><a class="header-icon-link highlight head" href=#><!--User, Roles And
                                         Permissions-->The Role × App Permission Matrix
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h4>
@@ -245,7 +245,7 @@
                                       <div><img src="adduser3.png" onclick="openModal('adduser3.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
                     <p style="display:flex;justify-content:center;align-items:center">The Role x App matrix, scrolled to show a sample of roles against HRMS-HR365, Directory, and Time-Off.</p> 
-                                <h4 id="_dashboards"><a class="header-icon-link highlight" href=#><!--User, Roles And
+                                <h4 id="_dashboards"><a class="header-icon-link highlight head" href=#><!--User, Roles And
                                         Permissions-->The Gear: Sync and Exclusion Settings
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
                                 </h4>
@@ -256,7 +256,7 @@
                                 <div class="" id="RestrictPermissions">
 
     <h3 id="_restrict_permissions">
-      <a class="header-icon-link highlight" href="#">
+      <a class="header-icon-link highlight head" href="#">
         Restrict Permissions
         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
       </a>
@@ -276,7 +276,7 @@
       for example, whether users can <strong>Create</strong> or <strong>View</strong> content.-->
       <p style="display:Flex;justify-content:center;align-items:center">Restrict Permissions — Post, Announcement, and Poll, each independently configured for Create and View access.</p>
     <br><br>
-
+ 
     <!--<div>
       <img src="RestrictPermission_Main.png" onclick="openModal('RestrictPermission_Main.png')" 
            alt="Restrict Permissions main configuration screen" width="100%" height="auto">
@@ -328,20 +328,13 @@
                     </div>
                     <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
 
-                    <nav class="pagination mt-3">
-                        <a class="nav nav-prev" href="../Administration/" aria-label="Previous page"><i
-                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Administration</span></a>
-
-                        <a class="nav nav-next" href="../ai-control-panel/" aria-label="Previous page"> <span
-                                class="d-none d-md-block">AI Control panel</span><i class="ti-arrow-right ml-2"></i></a>
-
-                    </nav>
+                  
                 </div>
             </div>
         </div>
         </div>-->
-          <h3 id="_restrict_permissions">
-      <a class="header-icon-link highlight" href="#">
+          <h3 id="_restrict_permissions ">
+      <a class="header-icon-link highlight head" href="#">
         Included / Excluded Users 
         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
       </a>
@@ -349,7 +342,16 @@
     <p>Clicking the small View link next to any Create/View row opens a dedicated sub-panel listing exactly who's currently included or excluded for that specific combination, each with a trash-can icon and a confirmation prompt to remove them.</p>
     <div><img src="includedusers.png" onclick="openModal('includedusers.png')" alt="Update users role"
                                         width="100%" height="auto"></div><br>
+                                        <nav class="pagination mt-3 page">
+                        <a class="nav nav-prev" href="../Administration/" aria-label="Previous page"><i
+                                class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Administration</span></a>
+
+                        <a class="nav nav-next" href="../ai-control-panel/" aria-label="Previous page"> <span
+                                class="d-none d-md-block">AI Control panel</span><i class="ti-arrow-right ml-2"></i></a>
+
+                    </nav>
 </section>
+ 
     <div id="myModal" class="modal">
 
         <div class="modal-content">
