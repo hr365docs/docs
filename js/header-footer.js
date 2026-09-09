@@ -212,7 +212,7 @@ color:#fff !important
  
   .pagination a{
   color:#0b1020
-  }
+  } 
   .mbHeading a {
   color:#0b1020 !important
  }
