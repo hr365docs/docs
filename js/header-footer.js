@@ -186,7 +186,7 @@ style.innerHTML = `
   a,
 a:hover,
 a:focus {
-     text-decoration: none;
+     text-decoration: none !important;
     color: #5637da 
 }
 a:hover i{
