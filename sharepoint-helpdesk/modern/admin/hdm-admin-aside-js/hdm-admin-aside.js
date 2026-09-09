@@ -354,6 +354,9 @@ $(document).ready(function () {
         "</ul>" +
         "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#DevOps-Integrations'>DevOps Integrations</a>" +
         "</li>" +
+        "<li>"+
+        "<a href='/sharepoint-helpdesk/modern/admin/settings/integration/#Data'>Dataverse integeration</a>" +
+"</li>"+
         "</ul>" +
         "</li>" +
 
@@ -529,6 +532,10 @@ $(document).ready(function () {
 
         "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#HD365Migration'>HD365 Migration</a>" +
         "</li>" +
+        "<li>"+
+         "<a href='/sharepoint-helpdesk/modern/admin/settings/features/#Auto'>Automatic Task Configuration</a>" +
+       "</li>"+
+
 
 
         // "<li data-nav-id='./Add Assets/ ' title='Time Tracking' class='sidelist '>" +
