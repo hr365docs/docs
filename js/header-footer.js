@@ -201,7 +201,7 @@ color:#fff !important
     }
   .head{
   color:#0b1020 !important;
-  font-weight:400;
+
   }
   .highlight{
   color:#0b1020 !important;
@@ -209,15 +209,12 @@ color:#fff !important
   .highlight:hover{
   color:#0b1020;
   }
-  .head:hover{
-  font-weight:600;
-  color:#0b1020 !important;
-  }
+ 
   .pagination a{
   color:#0b1020
   }
   .mbHeading a {
-  color:#0b1020
+  color:#0b1020 !important
  }
   .back-btn{
   color:#0b1020 !important
