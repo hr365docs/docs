@@ -192,6 +192,7 @@ a:focus {
 a:hover i{
 color:#fff !important 
 }   
+
 .list-inline-item a{
         color:#fff !important
     }
@@ -282,6 +283,11 @@ h6
    .aurocomplete_items a {
    color: #5637da !important
    }
+   .text-primary a:hover{
+   color:black !important
+   }
+   .card-link a:hover{ 
+   color:black !important}
 `;
 document.head.appendChild(style);
 
