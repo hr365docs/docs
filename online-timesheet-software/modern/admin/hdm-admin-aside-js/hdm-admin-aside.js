@@ -209,6 +209,9 @@ $(document).ready(function () {
                  "<li data-nav-id='../General' title='Knowledge Base – MS Planner Integration Functionality' class='sidelist'>"+
                     "<a href='/online-timesheet-software/modern/admin/settings/integration/#knowledge'>Knowledge Base – MS Planner Integration Functionality</a>"+
                 "</li>"+
+                  "<li data-nav-id='../General' title='Excel Migration' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/integration/#Excel'>Excel Migration</a>"+
+                "</li>"+
             "</ul>"+
         "</li>"+
         "</ul>"+
