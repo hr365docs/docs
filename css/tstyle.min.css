@@ -12,7 +12,7 @@ body {
   } */ 
 
 p {
-    color: var(--text-color);
+    color: var(--text-color); 
     font-size: 15px
 }
 .iframe-upper {
