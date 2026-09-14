@@ -286,7 +286,7 @@ h6
    .text-primary a:hover{
    color:black !important
    }
-   .card-link a:hover{
+   .card-link a:hover{ 
    color:black !important}
 `;
 document.head.appendChild(style);
