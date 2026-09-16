@@ -170,6 +170,9 @@ style.innerHTML = `
     outline: none !important;
     background-image: none !important;
   }
+     .pagination a:hover i{
+    color:black !important
+    }
 
   /* Submenu items base style */
   .dropdown-menu .dropdown-item {
@@ -180,6 +183,19 @@ style.innerHTML = `
     text-decoration: none !important;
     border: none !important;
   }
+    .card-header a:hover i{
+    color:black !important 
+    }
+    .highlight{
+    color:black !important;
+    text-decoration:none !important
+    }
+    .highlight:hover{
+    text-decoration:none !important
+    }
+    .card-link {
+    color:black !important
+    }
   .fa-chain:before, .fa-link:before{
   display: none;
   }
@@ -287,7 +303,14 @@ h6
    color:black !important
    }
    .card-link a:hover{ 
-   color:black !important}
+   color:black !important
+   }
+   .dropdown-item{
+   color:black !important;
+   }
+   .active-submenu{
+   font-weight:800 !important;
+   }
 `;
 document.head.appendChild(style);
 
