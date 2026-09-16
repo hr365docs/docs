@@ -193,6 +193,9 @@ style.innerHTML = `
     .highlight:hover{
     text-decoration:none !important
     }
+     ::selection{
+ background-color:#5637DA !important;
+ color:white !important }
     .card-link {
     color:black !important
     }
