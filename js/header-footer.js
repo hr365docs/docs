@@ -196,6 +196,7 @@ style.innerHTML = `
      ::selection{
  background-color:#5637DA !important;
  color:white !important }
+
     .card-link {
     color:black !important
     }
