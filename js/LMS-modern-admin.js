@@ -100,7 +100,7 @@ $(document).ready(function () {
             "<a href='/LMS/modern/admin/setting/Features/#game'>Gamification</a>" +
           "</li>" +
            "<li data-nav-id='../General' title='Course Workflow' class='sidelist'>" +
-            "<a href='/LMS/modern/admin/setting/Features/#course'>Course Workflow</a>" +
+            "<a href='/LMS/modern/admin/setting/Features/#Approve'>Approval Workflow</a>" +
           "</li>" +
            "<li data-nav-id='../General' title='Section Acknowledgement' class='sidelist'>" +
             "<a href='/LMS/modern/admin/setting/Features/#section'>Section Acknowledgement</a>" +
