@@ -2069,7 +2069,52 @@ $(document).ready(function () {
         "Theme" +
       "</a>" +
     "</li>" +
+ "<a href='/HRMS-HR365/modern/admin/apps/Task-365/home-page/' title='Task 365'>Task 365</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='LMS - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/home-page/'>Home Page</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='LMS - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/Dashboard/'>Dashboard</a>" +
+                "</li>" +
+                "<li data-nav-id='../advanced/' title='LMS - Home Page' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/Report/'>Report</a>" +
+                "</li>" +
+          "<li data-nav-id='../advanced/' title='LMS - Settings' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/Settings/'>Settings</a>" +
+                "</li>" +
+                  "<li data-nav-id='../advanced/' title='LMS - Settings' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/General/'>General</a>" +
+                
+                "</li>" +
+                 "<li data-nav-id='../advanced/' title='LMS - Settings' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/User/'>Users, Roles and Permissions</a>" +
+                
+                "</li>" +
+                  "<li data-nav-id='../advanced/' title='LMS - Settings' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/Admin/'>General Administration</a>" +
+                
+                "</li>" +
+                  "<li data-nav-id='../advanced/' title='LMS - Settings' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/Notification/'>Notifications</a>" +
+                
+                "</li>" +
+                  "<li data-nav-id='../advanced/' title='LMS - Settings' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/Features/'>Features</a>" +
+                
+                "</li>" +
+                   "</li>" +
+                  "<li data-nav-id='../advanced/' title='LMS - Settings' class='sidelist'>" +
+                "<a href='/HRMS-HR365/modern/admin/apps/Task-365/Integration/'>Integrations</a>" +
+                
+                "</li>" +
+   
+        
+"</ul>" +
+"</li>" +
 
+
+                    
                 "</ul>" +
 
                 "<li data-nav-id='../advanced/' title=Help class='sidelist dropdown_romove_dot'>" +
@@ -2080,7 +2125,7 @@ $(document).ready(function () {
                 "</ul>"+
 
                 // help start 
-
+           
                "<li class='dropdownicon sidelist' title='Help'>" +
                 "<a href='/HRMS-HR365/modern/admin/help/'>" +
                 "Help" +
