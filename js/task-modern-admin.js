@@ -175,8 +175,8 @@ $(document).ready(function () {
         "<li data-nav-id='../advanced/' title='Employee Onboarding 365' class='sidelist'>" +
         "<a href='/task-management-365/modern/admin/settings/integration/#Employee-Onboarding-365'>Employee Onboarding 365</a>" +
         "</li>" +
-        "<li data-nav-id='../advanced/' title='Asset Management 365' class='sidelist'>" +
-        "<a href='/task-management-365/modern/admin/settings/integration/#Asset-Management-365'>Asset Management 365</a>" +
+        "<li data-nav-id='../advanced/' title='Asset 365' class='sidelist'>" +
+        "<a href='/task-management-365/modern/admin/settings/integration/#Asset-Management-365'>Asset 365</a>" +
         "</li>" +
         "<li data-nav-id='../advanced/' title='Helpdesk 365' class='sidelist'>" +
         "<a href='/task-management-365/modern/admin/settings/integration/#Helpdesk-365'>Helpdesk 365</a>" +
@@ -193,8 +193,8 @@ $(document).ready(function () {
         "<li data-nav-id='../advanced/' title='Recruitment Management 365' class='sidelist'>" +
         "<a href='/task-management-365/modern/admin/settings/integration/#RM365-365'>Recruitment Management 365</a>" +
         "</li>" +
-        "<li data-nav-id='../advanced/' title='Performance Management 365' class='sidelist'>" +
-        "<a href='/task-management-365/modern/admin/settings/integration/#Performance-Management-365'>Performance Management 365</a>" +
+        "<li data-nav-id='../advanced/' title='Performance 365' class='sidelist'>" +
+        "<a href='/task-management-365/modern/admin/settings/integration/#Performance-Management-365'>Performance 365</a>" +
         "</li>" +
         "<li data-nav-id='../advanced/' title='CLM365 - Contract Management' class='sidelist'>" +
         "<a href='/task-management-365/modern/admin/settings/integration/#CLM365-Contract-Management'>CLM365 - Contract Management</a>" +
