@@ -168,6 +168,21 @@ $(document).ready(function () {
       "</ul>" +
     "</li>" +
 
+    "<li data-nav-id='/LMS/modern/admin/administration/' class='dropdownicon sidelist' title='Administration'>" +
+      "<a class='qwe' href='/LMS/modern/admin/administration/'>" +
+      "Administration" +
+      "</a>" +
+      "<img src='/LMS/modern/admin/down-arrow-svgrepo-com.svg' class='imageIconmodernuser aside_dropdown_icon'>" +
+    "</li>" +
+     "<li data-nav-id='./Settings/' class='sidelist dropdown_romove_dot'>" +
+      "<ul class='sidenavSub-topics aside_dropdown_list active'>" +
+        "<li data-nav-id='./General-Settings/' title='Training Module' class='sidelist'>" +
+          "<a href='/LMS/modern/admin/administration/#training'>" +
+          "Training Module" +
+          "</a>" +
+        "</li>" +
+      "</ul>" +
+    "</li>"+
     "<li data-nav-id='/LMS/modern/admin/help/' class='dropdownicon sidelist' title='Help'>" +
       "<a class='qwe' href='/LMS/modern/admin/help/'>" +
       "Help" +
