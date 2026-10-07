@@ -3,11 +3,11 @@
 
 <head>
     <meta charset=utf-8>
-    <title>Learning Management System 365 | Admin Guide | Home</title>
+    <title>Learning Management System 365 | Admin Guide | Training Module</title>
     <meta name=viewport content="width=device-width,initial-scale=1">
     <meta name=generator content="Hugo 0.92.2">
     <meta name=description
-        content="Admin guide for the Home page of Learning Management System 365, offering an overview of key features and administrative tools for managing courses and users.">
+        content="Admin guide for the Training module of Learning Management System 365, offering an overview of key features and administrative tools for creating, managing, and publishing trainings.">
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css>
     <link rel=stylesheet href=https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css>
     <link rel=icon href=# type=image/x-icon>
@@ -16,13 +16,63 @@
     <script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
     <style>
         :root {
-
             --body-color: #f9f9f9;
             --text-color: #636363;
             --text-color-dark: #242738;
             --white-color: #ffffff;
             --light-color: #f8f9fa;
             --font-family: Lato
+        }
+
+        .custom-doc-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+            font-size: 14px;
+        }
+
+        .custom-doc-table th,
+        .custom-doc-table td {
+            border: 1px solid #d8e2ed;
+            padding: 10px 14px;
+            vertical-align: middle;
+        }
+
+        .custom-doc-table thead tr {
+            background-color: #173860;
+            color: #ffffff;
+        }
+
+        .custom-doc-table thead th {
+            color: #ffffff !important;
+            font-weight: 700;
+            border-color: #173860;
+        }
+
+        .custom-doc-table tbody tr:nth-child(even) {
+            background-color: #f8fafd;
+        }
+
+        .custom-doc-table tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        .custom-doc-table tbody th {
+            color: #173860;
+            font-weight: 700;
+            width: 25%;
+        }
+
+        .custom-callout-note {
+            background-color: #eaf2fa;
+            border-left: 4px solid #1f6497;
+            padding: 12px 16px;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+
+        .custom-callout-note p {
+            margin: 0;
         }
     </style>
     <link href=https://hr365docs.github.io/docs/css/style.min.css rel=stylesheet media=screen>
@@ -66,8 +116,6 @@
                     </svg>
                 </button>
                 <div class="collapse navbar-collapse text-center common-header" id=navigation>
-
-
                 </div>
             </div>
         </nav>
@@ -78,55 +126,31 @@
                 <div class=col-lg-3>
                     <div class=sidebar>
                         <h5 class="mbHeading" style="color:SlateBlue"><a href="../../../../LMS/">Learning Management
-                                System
-                                365</a></h5>
+                                System 365</a></h5>
                         <a class=back-btn href="../../../../LMS/" aria-label=back></a>
                         <ul class=list-styled>
                             <li data-nav-id=https://github.com/hr365docs/My-project.git/installation/
-                                title="Admin Guide" class="sidelist
-        active">
+                                title="Admin Guide" class="sidelist active">
                                 <a href="../../admin/">
                                     Admin Guide
                                 </a>
                                 <ul id="lmsmodernadmin">
-
                                 </ul>
                             </li>
-
-                            </a>
-                            </li>
-                        </ul>
-                        </li>
                         </ul>
                     </div>
                 </div>
                 <div class=col-lg-9>
                     <div class="p-lg-4 p-4 remove-padding bg-white" id=content>
-                        <!-- <h2 class=mb-5 id=title> </h2> -->
                         <div class="bg-light p-4 remove-padding">
                             <li data-nav-id=../Getting-started/installation/using-app-file title="Help"
                                 class="sidelist">
-                                <h3 id="training"><a class="header-icon-link highlight" href="">Training Module<i
-                                            class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
-                                <p>
-                                    The Training module lets administrators package one or more courses, live sessions,
-                                    or in-person workshops into a single structured learning experience called a
-                                    <strong>Training</strong>. Unlike a standalone course, a Training can combine
-                                    multiple course blocks, carry its own assessments and knowledge-check quizzes, issue
-                                    a certificate on completion, and be tracked and reported on as a single unit. This
-                                    article covers where to find the Training module, the delivery types available, and
-                                    the complete step-by-step process for building, previewing, and publishing a
-                                    Training.
-                                </p>
-                                <div style="background-color:skyblue;border-left:2px solid blue;padding:0 3px">
-                                    <p><strong>Note</strong>: For the latest article, screenshots, and video
-                                        walkthroughs, see Learn about Training at the end of this guide.</p>
-                                </div>
-                                <h5 id="training"><a class="header-icon-link highlight" href="">In this guide
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
+
+                                <h2 id="training"><a class="header-icon-link highlight" href="">
+                                        Training Module
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h2>
                                 <h3 id="training"><a class="header-icon-link highlight" href="">1. Accessing the
                                         Training Module
-
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
                                 <p>The Training module can be reached two ways, depending on whether you are
                                     assigning/consuming trainings or building them.
@@ -136,13 +160,8 @@
                                         height="auto"></div>
                                 <br>
 
-                                <p>Figure 1. The Catalog page, showing the My Trainings tab count for learners and the
-                                    Training item under Administration (left navigation) for admins.
-                                </p>
                                 <h5 id="training"><a class="header-icon-link highlight" href="">1.1 For Learners —
                                         Catalog
-
-
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
 
                                 <p>The Catalog home page has a row of tabs across the top — Catalog, My Courses,
@@ -156,11 +175,9 @@
                                     delivery mode, number of sections, contact/instructor, launch and due dates, and
                                     current star rating.
                                 </p>
+
                                 <h5 id="training"><a class="header-icon-link highlight" href="">1.2 For Administrators —
                                         Administration
-
-
-
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
                                 <p>From the left-hand navigation rail, open the Administration area (the library/book
                                     icon). This section groups together Sections, Chapters, Quiz Questions, Quiz,
@@ -168,1132 +185,832 @@
                                     opens the Training management grid, which lists every training that exists in the
                                     tenant.
                                 </p>
-                                <table>
-                                    <tr style="background-color:blue;color:white">
-                                        <td>Grid Column</td>
-                                        <td>
-                                            What It Shows
-                                        </td>
-                                    </tr>
-                                    <tr style="background-color:skyblue">
-                                        <th style="color:blue">
-                                            Training Title
-                                        </th>
-                                        <td>
-                                            The name of the training. Click the title to open it.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th style="color:blue">
-                                            Enrollment
-                                        </th>
-                                        <td>
-                                            Icon showing/managing who is enrolled in the training.
 
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th style="color:blue">
-                                            Created By
-                                        </th>
-                                        <td>
-                                            The author's name, photo, and role.
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Grid Column</th>
+                                            <th>What It Shows</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Training Title</th>
+                                            <td>The name of the training. Click the title to open it.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Enrollment</th>
+                                            <td>Icon showing/managing who is enrolled in the training.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Created By</th>
+                                            <td>The author's name, photo, and role.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Created On</th>
+                                            <td>The date the training record was created.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Type</th>
+                                            <td>Digital Course Training, Live Online Training, or Onsite Training.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Status</th>
+                                            <td>Draft or Published.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Active</th>
+                                            <td>Whether the training is currently assignable/visible to learners.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Action</th>
+                                            <td>Per-row Edit, Archive, and Delete icons — see Section 4.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
-                                        </td>
-                                    </tr>
-                                    <th style="color:blue">
-                                        Created On
-                                    </th>
-                                    <td>
-                                        The date the training record was created.
-
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                        <th style="color:blue">
-                                            Type
-                                        </th>
-                                        <td>
-                                            Digital Course Training, Live Online Training, or Onsite Training.
-
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th style="color:blue">
-                                            Status
-                                        </th>
-                                        <td>
-                                            Draft or Published.
-
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th style="color:blue">
-                                            Active
-                                        </th>
-                                        <td>
-                                            Whether the training is currently assignable/visible to learners.
-
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <th style="color:blue">
-                                            Action
-                                        </th>
-                                        <td>
-                                            Per-row Edit, Archive, and Delete icons — see Section 4.
-                                        </td>
-                                    </tr>
-                                </table><br>
                                 <div><img src="2.png" onclick="openModal('2.png')" alt="help" width="100%"
                                         height="auto"></div>
                                 <br>
 
-                                <p>Figure 2. The Training management grid under Administration > Training, listing every
-                                    training in the tenant.
-                                </p>
                                 <p>Use the + Training button to start a new training, the search icon to find one
                                     quickly, and the filter boxes beneath each column header to narrow the list — handy
                                     once the tenant has a large number of trainings.
                                 </p>
-                                <h5 id="training"><a class="header-icon-link highlight" href="">2. Training Delivery
+
+                                <h3 id="training"><a class="header-icon-link highlight" href="">2. Training Delivery
                                         Types
-
-
-
-
-                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
-                                <p>
-                                    Every training is built as one of three delivery types. The type is chosen when the
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p>Every training is built as one of three delivery types. The type is chosen when the
                                     training is first created and shapes which tools appear later in the build wizard.
                                 </p>
-                                <table>
-                                    <tr style="background-color: blue;color:white">
-                                        <td>Type</td>
-                                        <td>Description</td>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            Digital Course Training
-                                        </th>
-                                        <td>
-                                            Fully self-paced, e-learning delivery. One or more existing courses are
-                                            combined into Course Blocks to form a single training that learners work
-                                            through online at their own pace.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>Live Online Training</th>
-                                        <td>Instructor-led training delivered virtually at a scheduled date and time —
-                                            for example, a webinar or virtual classroom session.</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Onsite Training</th>
-                                        <td>Instructor-led training delivered in person at a physical location. It
-                                            typically carries a start date but no fixed digital due date, since
-                                            completion is tracked through attendance rather than course progress.</td>
-                                    </tr>
+
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Type</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Digital Course Training</th>
+                                            <td>Fully self-paced, e-learning delivery. One or more existing courses are
+                                                combined into Course Blocks to form a single training that learners work
+                                                through online at their own pace.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Live Online Training</th>
+                                            <td>Instructor-led training delivered virtually at a scheduled date and
+                                                time — for example, a webinar or virtual classroom session.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Onsite Training</th>
+                                            <td>Instructor-led training delivered in person at a physical location. It
+                                                typically carries a start date but no fixed digital due date, since
+                                                completion is tracked through attendance rather than course progress.</td>
+                                        </tr>
+                                    </tbody>
                                 </table>
-                                <br>
-                                <div
-                                    style="background-color: rgb(234, 242, 250);padding:2px;border-left:4px solid rgb(46, 109, 164)">
-                                    <p>
-                                        <strong>Note:</strong> Course Blocks (Section 3.2) apply specifically to Digital
+
+                                <div class="custom-callout-note">
+                                    <p><strong>Note:</strong> Course Blocks (Section 3.2) apply specifically to Digital
                                         Course Training. Live Online Training and Onsite Training each use their own
                                         dedicated tab instead — Section 3.3 and Section 3.4, respectively — to schedule
                                         the session. It's best to confirm the Training Type on the Overview tab before
                                         building out the rest of the training.
-
                                     </p>
                                 </div>
+
                                 <h3 id="training"><a class="header-icon-link highlight" href="">3. Creating a New
                                         Training
-
-
-
-
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
                                 <p>From the Training grid, click + Training to launch the Add Training wizard. Every
                                     training starts on the same Overview tab (Section 3.1), where the Training Type is
-                                    chosen. Once that choice is made, the rest of the wizard follows one of three paths:
+                                    chosen. Once that choice is made, the rest of the wizard follows one of three
+                                    paths:
                                 </p>
                                 <ul style="list-style-type:disc">
-                                    <li><strong>Digital Course Training —</strong> Content → Assessment → Quiz → Preview
-                                        → Publish (Section 3.2).
-                                    </li>
-                                    <li><strong>Live Online Training —</strong> Live Online Training → Preview → Publish
-                                        (Section 3.3).
-                                    </li>
-                                    <li><strong>Onsite Training —</strong> Onsite Training → Preview → Publish (Section
-                                        3.4).
-                                    </li>
-                                </ul><br>
+                                    <li><strong>Digital Course Training — </strong>Content → Assessment → Quiz →
+                                        Preview → Publish (Section 3.2).</li>
+                                    <li><strong>Live Online Training — </strong>Live Online Training → Preview →
+                                        Publish (Section 3.3).</li>
+                                    <li><strong>Onsite Training — </strong>Onsite Training → Preview → Publish
+                                        (Section 3.4).</li>
+                                </ul>
                                 <p>Progress can be saved as a Draft from almost any tab and finished later. Everything
                                     up through Overview is identical no matter which type is chosen — the sections below
                                     cover Overview once, then each path in full.
                                 </p>
+
                                 <h5 id="training"><a class="header-icon-link highlight" href="">3.1 Overview Tab
-
-
-
-
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
                                 <ul style="list-style-type:disc">
                                     <li><strong>Training Title* — </strong>required. A clear, learner-facing name for
                                         the training.</li>
-                                    <li><strong>Short Description —</strong> a concise one- to two-sentence summary
+                                    <li><strong>Short Description — </strong>a concise one- to two-sentence summary
                                         shown on catalog tiles. Use Rephrase with AI to have the system tighten or
                                         polish the wording automatically.</li>
-                                    <li><strong>Long Description* —</strong> required. The full description shown on the
-                                        training's detail page; also supports Rephrase with AI.</li>
+                                    <li><strong>Long Description* — </strong>required. The full description shown on
+                                        the training's detail page; also supports Rephrase with AI.</li>
                                     <li><strong>Training Type — </strong>choose Digital Course Training, Live Online
                                         Training, or Onsite Training (see Section 2).</li>
-                                    <li><strong>Training Level, Department, Roles, Skill —</strong> optional
+                                    <li><strong>Training Level, Department, Roles, Skill — </strong>optional
                                         classification fields used to target the right audience and improve catalog
                                         searchability.</li>
-                                    <li><strong>Suggest (AI) —</strong> automatically proposes Training Level,
+                                    <li><strong>Suggest (AI) — </strong>automatically proposes Training Level,
                                         Department, Roles, and Skill tags based on the Title and Description already
                                         entered, saving manual tagging time.</li>
-                                </ul><br>
+                                </ul>
+
                                 <div><img src="3.png" onclick="openModal('3.png')" alt="help" width="100%"
                                         height="auto"></div>
                                 <br>
-                                <p>Figure 3. The Overview tab of the Add Training wizard, including the Training Type
-                                    selector.</p>
-                                <div>
-                                    <strong>Note:</strong> Once Training Type is set here and Next is clicked, the
-                                    wizard continues into one of the three paths below — Section 3.2 for Digital Course
-                                    Training, Section 3.3 for Live Online Training, or Section 3.4 for Onsite Training.
+
+                                <div class="custom-callout-note">
+                                    <p><strong>Note:</strong> Once Training Type is set here and Next is clicked, the
+                                        wizard continues into one of the three paths below — Section 3.2 for Digital Course
+                                        Training, Section 3.3 for Live Online Training, or Section 3.4 for Onsite Training.
+                                    </p>
                                 </div>
+
                                 <h5 id="training"><a class="header-icon-link highlight" href="">3.2 Digital Course
                                         Training Path
-
-
-
-
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
                                 <p>Selecting Digital Course Training on Overview leads through five more tabs, covered
                                     in full below: Content, Assessment, Quiz, Preview, and Publish.</p>
+
                                 <h6 id="training"><a class="header-icon-link highlight" href="">3.2.1 Content Tab —
                                         Combining Courses into a Training
-
-
-
-
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
                                 <p>This tab is where the defining behavior of Digital Course Training happens: multiple
                                     standalone courses are combined into Course Blocks, and together they form one
                                     single training that is assigned, tracked, and reported on as a unit.</p>
                                 <ul style="list-style-type:disc">
-                                    <li><strong>Add Courses —</strong> under Course Blocks, click Add Courses to open
+                                    <li><strong>Add Courses — </strong>under Course Blocks, click Add Courses to open
                                         the course picker.</li>
-                                    <li><strong>Course picker —</strong> lists every course already in the library
+                                    <li><strong>Course picker — </strong>lists every course already in the library
                                         (Course Title, Created By, Created On) with a checkbox beside each one, so
                                         multiple courses can be selected at once.</li>
-                                    <li><strong>+ Course —</strong> if the course you need doesn't exist yet, create one
-                                        on the fly from within this panel without leaving the wizard.</li>
+                                    <li><strong>+ Course — </strong>if the course you need doesn't exist yet, create
+                                        one on the fly from within this panel without leaving the wizard.</li>
                                     <li><strong>Sequencing — </strong>each selected course becomes a sequential block
                                         inside the training; learners move through the blocks in order to complete the
                                         overall training.</li>
-                                    <li><strong>Navigation —</strong> use Back to return to Overview, Draft to save
+                                    <li><strong>Navigation — </strong>use Back to return to Overview, Draft to save
                                         progress without publishing, or Next to continue to Assessment.</li>
-                                </ul><br>
+                                </ul>
+
                                 <div><img src="4.png" onclick="openModal('4.png')" alt="help" width="100%"
                                         height="auto"></div>
                                 <br>
-                                <p>
-                                    Figure 4. The Content tab's Course Blocks area and the Add Courses picker used to
-                                    select existing courses.
-                                </p>
+
                                 <h6 id="training"><a class="header-icon-link highlight" href="">3.2.2 Assessment Tab
-
-
-
-
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-                                <p>
-                                    Assessments are formal, graded evaluations used to confirm learner understanding at
-                                    key points in the training.
-                                </p>
-                                <table>
-                                    <tr>
-                                        <td>Field </td>
-                                        <td>Description</td>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            Assessment Title
-                                        </th>
-                                        <td>
-                                            The name of the assessment.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            Assessment Section
-                                        </th>
-                                        <td>
-                                            The topic area(s) it covers.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            Assessment Instructor
-                                        </th>
-                                        <td>
-                                            The reviewer/proctor, assigned via Select Users.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            Total Question
-                                        </th>
-                                        <td>
-                                            The number of questions in the assessment.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            Time Limit
-                                        </th>
-                                        <td>
-                                            How long learners have to complete it.
-                                        </td>
-                                    </tr>
+                                <p>Assessments are formal, graded evaluations used to confirm learner understanding at
+                                    key points in the training.</p>
+
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Field</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Assessment Title</th>
+                                            <td>The name of the assessment.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Assessment Section</th>
+                                            <td>The topic area(s) it covers.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Assessment Instructor</th>
+                                            <td>The reviewer/proctor, assigned via Select Users.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Total Question</th>
+                                            <td>The number of questions in the assessment.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Time Limit</th>
+                                            <td>How long learners have to complete it.</td>
+                                        </tr>
+                                    </tbody>
                                 </table>
-                                <br>
+
                                 <ul style="list-style-type:disc">
-                                    <li><strong>Generate with AI —</strong> drafts assessment content automatically from
+                                    <li><strong>Generate with AI — </strong>drafts assessment content automatically from
                                         the training/course material.</li>
-                                    <li><strong>+ Add —</strong> builds an assessment manually.</li>
-                                    <li><strong>Multiple assessments —</strong> a training can carry more than one
+                                    <li><strong>+ Add — </strong>builds an assessment manually.</li>
+                                    <li><strong>Multiple assessments — </strong>a training can carry more than one
                                         assessment — for example, a Compliance Knowledge Assessment and a separate
                                         Regulatory Standards Assessment covering different topic areas.</li>
-                                    <li><strong>Removing an assessment —</strong> use the delete icon in its row at any
-                                        time.</li>
-                                    <li><strong>Navigation —</strong> use Back, Draft, Next, or jump directly to Review
-                                        & Publish once you're satisfied.</li>
-                                </ul><br>
+                                    <li><strong>Removing an assessment — </strong>use the delete icon in its row at
+                                        any time.</li>
+                                    <li><strong>Navigation — </strong>use Back, Draft, Next, or jump directly to
+                                        Review &amp; Publish once you're satisfied.</li>
+                                </ul>
+
                                 <div><img src="5.png" onclick="openModal('5.png')" alt="help" width="100%"
                                         height="auto"></div>
                                 <br>
-                                <p>Figure 5. The Assessment tab, showing two assessments attached to a training.</p>
+
                                 <h6 id="training"><a class="header-icon-link highlight" href="">3.2.3 Quiz Tab
-
-
-
-
                                         <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
                                 <p>Quizzes are lighter-weight knowledge checks, distinct from formal Assessments, used
                                     to reinforce learning throughout the training.</p>
-                                <ul style="list-style-type:Disc">
-                                    <li><strong>Generate with AI —</strong> auto-generates a set of questions for a
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Generate with AI — </strong>auto-generates a set of questions for a
                                         Question Block.</li>
+                                    <li><strong>+ Add — </strong>adds a question block manually.</li>
                                     <li><strong>Rearrange Quizzes — </strong>reorders blocks by dragging them into the
                                         desired sequence.</li>
-                                    <li><strong>Block detail —</strong> each quiz block shows its title and question
-                                        count (for example, Compliance & Regulatory Awareness with 3 questions, or Java
-                                        Full Stack Fundamentals with 4 questions) and can be removed with its delete
+                                    <li><strong>Block detail — </strong>each quiz block shows its title and question
+                                        count (for example, Compliance &amp; Regulatory Awareness with 3 questions, or
+                                        Java Full Stack Fundamentals with 4 questions) and can be removed with its delete
                                         icon.</li>
-                                    <li><strong>Navigation — </strong>use Back, Draft, Next, or Review & Publish to
+                                    <li><strong>Navigation — </strong>use Back, Draft, Next, or Review &amp; Publish to
                                         continue.</li>
-                                </ul> <br>
+                                </ul>
+
                                 <div><img src="6.png" onclick="openModal('6.png')" alt="help" width="100%"
                                         height="auto"></div>
                                 <br>
-                                <p>
-                                    Figure 6. The Quiz tab, showing two Question Blocks attached to a training.
+
+                                <h6 id="training"><a class="header-icon-link highlight" href="">3.2.4 Preview Tab —
+                                        Thumbnail and Banner Artwork
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
+
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Element</th>
+                                            <th>Recommended Size / Purpose</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Thumbnail Image</th>
+                                            <td>200 × 200 px. Used as the training's tile icon throughout the catalog.
+                                                Upload, Replace, or Remove it here.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Banner Image</th>
+                                            <td>1100 × 150 px. Displayed across the top of the training's detail page.
+                                                Upload, Replace, or Remove it here.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <p>The right-hand preview panel shows exactly how learners will see the training card,
+                                    including its Type, Duration (calculated automatically from the total length of its
+                                    course/session blocks), Contact(s), Start Date, Due Date, and current star rating.</p>
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Card Theme Color — </strong>choose Random to let the system assign a
+                                        background color automatically, or Custom to select a specific brand color for
+                                        the tile.</li>
+                                    <li><strong>Thumbnail Border — </strong>choose No Border for a clean edge-to-edge
+                                        thumbnail, or Border to frame it.</li>
+                                </ul>
+
+                                <div><img src="7.png" onclick="openModal('7.png')" alt="help" width="100%"
+                                        height="auto"></div>
+                                <br>
+
+                                <h6 id="training"><a class="header-icon-link highlight" href="">3.2.5 Publish Tab —
+                                        Final Setup and Going Live
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
+                                <p>Before publishing, the Publish tab recaps everything configured earlier for a final
+                                    check: an Assessment Content table (Assessment Title, Assessment Section, Total
+                                    Questions, Time Limit) and a Quiz Content table (Quiz Title, number of questions, Pass
+                                    %) for every block attached.
                                 </p>
-                        </div>
-                        <h6 id="training"><a class="header-icon-link highlight" href="">
-                                3.2.4 Preview Tab — Thumbnail and Banner Artwork
 
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Setting</th>
+                                            <th>Effect</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Training Author*</th>
+                                            <td>Required. The person shown to learners as the training's owner/point of
+                                                contact (defaults to the creator and can be changed).</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Training Certification</th>
+                                            <td>Toggle on to automatically issue learners a certificate when they complete
+                                                the training.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Certificate Templates*</th>
+                                            <td>Required whenever Certification is enabled. Choose the certificate design,
+                                                or click View Templates to browse the full gallery.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Training Rating</th>
+                                            <td>Toggle on to let learners rate the training.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Rating upon completion</th>
+                                            <td>Toggle on to prompt learners for a rating immediately after they finish.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Updatable Rating</th>
+                                            <td>Toggle on to allow learners to revise a rating they've already submitted.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Available for all Users</th>
+                                            <td>Toggle on to publish tenant-wide; toggle off to restrict to the audience set
+                                                on the Overview tab.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
+                                <div class="custom-callout-note">
+                                    <p><strong>Note:</strong> Click Draft to save the training without making it
+                                        visible to learners, or Publish to make it live and assignable immediately. Both
+                                        buttons remain available from this tab.
+                                    </p>
+                                </div>
 
+                                <div><img src="8.png" onclick="openModal('8.png')" alt="help" width="100%"
+                                        height="auto"></div>
+                                <br>
 
+                                <h5 id="training"><a class="header-icon-link highlight" href="">3.3 Live Online Training
+                                        Path
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
+                                <p>Selecting Live Online Training on Overview leads through three more tabs, covered in
+                                    full below: Live Online Training, Preview, and Publish. Content, Assessment, and Quiz
+                                    don't apply to this type.</p>
 
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-                        <table>
-                            <tr>
-                                <td>
-                                    Element
-                                </td>
-                                <td>
-                                    Recommended Size / Purpose
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>Thumbnail Image</th>
-                                <td>
+                                <h6 id="training"><a class="header-icon-link highlight" href="">3.3.1 Live Online
+                                        Training Tab — Scheduling a Live Session
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
+                                <p>This tab replaces Content, Assessment, and Quiz entirely — it's where the virtual
+                                    session itself is scheduled.</p>
 
-                                    200 × 200 px. Used as the training's tile icon throughout the catalog. Upload,
-                                    Replace, or Remove it here.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Banner Image
-                                </th>
-                                <td>
-                                    1100 × 150 px. Displayed across the top of the training's detail page. Upload,
-                                    Replace, or Remove it here.
-                                </td>
-                            </tr>
-                        </table><br>
-                        <p>The right-hand preview panel shows exactly how learners will see the training card, including
-                            its Type, Duration (calculated automatically from the total length of its course/session
-                            blocks), Contact(s), Start Date, Due Date, and current star rating.</p>
-                        <ul style="list-style-type:disc">
-                            <li><strong>Card Theme Color — </strong>choose Random to let the system assign a background
-                                color automatically, or Custom to select a specific brand color for the tile.</li>
-                            <li><strong>Thumbnail Border — </strong>choose No Border for a clean edge-to-edge thumbnail,
-                                or Border to frame it.</li>
-                        </ul> <br>
-                        <div><img src="7.png" onclick="openModal('7.png')" alt="help" width="100%" height="auto"></div>
-                        <br>
-                        <p>Figure 7. The Preview tab, showing thumbnail and banner upload alongside the live
-                            learner-facing preview.</p>
-                        <h6 id="training"><a class="header-icon-link highlight" href="">3.2.5 Publish Tab — Final Setup
-                                and Going Live
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Field</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Meeting Type*</th>
+                                            <td>Required. Choose how the session will be hosted — MS Teams or Others (a
+                                                different conferencing platform).</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Meeting Name*</th>
+                                            <td>Required. The name learners will see for the scheduled session.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Meeting Description*</th>
+                                            <td>Required. Full session details, formatted with the built-in rich-text
+                                                editor (bold, italic, underline, links, numbered/bulleted lists).</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Webinar Attachment Type</th>
+                                            <td>Optional. Attach supporting webinar material to the session.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Attendees*</th>
+                                            <td>Required. Choose who can join — All Users, specific Groups, or a Custom
+                                                selection of learners.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Start Date &amp; Time*</th>
+                                            <td>Required. The date and time the live session begins.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>End Date &amp; Time*</th>
+                                            <td>Required. The date and time the live session ends.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
+                                <div><img src="9.png" onclick="openModal('9.png')" alt="help" width="100%"
+                                        height="auto"></div>
+                                <br>
 
+                                <div class="custom-callout-note">
+                                    <p><strong>Note:</strong> A Live Online Training's build wizard has no separate
+                                        Assessment or Quiz tab — this one tab covers everything needed to schedule the
+                                        session.
+                                    </p>
+                                </div>
 
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Navigation — </strong>use Back to return to Overview, Draft to save
+                                        progress without publishing, or Next to continue to Preview.</li>
+                                </ul>
 
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-                        <p>Before publishing, the Publish tab recaps everything configured earlier for a final check: an
-                            Assessment Content table (Assessment Title, Assessment Section, Total Questions, Time Limit)
-                            and a Quiz Content table (Quiz Title, number of questions, Pass %) for every block attached.
-                        </p>
-                        <table>
-                            <tr>
-                                <td>
-                                    Setting
-                                </td>
-                                <td>
-                                    Effect
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Training Author*
-                                </th>
-                                <td>
-                                    Required. The person shown to learners as the training's owner/point of contact
-                                    (defaults to the creator and can be changed).
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Training Certification
-                                </th>
-                                <td>
-                                    Toggle on to automatically issue learners a certificate when they complete the
-                                    training.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>Certificate Templates*</th>
-                                <td>Required whenever Certification is enabled. Choose the certificate design, or click
-                                    View Templates to browse the full gallery.</td>
-                            </tr>
-                            <tr>
-                                <th>Training Rating</th>
-                                <td>Toggle on to let learners rate the training.</td>
-                            </tr>
-                            <tr>
-                                <th>Rating upon completion </th>
-                                <td>Toggle on to prompt learners for a rating immediately after they finish.</td>
-                            </tr>
-                            <tr>
-                                <th>Updatable Rating </th>
-                                <td>Toggle on to allow learners to revise a rating they've already submitted.</td>
-                            </tr>
-                            <tr>
-                                <th>Available for all Users </th>
-                                <td>Toggle on to publish tenant-wide; toggle off to restrict to the audience set on the
-                                    Overview tab.</td>
-                            </tr>
-                        </table> <br>
-                        <div>
-                            <p>
-                                <strong>Note:</strong> Click Draft to save the training without making it visible to
-                                learners, or Publish to make it live and assignable immediately. Both buttons remain
-                                available from this tab.
-                            </p>
+                                <h6 id="training"><a class="header-icon-link highlight" href="">3.3.2 Preview Tab —
+                                        Thumbnail and Banner Artwork
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
+                                <p>The Preview tab works the same way regardless of Training Type: upload thumbnail and
+                                    banner artwork and confirm the learner-facing preview before publishing.</p>
 
-                        </div> <br>
-                        <div><img src="8.png" onclick="openModal('8.png')" alt="help" width="100%" height="auto"></div>
-                        <br>
-                        <p>Figure 8. The Publish tab's final review, with the Draft and Publish actions highlighted.</p>
-                        <h6 id="training"><a class="header-icon-link highlight" href="">3.3 Live Online Training Path
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Element</th>
+                                            <th>Recommended Size / Purpose</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Thumbnail Image</th>
+                                            <td>200 × 200 px. Used as the training's tile icon throughout the catalog.
+                                                Upload, Replace, or Remove it here.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Banner Image</th>
+                                            <td>1100 × 150 px. Displayed across the top of the training's detail page.
+                                                Upload, Replace, or Remove it here.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
+                                <p>The right-hand preview panel shows exactly how learners will see the training card,
+                                    including its Type, Duration, Contact(s), Start Date, Due Date, and current star
+                                    rating.</p>
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Card Theme Color — </strong>choose Random to let the system assign a
+                                        background color automatically, or Custom to select a specific brand color for
+                                        the tile.</li>
+                                    <li><strong>Thumbnail Border — </strong>choose No Border for a clean edge-to-edge
+                                        thumbnail, or Border to frame it.</li>
+                                </ul>
 
+                                <div><img src="10.png" onclick="openModal('10.png')" alt="help" width="100%"
+                                        height="auto"></div>
+                                <br>
 
+                                <h6 id="training"><a class="header-icon-link highlight" href="">3.3.3 Publish Tab —
+                                        Final Setup and Going Live
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
+                                <p>The Publish tab also works the same way regardless of Training Type, recapping
+                                    everything configured earlier for a final check. Since a Live Online Training carries
+                                    no Assessment or Quiz blocks, its recap reflects the session and audience details
+                                    set on the Live Online Training tab instead.</p>
 
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-                        <p>Selecting Live Online Training on Overview leads through three more tabs, covered in full
-                            below: Live Online Training, Preview, and Publish. Content, Assessment, and Quiz don't apply
-                            to this type.</p>
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Setting</th>
+                                            <th>Effect</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Training Author*</th>
+                                            <td>Required. The person shown to learners as the training's owner/point of
+                                                contact (defaults to the creator and can be changed).</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Training Certification</th>
+                                            <td>Toggle on to automatically issue learners a certificate when they complete
+                                                the training.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Certificate Templates*</th>
+                                            <td>Required whenever Certification is enabled. Choose the certificate design,
+                                                or click View Templates to browse the full gallery.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Training Rating</th>
+                                            <td>Toggle on to let learners rate the training.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Rating upon completion</th>
+                                            <td>Toggle on to prompt learners for a rating immediately after they finish.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Updatable Rating</th>
+                                            <td>Toggle on to allow learners to revise a rating they've already submitted.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Available for all Users</th>
+                                            <td>Toggle on to publish tenant-wide; toggle off to restrict to the audience set
+                                                on the Overview tab.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
-                        <h6 id="training"><a class="header-icon-link highlight" href="">3.3.1 Live Online Training Tab —
-                                Scheduling a Live Session
+                                <div class="custom-callout-note">
+                                    <p><strong>Note:</strong> Click Draft to save the training without making it
+                                        visible to learners, or Publish to make it live and assignable immediately.
+                                    </p>
+                                </div>
 
+                                <h5 id="training"><a class="header-icon-link highlight" href="">3.4 Onsite Training Path
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
+                                <p>Selecting Onsite Training on Overview leads through three more tabs, covered in full
+                                    below: Onsite Training, Preview, and Publish. Content, Assessment, and Quiz don't
+                                    apply to this type.</p>
 
+                                <h6 id="training"><a class="header-icon-link highlight" href="">3.4.1 Onsite Training
+                                        Tab — Scheduling an In-Person Session
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
+                                <p>This tab replaces Content, Assessment, and Quiz entirely — similar in spirit to Live
+                                    Online Training, but tailored for a session held at a physical location.</p>
 
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Field</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Meeting Name*</th>
+                                            <td>Required. The name learners will see for the scheduled session.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Meeting Description*</th>
+                                            <td>Required. Full session details, formatted with the built-in rich-text
+                                                editor (bold, italic, underline, links, numbered/bulleted lists).</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Location*</th>
+                                            <td>Required. The physical venue or address where the session will be held.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Attendees*</th>
+                                            <td>Required. Choose who can join — All Users, specific Groups, or a Custom
+                                                selection of learners.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Start Date &amp; Time*</th>
+                                            <td>Required. The date and time the session begins.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>End Date &amp; Time*</th>
+                                            <td>Required. The date and time the session ends.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Block Calendar</th>
+                                            <td>Optional toggle. When turned on, reserves this time on attendees'
+                                                calendars for the session.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Attachment Type</th>
+                                            <td>Optional. Attach supporting material to the session.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-                        <p>This tab replaces Content, Assessment, and Quiz entirely — it's where the virtual session
-                            itself is scheduled.</p>
-                        <table>
-                            <tr>
-                                <td>
-                                    Field
-                                </td>
-                                <td>
-                                    Description
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Meeting Type*
-                                </th>
-                                <td>Required. Choose how the session will be hosted — MS Teams or Others (a different
-                                    conferencing platform).</td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Meeting Name*
-                                </th>
-                                <td>Required. The name learners will see for the scheduled session.</td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Meeting Description*
-                                </th>
-                                <td>
-                                    Required. Full session details, formatted with the built-in rich-text editor (bold,
-                                    italic, underline, links, numbered/bulleted lists).
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>Webinar Attachment Type </th>
-                                <td>Optional. Attach supporting webinar material to the session.</th>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Attendees*
-                                </th>
-                                <td>
-                                    Required. Choose who can join — All Users, specific Groups, or a Custom selection of
-                                    learners.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Start Date & Time*
-                                </th>
-                                <td>
-                                    Required. The date and time the live session begins.
-                                </td>
+                                <div><img src="11.png" onclick="openModal('11.png')" alt="help" width="100%"
+                                        height="auto"></div>
+                                <br>
 
-                            </tr>
-                            <tr>
-                                <th>End Date & Time*
+                                <div class="custom-callout-note">
+                                    <p><strong>Note:</strong> Unlike Live Online Training, there is no Meeting Type
+                                        selector here since the session happens in person — Location takes its place, and
+                                        a Block Calendar toggle is available to reserve attendees' time.
+                                    </p>
+                                </div>
 
-                                </th>
-                                <td>Required. The date and time the live session ends.</td>
-                            </tr>
-                        </table><br>
-                        <div><img src="9.png" onclick="openModal('9.png')" alt="help" width="100%" height="auto"></div>
-                        <br>
-                        <p>Figure 9. The Live Online Training tab — meeting details on the left, attendees and schedule
-                            on the right.</p>
-                        <div>
-                            <strong> Note:</strong> A Live Online Training's build wizard has no separate Assessment or
-                            Quiz tab — this one tab covers everything needed to schedule the session.
-                        </div> <br>
-                        <ul style="list-style-type:disc">
-                            <li>
-                                <strong>Navigation —</strong> use Back to return to Overview, Draft to save progress
-                                without publishing, or Next to continue to Preview.
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Navigation — </strong>use Back to return to Overview, Draft to save
+                                        progress without publishing, or Next to continue to Preview.</li>
+                                </ul>
+
+                                <h6 id="training"><a class="header-icon-link highlight" href="">3.4.2 Preview Tab —
+                                        Thumbnail and Banner Artwork
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
+                                <p>The Preview tab works the same way regardless of Training Type: upload thumbnail and
+                                    banner artwork and confirm the learner-facing preview before publishing.</p>
+
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Element</th>
+                                            <th>Recommended Size / Purpose</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Thumbnail Image</th>
+                                            <td>200 × 200 px. Used as the training's tile icon throughout the catalog.
+                                                Upload, Replace, or Remove it here.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Banner Image</th>
+                                            <td>1100 × 150 px. Displayed across the top of the training's detail page.
+                                                Upload, Replace, or Remove it here.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <p>The right-hand preview panel shows exactly how learners will see the training card,
+                                    including its Type, Duration, Contact(s), Start Date, Due Date, and current star
+                                    rating.</p>
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Card Theme Color — </strong>choose Random to let the system assign a
+                                        background color automatically, or Custom to select a specific brand color for
+                                        the tile.</li>
+                                    <li><strong>Thumbnail Border — </strong>choose No Border for a clean edge-to-edge
+                                        thumbnail, or Border to frame it.</li>
+                                </ul>
+
+                                <div><img src="last.png" onclick="openModal('last.png')" alt="help" width="100%"
+                                        height="auto"></div>
+                                <br>
+
+                                <h6 id="training"><a class="header-icon-link highlight" href="">3.4.3 Publish Tab —
+                                        Final Setup and Going Live
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
+                                <p>The Publish tab also works the same way regardless of Training Type, recapping
+                                    everything configured earlier for a final check. Since an Onsite Training carries no
+                                    Assessment or Quiz blocks, its recap reflects the session and audience details set
+                                    on the Onsite Training tab instead.</p>
+
+                                <table class="custom-doc-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Setting</th>
+                                            <th>Effect</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Training Author*</th>
+                                            <td>Required. The person shown to learners as the training's owner/point of
+                                                contact (defaults to the creator and can be changed).</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Training Certification</th>
+                                            <td>Toggle on to automatically issue learners a certificate when they complete
+                                                the training.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Certificate Templates*</th>
+                                            <td>Required whenever Certification is enabled. Choose the certificate design,
+                                                or click View Templates to browse the full gallery.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Training Rating</th>
+                                            <td>Toggle on to let learners rate the training.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Rating upon completion</th>
+                                            <td>Toggle on to prompt learners for a rating immediately after they finish.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Updatable Rating</th>
+                                            <td>Toggle on to allow learners to revise a rating they've already submitted.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Available for all Users</th>
+                                            <td>Toggle on to publish tenant-wide; toggle off to restrict to the audience set
+                                                on the Overview tab.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="custom-callout-note">
+                                    <p><strong>Note:</strong> Click Draft to save the training without making it
+                                        visible to learners, or Publish to make it live and assignable immediately.
+                                    </p>
+                                </div>
+
+                                <h3 id="training"><a class="header-icon-link highlight" href="">4. Managing Existing
+                                        Trainings
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p>Every existing training can be maintained from the Training grid using the per-row
+                                    action icons:
+                                </p>
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Edit (pencil) — </strong>reopens the Add Training wizard with all
+                                        existing settings, so content, assessments, quizzes, or artwork can be updated
+                                        at any time.</li>
+                                    <li><strong>Archive (box icon) — </strong>retires a training from active use
+                                        without permanently deleting it or its history.</li>
+                                    <li><strong>Delete (trash icon) — </strong>permanently removes the training. This
+                                        cannot be undone, so archiving is the safer choice if the training may be
+                                        needed again later.</li>
+                                </ul>
+                                <p>Use the filter row beneath the column headers — Training Title, Enrollment, Created
+                                    By, Created On, Type, Status, Active — to quickly search or narrow the list once the
+                                    tenant has many trainings.</p>
+
+                                <h3 id="training"><a class="header-icon-link highlight" href="">5. End-User
+                                        Experience
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p>Learners find every training assigned to them under Catalog &gt; My Trainings, where
+                                    a badge shows the current count. Depending on the Training Type, learners either:
+                                </p>
+                                <ul style="list-style-type:disc">
+                                    <li>work through each course block at their own pace (Digital Course Training),</li>
+                                    <li>attend a scheduled virtual session (Live Online Training), or</li>
+                                    <li>attend a scheduled in-person session (Onsite Training).</li>
+                                </ul>
+                                <p>Any attached Quiz or Assessment must be completed as part of the training. If
+                                    Training Certification is enabled, learners automatically receive their certificate
+                                    once all requirements are met — and, if Training Rating is enabled, may be prompted
+                                    to rate the training, including updating that rating later if Updatable Rating is
+                                    turned on.</p>
+
+                                <h3 id="training"><a class="header-icon-link highlight" href="">6. Best Practices
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <ul style="list-style-type:disc">
+                                    <li><strong>Decide the Training Type first — </strong>it determines which content
+                                        tools apply, so it's best confirmed on the Overview tab before building out the
+                                        rest of the training.</li>
+                                    <li><strong>Use Draft liberally — </strong>save progress from any tab without
+                                        exposing an unfinished training to learners, and resume later from the Training
+                                        grid.</li>
+                                    <li><strong>Keep the Short Description tight — </strong>it's what appears on
+                                        catalog tiles, so a concise one- or two-sentence summary reads better than a
+                                        long paragraph; use Rephrase with AI if it needs polishing.</li>
+                                    <li><strong>Match artwork to spec — </strong>following the recommended 200×200 px
+                                        thumbnail and 1100×150 px banner dimensions keeps tiles and detail pages
+                                        consistent across the catalog.</li>
+                                    <li><strong>Archive rather than delete — </strong>once a training has enrollment
+                                        history, archiving preserves records and reporting, whereas deleting removes
+                                        them permanently.</li>
+                                </ul>
+<br>
+                                <h3 id="training"><a class="header-icon-link highlight" href="">7. Frequently Asked
+                                        Questions
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p><strong>What's the difference between an Assessment and a Quiz?</strong></p>
+                                <p>Assessments are formal, graded evaluations — each has a defined instructor, question
+                                    count, and time limit, and can be organized by topic Section. Quizzes are
+                                    lighter-weight, topic-based knowledge checks built from reusable Question Blocks,
+                                    used primarily to reinforce learning rather than formally grade it.
+                                </p>
+                                <p><strong>Can a single training include more than one Assessment or Quiz?</strong></p>
+                                <p>Yes. Both the Assessment and Quiz tabs support adding multiple blocks, so a training
+                                    can carry two or more assessments covering different topics alongside two or more
+                                    quiz blocks.</p>
+                                <p><strong>What happens if I click Draft instead of Publish?</strong></p>
+                                <p>Draft saves everything configured so far without making the training visible or
+                                    assignable to learners. It remains in the Training grid with a Status of Draft, and
+                                    can be reopened with Edit at any time to finish and publish it later.
+                                </p>
+                                <p><strong>Do I need a Certificate Template if Training Certification is off?</strong></p>
+                                <p>No — Certificate Templates only becomes a required field once Training Certification
+                                    is toggled on.
+                                </p>
+                                <p><strong>Can I attach an Assessment or Quiz to a Live Online or Onsite Training?</strong></p>
+                                <p>Not from the Add Training wizard. Assessment and Quiz tabs only appear when Training
+                                    Type is Digital Course Training. Live Online Training and Onsite Training each have a
+                                    single dedicated tab instead, covering meeting or session details, attendees, and
+                                    scheduling (Sections 3.3 and 3.4).
+                                </p>
+                                <p><strong>What's the difference between the Live Online Training and Onsite Training
+                                        tabs?</strong></p>
+                                <p>They're built the same way, but Live Online Training asks for a Meeting Type (MS
+                                    Teams or Others) since the session is virtual, while Onsite Training asks for a
+                                    Location instead and adds a Block Calendar toggle to reserve attendees' time for the
+                                    in-person session.
+                                </p>
+
+                                <h3 id="training"><a class="header-icon-link highlight" href="">8. Learn More
+                                        <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h3>
+                                <p>For the full, most current articles and walkthroughs, see the LMS365 Knowledgebase:</p>
+                                <p>🔗 <a href="https://support.lms365.com/kb/training-module">Learn about Training</a></p>
+                                <p>🔗 <a href="https://support.lms365.com/kb/live-online-training">Learn about Live
+                                        Online Training</a></p>
+                                <p>🔗 <a href="https://support.lms365.com/kb/onsite-training">Learn about Onsite
+                                        Training</a></p>
+                                <p>🔗 <a href="https://support.lms365.com/kb/courses">Learn about Courses</a></p>
+                                <p>🔗 <a href="https://support.lms365.com/kb/certificate-templates">Learn about
+                                        Certificate Templates</a></p>
+
                             </li>
-                        </ul> <br>
-                        <h6 id="training"><a class="header-icon-link highlight" href="">3.3.2 Preview Tab — Thumbnail
-                                and Banner Artwork
-
-
-
-
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-
-                        <p>The Preview tab works the same way regardless of Training Type: upload thumbnail and banner
-                            artwork and confirm the learner-facing preview before publishing.</p>
-                        <table>
-                            <tr>
-                                <td>
-                                    Element
-                                </td>
-                                <td>
-                                    Recommended Size / Purpose
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>Thumbnail Image </th>
-                                <td>200 × 200 px. Used as the training's tile icon throughout the catalog. Upload,
-                                    Replace, or Remove it here.</td>
-                            </tr>
-                            <tr>
-                                <th>Banner Image </th>
-                                <td>1100 × 150 px. Displayed across the top of the training's detail page. Upload,
-                                    Replace, or Remove it here.</td>
-                            </tr>
-                        </table><br>
-                        <p>The right-hand preview panel shows exactly how learners will see the training card, including
-                            its Type, Duration, Contact(s), Start Date, Due Date, and current star rating.</p>
-                        <ul style="list-style-type:disc">
-                            <li><strong>Card Theme Color —</strong> choose Random to let the system assign a background
-                                color automatically, or Custom to select a specific brand color for the tile.</li>
-                            <li><strong>Thumbnail Border — </strong>choose No Border for a clean edge-to-edge thumbnail,
-                                or Border to frame it.</li>
-                        </ul><br>
-                        <div><img src="10.png" onclick="openModal('10.png')" alt="help" width="100%" height="auto">
                         </div>
-                        <br>
-                        <p>Figure 10. The Preview tab is the same for every Training Type — shown here for a Live Online
-                            Training.</p>
-                        <h6 id="training"><a class="header-icon-link highlight" href="">3.3.3 Publish Tab — Final Setup
-                                and Going Live
 
-
-
-
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-
-                        <p>The Publish tab also works the same way regardless of Training Type, recapping everything
-                            configured earlier for a final check. Since a Live Online Training carries no Assessment or
-                            Quiz blocks, its recap reflects the session and audience details set on the Live Online
-                            Training tab instead.</p>
-                        <table>
-                            <tr>
-                                <td>
-                                    Setting
-                                </td>
-                                <td>
-                                    Effect
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Training Author*
-                                </th>
-                                <td>
-                                    Required. The person shown to learners as the training's owner/point of contact
-                                    (defaults to the creator and can be changed).
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Training Certification
-                                </th>
-                                <td>
-                                    Toggle on to automatically issue learners a certificate when they complete the
-                                    training.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Certificate Templates*
-                                </th>
-                                <td>
-                                    Required whenever Certification is enabled. Choose the certificate design, or click
-                                    View Templates to browse the full gallery.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Training Rating
-                                </th>
-                                <td>
-                                    Toggle on to let learners rate the training.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Rating upon completion
-                                </th>
-                                <td>
-                                    Toggle on to prompt learners for a rating immediately after they finish.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>Updatable Rating
-
-                                </th>
-                                <td>
-                                    Toggle on to allow learners to revise a rating they've already submitted.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Available for all Users
-                                </th>
-                                <td>
-                                    Toggle on to publish tenant-wide; toggle off to restrict to the audience set on the
-                                    Overview tab.
-                                </td>
-                            </tr>
-                        </table> <br>
-                        <div>
-                            <p>
-                                <strong>Note: </strong>Click Draft to save the training without making it visible to
-                                learners, or Publish to make it live and assignable immediately.
-                            </p>
-                            <p>
-                                <strong>Note: </strong> A confirmed screenshot of this exact recap for a Live Online
-                                Training wasn't available when this guide was produced — the layout in Figure 8 (Section
-                                3.2.5) for Digital Course Training is the closest visual reference; the fields listed
-                                above reflect what's confirmed to carry over.
-                            </p>
-                        </div> <br>
-                        <h5 id="training"><a class="header-icon-link highlight" href="">3.4 Onsite Training Path
-
-
-
-
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
-                        <p>Selecting Onsite Training on Overview leads through three more tabs, covered in full below:
-                            Onsite Training, Preview, and Publish. Content, Assessment, and Quiz don't apply to this
-                            type.</p>
-                        <h6 id="training"><a class="header-icon-link highlight" href="">3.4.1 Onsite Training Tab —
-                                Scheduling an In-Person Session
-
-
-
-
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-                        <p>
-                            This tab replaces Content, Assessment, and Quiz entirely — similar in spirit to Live Online
-                            Training, but tailored for a session held at a physical location.
-                        </p>
-                        <table>
-                            <tr>
-                                <td>
-                                    Field
-                                </td>
-                                <td>
-                                    Description
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Meeting Name*
-                                </th>
-                                <td>Required. The name learners will see for the scheduled session.</td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Meeting Description*
-                                </th>
-                                <td>
-                                    Required. Full session details, formatted with the built-in rich-text editor (bold,
-                                    italic, underline, links, numbered/bulleted lists).
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Location*
-                                </th>
-                                <td>
-                                    Required. The physical venue or address where the session will be held.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Attendees*
-                                </th>
-                                <td>
-                                    Required. Choose who can join — All Users, specific Groups, or a Custom selection of
-                                    learners.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Start Date & Time*
-                                </th>
-                                <td>
-                                    Required. The date and time the session begins.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    End Date & Time*
-                                </th>
-                                <td>
-                                    Required. The date and time the session ends.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Block Calendar
-                                </th>
-                                <td>
-                                    Optional toggle. When turned on, reserves this time on attendees' calendars for the
-                                    session.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Attachment Type
-                                </th>
-                                <td>
-                                    Optional. Attach supporting material to the session.
-                                </td>
-                            </tr>
-                        </table><br>
-                        <div><img src="11.png" onclick="openModal('11.png')" alt="help" width="100%" height="auto">
-                        </div>
-                        <br>
-                        <p>
-                            Figure 11. The Onsite Training tab — session and location details on the left, attendees,
-                            schedule, and Block Calendar on the right.
-                        </p>
-                        <div>
-                            <p>
-                                <strong> Note:</strong> Unlike Live Online Training, there is no Meeting Type selector
-                                here since the session happens in person — Location takes its place, and a Block
-                                Calendar toggle is available to reserve attendees' time.
-                            </p>
-                        </div><br>
-                        <ul style="list-style-type:Disc">
-                            <li><strong>Navigation —</strong> use Back to return to Overview, Draft to save progress
-                                without publishing, or Next to continue to Preview.</li>
-                        </ul><br>
-                        <h6 id="training"><a class="header-icon-link highlight" href="">3.4.2 Preview Tab — Thumbnail
-                                and Banner Artwork
-
-
-
-
-                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-                        <p>The Preview tab works the same way regardless of Training Type: upload thumbnail and banner
-                            artwork and confirm the learner-facing preview before publishing.</p>
-                        <table>
-                            <tr>
-                                <td>
-                                    Element
-                                </td>
-                                <td>
-                                    Recommended Size / Purpose
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Thumbnail Image
-                                </th>
-                                <td>
-                                    200 × 200 px. Used as the training's tile icon throughout the catalog. Upload,
-                                    Replace, or Remove it here.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    Banner Image
-                                </th>
-                                <td>
-                                    1100 × 150 px. Displayed across the top of the training's detail page. Upload,
-                                    Replace, or Remove it here.
-                                </td>
-                            </tr>
-                        </table><br>
-                        <p>The right-hand preview panel shows exactly how learners will see the training card, including
-                            its Type, Duration, Contact(s), Start Date, Due Date, and current star rating.</p>
-                        <ul style="list-style-type:disc">
-                            <li><strong>Card Theme Color —</strong> choose Random to let the system assign a background
-                                color automatically, or Custom to select a specific brand color for the tile.</li>
-                            <li><strong>Thumbnail Border —</strong> choose No Border for a clean edge-to-edge thumbnail,
-                                or Border to frame it.</li>
-                        </ul><br>
-
-                   
-                    <div><img src="last.png" onclick="openModal('last.png')" alt="help" width="100%" height="auto">
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date"></p>
+                        <nav class="pagination mt-3">
+                            <a class="nav nav-prev" href="/LMS/modern/admin/setting/Courses" aria-label="Previous page"><i
+                                    class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Courses</span></a>
+                        </nav>
                     </div>
-                    <br>
-                    <p>
-                        Figure 12. The Preview tab is the same for every Training Type — shown here again for an Onsite
-                        Training.
-                    </p>
-                    <h6 id="training"><a class="header-icon-link highlight" href="">3.4.3 Publish Tab — Final Setup and
-                            Going Live
-
-
-
-
-                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h6>
-                    <p>
-                        The Publish tab also works the same way regardless of Training Type, recapping everything
-                        configured earlier for a final check. Since an Onsite Training carries no Assessment or Quiz
-                        blocks, its recap reflects the session and audience details set on the Onsite Training tab
-                        instead.
-                    </p>
-                    <table>
-                        <tr>
-                            <td>
-                                Setting
-                            </td>
-                            <td>
-                                Effect
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Training Author*
-                            </th>
-                            <td>
-                                Required. The person shown to learners as the training's owner/point of contact
-                                (defaults to the creator and can be changed).
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Training Certification
-                            </th>
-                            <td>
-                                Toggle on to automatically issue learners a certificate when they complete the training.
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Certificate Templates*
-                            </th>
-                            <td>
-                                Required whenever Certification is enabled. Choose the certificate design, or click View
-                                Templates to browse the full gallery.
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Training Rating
-                            </th>
-                            <td>
-                                Toggle on to let learners rate the training.
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Rating upon completion
-                            </th>
-                            <td>
-                                Toggle on to prompt learners for a rating immediately after they finish.
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Updatable Rating
-                            </th>
-                            <td>
-                                Toggle on to allow learners to revise a rating they've already submitted.
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                Available for all Users
-                            </th>
-                            <td>
-                                Toggle on to publish tenant-wide; toggle off to restrict to the audience set on the
-                                Overview tab.
-                            </td>
-                        </tr>
-                    </table>
-                    <div>
-                        <p>
-                            <strong>Note:</strong> Click Draft to save the training without making it visible to
-                            learners, or Publish to make it live and assignable immediately.
-                        </p>
-                        <p>
-                            <strong> Note:</strong> A confirmed screenshot of this exact recap for an Onsite Training
-                            wasn't available when this guide was produced — the layout in Figure 8 (Section 3.2.5) for
-                            Digital Course Training is the closest visual reference; the fields listed above reflect
-                            what's confirmed to carry over.
-                        </p>
-                    </div><br>
-                    <h5 id="training"><a class="header-icon-link highlight" href="">4. Managing Existing Trainings
-
-
-
-
-                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
-                    <hr />
-                    <p>Every existing training can be maintained from the Training grid using the per-row action icons:
-                    </p>
-                    <ul style="list-style-type:disc">
-                        <li>
-                            <strong>Edit (pencil) — </strong>reopens the Add Training wizard with all existing settings,
-                            so content, assessments, quizzes, or artwork can be updated at any time.
-                        </li>
-                        <li>
-                            <strong>Archive (box icon) —</strong> retires a training from active use without permanently
-                            deleting it or its history.
-                        </li>
-                        <li>
-                            <strong>Delete (trash icon) —</strong> permanently removes the training. This cannot be
-                            undone, so archiving is the safer choice if the training may be needed again later.
-                        </li>
-                    </ul><br>
-                    <p> Use the filter row beneath the column headers — Training Title, Enrollment, Created By, Created
-                        On, Type, Status, Active — to quickly search or narrow the list once the tenant has many
-                        trainings.</p>
-                    <h5 id="training"><a class="header-icon-link highlight" href="">5. End-User Experience
-
-
-
-                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
-                    <hr />
-                    <p>
-                        Learners find every training assigned to them under Catalog > My Trainings, where a badge shows
-                        the current count. Depending on the Training Type, learners either:
-                    </p>
-                    <ul style="list-style-type:disc">
-                        <li>
-                            work through each course block at their own pace (Digital Course Training),
-                        </li>
-                        <li>
-                            attend a scheduled virtual session (Live Online Training), or
-                        </li>
-                        <li>
-                            attend a scheduled in-person session (Onsite Training).
-                        </li>
-                    </ul><br>
-                    <p>Any attached Quiz or Assessment must be completed as part of the training. If Training
-                        Certification is enabled, learners automatically receive their certificate once all requirements
-                        are met — and, if Training Rating is enabled, may be prompted to rate the training, including
-                        updating that rating later if Updatable Rating is turned on.</p>
-                    <h5 id="training"><a class="header-icon-link highlight" href="">6. Best Practices
-
-
-
-
-                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
-                    <hr />
-                    <ul style="list-style-type:disc">
-                        <li>
-                            <strong>Decide the Training Type first —</strong> it determines which content tools apply,
-                            so it's best confirmed on the Overview tab before building out the rest of the training.
-                        </li>
-                        <li>
-                            <strong>Use Draft liberally —</strong> save progress from any tab without exposing an
-                            unfinished training to learners, and resume later from the Training grid.
-                        </li>
-                        <li>
-                            <strong>Keep the Short Description tight — </strong>it's what appears on catalog tiles, so a
-                            concise one- or two-sentence summary reads better than a long paragraph; use Rephrase with
-                            AI if it needs polishing.
-                        </li>
-                        <li>
-                            <strong>Match artwork to spec — </strong>following the recommended 200×200 px thumbnail and
-                            1100×150 px banner dimensions keeps tiles and detail pages consistent across the catalog.
-                        </li>
-                        <li>
-                            <strong>Archive rather than delete —</strong> once a training has enrollment history,
-                            archiving preserves records and reporting, whereas deleting removes them permanently.
-                        </li>
-                    </ul><br>
-                    <h5 id="training"><a class="header-icon-link highlight" href="">7. Frequently Asked Questions
-
-
-
-
-                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h5>
-                    <hr />
-                    <p><strong>What's the difference between an Assessment and a Quiz?</strong></p>
-                    <p>
-                        Assessments are formal, graded evaluations — each has a defined instructor, question count, and
-                        time limit, and can be organized by topic Section. Quizzes are lighter-weight, topic-based
-                        knowledge checks built from reusable Question Blocks, used primarily to reinforce learning
-                        rather than formally grade it.
-                    </p>
-                    <p><strong>
-                            Can a single training include more than one Assessment or Quiz?
-                        </strong></p>
-                    <p>Yes. Both the Assessment and Quiz tabs support adding multiple blocks, so a training can carry
-                        two or more assessments covering different topics alongside two or more quiz blocks.</p>
-                    <p><strong>
-                            What happens if I click Draft instead of Publish?
-                        </strong></p>
-                    <p>
-                        Draft saves everything configured so far without making the training visible or assignable to
-                        learners. It remains in the Training grid with a Status of Draft, and can be reopened with Edit
-                        at any time to finish and publish it later.
-                    </p>
-                    <p>
-                        <strong>
-                            Do I need a Certificate Template if Training Certification is off?
-                        </strong>
-                    </p>
-                    <p>
-                        No — Certificate Templates only becomes a required field once Training Certification is toggled
-                        on.
-                    </p>
-                    <p>
-                        <strong>
-                            Can I attach an Assessment or Quiz to a Live Online or Onsite Training?
-                        </strong>
-                    </p>
-                    <p>
-                        Not from the Add Training wizard. Assessment and Quiz tabs only appear when Training Type is
-                        Digital Course Training. Live Online Training and Onsite Training each have a single dedicated
-                        tab instead, covering meeting or session details, attendees, and scheduling (Sections 3.3 and
-                        3.4).
-                    </p>
-                    <p>
-                        <strong>
-                            What's the difference between the Live Online Training and Onsite Training tabs?
-                        </strong>
-                    </p>
-                    <p>
-                        They're built the same way, but Live Online Training asks for a Meeting Type (MS Teams or
-                        Others) since the session is virtual, while Onsite Training asks for a Location instead and adds
-                        a Block Calendar toggle to reserve attendees' time for the in-person session.
-                    </p>
-                    <h4 id="training"><a class="header-icon-link highlight" href="">8. Learn More
-
-
-
-
-                            <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a> </h4>
-                    <hr />
-                    <p>For the full, most current articles and walkthroughs, see the LMS365 Knowledgebase:</p>
-                    <p>🔗 <a href="https://support.lms365.com/kb/training-module">Learn about Training</a></p>
-                    <p>🔗 <a href="https://support.lms365.com/kb/live-online-training">Learn about Live Online
-                            Training</a></p>
-                    <p>🔗 <a href="https://support.lms365.com/kb/onsite-training">Learn about Onsite Training</a></p>
-                    <p>🔗 <a href="https://support.lms365.com/kb/courses">Learn about Courses</a></p>
-                    <p>🔗 <a href="https://support.lms365.com/kb/certificate-templates">Learn about Certificate
-                            Templates</a></p>
-                    </ul>
-
                 </div>
-                <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-                <nav class="pagination mt-3">
-                    <a class="nav nav-prev" href="/LMS/modern/admin/setting/Courses" aria-label="Previous page"><i
-                            class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Courses</span></a>
-
-                </nav>
             </div>
-
-        </div>
-        </div>
         </div>
     </section>
-    <div id="myModal" class="modal">
 
+    <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
             <div class="mySlides">
                 <img src="" id="imageId" style="width:100%">
             </div>
-
         </div>
     </div>
 
@@ -1302,14 +1019,12 @@
     <script src="../../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
-
             document.getElementById("imageId").src = src;
             document.getElementById("myModal").style.display = "block";
         }
 
         function closeModal() {
             document.getElementById("myModal").style.display = "none";
-
         }
 
         date = new Date().toLocaleDateString();
