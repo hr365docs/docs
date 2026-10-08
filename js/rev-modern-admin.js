@@ -13,6 +13,9 @@ $(document).ready(function () {
         "<li data-nav-id='./Settings/' title='Home Page' class='sidelist'>" +
         "<a href='/Revenue365/modern/admin/homepage/'>Home Page</a>" +
         "</li>" +
+        // "<li data-nav-id='./Settings/' title='Actions' class='sidelist'>" +
+        // "<a href='/Revenue365/modern/admin/actions/'>Actions</a>" +
+        // "</li>" +
 
          "<li data-nav-id='./Settings/' title='Buyers' class='sidelist'>" +
         "<a href='/Revenue365/modern/admin/buyers/'>Buyers</a>" +

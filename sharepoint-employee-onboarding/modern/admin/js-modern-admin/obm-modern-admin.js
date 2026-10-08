@@ -194,14 +194,15 @@ $(document).ready(function () {
         "<li data-nav-id='../General' title='MS Form' class='sidelist'>" +
             "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#MS-Form'>MS Form</a>" +
         "</li>" +
-        "<li data-nav-id='../General' title='Webhook' class='sidelist'>" +
-            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Webhook'>Webhook</a>" +
-        "</li>" +
+      
         "<li data-nav-id='../General' title='Sharepointhook' class='sidelist'>" +
             "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Sharepointhook'>Sharepointhook</a>" +
         "</li>" +
         "<li data-nav-id='../General' title='Mailbox Integration' class='sidelist'>" +
             "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Mailbox-Integration'>Mailbox Integration</a>" +
+        "</li>" +
+          "<li data-nav-id='../General' title='Webhook' class='sidelist'>" +
+            "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#Webhook'>Webhook</a>" +
         "</li>" +
         "<li data-nav-id='../General' title='AI Integration' class='sidelist'>" +
             "<a href='/sharepoint-employee-onboarding/modern/admin/setting/Integration/#AI-Integration'>AI Integration</a>" +

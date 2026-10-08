@@ -16,7 +16,7 @@
     <script src=https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js></script>
     <style>
         :root {
-    
+
             --body-color: #f9f9f9;
             --text-color: #636363;
             --text-color-dark: #242738;
@@ -283,47 +283,7 @@
 
 
                             </div>
-                            <div class="bg-light p-4 remove-padding common-scroll" id="Webhook">
-                                <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
-                                        Webhook<i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-                                <br>
-                                <ul class=page-list>
-                                    <li>A webhook is a powerful tool used for real-time communication between different
-                                        applications or systems.The data posted by the user is initially collected and
-                                        held in the system, but it is only stored at the specified webhook URL once the
-                                        associated task is completed. This means that the webhook acts as a storage
-                                        point, capturing the data only after all necessary processes or actions are
-                                        finished. Once the task is completed, the data is then securely stored in the
-                                        webhook URL, ensuring that it is properly organized and ready for further
-                                        processing, integration with other systems or applications as required. This
-                                        ensures that the data is accurately handled and retained only after all
-                                        necessary conditions or actions have been met.<br></li><br>
-                                    <br>
-                                    <div><img src="webhookpage.png" onclick="openModal('webhookpage.png')"
-                                            alt="Add users" width="100%" height="auto">
-                                    </div><br>
-                                    <br>
-                                    <li>To set up a webhook, the first step is to select a webhook name. Once the name
-                                        is chosen, you need to choose a specific task process, which includes options
-                                        such as Onboarding, Offboarding, Offboarded, and Pre-Onboarding. The webhook
-                                        will then fetch all the tasks related to the selected task process, allowing for
-                                        seamless integration and data retrieval. Additionally, you can select up to five
-                                        webhook URLs to receive the data, with the flexibility to edit or delete these
-                                        URLs as needed. This setup ensures that the appropriate systems are notified and
-                                        updated based on the selected task process.<br></li><br>
-                                    <br>
-                                    <div><img src="Webhook.png" onclick="openModal('Webhook.png')" alt="Add users"
-                                            width="100%" height="auto">
-                                    </div><br>
-                                    <p>The data posted in the webhook url will be in the below format
-                                        <br> {TaskDetials: {}, UserDetails: {}}
-                                    </p>
-
-
-
-
-                            </div>
+                            
                             <div class="bg-light p-4 remove-padding common-scroll" id="Sharepointhook">
                                 <h2 id="_dashboards"><a class="header-icon-link highlight" href=#>
                                         Sharepointhook<i class="fas fa-link"
@@ -394,7 +354,294 @@
 
 
                             </div>
+                            <div class="bg-light p-4 remove-padding common-scroll" id="Webhook">
+                                <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">
+                                        Webhook Integration in Employee Onboarding 365<i class="fas fa-link"
+                                            style="font-size:12px; color:lightgray;"></i></a>
+                                </h2>
+                                <p>A step-by-step guide to sending task details from Employee Onboarding 365 to Power
+                                    Automate.</p>
 
+                                <h4>Overview</h4>
+                                <p>
+                                    The Webhook integration lets Employee Onboarding 365 send task details to an
+                                    external flow, such as a Power Automate flow, as soon as a task is completed for a
+                                    selected process. The flow receives the task data and can use it in further steps,
+                                    or pass it on to another application or system.
+                                </p>
+
+                                <h4>How it works at a glance</h4>
+                                <ul>
+                                    <li>A Power Automate flow is created with an HTTP trigger, which generates a unique
+                                        URL.</li>
+                                    <li>That URL is added as a webhook in Employee Onboarding 365, linked to a process
+                                        (for example Onboarding) and one or more tasks.</li>
+                                    <li>When the selected task is completed, Employee Onboarding 365 sends the task data
+                                        to the URL and the flow runs.</li>
+                                </ul>
+
+                                <h4>Prerequisites</h4>
+                                <ul>
+                                    <li>Admin access to the Settings area of Employee Onboarding 365.</li>
+                                    <li>Access to Power Automate (https://make.powerautomate.com) with permission to
+                                        create flows.</li>
+                                    <li>Premium licensing may be required in Power Automate, because the HTTP request
+                                        trigger is a premium connector. Please confirm with your administrator.</li>
+                                </ul>
+
+                                <h4>Part 1: Create the Flow in Power Automate</h4>
+                                <p>The Webhook URL is generated by Power Automate, so create the flow first.</p>
+
+                                <p><strong>Step 1: Start an instant cloud flow</strong></p>
+                                <ul>
+                                    <li>Open Power Automate and click Create in the left navigation.</li>
+                                    <li>Under Start from blank, select Instant cloud flow.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook1.png" onclick="openModal('webhook1.png')"
+                                        alt="Create page with Instant cloud flow highlighted" width="100%"
+                                        height="auto">
+                                </div><br>
+
+                                <p><strong>Step 2: Choose the trigger</strong></p>
+                                <ul>
+                                    <li>In the Build an instant cloud flow window, scroll the trigger list and select
+                                        When an HTTP request is received (connector: Request).</li>
+                                    <li>Click Create. The flow opens with a trigger step named manual.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook2.png" onclick="openModal('webhook2.png')"
+                                        alt="Trigger list with When an HTTP request is received selected" width="100%"
+                                        height="auto">
+                                </div><br>
+
+                                <p><strong>Step 3: Add a Compose action</strong></p>
+                                <ul>
+                                    <li>Below manual, click the + button.</li>
+                                    <li>In Add an action, under Built-in tools, select Data Operation.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook3.png" onclick="openModal('webhook3.png')"
+                                        alt="Add an action panel with Data Operation highlighted" width="100%"
+                                        height="auto">
+                                </div><br>
+                                <ul>
+                                    <li>Select Compose.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook4.png" onclick="openModal('webhook4.png')"
+                                        alt="Data Operation list with Compose highlighted" width="100%" height="auto">
+                                </div><br>
+
+                                <p><strong>Step 4: Set the Compose input to the request body</strong></p>
+                                <ul>
+                                    <li>In the Compose action, open the Parameters tab and click the Inputs field.</li>
+                                    <li>Click the lightning bolt button (Enter the data from previous step) and select
+                                        Body under manual.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook5.png" onclick="openModal('webhook5.png')"
+                                        alt="Dynamic content list with Body highlighted" width="100%" height="auto">
+                                </div><br>
+                                <ul>
+                                    <li>Inputs now shows a Body token. This makes the flow capture the full task data
+                                        sent by Employee Onboarding 365. Click the manual trigger next.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook6.png" onclick="openModal('webhook6.png')"
+                                        alt="Compose input set to Body" width="100%" height="auto">
+                                </div><br>
+
+                                <p><strong>Step 5: Save the flow and copy the URL</strong></p>
+                                <ul>
+                                    <li>Click Save in the top toolbar. After saving, click the manual trigger.</li>
+                                    <li>The HTTP URL field now shows the generated URL. Click the copy icon next to it.
+                                    </li>
+                                </ul>
+                                <p><em>Note: The URL is generated only after the flow is saved. Before saving, the field
+                                        shows “URL will be generated after save”.</em></p>
+                                <p><em>Important: Treat this URL as a secret. Anyone with the link can trigger the
+                                        flow.</em></p>
+                                <div>
+                                    <img src="webhook7.png" onclick="openModal('webhook7.png')"
+                                        alt="Generated HTTP URL with copy icon" width="100%" height="auto">
+                                </div><br>
+
+                                <h4>Part 2: Add the Webhook in Employee Onboarding 365</h4>
+
+                                <p><strong>Step 6: Open the Webhook settings</strong></p>
+                                <ul>
+                                    <li>In Employee Onboarding 365, click the Settings (gear) icon in the left
+                                        navigation.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook8.png" onclick="openModal('webhook8.png')"
+                                        alt="Settings gear icon in left navigation" width="100%" height="auto">
+                                </div><br>
+                                <ul>
+                                    <li>In the Integrations section, click Web hook. The Webhook Integration panel opens
+                                        and lists existing webhooks with their process, active status, and actions.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook9.png" onclick="openModal('webhook9.png')"
+                                        alt="Integrations section with Web hook highlighted" width="100%" height="auto">
+                                </div><br>
+
+                                <p><strong>Step 7: Add a new webhook</strong></p>
+                                <p>In the Webhook Integration panel, click Add. The Add Web hook panel opens.</p>
+                                <div>
+                                    <img src="webhook10.png" onclick="openModal('webhook10.png')"
+                                        alt="Webhook Integration panel with Add highlighted" width="100%" height="auto">
+                                </div><br>
+
+                                <p>Fill in the following mandatory fields:</p>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead class="thead-light">
+                                            <tr>
+                                                <th>Field</th>
+                                                <th>Description</th>
+                                                <th>Example</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Web hook Name</td>
+                                                <td>A name to identify this webhook</td>
+                                                <td>Onboarding Process</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Task Process</td>
+                                                <td>The process the tasks belong to</td>
+                                                <td>Onboarding</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Task(s)</td>
+                                                <td>One or more tasks that will trigger the webhook when completed</td>
+                                                <td>IT Equipment Assigned</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Web hook URL</td>
+                                                <td>The HTTP URL copied from Power Automate</td>
+                                                <td>https://default73ca128b1cb8…</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Active</td>
+                                                <td>Toggle to enable or disable the webhook</td>
+                                                <td>On</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div><br>
+                                <div>
+                                    <img src="webhook11.png" onclick="openModal('webhook11.png')"
+                                        alt="Webhook name, task process and task filled in" width="100%" height="auto">
+                                </div><br>
+
+                                <p><strong>Step 8: Paste the URL and save</strong></p>
+                                <ul>
+                                    <li>Paste the copied URL into Web hook URL. Use the + button next to the field if
+                                        you need to add more than one URL.</li>
+                                    <li>Make sure Active is turned on.</li>
+                                    <li>Click Save.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook12.png" onclick="openModal('webhook12.png')"
+                                        alt="Web hook URL pasted and click Save" width="100%" height="auto">
+                                </div><br>
+
+                                <h4>What Happens Next</h4>
+                                <p>
+                                    Once the selected task is completed for the chosen process, Employee Onboarding 365
+                                    sends the task details to the webhook URL and the Power Automate flow runs. The
+                                    Compose action holds the data received from the task. To view the data, open the
+                                    flow in Power Automate, go to its Run history, and open a run to see the output of
+                                    the Compose step.
+                                </p>
+
+                                <h4>Viewing the Task Data After the Flow Runs</h4>
+                                <ul>
+                                    <li>In Power Automate, open the flow and go to its Run history, then open the run
+                                        you want to check.</li>
+                                    <li>Click the Compose step.</li>
+                                    <li>Under Outputs, click Show raw outputs to see the full data in JSON format.</li>
+                                </ul>
+                                <div>
+                                    <img src="webhook13.png" onclick="openModal('webhook13.png')"
+                                        alt="Flow run results and Compose output showing task and user details"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <p>The raw output contains two groups of details:</p>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead class="thead-light">
+                                            <tr>
+                                                <th>Group</th>
+                                                <th>Fields</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>TaskDetials</td>
+                                                <td>TaskName, TaskAssignedTo, TaskStatus, TaskStartDate, TaskEndDate,
+                                                    TaskRemarks</td>
+                                            </tr>
+                                            <tr>
+                                                <td>UserDetails</td>
+                                                <td>EmployeeName, EmployeeEmail, EmployeeContactNumber,
+                                                    EmployeeDepartment, EmployeePosition, EmployeeEmployeeType</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p><em>Note: The group name appears as <code>TaskDetials</code> in the payload. Use this
+                                        exact spelling when referring to it in expressions or in a Parse JSON schema.
+                                        Fields that have no value are returned as null.</em></p>
+
+                                <h4>Passing the Data to Another Place & Extending the Flow</h4>
+                                <p>The Compose step is a starting point. After the Compose step, click + and add more
+                                    actions to automate further:</p>
+                                <ul>
+                                    <li>Add Parse JSON to turn the output into individual fields (such as TaskName or
+                                        EmployeeEmail) that later steps can use.</li>
+                                    <li>Send an email or a Microsoft Teams notification about the completed task.</li>
+                                    <li>Create or update records in SharePoint, Excel, or another system.</li>
+                                    <li>Pass the data to another application using an HTTP action or connector.</li>
+                                </ul>
+
+                                <h4>Troubleshooting</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered">
+                                        <thead class="thead-light">
+                                            <tr>
+                                                <th>Issue</th>
+                                                <th>What to check</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Flow does not run after task completion</td>
+                                                <td>Confirm the webhook is Active and the correct process and task are
+                                                    selected.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>HTTP URL not visible in Power Automate</td>
+                                                <td>Save the flow first, then reopen the manual trigger.</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Flow runs but data is empty</td>
+                                                <td>Check that the Compose input is set to Body from the manual trigger.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Flow does not trigger at all</td>
+                                                <td>Make sure the flow is turned on in Power Automate.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
 
                             <!-- Mailbox-Integration end -->
 
@@ -406,244 +653,304 @@
                                             style="font-size:12px; color:lightgray;"></i></a> </h2>
                                 <br>
 
-      <p>
-        <strong>Azure OpenAI</strong> within EO365 enhances course creation and employee training by 
-        automatically generating introductions, questions, and chapters. This eliminates manual effort, 
-        ensures grammatical accuracy, and accelerates the onboarding process with smart AI assistance.
-    </p><br>
-
-    <p>
-        To enable this functionality, navigate to <strong>Integrations</strong> and open the 
-        <strong>AI API Integration</strong> panel.
-    </p>
-
-    <div>
-        <img src="azure_ai_step1.png" onclick="openModal('azure_ai_step1.png')" 
-             alt="AI API Integration Settings" width="100%" height="auto">
-    </div><br>
-
-    <p>
-        Inside the panel, configure the following options for Azure OpenAI:
-    </p>
-    <ul class="page-list">
-        <li><strong>Enable Azure OpenAI</strong> — Use the toggle to turn AI integration <em>On</em> or <em>Off</em>.</li>
-        <div>
-            <img src="azure_ai_step11.png" onclick="openModal('azure_ai_step11.png')" 
-                 alt="Enable Azure OpenAI Toggle" width="100%" height="auto">
-        </div><br>
-
-        <li><strong>Azure AI Endpoint</strong> — The REST API or service endpoint hosted on Microsoft Azure.</li>
-        <li><strong>Azure AI API Key</strong> — Authentication token required for secure connection with Azure AI services.</li>
-        <li><strong>Azure AI Deployment Name</strong> — Identifier of the deployed AI model in your Azure resource.</li><br>
-          <p>
-        To learn how to generate and retrieve your <em>Endpoint</em>, <em>API Key</em>, and <em>Deployment Name</em> 
-         refer this Guide: 
-        <a href="/Configure-Azure-AI/" target="_blank">Configure Azure AI Documentation</a>.
-    </p>
-        <div>
-            <img src="azure_ai_step12.png" onclick="openModal('azure_ai_step12.png')" 
-                 alt="Azure AI Configuration Example" width="100%" height="auto">
-        </div>
-    </ul>
-
-    <p>
-        After entering the required details, click <strong>Save</strong> to activate the integration. 
-       
-    </p>
-     <div>
-            <img src="azure_ai_step13.png" onclick="openModal('azure_ai_step13.png')" 
-                 alt="Azure AI Configuration Example" width="100%" height="auto">
-        </div><br>
-</div>
-
-
-  
-
-  <!-- Course Creation -->
-<h4>Courses</h4>
-<ul class="page-list">
-    <li><strong>Add Course Details</strong> — Enter the course name and description, then click <em>Next</em> to continue.</li><br>
-    <div>
-        <img src="1.png" onclick="openModal('1.png')" alt="Add Course Details" width="100%" height="auto">
-    </div><br>
-
-    <li><strong>Generate Course Introduction</strong> — Click <em>AI Generate</em> to automatically create a professional introduction for the course.</li><br>
-    <div>
-        <img src="2.png" onclick="openModal('2.png')" alt="AI Generate Introduction" width="100%" height="auto">
-    </div><br>
-
-    <li><strong>Refine & Correct</strong> — Add your own edits, or click <em>AI Generate</em> again to polish and fix grammatical errors.</li><br>
-    <div>
-        <img src="14.png" onclick="openModal('14.png')" alt="Save or Draft Chapters" width="100%" height="auto">
-    </div><br>
-    <div>
-        <img src="4.png" onclick="openModal('4.png')" alt="Refine Course Introduction" width="100%" height="auto">
-    </div>
-</ul>
-<br><br>
-
-<!-- Question Generation -->
-<h4>Questions</h4>
-<ul class="page-list">
-    <li><strong>Generate with AI</strong> — Instead of manual entry, click <em>Generate Questions using AI</em>.</li><br>
-    <div>
-        <img src="5.png" onclick="openModal('5.png')" alt="AI Question Generator" width="100%" height="auto">
-    </div><br>
-
-    <li><strong>Set Parameters</strong> — Define type, section, answer format, difficulty, number of questions, and time limit, then click <em>Generate</em>.</li><br>
-    <div>
-        <img src="6.png" onclick="openModal('6.png')" alt="Provide Question Parameters" width="100%" height="auto">
-    </div><br>
-
-    <li><strong>Review Questions</strong> — AI generates questions with options and correct answers based on your inputs.</li><br>
-    <div>
-        <img src="7.png" onclick="openModal('7.png')" alt="Generated Questions Preview" width="100%" height="auto">
-    </div><br>
-
-    <li><strong>Select & Customize</strong> — Choose required questions, edit as needed, or select all for quick setup.</li><br>
-    <div>
-        <img src="8.png" onclick="openModal('8.png')" alt="Select or Customize Questions" width="100%" height="auto">
-    </div><br>
-
-    <li><strong>Save</strong> — Finalize by clicking <em>Save</em> or <em>Save as Draft</em>.</li><br>
-    <div>
-        <img src="13.png" onclick="openModal('13.png')" alt="Save or Draft Questions" width="100%" height="auto">
-    </div>
-</ul>
-<br><br>
-
-<!-- Chapter Generation -->
-<h4>Chapters</h4>
-<ul class="page-list">
-    <li><strong>Generate with AI</strong> — Click <em>Generate Chapters using AI</em> instead of creating them manually.</li><br>
-    <div>
-        <img src="9.png" onclick="openModal('9.png')" alt="AI Chapter Generator" width="100%" height="auto">
-    </div><br>
-
-    <li><strong>Set Parameters</strong> — Define type, section, difficulty level, number of chapters, and time limit, then click <em>Generate</em>.</li><br>
-    <div>
-        <img src="10.png" onclick="openModal('10.png')" alt="Provide Chapter Parameters" width="100%" height="auto">
-    </div><br>
-
-    <li><strong>Review Chapters</strong> — AI generates structured chapters based on your prompt, which can be refined or customized.</li><br>
-    <div>
-        <img src="11.png" onclick="openModal('11.png')" alt="Generated Chapters Preview" width="100%" height="auto">
-    </div><br>
-
-    <li><strong>Save</strong> — Store your work by clicking <em>Save</em> or <em>Save as Draft</em>.</li><br>
-    <div>
-        <img src="12.png" onclick="openModal('12.png')" alt="Save or Draft Chapters" width="100%" height="auto">
-    </div>
-     <div class="bg-light p-4 remove-padding common-scroll" id="Copilot-Integeration">
-                            <ul class=page-list>
-                                <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Copilot Integration
-                                        <i class="fas fa-link " style="font-size:12px; color:lightgray;"></i></a>
-                                </h2>
-
+                                <p>
+                                    <strong>Azure OpenAI</strong> within EO365 enhances course creation and employee
+                                    training by
+                                    automatically generating introductions, questions, and chapters. This eliminates
+                                    manual effort,
+                                    ensures grammatical accuracy, and accelerates the onboarding process with smart AI
+                                    assistance.
+                                </p><br>
 
                                 <p>
-                                    Use this toggle to enable or disable Copilot integration. Enter the configured Power
-                                    Automate (PA) URL and click Save to activate the feature.
-
+                                    To enable this functionality, navigate to <strong>Integrations</strong> and open the
+                                    <strong>AI API Integration</strong> panel.
                                 </p>
 
+                                <div>
+                                    <img src="azure_ai_step1.png" onclick="openModal('azure_ai_step1.png')"
+                                        alt="AI API Integration Settings" width="100%" height="auto">
+                                </div><br>
 
-                                <div><img src="copilot.png" onclick="openModal( 'copilot.png') " alt="Copilot"
-                                        width="100% " height="auto"></div>
-                                <br>
-                                 <p>
-            To integrate <strong>Copilot</strong> with <strong>Employee Onboarding 365</strong>, begin by creating your Copilot agent in 
-            <a href="https://copilotstudio.microsoft.com/" target="_blank">Copilot Studio</a>.
-        </p>
-        <p>Ensure that you have a <strong>Premium Power Automate license</strong> to proceed with the configuration.</p>
+                                <p>
+                                    Inside the panel, configure the following options for Azure OpenAI:
+                                </p>
+                                <ul class="page-list">
+                                    <li><strong>Enable Azure OpenAI</strong> — Use the toggle to turn AI integration
+                                        <em>On</em> or <em>Off</em>.
+                                    </li>
+                                    <div>
+                                        <img src="azure_ai_step11.png" onclick="openModal('azure_ai_step11.png')"
+                                            alt="Enable Azure OpenAI Toggle" width="100%" height="auto">
+                                    </div><br>
 
-<p>In the left-hand sidebar, select <strong>Agents</strong>.</p>
-<div>
-    <img src="age.png" onclick="openModal('age.png')" 
-         alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
-</div><br>
-<p>
-     If you don’t already have an agent, click on <strong>+ New Agent</strong> to create one, then configure it as required.<br>
-</p>
-<div>
-    <img src="age1.png" onclick="openModal('age1.png')" 
-         alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
-</div><br>
-<p>If you already have an existing agent, simply click on that agent to open it.</p>
+                                    <li><strong>Azure AI Endpoint</strong> — The REST API or service endpoint hosted on
+                                        Microsoft Azure.</li>
+                                    <li><strong>Azure AI API Key</strong> — Authentication token required for secure
+                                        connection with Azure AI services.</li>
+                                    <li><strong>Azure AI Deployment Name</strong> — Identifier of the deployed AI model
+                                        in your Azure resource.</li><br>
+                                    <p>
+                                        To learn how to generate and retrieve your <em>Endpoint</em>, <em>API Key</em>,
+                                        and <em>Deployment Name</em>
+                                        refer this Guide:
+                                        <a href="/Configure-Azure-AI/" target="_blank">Configure Azure AI
+                                            Documentation</a>.
+                                    </p>
+                                    <div>
+                                        <img src="azure_ai_step12.png" onclick="openModal('azure_ai_step12.png')"
+                                            alt="Azure AI Configuration Example" width="100%" height="auto">
+                                    </div>
+                                </ul>
 
-       
-<div>
-    <img src="copilot_settings1.png" onclick="openModal('copilot_settings1.png')" 
-         alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
-</div><br>
+                                <p>
+                                    After entering the required details, click <strong>Save</strong> to activate the
+                                    integration.
 
-<p>In the <strong>Knowledge</strong> section, add your Knowledge Base.</p>
-<div>
-    <img src="copilot_settings3.png" onclick="openModal('copilot_settings3.png')" 
-         alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
-</div><br>
-
-
-
-
-<p>Then go to <strong>Settings</strong>. Under <strong>Security</strong>, select <strong>Web Channel Security</strong> and copy the <strong>Secret 1</strong> key.</p>
-<div>
-    <img src="copilot_settings2.png" onclick="openModal('copilot_settings2.png')" 
-         alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
-</div><br>
-<div>
-    <img src="copilot_settings.png" onclick="openModal('copilot_settings.png')" 
-         alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
-</div><br>
+                                </p>
+                                <div>
+                                    <img src="azure_ai_step13.png" onclick="openModal('azure_ai_step13.png')"
+                                        alt="Azure AI Configuration Example" width="100%" height="auto">
+                                </div><br>
+                            </div>
 
 
-<div>
-    <img src="copilot_settings4.png" onclick="openModal('copilot_settings4.png')" 
-         alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
-</div><br>
-
-<p>Next, in <strong>Power Automate</strong>, go to <strong>My Flows</strong> and import the <strong>Copilot server solution</strong>.</p>
-<div>
-    <img src="copilot_settings5.png" onclick="openModal('copilot_settings5.png')" 
-         alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
-</div><br>
-
-        <p>
-            Open the flow and click <strong>Edit</strong>. 
-        </p>
-        <div>
-            <img src="powerautomate_flows.png" onclick="openModal('powerautomate_flows.png')" 
-                 alt="Power Automate Flow Configuration" width="100%" height="auto">
-        </div><br>
-        <p>Disable the <strong>New Designer</strong> toggle 
-            and paste the previously copied <strong>Secret 1</strong> value into the <strong>Headers</strong> field.</p>
-<div>
-            <img src="powerautomate_flows1.png" onclick="openModal('powerautomate_flows1.png')" 
-                 alt="Power Automate Flow Configuration" width="100%" height="auto">
-        </div><br>
-        <p>
-            Save the flow and copy the <strong>HTTP GET URL</strong> generated under the 
-            <em>When an HTTP request is received</em> trigger.
-        </p>
-        <div>
-            <img src="powerautomate_flows2.png" onclick="openModal('powerautomate_flows2.png')" 
-                 alt="Power Automate Flow Configuration" width="100%" height="auto">
-        </div><br>
-        <p>
-            Return to the application, enable the <strong>Copilot integration</strong> toggle, 
-            and paste this URL into the configuration field.
-        </p>
-        <div>
-            <img src="powerautomate_httpurl.png" onclick="openModal('powerautomate_httpurl.png')" 
-                 alt="Power Automate HTTP GET URL" width="100%" height="auto">
-        </div><br>
-
-        
-                               
 
 
-                        </div>
-</ul>
+                            <!-- Course Creation -->
+                            <h4>Courses</h4>
+                            <ul class="page-list">
+                                <li><strong>Add Course Details</strong> — Enter the course name and description, then
+                                    click <em>Next</em> to continue.</li><br>
+                                <div>
+                                    <img src="1.png" onclick="openModal('1.png')" alt="Add Course Details" width="100%"
+                                        height="auto">
+                                </div><br>
+
+                                <li><strong>Generate Course Introduction</strong> — Click <em>AI Generate</em> to
+                                    automatically create a professional introduction for the course.</li><br>
+                                <div>
+                                    <img src="2.png" onclick="openModal('2.png')" alt="AI Generate Introduction"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <li><strong>Refine & Correct</strong> — Add your own edits, or click <em>AI
+                                        Generate</em> again to polish and fix grammatical errors.</li><br>
+                                <div>
+                                    <img src="14.png" onclick="openModal('14.png')" alt="Save or Draft Chapters"
+                                        width="100%" height="auto">
+                                </div><br>
+                                <div>
+                                    <img src="4.png" onclick="openModal('4.png')" alt="Refine Course Introduction"
+                                        width="100%" height="auto">
+                                </div>
+                            </ul>
+                            <br><br>
+
+                            <!-- Question Generation -->
+                            <h4>Questions</h4>
+                            <ul class="page-list">
+                                <li><strong>Generate with AI</strong> — Instead of manual entry, click <em>Generate
+                                        Questions using AI</em>.</li><br>
+                                <div>
+                                    <img src="5.png" onclick="openModal('5.png')" alt="AI Question Generator"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <li><strong>Set Parameters</strong> — Define type, section, answer format, difficulty,
+                                    number of questions, and time limit, then click <em>Generate</em>.</li><br>
+                                <div>
+                                    <img src="6.png" onclick="openModal('6.png')" alt="Provide Question Parameters"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <li><strong>Review Questions</strong> — AI generates questions with options and correct
+                                    answers based on your inputs.</li><br>
+                                <div>
+                                    <img src="7.png" onclick="openModal('7.png')" alt="Generated Questions Preview"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <li><strong>Select & Customize</strong> — Choose required questions, edit as needed, or
+                                    select all for quick setup.</li><br>
+                                <div>
+                                    <img src="8.png" onclick="openModal('8.png')" alt="Select or Customize Questions"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <li><strong>Save</strong> — Finalize by clicking <em>Save</em> or <em>Save as
+                                        Draft</em>.</li><br>
+                                <div>
+                                    <img src="13.png" onclick="openModal('13.png')" alt="Save or Draft Questions"
+                                        width="100%" height="auto">
+                                </div>
+                            </ul>
+                            <br><br>
+
+                            <!-- Chapter Generation -->
+                            <h4>Chapters</h4>
+                            <ul class="page-list">
+                                <li><strong>Generate with AI</strong> — Click <em>Generate Chapters using AI</em>
+                                    instead of creating them manually.</li><br>
+                                <div>
+                                    <img src="9.png" onclick="openModal('9.png')" alt="AI Chapter Generator"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <li><strong>Set Parameters</strong> — Define type, section, difficulty level, number of
+                                    chapters, and time limit, then click <em>Generate</em>.</li><br>
+                                <div>
+                                    <img src="10.png" onclick="openModal('10.png')" alt="Provide Chapter Parameters"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <li><strong>Review Chapters</strong> — AI generates structured chapters based on your
+                                    prompt, which can be refined or customized.</li><br>
+                                <div>
+                                    <img src="11.png" onclick="openModal('11.png')" alt="Generated Chapters Preview"
+                                        width="100%" height="auto">
+                                </div><br>
+
+                                <li><strong>Save</strong> — Store your work by clicking <em>Save</em> or <em>Save as
+                                        Draft</em>.</li><br>
+                                <div>
+                                    <img src="12.png" onclick="openModal('12.png')" alt="Save or Draft Chapters"
+                                        width="100%" height="auto">
+                                </div>
+                                <div class="bg-light p-4 remove-padding common-scroll" id="Copilot-Integeration">
+                                    <ul class=page-list>
+                                        <h2 id="_dashboards"><a class="header-icon-link highlight " href=#>Copilot
+                                                Integration
+                                                <i class="fas fa-link "
+                                                    style="font-size:12px; color:lightgray;"></i></a>
+                                        </h2>
+
+
+                                        <p>
+                                            Use this toggle to enable or disable Copilot integration. Enter the
+                                            configured Power
+                                            Automate (PA) URL and click Save to activate the feature.
+
+                                        </p>
+
+
+                                        <div><img src="copilot.png" onclick="openModal( 'copilot.png') " alt="Copilot"
+                                                width="100% " height="auto"></div>
+                                        <br>
+                                        <p>
+                                            To integrate <strong>Copilot</strong> with <strong>Employee Onboarding
+                                                365</strong>, begin by creating your Copilot agent in
+                                            <a href="https://copilotstudio.microsoft.com/" target="_blank">Copilot
+                                                Studio</a>.
+                                        </p>
+                                        <p>Ensure that you have a <strong>Premium Power Automate license</strong> to
+                                            proceed with the configuration.</p>
+
+                                        <p>In the left-hand sidebar, select <strong>Agents</strong>.</p>
+                                        <div>
+                                            <img src="age.png" onclick="openModal('age.png')"
+                                                alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                        </div><br>
+                                        <p>
+                                            If you don’t already have an agent, click on <strong>+ New Agent</strong> to
+                                            create one, then configure it as required.<br>
+                                        </p>
+                                        <div>
+                                            <img src="age1.png" onclick="openModal('age1.png')"
+                                                alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                        </div><br>
+                                        <p>If you already have an existing agent, simply click on that agent to open it.
+                                        </p>
+
+
+                                        <div>
+                                            <img src="copilot_settings1.png"
+                                                onclick="openModal('copilot_settings1.png')"
+                                                alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                        </div><br>
+
+                                        <p>In the <strong>Knowledge</strong> section, add your Knowledge Base.</p>
+                                        <div>
+                                            <img src="copilot_settings3.png"
+                                                onclick="openModal('copilot_settings3.png')"
+                                                alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                        </div><br>
+
+
+
+
+                                        <p>Then go to <strong>Settings</strong>. Under <strong>Security</strong>, select
+                                            <strong>Web Channel Security</strong> and copy the <strong>Secret 1</strong>
+                                            key.
+                                        </p>
+                                        <div>
+                                            <img src="copilot_settings2.png"
+                                                onclick="openModal('copilot_settings2.png')"
+                                                alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                        </div><br>
+                                        <div>
+                                            <img src="copilot_settings.png" onclick="openModal('copilot_settings.png')"
+                                                alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                        </div><br>
+
+
+                                        <div>
+                                            <img src="copilot_settings4.png"
+                                                onclick="openModal('copilot_settings4.png')"
+                                                alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                        </div><br>
+
+                                        <p>Next, in <strong>Power Automate</strong>, go to <strong>My Flows</strong> and
+                                            import the <strong>Copilot server solution</strong>.</p>
+                                        <div>
+                                            <img src="copilot_settings5.png"
+                                                onclick="openModal('copilot_settings5.png')"
+                                                alt="Copilot Settings and Knowledge Base" width="100%" height="auto">
+                                        </div><br>
+
+                                        <p>
+                                            Open the flow and click <strong>Edit</strong>.
+                                        </p>
+                                        <div>
+                                            <img src="powerautomate_flows.png"
+                                                onclick="openModal('powerautomate_flows.png')"
+                                                alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                        </div><br>
+                                        <p>Disable the <strong>New Designer</strong> toggle
+                                            and paste the previously copied <strong>Secret 1</strong> value into the
+                                            <strong>Headers</strong> field.
+                                        </p>
+                                        <div>
+                                            <img src="powerautomate_flows1.png"
+                                                onclick="openModal('powerautomate_flows1.png')"
+                                                alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                        </div><br>
+                                        <p>
+                                            Save the flow and copy the <strong>HTTP GET URL</strong> generated under the
+                                            <em>When an HTTP request is received</em> trigger.
+                                        </p>
+                                        <div>
+                                            <img src="powerautomate_flows2.png"
+                                                onclick="openModal('powerautomate_flows2.png')"
+                                                alt="Power Automate Flow Configuration" width="100%" height="auto">
+                                        </div><br>
+                                        <p>
+                                            Return to the application, enable the <strong>Copilot integration</strong>
+                                            toggle,
+                                            and paste this URL into the configuration field.
+                                        </p>
+                                        <div>
+                                            <img src="powerautomate_httpurl.png"
+                                                onclick="openModal('powerautomate_httpurl.png')"
+                                                alt="Power Automate HTTP GET URL" width="100%" height="auto">
+                                        </div><br>
+
+
+
+
+
+                                </div>
+                            </ul>
 
 
                         </div>
@@ -675,8 +982,8 @@
         </div>
     </div>
 
-   <div id="footer-container"></div>
-  <script src="/footer/index.js"></script>
+    <div id="footer-container"></div>
+    <script src="/footer/index.js"></script>
     <script src="../../../../../js/script.min.js"></script>
     <script>
         function openModal(src) {
@@ -696,6 +1003,7 @@
     <script src="../../../../../js/header-footer.js"></script>
     <script src="../../../../../js/showhidefunction.js"></script>
     <script src="../../js-modern-admin/obm-modern-admin.js"></script>
- <script src="/js/plus-toggle.js"></script></body>
+    <script src="/js/plus-toggle.js"></script>
+</body>
 
 </html>
