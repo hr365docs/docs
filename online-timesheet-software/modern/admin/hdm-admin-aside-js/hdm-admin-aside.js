@@ -19,15 +19,92 @@ $(document).ready(function () {
         "<a href='/online-timesheet-software/modern/admin/dashboard/'>Dashboard</a>"+
         "</li>"+
       
-        "<li data-nav-id='./Adminstration' title=Introduction class='sidelist'>"+
-        "<a href='/online-timesheet-software/modern/admin/administration/'>Administration</a>"+
+        "<li class='dropdownicon sidelist' title='Administration'>"+
+            "<a class='qwe' href='/online-timesheet-software/modern/admin/administration/'>Administration</a>"+
+            "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>"+
         "</li>"+
-         "<li data-nav-id='./Activity' title=Introduction class='sidelist'>"+
-        "<a href='/online-timesheet-software/modern/admin/Activity/'>Activity</a>"+
+        "<li data-nav-id='./Administration/' title='Administration' class='sidelist dropdown_romove_dot'>"+
+            "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+                "<li data-nav-id='../Administration' title='Clients' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/administration/#Clients'>Clients</a>"+
+                "</li>"+
+                "<li data-nav-id='../Administration' title='Projects' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/administration/#Projects'>Projects</a>"+
+                "</li>"+
+                "<li data-nav-id='../Administration' title='Tasks' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/administration/#Tasks'>Tasks</a>"+
+                "</li>"+
+                "<li data-nav-id='../Administration' title='Activities' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/administration/#activities'>Activities</a>"+
+                "</li>"+
+                "<li data-nav-id='../Administration' title='Approval Workflow' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/administration/#Approval-Workflow'>Approval Workflow</a>"+
+                "</li>"+
+                "<li data-nav-id='../Administration' title='Delegation' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/administration/#delegation'>Delegation</a>"+
+                "</li>"+
+            "</ul>"+
         "</li>"+
-
-
-       "<li class='dropdownicon sidelist' title='Settings'>"+
+"<li class='dropdownicon sidelist' title='Settings'>"+
+    "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/'>Settings</a>"+
+    "<img class='helpdesk-img aside_dropdown_icon_setting' src='/online-timesheet-software/modern/admin/hdm-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
+"</li>"+
+"<li data-nav-id='./Settings/' title='Settings' class='sidelist dropdown_romove_dot'>"+
+    "<ul class='sidenavSub-topics aside_dropdown_list_setting'>"+
+        "<li data-nav-id='./General' title='General Settings' class='dropdownicon sidelist'>"+
+            "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/general/'>General Settings</a>"+
+            "<img class='helpdesk-img aside_dropdown_icon' src='/sharepoint-employee-onboarding/modern/admin/js-modern-admin/down-arrow-svgrepo-com.svg'>"+
+        "</li>"+
+        "<li data-nav-id='./Setting/' title='General Settings' class='sidelist dropdown_romove_dot'>"+
+            "<ul class='sidenavSub-topics aside_dropdown_list'>"+
+                "<li data-nav-id='../General' title='Theme' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#theme'>Theme</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Date Format' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#date-format'>Date Format</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Date Format Options' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#date-format-options'>Date Format Options</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Default Currency' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#default-currency'>Default Currency</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Currency Options' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#currency-options'>Currency Options</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Language' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#language'>Language</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Language Options' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#language-options'>Language Options</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='browser-default-language' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#browser-default-language'>Language Selection as Browser Default Language</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Use SharePoint URL for MS Teams Installed Application' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#sharepoint-url-teams'>Use SharePoint URL for MS Teams Installed Application</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Hide SharePoint Page\'s Default Components' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#hide-sharepoint-components'>Hide SharePoint Page\'s Default Components</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='SharePoint Component Configuration' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#sharepoint-component-configuration'>SharePoint Component Configuration</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Configure Quick Setup' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#quick-setup'>Configure Quick Setup</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Enable Logs Collection' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#logs-collection'>Enable Logs Collection</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Follow ISO Week Number Format' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#iso-week-number'>Follow ISO Week Number Format</a>"+
+                "</li>"+
+                "<li data-nav-id='../General' title='Enable Favicon &amp; Customization' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#favicon-customization'>Enable Favicon Customization</a>"+
+                "</li>"+
+            "</ul>"+
+        "</li>"+
+        "<li class='dropdownicon sidelist' title='Settings'>"+
     "<a class='qwe' href='/online-timesheet-software/modern/admin/settings/'>Settings</a>"+
     "<img class='helpdesk-img aside_dropdown_icon_setting' src='/online-timesheet-software/modern/admin/hdm-admin-aside-js/down-arrow-svgrepo-com.svg'>"+
 "</li>"+
@@ -67,8 +144,8 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='Use SharePoint URL for MS Teams Installed Application' class='sidelist'>"+
                     "<a href='/online-timesheet-software/modern/admin/settings/general/#sharepoint-url-teams'>Use SharePoint URL for MS Teams Installed Application</a>"+
                 "</li>"+
-                "<li data-nav-id='../General' title='Hide SharePoint Page's Default Components' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/general/#hide-sharepoint-components'>Hide SharePoint Page's Default Components</a>"+
+                "<li data-nav-id='../General' title='Hide SharePoint Page\'s Default Components' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/general/#hide-sharepoint-components'>Hide SharePoint Page\'s Default Components</a>"+
                 "</li>"+
                 "<li data-nav-id='../General' title='SharePoint Component Configuration' class='sidelist'>"+
                     "<a href='/online-timesheet-software/modern/admin/settings/general/#sharepoint-component-configuration'>SharePoint Component Configuration</a>"+
@@ -100,8 +177,8 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='Allow Same Project Names for Different Clients' class='sidelist'>"+
                     "<a href='/online-timesheet-software/modern/admin/settings/advance-settings/#same-project'>Allow Same Project Names for Different Clients</a>"+
                 "</li>"+
-                "<li data-nav-id='../General' title='Exclude Finance Info from User's Reports' class='sidelist'>"+
-                    "<a href='/online-timesheet-software/modern/admin/settings/advance-settings/#exclude-finance'>Exclude Finance Info from User's Reports</a>"+
+                "<li data-nav-id='../General' title='Exclude Finance Info from User\'s Reports' class='sidelist'>"+
+                    "<a href='/online-timesheet-software/modern/admin/settings/advance-settings/#exclude-finance'>Exclude Finance Info from User\'s Reports</a>"+
                 "</li>"+
             "</ul>"+
         "</li>"+
