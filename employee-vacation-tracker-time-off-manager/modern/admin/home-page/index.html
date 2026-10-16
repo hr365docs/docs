@@ -1,301 +1,444 @@
-<!doctype html><html lang=en-us>
-    <head>
-        <meta charset="utf-8">
-        <title>Time-Off Manager 365 | Admin Guide | Home-Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="generator" content="Hugo 0.92.2">
-        <meta name="description" content="Time-Off Manager 365 Admin Guide - Homepage for managing time-off and leave policies.">
-    
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css">
-        <link rel="icon" href="#" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-    
-        <!-- Scripts -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
-    
-        <style>
-            :root {
-              
-                --body-color: #f9f9f9;
-                --text-color: #636363;
-                --text-color-dark: #242738;
-                --white-color: #ffffff;
-                --light-color: #f8f9fa;
-                --font-family: Lato;
-            }
-        </style>
-    
-        <link href="https://hr365docs.github.io/docs/css/style.min.css" rel="stylesheet" media="screen">
-    
-        <!-- jQuery and Bootstrap Scripts -->
-        <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js"></script>
-        <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js"></script>
-        <script src="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js"></script>
-        <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
-    
-        <!-- Google Tag Manager -->
-        <script>
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');
-        </script>
-        <!-- End Google Tag Manager -->
-    </head>
-    
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Time-Off Manager 365 | Admin Guide | Home-Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.92.2">
+    <meta name="description" content="Time-Off Manager 365 Admin Guide - Homepage for managing time-off and leave policies.">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://hr365docs.github.io/docs/plugins/themify-icons/themify-icons.css">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+
+    <style>
+        :root {
+            --body-color: #f9f9f9;
+            --text-color: #636363;
+            --text-color-dark: #242738;
+            --white-color: #ffffff;
+            --light-color: #f8f9fa;
+            --font-family: Lato;
+        }
+
+        .custom-doc-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+            font-size: 14px;
+        }
+
+        .custom-doc-table th,
+        .custom-doc-table td {
+            border: 1px solid #d8e2ed;
+            padding: 10px 14px;
+            vertical-align: middle;
+        }
+
+        .custom-doc-table thead tr {
+            background-color: #eaf2fa;
+            color: #000;
+        }
+
+        .custom-doc-table thead th {
+            color: #000 !important;
+            font-weight: 700;
+            border-color: #eaf2fa;
+        }
+
+        .custom-doc-table tbody tr:nth-child(even) {
+            background-color: #f8fafd;
+        }
+
+        .custom-doc-table tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        .custom-doc-table tbody th {
+            color: #173860;
+            font-weight: 700;
+            width: 25%;
+        }
+    </style>
+
+    <link href="https://hr365docs.github.io/docs/css/style.min.css" rel="stylesheet" media="screen">
+
+    <!-- jQuery and Bootstrap Scripts -->
+    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-1.12.4.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/jquery/jquery-ui.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
 <body>
-            <!-- Google Tag Manager (noscript) -->
-            <noscript>
-                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
-                    style="display:none;visibility:hidden">
-                </iframe>
-            </noscript>
-            <!-- End Google Tag Manager (noscript) -->
-<header class="shadow-bottom sticky-top bg-white">
-<nav class="navbar navbar-expand-lg navbar-light">
-<div class="container px-2 px-md-0">
-    <a class="navbar-brand px-2" href="https://hr365docs.github.io/docs/">
-        <img class=img-fluid src="../../../../images/logo_.png" alt=HR365>
-        </a>
-        <button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
-         <span class=navbar-toggler-icon></span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x" viewBox="0 0 16 16">
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-          </svg>
-        </button>
-        <div class="collapse navbar-collapse text-center common-header" id=navigation>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
+    <header class="shadow-bottom sticky-top bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container px-2 px-md-0">
+                <a class="navbar-brand px-2" href="https://hr365docs.github.io/docs/">
+                    <img class="img-fluid" src="../../../../images/logo_.png" alt="HR365">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse text-center common-header" id="navigation">
+                </div>
+            </div>
+        </nav>
+    </header>
 
-</div>
-</div>
-</nav>
-</header>
-        
-<section class="single section-sm pb-0">
-    <div class="container container-padding" style="padding-bottom: 1vw;">
-    <div class=row>
-    <div class=col-lg-3>
-    <div class=sidebar>
-        <h5 class="mbHeading" style="color:SlateBlue"> <a href="../../../../employee-vacation-tracker-time-off-manager/">Time off Manager 365 </a></h5>
-    <a class=back-btn href="../../../../employee-vacation-tracker-time-off-manager/" aria-label=back></a>
-    
-    <ul class=list-styled>
-        <li data-nav-id=../Time-off-manager/index.html title="Admin Guide" class="sidelist active">
-        <a href="../../admin/">
-        Admin Guide
-        </a>
-        <div id="tmpmodernadmin" class="sidenavbarscrollstyle"></div>     
-                        
-            </li>
-        </ul>
-    </li>
-    </ul>
-    </div>
-    </div>
-    <div class=col-lg-9>
-        <div class="p-lg-4 p-4 bg-white remove-padding" id=content>
-       
-        <div class="bg-light p-4 remove-padding">
-            <h2 id="_dashboards"><a class="header-icon-link highlight" href=#> Home Page
-                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
-        </h2> <br>
+    <section class="single section-sm pb-0">
+        <div class="container container-padding" style="padding-bottom: 1vw;">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="sidebar">
+                        <h5 class="mbHeading" style="color:SlateBlue"><a href="../../../../employee-vacation-tracker-time-off-manager/">Time off Manager 365</a></h5>
+                        <a class="back-btn" href="../../../../employee-vacation-tracker-time-off-manager/" aria-label="back"></a>
+                        <ul class="list-styled">
+                            <li data-nav-id="../Time-off-manager/index.html" title="Admin Guide" class="sidelist active">
+                                <a href="../../admin/">Admin Guide</a>
+                                <div id="tmpmodernadmin" class="sidenavbarscrollstyle"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-        <div><img src="homepage.png" onclick="openModal('homepage.png')" alt="help icon"
-            width="100%" height="auto"></div> <br>
-        
-            <p><b>Apply Leave:</b> Click on + Apply Leave, it would open an apply leave from, users could request the leave.</p>
-            <br>
-            <div><img src="ApplyLeaveAdd.png" onclick="openModal('ApplyLeaveAdd.png')" alt="Home page" width="100%" height="auto"></div>
-            <br>
-            <p>Fill in the information as needed.</p>
-        <div><img src="1.png" onclick="openModal('1.png')" alt="Home page" width="100%" height="auto"></div>
-        <br>
-        <p>Click on <b>Submit</b> button for apply to leave.</p>
-     
-        <div><img src="2.png" onclick="openModal('2.png')" alt="Home page" width="100%" height="auto"></div>
-        <br>
-        <p><h5>My leaves</h5>   
-            <div><img src="home_page.png" onclick="openModal('home_page.png')" alt="Home page" width="100%" height="auto"></div>
-            <br>
-            <ul>
-                <li><b>All:</b> Status of all leaves are displayed.</li>
-                <br>
-                <div><img src="all.png" onclick="openModal('all.png')" alt="2" width="100%" height="auto"></div>
-                <br>
-                <li><b>Draft:</b> Saved leaves would be displayed; users could edit and submit in future.</li>
-                <br>
-                <div><img src="draftleave.png" onclick="openModal('draftleave.png')" alt="3" width="100%" height="auto"></div>
-                <br>
-                <li><b>Pending:</b> Users pending leaves are displayed.</li>
-                <br>
-                <div><img src="pending.png" onclick="openModal('pending.png')" alt="4" width="100%" height="auto"></div>
-                <br>
-                <li><b>Rejected:</b> User would be able to see their rejected leaves.</li>
-                <br>
-                <div><img src="reject.png" onclick="openModal('reject.png')" alt="4" width="100%" height="auto"></div>
-                <br>
-                <li><b>Approved:</b> User can view their approved leaves.</li>
-                <br>
-                <div><img src="approved.png" onclick="openModal('approved.png')" alt="4" width="100%" height="auto"></div>
-                <br>
-                <li><b>Cancelled:</b> User can view their cancelled leaves.</li>
-                <br> 
-                <div><img src="7.png" onclick="openModal('7.png')" alt="4" width="100%" height="auto"></div>
-                <br>
-            </ul>
-            
-            <p><h5>Approval</h5>
-     
-                <p>This section is visible only for admins , managers and user (who had Pending Leaves for Approve or Reject), from where leave can be approved or rejected.</p>
-                <div><img src="home.png" onclick="openModal('home.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-                      <ul>
-           
-                        <li><b>Approve leave: </b> Approve leave shows in manager action section from where manager can reject or approve leave requests (one at go).</li>    
-                        <br>
-                       <li><b>Bulk Approval:</b> Bulk approval shows in manager action section, manager may reject or approve multiple leave requests at a time. </li>
-                       <br>
-                       <li><b>Cancellation: </b> Managers would be able to see all the cancelled leave requests of their employees and could approve or reject them.</li>
-                        <br>
-                        <li><b>Comp off(off in lieu): </b> Managers would be able to see all add comp off requests of their employees and could either approve or reject them.</li>
-                        <br>
-        
-                       
-                      </ul>
-                      <ul>
-                      <li id="teamapproval">
-    <h6>Team Approvals</h6>
-    Displays all requests that require your action as a higher-level manager, including approvals for leaves, Comp Offs, and cancellations. You can approve, reject, or review the status of each request.
-</li><br>
-<div><img src="teamapprove.png" onclick="openModal('teamapprove.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-<li id="approval">
-    <h6>Approvals</h6>
-    View and manage all pending leave requests submitted by team members. You can approve or reject them based on the company leave policy.
-</li><br><div><img src="teamapprove1.png" onclick="openModal('teamapprove1.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-<p>Click on the Action Menu  to<b> approve</b> or <b>reject</b> leave request. </p><br>
-</li><br><div><img src="approved1.png" onclick="openModal('approved1.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-<li id="compoffrequest">
-    <h6>Comp Off Requests</h6>
-    Shows requests submitted by employees for compensatory off in return for working on weekends or holidays. These require managerial approval.
-</li><br>
-<div><img src="teamapprove2.png" onclick="openModal('teamapprove2.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
+                <div class="col-lg-9">
+                    <div class="p-lg-4 p-4 bg-white remove-padding" id="content">
+                        <div class="bg-light p-4 remove-padding">
+                            <h2 id="_dashboards"><a class="header-icon-link highlight" href="#">Home Page
+                                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i></a>
+                            </h2>
+                            <br>
 
-<li id="cancellations">
-    <h6>Leave Cancellations</h6>
-    Displays requests from employees to cancel previously approved leaves. You can approve or reject the cancellation based on organizational needs.
-</li><br>
-<div><img src="teamapprove4.png" onclick="openModal('teamapprove4.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
+                            <h3>Overview</h3>
+                            <p>The Home page opens with a row of leave balance tiles, three tabs (Apply Leave, My Leaves, My Approvals) and a leave calendar on the right. Managers and approvers also see a Team Approvals tab.</p>
+                            <div><img src="1.png" onclick="openModal('1.png')" alt="Home page overview" width="100%" height="auto"></div>
+                            <br>
 
-<li id="approved">
-    <h6>Approved</h6>
-    Lists all team requests that you have reviewed and approved. Useful for tracking past approvals.
-</li><br>
-<div><img src="teamapprove3.png" onclick="openModal('teamapprove3.png')" alt="Manager actions" width="100%" height="auto"></div>
-       <li><br>
-    <p>Click on the "Action Menu" to view the leave status.</p>
-</li>
-<br>
+                            <h5>Leave Balance Tiles</h5>
+                            <p>One tile per leave type (PTO, Sick, Comp off (off in lieu), Vacation, Bereavement) shows your figure for that type against its total.</p>
 
-    <img src="approved2.png" onclick="openModal('approved2.png')" alt="Manager actions" width="100%" height="auto">
+                            <h5>Calendar</h5>
+                            <p>The calendar on the right shows leave in colour by type: PTO (blue), Sick (green), Comp off (red) and Vacation (pink). Use the arrows and Today to move between dates, and switch the view with Month, Week or Day. The dropdown above the calendar switches between My Calendar and, on the My Approvals tab, Organization's Calendar.</p>
 
-<br>
-           <br>
+                            <hr>
 
-<li id="rejected">
-    <h6>Rejected</h6>
-    Lists all requests that you have rejected, including the reason (if provided), for employee reference.
-</li><br>
-<div><img src="teamapprove5.png" onclick="openModal('teamapprove5.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-</ul>
-                <p><h5>Calendar</h5>
-                    <br>
-                    <p>Now, the user will see the Calendar, where they can view leaves based on the selected date.</p>
-                <div><img src="TeamsCalender.png" onclick="openModal('TeamsCalender.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-                <p>Then, the user will see four options: <b>My Calendar</b>, <b>Department's Calendar</b>, <b>Team's Calendar</b> and <b>Organization's Calendar</b></p>
-                <div><img src="threeOption.png" onclick="openModal('threeOption.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-                <p>If the user selects the <b>Department's Calendar</b> option, they will see leaves in the calendar based on their department.</p>
-                <div><img src="DepartmentOption.png" onclick="openModal('DepartmentOption.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-                <p>If the user selects the Organization's Calendar option, they will be able to see all leaves across the organization, including which user is on leave and the corresponding leave dates.</p>
-                <div><img src="orgOption.png" onclick="openModal('orgOption.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-                <p>If the user selects the My Calendar option, they will be able to see their own leaves that they have applied for.</p>
-                <div><img src="mycalender.png" onclick="openModal('mycalender.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-                       <p>If the user selects the <b>Team's Calendar</b> option, they will see leaves in the calendar based on Team Members.</p>
-                <div><img src="DepartmentOption1.png" onclick="openModal('DepartmentOption1.png')" alt="Manager actions" width="100%" height="auto"></div>
-                      <br>
-               
+                            <h3>Apply Leave</h3>
+                            <p><strong>Step 1.</strong> Click <strong>+ Apply Leave</strong>.</p>
+                            <div><img src="2.png" onclick="openModal('2.png')" alt="Apply Leave tab" width="100%" height="auto"></div>
+                            <br>
 
-    </ol>
-</div>
-<p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date">
-    <nav class="pagination mt-3">
-        <a class="nav nav-prev" href="../introduction/"
-            aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span
-                class="d-none d-md-block">Introduction</span></a>
-        <a class="nav nav-next" href="../ArchitectureDiagram/" aria-label="Previous page"> <span
-                class="d-none d-md-block">Architecture-Diagram</span><i class="ti-arrow-right ml-2"></i></a>
-    </nav>
-</div>
-</div>
-</div>
-</div>
-</section>
-<div id="myModal" class="modal">
-        
-    <div class="modal-content">
-        <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
-        <div class="mySlides">
-            <img src="" id="imageId" style="width:100%">
+                            <p><strong>Step 2.</strong> Fill in the form:</p>
+                            <ul style="list-style-type:disc">
+                                <li><strong>Title:</strong> A short name for the request.</li>
+                                <li><strong>Select Leave Type (required):</strong> PTO, Sick, Comp off (off in lieu), Vacation or Bereavement.</li>
+                                <li><strong>Partial Day toggle:</strong> Off by default; switch it on for a part-day request.</li>
+                                <li><strong>Start Date and End Date (required):</strong> Pick from the calendar icon.</li>
+                                <li><strong>Notes to Approver:</strong> Add any context for your approver.</li>
+                                <li><strong>Attachments:</strong> Drag and drop files into the box.</li>
+                                <li><strong>Approver:</strong> Shows who the request will go to.</li>
+                            </ul>
+                            <div><img src="3.png" onclick="openModal('3.png')" alt="Apply Leave form" width="100%" height="auto"></div>
+                            <br>
+
+                            <p><strong>Step 3.</strong> Check the summary beside the form. It updates for the selected leave type and shows Total Leaves This Year, Leave Entitlement, Leaves Consumed, Leaves Remaining, No of days and Next Year Used Leave.</p>
+
+                            <p><strong>Step 4.</strong> Click <strong>Submit</strong> to send the request, or <strong>Save Draft</strong> to finish it later. Saved drafts appear under My Leaves &gt; Draft.</p>
+                            <div><img src="4.png" onclick="openModal('4.png')" alt="Submit leave request" width="100%" height="auto"></div>
+                            <br>
+
+                            <hr>
+
+                            <h3>My Leaves</h3>
+                            <p>Click <strong>My Leaves</strong> to see your requests.</p>
+                            <div><img src="5.png" onclick="openModal('5.png')" alt="My Leaves" width="100%" height="auto"></div>
+                            <br>
+
+                            <p>The All tab lists Leave Type, Start Date, End Date, Hours, Request Date and Status. The other tabs list Leave Type, Start Date, End Date, Days, Request Date and Current Approver. Every column can be sorted and has a filter box under its heading.</p>
+
+                            <ul style="list-style-type:disc">
+                                <li><strong>All:</strong> Status of all your leaves.</li>
+                                <div><img src="6.png" onclick="openModal('6.png')" alt="My Leaves - All" width="100%" height="auto"></div>
+                                <br>
+
+                                <li><strong>Draft:</strong> Saved leaves you can edit and submit later.</li>
+                                <div><img src="7.png" onclick="openModal('7.png')" alt="My Leaves - Draft" width="100%" height="auto"></div>
+                                <br>
+
+                                <li><strong>Pending:</strong> Leaves waiting for approval.</li>
+                                <div><img src="8.png" onclick="openModal('8.png')" alt="My Leaves - Pending" width="100%" height="auto"></div>
+                                <br>
+
+                                <li><strong>Rejected:</strong> Leaves that were rejected.</li>
+                                <div><img src="9.png" onclick="openModal('9.png')" alt="My Leaves - Rejected" width="100%" height="auto"></div>
+                                <br>
+
+                                <li><strong>Approved:</strong> Leaves that were approved.</li>
+                                <div><img src="10.png" onclick="openModal('10.png')" alt="My Leaves - Approved" width="100%" height="auto"></div>
+                                <br>
+
+                                <li><strong>Cancelled:</strong> Leaves that were cancelled.</li>
+                                <div><img src="11.png" onclick="openModal('11.png')" alt="My Leaves - Cancelled" width="100%" height="auto"></div>
+                                <br>
+                            </ul>
+
+                            <h5>Row Actions</h5>
+                            <p>Click the three-dot menu on a row for its actions. On the Pending tab these are <strong>View</strong> and <strong>Send Reminder</strong>.</p>
+                            <p><strong>View:</strong> Open the request details.</p>
+                            <div><img src="12.png" onclick="openModal('12.png')" alt="View action" width="100%" height="auto"></div>
+                            <br>
+
+                            <p><strong>Send Reminder:</strong> Remind the approver about the pending request.</p>
+                            <div><img src="13.png" onclick="openModal('13.png')" alt="Send Reminder action" width="100%" height="auto"></div>
+                            <br>
+
+                            <h5>Toolbar Controls</h5>
+                            <p><strong>Filter:</strong> Filter by Start Date, End Date and Leave Type, then click Apply Filter(s), or Clear Filter(s) to reset.</p>
+                            <div><img src="14.png" onclick="openModal('14.png')" alt="Toolbar filter" width="100%" height="auto"></div>
+                            <br>
+
+                            <p><strong>Refresh:</strong> Reload the list.</p>
+                            <div><img src="15.png" onclick="openModal('15.png')" alt="Toolbar refresh" width="100%" height="auto"></div>
+                            <br>
+
+                            <p><strong>Expand:</strong> Open the list in a wider view with all columns visible.</p>
+                            <div><img src="16.png" onclick="openModal('16.png')" alt="Toolbar expand icon" width="100%" height="auto"></div>
+                            <br>
+                            <div><img src="17.png" onclick="openModal('17.png')" alt="Expanded list view" width="100%" height="auto"></div>
+                            <br>
+
+                            <p><strong>Column Settings:</strong> Tick or untick columns (Leave Type, Start Date, End Date, Days, Request Date, Request Type, Current Approver), drag to reorder, then click the save icon.</p>
+                            <div><img src="18.png" onclick="openModal('18.png')" alt="Column Settings panel" width="100%" height="auto"></div>
+                            <br>
+
+                            <hr>
+
+                            <h3>My Approvals</h3>
+                            <p>The My Approvals tab replaces the earlier manager action section. It is for admins, managers and approvers who have requests to review.</p>
+                            <div><img src="19.png" onclick="openModal('19.png')" alt="My Approvals tab" width="100%" height="auto"></div>
+                            <br>
+
+                            <table class="custom-doc-table">
+                                <thead>
+                                    <tr>
+                                        <th>Tab</th>
+                                        <th>Purpose</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Approvals</th>
+                                        <td>Leave requests waiting for your decision</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Comp Off Request</th>
+                                        <td>Comp off (off in lieu) requests from your employees</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Cancellations</th>
+                                        <td>Cancellation requests from your employees</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Approved</th>
+                                        <td>Requests you approved</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Rejected</th>
+                                        <td>Requests you rejected</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p>The list shows Employee Name, Leave Type, Start Date, End Date and Days, with a checkbox on each row and a header checkbox to select all. It has the same Filter, Refresh and Expand tools as My Leaves.</p>
+                            <div><img src="20.png" onclick="openModal('20.png')" alt="My Approvals grid" width="100%" height="auto"></div>
+                            <br>
+
+                            <p><strong>Approving or rejecting a single request:</strong> Click the three-dot menu on any employee row to approve or reject individually.</p>
+                            <p><strong>Approving or rejecting several requests at once (bulk approval):</strong> Use the checkboxes to select multiple rows, then apply the bulk decision.</p>
+
+                            <p><strong>Comp Off Request, Cancellations, Approved and Rejected tabs:</strong></p>
+                            <div><img src="21.png" onclick="openModal('21.png')" alt="Comp Off Request tab" width="100%" height="auto"></div>
+                            <br>
+
+                            <hr>
+
+                            <h3>Team Approvals</h3>
+                            <p>The Team Approvals tab is visible next to My Approvals for designated managers and supervisors.</p>
+                            <div><img src="22.png" onclick="openModal('22.png')" alt="Team Approvals" width="100%" height="auto"></div>
+                            <br>
+
+                            <hr>
+
+                            <h3>Calendar Features &amp; Expanded Views</h3>
+                            <p>The calendar on the right of the Home page shows leave in colour, and its dropdown chooses whose leave you see. An expanded view adds filters, totals and a team-by-day grid.</p>
+
+                            <h5>Choose a Calendar</h5>
+                            <p>Click the dropdown at the top left of the calendar and pick one of four options.</p>
+                            <div><img src="23.png" onclick="openModal('23.png')" alt="Calendar selector dropdown" width="100%" height="auto"></div>
+                            <br>
+
+                            <table class="custom-doc-table">
+                                <thead>
+                                    <tr>
+                                        <th>Calendar</th>
+                                        <th>Shows</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>My Calendar</th>
+                                        <td>Your own leave</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Department's Calendar</th>
+                                        <td>Leave for the people in your department</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Team's Calendar</th>
+                                        <td>Leave for the people on your team</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Organization's Calendar</th>
+                                        <td>Leave for everyone in the organization</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p><strong>Team's Calendar</strong> shows each person's leave as a bar labelled with their name.</p>
+                            <div><img src="24.png" onclick="openModal('24.png')" alt="Team Calendar view" width="100%" height="auto"></div>
+                            <br>
+
+                            <p><strong>Organization's Calendar</strong> shows leave across all teams.</p>
+                            <div><img src="25.png" onclick="openModal('25.png')" alt="Organization Calendar view" width="100%" height="auto"></div>
+                            <br>
+
+                            <h5>Read the Calendar</h5>
+                            <ul style="list-style-type:disc">
+                                <li>The colours match the legend above the calendar: PTO (blue), Sick (green), Comp off (off in lieu) (red) and Vacation (pink).</li>
+                                <li>A bar shows the employee's name and runs across every day of the leave.</li>
+                                <li>The arrows move to the previous or next period, Today returns to the current date, and Month, Week and Day change the view.</li>
+                                <li>Today's date is highlighted in blue.</li>
+                            </ul>
+
+                            <h5>Open the Expanded Calendar</h5>
+                            <p>Click the expand icon at the top right of the calendar to open it full screen.</p>
+                            <div><img src="26.png" onclick="openModal('26.png')" alt="Expand calendar icon" width="100%" height="auto"></div>
+                            <br>
+
+                            <p>The expanded view has these controls:</p>
+                            <ul style="list-style-type:disc">
+                                <li><strong>Calendar dropdown (far left):</strong> Switch between My, Department's, Team's and Organization's Calendar.</li>
+                                <li><strong>All Teams, All Departments, All Employees and All Leave Types:</strong> Narrow the view to one team, department, employee or leave type.</li>
+                                <li><strong>Search:</strong> Find an employee, department or leave.</li>
+                                <li><strong>Excel icon:</strong> Export the current view to Excel.</li>
+                                <li><strong>Month selector (for example October 2026):</strong> Choose the month to show.</li>
+                                <li><strong>Summary cards:</strong> Employees Away, On PTO, On Sick and On Vacation show how many people are away, in total and by leave type.</li>
+                                <li><strong>Calendar and Group View:</strong> Switch between the calendar layout and the team-by-day grid.</li>
+                                <li>The arrows and Today move through the days.</li>
+                                <li>The collapse icon at the top right returns you to the Home page.</li>
+                            </ul>
+                            <div><img src="27.png" onclick="openModal('27.png')" alt="Full screen expanded calendar" width="100%" height="auto"></div>
+                            <br>
+
+                            <h5>Group View</h5>
+                            <p>Group View lists employees by team, with one column per day.</p>
+                            <ul style="list-style-type:disc">
+                                <li>Each team has a header row with its name and number of employees, for example <em>Joni Sherman Team (2 employees)</em>. The arrow beside the name collapses or expands the group.</li>
+                                <li>Each employee row shows the photo, name, job title and department.</li>
+                                <li>Leave appears as a coloured bar labelled with the leave type (Vacation, Sick or PTO), in the same colours as the legend.</li>
+                                <li>Each day header shows how many people are away, for example <em>2 away</em>. Today is circled and weekends are shaded.</li>
+                                <li>Show entries sets how many rows appear per page, and the arrows at the bottom move between pages.</li>
+                            </ul>
+
+                            <h5>Switch Calendars in the Expanded View</h5>
+                            <p>Use the dropdown at the top left to change the calendar without leaving the expanded view.</p>
+                            <div><img src="28.png" onclick="openModal('28.png')" alt="Switch calendars expanded view" width="100%" height="auto"></div>
+                            <br>
+
+                            <h5>See Who is Away</h5>
+                            <p>Select the <strong>Employees Away</strong> card to see the name, job title and department of each person who is away.</p>
+                            <div><img src="29.png" onclick="openModal('29.png')" alt="Employees Away list" width="100%" height="auto"></div>
+                            <br>
+
+                        </div>
+
+                        <p class="post-meta border-bottom pb-3 mb-0 mt-3" id="date"></p>
+                        <nav class="pagination mt-3">
+                            <a class="nav nav-prev" href="../introduction/" aria-label="Previous page"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Introduction</span></a>
+                            <a class="nav nav-next" href="../ArchitectureDiagram/" aria-label="Next page"> <span class="d-none d-md-block">Architecture-Diagram</span><i class="ti-arrow-right ml-2"></i></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close_bt cursor_bt" onclick="closeModal()">&times;</span>
+            <div class="mySlides">
+                <img src="" id="imageId" style="width:100%">
+            </div>
+        </div>
     </div>
-</div>
 
- <div id="footer-container"></div>
-  <script src="/footer/index.js"></script>
-<script src="../../../../../js/script.min.js"></script>
-<script src="../../../../js/header-footer.js"></script>
-<script src="../../../../js/showhidefunction.js"></script>
-<script src="../../../../js/tmp-modern-adminguide.js"></script>
-<script src="../../../../js/tpm-adminguide-general.js"></script>
-<script>
-       function openModal(src) {
+    <div id="footer-container"></div>
+    <script src="/footer/index.js"></script>
+    <script src="../../../../../js/script.min.js"></script>
+    <script src="../../../../js/header-footer.js"></script>
+    <script src="../../../../js/showhidefunction.js"></script>
+    <script src="../../../../js/tmp-modern-adminguide.js"></script>
+    <script src="../../../../js/tpm-adminguide-general.js"></script>
+    <script>
+        function openModal(src) {
+            document.getElementById("imageId").src = src;
+            document.getElementById("myModal").style.display = "block";
+        }
 
-document.getElementById("imageId").src= src;
-document.getElementById("myModal").style.display = "block";
-}
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
 
-function closeModal() {
-document.getElementById("myModal").style.display = "none";
+        date = new Date().toLocaleDateString();
+        document.getElementById("date").innerHTML = date;
+    </script>
+    <script src="/js/plus-toggle.js"></script>
+</body>
 
-}                       
-                          
-    date = new Date().toLocaleDateString();
-    document.getElementById("date").innerHTML=date;
-   </script>
-   <script src="../../../../js/header-footer.js"></script>
- <script src="/js/plus-toggle.js"></script></body>
-
-</html> 
+</html>
