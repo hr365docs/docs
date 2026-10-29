@@ -78,6 +78,9 @@ $(document).ready(function () {
     "<li data-nav-id='../General' title='Brand Logo' class='sidelist'>" +
     "<a href='/LMS/modern/admin/setting/general-setting/#delete'>Delete Inactive Users</a>" +
     "</li>" +
+    "<li data-nav-id='../General' title='Persona Card' class='sidelist'>" +
+    "<a href='/LMS/modern/admin/setting/general-setting/#Persona-Card'>Persona Card</a>" +
+    "</li>" +
     "</ul>" +
     "</li>" +
 
