@@ -300,6 +300,9 @@ $(document).ready(function () {
                 "<li data-nav-id='../General' title='KPI Cycle' class='sidelist'>" +
                     "<a href='/employee-performance-management/modern/admin/settings/features/#KPICycle'>KPI Cycle</a>" +
                 "</li>" +
+                "<li data-nav-id='../General' title='Azure Open AI Integration ' class='sidelist'>" +
+                    "<a href='/employee-performance-management/modern/admin/settings/features/#Azure-Open-AI-Integration'>Azure Open AI Integration </a>" +
+                "</li>" +
 
             "</ul>" +
         "</li>" +
