@@ -126,6 +126,9 @@
             <li data-nav-id="../General" title="Create User in M365" class="sidelist">
                 <a href="./#Create-User-in-M365">Create User in M365</a>
             </li>
+            <li data-nav-id="../General" title="Training Templates" class="sidelist">
+                <a href="./#Training-Templates">Training Templates</a>
+            </li>
             <li data-nav-id="../General" title="Guest Users" class="sidelist">
                 <a href="./#GUsers">Guest Users</a>
             </li>
@@ -287,6 +290,69 @@
             <div><img src="07.png" onclick="openModal('07.png')" alt="M365 User Creation" width="100%" height="auto"><br></div>
             <li>This is a premium onboarding feature. Please contact HR365 Support at <b>appsupport@hr365.us</b> to enable this functionality.</li><br>
             <div><img src="08.png" onclick="openModal('08.png')" alt="M365 Feature Info" width="100%" height="auto"><br></div>
+        </ul>
+    </div>
+
+    <!-- Training Templates -->
+    <div class="bg-light p-4 remove-padding common-scroll" id="Training-Templates">
+        <h2 id="_training_templates">
+            <a class="header-icon-link highlight" href="#">Training Templates
+                <i class="fas fa-link" style="font-size:12px; color:lightgray;"></i>
+            </a>
+        </h2>
+        <ul class="page-list">
+            <p>
+                The <b>Training Templates</b> feature allows administrators to define a training once for a department and position, so it is automatically suggested for every new employee who joins that group. Once the training is scheduled, the attendees and Training SPOCs receive the configured email and the training is blocked on their calendars.
+            </p>
+
+            <p><b>Enable Training</b></p>
+            <div><img src="TrainingTemplate_1.png" onclick="openModal('TrainingTemplate_1.png')" alt="Enable Training" width="100%" height="auto"></div><br>
+            <p>In the <b>Training</b> dialog, switch on <b>Enable Training</b>.</p>
+            <div><img src="TrainingTemplate_2.png" onclick="openModal('TrainingTemplate_2.png')" alt="Enable Training toggle" width="100%" height="auto"></div><br>
+            <p>A <b>Training Enabled Successfully</b> message confirms the change.</p>
+            <div><img src="TrainingTemplate_3.png" onclick="openModal('TrainingTemplate_3.png')" alt="Training Enabled Successfully" width="100%" height="auto"></div><br>
+            <p>The Training option in the Features list now reads <b>Training Templates</b>.</p>
+            <div><img src="TrainingTemplate_4.png" onclick="openModal('TrainingTemplate_4.png')" alt="Training Templates in Features list" width="100%" height="auto"></div><br>
+
+            <p><b>Create a Training Template</b></p>
+            <p>The <b>Add Training Template</b> panel opens on the <b>Training Details</b> tab.</p>
+            <div><img src="TrainingTemplate_5.png" onclick="openModal('TrainingTemplate_5.png')" alt="Add Training Template" width="100%" height="auto"></div><br>
+            <p>Enter a <b>Template Name</b>, choose the <b>Department</b>, and optionally select one or more <b>Positions</b>. On the onboarding form's <b>Training</b> tab, the template is suggested and filled in for new employees of this department and, when positions are selected, only for those positions. Leave <b>Position</b> empty to cover every position in the department. The <b>Active</b> toggle controls whether the template is suggested.</p>
+            <p>Enter the training <b>Title</b> and select the <b>Training SPOC(s)</b>. Add <b>Attendee(s)</b> if needed, and use <b>Optional</b> for people who should be copied on the invitation.</p>
+            <div><img src="TrainingTemplate_6.png" onclick="openModal('TrainingTemplate_6.png')" alt="Training title and SPOC" width="100%" height="auto"></div><br>
+            <p>Keep <b>Add the new employee as an attendee</b> checked to invite the joining employee to the training.</p>
+            <div><img src="TrainingTemplate_7.png" onclick="openModal('TrainingTemplate_7.png')" alt="Add the new employee as an attendee" width="100%" height="auto"></div><br>
+            <p>Set the <b>Start Time</b> and <b>End Time</b> as a Day number plus a time. Day 0 is the employee's date of joining, Day 1 is the day after, and so on. A training that would fall before the day it is scheduled is moved to that day. Tick <b>All Day</b> for an all-day event. For example, Day 1 from 10:00 AM to 11:00 AM schedules the training the day after the employee joins.</p>
+            <p>Click <b>Save</b>. The template appears in the list with its department, position, title and timing.</p>
+            <div><img src="TrainingTemplate_8.png" onclick="openModal('TrainingTemplate_8.png')" alt="Training template list" width="100%" height="auto"></div><br>
+
+            <p><b>Configure the Email Template</b></p>
+            <p>Open the template and switch to the <b>Email Template</b> tab. Edit the <b>Email Subject</b> and <b>Email Body</b>, then click <b>Update</b>.</p>
+            <div><img src="TrainingTemplate_9.png" onclick="openModal('TrainingTemplate_9.png')" alt="Email Template tab" width="100%" height="auto"></div><br>
+            <p>Click a placeholder in the <b>Placeholders</b> panel to insert it where the cursor last was, in the subject or the body. Under <b>Training</b>, you can use Attendee, Training Title, Training SPOC(s), Training Date, Start Time, End Time and End Date. Under <b>Employee Details</b>, you can use Employee Name Field, Department, Position and Date of Joining. The placeholders are replaced when the training is scheduled.</p>
+            <p>The email is sent to the attendees, with the SPOCs and optional people in copy. New templates start from the <b>Training Invitation</b> email template in <b>Settings &gt; Email Templates</b>.</p>
+
+            <p><b>Assign the Template to a New Employee</b></p>
+            <p>On <b>Home</b>, click <b>+ New</b> to onboard an employee.</p>
+            <div><img src="TrainingTemplate_10.png" onclick="openModal('TrainingTemplate_10.png')" alt="Home - New" width="100%" height="auto"></div><br>
+            <p>Enter the employee details. When the selected <b>Department</b> and <b>Position</b> match a template, for example Development and Developer, the template is applied automatically.</p>
+            <div><img src="TrainingTemplate_11.png" onclick="openModal('TrainingTemplate_11.png')" alt="Employee details" width="100%" height="auto"></div><br>
+            <p>Open the <b>Training</b> tab. The matching template is already selected, its fields are filled in, and the invitation shows <b>Ready to schedule</b>. The Day value is converted to a real date based on the date of joining.</p>
+            <div><img src="TrainingTemplate_12.png" onclick="openModal('TrainingTemplate_12.png')" alt="Training tab - template applied" width="100%" height="auto"></div><br>
+            <div><img src="TrainingTemplate_13.png" onclick="openModal('TrainingTemplate_13.png')" alt="Training tab - ready to schedule" width="100%" height="auto"></div><br>
+            <p>You can change the <b>Title</b>, <b>Training SPOC(s)</b>, <b>Attendee(s)</b>, <b>Optional</b> people, and the start and end date and time for this employee. Use the <b>Invite the employee</b> checkbox to include or exclude the new hire.</p>
+            <p>To use a different template, open the <b>Training Templates</b> dropdown and select it. The list also includes <b>Blank invitation (no template)</b>.</p>
+            <div><img src="TrainingTemplate_14.png" onclick="openModal('TrainingTemplate_14.png')" alt="Training Templates dropdown" width="100%" height="auto"></div><br>
+            <div><img src="TrainingTemplate_15.png" onclick="openModal('TrainingTemplate_15.png')" alt="Select a different template" width="100%" height="auto"></div><br>
+            <p>If no template is set up for the employee's department and position, the tab shows a blank invitation. Pick a template from the list, or fill in the <b>Title</b> and <b>Training SPOC(s)</b>, which are required.</p>
+            <div><img src="TrainingTemplate_16.png" onclick="openModal('TrainingTemplate_16.png')" alt="Blank invitation" width="100%" height="auto"></div><br>
+
+            <p><b>Schedule the Training</b></p>
+            <p>Click <b>Schedule</b>. The training is lined up and appears under <b>Lined up</b>. It is scheduled and emailed at the final approval, and the employee's own invitation goes out once their Microsoft 365 account is created. Use <b>Reset</b> to clear the form.</p>
+            <div><img src="TrainingTemplate_17.png" onclick="openModal('TrainingTemplate_17.png')" alt="Training lined up" width="100%" height="auto"></div><br>
+            <p>At the final approval, the attendees receive the configured email, with the SPOCs and optional people in copy.</p>
+            <div><img src="TrainingTemplate_18.png" onclick="openModal('TrainingTemplate_18.png')" alt="Training invitation email" width="100%" height="auto"></div><br>
+            
         </ul>
     </div>
 
