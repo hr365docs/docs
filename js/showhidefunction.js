@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
                 if (urlId == getid[i].id) {
                     let id = getid[i];
                     id.classList.add("active")
-                    id.setAttribute("style", "padding-top:80px!important");
+                    id.setAttribute("style", "padding-top:0px!important");
                 }
             }
             // Active li in dropdown
@@ -60,7 +60,7 @@ window.addEventListener("load", () => {
                 }
                 element.classList.add("active")
                 commonscroll[index].classList.add("active")
-                commonscroll[index].setAttribute("style", "padding-top:80px!important")
+                commonscroll[index].setAttribute("style", "padding-top:0px!important")
             })
         })
     }
