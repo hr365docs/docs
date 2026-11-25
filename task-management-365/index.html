@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="utf-8" />
   <title>Task 365</title>
@@ -53,29 +54,29 @@
 
   <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
 
-       <!-- Google Tag Manager -->
-       <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');</script>
-<!-- End Google Tag Manager -->
+  <!-- End Google Tag Manager -->
 
 </head>
 
 
 <body>
 
-            <!-- Google Tag Manager (noscript) -->
-            <noscript>
-              <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
-                  style="display:none;visibility:hidden">
-              </iframe>
-          </noscript>
-          <!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header class="banner overlay bg-cover" data-background="https://hr365docs.github.io/docs/images/banner.jpg">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container px-2 px-md-0">
@@ -94,7 +95,7 @@
         </button>
 
         <div class="collapse navbar-collapse  common-header" id="navigation">
-        
+
 
         </div>
       </div>
@@ -112,11 +113,7 @@
           <div class="position-relative">
             <form class="banner_form" action="">
 
-              <input
-                id="search"
-                class="form-control"
-                placeholder="Have a question? Just ask here or enter terms"
-              />
+              <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms" />
               <i class="ti-search search-icon"></i>
             </form>
 
@@ -433,46 +430,46 @@
                     label: "<p>Faq(365)\n</p>",
                     url: "https://kb.hr365.us/task-management-365/modern/faq/"
                   },
-                  
+
                 ];
-                $( "#search" ).autocomplete({
-          	source: projects
-          })
-          .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-            
+                $("#search").autocomplete({
+                  source: projects
+                })
+                  .data("ui-autocomplete")._renderItem = function (ul, item) {
 
-            
-          var input = document.querySelector('.banner_form input');
 
-            input.onkeyup = function(e) {
-            input_val = this.value; 
-            
-            let autocompleteitems= document.querySelectorAll(".autocomplete_items a");
-            for(let i=0; i<autocompleteitems.length; i++){
-                if(input_val==autocompleteitems[i].innerText){
-                  let geturl=document.querySelector('.banner_form');
-                  geturl.action=autocompleteitems[i].href
-                  document.querySelector('#search').click();
-                }
-            }
-          }
-           
-            
-            
-                      // variables
-        
-        
-        // events
-      
-        
-            return $( "<li class='autocomplete_items'>" )
-              .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
-              .appendTo( ul );
-            };
-            
-          });
-          
-        </script>
+
+                    var input = document.querySelector('.banner_form input');
+
+                    input.onkeyup = function (e) {
+                      input_val = this.value;
+
+                      let autocompleteitems = document.querySelectorAll(".autocomplete_items a");
+                      for (let i = 0; i < autocompleteitems.length; i++) {
+                        if (input_val == autocompleteitems[i].innerText) {
+                          let geturl = document.querySelector('.banner_form');
+                          geturl.action = autocompleteitems[i].href
+                          document.querySelector('#search').click();
+                        }
+                      }
+                    }
+
+
+
+                    // variables
+
+
+                    // events
+
+
+                    return $("<li class='autocomplete_items'>")
+                      .append("<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label)
+                      .appendTo(ul);
+                  };
+
+              });
+
+            </script>
           </div>
         </div>
       </div>
@@ -488,15 +485,15 @@
     <div class=container>
       <div class="row justify-content-center">
         <div class="col-12 text-center logodisplay Tasksmainlogo">
-          <div class="logoIcon_Task"><img src="https://ik.imagekit.io/zn4au2jftpm5/hr365/Icons/Icons-96px/TaskManagement365%20-%2096Trans_n5rObW--h.png?updatedAt=1699946054339"  class="Task-img" height="auto" 
-            style="
+          <div class="logoIcon_Task"><img
+              src="https://ik.imagekit.io/zn4au2jftpm5/hr365/Icons/Icons-96px/TaskManagement365%20-%2096Trans_n5rObW--h.png?updatedAt=1699946054339"
+              class="Task-img" height="auto" style="
             /* margin-top: -14px; */
            height: 65px;
-           width: 65px;"
-            /></div>
-            <div>
+           width: 65px;" /></div>
+          <div>
             <h2 class="logotitle  mobfontsize">Task 365</h2>
-            </div>
+          </div>
         </div>
 
         <div class="col-lg-4 col-sm-6 mb-4">
@@ -541,116 +538,123 @@
     </div>
   </section>
 
-  
-  
+
+
   <section class="ptb-20 section over-hidd">
     <div class="container">
-    
-    
-    <div class="home-recent">
-      <div class="home-blog-latest">
-           <h2>Latest Posts</h2>
- <h4 class="hd">From Our Technical Blog</h4>
- 
- <div class="blog_wrap">
-  
- 
-   <h3><a href="../task-management-365/modern/getting-started/upgrading/" class="highlight">Preparing for a Larger Upgrade </a></h3>
- <div class="tags">
- 
-   <a class="tag-link highlight" href="../task-management-365/modern/getting-started/upgrading/">Upgrading</a>
- 
- </div>
- 
- 
-   <!-- <p class="author">
+
+
+      <div class="home-recent">
+        <div class="home-blog-latest">
+          <h2>Latest Posts</h2>
+          <h4 class="hd">From Our Technical Blog</h4>
+
+          <div class="blog_wrap">
+
+
+            <h3><a href="../task-management-365/modern/getting-started/upgrading/" class="highlight">Preparing for a
+                Larger Upgrade </a></h3>
+            <div class="tags">
+
+              <a class="tag-link highlight"
+                href="../task-management-365/modern/getting-started/upgrading/">Upgrading</a>
+
+            </div>
+
+
+            <!-- <p class="author">
      By pgorod | July 15, 2019
    </p> -->
-   <div class="paragraph">
- <p>Usually upgrades are done in small iterations, and we recommend that you upgrade as often as possible.
- But we know that if you’re many versions behind the latest, and dealing with a large instance full
- of customisations, or having inherited the instance from a predecessor, perhaps with little
- documentation, can make the prospect of upgrading a bit more daunting.</p>
- </div>
-   
-   <p>
-     <a class="more highlight" href="../task-management-365/modern/getting-started/upgrading/">Read More &gt;</a>
-   </p>
-   <h3><a href="./modern/admin/" class="highlight">Admin Guide</a></h3>
- <div class="tags">
- 
-   <a class="tag-link highlight" href="./modern/admin/">Admin</a>
- 
- </div>
-   <div class="paragraph">
- <p>This admin guide provides an overview features and functionality about the Task Management application to administrator. Admin can do customisations as per their requirements.</p>
- </div>
-   
-   <p>
-     <a class="more highlight" href="./modern/admin/">Read More &gt;</a>
-   </p>
-   
-   <h3><a href="./modern/user/" class="highlight">User Guide</a></h3>
- <div class="tags">
- 
-   <a class="tag-link highlight" href="./modern/user/">User</a>
- 
- </div>
- 
- 
-   
-   <div class="paragraph">
- <p>This admin guide provides an overview features and functionality about the Task Management application to administrator. Admin can do customisations as per their requirements.</p>
- </div>
-   
-   <p>
-     <a class="more highlight" href="./modern/user/">Read More &gt;</a>
-   </p>
-   
-   
+            <div class="paragraph">
+              <p>Usually upgrades are done in small iterations, and we recommend that you upgrade as often as possible.
+                But we know that if you’re many versions behind the latest, and dealing with a large instance full
+                of customisations, or having inherited the instance from a predecessor, perhaps with little
+                documentation, can make the prospect of upgrading a bit more daunting.</p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="../task-management-365/modern/getting-started/upgrading/">Read More
+                &gt;</a>
+            </p>
+            <h3><a href="./modern/admin/" class="highlight">Admin Guide</a></h3>
+            <div class="tags">
+
+              <a class="tag-link highlight" href="./modern/admin/">Admin</a>
+
+            </div>
+            <div class="paragraph">
+              <p>This admin guide provides an overview features and functionality about the Task Management application
+                to administrator. Admin can do customisations as per their requirements.</p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="./modern/admin/">Read More &gt;</a>
+            </p>
+
+            <h3><a href="./modern/user/" class="highlight">User Guide</a></h3>
+            <div class="tags">
+
+              <a class="tag-link highlight" href="./modern/user/">User</a>
+
+            </div>
 
 
 
+            <div class="paragraph">
+              <p>This user guide provides an overview of the features and functionalities of the Task Management
+                application to users. Users can learn how to create, assign, manage, and track tasks as per their
+                requirements.</p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="./modern/user/">Read More &gt;</a>
+            </p>
+
+            <h3><a href="./Guestuser/index.html" class="highlight">Task 365 Guest User.</a></h3>
+            <div class="paragraph">
+              <p></p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="./Guestuser/index.html">Read More
+                &gt;</a>
+            </p>
+            <h3><a href="/task-management-365/Configure-powerautomate/" class="highlight">Configure power automate for
+                Task 365</a></h3>
+            <p>
+              <a class="more highlight" href="/task-management-365\Configure-powerautomate">Read More &gt;</a>
+            </p>
 
 
 
+          </div>
 
-    
-     <h3><a href="/task-management-365/Configure-powerautomate/" class="highlight">Configure power automate for Task 365</a></h3>
-     <p>
-       <a class="more highlight" href="/task-management-365\Configure-powerautomate">Read More &gt;</a>
-     </p>
-  
-    
-    
- </div>
- 
- 
- 
-      </div>
-      <div class="home-recently-edited">
-           <h2>Recently Edited</h2>
- <h4 class="hd">Documentation Pages</h4>
- <div class="edit_wrap">
-     
-     
-        <ul>
- 
-     <li>
-    <h4 class="">
+
+
+        </div>
+        <div class="home-recently-edited">
+          <h2>Recently Edited</h2>
+          <h4 class="hd">Documentation Pages</h4>
+          <div class="edit_wrap">
+
+
+            <ul>
+
+              <li>
+                <h4 class="">
                   <a href="./Custom-level-Permission/" class="highlight">Custom Level Permissions</a>
-                  
+
                 </h4>
-                
-  
-     </li>
- 
- 
- </ul>
- 
-      </div>
-    </div>
-  </section> 
+
+
+              </li>
+
+
+            </ul>
+
+          </div>
+        </div>
+  </section>
 
 
 
@@ -658,7 +662,7 @@
 
 
   <div id="footer-container"></div>
-    <script src="/footer/index.js"></script>
+  <script src="/footer/index.js"></script>
 
 
 
@@ -682,7 +686,8 @@
   
     }); 
   </script> -->
- <script src="/js/plus-toggle.js"></script></body>
+  <script src="/js/plus-toggle.js"></script>
+</body>
 
 
 </html>

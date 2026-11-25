@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
   <meta charset="utf-8" />
   <title>Global Asset Management Software</title>
@@ -53,29 +54,29 @@
 
   <script src="https://hr365docs.github.io/docs/plugins/match-height/jquery.matchHeight-min.js"></script>
 
-       <!-- Google Tag Manager -->
-       <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-TX9SKDMB');</script>
-<!-- End Google Tag Manager -->
+  <!-- End Google Tag Manager -->
 
 </head>
 
 
 <body>
 
-            <!-- Google Tag Manager (noscript) -->
-            <noscript>
-              <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
-                  style="display:none;visibility:hidden">
-              </iframe>
-          </noscript>
-          <!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9SKDMB" height="0" width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header class="banner overlay bg-cover" data-background="https://hr365docs.github.io/docs/images/banner.jpg">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container px-2 px-md-0">
@@ -94,7 +95,7 @@
         </button>
 
         <div class="collapse navbar-collapse  common-header" id="navigation">
-        
+
 
         </div>
       </div>
@@ -112,11 +113,7 @@
           <div class="position-relative">
             <form class="banner_form" action="">
 
-              <input
-                id="search"
-                class="form-control"
-                placeholder="Have a question? Just ask here or enter terms"
-              />
+              <input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms" />
               <i class="ti-search search-icon"></i>
             </form>
 
@@ -433,46 +430,46 @@
                     label: "<p>Faq(365)\n</p>",
                     url: "https://kb.hr365.us/online-asset-management-application/modern/faq/"
                   },
-                  
+
                 ];
-                $( "#search" ).autocomplete({
-          	source: projects
-          })
-          .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-            
+                $("#search").autocomplete({
+                  source: projects
+                })
+                  .data("ui-autocomplete")._renderItem = function (ul, item) {
 
-            
-          var input = document.querySelector('.banner_form input');
 
-            input.onkeyup = function(e) {
-            input_val = this.value; 
-            
-            let autocompleteitems= document.querySelectorAll(".autocomplete_items a");
-            for(let i=0; i<autocompleteitems.length; i++){
-                if(input_val==autocompleteitems[i].innerText){
-                  let geturl=document.querySelector('.banner_form');
-                  geturl.action=autocompleteitems[i].href
-                  document.querySelector('#search').click();
-                }
-            }
-          }
-           
-            
-            
-                      // variables
-        
-        
-        // events
-      
-        
-            return $( "<li class='autocomplete_items'>" )
-              .append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
-              .appendTo( ul );
-            };
-            
-          });
-          
-        </script>
+
+                    var input = document.querySelector('.banner_form input');
+
+                    input.onkeyup = function (e) {
+                      input_val = this.value;
+
+                      let autocompleteitems = document.querySelectorAll(".autocomplete_items a");
+                      for (let i = 0; i < autocompleteitems.length; i++) {
+                        if (input_val == autocompleteitems[i].innerText) {
+                          let geturl = document.querySelector('.banner_form');
+                          geturl.action = autocompleteitems[i].href
+                          document.querySelector('#search').click();
+                        }
+                      }
+                    }
+
+
+
+                    // variables
+
+
+                    // events
+
+
+                    return $("<li class='autocomplete_items'>")
+                      .append("<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label)
+                      .appendTo(ul);
+                  };
+
+              });
+
+            </script>
           </div>
         </div>
       </div>
@@ -488,15 +485,13 @@
     <div class=container>
       <div class="row justify-content-center">
         <div class="col-12 text-center logodisplay assetsmainlogo">
-          <div class="logoIcon_asset"><img src="./asset_management_logo.png"  class="asset-img" height="auto" 
-            style="
+          <div class="logoIcon_asset"><img src="./asset_management_logo.png" class="asset-img" height="auto" style="
             /* margin-top: -14px; */
            height: 65px;
-           width: 65px;"
-            /></div>
-            <div>
+           width: 65px;" /></div>
+          <div>
             <h2 class="logotitle  mobfontsize">Asset 365</h2>
-            </div>
+          </div>
         </div>
 
         <div class="col-lg-4 col-sm-6 mb-4">
@@ -545,15 +540,13 @@
     <div class=container>
       <div class="row justify-content-center">
         <div class="col-12 text-center logodisplay assetsmainlogo">
-          <div class="logoIcon_asset"><img src="./asset_management_logo.png"  class="asset-img" height="auto" 
-            style="
+          <div class="logoIcon_asset"><img src="./asset_management_logo.png" class="asset-img" height="auto" style="
             /* margin-top: -14px; */
            height: 65px;
-           width: 65px;"
-            /></div>
-            <div>
+           width: 65px;" /></div>
+          <div>
             <h2 class="logotitle  mobfontsize">HR365 Asset Management Classic </h2>
-            </div>
+          </div>
         </div>
 
         <div class="col-lg-4 col-sm-6 mb-4">
@@ -596,182 +589,215 @@
 
       </div>
     </div>
-  </section>  
-  
-  
+  </section>
+
+
   <section class="ptb-20 section over-hidd">
     <div class="container">
-    
-    
-    <div class="home-recent">
-      <div class="home-blog-latest">
-           <h2>Latest Posts</h2>
- <h4 class="hd">From Our Technical Blog</h4>
- 
- <div class="blog_wrap">
-  
- 
-   <h3><a href="../online-asset-management-application/modern/getting-started/upgrading/" class="highlight">Preparing for a Larger Upgrade </a></h3>
- <div class="tags">
- 
-   <a class="tag-link highlight" href="../online-asset-management-application/modern/getting-started/upgrading/">Upgrading</a>
- 
- </div>
- 
- 
-   <!-- <p class="author">
+
+
+      <div class="home-recent">
+        <div class="home-blog-latest">
+          <h2>Latest Posts</h2>
+          <h4 class="hd">From Our Technical Blog</h4>
+
+          <div class="blog_wrap">
+
+
+            <h3><a href="../online-asset-management-application/modern/getting-started/upgrading/"
+                class="highlight">Preparing for a Larger Upgrade </a></h3>
+            <div class="tags">
+
+              <a class="tag-link highlight"
+                href="../online-asset-management-application/modern/getting-started/upgrading/">Upgrading</a>
+
+            </div>
+
+
+            <!-- <p class="author">
      By pgorod | July 15, 2019
    </p> -->
-   <div class="paragraph">
- <p>Usually upgrades are done in small iterations, and we recommend that you upgrade as often as possible.
- But we know that if you’re many versions behind the latest, and dealing with a large instance full
- of customisations, or having inherited the instance from a predecessor, perhaps with little
- documentation, can make the prospect of upgrading a bit more daunting.</p>
- </div>
-   
-   <p>
-     <a class="more highlight" href="../online-asset-management-application/modern/getting-started/upgrading/">Read More &gt;</a>
-   </p>
-   <h3><a href="./modern/admin/" class="highlight">Admin Guide</a></h3>
- <div class="tags">
- 
-   <a class="tag-link highlight" href="./modern/admin/">Admin</a>
- 
- </div>
-   <div class="paragraph">
- <p>This admin guide provides an overview features and functionality about the Asset Management application to administrator. Admin can do customisations as per their requirements.</p>
- </div>
-   
-   <p>
-     <a class="more highlight" href="./modern/admin/">Read More &gt;</a>
-   </p>
-   
-   <h3><a href="./modern/user/" class="highlight">User Guide</a></h3>
- <div class="tags">
- 
-   <a class="tag-link highlight" href="./modern/user/">User</a>
- 
- </div>
- 
- 
-   
-   <div class="paragraph">
- <p>This admin guide provides an overview features and functionality about the Asset Management application to administrator. Admin can do customisations as per their requirements.</p>
- </div>
-   
-   <p>
-     <a class="more highlight" href="./modern/user/">Read More &gt;</a>
-   </p>
-   
-   <h3><a href="/pin-asset-management-365-to-microsoft-teams-users/" class="highlight">How to pin Asset 365 to all Microsoft Teams users?</a></h3>
- 
+            <div class="paragraph">
+              <p>Usually upgrades are done in small iterations, and we recommend that you upgrade as often as possible.
+                But we know that if you’re many versions behind the latest, and dealing with a large instance full
+                of customisations, or having inherited the instance from a predecessor, perhaps with little
+                documentation, can make the prospect of upgrading a bit more daunting.</p>
+            </div>
 
-     <p>
-       <a class="more highlight" href="/pin-asset-management-365-to-microsoft-teams-users/">Read More &gt;</a>
-     </p>
+            <p>
+              <a class="more highlight"
+                href="../online-asset-management-application/modern/getting-started/upgrading/">Read More &gt;</a>
+            </p>
+            <h3><a href="./modern/admin/" class="highlight">Admin Guide</a></h3>
+            <div class="tags">
 
-     <!-- <h3><a href="/quickly_setup_Assetmanagement/" class="highlight">How to quickly set up your Asset 365?</a></h3>
+              <a class="tag-link highlight" href="./modern/admin/">Admin</a>
+
+            </div>
+            <div class="paragraph">
+              <p>This admin guide provides an overview features and functionality about the Asset Management application
+                to administrator. Admin can do customisations as per their requirements.</p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="./modern/admin/">Read More &gt;</a>
+            </p>
+
+            <h3><a href="./modern/user/" class="highlight">User Guide</a></h3>
+            <div class="tags">
+
+              <a class="tag-link highlight" href="./modern/user/">User</a>
+
+            </div>
+
+
+
+            <div class="paragraph">
+              <p>This user guide provides an overview of the features and functionalities of the Asset Management
+                application. It helps users understand how to manage and track assets, navigate the application, and
+                make effective use of its available features.</p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="./modern/user/">Read More &gt;</a>
+            </p>
+            <h3><a href="./Guestuser/index.html" class="highlight">Asset Management Guest User.</a></h3>
+            <div class="paragraph">
+              <p></p>
+            </div>
+
+            <p>
+              <a class="more highlight" href="./Guestuser/index.html">Read More
+                &gt;</a>
+            </p>
+            <h3><a href="/pin-asset-management-365-to-microsoft-teams-users/" class="highlight">How to pin Asset 365 to
+                all Microsoft Teams users?</a></h3>
+
+
+            <p>
+              <a class="more highlight" href="/pin-asset-management-365-to-microsoft-teams-users/">Read More &gt;</a>
+            </p>
+
+            <!-- <h3><a href="/quickly_setup_Assetmanagement/" class="highlight">How to quickly set up your Asset 365?</a></h3>
  
 
      <p>
        <a class="more highlight" href="/quickly_setup_Assetmanagement/">Read More &gt;</a>
      </p> -->
 
-     <h3><a href="Teams/" class="highlight">How to add Asset Management into teams applications?</a></h3>
- 
-
-     <p>
-       <a class="more highlight" href="Teams/">Read More &gt;</a>
-     </p>
+            <h3><a href="Teams/" class="highlight">How to add Asset Management into teams applications?</a></h3>
 
 
+            <p>
+              <a class="more highlight" href="Teams/">Read More &gt;</a>
+            </p>
 
 
 
 
 
-     <h3><a href="/GuestuserED/" class="highlight">How to Add Guest Users in Microsoft 365 and Grant Access to the Application</a></h3>
- 
 
-    <p>
-       <a class="more highlight" href="/GuestuserED/">Read More &gt;</a>
-     </p>
-     <h3><a href="/online-asset-management-application/Configure-power-automate-for-asset-acknowledgement/" class="highlight">Configure power automate for asset acknowledgement</a></h3>
-     <p>
-       <a class="more highlight" href="/online-asset-management-application/Configure-power-automate-for-asset-acknowledgement/">Read More &gt;</a>
-     </p>
-     <h3><a href="/online-asset-management-application/Asset-booking-remainder-and-Return-Remainder/index.html" class="highlight">Configure the Power Automate For the Asset Booking Remainder and Return Remainder.</a></h3>
-     <p>
-       <a class="more highlight" href="/online-asset-management-application/Asset-booking-remainder-and-Return-Remainder/index.html">Read More &gt;</a>
-     </p>
-     <h3><a href="/online-asset-management-application/modern/getting-started/installation/microsoft-teams/" class="highlight">Installation of Asset 365 from Microsoft Teams(Old)</a></h3>
-     <p>
-       <a class="more highlight" href="/online-asset-management-application/modern/getting-started/installation/microsoft-teams/">Read More &gt;</a>
-     </p>
-    
- </div>
- 
- 
- 
-      </div>
-      <div class="home-recently-edited">
-           <h2>Recently Edited</h2>
- <h4 class="hd">Documentation Pages</h4>
- <div class="edit_wrap">
-     
-     
-     <ul>
-      <li>
-        <h4 class="">
-            <a href="../online-asset-management-application/modern/admin/software/" class="highlight">Software</a>
-                 
-        </h4>
-        <p class="">
-           Edited on the 16 November in commit <b>"Bulk Software (Import Software)"</b>  
-                   <a href="../online-asset-management-application/modern/admin/software/" target="_blank" title="Commit Diff" class="highlight"><i class="fas fa-sm fa-indent"></i></a>
-              </p>
-          </li>
-     <li>
-      <li>
-        <h4 class="">
-          <a href="../online-asset-management-application/Custom-level-Permission/index.html" class="highlight">Custom level Permission</a>
-              
-      </h4>
-      </li>
-      <li>
-        <h4 class="">
-            <a href="../online-asset-management-application/modern/admin/settings/general/" class="highlight">General Settings</a>
-                
-        </h4>
-        <!-- <p class="">
+
+            <h3><a href="/GuestuserED/" class="highlight">How to Add Guest Users in Microsoft 365 and Grant Access to
+                the Application</a></h3>
+
+
+            <p>
+              <a class="more highlight" href="/GuestuserED/">Read More &gt;</a>
+            </p>
+            <h3><a href="/online-asset-management-application/Configure-power-automate-for-asset-acknowledgement/"
+                class="highlight">Configure power automate for asset acknowledgement</a></h3>
+            <p>
+              <a class="more highlight"
+                href="/online-asset-management-application/Configure-power-automate-for-asset-acknowledgement/">Read
+                More &gt;</a>
+            </p>
+            <h3><a href="/online-asset-management-application/Asset-booking-remainder-and-Return-Remainder/index.html"
+                class="highlight">Configure the Power Automate For the Asset Booking Remainder and Return Remainder.</a>
+            </h3>
+            <p>
+              <a class="more highlight"
+                href="/online-asset-management-application/Asset-booking-remainder-and-Return-Remainder/index.html">Read
+                More &gt;</a>
+            </p>
+            <h3><a href="/online-asset-management-application/modern/getting-started/installation/microsoft-teams/"
+                class="highlight">Installation of Asset 365 from Microsoft Teams(Old)</a></h3>
+            <p>
+              <a class="more highlight"
+                href="/online-asset-management-application/modern/getting-started/installation/microsoft-teams/">Read
+                More &gt;</a>
+            </p>
+
+          </div>
+
+
+
+        </div>
+        <div class="home-recently-edited">
+          <h2>Recently Edited</h2>
+          <h4 class="hd">Documentation Pages</h4>
+          <div class="edit_wrap">
+
+
+            <ul>
+              <li>
+                <h4 class="">
+                  <a href="../online-asset-management-application/modern/admin/software/" class="highlight">Software</a>
+
+                </h4>
+                <p class="">
+                  Edited on the 16 November in commit <b>"Bulk Software (Import Software)"</b>
+                  <a href="../online-asset-management-application/modern/admin/software/" target="_blank"
+                    title="Commit Diff" class="highlight"><i class="fas fa-sm fa-indent"></i></a>
+                </p>
+              </li>
+              <li>
+              <li>
+                <h4 class="">
+                  <a href="../online-asset-management-application/Custom-level-Permission/index.html"
+                    class="highlight">Custom level Permission</a>
+
+                </h4>
+              </li>
+              <li>
+                <h4 class="">
+                  <a href="../online-asset-management-application/modern/admin/settings/general/"
+                    class="highlight">General Settings</a>
+
+                </h4>
+                <!-- <p class="">
            Edited on the 22 October in commit <b>"Sharepoint site collection home link
             "</b>  
                    <a href="../online-asset-management-application/modern/admin/settings/general/" target="_blank" title="Commit Diff" class="highlight"><i class="fas fa-sm fa-indent"></i></a>
               </p> -->
-          </li>
-     <li>
-   <h4 class="">
-       <a href="../online-asset-management-application/modern/admin/settings/integration/#kace-integration" class="highlight">Kace Integration</a>
-             <!-- <a href="./guide/Admin/Settings/General-Settings/" target="_blank" title="File History" class="highlight"><i class="far fa-sm fa-clock"></i></a> -->
-   </h4>
-   <p class="">
-      Edited on the 13 August in commit <b>"Kace Integration using Azure App Service"</b>  
-              <a href="../online-asset-management-application/modern/admin/settings/integration/#kace-integration" target="_blank" title="Commit Diff" class="highlight"><i class="fas fa-sm fa-indent"></i></a>
-         </p>
-     </li>
- 
-     <li>
-   <h4 class="">
-       <a href="../online-asset-management-application/modern/admin/settings/integration/#alloc8-integration" class="highlight">Alloc8 Integration</a>
-             <a href=""></i></a>
-   </h4>
-   <p class="">
-      Edited on the 13 August in commit <b>"Alloc8 Integration Using Azure App Service"</b>  
-              <a href="../online-asset-management-application/modern/admin/settings/integration/#alloc8-integration" target="_blank" title="Commit Diff" class="highlight"><i class="fas fa-sm fa-indent"></i></a>
-         </p>
-     </li>
- 
-     <!-- <li>
+              </li>
+              <li>
+                <h4 class="">
+                  <a href="../online-asset-management-application/modern/admin/settings/integration/#kace-integration"
+                    class="highlight">Kace Integration</a>
+                  <!-- <a href="./guide/Admin/Settings/General-Settings/" target="_blank" title="File History" class="highlight"><i class="far fa-sm fa-clock"></i></a> -->
+                </h4>
+                <p class="">
+                  Edited on the 13 August in commit <b>"Kace Integration using Azure App Service"</b>
+                  <a href="../online-asset-management-application/modern/admin/settings/integration/#kace-integration"
+                    target="_blank" title="Commit Diff" class="highlight"><i class="fas fa-sm fa-indent"></i></a>
+                </p>
+              </li>
+
+              <li>
+                <h4 class="">
+                  <a href="../online-asset-management-application/modern/admin/settings/integration/#alloc8-integration"
+                    class="highlight">Alloc8 Integration</a>
+                  <a href=""></i></a>
+                </h4>
+                <p class="">
+                  Edited on the 13 August in commit <b>"Alloc8 Integration Using Azure App Service"</b>
+                  <a href="../online-asset-management-application/modern/admin/settings/integration/#alloc8-integration"
+                    target="_blank" title="Commit Diff" class="highlight"><i class="fas fa-sm fa-indent"></i></a>
+                </p>
+              </li>
+
+              <!-- <li>
    <h4 class="">
        <a href="../online-asset-management-application/modern/admin/administration/#add-equipments" class="highlight">Adding Equipment</a>
              <a href="" target="_blank" title="File History" class="highlight"><i class="far fa-sm fa-clock"></i></a>
@@ -781,9 +807,9 @@
               <a href="" target="_blank" title="Commit Diff" class="highlight"><i class="fas fa-sm fa-indent"></i></a>
          </p>
      </li> -->
- 
-     <li>
-   <!-- <h4 class="">
+
+              <li>
+                <!-- <h4 class="">
        <a href="" class="highlight">Added 3 dropdowns on the settings page</a>
              <a href="" target="_blank" title="File History" class="highlight"><i class="far fa-sm fa-clock"></i></a>
    </h4>
@@ -804,15 +830,15 @@
          </p>
      </li>
   -->
- </ul>
- 
- 
- 
- </div>
- 
+            </ul>
+
+
+
+          </div>
+
+        </div>
       </div>
- </div>
-</div>
+    </div>
 
   </section>
 
@@ -831,21 +857,21 @@
             <!-- <p class="mb-4">Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam.</p> -->
 
 
-           <a href="https://www.apps365.com/support/" class="btn btn-primary contactbtn">Contact Support</a>
+            <a href="https://www.apps365.com/support/" class="btn btn-primary contactbtn">Contact Support</a>
 
 
           </div>
         </div>
       </div>
     </div>
-  </section> 
+  </section>
 
 
 
 
 
 
-   <div id="footer-container"></div>
+  <div id="footer-container"></div>
   <script src="/footer/index.js"></script>
 
 
@@ -870,7 +896,8 @@
   
     }); 
   </script> -->
- <script src="/js/plus-toggle.js"></script></body>
+  <script src="/js/plus-toggle.js"></script>
+</body>
 
 
 </html>
